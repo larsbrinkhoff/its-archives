@@ -1,0 +1,4180 @@
+Date: Tue, 10 Apr 90 05:44:53 EDT
+From: Devon Sean McCullough <DEVON%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Sender: DEVON0@AI.AI.MIT.EDU
+To: BUG-DDT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <719848.900410.DEVON0@AI.AI.MIT.EDU>
+
+the ^A command initially defaults to XUNAME, probably should be UNAME instead?
+
+Date: Sat, 17 Mar 90 13:44:03 EST
+From: Devon Sean McCullough <DEVON%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+To: BUG-DDT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <712025.900317.DEVON@AI.AI.MIT.EDU>
+
+is there any reason why [MESSAGE FROM ...] is all caps?  As long as I'm making a new version I would like to change that.
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU; 11 Mar 90 02:50:01 EST
+Received: from ai.ai.mit.edu by mintaka.lcs.mit.edu id aa28273;
+          11 Mar 90 2:43 EST
+Date: Sun, 11 Mar 90 02:45:36 EST
+From: Alan Bawden <ALAN%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu>
+Subject:  Most Alarming
+To: ZVONA%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu
+cc: BUG-DDT%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu
+In-reply-to: Msg of Fri  9 Mar 90 16:04:36 EST from David Chapman <ZVONA%AI.AI.MIT.EDU at MINTAKA.LCS.MIT.EDU>
+Message-ID: <709638.900311.ALAN@AI.AI.MIT.EDU>
+
+    Date: Fri,  9 Mar 90 16:04:36 EST
+    From: David Chapman <ZVONA%AI.AI.MIT.EDU at MINTAKA.LCS.MIT.EDU>
+    :alarm should accept jcl of the form .+t, not just absolute times.
+    (I almost always want relative, not absolute.)
+
+Boy are you ever right.  I can't tell you how often I have thought the same
+thing.  But if you ever looked at the code in DDT that parses the argument
+to :ALARM, you'd understand why I haven't done anything about it.
+
+
+Date: Fri,  9 Mar 90 16:04:36 EST
+From: David Chapman <ZVONA%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+To: BUG-DDT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <709226.900309.ZVONA@AI.AI.MIT.EDU>
+
+:alarm should accept jcl of the form .+t, not just absolute times.
+(I almost always want relative, not absolute.)
+
+Date: Tue,  6 Mar 90 14:08:36 EST
+From: Devon Sean McCullough <DEVON%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+To: BUG-DDT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <707938.900306.DEVON@AI.AI.MIT.EDU>
+
+did it again.  This time I'll actually look at it.
+
+Date: Thu, 11 Jan 90 21:19:13 EST
+From: Devon Sean McCullough <DEVON%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+To: BUG-DDT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <687775.900111.DEVON@AI.AI.MIT.EDU>
+
+got a bug upon reattaching.
+
+Date: Mon,  2 Oct 89 10:55:40 EDT
+From: Devon Sean McCullough <DEVON%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+To: BUG-DDT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <650549.891002.DEVON@AI.AI.MIT.EDU>
+
+<uname>$0u when not logged in
+offers --MSGS-- after logging you in.
+
+Date: Sat,  9 Sep 89 23:31:06 EDT
+From: Devon Sean McCullough <DEVON%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+To: BUG-DDT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <642536.890909.DEVON@AI.AI.MIT.EDU>
+
+the usual bug message upon reattaching after network disconnected for no particular reason
+
+Date: Wed,  9 Aug 89 01:04:56 EDT
+From: Devon Sean McCullough <DEVON%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+To: BUG-DDT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <631514.890809.DEVON@AI.AI.MIT.EDU>
+
+I'm connected uchicago->ghoti->ai, but a moment ago I lost my connection.
+reconnecting to ghoti thence chsupdup ai thence --attach your detached tree--
+HACTRO$J!:$ Reowned $
+ DDT BUG: PLEASE DO ...
+
+Date: Sat,  1 Jul 89 13:10:39 EDT
+From: Devon Sean McCullough <DEVON%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+To: BUG-DDT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <616466.890701.DEVON@AI.AI.MIT.EDU>
+
+I left my terminal idle for a long time, when I returned and reexposed the window
+I got some emacs mode line updates (I have it display the time) and a DDT BUG message
+and then the lispm said attempt to receive on broken chaos connection or something.
+
+Date: Sun, 14 May 89 12:27:21 EDT
+From: Devon Sean McCullough <DEVON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <594989.890514.DEVON@AI.AI.MIT.EDU>
+
+PS:  it it had said NO START ADDR? that would not have been startling but it tried to run at zero when I did F^H later.
+
+Date: Sun, 14 May 89 12:23:58 EDT
+From: Devon Sean McCullough <DEVON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <594988.890514.DEVON@AI.AI.MIT.EDU>
+
+I typed F ^H ^G (my finger slipped) and it made an empty job named F.
+I can't object to this behavior but I was startled.
+
+Date: Mon, 17 Apr 89 17:49:28 EDT
+From: Devon Sean McCullough <DEVON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <579062.890417.DEVON@AI.AI.MIT.EDU>
+
+I unexpected disconnected (unix lossage) and upon reconnecting and attaching my detached tree I got the ddt bug message.
+
+Date: Sat,  4 Mar 89 13:41:32 EST
+From: Devon Sean McCullough <DEVON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <549317.890304.DEVON@AI.AI.MIT.EDU>
+
+--Attach Your Detached Tree--
+HACTRO$J!:$ Reowned $
+ DDT BUG: PLEASE ...
+
+Date: Wed, 22 Feb 89 20:33:36 EST
+From: "Robert E. Seastrom" <RS@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <542995.890222.RS@AI.AI.MIT.EDU>
+
+Hello...  I just reattached a detatched tree after unintentionally dropping
+a Chaos connection, and it told yme to write you and tell what happened...
+
+
+    ---Rob  (RS)
+
+Date: Tue, 21 Feb 89 09:49:57 EST
+From: Devon Sean McCullough <DEVON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <541826.890221.DEVON@AI.AI.MIT.EDU>
+
+connecting via terminus:
+ai its.1632. pword.2659.
+tty 20
+...
+--attach your detached tree--
+hactro$j!:$ reowned $
+ ddt bug: please do :bug ddt descriing circumstances.
+Mail from ...
+^Z?? ... :bug ddt ...
+
+Date: Sun, 12 Feb 89 15:02:14 EST
+From: David Chapman <ZVONA@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <536722.890212.ZVONA@AI.AI.MIT.EDU>
+
+We were out of disk space, so I moved a bunch of stuff from usersn;
+to second:.  But after not very long, it wouldn't let me do it any more,
+complaining 
+
+DSK:USERS3;_COPY_ OUTPUT -- DEVICE FULL
+
+Does this mean that SECOND: is full?  If so, it should say so.
+(And "someone" should run a gfr...)
+
+Date: Sat, 14 Jan 89 19:37:31 EST
+From: Devon Sean McCullough <DEVON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <520170.890114.DEVON@AI.AI.MIT.EDU>
+
+AI ITS.1616. PWORD.2659.
+TTY 15
+3. Lusers, Fair Share = 61%
+*devonu
+Password:
+[OK]
+--Attach Your Detached Tree--
+HACTROJ: Reowned 
+ DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES.
+Mail from MAILER-DAEMON@EDDIE.MIT.EDU (Mail Delivery Subsystem) (111. lines)
+?? :bug ddt
+Msg:
+AI ITS.1616.....well, I could go on, but those are the circumstances.
+
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU  1 Jan 89 20:01:01 EST
+Received: from NULLSTELLENSATZ.AI.MIT.EDU by REAGAN.AI.MIT.EDU via CHAOS with CHAOS-MAIL id 158580; Sun 1-Jan-89 19:55:56 EST
+Date: Sun, 1 Jan 89 19:56 EST
+From: David Chapman <Zvona@AI.AI.MIT.EDU>
+To: bug-send@AI.AI.MIT.EDU
+Message-ID: <19890102005613.1.ZVONA@NULLSTELLENSATZ.AI.MIT.EDU>
+
+Presumably no one cares, but:
+
+I got a send from an nli job, and replied to it, and it bitched
+that the host MIT-AI was unknown, but succeeded in sending it anyway.
+The error message had a raw ^P code in it, which suggests that someone
+never tested that piece of code at all...
+
+Date: Tue,  6 Dec 88 01:39:03 EST
+From: Mark Becker <MBECK@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <499265.881206.MBECK@AI.AI.MIT.EDU>
+
+While running FR I had a line drop.
+
+On reconnecting, I logged in, declined to attach to my detached tree, and
+let my LOGIN file complete.  This sets up a CRTSTY.
+
+On completion of the LOGIN, I did HACTRO$J to re-own the tree.
+
+That is when I received the message to send BUG-DDT a note.
+
+Regards,
+Mark
+
+Date: Sun, 13 Nov 88 18:21:19 EST
+From: Igor Rivin <RIVIN@AI.AI.MIT.EDU>
+Sender: RIVIN0@AI.AI.MIT.EDU
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <485266.881113.RIVIN0@AI.AI.MIT.EDU>
+
+I just did "f orca@wc", and got a ddt bug
+message. The finger then proceeded to succeed without problems,
+except for telling me that "Job F finished", which is somewhat unusual.
+
+Date: Wed,  2 Nov 88 23:04:23 EST
+From: Devon Sean McCullough <DEVON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <477868.881102.DEVON@AI.AI.MIT.EDU>
+
+I attached my detached tree and it reported a bug.
+Nothing unusal to report, don't know why it did it.
+
+Date: Wed,  3 Aug 88 11:31:41 EDT
+From: Henry Minsky <HQM@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <422033.880803.HQM@AI.AI.MIT.EDU>
+
+I logged in from the terminal in alans office.
+ITS said --attach your detached tree-- , and i typed <space>
+Then it said 
+HACTRO$J!:$ REOWNED $
+DDT BUG ...
+
+
+Date: Mon,  6 Jun 88 17:12:56 EDT
+From: "Michael A.  Patton" <MAP@AI.AI.MIT.EDU>
+Subject: What fun, Oh joy  a DDT bug
+To: BUG-DDT@AI.AI.MIT.EDU
+cc: MAP@AI.AI.MIT.EDU
+Message-ID: <392828.880606.MAP@AI.AI.MIT.EDU>
+
+These are the circumstances as far as I can reconstruct them:
+
+I was logged in, idle at a DDT prompt (as far as I can recall) from my
+workstation using Chaos SUPDUP.  The connection was lost (I don't know
+the details because that window was hidden and timed-out while I wasn't
+looking).  When I opened a new connection (same size window, etc.) and
+logged in it said (as I expected):
+--Attach Your Detached Tree--
+to which I replied with a space and got:
+HACTRO$J!:$ Reowned $
+ DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES. 
+From whence I typed this description in.  I don't know if there are any
+other facts you want, if so please feel free to ask and I'll try and
+remember as best I can.
+
+	Mike Patton
+
+Date: Mon,  7 Mar 88 16:22:11 EST
+From: Jonathan A Rees <JAR@AI.AI.MIT.EDU>
+Subject:  Trivia question
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <337471.880307.JAR@AI.AI.MIT.EDU>
+
+
+Can anyone tell me what "NOS" is mnemonic for?  Just to jog your
+memory, it's the error you get if you say something like "1@2" to DDT.
+The source code isn't very helpful:
+
+EFLDNO:	TLO F,FLNNUL	;NOT AN OP - FIELD NOT NULL.
+	SKIPL (P)	;PREVIOUS WASN'T OP => CONSEC. ARGS, ERROR.
+	 JRST EFLNOS
+	...
+
+EFLNOS:	7TYPE [ASCII / NOS/]
+	MOVE D,[O.OP+"+,,OPTAB0+"+-1]	;+
+	JRST EFLD4
+
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  8 Feb 88 15:18:00 EST
+Received: from FORD.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 8 FEB 88  15:17:42 EST
+Date: Monday, 8 February 1988, 15:18-EST
+From: Devon Sean McCullough <Devon@MIT-AI>
+To: bug-ddt@ai
+
+My screen looked something like this:
+
+devonu
+Password:
+[OK]
+^_j  PUR?  DDT BUG, PLEASE DO :BUG DDT ...
+
+Perhaps DDT can't handle %PIJST while starting up?
+
+Date: Fri,  8 Jan 88 15:48:45 EST
+From: Devon Sean McCullough <DEVON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <308832.880108.DEVON@AI.AI.MIT.EDU>
+
+in ddt 1544, logging in with 1u runs my init file.
+
+Date: Thu, 31 Dec 87 05:27:36 EST
+From: John Bunch <HACKIT@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <305300.871231.HACKIT@AI.AI.MIT.EDU>
+
+I cant seem to get a message describing the commands in ddt.  When I try I 
+get a line that says:
+
+DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES.
+
+All I tried to do was a :?
+
+
+Date: Wed, 21 Oct 87 23:29:25 EDT
+From: Igor Rivin <RIVIN@AI.AI.MIT.EDU>
+Sender: RIVIN0@AI.AI.MIT.EDU
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <272666.871021.RIVIN0@AI.AI.MIT.EDU>
+
+I was having a converstion with someone over the machine (via :reply)
+and as I was spying upon my correspondent (by :rwk;f) I got stuck
+in spy mode (Ie interrupts like space, ^Z, ^G, etc...) wouldn't get me
+out. Also, the :reply's directed to me once I was in this state
+got lost. This is not the first time this happened...What is happening?
+
+Tnx
+
+Date: Mon, 18 May 87 19:20:02 EDT
+From: Kent M Pitman <KMP@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <201833.870518.KMP@AI.AI.MIT.EDU>
+
+I did KMP^F and then did ^O and tried to mouse on the filename
+but it did not respond by inserting its name.
+
+Date: Tue, 12 May 87 11:38:10 EDT
+From: Ed Schwalenberg <ED@AI.AI.MIT.EDU>
+Subject: Flakey behavior
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <198871.870512.ED@AI.AI.MIT.EDU>
+
+Several times now, I've had the following happen:
+I've typed $$v and been told I had no jobs, and gotten a prompt.  Then I
+typed u^K, and nothing happens.  Peek claims that my HACTRN is doing TTYI.
+Typing ^L clears my screen, but does NOT redisplay any buffered input.
+If I quit out with ^G, everything returns to normal.  An example of a HACTRN
+in this state is ED HACTRO on AI.
+
+I was using :CRTSTY H1510 this last time; I don't remember if I was
+using CRTSTY on the other occasions.
+
+Date: Wed, 29 Apr 87 15:58:51 EDT
+From: Chris Hanson <CPH@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <192871.870429.CPH@AI.AI.MIT.EDU>
+
+My tree was detached because the network connection was interrupted by
+the local machine (kleph.ai.mit.edu).  Later, I re-connected, logged in,
+and answered yes when asked if I wanted to attach my detached tree.
+It printed:
+
+HACTRO$J!:$ Reowned $
+ DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES.
+
+The detached tree was running the HACTRN job, and had one other job,
+an E, stopped.
+
+Date: Thu, 23 Apr 87 06:06:45 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  :MSGS fixed, %PIJST handler installed
+To: GUMBY@AI.AI.MIT.EDU
+cc: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <189547.870423.ALAN@AI.AI.MIT.EDU>
+
+I just installed a new DDT that has a fix to make the :MSGS command
+function as well as it did before the advent of "Received:" lines (I fixed
+GMSGS as well).  Note that the most recent source for DDT was not installed
+since since it has some half-implemented ^_J (%PIJST) code in it.  This
+code seems to be fairly harmless, so it is now installed.
+
+Date: Wed, 15 Apr 87 21:40:15 EDT
+From: David Chapman <ZVONA@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <185434.870415.ZVONA@AI.AI.MIT.EDU>
+
+This may of course be related to Alan's taking the machine down at the
+moment.
+
+Date: Wed, 15 Apr 87 21:38:34 EDT
+From: David Chapman <ZVONA@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <185432.870415.ZVONA@AI.AI.MIT.EDU>
+
+My connection to AI got lost.  I got a new connection, did :reatta zvona,
+and it claimed it got a DDT bug and asked me to report it.  One funny
+symptom: I was in emacs at the time the connection was lost, and when
+I got the job back I was in DDT, but the emacs mode line continued to 
+redisplay itself.
+
+Received: from SRI-NIC.ARPA (TCP 1200000063) by AI.AI.MIT.EDU 15 Apr 87 02:05:24 EDT
+Date: Tue 14 Apr 87 23:02:02-PDT
+From: Mark Lottor <MKL@SRI-NIC.ARPA>
+Subject: send host name
+To: bug-send@AI.AI.MIT.EDU
+Message-ID: <12294619505.27.MKL@SRI-NIC.ARPA>
+
+I just got a send from someone on AI.AI.MIT.EDU,
+it came out as
+
+"user@AI" which made it a bit hard to reply to...
+-------
+
+Date: Wed,  4 Mar 87 13:27:02 EST
+From: "Devon S. McCullough" <DEVON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <163079.870304.DEVON@AI.AI.MIT.EDU>
+
+Devon1u ran my init file.  I was in DDT, not pword.
+Devon0u ran some sort of default init, which I guess is right.
+
+Received: from umn-cs.arpa (TCP 20031360001) by AI.AI.MIT.EDU  1 Mar 87 17:36:10 EST
+Received: by umn-cs.arpa (5.51/4.7)
+	id AA15402; Sun, 1 Mar 87 16:33:27 CST
+Date: Sun, 1 Mar 87 16:33:27 CST
+From: haque@umn-cs.arpa (Samudra E. Haque)
+Message-Id: <8703012233.AA15402@umn-cs.arpa>
+To: bug-ddt@ai.ai.mit.edu, devon@ai.ai.mit.edu, haque@umn-cs.arpa
+Subject: attempt to explain anomaly
+
+
+
+I hope I can explain this .. :-)
+
+Okay, I am working from my office here at the computer science dept,
+at the University of Minnesota.	I usually use a z-29 in ansi mode, and
+use the telnet program off our VAX/UNIX 4.3 bsd to connect to you.
+	With that setup, I offer:
+	
+	When I telnet in to mit-ai, I am usually able to :login
+straight in, upon which I am asked for my password and such. 
+I also run the :CRTSTY vt100 speed 9600 
+to set up my screen , without which I have serious trouble trying to
+communicate with you.	
+
+One one such session I was using the :telnet program and was trying to 
+:telnet umn-cs 			(net address:128.101.224.1). 
+
+I was able to get through and start up a session. When I logged out of
+umn-cs, the telnet connection did not seem to break, (I did not get
+back the telnet prompt or did not get back to command level). 
+
+At this stage I waited for 5 - 10 minutes to make sure, that the
+ethernet was not acting up strange and had for some reason a huge
+choke of packets all accross the United States. After that I was
+forced to get back to my own telnet and abort the session.
+
+
+NOW.. what happened the night of the 
+  
+    Date: Sun,  1 Mar 87 00:26:42 EST 
+
+I logged in and the first thing that I was given was some sort of
+prompt that asked me if I wanted my detached tree attached. I did NOT
+know about this detached tree until right then. So just for
+curiosity's sake I did re-attach the tree, and then I find out that it
+was that telnet job from the previous session. I was this time
+successfully able to quit out of telnet. HOWEVER, then your system popped 
+me straight into what I think is your mailer, with a prompt line that
+said ... ( I am paraphrasing) :
+
+bug: respond with :BUG-DDT DESCRIBING CIRCUMSTANCES
+
+To me it was not clear wether I would have to type the whole line
+after the second colon or just mail to bug-ddt and then describe
+circumstances. In UNIX, we have a convention that the system prompts
+with the exact format of response it wants. Any additional parameters
+get either quoted or given secondary visual attributes. For example we
+would say %mail BUG-DDT      <describing the circumstances>.
+
+Nowhere did the system mention it had core-dumped on me!!
+
+I was not even able to set up my screen and take proper care of
+editing the letter to write a decent response. And then of course I
+had to hit cntrl-c (I believe) to send off the letter. In unix cntrl-c
+means <abort job>, and I had thought that would have done it. Instead
+it mailed the letter, but did not say "response mailed" or any other 
+confirmation message.
+********************************************************************************
+Devon, 
+I assume you are part of the Systems Group responsible for ai.ai.mit.edu . 
+In your letter you made quite a sarcastic ,and in my opinion a very rude 
+response to my difficulties communicating with your system over the internet. 
+:
+>>>   SUNDAY, MARCH 1, 1987  04:29:02 PM 
+>>>Welcome to ITS 
+ 
+>>>From: "Devon S. McCullough" <DEVON@AI.AI.MIT.EDU> 
+>>>To: HAQUE@AI.AI.MIT.EDU 
+>>>In-reply-to: Msg of Sun  1 Mar 87 00:26:42 EST from Samudra E. Haque <HAQUE at ! 
+>>>Message-ID: <161273.870301.DEVON@AI.AI.MIT.EDU> 
+ 
+>>>Thanks for your incredibly helpful description the the circumstances 
+>>>leading to DDT's coredumping on you.  (see above) 
+ 
+>>>        --Devon 
+
+You will  say that I have made errors in typing in commands, and I would say 
+rightly so, my unfamiliarity with your system and system incomptability lead 
+to quite a big mess up.
+
+BUT that does not give you the right to flame any person across the
+internet just to satisfy your annoyance. 
+
+At our systems group we try to be complacent with ALL user requests, 
+however strange, routine or ignorant they might be. A lot of users
+don't have the first hand contact with all the systems and are often
+very infrequent users, and are even familiar with OTHER operating systems,
+as I am in this case. At that stage we try to help them out with
+information as much as possible.I sometimes get very annoyed at our clients , 
+but they are what the group stands for ,and I always bear that in mind *first*.
+
+Of course, since I am only a guest at your system, you do have the
+right to terminate my priveledges, if that is your system policy and if that
+is your wish.
+
+I can be reached at the net address haque@umn-cs.arpa for further
+comments.
+
+********************************************************************************
+disclaimer: The opinions expressed in this article are mine, and in no
+way should be taken to represent the opinions of my employer, The
+University of Minnesota, Minneapolis, or that of the Computer Science
+Department .
+********************************************************************************
+
+				Samudra E. Haque
+				CSci Systems Group
+				University of Minnesota
+				Minneapolis, MN 55455
+				(612) 625 0876
+
+
+Date: Sun,  1 Mar 87 12:09:49 EST
+From: "Devon S. McCullough" <DEVON@AI.AI.MIT.EDU>
+To: HAQUE@AI.AI.MIT.EDU
+cc: BUG-DDT@AI.AI.MIT.EDU
+In-reply-to: Msg of Sun  1 Mar 87 00:26:42 EST from Samudra E. Haque <HAQUE at AI.AI.MIT.EDU>
+Message-ID: <161273.870301.DEVON@AI.AI.MIT.EDU>
+
+    Date: Sun,  1 Mar 87 00:26:42 EST
+    From: Samudra E. Haque <HAQUE at AI.AI.MIT.EDU>
+    To:   BUG-DDT at AI.AI.MIT.EDU
+
+     describing circumstances
+    :kill
+
+Thanks for your incredibly helpful description the the circumstances
+leading to DDT's coredumping on you.  (see above)
+
+	--Devon
+
+Date: Sun,  1 Mar 87 00:26:42 EST
+From: "Samudra E. Haque" <HAQUE@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <161088.870301.HAQUE@AI.AI.MIT.EDU>
+
+ describing circumstances
+:kill
+
+Date: Tue, 24 Feb 87 23:37:44 EST
+From: Richard Barth <BARTH@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <159215.870224.BARTH@AI.AI.MIT.EDU>
+
+   Upon logging on I got a message saying "DDT bug: please do
+:bug ddt describing cuircumstances"  hence this msg.  
+
+   I assume what's wanted is a description
+of my sudden departure from the system before.  I was waiting for 
+RMAIL, running under EMACS, to finish showing me a message. And waiting.
+And waiting. Finally hit return or something, and got a note, probably from the TAC,
+telling me that the host was unreachable. That  remained the 
+situation for a while, so I reset the connection and had dinner.
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 10 Feb 87 02:12:51 EST
+Received: from MX.LCS.MIT.EDU (CHAOS 1440) by MC.LCS.MIT.EDU 10 Feb 87 02:13:46 EST
+Date: Tue, 10 Feb 87 02:13:06 EST
+From: Jon Solomon <JSOL%MX.LCS.MIT.EDU@MC.LCS.MIT.EDU>
+To: BUG-DDT%MX.LCS.MIT.EDU@MC.LCS.MIT.EDU
+Message-ID: <969141.870210.JSOL@MX.LCS.MIT.EDU>
+
+oh never mind, it's my fool init file breaking again.
+
+
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 10 Feb 87 02:12:40 EST
+Received: from MX.LCS.MIT.EDU (CHAOS 1440) by MC.LCS.MIT.EDU 10 Feb 87 02:13:26 EST
+Date: Tue, 10 Feb 87 02:12:46 EST
+From: Jon Solomon <JSOL%MX.LCS.MIT.EDU@MC.LCS.MIT.EDU>
+To: BUG-DDT%MX.LCS.MIT.EDU@MC.LCS.MIT.EDU
+Message-ID: <969140.870210.JSOL@MX.LCS.MIT.EDU>
+
+typing ^G^L makes ddt print the ddt bug message.
+
+so here I am bugging ddt describing the circumstances.
+
+
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 22 Dec 86 03:16:41 EST
+Date: Mon, 22 Dec 86 03:19:19 EST
+From: Rob Austein <SRA@MC.LCS.MIT.EDU>
+To: BUG-DDT@MC.LCS.MIT.EDU
+Message-ID: <148894.861222.SRA@MC.LCS.MIT.EDU>
+
+MC BUGPAUSED, I $P'd it, went back to my Lispm, attached my tree.
+DDT announced that it had hit a bug.  I see nothing wrong.
+
+
+Date: Tue,  9 Dec 86 18:58:11 EST
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <128601.861209.ALAN@AI.AI.MIT.EDU>
+
+I did ALAN$1U and DDT ran my init file anyway.
+
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 30 OCT 86  06:22:55 EST
+Received: from MX.LCS.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 30 OCT 86  06:09:29 EST
+Date: Wed, 29 Oct 86 19:18:08 EST
+From: "Devon S. McCullough" <DEVON%MX.LCS.MIT.EDU@MC.LCS.MIT.EDU>
+Subject:  :ALARM redisplay bug
+To: BUG-DDT@MX.LCS.MIT.EDU
+Message-ID: <[MX.LCS.MIT.EDU].955325.861029.DEVON>
+
+In DDT, with the cursor somewhere other than the home postion, type
+":alarm 20:20¢ and you will see two displays, one at the home position reading
+":alarm 20:20^C" and one wherever your cursor was when you initially
+typed the command, because DDT is trying to redisplay in the wrong place.
+
+Date: Tue, 28 Oct 86 17:28:42 EST
+From: David Chapman <ZVONA@AI.AI.MIT.EDU>
+Subject:  [COMSAT: Msg of Tuesday, 28 October 1986 17:21-EST]
+To: BUG-SEND@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].111779.861028.ZVONA>
+
+I tried to send a tty msg to someone at symbolics on a machine not in
+our host tables (dodo.scrc) by addressing it to dang@192.10.4.102.
+That worked ok once, but the next time it timed out and asked if I
+wanted to send via comsat.  So I said yes, and it spazzed in such a
+way as to generate the following message:
+
+Date: Tue, 28 Oct 86 17:21:14 EST
+From: Communications Satellite <COMSAT at AI.AI.MIT.EDU>
+To:   ZVONA at AI.AI.MIT.EDU
+Re:   Msg of Tuesday, 28 October 1986 17:21-EST
+
+============ A copy of your message is being returned, because: ============
+"DANG@192.10.4.102" at AI.AI.MIT.EDU is an unknown recipient.
+============ Failed message follows: ============
+Date: Tue, 28 Oct 86 17:21:13 EST
+From: David Chapman <ZVONA@AI.AI.MIT.EDU>
+To: "DANG@192.10.4.102"@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].111772.861028.ZVONA>
+
+... text deleted ...
+
+Received: from OZ.AI.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 21 OCT 86  14:10:30 EDT
+Received: from PIGPEN.AI.MIT.EDU by OZ.AI.MIT.EDU via Chaosnet; 21 Oct 86 14:09-EDT
+Date: Tue, 21 Oct 86 14:08 EDT
+From: Alan Bawden <Alan@AI.AI.MIT.EDU>
+Subject: More about system message expiration.
+To: ED@AI.AI.MIT.EDU
+cc: Bug-GMSGS@AI.AI.MIT.EDU, Bug-DDT@AI.AI.MIT.EDU
+Message-ID: <861021140843.6.ALAN@PIGPEN.AI.MIT.EDU>
+
+Actually, the expiration date stuff is even more broken than I implied in
+my previous message.  Basically, the expiration date on system messages are
+ignored for any system other than the originating ITS machine.  This is
+because as the message passes from one ITS to another it is given a
+Recieved: line at the front.  Since system messages always have ITS-style
+headers (COMSAT even manufactures once for system mail arriving with
+NET-style headers), this results in a header like:
+
+    Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 22 SEP 86  19:11:58 EDT
+    DISTRIB:  *BBOARD
+    EXPIRES: 10/23/86 19:11:26
+    ED@AI.AI.MIT.EDU 09/22/86 19:11:26 Re: New Technical Bookstore in Kendall Square
+    Quantum Books...
+
+which is confusing to many programs, including GMSGS.  Since GMSGS can't
+find the expiration date, the message never expires.  Occasionally some
+system hacker cleans the .MSGS. directory up by hand.
+
+Someday someone should fix GMSGS and the :MSGS command in DDT, to
+understand what hit them.
+
+Date: Fri, 26 Sep 86 01:27:12 EDT
+From: "Pandora B. Berman" <CENT@AI.AI.MIT.EDU>
+Subject: huh?
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].98894.860926.CENT>
+
+i had just gobbled some new mail into my rmail, and ^Z'd out. got a
+TYIIOT) .IOT A,CH which didn't look unusual for a ^Z sort of exit, but
+it was followed immediately by a DDT BUG: msg. only remarkable
+circumstance is that COMSAT was just eating up all sorts of disk space
+by not being able to delivery mail locally (KWH's dir was full -- i
+fixed that) and then by needing to shrink its LISTS MSGS file back
+to something reasonable. but when i started in with the RMAIL again,
+there was plenty space.
+
+Date: Tue, 16 Sep 86 15:44:02 EDT
+From: David Chapman <ZVONA@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].94755.860916.ZVONA>
+
+What about $$^F takes its argument from the ^R default if the argument
+given is null.
+
+Date: Sun, 22 Jun 86 03:39:05 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  NO MAR?
+To: BUG-DDT@AI.AI.MIT.EDU
+In-reply-to: Msg of Tue 17 Jun 86 01:09:06 EDT from Alan Bawden <ALAN at AI.AI.MIT.EDU>
+Message-ID: <[AI.AI.MIT.EDU].60029.860622.ALAN>
+
+    Date: Tue, 17 Jun 86 01:09:06 EDT
+    From: Alan Bawden <ALAN at AI>
+    Someone needs to go through DDT and find all the places it believes
+    there is a MAR....
+
+I did this.
+
+Date: Tue, 17 Jun 86 01:09:06 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject: KS10's got no MAR
+To: BUG-DDT@AI.AI.MIT.EDU
+cc: ALAN@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].57866.860617.ALAN>
+
+Someone needs to go through DDT and find all the places
+it believes there is a MAR.  Currently setting .MARA gets
+an ILOPR on KS10's (although you can easily convince me that
+some other behavior would be more friendly).  I wonder how many
+DDT crashes on CRASH; are a result of users randomly typing I...
+
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 9 MAY 86  14:36:04 EDT
+Received: from MX.LCS.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 9 MAY 86  14:35:37 EDT
+Date: Fri,  9 May 86 14:34:36 EDT
+From: David Chapman <ZVONA@MX.LCS.MIT.EDU>
+To: BUG-DDT@MX.LCS.MIT.EDU
+Message-ID: <[MX.LCS.MIT.EDU].303.860509.ZVONA>
+
+I was logged into MX from 7bhub, which lost the connection.
+When I did :reatta zvona, it complained of a DDT bug, but
+didn't say anything more specific.
+
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 29 APR 86  09:06:29 EDT
+Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 29 APR 86  09:06:29 EDT
+Date: Tue, 29 Apr 86 09:06:22 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  MXUSR:
+To: SRA@AI.AI.MIT.EDU
+cc: BUG-DDT@MC.LCS.MIT.EDU
+In-reply-to: Msg of Mon 28 Apr 86 15:44:54 EDT from Rob Austein <SRA%TSTGW.LCS.MIT.EDU at AI.AI.MIT.EDU>
+Message-ID: <[AI.AI.MIT.EDU].32479.860429.ALAN>
+
+    Date: Mon, 28 Apr 86 15:44:54 EDT
+    From: Rob Austein <SRA at TSTGW>
+    :exists command special cases MLUSR:, MCUSR:, AIUSR:, DMUSR: devices,
+    may be other such lossage.
+
+Hmm...  I thought I knew about all the places DDT special cased ML devices,
+but sure enough, here is another one.  Fixed and installed.
+
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 28 APR 86  15:48:50 EDT
+Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 28 APR 86  15:48:38 EDT
+Received: from MX.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 28 APR 86  15:46:06 EDT
+Date: Mon, 28 Apr 86 15:44:54 EDT
+From: Rob Austein <SRA%TSTGW.LCS.MIT.EDU@AI.AI.MIT.EDU>
+To: BUG-DDT%TSTGW.LCS.MIT.EDU@AI.AI.MIT.EDU
+Message-ID: <[TSTGW.LCS.MIT.EDU].190.860428.SRA>
+
+:exists command special cases MLUSR:, MCUSR:, AIUSR:, DMUSR: devices,
+may be other such lossage.
+
+Date: Mon, 21 Apr 86 23:50:43 EST
+From: "Keith F. Lynch" <KFL@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].29648.860421.KFL>
+
+I just go a message asking me to send to this list.
+I had just done :GMSGS * when I got a notice that I had mail from seismo.
+Instead of completing at once as :GMSGS * usually does, it just sat there.
+After a minute, I did ^Z then ^P.  After another minute it told me it
+wanted my TTY.  I did $P, it told me there were messages, and then I got
+the BUG DDT message.  My mailbox, previously empty, contained the message
+from seismo but no messages from :GMSGS *.
+								...Keith
+
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 21 APR 86  21:03:27 EST
+Date: Mon, 21 Apr 86 20:59:31 EST
+From: "Christopher C. Stacy" <CSTACY@MC.LCS.MIT.EDU>
+Subject: ITS names
+To: BUG-LISP@MC.LCS.MIT.EDU
+cc: BUG-DDT@MC.LCS.MIT.EDU
+Message-ID: <[MC.LCS.MIT.EDU].891348.860421.CSTACY>
+
+(STATUS HSNAME 'PINTO 'MX) gives an ILOPR on MC, a DDT BUG on AI or MX.
+
+Date: Sun, 20 Apr 86 23:24:03 EST
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  ..SYSUUO uses 1-Procees
+To: DEVON@AI.AI.MIT.EDU
+cc: BUG-DDT@AI.AI.MIT.EDU
+In-reply-to: Msg of Sun 20 Apr 86 11:35:46 EST from Devon S. McCullough <DEVON at AI.AI.MIT.EDU>
+Message-ID: <[AI.AI.MIT.EDU].29132.860420.ALAN>
+
+    Date: Sun, 20 Apr 86 11:35:46 EST
+    From: Devon S. McCullough <DEVON at AI.AI.MIT.EDU>
+    I did emacs$j $l sys2;ts emacs 
+    ..sysuuo/0
+    $g
+    and it stopped on an open so I did $p and got the bug message.
+
+DDT uses 1-Proceed to advance the job past system calls in this mode.
+Until 1-Proceed microcode works, ..SYSUUO is of only limited utility.
+
+Date: Sun, 20 Apr 86 11:35:46 EST
+From: "Devon S. McCullough" <DEVON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].28941.860420.DEVON>
+
+I did emacs$j $l sys2;ts emacs 
+..sysuuo/0
+$g
+and it stopped on an open so I did $p and got the bug message.
+
+Date: Wed,  2 Apr 86 03:06:59 EST
+From: "Paul R. Grupp" <GRUPP@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].23284.860402.GRUPP>
+
+I was logged into AI via ARPAnet and got detached.  Later logging back in
+from MC and answering <space> to the --Attach Your Detached Tree-- question
+produced the following;
+HACTRO$J!$ Reowned $
+ DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES.
+ITS not being debugged!!
+
+I can't think of any other unusual circumstances.
+
+Date: Sat, 29 Mar 86 01:38:09 EST
+From: "David A. Moon" <MOON@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].22244.860329.MOON>
+
+The <alt>I command caused ddt bug please do :bug ddt describing circumstances.  Maybe it's not implemented on KS's.
+
+Date: Thu, 27 Mar 86 02:56:11 EST
+From: Rob Austein <SRA@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].21738.860327.SRA>
+
+I forgot I was on AI and did foo$I to set MAR.  DDT asked
+me to please file a bug report on subject.  DDT should probably be
+fixed for this case, all things considered.
+
+(meta-bug?)
+
+Date: Sun, 23 Mar 86 21:27:35 EST
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  Grand migration begins
+To: BUG-ITS@AI.AI.MIT.EDU, BUG-DDT@AI.AI.MIT.EDU,
+    KS-ITS@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].20774.860323.ALAN>
+
+OK this is it.  The migration of ITS system files from MC to AI is
+beginning.  I have already moved a few directories and mailing lists and
+having just moved Bug-ITS and Bug-DDT to AI, I thought I would test them by
+informing you all of how this migration will work.  I expect to have most
+of the SYS*** directories moved to AI by tomorrow.  If you have some
+question about the status of a particular directory, look for a file on
+that directory named " MOVED TO AI ".  If that file exists, then the file
+you are looking for now lives on AI, edits on MC are likely to be lost.  If
+that file doesn't exist, then MC still has the master copy.  In any case,
+if I am logged in, be cautious about timing screws.
+
+Date: Fri, 21 Mar 86 15:48:18 EST
+From: Alan Bawden <ALAN@MC.LCS.MIT.EDU>
+Subject:  STEVEH's ddt bug
+To: GUMBY@MC.LCS.MIT.EDU
+cc: BUG-DDT@MC.LCS.MIT.EDU, BUG-GMSGS@MC.LCS.MIT.EDU,
+    STEVEH@AI.AI.MIT.EDU
+In-reply-to: Msg of Fri 21 Mar 86 05:11:54 EST from David Vinayak Wallace <GUMBY at MC.LCS.MIT.EDU>
+Message-ID: <[MC.LCS.MIT.EDU].858526.860321.ALAN>
+
+    Date: Fri, 21 Mar 86 05:11:54 EST
+    From: David Vinayak Wallace <GUMBY at MC>
+    Any time someone who existed but had no directory nor login file
+    logged in, :INTEST would cause a bug (dunno why).  But it's a stupid
+    thing to have at the end of an init file anyway, so I changed it to
+    :VK.  Voila -- no more bug.
+
+Cretins everywhere.
+
+Gumby you are a cretin because you didn't bother to look at the
+documentation for the :INTEST command before you flused in from the USERSn
+init file.  It is perfectly reasonable to put :INTEST in your init file.
+It simply means to do a bunch of default login actions like doing a :MSGS.
+You also lose points for not bothering to track the bug down.  Take a look
+at the routine DBGHAK in DDT to see how easy it is to do.
+
+The bigger cretin is the cretin who implemented the :MSGS database library.
+Guess what happens when the database gets bigger than the file that
+contains it?  Right, it starts getting MPVs.  Just a little time bomb
+ticking away waiting for the 506th user to run :MSGS or :GMSGS.
+
+I expanded the size of the database and put the :INTEST command back in the
+USERSn init file.  I didn't fix SYSENG;MSGS.
+
+Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 21 MAR 86  05:12:01 EST
+Received: from MC.LCS.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 21 MAR 86  05:12:19 EST
+Date: Fri, 21 Mar 86 05:11:54 EST
+From: David Vinayak Wallace <GUMBY@MC.LCS.MIT.EDU>
+Subject:  STEVEH's ddt bug
+To: STEVEH@AI.AI.MIT.EDU
+cc: BUG-DDT@AI.AI.MIT.EDU
+In-reply-to: Msg of Fri 21 Mar 86 03:18:50 EST from Stephen C. Hill <STEVEH at AI.AI.MIT.EDU>
+Message-ID: <[MC.LCS.MIT.EDU].858038.860321.GUMBY>
+
+Any time someone who existed but had no directory nor login file
+logged in, :INTEST would cause a bug (dunno why).  But it's a stupid
+thing to have at the end of an init file anyway, so I changed it to
+:VK.  Voila -- no more bug.
+
+Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 21 MAR 86  03:18:30 EST
+Date: Fri, 21 Mar 86 03:18:50 EST
+From: "Stephen C. Hill" <STEVEH@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].20290.860321.STEVEH>
+
+It seems to be related to the :intest command in the * login file.
+
+Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 21 MAR 86  03:16:26 EST
+Date: Fri, 21 Mar 86 03:16:46 EST
+From: "Stephen C. Hill" <STEVEH@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+cc: STEVEH@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].20287.860321.STEVEH>
+
+I had just logged onto AI with a new account.  The system said:
+[Home dir=USERS3]
+   FRIDAY, MARCH 21, 1986  03:13:16 AM
+Welcome to ITS
+
+ DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES.
+
+{End quote}
+I don't know anything else to report.
+
+Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 18 MAR 86  21:48:12 EST
+Date: Tue, 18 Mar 86 21:48:04 EST
+From: "G. Brendan Reilly" <REILLY@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].19779.860318.REILLY>
+
+Each time I type 
+
+:msgs
+
+I get a DDT bug, as well as each time I login using 
+
+REILLY$U
+
+
+Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 12 MAR 86  14:16:05 EST
+Date: Wed, 12 Mar 86 14:16:01 EST
+From: Rex Sanders <REX@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].18724.860312.REX>
+
+telnet mit-ai
+login for first time and answer lots of nosy questions
+entered done
+got "...changes sent for processing
+...
+Welcome to ITS
+
+ DDT BUG: PLEASE DO ...
+
+Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 9 MAR 86  18:13:17 EST
+Date: Sun,  9 Mar 86 18:17:06 EST
+From: Patrick Greussay <PG@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].18242.860309.PG>
+
+Hmm, I tried logging out from PG's account, logging back in
+again, and typing ^F, and I got the same DDT BUG message.
+But then I typed ^F again and it worked fine.  And I can't
+find anything else wrong anywhere.
+
+Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 9 MAR 86  18:11:15 EST
+Date: Sun,  9 Mar 86 18:15:04 EST
+From: Patrick Greussay <PG@AI.AI.MIT.EDU>
+To: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].18240.860309.PG>
+
+Uh, hi, this is Phil Agre.  I set up this account for my 
+friend Patrick Greussay, and I tried logging in to it,
+and it said [Home dir=USERS3] and I said ^F and I got
+DDT BUG: PLEASE DO :BUG DDT etc.  My guess is that there
+isn't actually a USERS3 directory.  Maybe it got USERS3
+from MC, where it (Panda) also seems to have gotten Patrick's
+home address etc.  (Er, um, I guess that's where it got 
+them?  OZ maybe?)
+
+Date: Wed, 26 Feb 86 23:37:23 EST
+From: "Steven A. Swernofsky" <SASW@MC.LCS.MIT.EDU>
+To: BUG-DDT@MC.LCS.MIT.EDU
+Message-ID: <[MC.LCS.MIT.EDU].832159.860226.SASW>
+
+after using babyl, i typed "q" to quit and hung up my phone
+redailing, i attached my detached tree--and received the ddt bug message
+
+i am dailing in from a tac.
+-- Steve
+
+Received: from SPEECH.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 25 JAN 86  15:56:18 EST
+Date: Sat 25 Jan 86 15:55:30-EST
+From: John Wroclawski <JTW%MIT-SPEECH@MIT-MC.ARPA>
+Subject: return addresses in mailed messages
+To: bug-send@MC.LCS.MIT.EDU
+
+
+I got a send from someone via mail because I'd logged out already. 
+The return address (From: field) was of the form
+
+FOO at MC.LCS.MIT.EDU
+
+which is illegal these days, the current format only allowing the
+@ form (Foo@MC...) Because of this replying to the message didn't
+work.
+-------
+
+Date: Mon, 30 Dec 85 07:55:53 EST
+From: "Stephen C. Hill" <STEVEH@MC.LCS.MIT.EDU>
+Subject:  PURPG message
+To: ALAN@MC.LCS.MIT.EDU
+cc: BUG-CRTSTY@MC.LCS.MIT.EDU, BUG-DDT@MC.LCS.MIT.EDU,
+    CSTACY@MC.LCS.MIT.EDU, GRUPP@MC.LCS.MIT.EDU,
+    STEVEH@MC.LCS.MIT.EDU
+In-reply-to: Msg of Sun 29 Dec 85 14:39:16 EST from Alan Bawden <ALAN at MC.LCS.MIT.EDU>
+Message-ID: <[MC.LCS.MIT.EDU].768543.851230.STEVEH>
+
+Whatever the problem was last night, it is working fine now.
+Thanks (somebody.)
+
+Date: Sun, 29 Dec 85 14:39:16 EST
+From: Alan Bawden <ALAN@MC.LCS.MIT.EDU>
+Subject:  PURPG message
+To: GRUPP@MC.LCS.MIT.EDU
+cc: BUG-CRTSTY@MC.LCS.MIT.EDU, BUG-DDT@MC.LCS.MIT.EDU,
+    CSTACY@MC.LCS.MIT.EDU, STEVEH@MC.LCS.MIT.EDU
+In-reply-to: Msg of Sun 29 Dec 85 04:36:46 EST from Paul R. Grupp <GRUPP at MC.LCS.MIT.EDU>
+Message-ID: <[MC.LCS.MIT.EDU].768095.851229.ALAN>
+
+    Date: Sun, 29 Dec 85 04:36:46 EST
+    From: Paul R. Grupp <GRUPP at MC>
+        Date: Sun, 29 Dec 85 03:19:42 EST
+        From: Stephen C. Hill <STEVEH at MC>
+        I have consistently been getting
+        PURPG; 70105>>.CALL 70247 (SIOT)
+        messages tonight, while trying to use my usual :CRTSTY IQ120.
+    Nothing has changed in the installed CRTSTY on MC since July '85, so this
+    looks like a DDT BUG.  Other people have recently been reporting the same
+    error message for any terminal setting.
+
+That message is unlikely to have anything to do with a DDT bug.  
+
+Looking at the CRTSTY binary reveals that 70105 = FTLINT+4.  Not having a
+crash dump I can only guess what the fatal interrupt was, but an IOC error
+on the DSK channel seems like a good guess given that the CRASH; directory
+is full.  I'll clean up CRASH; and we can see if the problem goes away.
+(I'll prune CRASH;CRTSTY LOG while I am at it...)
+
+And, no, I have no idea why this shows up as a PURPG, perhaps somebody
+would like to try debugging it rather than crying wolf and pointing fingers
+at other programs.
+
+[ And anyone who assembles the current CRTSTY source should be aware that
+  they are debugging changes that GUMBY and KLH have made since the last
+  binary was made. ]
+
+Date: Sun, 29 Dec 85 04:36:46 EST
+From: "Paul R. Grupp" <GRUPP@MC.LCS.MIT.EDU>
+Subject:  PURPG message
+To: ALAN@MC.LCS.MIT.EDU, CSTACY@MC.LCS.MIT.EDU,
+    BUG-DDT@MC.LCS.MIT.EDU
+cc: BUG-CRTSTY@MC.LCS.MIT.EDU, STEVEH@MC.LCS.MIT.EDU
+In-reply-to: Msg of Sun 29 Dec 85 03:19:42 EST from Stephen C. Hill <STEVEH at MC.LCS.MIT.EDU>
+Message-ID: <[MC.LCS.MIT.EDU].767988.851229.GRUPP>
+
+    Date: Sun, 29 Dec 85 03:19:42 EST
+    From: Stephen C. Hill <STEVEH at MC.LCS.MIT.EDU>
+    To:   BUG-CRTSTY at MC.LCS.MIT.EDU
+    Re:   PURPG message
+
+    I have consistently been getting PURPG; 70105>>.CALL 70247 (SIOT) messages
+    tonight, while trying to use my usual :CRTSTY IQ120.  Something ain't
+    right, but I'm not sure if it is CRTSTY.  Please help, cause BABYL is a
+    BITCH without FULL-screen capability!  Thanks, Steve
+
+Nothing has changed in the installed CRTSTY on MC since July '85, so this
+looks like a DDT BUG.  Other people have recently been reporting the same
+error message for any terminal setting.
+
+Received: from AI.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 19 DEC 85  03:39:47 EST
+Date: Thu, 19 Dec 85 03:37:33 EST
+From: Alan Bawden <ALAN%AI.AI.MIT.EDU@MC.LCS.MIT.EDU>
+Subject:  %PIJST
+To: GUMBY@AI.AI.MIT.EDU
+cc: BUG-DDT@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].9064.851219.ALAN>
+
+In ITS version 1552 (now running on AI) the %PIJST interrupt is finally
+implemented:
+
+Typing ^_J will give the job that currently has the console a %PIJST
+interrupt if it has it enabled.  If that job does -not- have %PIJST
+enabled, ITS will check to see if its superior does, or if its superior's
+superior does, and so forth, up to the root of the job tree.  If nobody is
+willing, the ^_J is treated as if it was an illegal escape sequence.  (It
+echos as "^_?" in that case.)
+
+So its time finish the code in DDT to actually handle the interrupt.
+
+Date: Tue, 10 Dec 85 14:02:37 EST
+From: David Vinayak Wallace <GUMBY@MIT-MC.ARPA>
+Subject:  TPL command
+To: ALAN@MIT-MC.ARPA
+cc: BUG-DDT@MIT-MC.ARPA
+In-reply-to: Msg of Tue 10 Dec 85 00:18:00 EST from Alan Bawden <ALAN at MIT-MC.ARPA>
+Message-ID: <[MIT-MC.ARPA].748544.851210.GUMBY>
+
+    Date: Tue, 10 Dec 85 00:18:00 EST
+    From: Alan Bawden <ALAN at MIT-MC.ARPA>
+
+    I use it all the time.
+
+    No kidding, I have a translation from TPL: to LP7: so that I can
+    use :TPL to generate simple hardcopy.  You could make it more
+    usefull to me by making it use better filenames than
+    TPL:<sname>;PRINT OUTPUT, like have it use the names of the file I
+    asked to print.
+
+It seems to me that the unix people have this one right -- this should
+be a piece of user code, not something stuck in the middle of DDT.
+
+Of course, were it in DDT you could have a variable containing the
+name of your desired printer, and no translation would be necessary...
+
+Date: Tue, 10 Dec 85 00:18:00 EST
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  TPL
+To: GUMBY@MIT-MC.ARPA
+cc: BUG-DDT@MIT-MC.ARPA
+In-reply-to: Msg of Mon  9 Dec 85 19:39:57 EST from David Vinayak Wallace <GUMBY at MIT-MC.ARPA>
+Message-ID: <[MIT-MC.ARPA].748091.851210.ALAN>
+
+    Date: Mon,  9 Dec 85 19:39:57 EST
+    From: David Vinayak Wallace <GUMBY at MIT-MC.ARPA>
+    Does anyone mind if I flush the TPL command?  
+
+I use it all the time.
+
+No kidding, I have a translation from TPL: to LP7: so that I can use :TPL
+to generate simple hardcopy.  You could make it more usefull to me by making
+it use better filenames than TPL:<sname>;PRINT OUTPUT, like have it use the
+names of the file I asked to print.
+
+Date: Mon,  9 Dec 85 19:39:57 EST
+From: David Vinayak Wallace <GUMBY@MIT-MC.ARPA>
+Subject: TPL
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].747564.851209.GUMBY>
+
+Does anyone mind if I flush the TPL command?  
+
+Received: from SCRC-STONY-BROOK.ARPA by MIT-MC.ARPA 29 Nov 85 23:50:31 EST
+Received: from EUPHRATES.SCRC.Symbolics.COM by SCRC-STONY-BROOK.ARPA via CHAOS with CHAOS-MAIL id 364604; Fri 29-Nov-85 23:45:47-EST
+Date: Fri, 29 Nov 85 23:44 EST
+From: David A. Moon <Moon@SCRC-STONY-BROOK.ARPA>
+Subject: Any takers?
+To: Alan Bawden <ALAN@MIT-MC.ARPA>
+cc: BUG-ITS@MIT-MC.ARPA, BUG-RANDOM-PROGRAM@MIT-MC.ARPA,
+    BUG-DDT@MIT-MC.ARPA
+In-Reply-To: <[MIT-MC.ARPA].692189.851024.ALAN>
+Message-ID: <851129234420.3.MOON@EUPHRATES.SCRC.Symbolics.COM>
+
+    Date: Thu, 24 Oct 85 23:38:25 EDT
+    From: Alan Bawden <ALAN@MIT-MC.ARPA>
+
+    With all of these parity errors MC gets these days, and with all of these
+    naive users who haven't the slightest idea what to do when they have
+    detached job trees, the amount of disowned junk is getting to be a pain.
+    Now there is really no good reason why a program couldn't be written that
+    would would look around in the system for jobs with your XUNAME and offer
+    some intelligent (and clearly explained) choices to you.  Anybody
+    interested?  I'm not up for thinking about the problem right now, but I'd
+    be happy to brainstorm in person with anyone else who would like to take a
+    crack at it.
+
+
+I'm sure I wrote this at Ellen's request and she put it into the init files of
+the known naive Macsyma users.  I think it was called RETACH or something like
+that.
+
+
+Received: from MIT-SPEECH by MIT-MC.ARPA via Chaosnet; 29 OCT 85  01:07:23 EST
+Date: Tue 29 Oct 85 01:07:51-EST
+From: John Wroclawski <JTW%MIT-SPEECH@MIT-MC.ARPA>
+Subject: header lossage
+To: bug-send@MIT-MC.ARPA
+
+
+A send from Alan (on MC) to me (on MC) lost because I logged out. SEND
+thoughtfully tried to mail it to "JTW at MIT-MC.ARPA" from "ALAN at
+MIT-MC.ARPA". Comsat forwarded the mail to me at SPEECH, where
+replying lost because the form "FOO at BAR" (" at " instead of @) is
+currently politically incorrect.
+-------
+
+Date: Thu, 24 Oct 85 23:38:25 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Any takers?
+To: BUG-ITS@MIT-MC.ARPA, BUG-RANDOM-PROGRAM@MIT-MC.ARPA,
+    BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].692189.851024.ALAN>
+
+With all of these parity errors MC gets these days, and with all of these
+naive users who haven't the slightest idea what to do when they have
+detached job trees, the amount of disowned junk is getting to be a pain.
+Now there is really no good reason why a program couldn't be written that
+would would look around in the system for jobs with your XUNAME and offer
+some intelligent (and clearly explained) choices to you.  Anybody
+interested?  I'm not up for thinking about the problem right now, but I'd
+be happy to brainstorm in person with anyone else who would like to take a
+crack at it.
+
+Received: from MIT-AI.ARPA by MIT-MC.ARPA via Chaosnet; 23 OCT 85  16:23:48 EDT
+Date: Wed, 23 Oct 85 13:26:26 EDT
+From: "Devon S. McCullough" <DEVON%MIT-AI.ARPA@MIT-MC.ARPA>
+To: BUG-DDT%MIT-AI.ARPA@MIT-MC.ARPA
+Message-ID: <[MIT-AI.ARPA].5580.851023.DEVON>
+
+I was running an inferior DDT with ..SYSUUO/0 and upon starting it did a .SUSET which I looked up then when I did $P it crashed.
+
+Date: Mon, 21 Oct 85 21:38:03 EDT
+From: Joel Fajans <JFJ@MIT-MC.ARPA>
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].687647.851021.JFJ>
+
+My terminal crashed several hours ago, and when I logged on, my
+old tree was still there along with a message asking me to
+do a ddt bug and "describe the circumstances".   Unfortunately,
+I wasn't paying attention and I don't know what happened beyond
+being in a MACSYMA after using :crtsty vt100
+
+
+Received: from MIT-AI.ARPA by MIT-MC.ARPA via Chaosnet; 16 OCT 85  15:15:37 EDT
+Date: Wed, 16 Oct 85 15:18:31 EDT
+From: "Devon S. McCullough" <DEVON%MIT-AI.ARPA@MIT-MC.ARPA>
+To: BUG-DDT%MIT-AI.ARPA@MIT-MC.ARPA
+Message-ID: <[MIT-AI.ARPA].5282.851016.DEVON>
+
+the :reattach program should be part of ddt so it doesn't say
+(please log in) which is extremely disconcerting!
+And PWORD too, it can ask you for your password and then run it.
+Maybe it should just know to not give the message, otherwise
+running the reattach program as usual.
+
+Received: from MIT-AI.ARPA by MIT-MC.ARPA via Chaosnet; 18 SEP 85  17:07:34 EDT
+Date: Wed, 18 Sep 85 17:12:55 EDT
+From: "Devon S. McCullough" <DEVON%MIT-AI.ARPA@MIT-MC.ARPA>
+To: BUG-DDT%MIT-AI.ARPA@MIT-MC.ARPA
+Message-ID: <[MIT-AI.ARPA].4267.850918.DEVON>
+
+in LJCL when I rubout a return I get a DDT BUG.
+
+Date: Wed, 18 Sep 85 16:33:57 EDT
+From: Devon S. McCullough <DEVON@MIT-MC.ARPA>
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].649799.850918.DEVON>
+
+Control-Q should quote Return, if not all the time then at least
+within the :JCL command so I can enter JCL containing Return characters.
+
+Received: from MIT-AI.ARPA by MIT-MC.ARPA via Chaosnet; 18 SEP 85  15:59:34 EDT
+Date: Wed, 18 Sep 85 16:04:50 EDT
+From: "Devon S. McCullough" <DEVON%MIT-AI.ARPA@MIT-MC.ARPA>
+To: BUG-DDT%MIT-AI.ARPA@MIT-MC.ARPA
+Message-ID: <[MIT-AI.ARPA].4258.850918.DEVON>
+
+:alarm is completely confusing.  If it made some attempt to check it's input
+for meaningful vs meaningless jcl, there might appear to be some rhyme or
+reason to it's seemingly random behavior.  :alarm followed by four spaces
+seems to do something (don't ask me what) for instance (no <return> needed!)
+and if you give it back what it output, ie, :alarm .+8:00, it acts weirdly,
+taking the : as a terminator.  Yech.
+
+Date: Sun,  1 Sep 85 12:57:40 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Feature
+To: DEVON@MIT-MC.ARPA
+cc: BUG-DDT@MIT-MC.ARPA, BUG-ITS@MIT-MC.ARPA
+In-reply-to: Msg of Sat 31 Aug 85 18:00:59 EDT from Devon S. McCullough <DEVON at MIT-MC.ARPA>
+Message-ID: <[MIT-MC.ARPA].630167.850901.ALAN>
+
+    Date: Sat, 31 Aug 85 18:00:59 EDT
+    From: Devon S. McCullough <DEVON at MIT-MC.ARPA>
+    ...
+    By the way, how does the system know about sharable pure pages?
+    If it knows that much why doesn't it know about binaries' filenames?
+
+It's because the concept of a "file" exists only at a higher level of
+abstraction than the level where page sharing is done.  Sharing is done at
+the level of pages and disk blocks.  A file is a name for a sequence of
+disk blocks, but there is no way to go backwards from a disk address to see
+which file (if any) it came from.  (Other than mapping over the entire
+filesystem.)  If there was some reason this operation needed to be done
+with great regularity, the information could be saved.  But it is rare to
+want to do that, so we don't.  
+
+(I actually have a tool that does it since I needed it once for debugging
+disk ECC recovery on AI.  I think there might also be a routine in the
+version of the salvager that runs under timesharing that does it.)
+
+Date: Sat, 31 Aug 85 18:00:59 EDT
+From: Devon S. McCullough <DEVON@MIT-MC.ARPA>
+Subject:  Feature
+To: ALAN@MIT-MC.ARPA
+cc: BUG-DDT@MIT-MC.ARPA, BUG-ITS@MIT-MC.ARPA
+In-reply-to: Msg of Sat 31 Aug 85 12:36:41 EDT from Alan Bawden <ALAN at MIT-MC.ARPA>
+Message-ID: <[MIT-MC.ARPA].629753.850831.DEVON>
+
+I was thinking that :SNARF could simply get the start address, etc,
+from the croaked DDT, but Alan's suggestion is better.
+By the way, how does the system know about sharable pure pages?
+If it knows that much why doesn't it know about binaries' filenames?
+
+Date: Sat, 31 Aug 85 12:36:41 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Feature
+To: DEVON@MIT-MC.ARPA, BUG-DDT@MIT-MC.ARPA, BUG-ITS@MIT-MC.ARPA
+In-reply-to: Msg of Sat 31 Aug 85 03:57:02 EDT from Devon S. McCullough <DEVON at MIT-MC.ARPA>
+Message-ID: <[MIT-MC.ARPA].629584.850831.ALAN>
+
+    Date: Sat, 31 Aug 85 03:57:02 EDT
+    From: Devon S. McCullough <DEVON at MC>
+    To:   BUG-DDT at MC
+    I snarfed an emacs from a hactro and tried to do <alt>G
+    "no start address" I don't know if this is a DDT bug or an ITS bug.
+
+It isn't exactly anybody's bug.  The start address of a program is treated
+just like the symbol table.  It is stored in binary files for the benefit
+of people who load, start, and/or debug the program, but it is not kept
+anywhere in the job itself.  ITS doesn't concern itself with where you
+think a job should be restarted.
+
+Now it -is- a little inconvenient that there is no way to go from a random
+job you find floating around the system back to its binary to find its
+symbols and starting address.  So let me float a few suggestions through
+the air and see if anybody thinks they are a good idea:
+
+(1) Add a user variable that would contain a starting address.  This would
+    cover the common case that Devon complained about.  (Happens to me all
+    the time too.)
+
+(2) Add four user variables that would contain the filename of the binary
+    for the this job.  This would enable symbols to be found as well as the
+    start address.
+
+(3) Add a user variable that contains the address of a block in the job's
+    address space, in some extensible format we design later, that contains
+    all kinds of information.  Like a vector of start addresses, filenames
+    of binary files, etc.
+
+(4) Since (3) requires cooperation from the job itself, but (1) covers the
+    most common case, we could do both.  One user variable containing a
+    start address and one containing the address of a block of information
+    (or zero if the job doesn't have one).  Note that these are both 18 bit
+    quantities, so this really only adds an extra word to every set of job
+    variables.
+
+A problem with (3) and (4) is that the new info-block user variable seems
+somehow redundant with the existing use of the left half of .40ADDR.  The
+16.-word block addressed by LH(.40ADDR) is currently only used for
+temporary hacking by a job's superior; perhaps there is some way to combine
+the two?  Perhaps one of the words addressed by RH(.40ADDR) can be the
+info-block pointer if the job sets some bit in .OPTION?
+
+I guess I'm in favor of at least (1) if not some variant of (4).
+
+Date: Sat, 31 Aug 85 03:57:02 EDT
+From: Devon S. McCullough <DEVON@MIT-MC.ARPA>
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].629396.850831.DEVON>
+
+I snarfed an emacs from a hactro and tried to do <alt>G
+"no start address" I don't know if this is a DDT bug or an ITS bug.
+
+Date: Thu, 29 Aug 85 23:05:15 EDT
+From: Devon S. McCullough <DEVON@MIT-MC.ARPA>
+Subject:  previous ddt bug
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].628200.850829.DEVON>
+
+Must have been some irreproducable flakiness.  I looked at my logout file,
+and when I manually did :ddtsym ttyopt/ it did the ddt bug message again.
+
+Date: Thu, 29 Aug 85 20:03:46 EDT
+From: Devon S. McCullough <DEVON@MIT-MC.ARPA>
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].628072.850829.DEVON>
+
+I'm mystified.
+My display shows f^H! followed by a finger display followed by
+
+ EJ
+*
+[Here is KFL]
+u    DDT BUG: PLEASE DO :BUG...that's all I know.
+I's in the supdup window of a CADR.
+
+Date: Sun, 25 Aug 85 01:55:34 EDT
+From: Leigh L. Klotz <KLOTZ@MIT-MC.ARPA>
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].623456.850825.KLOTZ>
+
+Do you thing  should try to read mail from twenex sites if the
+person's mail is forwarded there.  Granted it will lose if the mail
+is forwarded elsewhere from the twenex address, but we have that
+problem with its mail forwarding too.
+
+Date: Tue, 20 Aug 85 20:16:51 EDT
+From: David Vinayak Wallace <GUMBY@MIT-MC.ARPA>
+Subject:  non-local users
+To: ALAN@MIT-MC.ARPA
+cc: BUG-SEND@MIT-MC.ARPA, RDZ@MIT-MC.ARPA
+In-reply-to: Msg of Tue 20 Aug 85 09:10:02 EDT from Alan Bawden <ALAN at MIT-MC.ARPA>
+Message-ID: <[MIT-MC.ARPA].619594.850820.GUMBY>
+
+we could make ddt .include send...?
+
+Date: Tue, 20 Aug 85 09:10:02 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  non-local users
+To: RDZ@MIT-MC.ARPA
+cc: BUG-SEND@MIT-MC.ARPA
+In-reply-to: Msg of Mon 19 Aug 85 23:17:15 EDT from Ramin D. Zabih <RDZ at MIT-MC.ARPA>
+Message-ID: <[MIT-MC.ARPA].618789.850820.ALAN>
+
+    Date: Mon, 19 Aug 85 23:17:15 EDT
+    From: Ramin D. Zabih <RDZ at MIT-MC.ARPA>
+    Why can't send use :CHSEND when you give it a non-local user?
+    ie instead of :send  foo@zermatt bar doing :mail, why can't it do :chsend?
+
+I'll guess that you are complaining about the built-in DDT :SEND command?
+If you set ..SNDFLG non-zero in your init file, then :SEND will run the
+SEND -program- which knows all kinds of ways to reach people.
+
+I would set this switch non-zero by default except that it is occasionaly
+a feature that J. Random Luser can :SEND a message to a wizard when the
+system has no free job slots.
+
+(Note that even if you set ..SNDFLG you can still use :OSEND command which
+is just an alias of the :SEND command.)
+
+Date: Mon, 19 Aug 85 23:17:15 EDT
+From: Ramin D. Zabih <RDZ@MIT-MC.ARPA>
+Subject: non-local users
+To: BUG-SEND@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].618472.850819.RDZ>
+
+Why can't send use :CHSEND when you give it a non-local user?
+ie instead of :send  foo@zermatt bar doing :mail, why can't it do :chsend?
+
+Date: Thu,  1 Aug 85 09:06:58 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  I see no bug here
+To: KLOTZ@MIT-MC.ARPA
+cc: BUG-DDT@MIT-MC.ARPA
+In-reply-to: Msg of Thu  1 Aug 85 01:20:16 EDT from Leigh L. Klotz <KLOTZ at MIT-MC.ARPA>
+Message-ID: <[MIT-MC.ARPA].596555.850801.ALAN>
+
+    Date: Thu,  1 Aug 85 01:20:16 EDT
+    From: Leigh L. Klotz <KLOTZ at MC>
+    If my default filename is dir:cdate down, but them I remember that
+    I want to see what the $$^F default is this week and type $$^F it
+    waits a long time, presumably doing something complicated with
+    DIRDIR:
+
+It should read DIRDIR:NAME1 UP which really has no right to work, but
+someone once went to the trouble to make DIRDIR: and alias of DIRDSK: so it
+does anyway.  I don't seem to be able to reproduce any lossage here.
+
+Date: Thu,  1 Aug 85 01:20:16 EDT
+From: Leigh L. Klotz <KLOTZ@MIT-MC.ARPA>
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].596146.850801.KLOTZ>
+
+If my default filename is dir:cdate down, but them I remember that
+I want to see what the $$^F default is this week and type $$^F it
+waits a long time, presumably doing something complicated with
+DIRDIR:
+
+Date: Fri, 19 Jul 85 01:59:22 EDT
+From: Tim McNerney <TIM@MIT-MC.ARPA>
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].581275.850719.TIM>
+
+When I reattached to a detached tree, DDT urged me to send this "bug"
+message.  Is this something to worry about?
+
+Date: Wed, 17 Jul 85 00:10:55 EDT
+From: Christopher C. Stacy <CSTACY@MIT-MC.ARPA>
+To: BUG-SEND@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].578804.850717.CSTACY>
+
+IWBNI there was a command which a sender could type to execute a
+program or DDT command and have the output go into the message text.
+Somehow...
+
+ :SEND LOSER rampant featurism  $
+ >>!
+ Eval:  :WHOIS LOSER
+ ^L
+ [Message from CSTACY]
+ rampant featurism
+ LOSER T  J.Q. Loser HACTRN  T11 Vadic Dialup
+ (Loss)  [ML]  Hacking receiving flames for CSTACY
+ Birthday February 29; NE43-1069; no phone; no home
+ no address
+    "I ain't got nobody..."
+ ^C
+
+
+
+Date: Tue, 16 Jul 85 19:43:03 EDT
+From: David Vinayak Wallace <GUMBY@MIT-MC.ARPA>
+Subject:  net sends when NLI
+To: BUG-SEND@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].578471.850716.GUMBY>
+
+I got a over the arpane  send when I wasn't logged in, so it went into
+my mail file.  unfortunately it did not go into my mail file with a To:
+header.
+
+Btw, it's still imp(ossible to :reply to net sends -- the address gets fukt.
+
+Date: Mon,  8 Jul 85 20:02:52 EDT
+From: David Vinayak Wallace <GUMBY@MIT-MC.ARPA>
+Subject: replying to internet sends
+To: BUG-SEND@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].568289.850708.GUMBY>
+
+always tries to reply to something like "727M40", which it fails to do.
+
+Date: Mon,  8 Jul 85 17:24:06 EDT
+From: Christopher C. Stacy <CSTACY@MIT-MC.ARPA>
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].568153.850708.CSTACY>
+
+I had a raid display on, and typed 0$V, and got a bug report.
+
+Date: Sat, 29 Jun 85 01:19:10 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  MC weirdness
+To: GUMBY@MIT-MC.ARPA
+cc: JNC@MIT-MC.ARPA, BUG-DDT@MIT-MC.ARPA
+In-reply-to: Msg of Sat 29 Jun 85 00:12 EDT from David Vinayak Wallace <Gumby at MIT-MC.ARPA>
+Message-ID: <[MIT-MC.ARPA].559470.850629.ALAN>
+
+    Date: Sat, 29 Jun 85 00:12 EDT
+    From: David Vinayak Wallace <Gumby at MIT-MC.ARPA>
+    How could I tell that CRASH; was full?  EVERY DDT was acting that way,
+    and there was no way to shut it off.  It didn't occur to me to look at
+    CRASH; at all.
+
+Well what does it -usually- mean when someone can't write a file on ITS?
+It means a directory is full.  I didn't expect you to do anything when
+-every- DDT was acting broken, I expected you to look after the machine came
+back up.  I figured that since you wrote the crash file to GUMBY; rather
+than CRASH; that you had noticed that something was wrong with the latter.
+(If that is really not the case, let me warn you that it isn't a good idea
+to write out files under exec DDT to directories other than ., CRASH,
+CRASH2 (when it exists), and CSTACY.  See CHANNA;RAKASH DMPCPY.)
+
+DDT should probabyl have a feature where if it has crashed dumped itself
+once in a session, it should never bother to do so again.  Future errors
+would cause it to just explain to the user that his DDT thinks it is broken,
+but there is only one crash dump per customer.
+
+Date: Mon, 10 Jun 85 01:46:45 EST
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  DCP;DDTBUG XFILE
+To: DCP@MIT-MC.ARPA
+cc: BUG-DDT@MIT-MC.ARPA
+In-reply-to: Msg of Sat  8 Jun 85 22:48:15 EST from David C. Plummer <DCP at MIT-MC.ARPA>
+Message-ID: <[MIT-MC.ARPA].536390.850610.ALAN>
+
+OK, you can define more symbols in the latest DDT.  (There was already
+enough room for the symbol table to grow into, but a bug prevented it from
+being useful...)
+
+Date: Sat,  8 Jun 85 22:48:15 EST
+From: David C. Plummer <DCP@MIT-MC.ARPA>
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].535609.850608.DCP>
+
+Regarding all the crashes I've been causing.  It appears to be because
+there is some bogus limitation on the number of additional symbols
+one can tell DDT about itself.  My init file happens to use that many 
+plus about 5.  An easier way to reproduce it is to do
+	:xfile dcp;ddtbug xfile
+in a fresh DDT.  I would appreciate it if this bogus limitation 
+were made non-existent, or at least larger.
+
+Date: Sat,  8 Jun 85 22:30:19 EST
+From: David C. Plummer <DCP@MIT-MC.ARPA>
+To: BUG-DDT@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].535598.850608.DCP>
+
+I was logging in, and my init file noticed it had to remake
+itself because there is a new DDT.  It blew out (manner unknown
+(I haven't investigated)), took a crash, and asked my to :BUG DDT.
+
+Date: Thu,  9 May 85 14:22:42 EST
+From: David Vinayak Wallace <GUMBY@MIT-MC>
+Subject:  Selected job when system full
+To: BUG-DDT@MIT-MC
+Message-ID: <[MIT-MC].493632.850509.GUMBY>
+
+This is hard to reproduce, but:
+I had one job, an E.  I did f and got "SYSTEM FULL?"  I then typed p and
+got "JOB?".  v showed the E, but it was not selected.
+
+Received: from SRI-NIC.ARPA by MIT-MC.ARPA;  7 MAY 85 12:04:16 EDT
+Date: Tue, 7 May 1985  09:03 PDT
+Message-ID: <[SRI-NIC].IAN. 7-May-85 09:03:08>
+From: Ian Macky <Ian@SRI-NIC>
+To:   Alan Bawden <ALAN@MIT-MC>
+Cc:   BUG-DDT@MIT-MC
+
+I didn't realize ^C in that situation simply typed CRLF and did
+nothing else... I was thinking it terminated the symbol, but that's
+obviously not the case else yow^C would have done ?U? ...  Oh well,
+ignore me.
+
+Date: Tue,  7 May 85 03:43:19 EST
+From: Alan Bawden <ALAN@MIT-MC>
+To: GRENNY@MIT-MC
+cc: BUG-DDT@MIT-MC
+In-reply-to: Msg of Tue  7 May 85 00:56:00 EST from Ian Wacky <GRENNY>
+Message-ID: <[MIT-MC].489348.850507.ALAN>
+
+    Date: Tue,  7 May 85 00:56:00 EST
+    From: Ian Wacky <GRENNY>
+
+    *yow^C
+    : JOB?
+
+    this doesn't seem right.
+
+Whats the problem?  You tried to define a symbol named "YOW" when you
+didn't have any selected job.  The fact that you typed a ^C so that DDT
+would type a newline is irrelevant.
+
+Date: Tue,  7 May 85 00:56:00 EST
+From: Ian Wacky <GRENNY@MIT-MC>
+To: BUG-DDT@MIT-MC
+Message-ID: <[MIT-MC].489109.850507.GRENNY>
+
+*yow^C
+: JOB?
+
+this doesn't seem right.
+
+Date: Tue, 30 Apr 85 01:16:24 EDT
+From: Alan Bawden <ALAN@MIT-MC>
+Subject:  Oh yeah, right...
+To: GREN@MIT-MC
+cc: BUG-ITS@MIT-MC, KS-ITS@MIT-MC, BUG-DDT@MIT-MC
+Message-ID: <[MIT-MC].476201.850430.ALAN>
+
+    [Message from GREN at MIT-AI  1:05pm]
+    hey, single-stepping isn't working right!
+
+Oh yeah.  Until I get back into microcode hacking again, hackers who debug
+programs using DDT on AI will find that features related to single stepping
+don't work right.  I'll fix it eventually, I just haven't put in the
+support for it yet.
+
+I won't be fixing the fact that AI doesn't have a MAR, so somebody should
+be fixing DDT to know that some ITS machines lack the feature.
+
+Received: from STONY-BROOK.SCRC.Symbolics.COM by MIT-MC.ARPA; 24 APR 85 22:44:49 EST
+Received: from EUPHRATES.SCRC.Symbolics.COM by STONY-BROOK.SCRC.Symbolics.COM via CHAOS with CHAOS-MAIL id 223568; Wed 24-Apr-85 22:43:01-EST
+Date: Wed, 24 Apr 85 22:43 EST
+From: David A. Moon <Moon@STONY-BROOK.SCRC.Symbolics.COM>
+Subject: can't reply to bogus headers
+To: David Vinayak Wallace <GUMBY@MIT-MC.ARPA>
+cc: BUG-SEND@MIT-MC.ARPA, kmp@STONY-BROOK.SCRC.Symbolics.COM,
+    bug-lispm%MIT-OZ@MIT-MC.ARPA
+In-Reply-To: <[MIT-MC].468737.850424.GUMBY>
+Message-ID: <850424224324.2.MOON@EUPHRATES.SCRC.Symbolics.COM>
+
+    Date: Wed, 24 Apr 85 21:45:29 EST
+    From: David Vinayak Wallace <GUMBY@MIT-MC>
+
+
+    I cannot reply to a send (presumably generated with CONVERSE) with the
+    following header:
+	TTY msg from 192.10.41.78:
+	Date: Wed, 24 Apr 85 20:39 EST
+	From: kmp@RIO-DE-JANEIRO.SCRC.Symbolics.COM
+	To: Gumby@MIT-MC.ARPA
+
+    :REPLY says To: 3525 (or some integer), but then complains
+    "can't" when you try to send it off.
+
+Not a Lisp Machine bug.  The REPLY program is evidently broken
+(again!).
+
+
+Received: from STONY-BROOK.SCRC.Symbolics.COM by MIT-MC.ARPA; 24 APR 85 22:44:38 EST
+Received: from EUPHRATES.SCRC.Symbolics.COM by STONY-BROOK.SCRC.Symbolics.COM via CHAOS with CHAOS-MAIL id 223566; Wed 24-Apr-85 22:42:54-EST
+Date: Wed, 24 Apr 85 22:43 EST
+From: David A. Moon <Moon@STONY-BROOK.SCRC.Symbolics.COM>
+Subject: can't reply to bogus headers
+To: David Vinayak Wallace <GUMBY@MIT-MC.ARPA>
+cc: BUG-SEND@MIT-MC.ARPA, kmp@STONY-BROOK.SCRC.Symbolics.COM,
+    bug-lispm%MIT-OZ@MIT-MC.ARPA
+In-Reply-To: <[MIT-MC].468737.850424.GUMBY>
+Message-ID: <850424224316.1.MOON@EUPHRATES.SCRC.Symbolics.COM>
+
+    Date: Wed, 24 Apr 85 21:45:29 EST
+    From: David Vinayak Wallace <GUMBY@MIT-MC>
+
+
+    I cannot reply to a send (presumably generated with CONVERSE) with the
+    following header:
+	TTY msg from 192.10.41.78:
+	Date: Wed, 24 Apr 85 20:39 EST
+	From: kmp@RIO-DE-JANEIRO.SCRC.Symbolics.COM
+	To: Gumby@MIT-MC.ARPA
+
+    :REPLY says To: 3525 (or some integer), but then complains
+    "can't" when you try to send it off.
+
+Not a Lisp Machine bug.  The REPLY program is evidently broken.
+
+
+Date: Wed, 24 Apr 85 21:45:29 EST
+From: David Vinayak Wallace <GUMBY@MIT-MC>
+Subject:  can't reply to bogus headers
+To: BUG-SEND@MIT-MC
+cc: kmp@SCRC-STONY-BROOK, bug-lispm@MIT-OZ
+Message-ID: <[MIT-MC].468737.850424.GUMBY>
+
+
+I cannot reply to a send (presumably generated with CONVERSE) with the
+following header:
+    TTY msg from 192.10.41.78:
+    Date: Wed, 24 Apr 85 20:39 EST
+    From: kmp@RIO-DE-JANEIRO.SCRC.Symbolics.COM
+    To: Gumby@MIT-MC.ARPA
+
+:REPLY says To: 3525 (or some integer), but then complains
+"can't" when you try to send it off.
+
+Received: from MIT-AI by MIT-MC via Chaosnet; 24 APR 85  18:43:13 EST
+Date: Wed, 24 Apr 85 02:57:10 EST
+From: Alan Bawden <ALAN@MIT-AI>
+To: BUG-SEND@MIT-AI
+Message-ID: <[MIT-AI].26.850424.ALAN>
+
+On AI doing :SEND FOO
+gets some compalin about ambigous host name or something.
+Perhaps there is some internal table in SENDER that needs
+to be updated to know about the new ITS machine?
+
+Date: Sun, 21 Apr 85 16:21:51 EST
+From: Gail Zacharias <GZ@MIT-MC>
+To: CSTACY@MIT-MC
+cc: BUG-SEND@MIT-MC
+In-reply-to: Msg of Sun 21 Apr 85 15:50:30 EST from Christopher C. Stacy <CSTACY>
+Message-ID: <[MIT-MC].463703.850421.GZ>
+
+Reply^K was failing for me with fully formed messages from OZ and HT
+(coming up with Author?).  I can't reproduce it now, so maybe something
+else was wrong. (possibly the messages from WGD in my sends file with an
+unknown host name in the header?).
+
+At the time I was getting the 'connection waiting for response to SYN'
+errors from sending to WGD@24512/chaos, the microwave link was up.  I ended
+up supduping to OZ and sending to him with no problems.
+
+Btw, in the case of unknown hosts, the messages come out like
+TTY Message from chaosnet site 24512/CHAOS
+User-Name@WHAT-THE-HOST-THINKS-IT-IS-CALLED ....
+
+It would be nice if reply put together the User-Name from the second line
+with the host number from the first line.  (Maybe it does but whatever was
+screwing things up for me that night screwed this up also?)
+
+Date: Sun, 21 Apr 85 16:02:16 EST
+From: Christopher C. Stacy <CSTACY@MIT-MC>
+To: BUG-SEND@MIT-MC
+Message-ID: <[MIT-MC].463694.850421.CSTACY>
+
+And, oh yeah.  I made SENDER work on non-ARPAnet sites (ie MIT-AI).
+It is not possible to route interactive sends for the Internet
+through COMSAT.  This may be fixed the next time I work on COMSAT,
+which I believe is where the bug is.
+
+Date: Sun, 21 Apr 85 15:58:59 EST
+From: Christopher C. Stacy <CSTACY@MIT-MC>
+To: BUG-SEND@MIT-MC
+Message-ID: <[MIT-MC].463689.850421.CSTACY>
+
+I fixed the problem where re-trying a TCP send would get
+completely weird results, apparently trying to go out
+over the Chaosnet.  I also fixed a typo or two and cleaned
+up the SCHECK host-lookup routine.
+
+Date: Sun, 21 Apr 85 15:50:30 EST
+From: Christopher C. Stacy <CSTACY@MIT-MC>
+To: GZ@MIT-MC
+cc: BUG-SEND@MIT-MC
+In-reply-to: Msg of Wed17 Apr 85 02:15:51 EST from Gail Zacharias <GZ>
+Message-ID: <[MIT-MC].463680.850421.CSTACY>
+
+    Date: Wed,17 Apr 85 02:15:51 EST
+    From: Gail Zacharias <GZ>
+    To:   BUG-SEND
+    Message-ID: <[MIT-MC].457594.850417.GZ>
+
+    How come :REPLY is not hacking normal net sends anymore? 
+
+I don't know what this means, but Gren suggests that you are referring
+to the fact that most 20X sites dont put any header on their outgoing
+sends, and REPLY cannot read minds.
+
+    Also, how do I send to  a chaosnet host number?  I tried WGD@24512/chaos
+    but it said connection waiting for SYN or something equally unlikely for
+    a chaosnet connection.  The machine in question is receiving send
+    connections just fine, since I was able to send there from OZ.
+
+:S WGD@24512/CHAOS works OK for me; it tries to connect to Chaos
+address 24512.  It fails, since the microwave to SCRC is more or less
+permanently down.
+
+Date: Sat,20 Apr 85 16:00:29 EST
+From: Christopher C. Stacy <CSTACY@MIT-MC>
+To: BUG-DDT@MIT-MC
+Message-ID: <[MIT-MC].462914.850420.CSTACY>
+
+If I set MAILNT to 2, when I am interrupted by a send, 
+I get mail notifications on my screen too.  Maybe this
+is a feature.  Need yet finer grade control?
+
+Date: Thu,18 Apr 85 02:45:29 EST
+From: Christopher C. Stacy <CSTACY@MIT-MC>
+Subject: :MAILNT
+To: BUG-DDT@MIT-MC
+cc: JCMA@MIT-MC, MLY@MIT-MC
+Message-ID: <[MIT-MC].459201.850418.CSTACY>
+
+I updated the :MAILNT feature to know a little more about network
+sends; it looks at message headers, and now knows to flush the
+Received lines crap.  It also now tries to find a Subject to include
+in the one-line notification.
+
+I also updated DDTORD to tell about (R-OPTION NO-CLI), replacing
+its previous suggestion that you EQV yourself directly to a file.
+
+Date: Wed,17 Apr 85 02:15:51 EST
+From: Gail Zacharias <GZ@MIT-MC>
+To: BUG-SEND@MIT-MC
+Message-ID: <[MIT-MC].457594.850417.GZ>
+
+How come :REPLY is not hacking normal net sends anymore? 
+Also, how do I send to  a chaosnet host number?  I tried WGD@24512/chaos
+but it said connection waiting for SYN or something equally unlikely for
+a chaosnet connection.  The machine in question is receiving send connections
+just fine, since I was able to send there from OZ.
+
+Date: Fri,12 Apr 85 02:31:34 EST
+From: Alan Bawden <ALAN@MIT-MC>
+Subject:  _VZ67@
+To: BUG-SENDER@MIT-MC, BUG-DDT@MIT-MC
+Message-ID: <[MIT-MC].452500.850412.ALAN>
+
+I just got the following:
+
+    MESSAGE FROM REPLY _VZ67@
+    ly from CSTAC0 at MIT-MC  2:20am]
+    OK.  I'll ...
+
+Note that SIXBIT/_VZ67@/ is ASCII/ÛRep/.  I got two sends in -extremely-
+close succession (this was the first of the two) when this happened, so
+perhaps there is a timing screw in DDT's %PICLI handler?  Perhaps there is
+a bug in the CLI: device?
+
+Date: 14 March 1985 07:31-EST
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+Subject:  EMACS escape
+To: BANDY @ MIT-MC
+cc: BUG-SEND @ MIT-MC
+In-reply-to: Msg of 14 Mar 1985 02:16-EST from Andrew Scott Beals <BANDY>
+
+Write it to a file FIRST and then use "I" or "A."  
+
+I, for one, am sick and tired of whining people like you who are always
+demanding useless things like EMACS escapes, debuggers, and other
+"features." Why can't you all just type correctly the first time?
+
+Date: 14 March 1985 02:16-EST
+From: Andrew Scott Beals <BANDY @ MIT-MC>
+To: BUG-SEND @ MIT-MC
+
+There isn't an emacs escape to send!
+
+How do you expect us to send each other screenfulls and screenfulls
+of cruft which is all relavant and topical if we don't have an
+emacs escape?
+
+
+complainingly,
+	andy
+
+Date: 27 February 1985 01:49-EST
+From: Eli Liang <ELI @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+logged off at 0:35 about by accidentally quiting telnet
+at 1:45 I telneted from cvl.arpa to mit-mc, tred to sign on rms's
+acct with a rms$u but of couse it was still disconnected
+and it told me so, so i then did a sign on into my acct with a eli$u
+typed in my passwd and it says:
+
+[OK]
+[Home dir=GUEST1]
+--Attach Your Detached Tree--
+<I hit space bar at this point>
+HACTRO$J!:$ Reowned $
+ DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES.
+<so I am... hope this helps... hope I can get back out and on again... hope...>
+<-eli>
+
+
+Date: 26 February 1985 08:57-EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+Subject: another SENDER feature
+To: BUG-SEND @ MIT-MC, BUG-MAIL @ MIT-MC
+cc: GSB @ MIT-MC, ALAN @ MIT-MC
+
+I added TCP/SMTP code to SENDER today, so it will now do interactive
+sends directly to foreign sites, rather than going through COMSAT.
+
+Date: 19 February 1985 17:03-EST
+From: Michael B. McIlrath <MBM @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I had disconnected a supdup connection without logging out.
+When I logged back in and "attached my detached tree" DDT
+printed 
+HACTRO$J!:$ Reowned $ 			
+ DDT BUG: PLEASE DO :BUG DDT DECRIBING CIRCUMSTANCES.
+
+I have no idea what this is about.
+
+Date: 14 February 1985 14:45-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+To: BUG-SEND @ MIT-MC
+
+I created a Bug-SEND mailing list since people frequently send mail to that
+address.  It goes to both Bug-SENDER and to Bug-DDT, since :SEND might use
+either SENDER or DDT's built-in command.
+
+Date: 7 February 1985 16:40-EST
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+Subject: :OUTTEST logs me out
+To: BUG-DDT @ MIT-MC
+
+
+
+Date: 7 February 1985 04:20-EST
+From: Ian Macky <GREN @ MIT-MC>
+Sender: GRENNY @ MIT-MC
+To: BUG-DDT @ MIT-MC
+
+phr's bug was a blown hack inplanted in his hactrn...
+
+Date: 7 February 1985 04:10-EST
+From: Paul Rubin <PHR @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I tried to read some sends files using ctrl-A and I got the message
+"DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES."
+I don't think I did anything that I haven't done many times before.
+
+Oh.  I was telnetted from another host, and had the tn process
+stopped so some buffers might have gotten clogged.  But I don't
+think so, there wasn't much typeout waiting when I finally looked.
+
+Date: 4 February 1985 16:40-EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I fixed a fencepost bug in the directory lister.
+
+Date: 1 February 1985 06:44-EST
+From: Devon S. McCullough <DEVON @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+Sometimes when you are debugging two jobs that communicate with each other
+you want to single-step one of them without giving it the TTY.  Well, I
+found that ^N^Z^P does not work (the ^N is forgotten) but $^N^Z^P does.
+Seems to me that both should.  When the $^N'd syscall returns I get a
+notification from DDT [Job FOO returning] which is how I know it worked.
+
+Date: 29 January 1985 00:25-EST
+From: Andrew Scott Beals <BANDY @ MIT-MC>
+Subject: a thousand pardons
+To: BUG-DDT @ MIT-MC
+
+Somenow the control characters in my init file got converted into their
+printing equivalents, which was causing it to luse.
+
+Sorry for bothering y'all.
+	andy
+
+Date: 26 January 1985 08:13-EST
+From: Leo P. Harten <LPH @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+While listing a long series of files using :find, and with the cursor at the
+bottom of the H19 screen with --MORE-- prompt, the receipt of a send caused
+a .VAL 0 and a return to DDT from FIND. ALT-P returned to the FIND, and
+a new send while waiting at the --MORE-- caused the .VAL 0 again. I may have
+typed a space before the --MORE-- prompt, if that makes any difference in
+an attempt to reproduce this behavior. Not what I call a high-priority bug...
+
+Date: 26 January 1985 06:41-EST
+From: Devon S. McCullough <DEVON @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+if I fjob something and then ujob it it doesn't get reowned even if it should.
+
+Date: 26 January 1985 02:54-EST
+From: George I. Fann <GIF @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+describing d
+circumstac
+nces
+ 
+
+Date: 22 January 1985 01:14-EST
+From: Devon S. McCullough <DEVON @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+This is probably actually a TAC bug, perhaps some interaction with the
+telnet commands in my login file, but just now it hung waiting for me
+to type a space in response to a "--more--" type query, but didn't send
+the prompt until AFTER i typed the space.  I don't know where else to
+report this, but i vaguely recall this happening before (long ago)
+
+Date: 21 January 1985 02:08-EST
+From: "Lawrence A. DeLuca, Jr." <HENRIK @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+hi...i don't think it was ddt's fault, but all of a sudden i got
+a lot of UUUUUU's across my screen which seemed to confuse it...
+
+it gave the DDT ERROR -- USE :BUG DDT TO REPORT THE MESSAGE
+
+so i guess the coredumps are mine...
+
+					henrik (larry deluca)
+
+
+Date: 20 January 1985 10:44-EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+Subject:  HSNAME change
+To: ALAN @ MIT-MC
+cc: BRUC @ MIT-MC, BUG-DDT @ MIT-MC, BUG-INQUIR @ MIT-MC,
+    BUG-ITS @ MIT-MC, KMP @ MIT-MC, TAFT @ MIT-MC,
+    USER-ACCOUNTS @ MIT-MC
+In-reply-to: Msg of 19 Jan 1985 02:35-EST from Alan Bawden <ALAN>
+
+I fixed this (right this time).
+
+Date: 19 January 1985 02:35-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  HSNAME change
+To: CSTACY @ MIT-MC, KMP @ MIT-MC, BUG-INQUIR @ MIT-MC
+cc: USER-ACCOUNTS @ MIT-MC, BRUC @ MIT-MC, BUG-DDT @ MIT-MC,
+    TAFT @ MIT-MC, BUG-ITS @ MIT-MC
+In-reply-to: Msg of 18 Jan 1985 23:48-EST from Robert E. Bruccoleri <BRUC>
+
+    Date: 18 January 1985 23:48-EST
+    From: Robert E. Bruccoleri <BRUC at MC>
+    My home directory was changed from USERS0; to GUEST0; recently
+    without the relocation of my files or the redirection of my mail....
+
+    Date: 18 January 1985 23:59-EST
+    From: Kent M Pitman <KMP at MC>
+    INQUIR seems to give people with a "Z" designation (clinical decision
+    making group) a GUESTn home dir if they don't have a home dir of their
+    own.  This is arguably a bug....
+
+Earlier the same day....
+
+    Date: 18 January 1985 09:26-EST
+    From: Christopher C. Stacy <CSTACY at MC>
+    Subject: AI file directories
+    To: BUG-INQUIR at MC
+    cc: BUG-DDT at MC, BUG-ITS at MC, KMP at MC, TAFT at MC
+    Enough occasional and small users from AI use MC now that I was
+    getting tired of using INQUIR to manually force their home directory
+    to be AI0.  This morning I taught INQUIR that if an "A" person comes
+    along who does not have a directory, it will automatically stick them
+    in AI0 (rather than USERSn).  Of course, if AI0 starts getting too
+    full due to many people, we can make more dirs.   But I don't think
+    that's too likely since most AI people with alot of files have their
+    own directory and don't need to use AI0.
+
+Well, more than just AI users seem to have their directories changed, so I
+retracted the new version of LSRTNS, reassembled DDT (being careful to
+increment the version number this time) and installed it.  The buggy 
+ATSIGN DDT was renamed to be ATSIGN XDDT.
+
+Date: 18 January 1985 09:27-EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+The latest DDT installed on MC is simply a reassembly which includes
+the latest version of LSRTNS.
+
+Date: 18 January 1985 09:26-EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+Subject: AI file directories
+To: BUG-INQUIR @ MIT-MC
+cc: BUG-DDT @ MIT-MC, BUG-ITS @ MIT-MC, KMP @ MIT-MC, TAFT @ MIT-MC
+
+Enough occasional and small users from AI use MC now that I was
+getting tired of using INQUIR to manually force their home directory
+to be AI0.  This morning I taught INQUIR that if an "A" person comes
+along who does not have a directory, it will automatically stick them
+in AI0 (rather than USERSn).  Of course, if AI0 starts getting too
+full due to many people, we can make more dirs.   But I don't think
+that's too likely since most AI people with alot of files have their
+own directory and don't need to use AI0.
+
+
+Date: 14 January 1985 13:30-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  hardware lossage
+To: BUG-DDT @ MIT-MC
+cc: RMC @ MIT-MC
+In-reply-to: Msg of 13 Jan 1985 23:59-EST from R. Martin Chavez <RMC>
+
+    Date: 13 January 1985 23:59-EST
+    From: R. Martin Chavez <RMC>
+    Host closing connection...whil I was finally getting rid of a big file
+    tooo! 
+
+    Date: 14 January 1985 00:05-EST
+    From: R. Martin Chavez <RMC>
+    Sorry...I was reading mail, and for no apparent reason, got
+    Host closing connection.
+
+    A simple re-open and login worked;  The system prompted me to send
+    the BUG DDT, hence your previously uninformative message.
+
+I would hazzard a guess that this has something to do with the parity
+errors that MC was getting at the moment this happened...
+
+Date: 14 January 1985 00:05-EST
+From: R. Martin Chavez <RMC @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+Sorry...I was reading mail, and for no apparent reason, got
+Host closing connection.
+
+A simple re-open and login worked;  The system prompted me to send
+the BUG DDT, hence your previously uninformative message.
+
+Date: 13 January 1985 23:59-EST
+From: R. Martin Chavez <RMC @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+Host closing connection...whil I was finally getting rid of a big file tooo!
+
+Date: 13 January 1985 23:59-EST
+From: R. Martin Chavez <RMC @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+Host closing connection...whil I was finally getting rid of a big file tooo!
+
+Date: 11 January 1985 19:37-EST
+From: Leigh L. Klotz <KLOTZ @ MIT-MC>
+To: TAR @ MIT-MC
+cc: BUG-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+In-reply-to: Msg of 9 Jan 1985 15:48-EST from Thomas A. Russ <TAR>
+
+    Date: 9 January 1985 15:48-EST
+    From: Thomas A. Russ <TAR>
+    Sender: TAR0
+    To:   BUG-ITS
+
+    :CHUNAME doesn't work.  It prints the "-- Massacre and Reset --"
+    question, but when I type <space>, it responds with a single question
+    mark ("?") and does nothing.
+
+Probably you, in your incarnation as TAR0, were trying to :CHUNAM to
+TAR, but there already was a TAR, possibly detached.  DDT was informing
+you in its usual terse fashion, (which has saved us at last count over
+2^23 character output calls since ITS was first booted).
+
+
+Date: 9 January 1985 17:19-EST
+From: Glenn S. Burke <GSB @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+cc: TAR @ MIT-MC
+
+    Date: 9 January 1985 15:48-EST
+    From: Thomas A. Russ <TAR @ MIT-MC>
+    Sender: TAR0 @ MIT-MC
+
+    :CHUNAME doesn't work.  It prints the "-- Massacre and Reset --"
+    question, but when I type <space>, it responds with a single question
+    mark ("?") and does nothing.
+
+If ddt used USRVAR to change the uname it could detect the job-already-exists
+error and produce a more coherent error message, and not have to special-case
+the ilopr as it does now.
+
+Date: 9 January 1985 16:45-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  :CHUNAME
+To: TAR @ MIT-MC, BUG-DDT @ MIT-MC
+
+    Date: 9 January 1985 15:48-EST
+    From: Thomas A. Russ <TAR>
+    Sender: TAR0
+    To:   BUG-ITS
+    :CHUNAME doesn't work.  It prints the "-- Massacre and Reset --"
+    question, but when I type <space>, it responds with a single question
+    mark ("?") and does nothing.
+
+Since you sent this message while logged in as TAR0 I'll make a guess about
+the nature of the problem.  If you are logged in as TAR0, and still logged
+in elsewhere as TAR, and you try ":CHUNAME TAR" it will fail because you
+can't be logged in twice with the same name.  (I don't think it would be
+reasonable for :CHUNAME to go and gun someone named TAR just because you
+wanted to be logged in under that name yourself.)  In that situation
+:REATTACH is usually what people want.
+
+Of course this is just a guess.  If you weren't still logged in elsewhere
+as TAR, then there would be a bug.
+
+[ Bug-DDT: It would be nice if DDT gave an explanatory error message in the
+  case outlined above, rather that just cryptically saying "?". ]
+
+Date: 9 January 1985 16:04-EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: TAR @ MIT-MC
+cc: BUG-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+In-reply-to: Msg of 9 Jan 1985 15:48-EST from Thomas A. Russ <TAR>
+
+    Date: 9 January 1985 15:48-EST
+    From: Thomas A. Russ <TAR>
+    Sender: TAR0
+    To:   BUG-ITS
+
+    :CHUNAME doesn't work.  It prints the "-- Massacre and Reset --"
+    question, but when I type <space>, it responds with a single question
+    mark ("?") and does nothing.
+
+This would probably be a DDT bug, not an ITS bug.
+:CHUNAME works fine for me.  Please send a real bug report,
+specifying the input you gave the function.
+
+Date: 4 January 1985 17:40-EST
+From: Ian Macky <GREN @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+you can't flush :corprt by rubbing the --more--, how annoying.
+you have to ^g...
+
+Date: 3 January 1985 08:20-EST
+From: Devon S. McCullough <DEVON @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+Earlier I sent a bug report complaining that SEND was not prompting me after sending...
+Here is the screw I just figured out:
+:send foo bla bla bla bleh^W(oops nothing happened so I'll just do)<return>^L
+(hey, the ^W didn't work, funny)^W bla bla bla^C
+
+Well is send is smart enought to become mail, it should be able to deal
+intelligently with this too, eh?
+
+Date: 29 December 1984 16:57-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  :MOVE
+To: BUG-DDT @ MIT-MC
+
+A random wanted to create SYS;TS ATHENA so he did:
+
+:MOVE SYS3;TS OZ,SYS;TS ATHENA
+
+Since :MOVE just opens the input file, sucks out the bits, and then does
+DELEWO, this had the same effect as
+
+:MOVE SYSBIN;SUPDUP BIN,SYS;TS ATHENA
+
+which broke all of the other supdup aliases.  Perhaps :MOVE should check
+for links first and create a new link with the same target instead?
+
+Date: 15 December 1984 02:30-EST
+From: Devon S. McCullough <DEVON @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+is this normal behavior?
+
+:mail u@h
+Msg:
+bla bla blah...^C<---cursor stays right there, giving no indication that
+the ^C did anything and that you are now talking to DDT toplevel.
+
+Date: 4 November 1984 14:42-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  I just checked and he isn't blue...
+To: BUG-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+
+Every once in a great while when I log in I discover that %TOMOR is not set
+in my TTYOPT word.  Since my LOGIN does nothing to change the default
+setting of more processing it must be the case that normally ITS or DDT (or
+PWORD?) turns it on.  Well sometimes, given a blue Moon or something, it
+must fail to work...
+
+Date: 30 October 1984 11:46-EST
+From: Kenneth Byrd Story <STORY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I keep getting logged-out automatically by mc; what's the problem?
+
+Received: from SCRC-EUPHRATES by SCRC-STONY-BROOK via CHAOS with CHAOS-MAIL id 113864; Tue 23-Oct-84 20:30:36-EDT
+Date: Tue, 23 Oct 84 20:30 EDT
+From: "David A. Moon" <Moon@SCRC-STONY-BROOK.ARPA>
+Subject: RDIO 2,100000
+To: Alan Bawden <ALAN@MIT-MC.ARPA>
+cc: CSTACY@MIT-MC.ARPA, KS-ITS@MIT-MC.ARPA, BUG-DDT@MIT-MC.ARPA
+In-Reply-To: The message of 23 Oct 84 00:28-EDT from Alan Bawden <ALAN at MIT-MC>
+Message-ID: <841023203030.9.MOON@EUPHRATES.SCRC.Symbolics>
+
+    Date: 23 October 1984 00:28-EDT
+    From: Alan Bawden <ALAN @ MIT-MC>
+
+    Barf.  I was faked out today by DDT not understanding how to assemble typed
+    in KS IO instructions properly.  The random kludges necessary to get the
+    traditional IO instructions to type in correctly (like "CONI 4," which does
+    not put the 4 in the same place as "MOVE 4," does) manage to screw the new
+    RDIO/WRIO instructions.  Apparently DDT just checks for ones in the top three
+    bits of the opcode to determine that it should do the kludge.  The effect
+    is really confusing if you don't know whats going on: you type 
+    "RDIO 2,100000" and the answer appears in AC 4.  Perhaps somebody else on
+    KS-ITS who wants to help us out would be willing to stomp out this buglet?
+
+    Timesharing DDT has the same bug almost.  It masks out the low two bits of
+    the AC field before putting it in the wrong place.
+
+    MIDAS does the right thing by making the kludge a property of the symbol
+    rather than a property of its value.
+
+I believe that the right way to fix this is to check whether bits 0-8 of the
+word are equal to 700 when storing the AC field.  If they are, it's an old-type
+I/O instruction and the AC number is really a device number and needs to
+be shifted.  If they aren't, it's a normal instruction and the AC field is
+an AC field.  Probably DDT currently checks bits 0-2 instead, but that's wrong.
+
+Date: 23 October 1984 00:28-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  RDIO 2,100000
+To: CSTACY @ MIT-MC
+cc: KS-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+
+Barf.  I was faked out today by DDT not understanding how to assemble typed
+in KS IO instructions properly.  The random kludges necessary to get the
+traditional IO instructions to type in correctly (like "CONI 4," which does
+not put the 4 in the same place as "MOVE 4," does) manage to screw the new
+RDIO/WRIO instructions.  Apparently DDT just checks for ones in the top three
+bits of the opcode to determine that it should do the kludge.  The effect
+is really confusing if you don't know whats going on: you type 
+"RDIO 2,100000" and the answer appears in AC 4.  Perhaps somebody else on
+KS-ITS who wants to help us out would be willing to stomp out this buglet?
+
+Timesharing DDT has the same bug almost.  It masks out the low two bits of
+the AC field before putting it in the wrong place.
+
+MIDAS does the right thing by making the kludge a property of the symbol
+rather than a property of its value.
+
+Date: 28 September 1984 02:01-EDT
+From: Ian Macky <GREN @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+:CORPRT should be smarter about grouping similar pages, not devote one
+line to each always.  Also, even tho you get a flushed at --More--,
+it really doesn't, and continues blasting out stuff.
+
+Date: 29 August 1984 15:15-EDT
+From: Jon Solomon <JSOL @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+never mind, I see what happened. forgive my last message.
+
+Date: 29 August 1984 15:11-EDT
+From: Jon Solomon <JSOL @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+I shouldn't really bother you guys with a problem in my
+init file, but I have a problem with my init file.
+
+I set things so that ^G says "feep" tather than "quit".
+Don't ask me why, I think it's cute.
+
+The problem is that recently ddt changed version numbers and
+the label I'm supposed to change isn't the one I thought it was.
+Can anyone tell me what label to use? If you want to see more,
+look at cpr;jsol login. Thanks.
+
+--JSol
+
+Date: 26 August 1984 01:13-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  alt alt control F not hairy enough!
+To: MOON @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 25 Aug 1984 16:41-EDT from David A. Moon <MOON>
+
+    Date: 25 August 1984 16:41-EDT
+    From: David A. Moon <MOON>
+    It doesn't look like there's any way currently to customize it so
+    cstacy $$3^F will show dir:cstacy;cdate down rather than
+    dir:foobar;cdate cstacy.  Would it be right to make a prefix argument
+    go in the directory if both DIRFN1+n and DIRFN2+n are nonzero, or would
+    that screw up other things?
+
+If you look in my LOGIN file and in the source of DDT you will find that I
+have already implemented an experimental version of  that does things
+like what you describe here.  (As well as most of the other suggestions I
+could find about .)  The result works fine, but the interface sucks and
+is still less general than I would like, despite its amazing
+programmability.  I don't plan to document it, I plan to rip it out and
+install something that lets you execute a little (assembly language)
+program to say what to do and then to supply a bunch of little programs
+people can "bind" to numbers as they like.
+
+Date: 25 August 1984 16:41-EDT
+From: David A. Moon <MOON @ MIT-MC>
+Subject: alt alt control F not hairy enough!
+To: BUG-DDT @ MIT-MC
+
+It doesn't look like there's any way currently to customize it so
+cstacy $$3^F will show dir:cstacy;cdate down rather than dir:foobar;cdate cstacy.
+Would it be right to make a prefix argument go in the directory if both
+DIRFN1+n and DIRFN2+n are nonzero, or would that screw up other things?
+
+Date: 24 August 1984 21:22-EDT
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+DDT is write locked.
+
+Date: 17 August 1984 21:04-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Not my fault
+To: KMP @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 17 Aug 1984 18:57-EDT from Kent M Pitman <KMP>
+
+    Date: 17 August 1984 18:57-EDT
+    From: Kent M Pitman <KMP>
+    :OUTTEST is documented to do the actions normally associated with
+    logging out. Is it really reasonable that it should also log one out?
+    It seems unsymmetric with :INTEST and is also completely worthless as a
+    way of testing the logout if it is functionally equivalent to :LOGOUT.
+
+You set BYERUN don't you.
+
+As I reported a month ago when I was looking at that code, setting BYERUN
+causes OUTTEST to actually log you out.  Whoever added the BYERUN feature
+made setting that switch do precisely ":BYE
+1U".  Since OUTTEST and LOGOUT share a fair amount of code its not clear
+how to disentangle them to make this work.  I don't plan to touch it.
+
+Date: 17 August 1984 18:57-EDT
+From: Kent M Pitman <KMP @ MIT-MC>
+Sender: KMP0 @ MIT-MC
+To: BUG-DDT @ MIT-MC
+
+:OUTTEST is documented to do the actions normally associated with logging
+out. Is it really reasonable that it should also log one out? It seems
+unsymmetric with :INTEST and is also completely worthless as a way of testing
+the logout if it is functionally equivalent to :LOGOUT.
+
+Date: 5 August 1984 23:42-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  chuname broken
+To: MLY @ MIT-MC
+cc: BUG-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+In-reply-to: Msg of 5 Aug 1984 22:31-EDT from Richard Mlynarik <MLY>
+
+    Date: 5 August 1984 22:31-EDT
+    From: Richard Mlynarik <MLY>
+    Sender: MLY0
+    logged in as anything, and typing ":chuname mly" at ddt
+    gets me the right "--massacre and reset--" but confirming
+    with  a space just gets me a "?" and my uname is still the same.
+
+This bug report seems to be saying that you were unable to get CHUNAME to
+work under any circumstances.  Funny, because I can't seem to get it to
+fail under any circumstances.  I notice that you sent this bug report
+logged in as "MLY0", perhaps you can tell me what other MLY's were logged
+in at the time, what you were logged in as, and what you tried to CHUNAME
+to.
+
+Date: 28 July 1984 14:24-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+To: GUMBY @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 28 Jul 1984 05:17-EDT from David Vinayak Wallace <GUMBY>
+
+    Date: 28 July 1984 05:17-EDT
+    From: David Vinayak Wallace <GUMBY>
+    Now I have a logout file, BYERUN seems to be ignored
+
+If you have a LOGOUT file, you don't -need- BYERUN.
+
+Date: 28 July 1984 05:17-EDT
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+Now I have a logout file, BYERUN seems to be ignored
+
+Date: 19 July 1984 04:42-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  More logout grinching
+To: GUMBY @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 19 Jul 1984 04:03-EDT from David Vinayak Wallace <GUMBY>
+
+    Date: 19 July 1984 04:03-EDT
+    From: David Vinayak Wallace <GUMBY>
+    Now all the winning things have been fixed with questions and logout, how
+    come the  in my logout file gets printed?  (as in:
+     u
+    MC ITS ....
+    ?)
+
+1.  Thats not the ^W in your logout file being echoed.  Thats caused by the
+    fact that you have a matching ^V at the end of your LOGOUT.  Remove
+    that ^V, and you won't have anything to complain about.  (Don't ask
+    what causes it.  Its not something recent either...)
+
+2.  If you try logging out sometime when you don't have an E job at all, you
+    will be surprised.  I think there is probably a bug with JOBP here, but
+    I'm not planning on looking for it.
+
+3.  Its probably a bad idea to do a :JOBP E in your logout file in the
+    first place.  Suppose you have an Emacs job with something valuable in
+    it, but you want to log out.  You do :DISOWN to disown the Emacs so
+    loggin out won't kill it.  You type $$U.  Your LOGOUT file then does
+    :JOBP E, reowning your Emacs.  Then when you get logged out, your Emacs
+    job gets killed.
+
+4.  WHat happens if you have an E0 job?
+
+5.  If I were you, I would write a little program in Midas to run in my
+    LOGOUT file that performs the test you really want (look for jobs whose
+    superior is the correct job, whose XJNAMEs are "E", "EMACS", etc. and
+    put together an appropriate string to .VALUE), rather than trying
+    to get DDT to do it for me.
+
+Date: 19 July 1984 04:03-EDT
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+Subject:  More logout grinching
+To: BUG-DDT @ MIT-MC
+
+Now all the winning things have been fixed with questions and logout, how
+come the  in my logout file gets printed?  (as in:
+ u
+MC ITS ....
+?)
+
+david
+
+Date: 14 July 1984 03:27-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject: Its a mystery to me.
+To: BUG-ITS @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+
+How come when a job gets a parity error its superior DDT always gets a
+%PIB42?  DDT seemingly get it simultaneous with the interrupt from the
+inferior, but thats what you would expect of a real B42, right?  There
+doesn't seem to be anything wrong with what DDT is doing as far as I can
+tell...
+
+Date: 10 July 1984 00:49-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+To: DCP @ MIT-MC
+cc: BUG-DDT @ MIT-MC, BUG-ITS @ MIT-MC, CSTACY @ MIT-MC
+In-reply-to: Msg of 10 Jul 1984 00:19-EDT from David C. Plummer <DCP>
+
+    Date: 10 July 1984 00:19-EDT
+    From: David C. Plummer <DCP>
+    I'm still not a speed reader.  (I'm coming in over a vadic,
+    AAA, ITS 1370, DDT 1480.)  <alt><alt>U prints the bye
+    message and then clears the screen.
+
+OK, OK.  I fixed it again.  If its still broken, perhaps you better see
+Evelyn Wood, because I can't imagine how I can have failed to fix it this
+time.
+
+Date: 10 July 1984 00:19-EDT
+From: David C. Plummer <DCP @ MIT-MC>
+To: ALAN @ MIT-MC, BUG-ITS @ MIT-MC, BUG-DDT @ MIT-MC, CSTACY @ MIT-MC
+
+I'm still not a speed reader.  (I'm coming in over a vadic,
+AAA, ITS 1370, DDT 1480.)  <alt><alt>U prints the bye
+message and then clears the screen.
+
+Date: 9 July 1984 19:35-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject: This one isn't my fault
+To: BUG-DDT @ MIT-MC
+
+The :LOGOUT/:OUTTEST/:CHUNAME code really is gross.
+I just noticed an apparently old bug where setting BYERUN causes
+:OUTTEST to actually log you out after running BYE.  If BYERUN isn't set,
+then you don't get logged out.  Yuck.
+
+Date: 9 July 1984 19:10-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  oops
+To: DCP @ MIT-MC, BUG-DDT @ MIT-MC
+cc: BUG-ITS @ MIT-MC
+In-reply-to: Msg of 9 Jul 1984 10:14-EDT from David C. Plummer <DCP>
+
+    Date: 9 July 1984 10:14-EDT
+    From: David C. Plummer <DCP>
+    Either ITS was changed, or DDT was, and for the worse.
+    When I log out, it does a :BYE followed by :OUTEST.
+    I don't think either of these are at fault.  What happens
+    is that it prints the BYE message, and then clears the
+    screen before printing the console free message.  Needless
+    to say, I'm not a speed reader.
+
+Believe it or not, another symptom of this same bug was the fact that
+:CHUNAME didn't work anymore.  I fixed the bug and installed a new DDT.
+
+Date: 9 July 1984 16:35-EDT
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+cc: BUG-ITS @ MIT-MC
+
+I de-installed the latest DDT, since there are all these bug
+reports coming in and the responsible hacker is asleep now.
+
+Date: 9 July 1984 16:30-EDT
+From: Leslie Bromberg <BROM @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I was trying to do a chuname to a friend's name for him to use my terminal,
+and got a message saying ddt bug: please do ......
+anyway, the transfer of login names did not work....
+is chuname still around and operating??
+
+Date: 9 July 1984 10:14-EDT
+From: David C. Plummer <DCP @ MIT-MC>
+To: BUG-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+
+Either ITS was changed, or DDT was, and for the worse.
+When I log out, it does a :BYE followed by :OUTEST.
+I don't think either of these are at fault.  What happens
+is that it prints the BYE message, and then clears the
+screen before printing the console free message.  Needless
+to say, I'm not a speed reader.
+
+Date: 9 July 1984 03:11-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Another --Kill etc -- bug
+To: BUG-DDT @ MIT-MC
+cc: GUMBY @ MIT-MC
+In-reply-to: Msg of 6 Jun 1984 05:55-EDT from David Vinayak Wallace <GUMBY>
+
+    Date: 6 June 1984 05:55-EDT
+    From: David Vinayak Wallace <GUMBY>
+    Try this:
+    fooj
+    ..safe/-1
+    barj
+    u
+    You will be asked --Kil Protected Job--
+    Type space.  You are asked again.
+    Very confusing.  bar has a zero ..safe.
+
+I fixed this and will install it in a moment.  While I was at it I fixed
+DDT to always ask those questions about Killing Protected Jobs and Despite
+Pending Alarms, etc. with the TTY turned on so that the user would know
+what DDT was waiting for.
+
+Date: 6 July 1984 20:53-EDT
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+Subject: :SSTATU and :VERSIO within xfile
+To: BUG-DDT @ MIT-MC
+
+:SSTATUS and :VERIO don't work within an XFILE.
+The only way I can get them to print out is to 
+:SSTATUS
+:VERSIO
+which still prints a prompt after each command.
+
+Date: 6 June 1984 05:55-EDT
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+Subject: Another --Kill etc -- bug
+To: BUG-DDT @ MIT-MC
+
+Try this:
+fooj
+..safe/-1
+barj
+u
+You will be asked --Kil Protected Job--
+Type space.  You are asked again.
+Very confusing.  bar has a zero ..safe.
+
+david
+
+Date: 4 June 1984 15:26-EDT
+From: Benjamin Kuipers <BEN @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+While logged in via 1200 baud Vadic, and doing $^A to HACTRN to read
+new mail, my carrier suddenly disappeared.  Later, when I logged
+back in, and attached my detached tree, HACTRO told me
+"DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES."
+which I hereby do, for whatever good it may do you.
+Cheers.
+				Ben
+
+Date: 2 June 1984 15:55-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  --Despite lossage?--
+To: GUMBY @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 1 Jun 1984 23:47-EDT from David Vinayak Wallace <GUMBY>
+
+    Date: 1 June 1984 23:47-EDT
+    From: David Vinayak Wallace <GUMBY>
+    Can't you just end your logout file with :VK?
+
+Certainly that wouldn't be acceptable since it would then print out a ddt
+prompt before the console free message.  Better would be enough 's to
+zero out TTYFLG.  Best would be for unexpected messages of the form
+--Despite pending braindamage?-- to make sure they are always seen so that
+users don't have to do queer things like putting wierdness in their LOGIN
+and LOGOUT files.  (Like you know why every LOGIN.CMD file on 20X ends with
+"TAKE<crlf>"?)
+
+Date: 1 June 1984 23:47-EDT
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+Subject:  --Despite lossage?--
+To: ALAN @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 1 Jun 1984 20:51-EDT from Alan Bawden <ALAN>
+
+Can't you just end your logout file with :VK?
+
+Date: 1 June 1984 20:51-EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  --Despite lossage?--
+To: GUMBY @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 1 Jun 1984 04:17-EDT from David Vinayak Wallace <GUMBY>
+
+    Date: 1 June 1984 04:17-EDT
+    From: David Vinayak Wallace <GUMBY>
+    It would be nice if, when I log out DDT would run my LOGOUT file before
+    checking for jobs with their ..safe set.  I have a logout file that looks
+    for an E  with its ..safe set, and zeros it before logging out.  This
+    doesn't get run until I've already been asked "Kill protected job?"
+
+Related problem:  The --Despite pending alarm?-- message you get when you
+try and log out with a :ALARM still waiting to go off happens after your
+logout file has been run.  According to Gumby's reasoning this is better
+than having it run first, because then your LOGOUT can check for that
+occurance.  Unfortunately there is this other bug where if your LOGOUT file
+uses , as most do, the --Despite pending alarm?-- gets asked INVISIBLY!
+Of course it is still waiting for a confirming space character, so it looks
+to the user like his LOGOUT is just hanging.  If anybody does anything
+about this, they should deal with this problem as well.
+
+Date: 1 June 1984 04:17-EDT
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+It would be nice if, when I log out DDT would run my LOGOUT file before
+checking for jobs with their ..safe set.  I have a logout file that looks
+for an E  with its ..safe set, and zeros it before logging out.  This
+doesn't get run until I've already been asked "Kill protected job?"
+
+david
+
+Date: 29 May 1984 16:45-EDT
+From: Sarah L. Ferguson <SASHA @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I dialed up mc  from NJ, line got munged, after I had logged on.
+When I reconnected and reattached my old tree, I got a nessage saying
+that there was a ddt bug and I should report it.  I don't see any 
+bug symptoms to report, except for the message itself.  Possibly (but not
+likely) relevent details are that I'm using a stupid hp2621a, and an
+automatic dialout.
+
+Date: 8 May 1984 02:02-EDT
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+Reattaching has some bug, probably due to tty info changing.
+
+Date: 29 April 1984 22:26-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  TCP:/CHAOS: Host 259, Local 17, Foreign 105
+To: BUG-DDT @ MIT-MC
+
+In the source (DDT 1471), I made DDT print TCP: and CHAOS: filenames
+rationally.
+
+Date: 22 April 1984 23:19-EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+Subject:  login init problems
+To: SULLIV @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 22 Apr 1984 17:37-EST from Michael E. Sullivan <SULLIV>
+
+
+The :EXISTS at the end of your login init leaves a random value lying
+around.  I bet this gets slurped up or mixed up in some VALRETted
+stuff from EMACS or something pretty soon, causing randomness.
+Something very similar happenned to me a while back, although I don't
+remember the details.  I fixed this bug in your init file, so let's
+see if the problem goes away.
+
+Date: 22 April 1984 23:05-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  CHECKSUM?
+To: BUG-DDT @ MIT-MC, SULLIV @ MIT-MC
+In-reply-to: Msg of 22 Apr 1984 17:37-EST from Michael E. Sullivan <SULLIV>
+
+    Date: 22 April 1984 17:37-EST
+    From: Michael E. Sullivan <SULLIV>
+    When I log on, something strange happens somewhere....
+
+    If I run :babyl it says almost immediately:
+    ^V  CHECKSUM:INPUSH
+    This is totally damaged, and I have to $^X. and start again.
+
+I had never seen DDT say "CHECKSUM?" until this afternoon, when I tried to
+L something (I forget just what) and this resulted.  (This was before I
+read SULLIV's message.)  Ling it again worked.  I didn't even know that
+this message was in DDT's repertoire of complaints.  I suppose this could
+be a tremendous coincidence...
+
+    ...  I've also noticed that if I type a number
+    (like 4000000) then a job, it loses in the same way.
+
+What does it mean to "type a number then a job"?  If I type 105E or 105:E or
+anthing else I can think of that might be described in this way, nothing
+unusual happens to me.
+
+Date: 22 April 1984 17:37-EST
+From: Michael E. Sullivan <SULLIV @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+cc: SULLIV @ MIT-MC
+
+
+When I log on, something strange happens somewhere.  I'm not sure what
+causes it; probably something in my login file (it's not the cleanest
+thing you've ever seen).  Anyway, the first job I start after the
+login file ends always aborts for one reason or another.  If I start
+off with Emacs (GSB's E version) it prints the header then it says:
+ NOS? :INPUSH    102010
+It can be $P'd and it then works normally.
+If I run :babyl it says almost immediately:
+^V  CHECKSUM:INPUSH
+This is totally damaged, and I have to $^X. and start again.
+
+If I type a ^L before doing any of this, it types: 4000000 what I
+first took to be an open memory location.  But there is no slash.  If
+I type <cr> either before or after ^L, the first job doesn't lose.
+
+This has only been happening for several months.  I first noticed it
+after a new version of DDT was installed, although I'm not sure other
+things didn't change also.  I've also noticed that if I type a number
+(like 4000000) then a job, it loses in the same way.
+
+Date: 19 April 1984 23:08-EST
+From: Mark E. Becker <MBECK @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+Just got DDT BUG message.  Did a send to another user that somehow hung
+my terminal.  Couldn't get loose so did @R to local tac and re-opened
+connection.  Re-owned job after logging back in and tried to resume a
+connection to MIT-OZ.  And thats what did it.
+
+Date: 16 Apr 1984  12:32 PST (Mon)
+Message-ID: <[SRI-NIC].IAN.16-Apr-84 12:32:30>
+From: Ian Macky <Ian@SRI-NIC>
+To:   Alan Bawden <ALAN@MIT-MC>
+Cc:   BUG-DDT@MIT-MC, DEVON@MIT-MC
+Subject: Not DDT's problem
+In-reply-to: Msg of 16 Apr 1984  12:28-PST from Alan Bawden <ALAN at MIT-MC>
+
+Ah, OK - what made it confusing is that various programs were running
+around handling input different ways.  I couldn't figure out how n
+characters, all echoed at interrupt level, echoed back OUT OF ORDER...
+
+The answer is they don't.
+
+Date: 16 April 1984 15:28-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Not DDT's problem
+To: Ian @ SRI-NIC
+cc: BUG-DDT @ MIT-MC, DEVON @ MIT-MC
+In-reply-to: Msg of 15 Apr 1984  15:56 PST (Sun) from Ian Macky <Ian at SRI-NIC>
+
+    Date: 15 Apr 1984  15:56 PST (Sun)
+    From: Ian Macky <Ian at SRI-NIC>
+    I *still* don't understand how, interrupt-level echoing aside, input
+    can be echoed back out of order!  Why why why?
+
+I guess I don't see what you are asking exactly.  Perhaps if I explained
+step by step how Devon's complaints happen:
+
+    Date: 15 April 1984 14:44-EST
+    From: Devon S. McCullough <DEVON>
+    I suppose this is pretty well-known by now, but for the record, due
+    the the various ways characters get echoed, if I type F ^L ^K I get
+    ^KF!
+    at the top of the screen, 
+
+This one is easy.  Devon types F^L^K very fast.  All three characters
+echo immediately.  Since the way ^L echos is by clearing the screen, he now
+has a blank screen with a "^K" in the upper left-hand corner.  Now DDT gets
+into the act.  DDT reads the F and stores it in some kind of type-in
+buffer.  Next DDT reads the ^L.  Since DDT knows that ^L clears the screen,
+it redisplays what is in the type-in buffer.  This causes DDT to print an
+"F" after the "^K".  Finally DDT reads the ^K, prints a "!" and starts the
+program.
+
+			      and if I type E ^H ^X R I get
+    *^X ^H R
+    after my * prompt, until Emacs gets around to clearing the screen.
+
+To understand this one you have to understand that DDT performs a kludge to
+cause ^H to appear to echo as "^H" rather than by backing up a character:
+When you type a ^H it actually echos by backing up, but when DDT reads it,
+it corrects this by moving the cursor forward one position, and then
+outputting "^H" (ugh, what a kludge).  So in this case Devon types E^H^X
+which all echo immediately, which on a terminal with overstriking leaves
+him looking at "^X" because the "^" overstruck the "E".  DDT now reads the
+E and the ^H and performs the ^H kludge resulting in "^X ^H" as the
+display.  If the next thing Devon types is R, and if he really then sees
+"^X ^H R", then I suspect that the EMACS that is now running has probably
+output a space (I can't exactly reproduce it because it depends so
+critically on timing that I can't control).
+
+Date: 15 Apr 1984  15:56 PST (Sun)
+Message-ID: <[SRI-NIC].IAN.15-Apr-84 15:56:09>
+From: Ian Macky <Ian@SRI-NIC>
+To:   Alan Bawden <ALAN@MIT-MC>
+Cc:   BUG-DDT@MIT-MC, DEVON@MIT-MC
+Subject: Not DDT's problem
+In-reply-to: Msg of 15 Apr 1984  13:19-PST from Alan Bawden <ALAN at MIT-MC>
+
+I *still* don't understand how, interrupt-level echoing aside, input
+can be echoed back out of order!  Why why why?
+
+Date: 15 April 1984 16:19-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Not DDT's problem
+To: DEVON @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 15 Apr 1984 14:44-EST from Devon S. McCullough <DEVON>
+
+    Date: 15 April 1984 14:44-EST
+    From: Devon S. McCullough <DEVON>
+    I suppose this is pretty well-known by now, but for the record, due
+    the the various ways characters get echoed, if I type F ^L ^K I get
+    ^KF!
+    at the top of the screen, and if I type E ^H ^X R I get
+    *^X ^H R
+    after my * prompt, until Emacs gets around to clearing the screen.
+
+Not really a DDT bug.  Almost every program on ITS exhibits some form of
+this behavior.  Its what comes from letting ITS echo your characters at tty
+interrupt level.  Programs can prevent it from happening, if they want, by
+requesting main program level echoing (like 20X -- ITS gives you the
+choice) or echoing characters themselves.  The default is interrupt level
+echoing, and most programs don't bother to request anything else.
+
+You can think of it as a feature: it lets you see your typeahead rather
+than hiding it from you until your program actually eats it.
+
+Date: 15 April 1984 14:44-EST
+From: Devon S. McCullough <DEVON @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I suppose this is pretty well-known by now, but for the record, due
+the the various ways characters get echoed, if I type F ^L ^K I get
+^KF!
+at the top of the screen, and if I type E ^H ^X R I get
+*^X ^H R
+after my * prompt, until Emacs gets around to clearing the screen.
+
+Date: 6 April 1984 02:11-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  0J
+To: BUG-DDT @ MIT-MC
+cc: GREN @ MIT-MC
+In-reply-to: Msg of 6 Apr 1984 01:21-EST from Ian Macky <GREN>
+
+    Date: 6 April 1984 01:21-EST
+    From: Ian Macky <GREN>
+    To:   BUG-DDT
+
+    $1'      $$$J causes a :DDT BUG ...
+       123456 spaces here
+
+0J works just as well.  Setting a job's jname to 0 isn't allowed and
+generates an IOC interrupt.  J should check for this before charging
+ahead.
+
+Date: 6 April 1984 01:21-EST
+From: Ian Macky <GREN @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+$1'      $$$J causes a :DDT BUG ...
+   123456 spaces here
+
+Date: 17 March 1984 16:02-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Didn't this used to work?
+To: ALAN @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 16 Mar 1984 16:49-EST from Alan Bawden <ALAN>
+
+    Date: 16 March 1984 16:49-EST
+    From: Alan Bawden <ALAN>
+    Doing  USR:ALAN;ALAN E,DSK:ALAN;E >
+    reproducably generates PLEASE DO :BUG DDT messages.
+    I had a job named E at the time.
+
+I doubt that it ever worked.  DDT is completely unprepared for the fact
+that .IOTing from the USR: device can cause an MPV.
+
+Date: 16 March 1984 16:49-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject: Didn't this used to work?
+To: BUG-DDT @ MIT-MC
+
+Doing  USR:ALAN;ALAN E,DSK:ALAN;E >
+reproducably generates PLEASE DO :BUG DDT messages.
+I had a job named E at the time.
+
+Date: 13 March 1984 12:17-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+To: CSTACY @ MIT-MC
+cc: BUG-DDT @ MIT-MC, BUG-ITS @ MIT-MC, KMP @ MIT-MC
+In-reply-to: Msg of Tue 13 Mar 84 06:54 EST from Christopher C. Stacy <CStacy at MIT-MC.ARPA>
+
+    Date: Tue, 13 Mar 84 06:54 EST
+    From: Christopher C. Stacy <CStacy at MC>
+        Date: 29 February 1984 10:59-EST
+        From: Kent M Pitman <KMP>
+        SYS4^F clears the screen and types NON-DIRECTORY DEVICE.
+        Shouldn't this give a no such directory error? I assume
+        DDT or ITS is somehow stripping the 4 and assuming I'm
+        trying to reference the SYS device. My file defaults end
+        up with SYS4: in them...
+    I think this might be an ITS bug.  In DDT at NCTLF2, it tries to open
+    the file "SYS4:.FILE. (DIR)", starts up a JOB.07 frob for some reason,
+    and succeeds.
+
+As I already said, the place to do something about this is in the unknown
+device handler.  (You know, SYS;ATSIGN DEVICE?  The file we don't have a
+source for?)  ITS proper, and DDT are doing exactly the right things.
+
+Date: Tue, 13 Mar 84 06:54 EST
+From: "Christopher C. Stacy" <CStacy@MIT-MC.ARPA>
+To: BUG-ITS@MIT-MC.ARPA
+Cc: Kent M Pitman <KMP@MIT-MC.ARPA>, BUG-DDT@MIT-MC.ARPA
+In-reply-to: The message of 29 Feb 84 10:59-EST from Kent M Pitman <KMP>
+
+    Date: 29 February 1984 10:59-EST
+    From: Kent M Pitman <KMP>
+    SYS4^F clears the screen and types NON-DIRECTORY DEVICE.
+    Shouldn't this give a no such directory error? I assume
+    DDT or ITS is somehow stripping the 4 and assuming I'm
+    trying to reference the SYS device. My file defaults end
+    up with SYS4: in them...
+
+I think this might be an ITS bug.  In DDT at NCTLF2, it tries to open
+the file "SYS4:.FILE. (DIR)", starts up a JOB.07 frob for some reason,
+and succeeds.
+
+Date: 11 March 1984 16:24-EST
+From: Owen T. Anderson <OTA @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I just did a reatta ota/k after a network disconnect and was told to
+do a bug ddt and report circumstances.  I can't find a problem though.
+If you want more info send mail to ota@s1-a for fast response
+
+Date: 9 March 1984 18:21-EST
+From: Ian Macky <GREN @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+:ICHAN does ugly things with a TCP: channel
+
+Date: 7 March 1984 21:38-EST
+From: David C. Plummer <DCP @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+"Cannibals in Polynesia no longer allow their tribes to eat Americans
+because their fat is contaminated with chlorinated hydrocarbon.  Recent
+figures published show that we [English] have two parts per million DDT
+in out bodies, whereas the figures for Americans is about 11 p.p.m."
+
+	-- From Lord Shackelton's speech in the House of Lords,
+    	   reported in the Jerusalem Post, March 21, 1963.
+  **==> That was David Nason's plan file.
+
+Date: 2 March 1984 02:15-EST
+From: Pandora B. Berman <CENT @ MIT-MC>
+Subject: pissing on fires
+To: ALAN @ MIT-MC
+cc: BUG-DDT @ MIT-MC, BUG-NAME @ MIT-MC, BUG-MAIL @ MIT-MC,
+    BUG-INQUIR @ MIT-MC
+
+    Date: 2 March 1984 00:17-EST
+    From: Alan Bawden <ALAN @ MIT-MC>
+    Subject:  pissing on fires
+    To: BUG-DDT @ MIT-MC, BUG-NAME @ MIT-MC, BUG-MAIL @ MIT-MC,
+	BUG-INQUIR @ MIT-MC
+    The most recent DDT, NAME and COMSAT crashes were all caused by some
+    confusion over the INQUIR database.  Specifically, it looks like
+    something deleted LSR1 >.  Gren unwedged things by the simple expedient
+    of reinstalling LSR1 OLD as LSR1 >.
+    Everything seems to be winning now, but it would be nice to know what
+    happened.  Perhaps this is the first wierd side-effect of setting
+    reference date to be at least two days in the past?
+    I guess we have possibly lost some inquir updates due to this...
+
+i think this was my piece of brainlessness for the week. comsat needed
+space for the queue file to write out, so i was shifting stuff around.  i
+deleted lsr1 oldold and moved lsr1 old, then tried to move lsr1 >, but $^R
+made it replicate rather than just move to the pack with more space
+(presumably because comsat was hanging onto it). so i pulled .mail.; into
+dired and (as i thought) deleted the excess, not-being-used-by-comsat
+version. everything appeared ok at that time, but maybe i wasn't looking
+in the right way.
+
+Date: 2 March 1984 00:17-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  pissing on fires
+To: BUG-DDT @ MIT-MC, BUG-NAME @ MIT-MC, BUG-MAIL @ MIT-MC,
+    BUG-INQUIR @ MIT-MC
+
+The most recent DDT, NAME and COMSAT crashes were all caused by some
+confusion over the INQUIR database.  Specifically, it looks like something
+deleted LSR1 >.  Gren unwedged things by the simple expedient of
+reinstalling LSR1 OLD as LSR1 >.
+
+Everything seems to be winning now, but it would be nice to know what
+happened.  Perhaps this is the first wierd side-effect of setting all
+reference date to be at least two days in the past?
+
+I guess we have possibly lost some inquir updates due to this...
+
+Date: 1 March 1984 23:23-EST
+From: Pandora B. Berman <CENT @ MIT-MC>
+Subject: $^A?
+To: BUG-DDT @ MIT-MC
+
+i was watching comsat, which was delivering a lot of mail to bug-name.
+all msgs looked the same length, so i decided to have a peek to see
+if anything was wrong (they were from different authors). i did
+klotz$^A
+at top level and got a
+DDT BUG
+msg.
+
+Date: 1 March 1984 23:20-EST
+From: Kevin J. Burnett <KJB @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I just got a ddt bug for no apparent reason after doing cstacy$^A
+
+Date: 29 February 1984 10:59-EST
+From: Kent M Pitman <KMP @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+cc: BUG-ITS @ MIT-MC
+
+SYS4^F clears the screen and types NON-DIRECTORY DEVICE.
+Shouldn't this give a no such directory error? I assume
+DDT or ITS is somehow stripping the 4 and assuming I'm
+trying to reference the SYS device. My file defaults end
+up with SYS4: in them...
+
+Date: 22 February 1984 22:23-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  ?
+To: CSTACY @ MIT-MC
+cc: BUG-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+In-reply-to: Msg of 22 Feb 1984 17:47-EST from Christopher C. Stacy <CSTACY>
+
+    Date: 22 February 1984 17:47-EST
+    From: Christopher C. Stacy <CSTACY>
+    Trying to rename DNRF: to DSK: on same directory gets me
+    CANT RENAME TO ANOTHER DIRECTORY.
+
+If you do :CALL RENAME you will find that this can't possibly be an ITS
+bug.  If you were using DDT, then it is DDT's problem.
+
+Date: 21 February 1984 04:01-EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+It looks like I need ALAN's super hairy features to win.
+Meanwhile, installed latest DDT source (which has HSNAME and 'BIN
+defaults removed from N2ACF.)
+
+Date: 20 February 1984 14:35-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Hey Penny!  It even confuses CStacy!
+To: CSTACY @ MIT-MC
+cc: BUG-DDT @ MIT-MC, CENT @ MIT-MC
+In-reply-to: Msg of 20 Feb 1984 02:53 EST from Christopher C. Stacy <CSTACY>
+
+    Date: 20 February 1984 02:53 EST
+    From: Christopher C. Stacy <CSTACY>
+    I thought that XMAIL$$2^F should set the default from BIN to XMAIL.
+    Maybe that part of the code is buggy.
+
+    Date: 20 February 1984 09:13-EST
+    From: Christopher C. Stacy <CSTACY>
+    I am not sure that PFILE1 is being used in all the cases
+    where it should be.  In particular, if I do ":PRINT FOOBAR >",
+    then "$$1^F" does not look for FOOBAR.  Since there is something
+    already in that DIRFN1 slot, it ignores PFILE1.
+
+You are very confused.  Which is funny, because you wrote this code!
+Furthermore, if you go and look at the code now, you will find that I have
+completely re-written it, and that I have taken great pains to duplicate
+the very feature you are complaining about here because I thought you
+thought it was a feature!  Rather than de-tangle this through the mails, we
+should talk about it in person.
+
+Date: 20 February 1984 09:13-EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+Subject: $$^F
+To: BUG-DDT @ MIT-MC
+
+I am not sure that PFILE1 is being used in all the cases
+where it should be.  In particular, if I do ":PRINT FOOBAR >",
+then "$$1^F" does not look for FOOBAR.  Since there is something
+already in that DIRFN1 slot, it ignores PFILE1.
+
+Date: 20 February 1984 02:53 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I thought that XMAIL$$2^F should set the default from BIN to XMAIL.
+Maybe that part of the code is buggy.
+
+Date: 15 February 1984 21:40 EST
+From: Richard M. Stallman <RMS @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+
+Date: 12 February 1984 14:39 EST
+From: Kent M Pitman <KMP @ MIT-MC>
+Subject:  DDT crash
+To: BUG-DDT @ MIT-MC
+
+In MC:CRASH;DDTBUG 12 under ITS 1365...
+
+I got a DDT BUG as I was attaching an accidentally detached tree.
+
+Just before the tree was detached, I had been in Emacs. The Emacs had 
+realtime interrupts enabled for a mode line clock. I don't know if 
+that was related, but one of the first things the tree did upon attaching 
+was to do buffered redisplay of the mode line.
+
+Also, the system went down (scheduled, not crash) shortly (2 minutes)
+after attaching the tree, so the crash might also have been related
+to some interrupt about the system being about to go down that came
+to my job either while it was detached or as I was reattaching.
+
+Date: 11 February 1984 07:37 EST
+From: Robert Elton Maas <REM @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+:REATTACH REM
+ DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES.
+This was an attempt to save my job after MC burped.
+
+Date: 8 February 1984 16:13 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+0$$^F should be special cased like 0^F.
+
+Date: 8 February 1984 13:46 EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  $$^F featurama, continued...
+To: CSTACY @ MIT-MC
+cc: BUG-DDT @ MIT-MC, KLOTZ @ MIT-MC, KMP @ MIT-MC
+In-reply-to: Msg of 8 Feb 1984 02:14 EST from Christopher C. Stacy <CSTACY>
+
+Actually, I would much rather have a hack where if DIRFN2+2n is non-zero,
+then typing FOOn would always set PFILES, while if DIRFN2+2n was zero,
+then it would set PFILE1.
+
+Hmm..  Actually, what you REALLY want is to be able to specify individually
+for each entry in the DIRFN* table exactly how it should behave.  Hmm..  If
+nobody minds I will hack in a feature like this when I have a free hour or
+two.  I'll try and be carefull to allow everybody to get the behavior they
+desire.  (And I'll try to do it in such a way as to not break anyone's
+existing LOGIN file...)
+
+Chris:  Stop hacking DDT and finish the ^_ hack so you can get to JOBTTF
+(which I have something to say to you about sometime).
+
+Date: 8 February 1984 13:19 EST
+From: Kent M Pitman <KMP @ MIT-MC>
+Subject: 
+To: BUG-DDT @ MIT-MC
+
+I think the default for normal  should have been left the same as
+1. Rotated directory listings can be a real pain at slow speeds 
+with heavy buffering. The default should be conservative. People who
+want the current behavior could always set a variable. I certainly 
+intend to patch my init to make  do the old thing; but I think
+there are a lot of people who won't know how to do that.
+
+Date: 8 February 1984 02:56 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+cc: KMP @ MIT-MC, KLOTZ @ MIT-MC
+
+Hmmm, in actuality I made the DIRFN1 entries agree with the
+documentation I gave them, which was wrong if you noticed.
+(ie., several UPs should have been DOWNs, although they
+were shown correctly for the examples given.)
+
+Date: 8 February 1984 02:14 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+Subject:  $$^F featurama, continued...
+To: BUG-DDT @ MIT-MC
+cc: KMP @ MIT-MC, KLOTZ @ MIT-MC
+
+
+I took some suggestions from KMP and have implemented mostly upwards
+compatible extensions to $$^F.  These changes allow you to type the
+names of simple variations on the DIR: frobs you have put in the
+DIRFN1 table (so you don't have to patch as many things). Also, you
+can change your default SNAME as well as default FN1.
+
+If the DIRFN2 slot is zero, if there is no argument, we use the
+default FN1; else if there is an argument we use it and set the
+default FN1. This is like before.
+
+If the DIRFN2 slot has something in it, if there is an argument we use
+that argument instead of ignoring it like we used to.
+
+You will also notice I changed the DIRFN1 table to the settings that
+many people (including me) had patched in their DDT init files, and
+also made the table a little bigger.  This is NOT compatible with the
+older $$^F behaviour!
+
+DIRFN1:	SIXBIT /NAME1/	;Table of $$^F DIR: search options.
+DIRFN2:	SIXBIT /UP/
+	SIXBIT /FIRST/	;$$1^F finds FN1
+	0
+	SIXBIT /SECOND/	;$$2^F finds FN2
+	SIXBIT /BIN/
+	SIXBIT /CDATE/	;$$3^F ascending in creation age
+	SIXBIT /DOWN/
+	SIXBIT /SIZE/	;$$4^F descending in size
+	SIXBIT /DOWN/
+	SIXBIT /NOT/	;$$5^F not backed up
+	SIXBIT /DUMPED/
+	SIXBIT /ONLY/	;$$6^F just link pointers
+	SIXBIT /LINKS/
+
+
+Examples:
+
+FOO1	Shows DIR:FIRST FOO and sets FN1 to FOO
+LISP2	Shows DIR:SECOND LISP
+2		Shows DIR:SECOND BIN
+3		Shows DIR:CDATE DOWN
+UP3		Shows DIR:CDATE UP
+PACK136	Shows DIR:ONLY PACK13
+
+The following is an experimental feature I think I like; it needs to
+be turned on by setting DIRDIR.  $$^F (without a numeric argument)
+does like $$0^F, except that it uses the argument (if any) as the
+default ^R SNAME to set.
+
+Examples:
+
+$$0^F		Does                                   DIR:NAME1 UP
+$$^F		Still does                             DIR:NAME1 UP 
+KLOTZ$$^F	Changes default dir to KLOTZ and does  DIR:NAME1 UP
+DOWN$$0^F	Doesn't hack default dir (KLOTZ), does DIR:NAME1 DOWN
+
+These changes (and ALAN's recent ones) will all take place when I
+install DDT and update the documentation.
+
+Date: 7 February 1984 17:27 EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  ^F - default setting
+To: BUG-DDT @ MIT-MC
+
+(In the source only) I fixed the two places in the code for ^F that think
+they are checking for special devices that should not set the ^R defaults
+to both use the same table.  (One of those places actually seems to work.)
+I also updated the table.
+
+Date: 1 February 1984 04:50 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+Subject:  new DDT installed on MC
+To: BUG-DDT @ MIT-MC
+cc: EPS @ MIT-MC, GSB @ MIT-MC
+
+
+The bug EPS reported in :FJOB has been fixed.
+(I think GSB reported one, but I can't find the report.)
+
+Date: 31 January 1984 22:15 EST
+From: Alan Bawden <ALAN @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+cc: DEVON @ MIT-MC
+In-reply-to: Msg of 31 Jan 1984 21:52 EST from Devon S. McCullough <DEVON>
+
+    Date: 31 January 1984 21:52 EST
+    From: Devon S. McCullough <DEVON>
+    but :mail foo^Z doesn't.
+
+Perhaps someone will explain just what it is that everybody thinks ^Z is
+supposed to mean when you type it directly to DDT.  I know what ^D is for,
+and I know what ^G is for, but as far as I know DDT doesn't do anything
+special for ^Z other than the kill-ring kludge for the SEND command.
+Before deciding what ":MAIL FOO^Z" should do, a more coherent theory of ^Z
+must be designed.  It's a pretty silly thing to waste time about anyway
+given that it can only work when DDT is a toplevel job.
+
+Date: 31 January 1984 21:52 EST
+From: Devon S. McCullough <DEVON @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+but :mail foo^Z doesn't.
+
+Date: 31 January 1984 06:59 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+New DDT version 1449 installed on MC.
+Contains minor change so that :SEND FOO^Z flushes,
+and a TSOPEN TYIC in the Attaching code (maybe will fix JMSK's bug.)
+
+Date: 31 January 1984 00:28 EST
+From: Jacob Moskowitz <JMSK @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+As requested by the "BUG DDT: msg...
+
+	I logged in after (several times) getting disconnected just
+	now.  This time the msg appeared after I answered Y to 
+	--Attach Your Detached Tree--
+
+GASP@MIT-ML 01/26/84 21:31:51
+To: (BUG DDT) at MIT-ML
+Somehow, when I was running SPELL under CRTSTY all operations came to a halt. When I managed to relog on, I was told to send this msg
+
+Date: 24 January 1984 17:04 EST
+From: Paul G. Weiss <WEISS @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I wanted to examine a job, but the user had just logged out.  Here is
+a wallpaper file:
+
+*:fjob ray hactrn
+ EJ* DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES. :walend
+
+
+Date: 24 January 1984 07:23 EST
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I've always found it inconsistent that the --mail-- program offers to delete your mail
+while reading it with $^A does not.  Is this considered a feature?
+You see, I'm always afraid that using ^O to delete my mail file will cause me to lose
+because the mailer could be delivering something at the time.
+
+david
+
+Date: 22 January 1984 23:11 EST
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+
+Date: 9 January 1984 14:35 EST
+From: Kent M Pitman <KMP @ MIT-MC>
+Subject:  [JGA: $$3^F default]
+To: BUG-DDT @ MIT-MC
+
+Date: 9 January 1984 11:30 EST
+From: John G. Aspinall <JGA>
+To:   KMP
+Re:   $$3^F default
+
+I like the new $$^F commands, but boy, what wierd filenames
+show up in the ^R and ^O default.  $$3^F gave me a default of
+^Q ^Q ^Q ^Q ^Q # >
+
+Date: 8 January 1984 14:31 EST
+From: Leigh L. Klotz <KLOTZ @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+Ok, folks, so what state is DDT in now wrt $$n^F?  It sounds useful,
+but this $$440700^F seems a bit cumbersome for folks like me to use.
+Or was it a joke?  I vote for $$n^F where n selects one of a limited
+set of things.  This sixbit stuff seems ridiculous -- why not just use
+^R and the dir device and access it symbolically?
+
+Date: 8 January 1984 04:37 EST
+From: Devon S. McCullough <DEVON @ MIT-MC>
+Subject: $$^F
+To: BUG-DDT @ MIT-MC
+
+I often do <name>$$^F only to get nothing, because I'm defaulted to the
+wrong directory.  It would be nice if I could then do <dir>$$0^F and
+get what I wanted from the first command.  Just plain $$0^F could also
+default to my HSNAME.
+
+Right now I think $$^F and $$0^F are identical, but I suggest that
+$$^F should remember the last function selected and do that.
+
+Instead of $$0^F selecting for <FN1> and $$1^F giving a wide listing,
+how about $$0^F selecting the directory (think of it as <fn0>)
+and $$1^F selecting for <fn1> (consistent with $$2^F for <fn2>)
+
+The old behavior is preserved by initializing the sticky $$^F function
+to select <fn1>.
+
+Date: 6 January 1984 22:11 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+Subject: alt alt to you too!
+To: INFO-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+cc: KMP @ MIT-MC
+
+
+I un-de-generalized the code for $$^F so that you can make all
+the FN2s zero and get the default.  Ie., you can put searches
+in slots besides $$0^F.  I also increased the size of the table
+a little bit.
+
+$$0^F  FIRST <foo>
+$$1^F  NAME1 UP    (verbose listing)
+$$2^F  SECOND <bar>
+$$3^F  CDATE DOWN
+$$4^F  SIZE  DOWN
+$$5^F  ONLY LINKS  (had to put something here....)
+
+
+Date: 6 January 1984 22:02 EST
+From: Kent M Pitman <KMP @ MIT-MC>
+To: ALAN @ MIT-MC
+cc: INFO-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+
+You were right about cstacy's n patch being ridiculously
+ungeneral.  I talked him into something nicely general and
+doesn't require users to be patching DDT in order to make use
+of its full functionality. Under the new scheme, you say
+
+		namen
+
+where name is the fn2 to give to DIR: and n is sixbit for the fn1
+to give. So, for example, 
+
+	UP434441644500	;to get a CDATE UP listing
+
+gives you a CDATE UP listing. Also, the numeric arg is now sticky
+(initially defaulting to 465162636400) so if you specify
+
+	FOO or FOO0
+
+you get the default. This was easy to put in since 0 didn't
+designate a valid filename anyway.
+
+Here's hoping you're satisfied...
+
+Date: 6 January 1984 10:04 EST
+From: Peter Szolovits <PSZ @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I was logged in to MC via supdup over the Chaos net from Oberon (a VAX750
+running VMS).  Someone apparently detached my supdup connection to MC, leaving
+me on Oberon.  When I supdup'd again to MC and tried logging in, I got the
+familiar --Attach Your Detached Tree-- message, typed space to confirm, and
+then saw the following:
+HACTRO$J!:$ Reowned $
+ DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES.
+This I have done.
+
+Date: 5 January 1984 04:55 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+cc: INFO-ITS @ MIT-MC
+
+In DDT 1440 on MC:
+
+In a moment of randomness, I made a minor extension to DDT's $$^F
+directory lister command, and tested and installed it on MC.
+
+$$^F (or $$0^F) does the same thing it always did.
+$$1^F does the same thing too, except that you can now patch in a
+total of three DIR arguments (starting at DIRFN1+2 and DIRFN2+2) and
+do $$2^F and $$3^F.  (In other words, $$n^F searches the two-word
+entry table at DIRFN1 and uses the specified DIR names; the table is
+currently 4 long, allowing you space for three numeric argument
+options. An argument of zero is ignored.)
+
+I put this in because I wanted to use the DIR device more often.
+The default listings you get now are these:
+
+foobar$$0^F DIR:NAME1 foobar
+$$1^F       DIR:NAME1 UP        verbose directory listing
+$$2^F       DIR:CDATE DOWN      sorted by recently created files
+$$3^F       DIR:SIZE  DOWN      sorted by biggest files
+
+Chris
+
+Date: 28 December 1983 22:32 EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  ..DWIM
+To: BUG-DDT @ MIT-MC, GUMBY @ MIT-MC
+cc: GREN @ MIT-MC, Ian @ SRI-NIC
+In-reply-to: Msg of 23 Dec 1983 13:44 EST from David Vinayak Wallace <GUMBY>
+
+    Date: 23 December 1983 13:44 EST
+    From: David Vinayak Wallace <GUMBY>
+        Date: 22 Dec 1983  10:56 PST (Thu)
+        From: Ian Macky <Ian at SRI-NIC>
+        True, but there is a table of special cases somewhere, I believe.  You
+        just need to add DIR to it.
+    I generally don't like having the DIR device my default.  Can't you
+    use a translation or something?
+
+Then why not make this table something users can easily patch in their
+init files?  (Which mostly means making it variable length (terminated with
+a 0?) and moving it to impure storage, I guess...)
+
+Date: 25 December 1983 23:01 EST
+From: Eric P. Scott <EPS @ MIT-MC>
+Subject: BTW, this is not the same as GSB's complaint of 06/04/83
+To: BUG-DDT @ MIT-MC
+
+... :FJOB uname jname  will also trigger it.
+
+					-=EPS=-
+
+Date: 25 December 1983 22:54 EST
+From: Eric P. Scott <EPS @ MIT-MC>
+Subject: DDT BUG: PLEASE DO :BUG DDT DESCRIBING CIRCUMSTANCES.
+To: BUG-DDT @ MIT-MC
+
+*FOOJ!
+*:FJOB BAR
+[No such job!!]
+ FOOJ
+* DDT BUG...
+					-=EPS=-
+
+Date: 23 December 1983 13:44 EST
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+To: Ian @ SRI-NIC
+cc: BUG-DDT @ MIT-MC, GREN @ MIT-MC
+In-reply-to: Msg of 22 Dec 1983  10:56 PST (Thu) from Ian Macky <Ian at SRI-NIC>
+
+    Date: 22 Dec 1983  10:56 PST (Thu)
+    From: Ian Macky <Ian at SRI-NIC>
+    To:   David Vinayak Wallace <GUMBY>
+    cc:   BUG-DDT, GREN
+
+    True, but there is a table of special cases somewhere, I believe.  You
+    just need to add DIR to it.
+
+I generally don't like having the DIR device my default.  Can't you
+use a translation or something?
+
+Date: 22 Dec 1983  10:56 PST (Thu)
+Message-ID: <[SRI-NIC].IAN.22-Dec-83 10:56:00>
+From: Ian Macky <Ian@SRI-NIC>
+To:   David Vinayak Wallace <GUMBY@MIT-MC>
+Cc:   BUG-DDT@MIT-MC, GREN@MIT-MC
+In-reply-to: Msg of 22 Dec 1983  10:44-PST from David Vinayak Wallace <GUMBY at MIT-MC>
+
+True, but there is a table of special cases somewhere, I believe.  You
+just need to add DIR to it.
+
+Date: 22 December 1983 13:44 EST
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+To: GREN @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 22 Dec 1983 12:12 EST from Ian Macky <GREN>
+
+I believe that traditionally, if you changed the directory and your
+device was non-disk, then it was reset to DSK.  Isn't that even
+documented somewhere?  It seems like the right think.
+
+Date: 22 December 1983 12:12 EST
+From: Ian Macky <GREN @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I fixed this in a version of DDT I hacked up, but it never made it into
+the official source:  I did:
+
+*^R dir:cdate down<esc>
+DIR: SYS3; CDATE DOWN	(oops, I wanted GREN;, so)  gren;
+DSK: GREN; CDATE DOWN - FILE NOT FOUND
+
+it turned DIR: into DSK:!  This is extremely easy to fix...
+if I could just remember the place... oh well, want me to do
+it?
+
+Date: 14 November 1983 13:29 EST
+From: Patrick G. Sobalvarro <PGS @ MIT-MC>
+To: ELISHA @ MIT-ML
+cc: BUG-DDT @ MIT-ML
+In-reply-to: Msg of 11/14/83 12:37:31 from ELISHA at MIT-ML
+
+    Date: 11/14/83 12:37:31
+    From: ELISHA at MIT-ML
+    To:   (BUG DDT) at MIT-ML
+
+    I typed f finn@xx
+
+And what happened, you bozo?
+
+
+
+ELISHA@MIT-ML 11/14/83 12:37:31
+To: (BUG DDT) at MIT-ML
+I typed f finn@xx
+
+
+Date: Saturday, 12 November 1983, 23:35-EST
+From: David Vinayak Wallace <Gumby at MIT-MC>
+Subject: I'm getting a strange error message from DDT now, it says
+To: George J. Carrette <GJC at MIT-MC>
+Cc: BUG-DDT at MIT-MC
+In-reply-to: The message of 12 Nov 83 13:00-EST from George J. Carrette <GJC at MIT-MC>
+
+Yow, I'm submitting JCL on MULTICS in DES MOINES!
+
+Date: 12 November 1983 17:19 EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject: //JOB CARD?
+To: GJC @ MIT-MC
+cc: BUG-DDT @ MIT-MC, GUMBY @ MIT-MC, ITS-LOVERS @ MIT-MC
+In-reply-to: Msg of 12 Nov 1983 13:00 EST from George J. Carrette <GJC>
+
+    Date: 12 November 1983 13:00 EST
+    From: George J. Carrette <GJC>
+    I'm getting a strange error message from DDT now, it says
+    //JOB CARD?
+
+Perhaps you have already figured this out, but that probably wasn't an
+error message, probably that was your prompt and someone was hacking you.
+(No, it wasn't me, but I saw Gumby hacked exactly this way the other day.
+One of the nice things about ITS is that friendly hacks like this are
+easy!)
+
+Date: 12 November 1983 13:00 EST
+From: George J. Carrette <GJC @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I'm getting a strange error message from DDT now, it says
+//JOB CARD?
+
+Does this have anything to do with previous life problems I have had,
+such as Fortran programming on the Univac 1108? Could it be related
+to the pagable microcode on the LAMBDA?
+
+Date: 11 November 1983 04:28 EST
+From: William G. Dubuque <WGD @ MIT-MC>
+Sender: BIL @ MIT-MC
+To: BUG-DDT @ MIT-MC
+
+After 'ing out of a send and a couple of more sends I tried to
+ back the stuff from the aborted send. Well, I got the text, but
+I also got pages of random garbage appended on the end also.
+
+Date: 30 October 1983 02:34 EDT
+From: Julian J. Watkins <SOROC @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I got a message telling me I got a DDT BUG: when I tried typing ':msgs'
+
+    SOROC@MC
+
+Date: 25 October 1983 07:41 EDT
+From: Glenn A. Sowell <SOWELL @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+The arpa net died on me (it's not called arpa now , is it?) Only and the Queen know why...
+
+Date: 21 October 1983 10:55 EDT
+From: Kent M. Pitman <KMP @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+When I type multi-line input to ddt commands (eg, in : ... 
+and I type rubout to back over a line or to rub out a tab 
+after having type control-l, the cursor homes to the place the original
+read started rather than to the top of the screen where the last redisplay
+(after the c-l) started from in order to retype the text preceding the
+char i rubbed out.
+
+Date: Wednesday, 19 October 1983, 06:45-EDT
+From: Christopher C. Stacy <CStacy at MIT-MC>
+Subject: ddt question
+To: Pandora B. Berman <CENT at MIT-ML>
+Cc: BUG-DDT at MIT-ML, BUG-RANDOM-PROGRAM at MIT-ML
+In-reply-to: The message of 19 Oct 83 06:38-EDT from Pandora B. Berman <CENT at MIT-ML>
+
+I replied to MBECK.
+
+
+
+Date: 19 October 1983 06:38 EDT
+From: Pandora B. Berman <CENT @ MIT-ML>
+Subject:  ddt question
+To: MBECK @ MIT-ML
+cc: BUG-DDT @ MIT-ML, BUG-RANDOM-PROGRAM @ MIT-ML
+
+    Date: Wed 19 Oct 83 06:26:38-EDT
+    From: Mark Becker <CENT.MBECK%MIT-OZ@MIT-MC.ARPA>
+    Subject: Re: ddt
+    To: CENT@MIT-ML.ARPA
+    Somehow, right after I wrote the original message, I thought it was a
+    little cryptic.  Sorry about that. What I have is a file MBECK BIN, the
+    output from MIDAS. I knew how to load it into core ( MBECK$J $L MBECK
+    BIN ), but don't know how to take a core image and stuff it back onto
+    the disk with the 'adjustments' I made to the core image. I ran into a
+    problem with this program and was trying to run a modified version of
+    it.  But this program expects to have been run using :PROGRAM <text> as
+    opposed to PROGRAM^K . I couldn't figure out how to use :PROGRAM <text>
+    on an in-core program, hence my message to you.
+
+i'm afraid that this is beyond my knowledge of ddt. perhaps someone on
+one of these lists can help you..
+
+Date: 14 October 1983 23:27 EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+There are an absurd number of CRASH;DDTBUG files on MC.
+If someone thinks they have an algorithm for reaping these other than
+the one I am about to employ (flushing all but ones from this week), could
+they enlighten me?
+
+Date: 7 October 1983 01:12 EDT
+From: Gail Zacharias <GZ @ MIT-MC>
+Subject:  DDT 1439
+To: BUG-DDT @ MIT-MC
+
+Has a minor fix to make ..SENDRP/-2 work.
+
+BEN@MIT-ML 09/19/83 15:05:54
+To: (BUG DDT) at MIT-ML
+For no obvious reason, my login init file, BEN;BEN LOGIN,
+no longer tests the terminal speed and initializes my terminal
+as it used to.  It does the other checks for mail, so it is
+being run.  What's up?
+
+
+Date: 10 September 1983 06:38 EDT
+From: Gail Zacharias <GZ @ MIT-MC>
+Subject:  ..SENDRP/-2
+To: BUG-DDT @ MIT-MC
+
+This doesn't seem to work anymore.  It behaves exactly like ..SENDRP/0,
+i.e. all messages are repeated each time you get a new one, until you
+get back to DDT.   I think it used to work once.
+
+Date: 21 August 1983 09:54 EDT
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+In DDT 1437, ITS 1348, on MIT-MC:
+
+Something peculiar happens with more processing in XFILEs.
+MORWARN acts differently towards :IF MORE 0 under conditions
+which look the same to me.  In partcular, an XFILE containing
+
+..MORWAR/-1
+:IF MORE 0
+
+acts differently from the more useful case of
+
+..MORWAR/-1
+:IF MORE 0
+    (:STUFF
+    )
+
+The first example gives the user a (Space=Yes, Rubout=No) prompt, and
+the second does not.  It's not clear to me if this is supposed to work
+at all for "artificial" more breaks.  It confused a user (me too!) who
+was trying to write an init file for someone.
+
+Date: 18 August 1983 08:52 EDT
+From: Deborah A. Summa <DEB @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+
+Date: Wednesday, 3 August 1983, 05:31-EDT
+From: Christopher C. Stacy <CStacy at MIT-MC>
+Subject: not a bug, a feature
+To: Steven A. Swernofsky <SASW at MIT-MC>
+Cc: BUG-DDT at MIT-MC
+In-reply-to: The message of 3 Aug 83 03:26-EDT from Steven A. Swernofsky <SASW at MIT-MC>
+
+    Date: 3 August 1983 03:26 EDT
+    From: Steven A. Swernofsky <SASW @ MIT-MC>
+    Is there an OZ: device?  If so, how is it used?
+    Thank you.
+    -- Steve
+
+There is not, although I might write one. (I started writing one
+a long time ago and did not finish.)  Those magic devices use a
+special protocol which only ITS systems have implemented.  To
+make an OZ device requires writing a different program for a
+different protocol.
+
+
+Date: 3 August 1983 03:26 EDT
+From: Steven A. Swernofsky <SASW @ MIT-MC>
+Subject:  not a bug, a feature
+To: BUG-DDT @ MIT-MC
+cc: SASW @ MIT-MC
+
+Is there an OZ: device?  If so, how is it used?
+
+Thank you.
+-- Steve
+
+Date: 23 July 1983 19:31 EDT
+From: Steven A. Swernofsky <SASW @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I was reading my mail using BABYL, and received one of those YOU HAVE MAIL breakin messages, when my line was disconnected (by an incoming phone call).  When I reconnected the line, I got a DDT BUG: message.  Hence this bug report.
+
+-- Steve
+
+KJB@MIT-DMS 07/15/83 01:35:24
+To: (BUG DDT) at MIT-DMS
+well, i was in ddt and i typed this.
+.lxxx.x.., and it said ddt bug..
+so..
+
+
+SHERRY@MIT-ML 07/05/83 20:25:28
+To: (BUG DDT) at MIT-ML
+q
+
+Date: 3 July 1983 02:21 EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+To: GUMBY @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+In-reply-to: Msg of 3 Jul 1983 01:18 EDT from David Vinayak Wallace <GUMBY>
+
+    Date: 3 July 1983 01:18 EDT
+    From: David Vinayak Wallace <GUMBY>
+    Isn't :intest supposed to do a :massac?
+
+I hope not.  If you want to completely reset things why don't you use U.?
+I believe that then offers to re-run your init file.
+
+Date: 3 July 1983 01:18 EDT
+From: David Vinayak Wallace <GUMBY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+Isn't :intest supposed to do a :massac?
+
+Date: 15 June 1983 00:43 EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject: :GENJOB of all the crazy things...
+To: BUG-DDT @ MIT-MC
+
+:genjob on a job named "J" cycles through the following names:
+J, J0, J00, J000, J0000, J00000, J00001, J00000, J00001, J00000, J00001, etc.
+I think perhaps something better could be arranged.
+
+Date: 5 June 1983 08:42 EDT
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+I would like it if there was a list of programs to run at
+LOGOUT time.
+
+GSB@MIT-ML 06/04/83 16:43:01
+To: (BUG DDT) at MIT-ML
+:fjob single-job-name<return>
+gets a ddt bug.
+
+
+RAY@MIT-ML 06/03/83 13:58:09
+To: (BUG DDT) at MIT-ML
+ML died while I was connected to it from DM.  When I attached my
+detached tree later I got the message DDT BUG: PLEASE DO A :BUG DDT
+DESCRIBING CIRCUMSTANCES.
+
+
+Date: 3 June 1983 09:07 EDT
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: GSB @ MIT-ML
+cc: BUG-INQUIR @ MIT-MC, BUG-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+In-reply-to: Msg of 06/02/83 23:17:22 from GSB at MIT-ML
+
+
+    Date: 06/02/83 23:17:22
+    From: GSB at MIT-ML
+
+    Inqupd is writing out its new database to LSR1 >.  When it runs out of
+    disk space, it closes the incompletely written file.
+
+I think I have fixed my brain damage INQUPD.
+Now it writes out the provisional version to NLSR1 >, and disk-full
+interrupts prevent it from installing it (the interrupt handler had a
+bogus instruction in it.) It will still leave the incomplete version
+around as NLSR1. Later, I will put something in to get this deleted.
+
+    In this case, DDT loses its ass when starting up when not-logged-in.
+    It bugs out before it gets the system symbol table mapped in,
+    making debugging incredibly difficult.
+
+Maybe DDT should do all its initialization before logging the user in
+(and needing to find his hsname.)  I thought it already did this,
+but will look at.
+
+    When CORBLK is doing block-mode map-from-disk, it apparently just
+    tics the aobjn pointer away leaving MPV pages after end-of-file;
+    no indication that you ran off the end.
+
+Is this an ITS bug?
+
+    I made two invalid assumptions when looking at this broken system
+    this afternoon, which caused me to believe that it was horribly trashed.
+    (Maybe it is.  It crashed randomly twice before, which lent great credence
+    to its being trashed.)  One was that DDT would not fail so grossly with
+    the inquir database smashed.  The other was that corblk would not 
+    intentionally act the way it did.
+
+ML *is* having some kind of trouble - COMSAT is repeat processing
+messages from May somehow. I guess the QML is broken somehow?
+Was it restored from tape, or is something even worse happenning?
+See BUG-MAIL.
+
+    I have renamed INQUPD BIN to INQUPD FUCKED.
+
+I put the current database and program on ML.
+Let me know if there are more bugs with it (it ran fine for three
+weeks on MC, but of course some of the error code did not get
+exxcercised there.)
+
+Date: 2 June 1983 23:33 EDT
+From: Glenn S. Burke <GSB @ MIT-MC>
+Subject: am i reading this right?
+To: BUG-INQUIR @ MIT-MC
+cc: BUG-DDT @ MIT-MC
+
+The "provisional" inquir database gets written out as LSR1 2.
+The "installed" one is LSR1 1.
+
+Surely you jest.  This is a joke, right?  Just to keep me on my toes?
+To make sure i don't forget how to look at pdp10 machine code with
+a fucked up ddt?
+
+GSB@MIT-ML 06/02/83 23:17:22
+To: (BUG INQUIR) at MIT-ML, (BUG DDT) at MIT-ML
+Inqupd is writing out its new database to LSR1 >.  When it runs out of
+disk space, it closes the incompletely written file.
+
+In this case, DDT loses its ass when starting up when not-logged-in.
+It bugs out before it gets the system symbol table mapped in,
+making debugging incredibly difficult.
+
+When CORBLK is doing block-mode map-from-disk, it apparently just
+tics the aobjn pointer away leaving MPV pages after end-of-file;
+no indication that you ran off the end.
+
+I made two invalid assumptions when looking at this broken system
+this afternoon, which caused me to believe that it was horribly trashed.
+(Maybe it is.  It crashed randomly twice before, which lent great credence
+to its being trashed.)  One was that DDT would not fail so grossly with
+the inquir database smashed.  The other was that corblk would not 
+intentionally act the way it did.
+
+I have renamed INQUPD BIN to INQUPD FUCKED.
+
+
+Date: 24 May 1983 23:11 EDT
+From: Richard Gregory-Allen <RGA @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+
+Date: 24 May 1983 08:55 EDT
+From: James W. Eastwood <JWE @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+
+Date: 24 May 1983 07:40 EDT
+From: James W. Eastwood <JWE @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+
+
+

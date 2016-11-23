@@ -1,0 +1,1672 @@
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU; 19 Apr 90 22:37:18 EDT
+Received: from BU.EDU by mintaka.lcs.mit.edu id aa23808; 19 Apr 90 22:32 EDT
+Received: from BU-IT.BU.EDU by BU.EDU (1.97) Thu, 19 Apr 90 22:31:46 EDT
+Received: by bu-it.bu.edu (12/20/89); Thu, 19 Apr 90 22:31:38 EDT
+Date:  Thu, 19 Apr 90 22:31:38 EDT
+From: Phil Budne <budd@bu-it.bu.edu>
+Message-Id:  <9004200231.AA04513@bu-it.bu.edu>
+To: DIGEX%AI.AI.MIT.EDU@Mintaka.lcs.mit.edu, 
+    DOOMSDAY%AI.AI.MIT.EDU@Mintaka.lcs.mit.edu
+Subject: Re:  the future of ITS
+Cc: INFO-ITS%AI.AI.MIT.EDU@Mintaka.lcs.mit.edu, 
+    KS-OWNERS%AI.AI.MIT.EDU@Mintaka.lcs.mit.edu
+
+I started on a '10 simulator, but never wrote the 36 bit math needed.
+If you figure a 10 times performance hit a DS3100 or a SPARC might
+yield performance at the KA/KS level.
+
+
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU; 19 Apr 90 16:46:56 EDT
+Received: from life.ai.mit.edu by mintaka.lcs.mit.edu id aa09992;
+          19 Apr 90 16:45 EDT
+Received: from zurich.ai.mit.edu (CHAMARTIN.AI.MIT.EDU) by life.ai.mit.edu (4.1/AI-4.10) id AA15299; Thu, 19 Apr 90 16:45:32 EDT
+Received: from localhost by zurich.ai.mit.edu; Thu, 19 Apr 90 16:43:55 edt
+Date: Thu, 19 Apr 90 16:43:55 edt
+From: "Guillermo J. Rozas" <jinx@zurich.ai.mit.edu>
+Message-Id: <9004192043.AA15383@zurich.ai.mit.edu>
+To: DIGEX%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+Cc: DOOMSDAY%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+    KS-OWNERS%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+    info-its%ai.ai.mit.edu@mintaka.lcs.mit.edu
+In-Reply-To: Doug Humphrey's message of Thu, 19 Apr 90 16:28:03 EDT <723026.900419.DIGEX@AI.AI.MIT.EDU>
+Subject: the future of ITS
+Reply-To: jinx@zurich.ai.mit.edu
+
+I think that the idea of a PDP-10 simulator running on a fast Unix box
+is pretty funny, but would be a very cool hack.  Writing such a
+simulator (except IO instructions) is straight-forward, but changing
+ITS to do virtual IO would probably be far more painful.  It may also
+require a fair amount of hacking from a very small group of people
+(Alan, Moon,...), and that may not be reasonable.
+
+
+
+
+Date: Thu, 19 Apr 90 16:28:03 EDT
+From: Doug Humphrey <DIGEX%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: the future of ITS
+To: DOOMSDAY%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: INFO-ITS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU, KS-OWNERS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <723026.900419.DIGEX@AI.AI.MIT.EDU>
+
+
+I would be interested in getting a discussion going on the future of
+ITS.  This would be open to any kind of strange ideas, from running 
+it on existing KS-10 hardware (at MIT or not) to building a PDP-10
+software simulator that can run on existing and/or future cpus, like
+MIPS chips, etc.  In short, before these machines go away, and all of
+the ITS knowledgable people too far away, lets talk about this stuff.
+
+Another point is that INFO-ITS and KS-OWNERS lists should continue to
+live after the ITS systems go into hibernation so that advances in the 
+ITS state-of-the-art can be announced and discussed.
+
+Comments, etc?
+
+Doug Humphrey
+digex@mit-ai  
+digex@tumtum.cs.umd.edu
+
+Date: Sat, 14 Apr 90 02:40:47 EDT
+From: Alan Bawden <ALAN%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject:  A sad day
+To: INFO-ITS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Reply-to: Alan@Reagan.AI.MIT.EDU
+Message-ID: <721426.900414.ALAN@AI.AI.MIT.EDU>
+
+I'm sorry to announce that we're going to shut down the ITS machines at
+MIT.  As we plan for the final shutdown, the file AI:SYS;GOOD BYE will be
+constantly updated to contain the current plans.  What follows is the
+current contents of that file, and it pretty much explain the situation:
+
+-------
+
+Well, the time has finally arrived to shut down the ITS machines for the
+last time.  The hardware is getting old, and the amount of maintenance
+required to keep things running is getting out of hand.  We've been losing
+ground at an accelerating rate for the last year.
+
+The current plan is to turn AI and MC off for good sometime around the end
+of May.  We plan to take a snapshot of AI and MC's filesystem sometime
+before the final shutdown and to keep this snapshot available on some other
+file server for a couple of months.  People who have a large number of
+files to evacuate, but who lack efficient network access to AI and MC, are
+encouraged to simply wait until after this snapshot becomes available.
+
+AI's second RP06 (SECOND:) will be fixed soon to make it easier for people
+to evacuate themselves.
+
+Files on ITS backup tapes will be unavailable until someone writes the
+program to read them.  Before the shutdown, modest file retrieval requests
+(mail to FILE-R@AI) will be considered.  Extensive or complicated retrieval
+requests will have to wait until after the dust settles after the shutdown.
+Our judgment on these matters will be final.  Sorry.
+
+All mailing lists will have to be moved elsewhere.  If you maintain a
+mailing list on AI or MC, you can save us some trouble by moving your
+mailing list yourself as soon as possible.  We'll try and do something
+responsible about those important lists that don't have obvious owners, but
+don't count on us to save your mailing list for you -- we might decide to
+just let it perish.
+
+Please try not to pester us about the personal inconvenience this causes
+you.  We don't have any suggestions about where you should read your mail
+now, where you can keep your files, or where you can move your mailing
+list, and we wish we knew of another PDP-10 that you could use.  (If you
+-must- pester someone, send mail to DOOMSDAY@AI.)  We do appreciate your
+loyalty to ITS during its lifetime at MIT.  Stop by sometime and we can
+talk about the good old days when dinosaurs ruled the machine room.
+
+As we continue to plan for doomsday, this file will be updated with the
+latest news.
+
+				- Alan
+
+-------
+
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU; 15 Dec 89 16:08:30 EST
+Received: from Gateway.Think.COM by mintaka.lcs.mit.edu id aa15010;
+          15 Dec 89 16:02 EST
+Received: from Fafnir.Think.COM by Think.COM; Fri, 15 Dec 89 16:03:23 -0500
+Return-Path: <gls@Think.COM>
+Received: from verdi.think.com by fafnir.think.com; Fri, 15 Dec 89 15:58:28 EST
+Received: from ungar.think.com by verdi.think.com; Fri, 15 Dec 89 15:56:16 EST
+From: Guy Steele <gls@think.com>
+Received: by ungar.think.com; Fri, 15 Dec 89 15:56:15 EST
+Date: Fri, 15 Dec 89 15:56:15 EST
+Message-Id: <8912152056.AA29450@ungar.think.com>
+To: Ed@alderaan.scrc.symbolics.com
+Cc: gumby@gang-of-four.stanford.edu, info-its@ai.ai.mit.edu, 
+    unix-haters@ai.ai.mit.edu, gls@think.com
+In-Reply-To: Ed Schwalenberg's message of Fri, 15 Dec 89 14:56 EST <19891215195628.4.ED@PEREGRINE.SCRC.Symbolics.COM>
+Subject: TTY MESSAGE FROM A UNIX WEENIE:  LOSSAGE?
+
+   Date: Fri, 15 Dec 89 14:56 EST
+   From: Ed Schwalenberg <Ed@ALDERAAN.SCRC.Symbolics.COM>
+
+       Date: Thu, 14 Dec 89 19:57:05 -0800
+       From: David Vinayak Wallace <gumby@gang-of-four.stanford.edu>
+
+       Those who never used TS BEAR may not recognise the message above, but
+       those who do may be amused by how the cookie bear got permuted by the
+       time the unix weenies heard about it.  Then again, note his last
+       question...
+
+       >From: kim@watsup.waterloo.edu (T. Kim Nguyen)
+       Subject: "cookie"
+       Date: 11 Dec 89 09:13:31 GMT
+
+       While the machine was being dismantled, someone took a look inside and
+       found this circuit board hooked into the machine.  Guess what was
+       asking for cookies, and had not been found, even after people searched
+       high and low through the software for the cookie monster...
+
+   I heard this story when I entered MIT in September 1974.  The version I
+   heard allegedly took place at Dartmouth, and the cookie monster wouldn't
+   go away even after the OS was changed; it took a TTY33 repairperson to
+   discover the hardware hack in the system console.
+
+   I wrote a cookie program for the PDP-8 at MIT's Weather Radar group when
+   I worked there in the summer of 1975, based on the story I had heard.
+   I wasn't aware of TS BEAR until much later, although I don't know when
+   it was written or what inspiration its author (who I think was GLS) had.
+
+I wrote TS BEAR after hearing an oral description of a similar
+hack on (as I recall) Multics.  Richard Feynman was perhaps its
+most famous victim (it was I who sicced it on him--blush).
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU; 15 Dec 89 15:51:16 EST
+Received: from [128.81.41.109] by mintaka.lcs.mit.edu id aa14529;
+          15 Dec 89 15:44 EST
+Received: from PEREGRINE.SCRC.Symbolics.COM by ALDERAAN.SCRC.Symbolics.COM via CHAOS with CHAOS-MAIL id 358313; 15 Dec 89 14:59:03 EST
+Date: Fri, 15 Dec 89 14:56 EST
+From: Ed Schwalenberg <Ed@alderaan.scrc.symbolics.com>
+Subject: TTY MESSAGE FROM A UNIX WEENIE:  LOSSAGE?
+To: David Vinayak Wallace <gumby@gang-of-four.stanford.edu>, 
+    info-its@ai.ai.mit.edu
+cc: unix-haters@ai.ai.mit.edu, gls@think.com
+In-Reply-To: <8912150357.AA06208@Gang-of-Four.Stanford.EDU>
+Message-ID: <19891215195628.4.ED@PEREGRINE.SCRC.Symbolics.COM>
+
+    Date: Thu, 14 Dec 89 19:57:05 -0800
+    From: David Vinayak Wallace <gumby@gang-of-four.stanford.edu>
+
+    Those who never used TS BEAR may not recognise the message above, but
+    those who do may be amused by how the cookie bear got permuted by the
+    time the unix weenies heard about it.  Then again, note his last
+    question...
+
+    >From: kim@watsup.waterloo.edu (T. Kim Nguyen)
+    Subject: "cookie"
+    Date: 11 Dec 89 09:13:31 GMT
+
+    While the machine was being dismantled, someone took a look inside and
+    found this circuit board hooked into the machine.  Guess what was
+    asking for cookies, and had not been found, even after people searched
+    high and low through the software for the cookie monster...
+
+I heard this story when I entered MIT in September 1974.  The version I
+heard allegedly took place at Dartmouth, and the cookie monster wouldn't
+go away even after the OS was changed; it took a TTY33 repairperson to
+discover the hardware hack in the system console.
+
+I wrote a cookie program for the PDP-8 at MIT's Weather Radar group when
+I worked there in the summer of 1975, based on the story I had heard.
+I wasn't aware of TS BEAR until much later, although I don't know when
+it was written or what inspiration its author (who I think was GLS) had.
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU; 15 Dec 89 12:51:50 EST
+Received: from orville.nas.nasa.gov by mintaka.lcs.mit.edu id aa09814;
+          15 Dec 89 12:45 EST
+Received: Fri, 15 Dec 89 09:35:06 PST by orville.nas.nasa.gov (5.59/1.2)
+Date: Fri, 15 Dec 89 09:35:06 PST
+From: John Lekashman <lekash@orville.nas.nasa.gov>
+Message-Id: <8912151735.AA21356@orville.nas.nasa.gov>
+To: gumby@gang-of-four.stanford.edu, info-its@AI.ai.mit.edu
+Subject: Re:  TTY MESSAGE FROM A UNIX WEENIE:  LOSSAGE?
+Cc: unix-haters@AI.ai.mit.edu
+
+The answer is yes.
+Either it really happened, or all of Seymour Papert's students
+are on drugs is true.  (oooooeeeee-eeeee).  At least back in
+the 70s.
+				john
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU; 14 Dec 89 23:01:56 EST
+Received: from Gang-of-Four.Stanford.EDU by mintaka.lcs.mit.edu id aa22227;
+          14 Dec 89 22:57 EST
+Received: by Gang-of-Four.Stanford.EDU (5.61/inc-1.0)
+	id AA06208; Thu, 14 Dec 89 19:57:05 -0800
+Date: Thu, 14 Dec 89 19:57:05 -0800
+From: David Vinayak Wallace <gumby@gang-of-four.stanford.edu>
+Message-Id: <8912150357.AA06208@Gang-of-Four.Stanford.EDU>
+To: info-its@ai.ai.mit.edu
+Cc: unix-haters@ai.ai.mit.edu
+Subject: TTY MESSAGE FROM A UNIX WEENIE:  LOSSAGE?
+
+Those who never used TS BEAR may not recognise the message above, but
+those who do may be amused by how the cookie bear got permuted by the
+time the unix weenies heard about it.  Then again, note his last
+question...
+
+Makes one wonder what the loser who wrote the Canonical Losing Unix
+Mailer thought he was writing.
+
+>From: kim@watsup.waterloo.edu (T. Kim Nguyen)
+Newsgroups: alt.folklore.computers
+Subject: "cookie"
+Message-ID: <KIM.89Dec11041331@watsup.waterloo.edu>
+Date: 11 Dec 89 09:13:31 GMT
+
+OK, here's another one I heard about.  This one (I was told) happened
+at MIT, back in the 70s (oooooeeeee-ooooo), on some big network type
+machine.  At the same time every day, a message would appear on
+people's terminals, saying "Give me a cookie".  And if they did
+nothing, the machine would burp and kill their process or something.
+Eventually someone, in response to that message, typed "cookie", and
+the machine said "thanks" and continued working normally.  For the
+remainder of the machine's lifetime, people would type "cookie" at the
+same time every day and take it for granted that they had to do this.
+
+While the machine was being dismantled, someone took a look inside and
+found this circuit board hooked into the machine.  Guess what was
+asking for cookies, and had not been found, even after people searched
+high and low through the software for the cookie monster...
+
+So -- did this really happen, or are all of Seymour Papert's students
+on drugs?  :-)
+
+--
+T. Kim Nguyen 				  kim@watsup.waterloo.{edu|cdn}
+					        kim@watsup.uwaterloo.ca
+			    {uunet|utzoo|utai|decvax}watmath!watsup!kim
+Systems Design Engineering  --  University of Waterloo, Ontario, Canada
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 10 Sep 89 18:45:52 EDT
+Received: from arisia.Xerox.COM by mintaka.lcs.mit.edu id aa23016;
+          10 Sep 89 18:37 EDT
+Received: from roo.parc.Xerox.COM by arisia.Xerox.COM with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA19688; Sun, 10 Sep 89 15:33:12 -0700
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA03302; Sun, 10 Sep 89 15:36:37 PDT
+Date: Sun, 10 Sep 89 15:34 PDT
+From: Alan Bawden <bawden@parc.xerox.com>
+Subject: 25th Anniversary of 36 Bits
+To: Info-ITS%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu
+Supersedes: <19890910220047.1.ALAN@MR-BUN.parc.xerox.com>
+Comments: There is too a host named MINTAKA.LCS.MIT.EDU.  Try again, Unix braindeath.
+Message-Id: <19890910223434.2.ALAN@MR-BUN.parc.xerox.com>
+
+Article 471 of comp.org.decus:
+From: clive@pp.ACA.MCC.COM (Clive Dawson)
+Newsgroups: comp.arch,comp.org.decus
+Subject: 25th Anniversary of 36 Bits
+Keywords: 36-bits DEC-10 DEC-20 DECUS
+Date: 5 Sep 89 17:05:12 GMT
+Organization: MCC, Austin, TX
+
+[The number of people who contributed to the recent discussion on
+Digital's 36-bit architecture made it seem appropriate to post this
+message here.  My apologies for straying from the main subject
+matter.]
+
+A special event will take place at the Fall DECUS Symposium in Anaheim,
+California, November 6-10, 1989: The 25th Anniversary of 36-bit systems
+will be celebrated.  In 1964, Digital announced the PDP-6.  Twenty-five
+years later, the 36-bit architecture is still here serving a loyal
+customer base.
+
+The celebration will take place on the evening of Monday, November 6,
+1989.  The usual DEC 10/20 Update Session will be held from 3-5 PM.
+Last-minute announcements regarding Anniversary events will be made at
+this session, as well as in the Monday edition of Update.Daily (the
+Symposium newspaper).  A meeting room in one of the Symposium hotels
+(Hilton or Marriott) will be made available for the anniversary
+events, which include:
+
+	-- 36-Bit JEOPARDY!
+		In the tradition of the 36-bit Trivia Bowl held at the
+		20th Anniversary celebration,  experts on the  history
+		and folklore of  36-bit systems  will compete  against
+		each other.  Come and match wits with them!
+
+	-- Memorabilia Exhibit and Swap
+		You are  encouraged to  bring old  manuals,  listings,
+		pieces of  hardware  (e.g. KA  and/or  KI  consoles!),
+		posters, buttons, tapes, and  any other items  related
+		to 36-bit  systems  for  exhibiting  and/or  swapping.
+		Table space will be made available.
+
+	-- Anniversary Dinner 
+
+		Dinner plans  are not  yet firm.   It will  either  be
+		catered by the hotel  or we will  adjourn to a  nearby
+		restaurant. 
+
+	-- 36-Bit Magic & War Stories
+		Following dinner we  will swap war  stories and  other
+		legends of  36-bit  lore.   One of  the  most  popular
+		events of  the 1984  celebration will  be repeated:  a
+		reading of several infamous  SPR's (and their  equally
+		infamous replies.)  Come prepared to share share  your
+		favorite  stories.   Prizes  for  the  best  will   be
+		awarded.
+
+Note that these four events will NOT appear in the DECUS schedule
+since they are not official DECUS functions (and therefore do not
+require conference registration.)  If you are planning to attend any
+of the 25th Anniversary events, please notify me as soon as possible,
+since we need to get a reasonable estimate on the number of people to
+expect.  (Dinner plans depend on this, so please try not to delay.)
+	
+	E-mail:    Internet: Clive@MCC.COM
+                   UUCP:  ...!cs.utexas.edu!pp!clive
+	U.S. mail: MCC, 3500 West Balcones Center, Austin, TX 78759
+	Phone:	   (512) 338-3430
+
+This will also enable us to create a mailing list for any last minute
+announcements regarding the events.  If you would like table space for
+exhibits, please mention this.  Suggestions regarding dinner plans are
+also welcome.  It may be difficult to find a reasonable restaurant
+nearby that could handle this.  The 20th anniversary dinner was done
+by the hotel at a cost of $36/person (what else?!).  Is this a
+reasonable fee?  If not, let me know how much you would be willing to
+pay.
+
+This message is being sent to the TOPS-20 mailing list and the
+comp.arch and comp.org.decus news groups.  Please redistribute as you
+see fit and pass the word to other 36-bitters who may not otherwise
+find out about this.
+
+See you in Anaheim!
+
+Clive Dawson
+
+Received: from ames.arc.nasa.gov (TCP 20031411003) by AI.AI.MIT.EDU  6 Oct 88 12:34:47 EDT
+Received: Thu, 6 Oct 88 09:23:05 PDT by ames.arc.nasa.gov (5.59/1.2)
+Date: Thu, 6 Oct 88 09:24:05 PST
+From: geoff@Fernwood.MPK.CA.US (the tty of Geoff Goodfellow)
+Subject: Re: License plate curiosity...
+Message-Id: <8810060924.2.UUL1.3#948@Fernwood.MPK.CA.US>
+To: Ed@ALDERAAN.SCRC.Symbolics.COM
+Cc: tops-20@score.stanford.edu, info-its@ai.ai.mit.edu, hic@symbolics.com,
+        pgs@ai.ai.mit.edu, gls@think.com, vaf@score.stanford.edu
+In-Reply-To: Your message of Wed 5 Oct 88 17:27:28-PDTFrom: Vince Fuller <VAF@Score.Stanford.EDU>
+
+i still have California JFCL.
+i believe JRST 4 belongs to Ken Olum (kdo@lucid.com).
+g
+
+
+Received: from Think.COM (TCP 1201000006) by AI.AI.MIT.EDU  6 Oct 88 12:05:10 EDT
+Return-Path: <barmar@Think.COM>
+Received: from sauron.think.com by Think.COM; Thu, 6 Oct 88 11:16:46 EDT
+Received: from OCCAM.THINK.COM by sauron.think.com; Thu, 6 Oct 88 12:00:28 EDT
+Date: Thu, 6 Oct 88 12:01 EDT
+From: Barry Margolin <barmar@Think.COM>
+Subject: License plate curiosity...
+To: Ed Schwalenberg <Ed@alderaan.scrc.symbolics.com>
+Cc: Vince Fuller <VAF@score.stanford.edu>, tops-20@score.stanford.edu,
+        info-its@ai.ai.mit.edu, geoff@fernwood.mpk.ca.us,
+        hic@alderaan.scrc.symbolics.com, pgs@ai.ai.mit.edu, gls@Think.COM
+In-Reply-To: <19881006144203.6.ED@BLACK-BIRD.SCRC.Symbolics.COM>
+Message-Id: <19881006160115.7.BARMAR@OCCAM.THINK.COM>
+
+A couple of weeks ago I was walking through the Lotus parking lot by
+Cambridge Gas & Electric and saw the license plate CAR-CDR.  Anyone know
+whose this is?
+
+                                                barmar
+
+Received: from ALDERAAN.SCRC.Symbolics.COM (TCP 20024224555) by AI.AI.MIT.EDU  6 Oct 88 10:44:15 EDT
+Received: from BLACK-BIRD.SCRC.Symbolics.COM by ALDERAAN.SCRC.Symbolics.COM via CHAOS with CHAOS-MAIL id 227033; Thu 6-Oct-88 10:42:12 EDT
+Date: Thu, 6 Oct 88 10:42 EDT
+From: Ed Schwalenberg <Ed@ALDERAAN.SCRC.Symbolics.COM>
+Subject: License plate curiosity...
+To: Vince Fuller <VAF@Score.Stanford.EDU>
+cc: tops-20@Score.Stanford.EDU, info-its@AI.AI.MIT.EDU, geoff@fernwood.mpk.ca.us,
+    hic@ALDERAAN.SCRC.Symbolics.COM, pgs@AI.AI.MIT.EDU, gls@think.com
+In-Reply-To: <12436116360.19.VAF@Score.Stanford.EDU>
+Message-ID: <19881006144203.6.ED@BLACK-BIRD.SCRC.Symbolics.COM>
+
+    Date: Wed 5 Oct 88 17:27:28-PDT
+    From: Vince Fuller <VAF@Score.Stanford.EDU>
+
+    The other day I saw a California licence plate that read "JRST 4" (I guess you
+    can't get commas on licence plates...). Out of curiosity, who is the owner of
+    this plate?
+
+	    --Vince
+    -------
+
+Hmm.  I thought this was Geoff Goodfellow's, but SAIL:AIWORD.RF[UP,DOC]
+tells me he has JFCL.
+
+HIC got Massachusetts HLRZ (the PDP-10 instruction that implements
+the "car" operation of Lisp); I believe this vehicle and plate is
+still around in the possession of PGS.
+
+I had FOOBAR in Nevada and later in Massachusetts; I still have
+the physical plates from Nevada, though the vehicle which wore
+both sets is long since deceased.
+
+There used to be a rather extensive discussion of this stuff in the
+jargon file(s), but it seems to have evaporated, except for the single
+note about JFCL.
+
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by AI.AI.MIT.EDU  5 Oct 88 21:09:41 EDT
+Return-Path: <VAF@Score.Stanford.EDU>
+Received: from Score.Stanford.EDU by XX.LCS.MIT.EDU with TCP/SMTP; Wed 5 Oct 88 20:36:04-EDT
+Date: Wed 5 Oct 88 17:27:28-PDT
+From: Vince Fuller <VAF@Score.Stanford.EDU>
+Subject: License plate curiosity...
+To: tops-20@Score.Stanford.EDU
+Office: Pine Hall 167
+Phone:  415-723-6860
+Message-ID: <12436116360.19.VAF@Score.Stanford.EDU>
+ReSent-Date: Wed 5 Oct 88 21:06:17-EDT
+ReSent-From: Rob Austein <SRA@XX.LCS.MIT.EDU>
+ReSent-To: info-its@AI.AI.MIT.EDU
+ReSent-Message-ID: <12436123427.45.SRA@XX.LCS.MIT.EDU>
+
+The other day I saw a California licence plate that read "JRST 4" (I guess you
+can't get commas on licence plates...). Out of curiosity, who is the owner of
+this plate?
+
+	--Vince
+-------
+
+Date: Fri, 16 Sep 88 00:16:04 EDT
+From: Peter Lothberg <ROLL@AI.AI.MIT.EDU>
+Subject: The "crack team", is dissasembling MX, for it's trip to Sweden
+To: INFO-ITS@AI.AI.MIT.EDU, POOR-MX@AI.AI.MIT.EDU
+Message-ID: <444460.880916.ROLL@AI.AI.MIT.EDU>
+
+
+The crack team has begun to work;
+
+A lot of the documentation for MX (KL-10) must be spread out, i
+can't find it around the machine.
+
+So all of you that has bits and pices, bring it to the 9:th floor
+before sunday, please.
+
+
+(As the system will not fill the container more than 40% or so,
+ we vold like donations of other stuff, like Lisp-machines, AAA terminals,
+ a IMP, Conection machines, retired 2060's etc, (I'm not joking...))
+
+-Peter
+
+Date: Thu,  8 Sep 88 21:39:25 EDT
+From: "Pandora B. Berman" <CENT@AI.AI.MIT.EDU>
+Subject: The end of the world as we used to know it
+To: (*MSG *ITS)@AI.AI.MIT.EDU, ARPANET-BBOARDS@AI.AI.MIT.EDU,
+    INFO-ITS@AI.AI.MIT.EDU
+Message-ID: <439827.880908.CENT@AI.AI.MIT.EDU>
+
+"The time has come," said LCS,
+    "MX at last must go.
+Its day has gone.  We need that space
+    Most urgently."  And so
+Before we crate it, let us give
+    A final cheerio.
+
+Once there was a KL-10 called MIT-MC which belonged to the Macsyma
+Consortium.  It provided Macsyma, the symbolic algebra system, to
+researchers all over the world, and mail gatewaying and mailing list
+support to a large fraction of the Arpanet.  Things continued in this
+fashion from 1975 to 1983.
+
+When the Macsyma Consortium dissolved in 1983, MC turned to providing
+cycles for MIT's Laboratory for Computer Science, and continued supporting
+much of the Arpanet's mail service.  But the machine itself was growing old
+and cranky.  In 1986, the mail services were moved to a smaller, more
+maintainable machine (a KS-10), and the name "MC" was moved with them.
+But the KL-10 continued to run under the new name "MX".
+
+Now the end has come.  MX was down cold for several months, and has only
+been revived recently to copy some old 7-track tapes.  LCS can't keep MX
+any longer -- it needs the space for other purposes.  So the KL is being
+sent to the Home for Aged But Beloved PDP-10s; a crack team of hardware
+hackers will arrive next week to dismantle it and take it back with them to
+Sweden.
+
+In celebration of this momentous event, we are holding a small farewell
+gathering:
+                         Friday, 16 September 1988
+                                   16:00
+                          NE43-8th floor playroom
+                  (545 Technology Square, Cambridge, MA)
+
+Reservations are strenuously requested (though not strictly necessary) --
+we need a head count so we can figure out how many trays of institutional
+brownies to order.  Send yours to:
+                            CENT@AI.AI.MIT.EDU
+
+Offers of refreshement are also very welcome -- do you think we have any
+budget for this kind of thing?  Send all such offers also to CENT as above.
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 12 Mar 88 11:35:46 EST
+Received: from AI.AI.MIT.EDU (CHAOS 3130) by MC.LCS.MIT.EDU 12 Mar 88 11:24:33 EST
+Date: Sat, 12 Mar 88 11:24:38 EST
+From: "Christopher M. Maeda" <MAEDA@AI.AI.MIT.EDU>
+Subject: UMass ITS's
+To: mike@OZ.AI.MIT.EDU
+cc: info-its@MC.LCS.MIT.EDU
+Message-ID: <340451.880312.MAEDA@AI.AI.MIT.EDU>
+
+I heard of a pretty big Intelligent Tutoring Systems effort 
+going on at UMass.  I have the paper at home if you want it.
+They aren't really doing anything new, just applying AI to a 
+new area.  The most interesting thing about the paper is that
+they continually use the acronym ITS to describe their systems.
+
+Chris
+
+
+Received: from MEAD.SCRC.Symbolics.COM (TCP 20024224752) by AI.AI.MIT.EDU  7 Mar 88 15:58:19 EST
+Received: from BLACK-BIRD.SCRC.Symbolics.COM by MEAD.SCRC.Symbolics.COM via CHAOS with CHAOS-MAIL id 141317; Mon 7-Mar-88 15:58:00 EST
+Date: Mon, 7 Mar 88 15:57 EST
+From: Ed Schwalenberg <Ed@MEAD.SCRC.Symbolics.COM>
+Subject: Re: [ota: SPACE Digest V8 #156]
+To: Rob Austein <SRA@XX.LCS.MIT.EDU>, MAEDA@AI.AI.MIT.EDU
+cc: postmaster@MC.LCS.MIT.EDU, MarkL@ALLSPICE.LCS.MIT.EDU,
+    Info-ITS@AI.AI.MIT.EDU
+In-Reply-To: <12380322663.23.SRA@XX.LCS.MIT.EDU>
+Message-ID: <880307155748.0.ED@BLACK-BIRD.SCRC.Symbolics.COM>
+
+    Date: Sun 6 Mar 88 23:23:32-EST
+    From: Rob Austein <SRA@XX.LCS.MIT.EDU>
+
+	Date: Sun,  6 Mar 88 14:22:49 EST
+	From: "Christopher M. Maeda" <MAEDA@AI.AI.MIT.EDU>
+
+	The following was posted to space digest in a discussion about 
+	remote logins to the moon.,,
+    [Note COMSAT ".." lossage here^^.]
+
+	    From: tektronix!reed!douglas@ucbvax.berkeley.edu  (P Douglas Reeder)
+	    Subject: Re: data and long distances
+
+	    The distance problem applies to satelites in geosynchonous
+	    orbit, as well.  radio wave take a noticeable fraction of a
+	    second to get there and back.  That would play hell with high
+	    baud rates if not accounted for.  A comsat expert might know
+	    how it's done.
+
+    For interplanetary stuff you'd want to use a batched mail protocol
+    like BSMTP over a high bandwidth transmission protocol like NETBLT for
+    mail.  You could probably get away with SMTP to Lunagrad (Moonbase
+    doesn't look like it's going to be an issue any time soon).
+
+    Remote login will be bad no matter what.  The best you could do would
+    be something like RMS's local editing protocol, again using something
+    like NETBLT for transmission so that at least screen updates would be
+    fast once they arrived.
+
+I actually tried using a computer in Miami from Antarctica via a geosynch
+satellite.  It was, er, painful.  But I did a fun experiment too: I did
+an analog loopback through the satellite, and watched my characters echo
+on the screen.  Then I tried typing a character, and while it was on its
+way up and back I digitally looped back my end.  After about 6 passes the
+character would begin to decay:
+	aaaaaabp~~~~~~<rubout><rubout><rubout>
+Another satellite hacker (the gentleman in Miami) ran a PDP-11 to the satellite,
+ran the analog downlink back up to another channel on the same satellite, then
+to a terminal, for a total delay of about .75 sec.
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  6 Mar 88 23:50:25 EST
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  6 Mar 88 23:32:24 EST
+Date: Sun 6 Mar 88 23:23:32-EST
+From: Rob Austein <SRA@XX.LCS.MIT.EDU>
+Subject: Re: [ota: SPACE Digest V8 #156]
+To: MAEDA@AI.AI.MIT.EDU
+cc: info-its@MC.LCS.MIT.EDU, postmaster@MC.LCS.MIT.EDU,
+    MarkL@ALLSPICE.LCS.MIT.EDU
+In-Reply-To: <336939.880306.MAEDA@AI.AI.MIT.EDU>
+Message-ID: <12380322663.23.SRA@XX.LCS.MIT.EDU>
+
+    Date: Sun,  6 Mar 88 14:22:49 EST
+    From: "Christopher M. Maeda" <MAEDA@AI.AI.MIT.EDU>
+
+    The following was posted to space digest in a discussion about 
+    remote logins to the moon.,,
+[Note COMSAT ".." lossage here^^.]
+
+    	From: tektronix!reed!douglas@ucbvax.berkeley.edu  (P Douglas Reeder)
+    	Subject: Re: data and long distances
+
+    	The distance problem applies to satelites in geosynchonous
+    	orbit, as well.  radio wave take a noticeable fraction of a
+    	second to get there and back.  That would play hell with high
+    	baud rates if not accounted for.  A comsat expert might know
+    	how it's done.
+
+For interplanetary stuff you'd want to use a batched mail protocol
+like BSMTP over a high bandwidth transmission protocol like NETBLT for
+mail.  You could probably get away with SMTP to Lunagrad (Moonbase
+doesn't look like it's going to be an issue any time soon).
+
+Remote login will be bad no matter what.  The best you could do would
+be something like RMS's local editing protocol, again using something
+like NETBLT for transmission so that at least screen updates would be
+fast once they arrived.
+
+You might also want to ask somebody at BBN about the current tuning of
+the ARPANET (net 10.0.0.0 itself): one of the three transcontinental
+channels is a comsat link, the other two are land lines, and all hell
+broke loose for the few days between when they installed the comsat
+link and when they got it tuned properly.
+-------
+
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  6 Mar 88 20:20:27 EST
+Received: from AI.AI.MIT.EDU (CHAOS 3130) by MC.LCS.MIT.EDU  6 Mar 88 19:56:02 EST
+Date: Sun,  6 Mar 88 14:22:49 EST
+From: "Christopher M. Maeda" <MAEDA@AI.AI.MIT.EDU>
+Subject:  [ota: SPACE Digest V8 #156]
+To: info-its@MC.LCS.MIT.EDU, postmaster@MC.LCS.MIT.EDU
+Message-ID: <336939.880306.MAEDA@AI.AI.MIT.EDU>
+
+
+The following was posted to space digest in a discussion about 
+remote logins to the moon.,,
+
+	From: tektronix!reed!douglas@ucbvax.berkeley.edu  (P Douglas Reeder)
+	Subject: Re: data and long distances
+
+	The distance problem applies to satelites in geosynchonous
+	orbit, as well.  radio wave take a noticeable fraction of a
+	second to get there and back.  That would play hell with high
+	baud rates if not accounted for.  A comsat expert might know
+	how it's done.
+
+Chris
+
+
+
+Received: from SUMEX-AIM.STANFORD.EDU (TCP 1200000070) by AI.AI.MIT.EDU 27 Oct 87 02:52:35 EST
+Received: from PANDA.COM by SUMEX-AIM.STANFORD.EDU with Cafard; Mon, 26 Oct 87 23:49:58 PST
+Date: Mon, 26 Oct 87 23:06:19 PST
+From: Mark Crispin <MRC@PANDA.COM>
+Subject: Re: ITS outlives Multics?!
+To: GUMBY@AI.AI.MIT.EDU
+cc: Info-ITS@AI.AI.MIT.EDU
+In-Reply-To: <275589.871027.GUMBY@AI.AI.MIT.EDU>
+Postal-Address: 1802 Hackett Ave.; Mountain View, CA  94043-4431
+Phone: +1 (415) 968-1052
+Message-ID: <12345749289.8.MRC@PANDA.COM>
+
+TOPS-10 and TOPS-20 both support 30-bit address spaces (although the KL
+CPU only allows 23).  Having written a large program using 30-bit addressing,
+I can assure you it isn't as kludgy as its detractors claim, and certainly a
+lot cleaner than some of the current faddish architectures.
+
+I'm sure some bright hacker could figure out how to convert ITS to 30-bit
+addressing.
+-------
+
+Date: Tue, 27 Oct 87 01:30:27 EST
+From: David Vinayak Wallace <GUMBY@AI.AI.MIT.EDU>
+Subject:  ITS outlives Multics?!
+To: "MRC@PANDA.COM"@AI.AI.MIT.EDU
+cc: INFO-ITS@AI.AI.MIT.EDU
+In-reply-to: Msg of Mon 26 Oct 87 10:04:15 PST from Mark Crispin <MRC at PANDA.COM>
+Message-ID: <275589.871027.GUMBY@AI.AI.MIT.EDU>
+
+    Date: Mon, 26 Oct 87 10:04:15 PST
+    From: Mark Crispin <MRC at PANDA.COM>
+
+    We'll need some new CPU's though.  36-bits are decidedly out of fashion
+    at Stanford, but perhaps there are some MIT VLSI hackers who might want
+    to make a PDP-10 on a chip?
+
+But the 18-bit address space is a lose.  Since you're making a new
+chip or chip set anyway, why not double the word length?  36-bit
+halfwords should keep people happy for a while.  We could have more
+registers, too.
+
+Received: from SUMEX-AIM.STANFORD.EDU (TCP 1200000070) by AI.AI.MIT.EDU 26 Oct 87 14:16:23 EST
+Received: from PANDA.COM by SUMEX-AIM.STANFORD.EDU with Cafard; Mon, 26 Oct 87 11:08:04 PST
+Date: Mon, 26 Oct 87 10:04:15 PST
+From: Mark Crispin <MRC@PANDA.COM>
+Subject: Re: ITS outlives Multics?!
+To: ALAN@AI.AI.MIT.EDU
+cc: INFO-ITS@AI.AI.MIT.EDU
+In-Reply-To: <275113.871026.ALAN@AI.AI.MIT.EDU>
+Postal-Address: 1802 Hackett Ave.; Mountain View, CA  94043-4431
+Phone: +1 (415) 968-1052
+Message-ID: <12345606917.6.MRC@PANDA.COM>
+
+That sounds good.  I'm sure the ITS hackers in 2155 will be able to think
+of something clever to solve the problem then.  TOPS-20's date format
+dies at the last 1/3 second of Wednesday, 7 August 2576 GMT (here on the
+west coast, just before 5PM PDT), so we have almost 589 years to worry
+about that.
+
+We'll need some new CPU's though.  36-bits are decidedly out of fashion
+at Stanford, but perhaps there are some MIT VLSI hackers who might want
+to make a PDP-10 on a chip?
+-------
+
+Date: Mon, 26 Oct 87 11:58:03 EST
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  ITS outlives Multics?!
+To: MRC@AI.AI.MIT.EDU, INFO-ITS@AI.AI.MIT.EDU
+In-reply-to: Msg of Sun 25 Oct 87 13:59:55 PST from Mark Crispin <MRC at PANDA.COM>
+Message-ID: <275113.871026.ALAN@AI.AI.MIT.EDU>
+
+    Date: Sun, 25 Oct 87 13:59:55 PST
+    From: Mark Crispin <MRC at PANDA.COM>
+    ...
+    I was quoted in a trade journal as saying that PANDA/TOPS-20
+    will see the century tick.  What about ITS?  We're going to
+    have to do something about that sixbit date format, you know!
+
+(I intend to continue using ITS into retirement...)
+
+The SIXBIT date format you are thinking of (from the .RDATE uuo) is for
+simple programs that want the date in MM/DD/YY format.  I presume that on
+January 1, 2000 those programs will want to print the date as 01/01/00, so
+this isn't a problem.
+
+There are two other date formats.  The .RYEAR uuo returns the year as an
+18-bit quantity, so that will work for quite some time.  The other, more
+common, date format is the one used by the filesystem, and by programs that
+used the DATIME library; this is the format returned by the RQDATE system
+call.  This format packs the year, less 1900, in a 7-bit field, so this
+will last through 2027.  Since the bit to the left of the year field is
+unused, we can easily expand this to last through 2155.
+
+Probably the most we will have to do is fix a few user programs that have
+the string "19" built into them.
+
+Received: from SUMEX-AIM.STANFORD.EDU (TCP 1200000070) by AI.AI.MIT.EDU 25 Oct 87 17:23:27 EST
+Received: from PANDA.COM by SUMEX-AIM.STANFORD.EDU with Cafard; Sun, 25 Oct 87 14:21:06 PST
+Date: Sun, 25 Oct 87 13:59:55 PST
+From: Mark Crispin <MRC@PANDA.COM>
+Subject: ITS outlives Multics?!
+To: INFO-ITS@AI.AI.MIT.EDU
+Postal-Address: 1802 Hackett Ave.; Mountain View, CA  94043-4431
+Phone: +1 (415) 968-1052
+Message-ID: <12345387677.6.MRC@PANDA.COM>
+
+I just got a message from the Multics postmaster saying that
+MIT-Multics will be shut down on 31 December.  Athough it was
+inevitable it is still rather sad.  I find it somewhat ironic
+though that today, years after ITS was declared dead, there
+are more ITS systems in operation (even excluding the part-time
+systems) than ever.
+
+I was quoted in a trade journal as saying that PANDA/TOPS-20
+will see the century tick.  What about ITS?  We're going to
+have to do something about that sixbit date format, you know!
+-------
+
+Received: from SUMEX-AIM.STANFORD.EDU (TCP 1200000070) by AI.AI.MIT.EDU  4 Oct 87 04:28:25 EDT
+Received: from PANDA.COM by SUMEX-AIM.STANFORD.EDU with Cafard; Sun, 4 Oct 87 01:16:03 PDT
+Date: Sat, 3 Oct 87 23:08:38 PDT
+From: Mark Crispin <MRC@PANDA.COM>
+Subject: Re: The operating system that wouldn't die!  AAAAIIIIEEEEEE!!!!!
+To: ALAN@AI.AI.MIT.EDU
+cc: INFO-ITS@AI.AI.MIT.EDU, gls@THINK.COM
+In-Reply-To: <264420.871003.ALAN@AI.AI.MIT.EDU>
+Postal-Address: 1802 Hackett Ave.; Mountain View, CA  94043-4431
+Phone: +1 (415) 968-1052
+Message-ID: <12339709477.6.MRC@PANDA.COM>
+
+Well, you know, we have to start thinking about what will happen
+when the century ticks.  I'm determined that TOPS-20 on PANDA will
+see it tick, which means fixing any bugs that have two-digit years.
+The question is, how will ITS handle it?
+
+I think it will be damn funny if our 36-bit "dinosaurs" just tick
+the century and keep on smiling, while every Unix system in the
+world crashes!!!
+
+-- Mark --
+-------
+
+Received: from TB.CC.CMU.EDU (TCP 20000576442) by AI.AI.MIT.EDU  4 Oct 87 04:22:14 EDT
+Date: Sun 4 Oct 87 04:14:20-EDT
+From: Cthulhu <AD0R@TB.CC.CMU.EDU>
+Subject: its on a ka10
+To: info-its@AI.AI.MIT.EDU
+Message-ID: <12339732358.19.AD0R@TB.CC.CMU.EDU>
+
+
+It's amazing enough that they got the ka10 running.  I think they've got all
+core in that lovely machine.  These are truly wonderful people.
+
+-------
+
+Date: Sat,  3 Oct 87 23:02:14 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  The operating system that wouldn't die!  AAAAIIIIEEEEEE!!!!!
+To: INFO-ITS@AI.AI.MIT.EDU, gls@THINK.COM
+In-reply-to: Msg of Fri 2 Oct 87 11:34:35 EDT from gls at Think.COM
+Message-ID: <264420.871003.ALAN@AI.AI.MIT.EDU>
+
+    Date: Fri, 2 Oct 87 11:34:35 EDT
+    From: gls at Think.COM
+    To:   bug-its at ai.ai.mit.edu
+    I just got my "Happy Birthday" message from Puff the Magic Dragon at AI.
+    Maybe I'm silly, but this has made me very happy today.  It's nice that
+    someone cared enough to set up the software so I get a message every year.
+    (I think I am also affected by nostalgia for my days at MIT.)
+    --Guy
+
+Well a message like this is certainly guaranteed to make -my- day!  It's
+always nice to have people appreciate creaky-but-reliable old ITS for still
+being around after 20 years!
+
+I thought I would take this opportunity to spread the word about something
+that I don't think has been very widely publicized.  Some of you may recall
+that a while ago some fellows in Sweden contacted us about running ITS on
+various PDP-10's that they owned?  Well, we mailed them a set of tapes for
+bringing up ITS on their 2020, which they were able to do without too much
+trouble (their biggest problem was -my- fault).  That all happened over a
+year ago.  Recently we learned that these guys have successfully -built-
+ITS paging hardware for their KA-10, and have ITS up and running there as
+well!  Totally Amazing.
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  7 Aug 87 06:34:11 EDT
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  7 Aug 87 04:26:56 EDT
+Date: Thu, 6 Aug 1987  21:52 EDT
+Message-ID: <SRA.12324458461.BABYL@XX.LCS.MIT.EDU>
+From: Rob Austein <SRA@XX.LCS.MIT.EDU>
+To:   barmar@THINK.COM
+Cc:   info-its@MC.LCS.MIT.EDU
+Subject: Unix catching up to ITS
+In-reply-to: Msg of 6 Aug 1987  14:00-EDT from barmar@Think.COM
+
+No, that's the USR: device.  But they've invented the JOB: device too,
+something called "portals" I think.
+
+As Noel Chiappa said when talking about ITS and Multics, it's really
+kind of scary to think that we are just now catching up to what we
+were able to do twenty years ago.
+
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  6 Aug 87 19:01:31 EDT
+Received: from Think.COM (TCP 1201000006) by MC.LCS.MIT.EDU  6 Aug 87 18:06:10 EDT
+Return-Path: <barmar@Think.COM>
+Received: from godot.think.com by Think.COM; Thu, 6 Aug 87 14:00:44 EDT
+Received: by godot.think.com; Thu, 6 Aug 87 14:00:39 EDT
+Date: Thu, 6 Aug 87 14:00:39 EDT
+From: barmar@Think.COM
+Message-Id: <8708061800.AA08725@godot.think.com>
+To: info-its@mc.lcs.mit.edu
+Subject: Unix catching up to ITS
+
+I read the following in the Usenet newsgroup comp.unix.wizards (== to
+the Arpanet mailing list UNIX-WIZARDS).  AT&T has finally "invented"
+the JOB: device!
+
+Article 3409 of comp.unix.wizards:
+Path: think!husc6!seismo!mnetor!utzoo!henry
+From: henry@utzoo.UUCP (Henry Spencer)
+Newsgroups: comp.unix.wizards
+Subject: /proc, /n/face
+Message-ID: <8285@utzoo.UUCP>
+Date: 10 Jul 87 19:06:20 GMT
+References: <7879@brl-adm.ARPA> <2211@bunker.UUCP>, <6043@brl-smoke.ARPA>, <8244@utzoo.UUCP>
+Organization: U of Toronto Zoology
+Lines: 42
+
+> V8 /proc preserves the semantics of a normal Unix directory setup *exactly*,
+> unless I missed something subtle when I read the code.  My impression is that
+> /n/face does likewise.  In both cases the directory hierarchy is actually a
+> figment of the kernel's imagination, but it is a consistent figment with the
+> same semantics as normal directories.
+
+Several people have asked what this is about, so I suppose I should elaborate
+a bit.  This stuff has been presented in papers at Usenix conferences, but
+not everybody's familiar with those.
+
+/proc is V8's replacement for the ptrace() system call and related things.
+It's a slightly-odd type of file system.  Once mounted, it looks like a
+single directory containing a bunch of files with numeric names.  If you
+open (say) file "12345", you are looking at the address space of process
+number 12345.  Writes into the file are writes into the address space.
+There are ioctls for things like stopping and starting the process, sending
+it signals, etc.  Access to the files is naturally subject to the standard
+Unix file-permission system.  The whole thing is actually a figment of the
+kernel's imagination, with the "directory" manufactured on the fly whenever
+someone tries to read it, and operations on the "files" turned into the
+corresponding operations on the processes.  Apart from being cleaner than
+ptrace(), /proc is also faster.
+
+[description of /n/face deleted]
+
+In both cases, these odd filesystems look exactly like real ones, down to
+things like "." and ".." entries in the directories.  You can use all the
+standard Unix tools to operate on them.
+
+At least one System V implementation of /proc exists inside AT&T, but it
+hasn't made it into any released software that I know of.  I believe /n/face
+is strictly a V8ism at the moment.
+-- 
+Mars must wait -- we have un-         Henry Spencer @ U of Toronto Zoology
+finished business on the Moon.     {allegra,ihnp4,decvax,pyramid}!utzoo!henry
+
+
+
+
+Date: Tue,  5 May 87 08:25:18 EDT
+From: John Wilson <JOHNW@AI.AI.MIT.EDU>
+To: INFO-ITS@AI.AI.MIT.EDU
+Message-ID: <195618.870505.JOHNW@AI.AI.MIT.EDU>
+
+Please add me to the mailing list.
+
+	thanks,    John Wilson
+
+Received: from SUMEX-AIM.STANFORD.EDU (TCP 1200000070) by AI.AI.MIT.EDU 16 Apr 87 04:36:44 EDT
+Received: from PANDA by SUMEX-AIM.STANFORD.EDU with Cafard; Thu, 16 Apr 87 01:31:16 PDT
+Date: Thu, 16 Apr 87 00:29:35 PDT
+From: Mark Crispin <MRC%PANDA@SUMEX-AIM.Stanford.EDU>
+Subject: Re: Announcement of the DEC 10 and PDP-6 history project (PROJECT-10262)
+To: ALAN@AI.AI.MIT.EDU
+cc: INFO-ITS@AI.AI.MIT.EDU, KS-ITS@AI.AI.MIT.EDU
+In-Reply-To: <185625.870416.ALAN@AI.AI.MIT.EDU>
+Postal-Address: 1802 Hackett Ave.; Mountain View, CA  94043-4431
+Phone: +1 (415) 968-1052
+Message-ID: <12294897588.8.MRC@PANDA>
+
+I am involved peripherally with this project.
+
+There is NO attempt to shortchange or ignore ITS, WAITS, and TENEX.
+
+But!!  We will need *papers* from people in these communities in order to
+fairly cover these operating systems.
+
+Otherwise, I will write up something really brief.  For ITS, in a few short
+paragraphs I'll talk about DDT as the command decoder, PCLSR'ing, and the
+environment that led to the creation of EMACS.
+
+I think such coverage WOULD shortchange ITS.  There are lots of important
+concepts that can and should be discussed in detail -- PCLSR'ing, ITS virtual
+memory (not as good as TOPS-20/Tenex, but quite advanced for its time),
+canonical terminals/SUPDUP/CRTSTY, symbolic system calls, CHEOPS, Knight TV
+system, ...
+
+TECO and TECO-based editors should be a paper in itself.
+-------
+
+Date: Thu, 16 Apr 87 02:04:00 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  Announcement of the DEC 10 and PDP-6 history project (PROJECT-10262)
+To: INFO-ITS@AI.AI.MIT.EDU, KS-ITS@AI.AI.MIT.EDU
+Message-ID: <185625.870416.ALAN@AI.AI.MIT.EDU>
+
+The following message was forwarded to me (it was originally sent to AIList
+I think) with the suggestion that I should redistribute it to whatever
+mailing lists of PDP-10 hackers I knew of.  I don't know anything more
+about this than what is revealed here.
+
+It does kind of sound like these guys are planning on writing a history of
+PDP-10's that only mentions TOPS10 and TOPS20 and fails to consider ITS and
+WAITS and perhaps shortchanges TENEX.  But I suspect that this is merely a
+shortcoming of this announcement.
+
+Date: 16 Mar 1987 1311-EST
+From: "Joe Dempster, DTN: 336.2252 AT&T: 609.665.8711" <DEMPSTER@MARLBORO.DEC.COM>
+Subject: Announcement of the DEC 10 and PDP-6 history project (PROJECT-10262)
+
+This message originates from 2 sources:
+
+	Les Earnest
+	Computer Science Department
+	STANFORD UNIVERSITY
+	Stanford, CA  94305
+	415.723.9729
+	ARPA: LES@SAIL.STANFORD.EDU
+
+	Joe Dempster
+	DIGITAL EQUIPMENT CORPORATION
+	6 Cherry Hill Executive Campus
+	Route 70
+	Cherry Hill, NJ  08002
+	609.665.8711
+	ARPA: DEMPSTER@MARLBORO.DEC.COM (MARKET)
+
+The goal of this project is to publish an analysis and history of
+the evolution, implementation and use of Digital's 36 bit systems.
+This period began with the PDP-6 in 1964 and continues today with
+TOPS 10/20 development, which is scheduled to end in 1988.
+
+We are working aggressively to finish the project, and have it
+published, by March/April 1988.  This will require that the
+completed manuscript be ready to go into the publication cycle
+by August 1987!
+
+The project will attempt to answer the following questions:
+
+	1. In what markets/applications were these systems used?
+
+	2. Who were the users of these systems and what impact did
+	   roughly 2,500 TOPS 10/20 systems have on their organizations?
+
+	3. Who were the principle system architects of these systems?
+	   What features, and if there had been sufficient time to
+	   implement them, would have significantly improved the
+	   architecture?
+
+	4. What impact did the decision to continue to examine design
+	   extensions to the architecture have on the usefulness and
+	   acceptability of these systems.  This is in contrast to a
+	   more common practice today to work from a detailed design
+	   specification, sometimes dated, building follow-on systems
+	   which provide increased performance through the use of new
+	   component technologies and packaging techniques.
+
+	5. What part of the overall design (TOPS10/20) was technology
+	   dependent and what can still be considered "unequaled" in
+	   relation to other computer architectures still undergoing
+	   active development?
+
+	6. What type of development environment (both HW and SW)
+	   supported and contributed to the evolution of 36 bit
+	   systems?
+
+	7. What influence did TOPS 10/20 have on other vendors system
+	   development?
+
+This history will undoubtedly be assembled from many sources and
+participants.  Some information will be anecdotal; there will be
+interviews with the people involved (users and developers) and technical
+papers will be solicited.  Of course there will also be the packaging
+and assembly of facts as we see them.
+
+The result will hopefully have sufficient depth to serve as:
+
+	1. An introductory or advanced text on system design and
+	   hardware/system software implementation.
+
+	2. A analysis of the success and difficulties of marketing
+	   complex systems into a very crowded market of competing
+	   alternatives.
+
+	3. A catharsis for those of us who have contributed to the
+	   development and use these systems and who will now move
+	   onto new computing architectures and opportunities.
+
+In addition to interviewing directly 25-50 developers, users and
+product managers we will continue to work to identify contributors
+and significant events up to when the final draft is submitted to
+the publisher.  Two "topics" are already under development:
+
+	1. Rob Gingell from SUN is working on a paper which looks
+	   at extensions to TOPS 20 which would have enhanced its
+	   capabilities.
+
+	2. Frank da Cruz and Columbia are summarizing 10 years of
+	   experience and development of TOPS 20 systems.  Some
+	   effort will also be made to detail the process which
+	   lead to their selection of a follow-on architecture to
+	   TOPS 20.
+
+There is a need to develop additional topics which represent the
+use and application of the technology (TOPS 10/20) in other areas.
+Specific recommendations are welcome as are proposals to develop
+them.  A short abstract should accompany any such proposal.  Every
+effort will be made to work with individuals or organizations
+interested in making such a contribution.
+
+There will be a standalone (no network connections) DECSYSTEM 2020
+(YIPYIP) dedicated to supporting the project.  This system has a 3
+line hunt group, with all lines accessible from a single number
+(201.874.8612).
+
+Both YIPYIP and MARKET will have "public" directories for remote
+login (<log>DEMPSTER.PROJECT-10262 <Password>LCGLCG).  MARKET can
+be accessed by modem (617.467.7437), however disk quota is limited.
+MARKET's primary purpose <DEMPSTER.PROJECT-10262> is ARPAnet TELNET
+access.  YIPYIP is a dedicated PROJECT-10262 system.  MAIL can also
+be sent to DEMPSTER on either system.
+
+YIPYIP and MARKET will keep a running summary of ideas and comments
+up on Columbia's BBOARD software.  KERMIT also runs on each system
+for uploads.
+
+SAIL.STANFORD.EDU will support ARPAnet transfers to a "public" area:
+
+	FTP<ret>
+	CONNECT SAIL.STANFORD.EDU<ret>
+	SEND AFN.EXT<ret>
+	DSK: AFN.EXT [PUB,LES]<ret>
+
+SAIL runs WAITS, an operating system similiar to TOPS 10.  File
+names are limited to 6 characters and extensions limited to 3.
+
+
+Implementation details:
+
+	1. User input is welcomed and desired from all application
+	   and geographic areas.
+
+	2. Input from past and present developers is also desired.
+
+	3. Throughout the project a secondary goal will be to build
+	   a list of users/locations (installation date, duration and
+	   disposition) of PDP-6 and KA, KI, KL and KS systems.
+	   Serial numbers, if available, are requested.
+
+	4. We anticipate that this project will generate a large
+	   volume of information (which we hope will arrive
+	   electronically).  Some information, for any number of
+	   reasons, may not be in line with the project's stated
+	   goals.  Therefore, all notes, interview material and
+	   submissions will be donated to the Computer Museum in Boston
+	   at the the completion of the project to be available for
+	   future reference and research.
+
+Ideas, contributions, suggestions and criticism are welcome.  As these
+36 bit systems were the products of a multitude of people, so too
+will be the writing of their history.
+
+Date: Sat, 21 Mar 87 05:59:20 EST
+From: "Anthony A. Datri" <AAD@AI.AI.MIT.EDU>
+Subject: is this a mailing list?
+To: INFO-ITS@AI.AI.MIT.EDU, INFO-ITS-REQUEST@AI.AI.MIT.EDU
+Message-ID: <171734.870321.AAD@AI.AI.MIT.EDU>
+
+
+Is this an ITS mailing list (duh!)?  If so, could I be added to it?  I'm relatively
+new to ITS (turist account), and I'd love to find out more.  I have great
+respect for an os that was named to make fun of IBM.  Also, I saw something
+somewhere about something called CAMEXEC, which called it an its-like
+operating system for the pdp-11.  Since I've got an 11/34 with nothing better
+to run than 2.9.1 BSD or RT11, I'm interested.  Does anyone know anything
+about this? (hmm.  that sounds like a stupid question, doesn't it?)  If
+I seem confused, it's because I largely am.  I'm learning about ITS by
+trial and error.
+
+I bet this will seem the strangest to you.  IS ITS public domain at this
+point?  If it is, what would it take to get a distribution?  This is a very
+silly question, but I seriously intend to have a 2020 of my own someday.
+If Mr. Crispin can do it, so can I 8^)
+
+Thanks for  any time you spend putting up with and/or answering this mail.
+
+Anthony A. Datri
+aad@ai.ai.mit.edu (but i imagine you guessed that, eh?)
+
+Received: from REAGAN.AI.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 26 JAN 87  15:01:45 EST
+Received: from KAREN.AI.MIT.EDU by REAGAN.AI.MIT.EDU via CHAOS with CHAOS-MAIL id 19480; Mon 26-Jan-87 15:03:06 EST
+Date: Mon, 26 Jan 87 15:03 EST
+From: Alan Bawden <Alan@AI.AI.MIT.EDU>
+Subject: IAP
+To: Info-ITS@AI.AI.MIT.EDU, KS-ITS@AI.AI.MIT.EDU
+In-Reply-To: <870115152304.7.ALAN@PIGPEN.AI.MIT.EDU>
+Message-ID: <870126150304.6.ALAN@KAREN.AI.MIT.EDU>
+
+Despite the fact that in the IAP guide I promised four sessions of the ITS
+course, there will -not- be a fourth session this week.  See you all again
+next year!
+
+Received: from MIT-MULTICS.ARPA (TCP 1200000006) by AI.AI.MIT.EDU 16 Jan 87 04:17:47 EST
+Received: from QZCOM.MAILNET by MIT-MULTICS.ARPA with Mailnet id <2715239312833556@MIT-MULTICS.ARPA>; 16 Jan 1987 04:08:32 est
+Message-ID:  <227734@QZCOM>
+In-Reply-To: <870115152304.7.ALAN@PIGPEN.AI.MIT.EDU>
+Date:        16 Jan 87 01:07 +0100
+From:        Peter_Lothberg_STUPI%QZCOM.MAILNET@MIT-MULTICS.ARPA
+Reply-To:    Peter_Lothberg_STUPI%QZCOM.MAILNET@MIT-MULTICS.ARPA,
+             ITS_bugs_mailing_list%QZCOM.MAILNET@MIT-MULTICS.ARPA
+To:          ITS_bugs_mailing_list%QZCOM.MAILNET@MIT-MULTICS.ARPA,
+             INFO-ITS@AI.AI.MIT.EDU, KS-ITS@AI.AI.MIT.EDU
+Subject:     IAP
+
+If someone has a home-video-tape-recorder-and-camera-set at MIT
+availible, it wold be nice to have a vide tape of the lecture,
+for us that can't show up.
+
+
+
+
+Received: from OZ.AI.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 15 JAN 87  15:29:36 EST
+Received: from PIGPEN.AI.MIT.EDU by OZ.AI.MIT.EDU via Chaosnet; 15 Jan 87 15:21-EST
+Date: Thu, 15 Jan 87 15:23 EST
+From: Alan Bawden <Alan@AI.AI.MIT.EDU>
+Subject: IAP
+To: Info-ITS@AI.AI.MIT.EDU, KS-ITS@AI.AI.MIT.EDU
+In-Reply-To: <870107165040.1.ALAN@PIGPEN.AI.MIT.EDU>
+Message-ID: <870115152304.7.ALAN@PIGPEN.AI.MIT.EDU>
+
+Those of you who missed the second session of the ITS course last night
+should be aware that next week we will once again meet on -Wednesday-.
+It seems I screwed up when I thought we couldn't have the playroom this
+Tuesday, and it is actually -next- Tuesday than has the conflict.
+
+Next Wednesday we'll do something about Job Devices.  How to write one, or
+how they are implemented, or something like that...
+
+Received: from REAGAN.AI.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 7 JAN 87  16:52:54 EST
+Received: from PIGPEN.AI.MIT.EDU by REAGAN.AI.MIT.EDU via CHAOS with CHAOS-MAIL id 17414; Wed 7-Jan-87 16:50:47 EST
+Date: Wed, 7 Jan 87 16:50 EST
+From: Alan Bawden <Alan@AI.AI.MIT.EDU>
+Subject: IAP
+To: Info-ITS@AI.AI.MIT.EDU, KS-ITS@AI.AI.MIT.EDU
+Message-ID: <870107165040.1.ALAN@PIGPEN.AI.MIT.EDU>
+
+Those of you who missed the first session of the ITS course last night
+should be aware that next week we will meet on -Wednesday- instead of
+Tuesday.  The following week we will go back to meeting on Tuesdays.  (All
+meetings are in the 7th floor playroom at 7:30).
+
+Next Wednesday we will hear a bit about the ITS filesystem (not all that
+much to tell) and then Ed Schwalenberg will tell us about "CAMEXEC: An
+ITS-style Operating System for PDP11's".
+
+Date: Sun,  4 Jan 87 05:03:53 EST
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  IAP
+To: INFO-ITS@AI.AI.MIT.EDU, KS-ITS@AI.AI.MIT.EDU
+Message-ID: <136289.870104.ALAN@AI.AI.MIT.EDU>
+
+Yes, there will be an IAP course this January about ITS.  The first meeting
+will take place in the 7th floor playroom this Tuesday (the 6th) at 7:30 PM.
+
+On Tuesday we will talk about a number of things, including what topics
+people might want to hear about in future sessions.  As a main event, I am
+preparing an explanation of everyone's favorite ITS feature:
+
+               PCLSRing:  What it is, how it's implemented,
+                   and why Lisp Machines should have it.
+
+I'll try and satisfy both the people who want to hear about low-level,
+bits-between-the-toes issues, and those who want to learn universal, cosmic
+principles.  I'll even relate PCLSRing to quantum mechanics.
+
+Date: Sat, 17 May 86 07:30:43 EDT
+From: "Pandora B. Berman" <CENT@AI.AI.MIT.EDU>
+Subject: dumped state
+To: INFO-ITS@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].42220.860517.CENT>
+
+as of this morning, all ITSs here (with the possible exception of the KL)
+are being regularly backed up to tape. it -is- safe to store your files on
+any of the KSs.
+
+Date: Sun, 11 May 86 21:28:30 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  Ask, and you shall recieve
+To: SRA@XX.LCS.MIT.EDU, INFO-ITS@AI.AI.MIT.EDU
+cc: BUG-INQUIR@MC.LCS.MIT.EDU, CENT@MC.LCS.MIT.EDU,
+    SRA@MC.LCS.MIT.EDU, ZVONA@MC.LCS.MIT.EDU
+In-reply-to: Msg of Sun 11 May 1986  04:59 EDT from Rob Austein <SRA at XX.LCS.MIT.EDU>
+Message-ID: <[AI.AI.MIT.EDU].37394.860511.ALAN>
+
+    Date: Sun, 11 May 1986  04:59 EDT
+    From: Rob Austein <SRA at XX.LCS.MIT.EDU>
+    ...  (although it would be nice if it had some reasonable way to
+    deduce what ITSs exist, at run-time).
+
+Because I was updating so many programs to know about the new plethora of
+ITS machines, I added exactly this feature.  There is a new table you can
+ask for from the .GETSYS uuo: ITSNMS is a table of the sixbit names of the
+-current- local ITS machines.  I have already converted most of the
+programs that used to have built-in tables of ITS machines (INSTAL, FINGER,
+FIND, etc.) to use this.  Do
+:UUO GETSYS
+for details.
+
+Received: from MIT-MULTICS.ARPA by AI.AI.MIT.EDU  8 May 86 07:46:48 EDT
+Received: from QZCOM.MAILNET by MIT-MULTICS.ARPA with Mailnet id <2693388755368144@MIT-MULTICS.ARPA>; 08 May 1986 07:32:35 edt
+Date:        08 May 86 00:44 +0200
+From:        Peter_Lothberg_STUPI%QZCOM.MAILNET@MIT-MULTICS.ARPA
+Reply-to:    Peter_Lothberg_STUPI%QZCOM.MAILNET@MIT-MULTICS.ARPA,
+             ITS_bugs_mailing_list%QZCOM.MAILNET@MIT-MULTICS.ARPA
+To:          ITS_bugs_mailing_list%QZCOM.MAILNET@MIT-MULTICS.ARPA,
+             KS-ITS@AI.AI.MIT.EDU, INFO-ITS@AI.AI.MIT.EDU, "Alan Bawden"
+              <ALAN@AI.AI.MIT.EDU>
+Subject:     State of the world
+Message-ID:  <172046@QZCOM>
+In-Reply-To: <[AI.AI.MIT.EDU].35019.860506.ALAN>
+
+We are looking forward, to the moment when we can load the tape
+in the tape drive and have the system flying.
+
+
+
+
+Date: Tue,  6 May 86 00:40:15 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  State of the world
+To: KS-ITS@AI.AI.MIT.EDU, INFO-ITS@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].35019.860506.ALAN>
+
+There are now -five- machines running ITS at MIT, more than have ever
+existed simultaneously before.  There is the MC KL10, and four KS10's named
+AI, MX, ML, and MD.  
+
+The MC KL10 is off maintenance contract as of the first of this month, so I
+suppose its days are numbered.  At some point before the KL10 passes on to
+that great machine room in the sky, the MC KL10 and the MX KS10 will swap
+their names, and we will plug the new MC KS10 into the old MC's Arpanet
+port.  This assures that as far as the outside world is concerned, there
+will always be an ITS named MC at that Arpanet address, performing mail
+service functions for MIT.  (Let's not get into the hair we will be going
+through to make all the mailing lists in the world continue to work.)
+
+The KL10 will remain available for all those who wish to continue to use
+it, under the name MX.  When the KL10 retires, the name MX will be retired
+with it.
+
+Various other owners of KS10's around the world will be receiving KS10 ITS
+distribution tapes in the mail soon.  The last machine we booted (MD) was
+built by a volunteer using the printed instructions we plan to include with
+our ITS distribution kits.
+
+Date: Fri, 28 Mar 86 09:02:47 EST
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  A new ITS is born
+To: INFO-ITS@AI.AI.MIT.EDU, KS-ITS@AI.AI.MIT.EDU,
+    KARENS@AI.AI.MIT.EDU
+Message-ID: <[AI.AI.MIT.EDU].22057.860328.ALAN>
+
+MIT-MX came up for the first time this morning.  (You can supdup there
+right now, but you won't find much when you get there...)  There are still
+some problems with the technology for creating new ITS systems from
+scratch, but it mostly works.  Hopefully after doing the next two (ML and
+MD) things will be pretty smooth.
+
+All kind of worms are crawling out of the woodwork because of various
+programs that -know- that all ITS machines are named "AI", "MC", "ML", or
+"DM".  It should take another days hacking to stomp them all...
+
+Date: Tue, 29 Oct 85 20:47:43 EST
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Silly lineprinter devices again.
+To: INFO-ITS@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].697383.851029.ALAN>
+
+Remember the 7LP: and 7LR: devices?  Well, now that we have a third such
+device on the 9th floor, and another one coming soon to the 8th, it would
+make sense for me to tell you that I have installed 8LP: and 9LP: devices,
+right?  WRONG!  Since a clear numbering trend is emerging it makes sense to
+change the naming scheme so that the number comes -last-.  So the official
+names are now:
+
+	LP7:	The 7th floor QMS 2400
+	LP8:	The 8th floor QMS 2400
+	LP9:	The 9th floor QMS 1200
+
+	LR7:	The 7th floor laserwriter
+
+The two old names 7LP: and 7LR: continue to work for compatibility.
+
+Date: Tue, 24 Sep 85 05:07:32 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  Now installed on AI, and soon to be installed on MC.
+To: INFO-ITS@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].657412.850924.ALAN>
+
+There is now a demon job that runs when ITS starts up that attempts to set
+the time from the network.  The message that the system types out at boot
+time when it discovers that the clock has been reset no longer commands the
+hacker to log in and run PDSET, instead it tells him that he should just
+stick around a watch what happens in case he has to run it.  The demon will
+print a message on the system console explaining what it did about the
+time.  If the demon was unsatisfied that it could determine the time, the
+message will try to attract the hacker's attention and explain to him what
+the problem was and tell him that he does have to run PDSET after all.
+
+Date: Fri, 26 Jul 85 22:10:20 EDT
+From: Alan Bawden <ALAN@MIT-MC.ARPA>
+Subject:  7LP: and 7LR:
+To: INFO-ITS@MIT-MC.ARPA
+Message-ID: <[MIT-MC.ARPA].589842.850726.ALAN>
+
+Remember the 7LP: device I advertised in this spot last winter?  (I sends
+output to the LN01 printer on the 7th floor.)  Well, I have just installed a
+7LR: device for sending output to the new laserwriter (also on the 7th
+floor).
+
+While I was at it I gave both devices a new feature.  They now support
+deletion so you can delete items from the queue.  For example, if 7LP^F
+shows you the following:
+
+    7th floor ln01 is ready and printing
+     Time  Owner     Job Files                             Size
+    *21:55 alan      905 7LP: BAWDEN; B 249                49481
+
+    The most recent job printed was:
+     21:21 alan          7LP: BAWDEN; .FILE. (DIR)
+
+then you can delete job 905 by doing either ^O 7LP:905 or ^O 7LP:ALAN.  In
+the later case all entries owned by ALAN are deleted.  The second filename
+and directory are ignored.
+
+Received: from MIT-AI by MIT-MC via Chaosnet; 19 APR 85  22:39:59 EST
+Date: Fri,19 Apr 85 22:40:37 EST
+From: Alan Bawden <ALAN@MIT-AI>
+Subject:  Progress Report!
+To: KS-ITS@MIT-AI, INFO-ITS@MIT-AI
+Message-ID: <[MIT-AI].71.850419.ALAN>
+
+The MIT-AI KS10 has now been up and running timesharing for almost two days
+without incident.  We are on the Chaosnet, we have COMSAT, EMACS, LISP,
+etc. all running just fine.  We do not have tape drive support for backing
+up out filesystem yet, and our current filesystem is built on a scratch
+pack, so you can't put any files here that you care about, but basically we
+are winning completely.
+
+Interesting aside:  It appears that for the last three years the Dover
+spooler on MC has been trying in vain to write the file
+AI:TEXLIB;TODAYS DATE.  I'll bet it had a heart attack when it finally
+succeeded!
+
+Date: 9 December 1984 21:10-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  7LP:
+To: INFO-ITS @ MIT-MC
+cc: BUG-ITS @ MIT-MC
+
+I have installed a 7LP: device on MC and ML for using the LN01 printer on
+the 7th floor to generate simple hardcopy.  Outputting to 7LP: opens a
+connection to PREP (where the spooler runs) and transmits your text.  For
+example :COPY DSK:ALAN;ALAN LOGIN,7LP: makes hardcopy of my init file.
+Reading from 7LP:.FILE. (DIR) produces a listing of the queue on PREP, so
+you can type 7LP to DDT to see who's output is in front of yours.
+
+Date: 27 November 1984 01:09-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  Progress report
+To: BUDD @ MIT-MC, KS-ITS @ MIT-MC
+cc: INFO-ITS @ MIT-MC
+In-reply-to: Msg of 21 Nov 1984 20:24-EST from Philip Budne <BUDD>
+
+    Date: 21 November 1984 20:24-EST
+    From: Philip Budne <BUDD>
+    Re:   AI (the KS10)
+    What is the current state of thew new AI?  I have been watching
+    [OZ]ARC:AI-KL, but the has been no news for a month!
+
+Yeah, I guess I haven't said anything recently.  My last message was to
+announce that I got the microcode support working?  Since then I have been
+working on conditionalizing all those places that are sensitive to the
+specifics of the processor.  I guess this task is somewhat easier than it
+was when ITS was conditionalized for the KL, because most of the processor
+dependencies are already known; a string search for "KL10P" sufficed to
+find most of them.  I guess I could declare this task complete now (modulo
+debugging), all that really remains is to write TTY routines for talking to
+the system console through the 8080.  (They are trivial, I almost finished
+them tonight.)
+
+Next I get to learn how to interface to a bunch of random devices: the DZ11
+terminals, the disk, and the tape drive.  All that stands between us and a
+first try at bringing ITS up are disk routines in ITS, disk routines in the
+salvager, and a trivial tape reading routine in the salvager so that we can
+put a couple of things in the initial filesystem.
+
+I guess I made a bunch of decisions along the way that ITS hackers might be
+interested in, but not really much that the typical machine language
+programmer will need to know about.  The protocol for one-proceed will be
+different, but that remains unimplemented.  There will be a JPC, but that
+hasn't been done either.  There will never be a MAR.  There is a new user
+interrupt (%PINXI) that will be given to jobs in .IOTLSR mode that touch
+Unibus locations with nothing in them.  The protocol for setting the time
+is new, so someone need to modify PDSET or supply a new equivalent program.
+
+Oh yeah, I also fixed a couple of problems with "Exec DDT" and the magtape
+bootstrap program in the course of experimenting with the machine.  
+
+There still remains a bunch of things to do to make the machine ultimately
+useable.  Things like network code.  Code to interface to Taft's "Format
+Confuser".  The Format Confuser itself.  Code for booting the machine from
+the disk.  Code for frobbing the 8080 filesystem.  Etc.
+
+Date: 27 February 1984 12:14-EST
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  locks
+To: INFO-ITS @ MIT-MC
+cc: CSTACY @ MIT-MC, KLH @ MIT-MC
+
+I added some text to .INFO.;ITS LOCKS explaining the timing screw in the
+shared database initialization algorithm.
+
+Date: 6 January 1984 22:11 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+Subject: alt alt to you too!
+To: INFO-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+cc: KMP @ MIT-MC
+
+
+I un-de-generalized the code for $$^F so that you can make all
+the FN2s zero and get the default.  Ie., you can put searches
+in slots besides $$0^F.  I also increased the size of the table
+a little bit.
+
+$$0^F  FIRST <foo>
+$$1^F  NAME1 UP    (verbose listing)
+$$2^F  SECOND <bar>
+$$3^F  CDATE DOWN
+$$4^F  SIZE  DOWN
+$$5^F  ONLY LINKS  (had to put something here....)
+
+
+Date: 6 January 1984 22:02 EST
+From: Kent M Pitman <KMP @ MIT-MC>
+To: ALAN @ MIT-MC
+cc: INFO-ITS @ MIT-MC, BUG-DDT @ MIT-MC
+
+You were right about cstacy's n patch being ridiculously
+ungeneral.  I talked him into something nicely general and
+doesn't require users to be patching DDT in order to make use
+of its full functionality. Under the new scheme, you say
+
+		namen
+
+where name is the fn2 to give to DIR: and n is sixbit for the fn1
+to give. So, for example, 
+
+	UP434441644500	;to get a CDATE UP listing
+
+gives you a CDATE UP listing. Also, the numeric arg is now sticky
+(initially defaulting to 465162636400) so if you specify
+
+	FOO or FOO0
+
+you get the default. This was easy to put in since 0 didn't
+designate a valid filename anyway.
+
+Here's hoping you're satisfied...
+
+Date: 5 January 1984 04:55 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+To: BUG-DDT @ MIT-MC
+cc: INFO-ITS @ MIT-MC
+
+In DDT 1440 on MC:
+
+In a moment of randomness, I made a minor extension to DDT's $$^F
+directory lister command, and tested and installed it on MC.
+
+$$^F (or $$0^F) does the same thing it always did.
+$$1^F does the same thing too, except that you can now patch in a
+total of three DIR arguments (starting at DIRFN1+2 and DIRFN2+2) and
+do $$2^F and $$3^F.  (In other words, $$n^F searches the two-word
+entry table at DIRFN1 and uses the specified DIR names; the table is
+currently 4 long, allowing you space for three numeric argument
+options. An argument of zero is ignored.)
+
+I put this in because I wanted to use the DIR device more often.
+The default listings you get now are these:
+
+foobar$$0^F DIR:NAME1 foobar
+$$1^F       DIR:NAME1 UP        verbose directory listing
+$$2^F       DIR:CDATE DOWN      sorted by recently created files
+$$3^F       DIR:SIZE  DOWN      sorted by biggest files
+
+Chris
+
+Date: Tuesday, 3 January 1984, 15:34-EST
+From: Alan Bawden <ALAN at MIT-MC>
+Subject: Core Link documentation
+To: INFO-ITS at MIT-MC
+
+By popular demand the file .INFO.;ITS CLO now contains brief documentation of
+the Core Link device.
+
+Date: 31 December 1983 11:48 EST
+From: Ken Harrenstien <KLH @ MIT-MC>
+Subject: TCP calls documented
+To: BUG-NETWRK @ MIT-MC, INFO-ITS @ MIT-MC
+
+I have moved most of the TCP call documentation into MC:.INFO.;ITS .CALLS.
+This includes all changes to existing calls, plus the new calls
+TCPOPN and NETRFC.  I have also copied various bit definitions into
+SYSTEM;BITS > so that MIDAS and DDT will know about useful TCP symbols
+as soon as a new ITS is assembled.
+
+Finally, I fixed the ANALYZE code in the NETWRK package (canonical
+location MC:SYSENG;NETWRK >) so that the appropriate error strings can
+be generated for TCP channels.
+
+Date: 17 November 1983 17:41 EST
+From: Earl A. Killian <EAK @ MIT-MC>
+Subject:  pdp11
+To: SHAWN @ MIT-MC
+cc: INFO-ITS @ MIT-MC
+In-reply-to: Msg of 17 Nov 1983 04:52 EST from Shawn F. McKay <SHAWN>
+
+    Date: 17 November 1983 04:52 EST
+    From: Shawn F. McKay <SHAWN>
+    To:   INFO-ITS
+    Re:   pdp11
+
+    How good is the pdp-11 simulator?
+
+    			Thanks,
+    			  -Shawn
+Good.
+
+Date: 17 November 1983 04:52 EST
+From: Shawn F. McKay <SHAWN @ MIT-MC>
+Subject: pdp11
+To: INFO-ITS @ MIT-MC
+
+
+How good is the pdp-11 simulator?
+
+			Thanks,
+			  -Shawn
+
+
+Date: 17 July 1983 15:59 EDT
+From: Alan Bawden <ALAN @ MIT-MC>
+Subject:  New .INSRTable library: FORMAT
+To: INFO-ITS @ MIT-MC
+
+I have installed a new .INSRTable Midas library on all ITS machines.
+FORMAT is patterned after the Lisp function of the same name.  It's
+documented in INFO with the rest of the insertable libraries.  Do 
+:INFO LIB FORMAT to read all about it.
+
+There is no need to tell me I'm crazy.
+

@@ -1,0 +1,2131 @@
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU; 15 Jan 90 17:10:02 EST
+Received: from lcs.mit.edu (CHAOS 15044) by MC.LCS.MIT.EDU; 15 Jan 90 17:02:58 EST
+Received: from STONY-BROOK.SCRC.SYMBOLICS.COM by mintaka.lcs.mit.edu id aa22982;
+          15 Jan 90 16:55 EST
+Received: from KENNETH-WILLIAMS.SCRC.Symbolics.COM by STONY-BROOK.SCRC.Symbolics.COM via INTERNET with SMTP id 723221; 15 Jan 90 16:49:04 EST
+Date: Mon, 15 Jan 90 16:50 EST
+From: "David A. Moon" <Moon@stony-brook.scrc.symbolics.com>
+Subject: That Time Again on ML
+To: jtw@ml.ai.mit.edu
+cc: ks-its@mc.lcs.mit.edu
+In-Reply-To: <11080.900112.PFTHMG-DRAGON@ML.AI.MIT.EDU>
+Message-ID: <19900115215013.2.MOON@KENNETH-WILLIAMS.SCRC.Symbolics.COM>
+
+    Date: Fri, 12 Jan 90 18:47:52 EST
+    From: Puff the Magic Dragon <PFTHMG-DRAGON%ML.AI.MIT.EDU@mintaka.lcs.mit.edu>
+
+    Don't forget to print out the DSK:DRAGON;NOV REPORT file and
+    give it to the appropriate people.
+
+Thanks John (I assume it was you who made ML work again).
+
+
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU; 27 Nov 89 09:48:35 EST
+Date: Mon, 27 Nov 89 09:46:31 EST
+From: "Robert E. Seastrom" <RS%MC.LCS.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject:  ML status?
+To: ks-its@AI.AI.MIT.EDU
+Message-ID: <628937.891127.RS@MC.LCS.MIT.EDU>
+
+
+What is the status of ML?
+
+If ML is not going to be back up in the near future, how about the
+status of the tape drive on AI so that I can get back some of the
+files on ML that I need?
+
+                                        ---Rob
+
+
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 17 Nov 89 21:07:32 EST
+From: John Wroclawski <jtw@lcs.mit.edu>
+Sender: jtw@lcs.mit.edu
+To: laurel@ai.mit.edu, alan@ai.ai.mit.edu
+cc: bug-ks@ai.ai.mit.edu
+Subject: yet more cruft about KS10s
+Date: Fri, 17 Nov 89 20:57:32 EST
+Message-ID:  <8911172057.aa21978@mintaka.lcs.mit.edu>
+
+
+ML's disk, and thence ML, are again running.
+
+Maybe the easiest plausible thing to do about MD's disk, which looks
+pretty beat both electronically and mechanically, is to swap it with
+HT's disk, which seems to be OK at first glance. 
+
+			-john
+
+
+Date: Wed, 15 Nov 89 20:15:11 EST
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: ML still down
+To: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: LAUREL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <669838.891115.CENT@AI.AI.MIT.EDU>
+
+i tried a few of the simple things alan mentioned. it's the right disk and
+the right number plug. as far as i can tell, everything is powered up,
+connected correctly (i didn't try tracing the cables), and there hasn't
+been a head crash. RESET doesn't help. most of his other suggestions are
+beyond my technical capability or my nerve.
+
+so laurel and i have postponed the AI and MC PMs. we figured it won't hurt
+to ask d'avolio to look at ML's disk again, since he's probably going to be
+here in the morning.
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 14 Nov 89 11:51:44 EST
+From: Rob Austein <sra@lcs.mit.edu>
+Sender: sra@mintaka.lcs.mit.edu
+To: laurel@ai.mit.edu
+CC: jtw@lcs.mit.edu, ALAN@MC.lcs.mit.edu, CENT@MC.lcs.mit.edu, 
+    BUG-KS@ai.ai.mit.edu
+In-reply-to: Laurel Simmons's message of Tue, 14 Nov 89 09:22:18 EST <8911141422.AA21933@rice-chex>
+Subject: ML losing, world ends, etc.
+Date: Tue, 14 Nov 89 11:45:31 EST
+Message-ID:  <8911141145.aa23727@mintaka.lcs.mit.edu>
+
+   From: Laurel Simmons <laurel@ai.mit.edu>
+   Date: Tue, 14 Nov 89 09:22:18 EST
+
+   Ty rolled the other RP06's out the door. Presumably on orders from Tom
+   Greene. This happened about a week ago.
+
+Specificly, he rolled them down into the basement, as part of clearing
+the floor space that now officially belongs to the Dean's Office.
+They're not gone, although I don't know how long their life expectancy
+will be down in the flood zone.
+
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU 14 Nov 89 09:26:37 EST
+Received: from AI.MIT.EDU by REAGAN.AI.MIT.EDU via INTERNET with SMTP id 275848; 14 Nov 89 09:23:54 EST
+Received: from rice-chex (rice-chex.ai.mit.edu) by life.ai.mit.edu (4.0/AI-4.10) id AA05005; Tue, 14 Nov 89 09:22:41 EST
+From: laurel@ai.mit.edu (Laurel Simmons)
+Received: by rice-chex (4.0/AI-4.10) id AA21933; Tue, 14 Nov 89 09:22:18 EST
+Date: Tue, 14 Nov 89 09:22:18 EST
+Message-Id: <8911141422.AA21933@rice-chex>
+To: jtw@lcs.mit.edu
+Cc: ALAN%MC.LCS.MIT.EDU@mintaka.lcs.mit.edu,
+        CENT%MC.LCS.MIT.EDU@mintaka.lcs.mit.edu, BUG-KS@ai.ai.mit.edu
+In-Reply-To: John Wroclawski's message of Mon, 13 Nov 89 22:11:53 EST <8911132211.aa06330@mintaka.lcs.mit.edu>
+Subject: ML losing, world ends, etc.
+
+Ty rolled the other RP06's out the door. Presumably on orders from Tom
+Greene. This happened about a week ago.
+
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU 14 Nov 89 09:25:12 EST
+Received: from AI.MIT.EDU by REAGAN.AI.MIT.EDU via INTERNET with SMTP id 275846; 14 Nov 89 09:22:30 EST
+Received: from rice-chex (rice-chex.ai.mit.edu) by life.ai.mit.edu (4.0/AI-4.10) id AA04984; Tue, 14 Nov 89 09:21:15 EST
+From: laurel@ai.mit.edu (Laurel Simmons)
+Received: by rice-chex (4.0/AI-4.10) id AA21892; Tue, 14 Nov 89 09:20:54 EST
+Date: Tue, 14 Nov 89 09:20:54 EST
+Message-Id: <8911141420.AA21892@rice-chex>
+To: ALAN%MC.LCS.MIT.EDU@mintaka.lcs.mit.edu
+Cc: CENT%MC.LCS.MIT.EDU@mintaka.lcs.mit.edu,
+        JTW%MC.LCS.MIT.EDU@mintaka.lcs.mit.edu,
+        SRA%MC.LCS.MIT.EDU@mintaka.lcs.mit.edu, BUG-ks@ai.ai.mit.edu,
+        LAUREL%MC.LCS.MIT.EDU@mintaka.lcs.mit.edu
+In-Reply-To: Alan Bawden's message of Mon, 13 Nov 89 20:35:56 EST <626713.891113.ALAN@MC.LCS.MIT.EDU>
+
+Whoa! I had no idea ML was broken since Mike on Thursday. Why didn't
+anyone tell me? Should I call them and get him back here?
+
+laurel
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 14 Nov 89 00:26:33 EST
+Received: from arisia.Xerox.COM by mintaka.lcs.mit.edu id aa26023;
+          14 Nov 89 0:19 EST
+Received: from roo.parc.Xerox.COM by arisia.Xerox.COM with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA16540; Mon, 13 Nov 89 21:13:49 -0800
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA07116; Mon, 13 Nov 89 21:14:50 PST
+Date: Mon, 13 Nov 89 21:14 PST
+From: Alan Bawden <bawden@parc.xerox.com>
+Subject: ML disk dead
+To: CENT%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu, 
+    BUG-KS%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu, 
+    LAUREL%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu
+In-Reply-To: <668827.891113.CENT@AI.AI.MIT.EDU>
+Message-Id: <19891114051402.7.ALAN@MR-BUN.parc.xerox.com>
+
+    Date: Mon, 13 Nov 89 21:59:41 EST
+    From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu>
+    it's clear that ML has -not- run since Provocative Maintenance. for what
+    it's worth, i did an incremental immediately before i turned it off, so if
+    the pack is trashed we can reconstitute it. but i think you and laurel need
+    to decide between you whether to let d'avolio touch AI and MC before fixing
+    ML's disk..
+
+I think it would be foolish to let them touch any other machine until ML is
+working again.  If the problem doesn't turn out to be something trivial,
+someone better get the word to them so they don't screw us further on
+Thursday.
+
+But getting them to fix ML may be harder than just telling them that we
+can't get it to boot.  They can always blame it on our software, or our
+disk pack, or something.  After all, they just did a PM so it must be
+working!  When they put us in this situation, we have to be able to tell
+them what the problem is (beyond "it won't boot").  Questions that occur to
+me:
+
+Is the right unit number plug (0) inserted?  Is everything properly powered
+on?  Plugged in?  What happens if you first push the RESET button to reset
+the 8080?  It would be awfully embarrassing to make a big scene about not
+letting DEC touch AI and MC, and then discover that we mounted the wrong
+pack...
+
+You can get the 8080 to tell you exactly what the error was that it
+encountered, someone should do that.  (It's in the manual -- I don't
+think you have to read the 8080 source code, although we have that to!)  It
+might save you a lot of trouble worrying about head crashes if you know
+that the 8080 can't even talk to the controller!
+
+Is the pack in the same drive that the processor is cabled up to?
+(Sometimes the guys from DEC like to "improve" things.)  The drive that
+used to work was the one closer to the door (-not- the one next to the
+working processor).
+
+Is there any evidence on the system console that the guys from DEC might
+have accidentally used our pack as a scratch pack?
+
+Did D'Avolio actually -say- that the PM was finished?  He really thinks he
+left the machine working?  What was the last thing that -he- did (according
+to the console paper)?
+
+Could the pack have had a head crash the first time it was mounted after
+DEC left?  (Well, has anyone looked?)
+
+Do any other packs boot in ML?  Like an old AI pack #0 that was DUP'ed and
+retired.  (Don't try this unless you are certain that it isn't a head
+crash.  You only lose another pack but RP06 packs are getting somewhat
+rare...)
+
+Does that pack boot in any other machines?  (Don't try that unless you are
+-really- certain that it isn't crashed, RP06 heads are precious.)
+
+What happens if you cable up "MD's" drive to ML and try it?  (I think it
+works well enough to try some simple experiments.)
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 13 Nov 89 22:16:20 EST
+From: John Wroclawski <jtw@lcs.mit.edu>
+Sender: jtw@lcs.mit.edu
+To: ALAN%MC.LCS.MIT.EDU@MINTAKA.lcs.mit.edu
+CC: CENT%MC.LCS.MIT.EDU@MINTAKA.lcs.mit.edu, BUG-KS@AI.ai.mit.edu, 
+    LAUREL@ai.mit.edu
+In-reply-to: Alan Bawden's message of Mon, 13 Nov 89 20:35:56 EST <626713.891113.ALAN@MC.LCS.MIT.EDU>
+Subject: ML losing, world ends, etc.
+Date: Mon, 13 Nov 89 22:11:53 EST
+Message-ID:  <8911132211.aa06330@mintaka.lcs.mit.edu>
+
+
+   Date: Mon, 13 Nov 89 20:35:56 EST
+   From: Alan Bawden <ALAN%MC.LCS.MIT.EDU@MINTAKA.lcs.mit.edu>
+
+   [After glancing through my mail on AI]
+   I've got a bad feeling about letting DEC play with AI and MC after breaking
+   ML.  Is there any evidence that ML -ever- ran after they did "PM"?
+
+Answering several questions at once:
+
+The RP06 sitting in the middle of what used to be the vax farm (has a
+very tiny note from Alan on it about "spindle bearings") is my source
+for parts. It has many good heads.
+
+ML seems never to have run after DEC finished. I looked at it briefly
+and found nothing glaringly wrong. It gets different error codes every
+time you boot it. Maybe DEC realigned the disk heads and they were bad
+enough before that the pack is now unreadable. I suppose we could ask
+Mike D. about this. I can look at it more, but probably not for a
+few days.
+
+Um, weren't there two RP06s in the corner where XX was until quite
+recently? Where'd they go?
+
+			-john
+
+Date: Mon, 13 Nov 89 21:59:41 EST
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: ML disk dead
+To: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU, LAUREL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: "bawden@parc.xerox.com"@MINTAKA.LCS.MIT.EDU
+Message-ID: <668827.891113.CENT@AI.AI.MIT.EDU>
+
+    Date: Mon, 13 Nov 89 20:25:57 EST
+    From: Alan Bawden <ALAN@mc>
+    To: CENT@mc, JTW@mc, SRA@mc
+    Penny tells me that when you try and boot ML it says ?BT 001120.
+    Basically, this means that when the very first time the 8080 tries to
+    access the disk, it fails.  This means that either the pack is bad or
+    the drive is broken.  If DEC screwed up our pack, then they are a bunch
+    of boneheads.  If they broke the drive, then they should fix it.  Do
+    any of you guys think you can figure out which it is?
+
+    Date: Mon, 13 Nov 89 20:35:56 EST
+    From: Alan Bawden <ALAN@mc>
+    To: CENT@mc, JTW@mc, SRA@mc, BUG-ks@AI.AI.MIT.EDU
+    cc: LAUREL@mc
+    [After glancing through my mail on AI]
+    I've got a bad feeling about letting DEC play with AI and MC after
+    breaking ML.  Is there any evidence that ML -ever- ran after they did
+    "PM"?  If not, then you damn well better not let them touch AI (at
+    least) until ML is working.  If I come back Thursday and everything is
+    broken and I have to deal with it all, I'm unlikely to do it with a
+    smile on my face..
+
+it's clear that ML has -not- run since Provocative Maintenance. for what
+it's worth, i did an incremental immediately before i turned it off, so if
+the pack is trashed we can reconstitute it. but i think you and laurel need
+to decide between you whether to let d'avolio touch AI and MC before fixing
+ML's disk.
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 13 Nov 89 20:36:06 EST
+Date: Mon, 13 Nov 89 20:35:56 EST
+From: Alan Bawden <ALAN%MC.LCS.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+To: CENT%MC.LCS.MIT.EDU@MINTAKA.LCS.MIT.EDU, JTW%MC.LCS.MIT.EDU@MINTAKA.LCS.MIT.EDU, SRA%MC.LCS.MIT.EDU@MINTAKA.LCS.MIT.EDU,
+    BUG-ks@AI.AI.MIT.EDU
+cc: LAUREL%MC.LCS.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <626713.891113.ALAN@MC.LCS.MIT.EDU>
+
+[After glancing through my mail on AI]
+I've got a bad feeling about letting DEC play with AI and MC after breaking
+ML.  Is there any evidence that ML -ever- ran after they did "PM"?  If not,
+then you damn well better not let them touch AI (at least) until ML is working.
+If I come back Thursday and everything is broken and I have to deal with
+it all, I'm unlikely to do it with a smile on my face..
+
+Date: Mon, 13 Nov 89 19:14:51 EST
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: ML down
+To: JTW%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU, LAUREL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <668752.891113.CENT@AI.AI.MIT.EDU>
+
+ok. why, when ML tries to boot now, does it say
+
+?BT 001120
+
+hm?
+
+Date: Thu,  9 Nov 89 17:06:58 EST
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: ITS PMs
+To: TY%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <667178.891109.CENT@AI.AI.MIT.EDU>
+
+thanks for bringing MC back up. the patch, in fact, can be installed at any
+time after you reach DSKDMP, including to the running system, so i
+installed it just now.
+
+i'm just going to leave ML down until d'avolio finishes playing with it tmw
+morning. i'm not coming in tmw, so someone please check on it and bring it
+up when he's done. thx.
+
+Date: Mon,  6 Nov 89 16:19:42 EST
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: PM schedule
+To: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: LAUREL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <665528.891106.CENT@AI.AI.MIT.EDU>
+
+laurel says PM for MC and ML is scheduled for 6am thu (9 nov.); i will
+bring them down wed. night. apparently d'avolio thinks PMing all the KSs
+will take longer than 1 day, so after he does ML and MC he will negotiate
+with laurel when to do AI.
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  3 Nov 89 13:24:32 EST
+Received: from STONY-BROOK.SCRC.SYMBOLICS.COM by mintaka.lcs.mit.edu id aa12554;
+          3 Nov 89 13:20 EST
+Received: from EUPHRATES.SCRC.Symbolics.COM by STONY-BROOK.SCRC.Symbolics.COM via CHAOS with CHAOS-MAIL id 686957; 3 Nov 89 12:32:56 EST
+Date: Fri, 3 Nov 89 12:33 EST
+From: "David A. Moon" <Moon@stony-brook.scrc.symbolics.com>
+Subject: 2020 maintenance
+To: John Wroclawski <jtw@lcs.mit.edu>
+cc: BUG-KS@ai.ai.mit.edu, laurel@ai.mit.edu
+In-Reply-To: <8911022011.aa05165@mintaka.lcs.mit.edu>
+Message-ID: <19891103173310.9.MOON@EUPHRATES.SCRC.Symbolics.COM>
+
+    Date: Thu, 2 Nov 89 20:11:01 EST
+    From: John Wroclawski <jtw@lcs.mit.edu>
+
+    I fixed ML's disk.
+
+Yay!  Thank you.
+
+
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU  3 Nov 89 11:14:37 EST
+Received: from AI.MIT.EDU by REAGAN.AI.MIT.EDU via INTERNET with SMTP id 273072; 3 Nov 89 11:14:46 EST
+Received: from apple-jacks (apple-jacks.ai.mit.edu) by life.ai.mit.edu (4.0/AI-4.10) id AA19270; Fri, 3 Nov 89 11:13:38 EST
+From: laurel@ai.mit.edu (Laurel Simmons)
+Received: by apple-jacks (4.0/AI-4.10) id AA02558; Fri, 3 Nov 89 11:13:34 EST
+Date: Fri, 3 Nov 89 11:13:34 EST
+Message-Id: <8911031613.AA02558@apple-jacks>
+To: bawden@parc.xerox.com
+Cc: sra@lcs.mit.edu, CENT@ai.ai.mit.edu, BUG-KS@ai.ai.mit.edu
+In-Reply-To: Alan Bawden's message of Thu, 2 Nov 89 11:54 PST <19891102195447.0.ALAN@MR-BUN.parc.xerox.com>
+Subject: 2020 maintenance
+
+I have logged a service call. The log number is BB0093. I just used
+AI's system serial number since it seemed from what everyone was
+saying that it wasn't a relevant number anyway. They had no problem
+swallowing the number and said they would page Mike Divolio right
+away. Cheers
+
+laurel
+
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU  3 Nov 89 10:32:59 EST
+Received: from AI.MIT.EDU by REAGAN.AI.MIT.EDU via INTERNET with SMTP id 273065; 3 Nov 89 10:33:07 EST
+Received: from apple-jacks (apple-jacks.ai.mit.edu) by life.ai.mit.edu (4.0/AI-4.10) id AA18735; Fri, 3 Nov 89 10:32:03 EST
+From: laurel@ai.mit.edu (Laurel Simmons)
+Received: by apple-jacks (4.0/AI-4.10) id AA02551; Fri, 3 Nov 89 10:31:59 EST
+Date: Fri, 3 Nov 89 10:31:59 EST
+Message-Id: <8911031531.AA02551@apple-jacks>
+To: jtw@lcs.mit.edu
+Cc: BUG-KS@ai.ai.mit.edu
+In-Reply-To: John Wroclawski's message of Thu, 2 Nov 89 20:11:01 EST <8911022011.aa05165@mintaka.lcs.mit.edu>
+Subject: 2020 maintenance
+
+Cool! I'll have Miked do a pm on the drive but won't have it fixed.
+
+laurel
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  2 Nov 89 20:50:06 EST
+From: John Wroclawski <jtw@lcs.mit.edu>
+Sender: jtw@lcs.mit.edu
+To: sra@lcs.mit.edu
+CC: laurel@ai.mit.edu, BUG-KS@ai.ai.mit.edu
+In-reply-to: Rob Austein's message of Thu, 2 Nov 89 17:57:26 EST <8911021757.aa04086@mintaka.lcs.mit.edu>
+Subject: 2020 maintenance
+Date: Thu, 2 Nov 89 20:44:36 EST
+Message-ID:  <8911022044.aa05442@mintaka.lcs.mit.edu>
+
+
+They changed to the fourty mile long "system serial numbers" a few
+years ago. Older machines kept the old style numbers. I don't think we
+ever had system numbers for the three machines that aren't AI. I have
+no idea what to tell DEC.
+
+On another topic, we are pretty much out of RP06 panel light bulbs.
+Could whoever talks to D'Avolio please ask him to leave (sell..) us a
+few zillion? (Actually somewhere around 100 should last till the end of
+time..)
+
+			-john
+
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  2 Nov 89 20:36:05 EST
+Received: from arisia.Xerox.COM by mintaka.lcs.mit.edu id aa05324;
+          2 Nov 89 20:27 EST
+Received: from roo.parc.Xerox.COM by arisia.Xerox.COM with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA26145; Thu, 2 Nov 89 17:23:16 -0800
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA00585; Thu, 2 Nov 89 17:24:41 PST
+Date: Thu, 2 Nov 89 17:21 PST
+From: Alan Bawden <bawden@parc.xerox.com>
+Subject: 2020 maintenance
+To: sra@lcs.mit.edu
+Cc: laurel@ai.mit.edu, CENT@ai.ai.mit.edu, BUG-KS@ai.ai.mit.edu
+In-Reply-To: <8911021757.aa04086@mintaka.lcs.mit.edu>
+Message-Id: <19891103012153.3.ALAN@MR-BUN.parc.xerox.com>
+
+    Date: Thu, 2 Nov 89 17:57:26 EST
+    From: Rob Austein <sra@lcs.mit.edu>
+    ...
+    Alan, I'm not sure what's behind all this, but my suspicion is that
+    you overestimated the IQ of the people who fed you this line....
+
+It is, of course, very easy to overestimate the IQ of those drones, but let
+me tell you the experiments I have performed on them:  
+
+1.  When they ask for the "system serial number" I have told them I have no
+idea what it is.  Generally they then ask what "kind" of system it is.
+Telling them that it is a KS10 doesn't work here, but telling them it is a
+2020 at MIT generally enables them to find us in their records.  (If -I-
+then ask -them- what the "system serial number" of the system they just
+found is, they claim that they can't tell!)
+
+2.  When they ask for the "system serial number" I have told them it is a
+2020 processor with serial number 4xxx (whatever it is).  This does not
+work.  They can't find it, and I have to resort to telling them its a 2020
+at MIT as in case 1.
+
+3.  When they ask for the "system serial number" I have read them the
+multi-digit number that the Field Service person wrote in the space labeled
+"system serial number" on the pink form from the previous service call.
+That number works.
+
+I can only conclude from this that there is a "system serial number" that
+DEC makes up, that isn't written on any equipment, that DEC uses
+internally.  If Rob is capable of getting the drones to swallow those
+four-digit numbers as "system serial numbers", then he should have been
+calling in the KS10 repairs for the last few years -- it would have saved
+me a lot of grief.
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  2 Nov 89 20:14:17 EST
+From: John Wroclawski <jtw@lcs.mit.edu>
+Sender: jtw@lcs.mit.edu
+To: BUG-KS@ai.ai.mit.edu, laurel@ai.mit.edu
+In-reply-to: Laurel Simmons's message of Thu, 2 Nov 89 11:06:28 EST <8911021606.AA01796@apple-jacks>
+Subject: 2020 maintenance
+Date: Thu, 2 Nov 89 20:11:01 EST
+Message-ID:  <8911022011.aa05165@mintaka.lcs.mit.edu>
+
+
+I fixed ML's disk.
+
+	-john
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  2 Nov 89 20:01:31 EST
+From: Rob Austein <sra@lcs.mit.edu>
+Sender: sra@mintaka.lcs.mit.edu
+To: bawden@parc.xerox.com
+CC: laurel@ai.mit.edu, CENT@ai.ai.mit.edu, BUG-KS@ai.ai.mit.edu
+In-reply-to: Alan Bawden's message of Thu, 2 Nov 89 14:05 PST <19891102220549.1.ALAN@MR-BUN.parc.xerox.com>
+Subject: 2020 maintenance
+CC: sra@lcs.mit.edu
+Date: Thu, 2 Nov 89 17:57:26 EST
+Message-ID:  <8911021757.aa04086@mintaka.lcs.mit.edu>
+
+All I really know about this is that the "system serial number" that
+DEC used to want when I placed calls for XX (or the KL I used to work
+with at Wesleyan) was the processor serial number (GETAB% .APRID).
+The four digit numbers I listed are the kind of thing I'd expect as a
+DEC-20's serial number, whatever its CPU type.
+
+When we got BLT, its "system serial number" as inscribed on the front
+panel where you're supposed to look when logging a service call
+matched the "processor serial number" as written on the parts list
+inside the back door of the processor.  It also matched the "serial
+number" written into the boot blocks on the disk packs.  That's the
+number I would have used to place any service calls on the thing.
+
+Alan, I'm not sure what's behind all this, but my suspicion is that
+you overestimated the IQ of the people who fed you this line.  The
+thing I always had a hard time with was convincing them that a
+DECSYSTEM 2065 or 2020 really isn't some strange kind of VAX; once
+they got that straight, they'd transfer me to somebody who understood
+the numbering scheme and who was happy with the four digit number.
+
+My guess is that the people who answer the phone for DEC are the ones
+who couldn't hold down the job answering phones at BBN for the NOC.
+Just play dumb, keep repeating "it's a DECSYSTEM 2020, serial number
+4627, and no, it's not a VAX" and they'll eventually figure it out.
+
+Date: Thu,  2 Nov 89 19:36:28 EST
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: ML up
+To: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: LAUREL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU, NGL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <664202.891102.CENT@AI.AI.MIT.EDU>
+
+JTW was seen stalking around the ninth floor this afternoon offering his
+kingdom for an oscilloscope. he replaced a bad mondo capacitor in ML's rp06
+with one scavanged from one of the spare drives somewhere around here. for
+good measure, he even replaced all its burned out indicator light bulbs
+with good ones. ML is now up and running.
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  2 Nov 89 17:18:58 EST
+Received: from arisia.Xerox.COM by mintaka.lcs.mit.edu id aa03575;
+          2 Nov 89 17:11 EST
+Received: from roo.parc.Xerox.COM by arisia.Xerox.COM with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA24293; Thu, 2 Nov 89 14:07:03 -0800
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA19313; Thu, 2 Nov 89 14:08:32 PST
+Date: Thu, 2 Nov 89 14:05 PST
+From: Alan Bawden <bawden@parc.xerox.com>
+Subject: 2020 maintenance
+To: sra@lcs.mit.edu
+Cc: laurel@ai.mit.edu, CENT@ai.ai.mit.edu, BUG-KS@ai.ai.mit.edu
+In-Reply-To: <8911021520.aa02821@mintaka.lcs.mit.edu>
+Message-Id: <19891102220549.1.ALAN@MR-BUN.parc.xerox.com>
+
+    Date: Thu, 2 Nov 89 15:20:20 EST
+    From: Rob Austein <sra@lcs.mit.edu>
+
+	    AI:  4627
+	    ...
+    I don't know what the long alphanumeric string on the punch card on
+    the front of AI is, but it's not the serial number....
+
+It's not the -processor- serial number, but it is (or may be) the -system-
+serial number.  I have tried giving DEC processor serial numbers when
+logging a service call, and they always insist that that won't do them any
+good.  As near as I can tell, the "system serial number" is a magic string
+that DEC makes up that collectively applies to all of your equipment (and
+isn't written on any of it).  Presumably this is a useful concept if you
+have a service contract covering your "system", and is pointless otherwise
+-- but DEC still wants it for their paperwork.
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  2 Nov 89 15:24:48 EST
+From: Rob Austein <sra@lcs.mit.edu>
+Sender: sra@mintaka.lcs.mit.edu
+To: laurel@ai.mit.edu
+CC: CENT@ai.ai.mit.edu, BUG-KS@ai.ai.mit.edu
+In-reply-to: Laurel Simmons's message of Thu, 2 Nov 89 11:06:28 EST <8911021606.AA01796@apple-jacks>
+Subject: 2020 maintenance
+Date: Thu, 2 Nov 89 15:20:20 EST
+Message-ID:  <8911021520.aa02821@mintaka.lcs.mit.edu>
+
+The weather station is a good idea, I'll talk to Tom about it.  No
+promises, but from noises he's made before he might be interested.
+
+Here are the serial numbers for all five CPUs.  This does not mean
+that I expect you to get all of them PM'ed.
+
+	AI:  4627
+	ML:  4653
+	MC:  4649
+	MD:  4648
+	BLT: 4380
+
+I don't know what the long alphanumeric string on the punch card on
+the front of AI is, but it's not the serial number.  All four ITS
+KS-10s have stickers with their serial numbers on the outside of the
+back of the processor, just above the door.  Brave Little Toaster (aka
+LSD, the one running Twenex) has a sticker on its front panel.
+Additionally, all of them have their serial numbers scribbled on a
+parts list stuck to one of the upright supports inside the back door.
+
+--Rob
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  2 Nov 89 15:04:06 EST
+Received: from arisia.Xerox.COM by mintaka.lcs.mit.edu id aa02698;
+          2 Nov 89 15:00 EST
+Received: from roo.parc.Xerox.COM by arisia.Xerox.COM with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA21809; Thu, 2 Nov 89 11:55:55 -0800
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA18710; Thu, 2 Nov 89 11:57:23 PST
+Date: Thu, 2 Nov 89 11:54 PST
+From: Alan Bawden <bawden@parc.xerox.com>
+Subject: 2020 maintenance
+To: laurel@ai.mit.edu
+Cc: sra@lcs.mit.edu, CENT@ai.ai.mit.edu, BUG-KS@ai.ai.mit.edu
+In-Reply-To: <8911021606.AA01796@apple-jacks>
+Message-Id: <19891102195447.0.ALAN@MR-BUN.parc.xerox.com>
+
+    Date: Thu, 2 Nov 89 11:06:28 EST
+    From: Laurel Simmons <laurel@ai.mit.edu>
+    I NEED ONE THING!!!!
+    I need to log the calls using the system serial numbers. I have the
+    one for ai because it is conveinently posted HOWEVER I can't find them
+    posted for MC or ML and don't know how to find it. As soon as someone
+    tells me what the system serial numbers for MC and ML are I will log
+    the calls.
+
+We have -never- known the system serial numbers for any of the machines
+other than AI.  I have tried to get system serial numbers from DEC, but
+they can never understand why I don't know what they are already.  I have
+no idea how they think I am supposed to learn them in the first place!  The
+one posted on AI I got from Lester back when we only had AI, and it was
+sufficiently hard to get that now, when I log a service call on -any- of
+the machines, and DEC insists I give a system serial number, I always just
+give them AI's.  I suppose that whatever records DEC keeps on a per-system
+basis are hopelessly screwed up for our KS10's.  (In effect I guess we have
+one system with four processors.)
+
+Actually, I'm not sure that the number posted on AI is even the one that I
+have been using.  You might want to look at the pink customer copies of the
+bills for previous repairs that I keep in the bottom drawer of my filing
+cabinet (in a folder labeled "MAINT" or something similar), to see what the
+number is that I have really been using.
+
+    Rob--Maybe you guys can buy us a nice gift. I think we need a new
+    weather station because of Prep's demise. There are probably countless
+    other things we need or want. Whatever.
+
+Well, NIKKI can be repaired with only a little effort (new boot-proms, and
+a new binary).  MAP and I have been going to get around to doing that for
+months...  perhaps when I get back in two weeks...
+
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU  2 Nov 89 11:07:20 EST
+Received: from AI.MIT.EDU by REAGAN.AI.MIT.EDU via INTERNET with SMTP id 272731; 2 Nov 89 11:07:39 EST
+Received: from apple-jacks (apple-jacks.ai.mit.edu) by life.ai.mit.edu (4.0/AI-4.10) id AA01625; Thu, 2 Nov 89 11:06:33 EST
+From: laurel@ai.mit.edu (Laurel Simmons)
+Received: by apple-jacks (4.0/AI-4.10) id AA01796; Thu, 2 Nov 89 11:06:28 EST
+Date: Thu, 2 Nov 89 11:06:28 EST
+Message-Id: <8911021606.AA01796@apple-jacks>
+To: sra@lcs.mit.edu
+Cc: CENT@ai.ai.mit.edu, BUG-KS@ai.ai.mit.edu
+In-Reply-To: Rob Austein's message of Wed, 1 Nov 89 17:04:27 EST <8911011704.aa02041@mintaka.lcs.mit.edu>
+Subject: 2020 maintenance
+
+Rob, thanks for the offer to try and help pay but it sounds
+complicated. Let me propose that we proceed this way: I just got a
+call from Mike Divolio. He was very nice and said he would come out as
+soon as I log a call. I will then make out a wreq for NTE $3700 and
+that will cover PM on AI, MC, and ML, their associated disks and the
+TU77. While he is here he will check the busted disk on ML, tell me
+how much he thinks it will cost to fix, and if I don't think it is too
+much I will tell him to go ahead, he will fix it, and I will make out
+a wreq for it. Please note that Mike agreed to PM the machines BEFORE
+a PO is assigned. This was very nice of him/them.
+
+I NEED ONE THING!!!!
+
+I need to log the calls using the system serial numbers. I have the
+one for ai because it is conveinently posted HOWEVER I can't find them
+posted for MC or ML and don't know how to find it. As soon as someone
+tells me what the system serial numbers for MC and ML are I will log
+the calls.
+
+Rob--Maybe you guys can buy us a nice gift. I think we need a new
+weather station because of Prep's demise. There are probably countless
+other things we need or want. Whatever.
+
+How does all this sound to everyone? 
+
+laurel
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  1 Nov 89 17:16:18 EST
+Received: by mintaka.lcs.mit.edu id ab19362; 1 Nov 89 17:12 EST
+From: Rob Austein <sra@lcs.mit.edu>
+Sender: sra@MINTAKA.lcs.mit.edu
+To: laurel@ai.mit.edu
+CC: CENT@AI.ai.mit.edu, BUG-KS@AI.ai.mit.edu
+In-reply-to: Laurel Simmons's message of Wed, 1 Nov 89 16:18:02 EST <8911012118.AA01612@apple-jacks>
+Subject: 2020 maintenance
+Date: Wed, 1 Nov 89 17:04:27 EST
+Message-ID:  <8911011704.aa02041@mintaka.lcs.mit.edu>
+
+Certainly someone should call DEC and find out how much it will take
+to do a PM.  We need a couple different sets of figures:
+
+  How much it will cost to do just the AI ITS machines (two CPUs, a
+  tape drive, three RP06s)?
+
+  How much will it cost to do all three (four? five?) KS-10s, AI's
+  tape drive, and all of the disks (at least four RP06s, maybe as high
+  as seven)?
+
+  How much would it cost for us to just buy the filters and do all the
+  work ourselves?
+
+The pricing situation may have changed a lot since the last time we
+had this done, and it may be that it will be a considerable net saving
+to do the AI and LCS machines all in one visit by DEC (the minimum
+number of hours per visit may have gone up).
+
+If you can send this information to us we will talk to Tom Greene and
+get back to you Real Soon to tell you if we're in and talk about
+scheduling if we are.  Sorry for the roundabout approach, but the LCS
+ITS machines don't officially exist, so funding PM for them has to go
+by the back door if happens at all....
+
+--Rob
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  1 Nov 89 16:54:19 EST
+Received: from STONY-BROOK.SCRC.SYMBOLICS.COM by mintaka.lcs.mit.edu id aa20859;
+          1 Nov 89 16:46 EST
+Received: from EUPHRATES.SCRC.Symbolics.COM by STONY-BROOK.SCRC.Symbolics.COM via CHAOS with CHAOS-MAIL id 685808; 1 Nov 89 16:45:44 EST
+Date: Wed, 1 Nov 89 16:45 EST
+From: "David A. Moon" <Moon@stony-brook.scrc.symbolics.com>
+Subject: 2020 maintenance
+To: Laurel Simmons <laurel@ai.mit.edu>
+cc: CENT%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu, 
+    BUG-KS%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu
+In-Reply-To: <8911012118.AA01612@apple-jacks>
+Message-ID: <19891101214549.9.MOON@EUPHRATES.SCRC.Symbolics.COM>
+
+Don't you also want to get DEC to repair the broken RP06
+on the ML machine?  (I guess I don't know the answer to
+that question, this message is really a reminder to ask
+penny or anyone else who thinks they know the answer.)
+
+Date: Wed,  1 Nov 89 16:44:58 EST
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: 2020 maintenance
+To: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: laurel@LIFE.AI.MIT.EDU
+Message-ID: <663646.891101.CENT@AI.AI.MIT.EDU>
+
+laurel and i just talked. this is the new improved theory:
+
+she will call dec and attempt to arrange PMs on AI, MC, and ML. she's
+aware that MC is nominally LCS property but figures it's mostly used
+by AI types and anyway we spend so little on the ITSs, another $1k
+isn't going to hurt very much. she will also see about getting ML's
+disk fixed; JTW, please remind her of your diagnosis of the problem
+with that. i will make sure all the machines are clearly labelled so
+dec field circus won't be able to argue that they couldn't figure out
+which was which.
+
+also, i will call l&h for details about fixing this power supply
+that's been sitting on alan's office floor for 8 months. (or alan, do
+you have current info on them?) when we get info, laurel will create
+the necessary paperwork here and i will send the power supply off....
+
+alan, is that what we want?
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  1 Nov 89 16:23:37 EST
+Received: from life.ai.mit.edu by mintaka.lcs.mit.edu id aa10222;
+          1 Nov 89 16:18 EST
+Received: from apple-jacks (apple-jacks.ai.mit.edu) by life.ai.mit.edu (4.0/AI-4.10) id AA19144; Wed, 1 Nov 89 16:18:09 EST
+From: Laurel Simmons <laurel@ai.mit.edu>
+Received: by apple-jacks (4.0/AI-4.10) id AA01612; Wed, 1 Nov 89 16:18:02 EST
+Date: Wed, 1 Nov 89 16:18:02 EST
+Message-Id: <8911012118.AA01612@apple-jacks>
+To: CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+    BUG-KS%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+In-Reply-To: "Pandora B. Berman"'s message of Mon, 30 Oct 89 23:04:26 EST <662694.891030.CENT@AI.AI.MIT.EDU>
+Subject: 2020 maintenance
+
+OK, I get boggled by endlessly nested messages and so I haven't really
+read these message to carefully. Tell me if this is right:
+
+What we want to do is get PM on AI and the other ITS that is sitting
+next to AI. We want filters changed and power supplies checked and
+ligtbulbs changed. We want a power supply to get fixed but we are not
+going to have DEC do it because it is expensive so you are sending it
+to L&H instead. How am I doing so far? We are marginally interested in
+seeing the LCS ITS machines serviced but would like LCS to pay for it
+since they are supposed to be taking care of those machines. So what I
+need to do is this, all-of-this, and nothing--but-this: Call DEC, find
+out how much it will cost to do a PM on the two machines, write a PO,
+and schedule it. Does this sound right? Let me know and your ever
+faithful servant will get right on it.
+
+laurel
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 31 Oct 89 12:45:37 EST
+Received: from reagan.ai.mit.edu by mintaka.lcs.mit.edu id aa03920;
+          31 Oct 89 12:40 EST
+Received: from MOSCOW-CENTRE.AI.MIT.EDU by REAGAN.AI.MIT.EDU via CHAOS with CHAOS-MAIL id 272116; Tue 31-Oct-89 12:41:43 EST
+Date: Tue, 31 Oct 89 12:41 EST
+From: Jerry Roylance <glr@ai.mit.edu>
+Subject: [CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu: heph chaos lossage]
+To: curt@ai.mit.edu
+cc: system-hackers@TRIX.ai.mit.edu, LAUREL%AI.AI.MIT.EDU@lcs.mit.edu, 
+    BUG-KS%AI.AI.MIT.EDU@lcs.mit.edu, NICK%AI.AI.MIT.EDU@lcs.mit.edu
+In-Reply-To: <8910311353.AA09461@aarne.ai.mit.edu>
+Message-ID: <19891031174140.0.GLR@MOSCOW-CENTRE.AI.MIT.EDU>
+
+    Date: Tue, 31 Oct 89 08:53:29 est
+    From: curt@ai.mit.edu (Curtis Fennell)
+
+    Return-Path: <CENT@ai.ai.mit.edu>
+    Date: Mon, 30 Oct 89 22:29:00 EST
+    From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu>
+    Subject: heph chaos lossage
+    To: curt@life.ai.mit.edu
+
+	From: Curtis Fennell <curt@ai.mit.edu>
+	Date: Sat, 28 Oct 89 13:49:45 edt
+	To: CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+	Subject: ITS tape lossage
+	....
+	As far as heph's chaos software being broken, I don't know enough about 
+	chaosnet to say.
+
+    well, it still seems to be broken. the ordinary fix (taught me by mr.
+    roylance) is to boot the sucker, but that doesn't help. could you please
+    find someone who does know about unix chaosnet stuff and see whether the
+    situation can be alleviated? thx..
+
+    ----Can anybody help me with this?----
+
+    -----Curt-----
+
+My guess is that on or about 10/24/89 05:18:39 somebody moved vulcan
+from subnet 128.52.22.0 (aka chaos subnet #o26) to subnet 128.52.32.0
+(which would be chaos subnet #o40, but there are no chaos bridges to it
+so it is not chaos live).  Chaos hosts cannot contact vulcan on subnet
+#o26 because it isn't on that piece of wire.
+
+I suspect Vulcan was moved to 128.52.32 to avoid putting NFS traffic
+through the Proteon gateway.  (The gateway has problems with NFS
+traffic:  it cannot reliably handle a burst of five 1500byte packets
+generated in an NFS data transaction.)
+
+Vulcan will be turned off soon, so the move was probably done because
+NFS file traffic on Vulcan was broken.  If that is true, then the ITS
+machines have lost a path to their most convenient 6250 drive.
+
+The path could be re-established with a chaos gateway to #o40.  Alan
+would know how hard that is.
+
+Date: Mon, 30 Oct 89 23:04:26 EST
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: 2020 maintenance
+To: LAUREL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <662694.891030.CENT@AI.AI.MIT.EDU>
+
+    Date: Sat, 28 Oct 89 13:48 PDT
+    From: Alan Bawden <bawden@parc.xerox.com>
+    Subject: mail to eddie still losing
+    To: CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+    Cc: LAUREL%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+	BUG-KS%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+    ....
+    You might want to look through my BABYL file for a message I may have
+    saved from Joe Ricchio about what this costs, etc.  (He arranged it for
+    MC/MD once long ago, and I may have added some notes when I did it last
+    for AI/ML.)... 
+you didn't, as far as i can tell.
+		   the most important thing is to have them change the 3
+    RP06 filters.  (You probably have to -tell- them that in advance so
+    that they know to bring 3 of them.)
+
+snarfed from alan's babyl and now in KSHACK;MAINT BYDEC:
+----------
+Date: Mon 28 Sep 87 08:55:15-EDT
+From: Joe Ricchio <RICCHIO@XX.LCS.MIT.EDU>
+Subject: Re: MC/MD maintenance
+To: Alan@AI.AI.MIT.EDU
+
+Cost for PM to MC/MD was $579 per machine.
+   Labor cost $150/hr with a 2 hr minimum.
+   Each filter cost $276. 
+-------
+
+Date: Wednesday, 23 September 1987  13:02-EDT
+From: DEC Field Servant <F-S@XX.LCS.MIT.EDU>
+To: sra@XX.LCS.MIT.EDU
+Subject:   PM'S ON 2020's
+ReSent-From: SRA@XX.LCS.MIT.EDU
+ReSent-To: JTW@xx.lcs.mit.edu,Alan@xx.lcs.mit.edu
+ReSent-Date: Wed 23 Sep 1987 17:02-EDT
+
+Rob, the pm's on the 2020's have been completed. Filters were changed.
+Voltages, fans and head alignment were checked. All heads was cleaned.  All
+diags were run.
+			Thanks, Lester..................
+----------
+Date: Fri 18 Sep 87 11:19:09-EDT
+From: Joe Ricchio <RICCHIO@XX.LCS.MIT.EDU>
+Subject: MC/MD maintenance
+To: SRA@XX.LCS.MIT.EDU
+ReSent-Date: Fri 18 Sep 87 11:23:07-EDT
+ReSent-From: Rob Austein <SRA@XX.LCS.MIT.EDU>
+ReSent-To: Postmaster@MC.LCS.MIT.EDU, Liaison@MC.LCS.MIT.EDU,
+    Bug-ITS@MC.LCS.MIT.EDU
+
+Rob, Lester has scheduled Tuesday 9-22-87 @ 9AM for PM to the RP06 drives.
+Hope this is agreeable wiht you. If not please advise. Thanks
+^_
+----------
+
+Laurel, i will try to be around at a rational hour on wed. to talk to you
+about arranging this.
+
+    No, DEC would charge an arm and a leg to fix MD.  Recall that this is
+    the busted power-suppy that's sitting under my desk waiting to be
+    mailed off to LH Research, who will fix it for about $400.
+
+this too. 
+
+Date: Mon, 30 Oct 89 22:43:23 EST
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: ITS tape lossage
+To: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU, BUG-DUMP%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: NGL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <662686.891030.CENT@AI.AI.MIT.EDU>
+
+    Date: Sat, 28 Oct 89 13:28 PDT
+    From: Alan Bawden <bawden@parc.xerox.com>
+    Subject: ITS tape lossage
+    To: CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+	NGL%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+    Cc: BUG-KS%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+    ....
+    Yes, since we might need to read the recent ML tapes, I think we should
+    install it.  (The bug that happened early on, that made me nervous
+    about installing it, almost certainly has nothing to do with the new
+    code.  (I don't suppose anyone has fixed that in my absence...))
+
+(what, are you kidding?) DUMP 442BIN now installed on AI and MC. Noble,
+that means you now can read those ML tapes using AI's drive.
+
+Date: Mon, 30 Oct 89 22:29:00 EST
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: heph chaos lossage
+To: curt@LIFE.AI.MIT.EDU
+cc: LAUREL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU, BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU,
+    NICK%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <662676.891030.CENT@AI.AI.MIT.EDU>
+
+    From: Curtis Fennell <curt@ai.mit.edu>
+    Date: Sat, 28 Oct 89 13:49:45 edt
+    To: CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+    Cc: LAUREL%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+	NGL%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+	BUG-KS%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+    Subject: ITS tape lossage
+    ....
+    As far as heph's chaos software being broken, I don't know enough about 
+    chaosnet to say.
+
+well, it still seems to be broken. the ordinary fix (taught me by mr.
+roylance) is to boot the sucker, but that doesn't help. could you please
+find someone who does know about unix chaosnet stuff and see whether the
+situation can be alleviated? thx.
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 28 Oct 89 17:01:21 EDT
+Received: from arisia.Xerox.COM by mintaka.lcs.mit.edu id aa10555;
+          28 Oct 89 16:52 EDT
+Received: from roo.parc.Xerox.COM by arisia.Xerox.COM with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA16725; Sat, 28 Oct 89 13:49:58 -0700
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA29853; Sat, 28 Oct 89 13:51:26 PDT
+Date: Sat, 28 Oct 89 13:48 PDT
+From: Alan Bawden <bawden@parc.xerox.com>
+Subject: mail to eddie still losing
+To: CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+Cc: LAUREL%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+    BUG-KS%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+In-Reply-To: <661608.891027.CENT@AI.AI.MIT.EDU>
+Message-Id: <19891028204858.8.ALAN@MR-BUN.parc.xerox.com>
+
+[ I can no longer recall why this discussion has the subject "mail to eddie
+  still losing" ... ]
+
+    Date: Fri, 27 Oct 89 22:09:38 EDT
+    From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu>
+	Date: Thu, 26 Oct 89 17:53 PDT
+	From: Alan Bawden <bawden@parc.xerox.com>
+	Before I left Laurel and I agreed that it was time to pay DEC to come
+	and do another PM on AI and ML.  (I didn't think about what to do about
+	MC, which LCS has traditionally maintained.)
+    laurel, this must have been a discussion i missed. can we get dec to come
+    in, say sometime next week, and PM AI and ML, and maybe while they're at it
+    fix ML's disk?
+
+You might want to look through my BABYL file for a message I may have saved
+from Joe Ricchio about what this costs, etc.  (He arranged it for MC/MD
+once long ago, and I may have added some notes when I did it last for
+AI/ML.)  I think you set it up the same way you set up a service call, and
+I think it's pretty cheap.  I would emphasize that the most important thing
+is to have them change the 3 RP06 filters.  (You probably have to -tell-
+them that in advance so that they know to bring 3 of them.)
+
+		   JTW, if we are having the other ITSs PMed, is there any
+    prospect whatsoever of getting TJG to pay for PMing MC? how about MD -- how
+    terminal was its problem lo these many months ago anyway?
+
+No, DEC would charge an arm and a leg to fix MD.  Recall that this is the
+busted power-suppy that's sitting under my desk waiting to be mailed off to
+LH Research, who will fix it for about $400.  (Yes, RS, I know -- I'll
+respond to your note separately.)
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 28 Oct 89 16:48:44 EDT
+Received: from arisia.Xerox.COM by mintaka.lcs.mit.edu id aa10437;
+          28 Oct 89 16:32 EDT
+Received: from roo.parc.Xerox.COM by arisia.Xerox.COM with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA16651; Sat, 28 Oct 89 13:29:44 -0700
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA29783; Sat, 28 Oct 89 13:31:12 PDT
+Date: Sat, 28 Oct 89 13:28 PDT
+From: Alan Bawden <bawden@parc.xerox.com>
+Subject: ITS tape lossage
+To: CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+    NGL%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+Cc: BUG-KS%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+In-Reply-To: <661620.891027.CENT@AI.AI.MIT.EDU>
+Message-Id: <19891028202844.7.ALAN@MR-BUN.parc.xerox.com>
+
+    Date: Fri, 27 Oct 89 22:24:11 EDT
+    From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu>
+    NGL -- i note that you were trying to read some of the ML tapes onto AI so
+    that you could get at your stuff, and appeared to be losing. this was not
+    your fault. ML is running a newer version of dump which is not backwards
+    compatible.
+
+Right, to be completely clear about this:  Tapes written with the new
+version of DUMP (running only on ML since the end of July) are not readable
+in older versions of DUMP.  Tapes written with the old DUMP -are- readable
+using the new version (I'm not crazy!).  This incompatibility was necessary
+so that we could start using certain modern tape drives (such as the one
+Symbolics uses).
+
+		alan, i never got around to installing the new dump on AI and
+    MC; more exactly, i never got around to deciding it was appropriate/safe/
+    sufficiently tested. maybe now's the time to install it?
+
+Yes, since we might need to read the recent ML tapes, I think we should
+install it.  (The bug that happened early on, that made me nervous about
+installing it, almost certainly has nothing to do with the new code.  (I
+don't suppose anyone has fixed that in my absence...))
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 28 Oct 89 14:01:02 EDT
+Received: from life.ai.mit.edu by mintaka.lcs.mit.edu id aa09733;
+          28 Oct 89 13:48 EDT
+Received: from aarne.ai.mit.edu by life.ai.mit.edu (4.0/AI-4.10) id AA17058; Sat, 28 Oct 89 13:48:28 EDT
+From: Curtis Fennell <curt@ai.mit.edu>
+Received: from localhost by aarne.ai.mit.edu; Sat, 28 Oct 89 13:49:45 edt
+Date: Sat, 28 Oct 89 13:49:45 edt
+Message-Id: <8910281749.AA02071@aarne.ai.mit.edu>
+To: CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+Cc: LAUREL%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+    NGL%AI.AI.MIT.EDU@mintaka.lcs.mit.edu, 
+    BUG-KS%AI.AI.MIT.EDU@mintaka.lcs.mit.edu
+In-Reply-To: "Pandora B. Berman"'s message of Fri, 27 Oct 89 22:24:11 EDT <661620.891027.CENT@AI.AI.MIT.EDU>
+Subject: ITS tape lossage
+
+   Date: Fri, 27 Oct 89 22:24:11 EDT
+   From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu>
+
+       I can't get it to respond on Chaosnet either, but I -can- get it to
+       talk TCP.  Perhaps the software it runs has changed.  Any chance that
+       the new Unix person installed a version of Unix without Chaosnet?
+   ok curt, what is the chance this has happened? or that heph's chaos
+   software has broken in some other interesting fashion? we do still use it
+   for remote dumping of MC and therefore need the chaosnet software to work.
+
+
+Well, I can tell you that I haven't changed anything that would affect
+chaosnet - I haven't installed any "new" versions of unix on any machines
+except life, and life is not involved on the chaosnet (that I know of).
+
+In any case, life was just upgraded to run the same os revision as the
+rest of the servers (SunOS 4.0.3)
+
+As far as heph's chaos software being broken, I don't know enough about 
+chaosnet to say.
+
+-Curt
+
+Date: Fri, 27 Oct 89 22:24:11 EDT
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: ITS tape lossage
+To: LAUREL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU, NGL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU,
+    fennell@LIFE.AI.MIT.EDU
+cc: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <661620.891027.CENT@AI.AI.MIT.EDU>
+
+    Date: Thu, 26 Oct 89 18:02 PDT
+    From: Alan Bawden <bawden@parc.xerox.com>
+    Subject: vulcan access problem?
+    To: CENT@ai
+    Cc: LAUREL@ai, jonathan@WHEATIES.ai.mit.edu, BUG-KS@ai
+	Date: Thu, 26 Oct 89 18:25:18 EDT
+	From: "Pandora B. Berman" <CENT@ai>
+	...  perhaps the bug is that heph's chaos connection is down -- i
+	can't finger there from AI..... 
+    I can't get it to respond on Chaosnet either, but I -can- get it to
+    talk TCP.  Perhaps the software it runs has changed.  Any chance that
+    the new Unix person installed a version of Unix without Chaosnet?
+ok curt, what is the chance this has happened? or that heph's chaos
+software has broken in some other interesting fashion? we do still use it
+for remote dumping of MC and therefore need the chaosnet software to work.
+
+NGL -- i note that you were trying to read some of the ML tapes onto AI so
+that you could get at your stuff, and appeared to be losing. this was not
+your fault. ML is running a newer version of dump which is not backwards
+compatible. alan, i never got around to installing the new dump on AI and
+MC; more exactly, i never got around to deciding it was appropriate/safe/
+sufficiently tested. maybe now's the time to install it?
+   btw, noble, we are working on getting ML fixed. you should remind people
+more forcefully that you do use ML, as that is likely to spur us to pay it
+more attention.
+
+Date: Fri, 27 Oct 89 22:09:38 EDT
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: mail to eddie still losing
+To: LAUREL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <661608.891027.CENT@AI.AI.MIT.EDU>
+
+    Date: Thu, 26 Oct 89 17:53 PDT
+    From: Alan Bawden <bawden@parc.xerox.com>
+    Subject: mail to eddie still losing
+    To: jtw@lcs.mit.edu
+    Cc: sra@lcs.mit.edu, cent%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu, 
+	BUG-KS%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu
+
+    [ BUG-MAIL removed, BUG-KS added ]
+
+	Date: Thu, 26 Oct 89 17:48:30 EDT
+	From: John Wroclawski <jtw@lcs.mit.edu>
+						 I am assuming that the
+	usual head actuator power supply implosion has occured on ML's
+	disk; we will be needing some parts if we don't want to give DEC
+	lots of $$.
+    As long as the AI Lab is willing to pay for RP06 maintenance, I tend to
+    favor the lets-get-DEC-to-fix-it approach.  Unless the cost threatens
+    to be really large.  How much $$ are we talking about here?
+
+	And some light bulbs. And some filters. The ones there now look
+	like a medical scene from "Coal Miner's Daughter". Bad news.
+    Before I left Laurel and I agreed that it was time to pay DEC to come
+    and do another PM on AI and ML.  (I didn't think about what to do about
+    MC, which LCS has traditionally maintained.)  I thought it would be
+    nice if that happened before I returned, but I guess it probably won't.
+
+laurel, this must have been a discussion i missed. can we get dec to come
+in, say sometime next week, and PM AI and ML, and maybe while they're at it
+fix ML's disk? JTW, if we are having the other ITSs PMed, is there any
+prospect whatsoever of getting TJG to pay for PMing MC? how about MD -- how
+terminal was its problem lo these many months ago anyway?
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 26 Oct 89 21:13:49 EDT
+Received: from arisia.Xerox.COM by mintaka.lcs.mit.edu id aa18611;
+          26 Oct 89 21:06 EDT
+Received: from roo.parc.Xerox.COM by arisia.Xerox.COM with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA06018; Thu, 26 Oct 89 18:03:22 -0700
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA26217; Thu, 26 Oct 89 18:04:40 PDT
+Date: Thu, 26 Oct 89 18:02 PDT
+From: Alan Bawden <bawden@parc.xerox.com>
+Subject: vulcan access problem?
+To: CENT%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu
+Cc: LAUREL%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu, jonathan@WHEATIES.ai.mit.edu, 
+    BUG-KS%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu
+In-Reply-To: <660980.891026.CENT@AI.AI.MIT.EDU>
+Message-Id: <19891027010222.9.ALAN@MR-BUN.parc.xerox.com>
+
+    Date: Thu, 26 Oct 89 18:25:18 EDT
+    From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu>
+    ...  perhaps the bug is that heph's chaos connection is down -- i can't
+    finger there from AI..... 
+
+I can't get it to respond on Chaosnet either, but I -can- get it to talk
+TCP.  Perhaps the software it runs has changed.  Any chance that the new
+Unix person installed a version of Unix without Chaosnet?
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU 26 Oct 89 21:07:56 EDT
+Received: from arisia.Xerox.COM by mintaka.lcs.mit.edu id aa24184;
+          26 Oct 89 20:57 EDT
+Received: from roo.parc.Xerox.COM by arisia.Xerox.COM with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA05661; Thu, 26 Oct 89 17:54:27 -0700
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA26185; Thu, 26 Oct 89 17:55:44 PDT
+Date: Thu, 26 Oct 89 17:53 PDT
+From: Alan Bawden <bawden@parc.xerox.com>
+Subject: mail to eddie still losing
+To: jtw@lcs.mit.edu
+Cc: sra@lcs.mit.edu, cent%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu, 
+    BUG-KS%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu
+In-Reply-To: <8910261748.aa27435@mintaka.lcs.mit.edu>
+Message-Id: <19891027005313.8.ALAN@MR-BUN.parc.xerox.com>
+
+[ BUG-MAIL removed, BUG-KS added ]
+
+    Date: Thu, 26 Oct 89 17:48:30 EDT
+    From: John Wroclawski <jtw@lcs.mit.edu>
+
+       Date: Thu, 26 Oct 89 10:43 PDT
+       From: Alan Bawden <bawden@parc.xerox.com>
+       And I'll bet that nobody except Penny has even -looked- at poor ML.  I
+       suppose Penny could just call DEC to come and fix it, but we'd look pretty
+       silly if the problem turned out to be something totally trivial.  
+
+       (I realize that everybody there with RP06 experience is so busy that they
+       can't spare 5 minute to go upstairs to the 9th floor, so I've arranged to
+       fly back to Cambridge on November 16 to do it myself.  Of course if
+       somebody else gets around to it first, that would be a win.)
+
+    Flame, flame. I've looked at it (because Penny wandered down and yanked,
+    I'll admit). It's broken.
+
+    Anybody know what the state of "MD's" RP06 is?
+
+"MD's" RP06 almost works.  It causes ITS to crash about once a day because
+the controller complains that the drive has disappeared.
+
+There should be another useable corpse in the RP06 graveyard (assuming you
+guys haven't moved anything since I left) that has nothing wrong with it
+other than a bad set of spindle bearings.  I believe it is labeled.
+
+						   I am assuming that the
+    usual head actuator power supply implosion has occured on ML's disk;
+    we will be needing some parts if we don't want to give DEC lots of $$.
+
+As long as the AI Lab is willing to pay for RP06 maintenance, I tend to
+favor the lets-get-DEC-to-fix-it approach.  Unless the cost threatens to be
+really large.  How much $$ are we talking about here?
+
+    And some light bulbs. And some filters. The ones there now look like
+    a medical scene from "Coal Miner's Daughter". Bad news.
+
+Before I left Laurel and I agreed that it was time to pay DEC to come and
+do another PM on AI and ML.  (I didn't think about what to do about MC,
+which LCS has traditionally maintained.)  I thought it would be nice if
+that happened before I returned, but I guess it probably won't.
+
+Date: Thu, 26 Oct 89 18:25:18 EDT
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: vulcan access problem?
+To: LAUREL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU, jonathan@WHEATIES.AI.MIT.EDU
+cc: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <660980.891026.CENT@AI.AI.MIT.EDU>
+
+i've been using the vulcan (tape) drive to remotely dump MC. today, i
+couldn't get MC to connect to it. i tried rebooting Heph, which is the
+usual solution. still no luck getting connected. i was fiddling with the
+tape drive a little more, when some random grad student (i don't have a
+name to attach to him) wandered by and said "gee, is that working?  it's
+been dead for a month." this surprised me, as i thought i had used this
+drive as recently as monday, so i pressed for details. the GS believed that
+a new drive was on order but not arrived yet, and didn't really know much.
+a little later, i bumped into Curt (the newish AIL unix weenie) and asked
+him. after a careful description of which tape drive i was referring to, he
+was pretty sure that the dead drive is some other one which is attached to
+a bunch of the newer unix boxes, and didn't know anything about the one i
+was losing with.
+
+could you please confirm this analysis? also, any idea what is wrong with
+the drive connected to pyggy/heph/etc.? perhaps the bug is that heph's
+chaos connection is down -- i can't finger there from AI....
+
+Date: Thu, 19 Oct 89 19:07:42 EDT
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: ML down
+To: BUG-KS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: NGL%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <657547.891019.CENT@AI.AI.MIT.EDU>
+
+ML's disk seems to have died for no apparent reason. the sysconsole says
+something about a massbus err a little after noon tuesday. when i looked at
+the disk, the panel switch was on STOP. i write-protected it and pulled out
+the number plug and tried to start it, but it wouldn't budge. all the
+breakers seem to be on; i tried switching the front one off and then on,
+but that didn't help. i tried to take the disk out so i could look for
+possible evidence of crashage, but i couldn't get the screw mechanism in
+the pack cover to work. someone who knows abou rp06s, please look at it.
+
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU  2 Sep 89 16:44:04 EDT
+Received: from ARISIA.XEROX.COM by REAGAN.AI.MIT.EDU via INTERNET with SMTP id 257428; 2 Sep 89 16:41:43 EDT
+Received: from roo.parc.Xerox.COM by arisia.Xerox.COM with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA14951; Sat, 2 Sep 89 13:37:27 -0700
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA03498; Sat, 2 Sep 89 13:40:21 PDT
+Date: Sat, 2 Sep 89 13:38 PDT
+From: Alan Bawden <bawden@parc.xerox.com>
+Subject: Any takers?
+To: KS-ITS@ai.ai.mit.edu
+Included-Msgs: <8909020320.AA18208@cs.wisc.edu>,
+               The message of 1 Sep 89 20:20 PDT from MAILER-DAEMON@cs.wisc.edu,
+               The message of 1 Sep 89 20:20 PDT from Mail Delivery Subsystem
+Message-Id: <19890902203852.8.ALAN@MR-BUN.parc.xerox.com>
+
+[ Apologies to those of you who will get this twice, but many copies
+  bounced back to me because of mailer lossage I would rather not explain. ]
+
+Date: Fri, 01 Sep 89 10:47:41 GMT
+From: Brian J Haughey <HAUGHD88%IRLEARN@searn.sunet.se>
+To: Real machines list <ks-owners@kicki.stacken.kth.se>
+Subject:      pdp-10
+
+Hi there.
+
+The computer centre here in University College Dublin are looking for a good
+home for a 2020 CPU. I guess anyone who would be prepared to pay shipping costs
+would be welcome to it.
+Enquiries to Sinead@Irlearn.ucd.ie
+
+Regards, bjh
+
+-------------------------------------------------------------------------
+Brian J Haughey,     Internet:  Haughd88@Irlearn.ucd.ie
+9 Dunseverick Road,  Bitnet:    Haughd88@Irlearn.Bitnet
+Clontarf,            Janet:     haughd88%irlearn.ucd.ie@UK.AC.EARN-RELAY
+Dublin 3,            Arpa:      Haughd88%Irlearn.Bitnet@cunyvm.cuny.edu
+Ireland.             UUCP:      mcvax!haughd88@irlearn.ucd.ie
+Bell:  +353-1-515422 Fax:       +353-1-520826  Telex:  (0500) 30542 LKHQ
+
+"There's no future in time travel."
+-------------------------------------------------------------------------
+
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  1 Sep 89 23:04:04 EDT
+Received: from arisia.Xerox.COM by mintaka.lcs.mit.edu id aa04073;
+          1 Sep 89 22:55 EDT
+Received: from roo.parc.Xerox.COM by arisia.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA25204; Fri, 1 Sep 89 12:56:24 -0700
+Received: from mr-bun.parc.Xerox.COM by roo.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA02971; Fri, 1 Sep 89 12:58:02 PDT
+Received: from Xerox.COM by kanga.parc.xerox.com with SMTP
+	(5.61+/IDA-1.2.8/gandalf) id AA16680; Fri, 1 Sep 89 09:50:33 PDT
+Received: from Catawba.ms by ArpaGateway.ms ; 01 SEP 89 09:50:19 PDT
+Return-Path: <@ai.ai.mit.edu,@kicki.stacken.kth.se:HAUGHD88@irlearn.bitnet>
+Received: from lcs.mit.edu ([18.26.0.36]) by Xerox.COM ; 01 SEP 89 08:41:59
+ PDT
+Received: from ai.ai.mit.edu by mintaka.lcs.mit.edu id aa16569;
+           1 Sep 89 11:36 EDT
+Received: from lcs.mit.edu (CHAOS 15044) by AI.AI.MIT.EDU  1 Sep 89
+ 11:36:48 EDT
+Received: from kicki.stacken.kth.se by mintaka.lcs.mit.edu id aa16519;
+           1 Sep 89 11:33 EDT
+Return-Path: <HAUGHD88@IRLEARN.BITNET>
+Received: from sunic.sunet.se by KICKI.STACKEN.KTH.SE; Fri, 1 Sep 89
+ 16:36:42 +0200
+Received: from searn.sunet.se by sunic.sunet.se (5.61+IDA/KTH/LTH/1.83)
+ 	id AAsunic03930; Fri, 1 Sep 89 12:02:16 +0200
+Received: from SEARN.SUNET.SE by SEARN.SUNET.SE (IBM VM SMTP R1.2) with
+ BSMTP id 0743; Fri, 01 Sep 89 12:03:56 +02
+Received: from IRLEARN.UCD.IE by SEARN.SUNET.SE (Mailer R2.03B) with BSMTP
+ id
+  0742; Fri, 01 Sep 89 12:03:54 +0200
+Received: by IRLEARN (Mailer R2.03B) id 4780; Fri, 01 Sep 89 10:55:21 GMT
+Reply-To: KS-OWNERS@stacken.kth.se, HAUGHD88%irlearn.BITNET@mitvma.mit.edu
+Date: Fri, 01 Sep 89 10:47:41 GMT
+From: Brian J Haughey <HAUGHD88%IRLEARN@searn.sunet.se>
+To: Real machines list <ks-owners@kicki.stacken.kth.se>
+Subject:      pdp-10
+Message-Id: <8909011002.AAsunic03930@sunic.sunet.se>
+Resent-To: KS-ITS%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu
+Resent-From: Alan Bawden <bawden@arisia.xerox.com>
+Resent-Date: Fri, 1 Sep 89 12:56 PDT
+Resent-Message-Id: <19890901195619.5.ALAN@MR-BUN.parc.xerox.com>
+Resent-Comments: Any takers?  (I think there is a more general KS10 interest list on AI, but
+                 I can't remember its name...)
+
+Hi there.
+
+The computer centre here in University College Dublin are looking for a good
+home for a 2020 CPU. I guess anyone who would be prepared to pay shipping costs
+would be welcome to it.
+Enquiries to Sinead@Irlearn.ucd.ie
+
+Regards, bjh
+
+-------------------------------------------------------------------------
+Brian J Haughey,     Internet:  Haughd88@Irlearn.ucd.ie
+9 Dunseverick Road,  Bitnet:    Haughd88@Irlearn.Bitnet
+Clontarf,            Janet:     haughd88%irlearn.ucd.ie@UK.AC.EARN-RELAY
+Dublin 3,            Arpa:      Haughd88%Irlearn.Bitnet@cunyvm.cuny.edu
+Ireland.             UUCP:      mcvax!haughd88@irlearn.ucd.ie
+Bell:  +353-1-515422 Fax:       +353-1-520826  Telex:  (0500) 30542 LKHQ
+
+"There's no future in time travel."
+-------------------------------------------------------------------------
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 11 Jun 89 13:45:55 EDT
+Received: from lcs.mit.edu (CHAOS 15044) by MC.LCS.MIT.EDU 11 Jun 89 13:41:48 EDT
+Received: from ai.ai.mit.edu by mintaka.lcs.mit.edu id aa04677;
+          11 Jun 89 13:40 EDT
+Date: Sun, 11 Jun 89 13:25:33 EDT
+From: "Robert E. Seastrom" <RS%AI.AI.MIT.EDU@MINTAKA.lcs.mit.edu>
+Subject:  New mailing list
+To: ROLL@kicki.stacken.kth.se
+cc: elbows@bloom-beacon.mit.edu, mrc@score.stanford.edu, 
+    KS-ITS%MC.LCS.MIT.EDU@MINTAKA.lcs.mit.edu, 
+    PDP8%MC.LCS.MIT.EDU@MINTAKA.lcs.mit.edu, 
+    PDP8-LOVERS%MC.LCS.MIT.EDU@MINTAKA.lcs.mit.edu
+In-reply-to: Msg of 11-Jun-89 17:59:36 +0200 from Peter Lothberg <ROLL at KICKI.STACKEN.KTH.SE>
+Message-ID: <607858.890611.RS@AI.AI.MIT.EDU>
+
+
+Ah, so YOU are the folks who run the KS-OWNERS mailing list?
+
+Maybe you would like us here to do the North American distribution
+of the KS-OWNERS mailing list.  A few of us here got the idea to do
+this because we didn't know that a KS-related mailing list (with
+the exception of KS-ITS) existed.  Perhaps you ought to officially
+register your list... it got me a lot more subscribers on PDP8-LOVERS
+when I did that...
+
+        Let me know what you want to do...
+
+                       ---Rob
+
+
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 11 Jun 89 12:04:53 EDT
+Received: from lcs.mit.edu (CHAOS 15044) by MC.LCS.MIT.EDU 11 Jun 89 12:00:15 EDT
+Received: from [130.237.234.220] by mintaka.lcs.mit.edu id aa04060;
+          11 Jun 89 11:59 EDT
+Return-Path: <ROLL@KICKI.STACKEN.KTH.SE>
+Address: "PoBox:36041, SE-100 71  Stockholm, SWEDEN"
+Organization: Stacken Computer Club
+Telephone: +46-8-669 9720
+References: Message from PDP8-Lovers-Request <PDP8%MC.LCS.MIT.EDU@MINTAKA.lcs.mit.edu>
+              of 10-Jun-89 21:08:38
+In-reply-to: <589062.890610.PDP8@MC.LCS.MIT.EDU>
+Date: 11-Jun-89 17:59:36 +0200
+From: Peter Lothberg <ROLL@kicki.stacken.kth.se>
+To: PDP8-Lovers-Request <PDP8%MC.LCS.MIT.EDU@MINTAKA.lcs.mit.edu>, 
+    PDP8-LOVERS%MC.LCS.MIT.EDU@MINTAKA.lcs.mit.edu
+cc: KS-ITS%MC.LCS.MIT.EDU@MINTAKA.lcs.mit.edu, elbows@bloom-beacon.mit.edu, 
+    mrc@score.stanford.edu, roll@kicki.stacken.kth.se
+Subject: Re:  New mailing list
+Message-ID: <12501319606.23.2.176960@KICKI.STACKEN.KTH.SE>
+
+As we also have the KS-Owners mailinglist, we might be able to do
+some coordination?
+
+(I do not have any 36-bit system @home, as the KI is 4 times my
+ appartment, it has to live in the basement.)
+
+-peter
+   --------
+
+
+
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 10 Jun 89 14:58:36 EDT
+Date: Sat, 10 Jun 89 14:52:42 EDT
+From: PDP8-Lovers-Request <PDP8%MC.LCS.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject:  New mailing list
+To: PDP8-LOVERS%MC.LCS.MIT.EDU@MINTAKA.LCS.MIT.EDU
+cc: KS-ITS%MC.LCS.MIT.EDU@MINTAKA.LCS.MIT.EDU, elbows@BLOOM-BEACON.MIT.EDU,
+    mrc@SCORE.STANFORD.EDU, roll@KICKI.STACKEN.KTH.SE
+Message-ID: <589062.890610.PDP8@MC.LCS.MIT.EDU>
+
+
+This message is to announce a new mailing list, KS-AT-HOME@MC.LCS.MIT.EDU
+We anticipate that, due to the small number of people strange enough to
+want to have a 36-bit machine at home, this will be a low-volume mailing list.
+
+KS-AT-HOME is intended for people who own, or are interested in someday
+owning, a KS-10 (a/k/a DECsystem 2020).  
+
+Subscription requests, etc. to KS-AT-HOME-REQUEST@MC.LCS.MIT.EDU
+
+
+
+Date: Fri,  2 Jun 89 06:46:28 EDT
+From: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU>
+Subject: ailments
+To: ROLL@KICKI.STACKEN.KTH.SE
+cc: KS-ITS%AI.AI.MIT.EDU@MINTAKA.LCS.MIT.EDU
+Message-ID: <603462.890602.CENT@AI.AI.MIT.EDU>
+
+    Date: 27-May-89 16:18:36 +0200
+    From: Peter Lothberg <ROLL@kicki.stacken.kth.se>
+    To: "Pandora B. Berman" <CENT%AI.AI.MIT.EDU@mintaka.lcs.mit.edu>
+    Subject: Re: warning
+    Thanks, I'm not ded, just suffering from 'mononucleos' (kissing
+    desease) so I'm in bed, fever..
+well, stay in bed, and drink orange juice, and eat chicken soup, and so
+forth.
+
+    To what address did you mail me the package?
+one of the ones in your inquir entry here -- the royal inst. one, i think.
+
+    We are making very small progress on the computer room, the problem
+    seems to be 'administrative', having 10 phd's do carpentry, not discuss
+    it..
+that is often (though not invariably) a problem when you have intellectuals
+actually trying to do anything.
+
+Date: Tue,  7 Feb 89 02:50:26 EST
+From: "Pandora B. Berman" <CENT@AI.AI.MIT.EDU>
+Subject: ITS published doc
+To: deh@ENEEVAX.UMD.EDU
+cc: KS-ITS@AI.AI.MIT.EDU, blythe@WHEATIES.AI.MIT.EDU
+Message-ID: <533446.890207.CENT@AI.AI.MIT.EDU>
+
+    Date: Wed, 25 Jan 89 23:22:49 EST
+    From: Douglas Humphrey <deh@eneevax.umd.edu>
+    To: KLOTZ@AI.AI.MIT.EDU
+    Subject: Re:  taking working papers off the shelf
+    Cc: KS-ITS@AI.AI.MIT.EDU, blythe@WHEATIES.AI.MIT.EDU
+    Can someone up there at MIT take a moment and recommend what
+    papers (like the WP 227 by Chris) we "ITS owners, etc." who are
+    not located at MIT should have? It sure would be nice to have that
+    data, and not being local to MIT is a problem if it is not online.
+
+frankly, cstacy's working paper really won't help you much, and it wouldn't
+hurt us to let Blythe take it off the shelves (we -will- still have a
+master to recopy if we ever really want to). the truth is, cstacy's
+incantations for ITS working paper mostly focusses on KAs, with an appendix
+of differences for KLs. nothing on KSs. and the main subject of the paper
+is basic bringing the machine up and down, for which the model differences
+do make a difference. the same material should be covered, probably more
+competently and certainly more machine-specific to KSs, in the doc alan
+presumably sent along with your ITS tape kit.
+
+Received: from eneevax.umd.edu (TCP 20002102401) by AI.AI.MIT.EDU 25 Jan 89 23:22:36 EST
+Received: by eneevax.umd.edu (5.52/4.7)
+	id AA10107; Wed, 25 Jan 89 23:22:49 EST
+Date: Wed, 25 Jan 89 23:22:49 EST
+From: Douglas Humphrey <deh@eneevax.umd.edu>
+Message-Id: <8901260422.AA10107@eneevax.umd.edu>
+To: KLOTZ@AI.AI.MIT.EDU
+Subject: Re:  taking working papers off the shelf
+Cc: KS-ITS@AI.AI.MIT.EDU, blythe@WHEATIES.AI.MIT.EDU
+
+Can someone up there at MIT take a moment and recommend what papers
+(like the WP 227 by Chris) we "ITS owners, etc." who are not 
+located at MIT should have? It sure would be nice to have
+that data, and not being local to MIT is a problem if it is not
+online.
+
+Thanks,
+
+Doug
+
+
+Hey! Whats the 800 number for the ITS help desk !!!!   ;-)
+
+
+Received: from wheaties.ai.mit.edu (TCP 20015020015) by AI.AI.MIT.EDU 24 Jan 89 14:34:04 EST
+Received: from ortega.ai.mit.edu by wheaties.ai.mit.edu; Tue, 24 Jan 89 14:31:31 EST
+Received: from localhost by ortega.ai.mit.edu; Tue, 24 Jan 89 14:31:13 est
+Date: Tue, 24 Jan 89 14:31:13 est
+From: blythe@wheaties.ai.mit.edu
+Message-Id: <8901241931.AA00811@ortega.ai.mit.edu>
+To: KLOTZ@ai.ai.mit.edu
+Cc: KS-ITS@ai.ai.mit.edu
+In-Reply-To: "Leigh L. Klotz"'s message of Sat, 21 Jan 89 15:07:50 EST <524089.890121.KLOTZ@AI.AI.MIT.EDU>
+Subject: taking working papers off the shelf
+
+
+I'll leave the Guide to ITS Operation on the shelf.
+
+Blythe
+
+Date: Sat, 21 Jan 89 15:07:50 EST
+From: "Leigh L. Klotz" <KLOTZ@AI.AI.MIT.EDU>
+Subject:  taking working papers off the shelf
+To: blythe@WHEATIES.AI.MIT.EDU
+cc: KS-ITS@AI.AI.MIT.EDU
+Message-ID: <524089.890121.KLOTZ@AI.AI.MIT.EDU>
+
+I think you should leave this one on the shelf:
+
+    \WP 227.
+    A Guide to ITS Operations: Useful Spells and
+    Incantations, Christpher C. Stacy, January 1982.
+
+We do still use ITS here, after all.  I had someone
+ask me for a copy of this just the other day.
+
+Date: Wed,  4 Jan 89 21:53:13 EST
+From:  the DC Area Turist Assasination Squad
+Subject:  AI ML MC DM MD DX!
+To: KS-ITS@AI.AI.MIT.EDU, ITS-LOVERS@AI.AI.MIT.EDU
+Message-ID: <513618.890104.DEVON@AI.AI.MIT.EDU>
+
+This evening in the DC area, Doug Humphrey (DigEx), Don Hopkins (a2DeH)
+and Devon McCullough (Devon) were witness to the following blessed event:
+
+
+DX ITS.1631. DDT.1545.
+TTY 0
+You're all alone, Fair share = 86%
+
+(ITS does not know the date, so messages cannot be reviewed right now.)
+:pdset
+(Please Log In)
+___002 PDSET  IOTLSR
+
+PDSET.114
+Please don't use this program unless you know how.
+You are certain to break something if you happen to hit the wrong key.
+Type Control-Z to exit, or ? for a reminder of the commands.
+
+ 890104D
+2041T
+.!.
+113315/ 0       777663,,550665  ___002
+
+113314/ 0       3705  ___002
+IT IS NOW  8:41:01 PM EST, WEDNESDAY, JAN 4,1989
+TARAKA DMPCPY .      _DMPCP OUTPUT WRITE  20:41:12
+TARAKA DMPCPY .      @      ITS    DELRNM 20:41:15
+Q
+:KILL
+*
+
+Date: Wed, 19 Oct 88 23:27:01 EDT
+From: "Pandora B. Berman" <CENT@AI.AI.MIT.EDU>
+Subject: work on ML
+To: ricchio@XX.LCS.MIT.EDU
+cc: BUG-KS@AI.AI.MIT.EDU
+Message-ID: <467947.881019.CENT@AI.AI.MIT.EDU>
+
+you may have heard that ML's disk drive was broken. DEC came last week and
+thought they had fixed it, but they were wrong. so mike D'avolio turned up
+this week to work on it. he had not finished by the time Alan left today
+for vacation. alan said he got the impression from DEC Field Circus on the
+phone that the repair PO he generated last week to cover this work might
+have been closed before he called to say ML was still broken. he also said
+that for some reason, DEC seems to gravitate to talking to you about the
+KSs sometimes, even though only half of them are LCS.
+    so, if D'Avolio or some other DEC type starts complaining to you that
+they have not received the PO for the work on ML this week, please let me
+know, and i will arrange to have another repair PO generated. thanks. alan
+will be back sometime next week.
+
+Date: Mon,  3 Oct 88 22:49:37 EDT
+From: "Pandora B. Berman" <CENT@AI.AI.MIT.EDU>
+Subject: why there are par errs
+To: BUG-KS@AI.AI.MIT.EDU
+Message-ID: <456210.881003.CENT@AI.AI.MIT.EDU>
+
+Date: Mon, 3 Oct 88 08:12:16 PDT
+From: Mark Crispin <Crispin@SUMEX-AIM.Stanford.EDU>
+Subject: Re: retransmit
+To: CENT@AI.AI.MIT.EDU
+In-Reply-To: <455322.881002.CENT@AI.AI.MIT.EDU>
+Postal-Address: 1802 Hackett Ave.; Mountain View, CA  94043-4431
+Phone: +1 (415) 968-1052
+
+If you've been having ?PAR ERR xxx yyy zzz type errors on a KS10, you can
+refer to the KS10 hardware manual for the interpretation of those bits.
+It should point you precisely at the board that is unhappy.
+
+Another thing to do is the double and triple check the voltages from the
+KS10 power supply (the Mighty Mite).  KS's like to run a little bit hot
+so err on the side of high (e.g. 5.1) instead of low.
+-------
+
+Received: from REAGAN.AI.MIT.EDU (CHAOS 13065) by AI.AI.MIT.EDU  9 May 88 14:21:17 EDT
+Received: from BUDDY.AI.MIT.EDU by REAGAN.AI.MIT.EDU via CHAOS with CHAOS-MAIL id 110534; Mon 9-May-88 14:19:02 EDT
+Received: from SUMEX-AIM.Stanford.EDU (TCP 1200000070) by AI.AI.MIT.EDU  6 May 88 22:18:00 EDT
+Received: from PANDA.PANDA.COM by SUMEX-AIM.Stanford.EDU with Cafard; Fri, 6 May 88 19:10:33 PDT
+Received: from SUMEX-AIM.Stanford.EDU by PANDA.PANDA.COM with Cafard; Fri, 6 May 88 18:01:17 PDT
+Received: from eneevax.umd.edu by SUMEX-AIM.Stanford.EDU with TCP; Fri, 6 May 88 17:27:41 PDT
+Received: by eneevax.umd.edu (5.54/4.7)
+	id AA10342; Fri, 6 May 88 16:47:45 ]Io
+Date: Fri, 6 May 88 16:47:45 
+From: Douglas Humphrey <deh@eneevax.umd.edu>
+Message-Id: <8805062047.AA10342@eneevax.umd.edu>
+To: KS-Owners@panda.panda.com, ridder%warlok.DEC@decwrl.dec.com
+Subject: Re:  KS10 IO instructions
+Cc: deh@eneevax.umd.edu, devon@ai.ai.mit.edu
+Resent-To: ks-its@AI.AI.MIT.EDU
+Resent-From: Alan Bawden <Alan@AI.AI.MIT.EDU>
+Resent-Date: Mon, 9 May 88 14:19 EDT
+Resent-Message-ID: <880509141900.2.ALAN@BUDDY.AI.MIT.EDU>
+
+Actualy, this is not about IO instructions, but about power supplies.
+I support a commercial KS10 site here in Washington D.C. (DEC doesn't
+know how to fix these things any longer, and they admit it frankly)
+who has cooked his power supply (H7130C made by LH Research). I 
+managed to find him one, but it too was bad; I will receive another 
+tomorrow morning and try that out. I need to find LH Research so that 
+I can get the bad one fixed to have as a spare. Does anyone out there
+know where these people are? I have looked in every reference I have 
+and can not find them.
+
+Does anyone know if there is any activity on the idea of building a
+modern disk controller for the KS? This is something that I am sure all 
+of us would welcome. My RM03s are the worst thing about my 2020. 
+
+Interesting story: the heat pump air handler in my house was replaced 
+recently, and when the guys came in to do the work, one a young guy, and 
+one an older gentleman, they were a little suprised at the 2020 system 
+there, next (roughly) to the air system. To my great suprise, the old 
+guy leaned over the console, and logged into F-S !!! I had not changed the 
+password (same as the RED pack). Seems he used to work for DEC in field 
+circus, and didn't know much about 20s (he knows everything about 8's
+though!) but thought (correctly) that he remembered how to log in.
+
+I gave him a PDP8, and a hugh box full of flip-chips. It was really a blast
+talking to this guy. Not only did he replace my air handler for the house, 
+but he griped about my going so long between filter changes on the RM03s
+in such a dirty environment, and proceeded to PM the drives. The young guy
+(who was actually the boss) didn't seem too interested in all of this. 
+The old guy says he will give me a call when he gets the 8 running (I gave
+him a set of RX02s, controller, and a box of floppies too...) I don't 
+know why this guy ever retired. I hope I have half that much energy when
+I am 68 !!!
+
+Strange things do happen....
+
+Question: Is there some way to put a TOPS-20 on usenet ?? 
+
+Doug
+
+Received: from eneevax.umd.edu (TCP 20002102401) by AI.AI.MIT.EDU 23 Dec 87 04:15:10 EST
+Received: by eneevax.umd.edu (5.9/4.7)
+	id AA28299; Wed, 23 Dec 87 04:15:41 EST
+Date: Wed, 23 Dec 87 04:15:41 EST
+From: Douglas Humphrey <deh@eneevax.umd.edu>
+Message-Id: <8712230915.AA28299@eneevax.umd.edu>
+To: ks-its@ai, ks-owners%panda.com@sumex-aim.stanford.edu
+Subject: 2020 s/n 4384 lives
+
+
+
+Folks,
+
+     It is with a lot of pleasure, and a lot of smiles, that I can announce
+that 2020 s/n 4384, known generaly as Banzai, lives. Many thanks to all
+who sent their suggestions and technical information. I now have, thanks
+to Mr. Dempster, Volume 1 of the handbook to match my Volume 2. This 
+Ridder fellow sent the magical data on the RM03s to make them behave in 
+a civil (18bit) way. The machine came up without a hitch once the proper
+switches, jumpers, and other things were set. 
+
+     I have it running UETP right now, but without the tape drive which
+is the next thing on my list of projects to get running. I have a red pack
+which should suffice in the MT debugging, with luck. 
+
+     What now? Well, I hope to start running MRCs Tops-20 for general 
+purpose things, and I am looking for any software that I can get for 
+the 20, particularly network modeling type stuff. Anybody know of any?
+
+     Longer term, I want to get the Tops-10 and ITS releases set up to 
+run, since there is a very good chance that I will be getting another
+system to play with, or maybe even the guts of one to experiment on
+making it smaller, etc. What is involved with that?
+
+Again, many thanks, and I hope that all of you have a very good season and 
+that the new year will be good to you and the people (and machines) that
+you love.
+
+Doug
+
+Received: from SUMEX-AIM.Stanford.EDU (TCP 1200000070) by AI.AI.MIT.EDU 15 Dec 87 00:15:36 EST
+Received: from PANDA.COM by SUMEX-AIM.Stanford.EDU with Cafard; Mon, 14 Dec 87 21:14:24 PST
+Date: Mon, 14 Dec 87 19:40:14 PST
+From: Mark Crispin <MRC@PANDA.COM>
+Subject: Re: 2020 communications
+To: deh@ENEEVAX.UMD.EDU
+cc: ks-its@AI.AI.MIT.EDU, ks-owners@PANDA.COM
+In-Reply-To: <8712150247.AA06567@eneevax.umd.edu>
+Postal-Address: 1802 Hackett Ave.; Mountain View, CA  94043-4431
+Phone: +1 (415) 968-1052
+Message-ID: <12358556828.6.MRC@PANDA.COM>
+
+Doug -
+
+     There is no version of TOPS-20 TCP/IP for the 2020.  I may, at
+some point, create one; but it'll be a fair amount of work and I'd
+want someplace to talk to using my DUP/KDP.  I am absolutely *not*
+interested in doing SLIP on a DZ11!  You can assume this is an absolute,
+final word on the present status in TOPS-20 land.
+
+     ITS TCP/IP does run on the 2020, but not using the DUP/KDP.
+
+-- Mark --
+-------
+
+Received: from eneevax.umd.edu (TCP 20002102401) by AI.AI.MIT.EDU 14 Dec 87 21:46:41 EST
+Received: by eneevax.umd.edu (5.9/4.7)
+	id AA06567; Mon, 14 Dec 87 21:47:58 EST
+Date: Mon, 14 Dec 87 21:47:58 EST
+From: Douglas Humphrey <deh@eneevax.umd.edu>
+Message-Id: <8712150247.AA06567@eneevax.umd.edu>
+To: ks-its@ai, ks-owners%panda.com@sumex-aim.stanford.edu
+Subject: 2020 communications
+
+
+Folks,
+
+I am sending this to both the ks-owners and the ks-its lists mainly because
+it seems that there may be people on the ks-its list that are tops-20
+folks as well.
+
+The situation is that I have a 2020, and I am interested in putting it
+onto the arpanet in some way. There are a bunch of people at the University
+of Maryland that will cooperate with me, but I need to figure out what the
+available ways are for a 2020 unders some flavor of tops-20 to do this. 
+Also, it would be interesting to know how to do it with ITS as well since
+I may well be getting a second machine an be able to run both operating
+systems. I have the usual KMC/DUP comm hardware. I have not heard a real
+final word on what tcp/ip, etc. exists for the 2020 though. Can someone,
+or a group of someones, advise and enlighten me?
+
+Many thanks, and wishes for a crazy season to you all.....
+
+Doug
+
+P.S. Peter, no message from you yet on the RM03 wiring changes, and no
+     sign of the KS Volume I yet Joe!
+
+Doug
+
+Received: from SPEECH.MIT.EDU by AI.AI.MIT.EDU via Chaosnet; 14 DEC 87  16:42:10 EST
+Date: Mon 14 Dec 87 16:45:44-EST
+From: "John Wroclawski" <JTW%SPEECH.MIT.EDU@XX.LCS.MIT.EDU>
+Subject: Re: Networks on MIT's 2020
+To: SRA@XX.LCS.MIT.EDU, CC.Kassebaum@R20.UTEXAS.EDU
+cc: KS-ITS@AI.AI.MIT.EDU
+In-Reply-To: <SRA.12358482114.BABYL@XX.LCS.MIT.EDU>
+Message-ID: <12358492294.24.JTW@SPEECH.MIT.EDU>
+
+2020s running ITS currently support IP/TCP over ACC IMP interfaces and
+CHAOSnet over old chaos hardware. All major IP services are supported.
+We currently lack domain resolver software, though. Plans are to port
+Rob's TOPS-20 resolver to ITS, and integrate it with the ITS mailer.
+
+Ethernet (Interlan NI1010A interface) support for both IP/TCP and
+Chaos will exist at some point. I imagine IP/TCP will show up first,
+unless the aforementioned subnet 6 dies completely. Also, TCP is
+getting some attention to improve its performance in the face of
+the current arpanet disaster.
+
+2020s running MIT TOPS20 also support chaosnet, though again only on
+old chaos hardware at the moment. All usual chaos services are available. 
+-------
+
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by AI.AI.MIT.EDU 14 Dec 87 15:51:07 EST
+Date: Mon, 14 Dec 1987  15:49 EST
+Message-ID: <SRA.12358482114.BABYL@XX.LCS.MIT.EDU>
+From: Rob Austein <SRA@XX.LCS.MIT.EDU>
+To:   CC.Kassebaum@R20.UTEXAS.EDU
+CC:   KS-ITS@AI.AI.MIT.EDU
+Subject: Networks on MIT's 2020
+In-reply-to: Msg of 14 Dec 1987  15:48-EST from CC.KASSEBAUM@R20.UTEXAS.EDU
+
+    Date: Monday, 14 December 1987  15:48-EST
+    From: CC.Kassebaum@R20.UTEXAS.EDU
+    To:   sra@XX.LCS.MIT.EDU
+    Re:   Networks on MIT's 2020
+
+    	Rob, what network are on your 2020s running ITS.  We have been
+    	offered a 2020 from TI, but it would be useless unless it could
+    	be networked on the campus network.  We would like to run some
+    	form of TCP/IP or maybe CHAOSnet.  When it was at TI, it was
+    	running DECnet Phase II via a DUP11, I think.  Is there any
+    	chance we could connect it to our network?
+
+All four are on MIT subnet 6, one of the last surviving pieces of real
+chaos wire here.  MC and AI are also on the Arpanet, via an interface
+made by ACC.  Somebody else on KS-ITS might be able to provide more
+info, I've never done anything with the low-level network stuff on
+ITS.
+
+--Rob
+
+Date: Mon, 16 Nov 87 01:12:38 EST
+From: Doug Humphrey <DIGEX@AI.AI.MIT.EDU>
+To: KS-ITS@AI.AI.MIT.EDU, DEVON@AI.AI.MIT.EDU, MRC@AI.AI.MIT.EDU
+Message-ID: <286268.871116.DIGEX@AI.AI.MIT.EDU>
+
+
+Well, after many months of delay and other headaches, the 2020 hardware
+has been installed in my basement, and AI spent the weekend getting the 
+power hooked up, etc. The system has been powered up and the KS10>
+prompt obtained. No time yet to get a boot off of the tape or disk. 
+I hope that there will not be problems, but no way to be sure yet.
+Any advise, etc would be appriciated. Also, it looks like it is time
+to talk about getting an ITS boot tape/pack, etc so that a Washington
+D.C. ITS can be realised. Interesting typo up there! I meant I, not AI....
+
+Doug
+
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by AI.AI.MIT.EDU 26 Jul 87 00:25:39 EDT
+Date: Sun, 26 Jul 1987  00:22 EDT
+Message-ID: <SRA.12321340141.BABYL@XX.LCS.MIT.EDU>
+From: Rob Austein <SRA@XX.LCS.MIT.EDU>
+To:   "Pandora B. Berman" <CENT@AI.AI.MIT.EDU>
+Cc:   BUG-KS@AI.AI.MIT.EDU, f-s@OZ.AI.MIT.EDU, LAUREL@AI.AI.MIT.EDU
+Subject: 2020 doc state
+In-reply-to: Msg of 24 Jul 1987  23:05-EDT from "Pandora B. Berman" <CENT@AI.AI.MIT.EDU>
+
+    Date: Friday, 24 July 1987  23:05-EDT
+    From: "Pandora B. Berman" <CENT@AI.AI.MIT.EDU>
+
+    i asked joe ricchio what happened to the boxes of 2020 junk that
+    used to live opposite the dover. he said he had carefully moved
+    them into the field circus office (936). which is where i found
+    them. since they have prints and doc and such, maybe we should put
+    at least one set somewhere else?
+
+Well, it's not a bad place for th, so long as it's understood that
+those are MIT property, not DEC (ie, they can't vanish without our
+permission).  Most of the documentation is actually twenex stuff, not
+much is related to KS-10 hardware.  I'm interested in keeping it
+around in any case.  I'd just prefer not to have to keep it in my
+office.
+
+Date: Fri, 24 Jul 87 23:05:19 EDT
+From: "Pandora B. Berman" <CENT@AI.AI.MIT.EDU>
+Subject: 2020 doc state
+To: BUG-KS@AI.AI.MIT.EDU, LAUREL@AI.AI.MIT.EDU
+cc: f-s@OZ.AI.MIT.EDU
+Message-ID: <232348.870724.CENT@AI.AI.MIT.EDU>
+
+i asked joe ricchio what happened to the boxes of 2020 junk that used to
+live opposite the dover. he said he had carefully moved them into the field
+circus office (936). which is where i found them. since they have prints
+and doc and such, maybe we should put at least one set somewhere else?
+
+Received: from SUMEX-AIM.STANFORD.EDU (TCP 1200000070) by AI.AI.MIT.EDU 16 Apr 87 04:36:44 EDT
+Received: from PANDA by SUMEX-AIM.STANFORD.EDU with Cafard; Thu, 16 Apr 87 01:31:16 PDT
+Date: Thu, 16 Apr 87 00:29:35 PDT
+From: Mark Crispin <MRC%PANDA@SUMEX-AIM.Stanford.EDU>
+Subject: Re: Announcement of the DEC 10 and PDP-6 history project (PROJECT-10262)
+To: ALAN@AI.AI.MIT.EDU
+cc: INFO-ITS@AI.AI.MIT.EDU, KS-ITS@AI.AI.MIT.EDU
+In-Reply-To: <185625.870416.ALAN@AI.AI.MIT.EDU>
+Postal-Address: 1802 Hackett Ave.; Mountain View, CA  94043-4431
+Phone: +1 (415) 968-1052
+Message-ID: <12294897588.8.MRC@PANDA>
+
+I am involved peripherally with this project.
+
+There is NO attempt to shortchange or ignore ITS, WAITS, and TENEX.
+
+But!!  We will need *papers* from people in these communities in order to
+fairly cover these operating systems.
+
+Otherwise, I will write up something really brief.  For ITS, in a few short
+paragraphs I'll talk about DDT as the command decoder, PCLSR'ing, and the
+environment that led to the creation of EMACS.
+
+I think such coverage WOULD shortchange ITS.  There are lots of important
+concepts that can and should be discussed in detail -- PCLSR'ing, ITS virtual
+memory (not as good as TOPS-20/Tenex, but quite advanced for its time),
+canonical terminals/SUPDUP/CRTSTY, symbolic system calls, CHEOPS, Knight TV
+system, ...
+
+TECO and TECO-based editors should be a paper in itself.
+-------
+
+Date: Thu, 16 Apr 87 02:04:00 EDT
+From: Alan Bawden <ALAN@AI.AI.MIT.EDU>
+Subject:  Announcement of the DEC 10 and PDP-6 history project (PROJECT-10262)
+To: INFO-ITS@AI.AI.MIT.EDU, KS-ITS@AI.AI.MIT.EDU
+Message-ID: <185625.870416.ALAN@AI.AI.MIT.EDU>
+
+The following message was forwarded to me (it was originally sent to AIList
+I think) with the suggestion that I should redistribute it to whatever
+mailing lists of PDP-10 hackers I knew of.  I don't know anything more
+about this than what is revealed here.
+
+It does kind of sound like these guys are planning on writing a history of
+PDP-10's that only mentions TOPS10 and TOPS20 and fails to consider ITS and
+WAITS and perhaps shortchanges TENEX.  But I suspect that this is merely a
+shortcoming of this announcement.
+
+Date: 16 Mar 1987 1311-EST
+From: "Joe Dempster, DTN: 336.2252 AT&T: 609.665.8711" <DEMPSTER@MARLBORO.DEC.COM>
+Subject: Announcement of the DEC 10 and PDP-6 history project (PROJECT-10262)
+
+This message originates from 2 sources:
+
+	Les Earnest
+	Computer Science Department
+	STANFORD UNIVERSITY
+	Stanford, CA  94305
+	415.723.9729
+	ARPA: LES@SAIL.STANFORD.EDU
+
+	Joe Dempster
+	DIGITAL EQUIPMENT CORPORATION
+	6 Cherry Hill Executive Campus
+	Route 70
+	Cherry Hill, NJ  08002
+	609.665.8711
+	ARPA: DEMPSTER@MARLBORO.DEC.COM (MARKET)
+
+The goal of this project is to publish an analysis and history of
+the evolution, implementation and use of Digital's 36 bit systems.
+This period began with the PDP-6 in 1964 and continues today with
+TOPS 10/20 development, which is scheduled to end in 1988.
+
+We are working aggressively to finish the project, and have it
+published, by March/April 1988.  This will require that the
+completed manuscript be ready to go into the publication cycle
+by August 1987!
+
+The project will attempt to answer the following questions:
+
+	1. In what markets/applications were these systems used?
+
+	2. Who were the users of these systems and what impact did
+	   roughly 2,500 TOPS 10/20 systems have on their organizations?
+
+	3. Who were the principle system architects of these systems?
+	   What features, and if there had been sufficient time to
+	   implement them, would have significantly improved the
+	   architecture?
+
+	4. What impact did the decision to continue to examine design
+	   extensions to the architecture have on the usefulness and
+	   acceptability of these systems.  This is in contrast to a
+	   more common practice today to work from a detailed design
+	   specification, sometimes dated, building follow-on systems
+	   which provide increased performance through the use of new
+	   component technologies and packaging techniques.
+
+	5. What part of the overall design (TOPS10/20) was technology
+	   dependent and what can still be considered "unequaled" in
+	   relation to other computer architectures still undergoing
+	   active development?
+
+	6. What type of development environment (both HW and SW)
+	   supported and contributed to the evolution of 36 bit
+	   systems?
+
+	7. What influence did TOPS 10/20 have on other vendors system
+	   development?
+
+This history will undoubtedly be assembled from many sources and
+participants.  Some information will be anecdotal; there will be
+interviews with the people involved (users and developers) and technical
+papers will be solicited.  Of course there will also be the packaging
+and assembly of facts as we see them.
+
+The result will hopefully have sufficient depth to serve as:
+
+	1. An introductory or advanced text on system design and
+	   hardware/system software implementation.
+
+	2. A analysis of the success and difficulties of marketing
+	   complex systems into a very crowded market of competing
+	   alternatives.
+
+	3. A catharsis for those of us who have contributed to the
+	   development and use these systems and who will now move
+	   onto new computing architectures and opportunities.
+
+In addition to interviewing directly 25-50 developers, users and
+product managers we will continue to work to identify contributors
+and significant events up to when the final draft is submitted to
+the publisher.  Two "topics" are already under development:
+
+	1. Rob Gingell from SUN is working on a paper which looks
+	   at extensions to TOPS 20 which would have enhanced its
+	   capabilities.
+
+	2. Frank da Cruz and Columbia are summarizing 10 years of
+	   experience and development of TOPS 20 systems.  Some
+	   effort will also be made to detail the process which
+	   lead to their selection of a follow-on architecture to
+	   TOPS 20.
+
+There is a need to develop additional topics which represent the
+use and application of the technology (TOPS 10/20) in other areas.
+Specific recommendations are welcome as are proposals to develop
+them.  A short abstract should accompany any such proposal.  Every
+effort will be made to work with individuals or organizations
+interested in making such a contribution.
+
+There will be a standalone (no network connections) DECSYSTEM 2020
+(YIPYIP) dedicated to supporting the project.  This system has a 3
+line hunt group, with all lines accessible from a single number
+(201.874.8612).
+
+Both YIPYIP and MARKET will have "public" directories for remote
+login (<log>DEMPSTER.PROJECT-10262 <Password>LCGLCG).  MARKET can
+be accessed by modem (617.467.7437), however disk quota is limited.
+MARKET's primary purpose <DEMPSTER.PROJECT-10262> is ARPAnet TELNET
+access.  YIPYIP is a dedicated PROJECT-10262 system.  MAIL can also
+be sent to DEMPSTER on either system.
+
+YIPYIP and MARKET will keep a running summary of ideas and comments
+up on Columbia's BBOARD software.  KERMIT also runs on each system
+for uploads.
+
+SAIL.STANFORD.EDU will support ARPAnet transfers to a "public" area:
+
+	FTP<ret>
+	CONNECT SAIL.STANFORD.EDU<ret>
+	SEND AFN.EXT<ret>
+	DSK: AFN.EXT [PUB,LES]<ret>
+
+SAIL runs WAITS, an operating system similiar to TOPS 10.  File
+names are limited to 6 characters and extensions limited to 3.
+
+
+Implementation details:
+
+	1. User input is welcomed and desired from all application
+	   and geographic areas.
+
+	2. Input from past and present developers is also desired.
+
+	3. Throughout the project a secondary goal will be to build
+	   a list of users/locations (installation date, duration and
+	   disposition) of PDP-6 and KA, KI, KL and KS systems.
+	   Serial numbers, if available, are requested.
+
+	4. We anticipate that this project will generate a large
+	   volume of information (which we hope will arrive
+	   electronically).  Some information, for any number of
+	   reasons, may not be in line with the project's stated
+	   goals.  Therefore, all notes, interview material and
+	   submissions will be donated to the Computer Museum in Boston
+	   at the the completion of the project to be available for
+	   future reference and research.
+
+Ideas, contributions, suggestions and criticism are welcome.  As these
+36 bit systems were the products of a multitude of people, so too
+will be the writing of their history.
+
