@@ -29,7 +29,8 @@ AI_WP_227	A Guide to ITS Operations, January 1982
 AI_WP_235	Getting Started Computing at the AI Lab
 ITS_Hardware_Memo_1	I/O Multiplexor
 ITS_Hardware_Memo_2	PDP-10 Paging Device
+ITS_Hardware_Memo_2A	Paging Device Signal Names
 ITS_Hardware_Memo_3	PDP-6/10 Magic Switches
 ITS_Hardware_Memo_4	A/D and D/A converters
 ITS_Hardware_Memo_5	GE Datanet 760 Output Device
-
+ITS_Hardware_Memo_10	ARPA Network Interface
