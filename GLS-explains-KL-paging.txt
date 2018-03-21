@@ -1,0 +1,467 @@
+Guy Steele 11/2/99
+
+Here is a summary of ITS paging for the KL10 as supported by the
+microcode.  I hope you have received that faxed copy of Hardware
+Memo 2, "PDP-10 Paging Device", by J. Holloway, 2/20/70, because
+it has useful background and diagrams.  However, the treatment on
+the KL10 is slightly different, so I am going to start from
+scratch and I will point out differences along the way.
+
+Under ITS, a virtual address space of 2^18 36-bit words is divided
+up into 256 pages of 1024 words each.  A memory address is 18 bits;
+because it is in the right halfword and bits are numbered from the
+left, the bits of the memory addres are numbered 18 through 35.
+Bits 18-25 of a memory address identify a page and bits 26-35
+identify a word within the page.
+
+The mapping hardware uses bits 18-25 to index into a table.
+(This is a slight lie that I will correct below.)  Each table entry
+is a halfword whose bits are numbered 0-17.
+
+On the KA10, a table entry looks like this:
+
+bits 0-1	00  page not accessible
+		01  read only, executable by pure code
+		10  read/write/first (read only, not executable by pure code)
+		11  any access is permitted
+bits 2-4	unused
+bits 5-8	age field
+bits 9-17	physical page number
+
+On the KA10, a virtual address is converted to a physical address by
+taking the physical page number from the table entry and using it as
+bits 17-25 of the physical address; bits 26-35 of the virtual address
+become bits 26-35 of the physical address.  Thus a virtual address of
+18 bits becomes a physical address of 19 bits, so you can actually
+usefully have 2^19 words of physical memory (of which at most half is
+addressible within any given virtual address space).
+
+On the KL10, a table entry looks like this:
+
+bits 0-1	00  page not accessible
+		01  read only, executable by pure code
+		10  read/write/first (read only, not executable by pure code)
+		11  any access is permitted
+bits 2-4	age field
+bits 5-17	physical page number
+
+On the KL10, a virtual address is converted to a physical address by
+taking the physical page number from the table entry and using it as
+bits 13-25 of the physical address; bits 26-35 of the virtual address
+become bits 26-35 of the physical address.  Thus a virtual address of
+18 bits becomes a physical address of 23 bits, so you can actually
+usefully have 2^23 words of physical memory (of which at most 2^18
+words is addressible within any given virtual address space).
+
+The slight lie is that there are actually four tables, not one.
+Two of the tables are for user mode references and two are for
+exec mode references.  For each mode, there is a table for the
+low half of the virtual address space and a table for the high half.
+
+These tables reside in physical memory at locations identified
+by the DBR registers.  The KA10 had three DBR registers and the low
+half in exec mode was unmapped; but on the KL10 there are four DBR
+registers:
+
+	DBR1	base address of tabel for mapping low half user addresses
+	DBR2	base address of tabel for mapping high half user addresses
+	DBR3	base address of tabel for mapping high half exec addresses
+	DBR4	base address of tabel for mapping low half exec addresses
+
+(Yes, the order is inconsistent for user and exec; but this way the
+meanings of DBR1, DBR2, and DBR3 are the same for KA10 and KL10.)
+
+The KA10 allowed each table to be of variable length, specified by
+fields DBRL in the DBR registers.  The KL10 microcode does not
+support the DBRL fields; they should be zero, and each table is
+always 64 words long (128 halfword table entries).
+
+So the mapping of a virtual memory address VMA is really something like:
+
+	if user mode
+	  if VMA<17> is 0
+	    temp = DBR1
+	  else
+	    temp = DBR2
+	else
+	  if VMA<17> is 0
+	    temp = DBR4
+	  else
+	    temp = DBR3
+	word = fetch(temp + VMA<18:24>)
+	if VMA<25> is 0
+	  entry = lefthalf(word)
+	else
+	  entry = righthalf(word)
+	PMA = entry<9:17> // VMA<26:35>		;bit concatenation
+
+On the KA10, a page table entry was not really read from physical
+memory every time a VMA needed to be mapped.  Instead, it had
+hardware associative registers into which page table entries were
+loaded; in other words, it had a cache for page table entries.
+This cache had a rather complicated structure that we need not go
+into.  On the KL10, there is also a hardware cache.  The only
+aspect of the KL10 hardware page table cache that we need to
+be concerned with is the fact that it thinks pages are 512 words
+long, half the size of an ITS page.  As a result, every time
+the hardware cache is to be filled by microcode from a page table
+entry fetched from main memory, the microcode needs to create
+*two* entries in the hardware cache from one ITS page table entry.
+
+The KA10 also had an "age bits" feature whereby, whenever a page table
+entry was used to load a hardware cache entry, the 4-bit age register
+was inserted into bits 5-8 of the page table entry, which was then
+stored back into main memory.  This age field was available to the
+operating system to help perform working set management.  On the KL10,
+there is no age register; whenever a page table entry is used to load
+a hardware cache entry, certain bits of the page table entry are set
+to zero, and then the page table entry is stored back into main
+memory.  (More precisely, the page table entry is ANDed with the
+complement of a constant provided by the operating system in
+accumulators LH.AGE and RH.AGE.)
+
+Now I will give a running blow-by-blow commentary on the
+microcode.  I will use the term "register" to refer to hardware
+registers and the term "accumulator" to refer to one of the 128
+words of fast memory used to represent the 16 PDP-10 accumulators
+and for other purposes.  See the table in file "MACRO >" headed
+"ITS AC BLOCKS USAGE TABLE".
+
+We begin our story at label PGRF1.
+
+	PGRF1:
+.IFNOT/ITSPAGE
+	...
+.IF/ITSPAGE
+	SV.VMA_AR,J/PGRF2		;AR, ARX HAVE VMA; BR HAS PFW
+.ENDIF/ITSPAGE
+
+On arrival at this label, the preliminary dispatch starting around
+label PF1 has put the virtual memory address (VMA) into hardware
+registers AR and ARX, and the page fault word is in register BR.
+(It has also saved various hardware registers in accumulators,
+because this code can be invoked as a sort of interrupt from
+any place in the microcode that does a memory read or write.)
+This instruction saves the VMA into accumulator SV.VMA and jumps to
+label PGRF2.  By the way, the left half of the VMA has some flags
+in it; in particular, bit 4 is 1 if the memory reference was
+an attempt to write.
+
+This is a good place to stop and discuss the principal hardware
+registers and functional units used by the microcode.  There are
+four 36-bit registers AR, ARX, BR, and BRX.  They can serve as
+inputs to two 36-bit ALUs (AD and ADX).  There is also a shifter
+unit that can take AR concatenated with ARX and shift a distance
+controlled by register SC, the shift count.  Associated with SC is
+a short adder called SCAD.
+
+The left and right halves of AR, at least, can be loaded from
+distinct sources.  It is also possible to load just bits 0-8 of
+AR, or just bits 0-5 of AR (the P field of a byte pointer) from
+the SC adder.  The SC adder can take inputs from several places,
+including AR0-8, AR0-5 (P field), AR6-11 (S field), the SC
+register, and another short register called FE (I think it's for
+floating exponents, but it gets used a lot as a temporary
+register).
+
+Okay, back to the paging microcode:
+
+;HERE TO START HACKING PAGE MAP
+;AR, ARX HAVE VMA.  BR HAS PFW.
+;AR, ARX, BR, FE, SC, SV.VMA, SV.PFW HAVE BEEN STORED.
+
+PGRF2:	ARL_0S,SIGNS DISP		;SKIP ON PFW BIT 0 (USER MODE)
+=101	AR_ARX (ADX),ARX_AR (AD),	;<AR|ARX> WILL HAVE <VMA|0,,VMA> FOR 
+SHIFT
+		SC_#,#/25.,		;SC GETS SHIFT AMOUNT FOR PG TBL INDEX
+		AR18-21 DISP,J/PGEXRF	;DISPATCH ON VMA 2.9 FOR DBR SELECT
+	AR_ARX (ADX),ARX_AR (AD),	;<AR|ARX> WILL HAVE <VMA|0,,VMA> FOR 
+SHIFT
+		SC_#,#/25.,		;SC GETS SHIFT AMOUNT FOR PG TBL INDEX
+		AR18-21 DISP,J/PGUSRF	;DISPATCH ON VMA 2.9 FOR DBR SELECT
+
+The macro SIGNS DISP does an eight-way dispatch on three different
+sign bits; the second one is the sign of BR.  (The low-order
+dispatch bit is the sign of the adder AD, and the third lowest bit
+is the sign of AR, as you can discover by tracking down the
+definition of SIGNS DISP in the file "macro" and of the field
+value "DISP/SIGNS" in file "define", but that doesn't matter here;
+the alignment directive =101 aligns the following instructions so
+that the dispatch really depends only on the second lowest bit,
+because KL10 microcode dispatching works by ORing dispatch bits
+with the jump destination rather than adding them.)  Bit 0 of the
+PFW in BR is 1 for user mode, 0 for exec mode.  ARL_0S clears the
+left half of AR.
+
+The next two instructions are identical; the only reason for
+having two copies of the instruction is to remember the result of
+the signs dispatch.  (These two instructions each rearrange the
+register contents in such a way that the dispatch could not easily
+be performed after the rearrangement.)  The AR and ARX registers
+are swapped (in other words, we really wanted the left half of ARX
+cleared, but only AR has that capability).  The constant 25 is put
+into the shift counter SC, and bits 18-21 of AR (before the swap,
+not that it matters much here) are used to perform a dispatch.
+
+=0111
+PGEXRF:	FE_AR0-8,AR_SHIFT,ARX_DBR4,J/RDDBR	;ARR GETS INDEX INTO ITS PAGE 
+TABLE.
+	FE_AR0-8,AR_SHIFT,ARX_DBR3,J/RDDBR0	; AR0 TELLS WHICH HALFWORD.
+=0111						; FE 1.5 GETS WRITE REF BIT.
+PGUSRF:	FE_AR0-8,AR_SHIFT,ARX_DBR1,J/RDDBR	; ARX GETS ONE OF FOUR DBR'S
+	FE_AR0-8,AR_SHIFT,ARX_DBR2,J/RDDBR0	; DEPENDING ON EXEC/USER AND VMA 
+2.9.
+
+The alignment directives are such that the dispatch is really only
+on bit 18 of AR, that is, on bit 18 of the VMA, which tells us
+whether the VMA is in the low half or the high half of the virtual
+address space.  We have also distinguished the cases of user mode
+and exec mode, so in effect we have performed a four-way dispatch
+into the four instructions above.  The appropriate accumulator
+DBR1, DBR2, DBR3, or DBR4 is copied into ARX, but not before the
+previous contents of ARX (that is, 0,,VMA) have participated in
+a shift.  How long a shift?  Why, 25 bits, the amount in the shift
+counter SC.  In effect, AR and ARX are concatenated to make 72 bits,
+this quantity is shifted 25 bits to the left, and then AR gets the
+high 36 bits.  If you work it out, you see that VMA<25> ends up in
+AR<0>; VMA<18:24> ends up in AR<29:35>; and AR<17:28> are set to zero.
+Also, before the shift happens, VMA<0:8> gets copied from AR into FE;
+we'll need that later at label PFWLOS.
+
+;HERE TO PICK UP ITS PAGE TABLE ENTRY
+
+RDDBR0:	ARX_ARX-CN100			;COMPENSATORY CROCK
+RDDBR:	SC_AR0-8,AR_BR,BR/AR		;SC _ 1/2 WD BIT, BR _ PTW INDEX
+	VMA_ARX+BR,SC_SC AND #,#/400	;SET UP VMA BEFORE PHYS REF
+					;(BUG IN MCL BOARD: MCL USER EN)
+
+For a VMA in the high half of the address space, the instruction
+at label RDDBR0 subtracts the constant octal 100 (decimal 64) from
+the DBR register value, to compensate for the addition of VMA<18>
+(which is a 1 in this case) two instructions later.
+
+At label RDDBR, AR<0:8> is copied into SC and AR and BR are swapped.
+(This swap is necessary for the addition in the next instruction,
+because you can't add AR to ARX directly; AR and ARX go into the "A"
+input of the adder and BR and BRX go into the "B" input.)
+In the next instruction, ARX and BR are added, that is, the
+DBR base pointer and VMA<18:24>.  This sum is put into "VMA",
+the hardware register that controls memory access; it is the
+physical address of the word in memory that contains the
+desired page table entry.  Finally, all bits of SC are
+cleared except for the 400 bit, which originally was VMA<25>.
+
+	LOAD AR VIA RPW,BR/AR,PHYS REF,	;BR NOW HAS PFW AGAIN.
+		GEN SC,SKP SCAD NE	;FETCH PTW, SKIP ON HALF.
+=0
+	AR_MEM,CLR ARX,SC_#,#/0,J/RDBRLH	;SC GETS 0 FOR LEFT HALF,
+	AR_MEM,CLR ARX,SC_#,#/18.,J/RDBRRH	; 18. FOR RIGHT HALF
+
+We prepare to load the word containing the page table entry into
+AR using a read/pause/write (RPW) cycle with a physical reference.
+Also, AR is copied back to BR.  (In other words, BR now has the
+page fault word PFW again; we just shuffled things around
+temporarily in order to do that addition.)  Moreover, "GEN SC"
+causes SC to be fed into the SC adder SCAD, and a skip (1-bit
+dispatch) is performed on whether the SCAD output is nonzero.
+The net effect is that we skip iff VMA<25> was 1, in which case
+the page table entry comes from the right half of the word read
+rather than the left half.
+
+The next two instructions put the word read from memory into AR,
+clear ARX, and load a constant (0 or 18 decimal) into the shift
+counter SC.
+
+RDBRLH:	AR_AR*LH.AGE,AD/ANDCB,		;AND OUT APPROPRIATE AGE BITS,
+		STORE,J/PACCDS		; AND STORE BACK
+RDBRRH:	AR_AR*RH.AGE,AD/ANDCB,
+		STORE,J/PACCDS
+
+The execution path is still split; only one of these two
+instructions is executed.  The page table entry word in AR is
+modified by ANDing it with the complement of LH.AGE or RH.AGE.
+(Normally these are set up by the operating system to be 0?0000,,0
+and 0,,0?0000 so that the age field will be cleared.)  We then
+prepare to store the modified word back into memory, to complete
+the RPW memory cycle.
+
+;HERE TO DETERMINE ACCESS ALLOWED BY ITS PAGE TABLE ENTRY
+
+PACCDS:	MEM_AR,ARL_SHIFT.C,ARR_0.C,	;GET PAGE TABLE HALFWORD IN ARL,
+		SC_1,SH DISP		; CLEAR ARR, DISPATCH ON ACCESS
+=0011
+	SC_PF.PNA,AR_BR,J/PFT69		;00	NO ACCESS
+	SC_#,#/PPRO,AR_SHIFT,J/PFWLOS	;01	READ ONLY	;AR GETS SHIFTED
+	SC_#,#/PPRWF,AR_SHIFT,J/PFWLOS	;10	R/W FIRST	; FOR KL-10 SIZE
+	SC_#,#/PPRW,AR_SHIFT,J/PGSTO	;11	READ/WRITE	; PAGES (.5K)
+
+At label PACCDS (Page table ACCess DiSpatch), the contents of AR
+are actually transferred to the memory system.  AR is shifted left
+by 0 or 18 (the value in SC), and the shifter output is copied
+back into the left half of AR (and the right half of AR is
+cleared).  So now the left half of AR has the desired page table
+entry.  The high four bits of the shifter output are used to
+perform a dispatch, but only the high two bits have any effect
+because of the alignment directive, so a four-way dispatch is
+performed, using the ITS page table access bits from the page
+table entry.  Finally, the shift counter SC is set to 1
+(in effect, *after* the shift by 0 or 18 occurs).
+
+For access 00 (no access), a page fault error code is put into SC
+and AR gets the page fault word.  PFT69 handles access failures.
+
+For the other three cases, AR is shifted left by 1; this creates
+an additional bit at the right-hand end of the the left half of ARL
+so that ARL now contains a physical page number measured in terms
+of KL10-style 512-word pages rather than ITS-style 1024-word pages.
+Also, an appropriate constant is put into SC to indicate the
+permitted page access as described by KL10-style access bits
+rather than ITS-style access bits.  The read-only cases then go to
+label PFWLOS and the all-access-permitted case goes to label PGSTO.
+
+PFWLOS:	GEN FE AND #,#/20,SKP SCAD NE	;LOSE IF WRITE ATTEMPT
+=0
+PGSTO:	SCADA/#,SCADB/AR0-8,SCAD/AND,	;CLEAR OUT ACCESS AND AGE BITS
+		AR0-8_SCAD#,#/37,
+		J/PGSTO1
+	SC_PF.ILW,AR_BR			;WRITE INTO READ ONLY OR R/W/F LOSES
+PFT69:	P_SC#,ARX_SV.BR			;SET PAGE FAIL CODE
+	SV.PFW_AR,AR_ARX,J/PFT		;GO TAKE PAGE FAULT
+
+At label PFWLOS (Page Fault Write LOSes), the SC adder SCAD is used
+to perform an AND operation on the FE register and the constant 20 octal.
+Remember FE?  It still has some bits in it from the high part of VMA,
+and the 20 bit says whether the faulting reference was a write.
+The macro SKP SCAD NE causes a skip iff the SCAD output is nonzero,
+so we end up at PGSTO if the referencer was not a write and
+at the next instruction if it was a write (in which case the page
+fault error code PF.ILW is put into SC, BR is copied to AR, and
+we drop into PFT69).
+
+At label PGSTO, we have determined that the access is permitted.
+Recall that the left half of AR contains the ITS page table entry,
+shifted left by one position.  The SC adder SCAD is used to clear the
+high four bits of AR by feeding AR bits 0-8 and the constant 37 octal
+into the SC adder, performing an AND, and then stuffing the result
+back into AR bits 0-8.  This clears out the access and age fields,
+leaving just the KL10 physical page number.  Then we go to PGSTO1
+below.
+
+PFT69 stored the page fail code from SC into the high 6 bits (P)
+of AR and begins the register restoration process needed prior
+to a jump to PFT, which generates a page fail trap.  (This path
+of execution will not be explained further here.)
+
+;HERE TO WRITE TWO KI-10 PAGE MAP ENTRIES
+
+PGSTO1:	SCADA/AR0-5,SCADB/SC,SCAD/OR,	;OR IN APPROPRIATE KI-10
+		P_SCAD#,ARX_SV.VMA	; STYLE ACCESS BITS
+	GEN ARX*CN1000,AD/ANDCB,VMA/AD	;VMA ADDRESS FOR LOW HALF PAGE
+	GEN SV.PFW,SKP AD0		;SKIP IF USER REFERENCE
+=0	EXEC REF,J/PGSTO2		;FIX IT UP (BUG IN MCL BOARD
+	USER REF,J/PGSTO2		; HAVING TO DO WITH PXCT)
+PGSTO2:	WR PT ENTRY,ADA/AR,AD/A+XCRY,	;WRITE IT, THEN BUMP ARL
+		GEN CRY18,AR/AD		; FOR HIGH .5K ENTRY
+	GEN ARX*CN1000,AD/OR,VMA/AD	;VMA ADDRESS FOR HIGH HALF PAGE
+	GEN SV.PFW,SKP AD0		;SKIP IF USER REFERENCE
+=0	EXEC REF,J/PGSTO3		;FIX IT UP (BUG IN MCL BOARD
+	USER REF,J/PGSTO3		; HAVING TO DO WITH PXCT)
+PGSTO3:	WR PT ENTRY,AR_ARX*4,FE_#,#/10	;WRITE 2ND PTW.  SET UP FE AND S
+
+At label PGSTO1, SC contains KL10-style access bits (PPRO, PPRWF, or PPRW).
+These are OR'd into the high bits of AR through the SC adder.  Also,
+the saved VMA (the virtual address that caused the original page fault)
+is brought into ARX.
+
+The next instruction clears the 1000 bit and puts the result into
+the hardware VMA register.  Recall that an ITS page corresponds
+to two KL10 pages; the VMA register now points into the lower
+of those two KL10 pages.
+
+Next, the saved page fault word is fetched and we skip iff the
+page fault was a user mode reference.  One of the next two
+instructions then performs "EXEC REF" or "USER REF" accordingly.
+(This drove me crazy for weeks.  Apparently there was some
+hardware problem that failed to retain necessary state or failed
+to interact correctly with the PXCT instruction.  This sequence
+that does "EXEC REF" or "USER REF" compenates for that problem.)
+
+At label PGSTO2, the macro WR PT ENTRY writes a KL10 page table
+entry into the hardware page table cache from the left half of AR,
+for the page indicated by the VMA register.  At the same time,
+we increment the left half of AR (by using the adder and forcing
+a carry out from bit 18 into bit 17).
+
+Now we do it all over again for the higher of the two KL10 pages
+corresponding to this ITS page.  We set the 1000 bit of the
+saved VMA and stuff it into the hardware VMA register.  Once
+again we must skip on the high bit of the saved page fault word
+and perform "EXEC REF" or "USER REF".  Finally, at label PGSTO3,
+we write another KL10 page table entry into the hardware cache.
+We also shift ARX left two places and put the result into AR
+and stuff the constant 10 octal into FE.  Why?  Don't ask *me*.
+That's for the code on the next page, and I didn't write that
+stuff!  But it finishes up the page fault processing, restores
+registers, and resumes the faulted instruction.
+
+Whew!  I hope this helps.
+
+Let me add a few notes about reading the microcode.  Each
+microinstruction consists of a set of items separated by commas;
+if a comma ends a line (except for whitespace and comments), the
+instruction continues on the next line.  Each item is either
+a field/value pair or a macro call.  A macro call is simply
+the name of a macro, with no arguments.  Most macros are defined
+in file "macros".  Symbolic names for the fields and their
+possible values are defined in file "define"; there are sketchy
+comments there describing what the fields do.  If you write
+microcode, you have to be aware of which fields overlap which
+other fields; that's not so crucial when simply reading the
+microcode.
+
+The field definitions can tell you a lot about what is possible.
+For example, these definitions (from file "define"):
+
+ADA/=0,3,20		; (EDP3)
+	AR=0
+	ARX=1
+	MQ=2
+	PC=3
+ADA EN/=0,1,18		;ADA ENABLE ALSO ENABLES ADXA (EDP3)
+	EN=0
+	0S=1
+U21/=0,1,21,D	;BIT 21 UNUSED
+ADB/=0,2,23		;CONTROLS ADB AND ADXB (EDP3)
+	FM=0,,1		;MUST HAVE TIME FOR PARITY CHECK
+	BR*2=1
+	BR=2
+	AR*4=3
+
+tell you that the "A" input to the adder AD can come from
+register AR, register ARX, the MQ register, or the PC;
+or it can be forced to all zeros by the ADA EN field.
+The "B" input can come from the "fast memory" FM (that's
+the accumulators), BR shifted left by 1, BR, or AR shifted
+left by 2.
+
+This structure is responsible for the fact that the SOJxx
+instructions are a microcycle slower than the AOJxx instructions:
+the accumulator can come only into the B side of the adder, and
+the adder has a function A+B+1, so by forcing the A input to zeros
+you can compute B+1 in the same cycle that you fetch the
+accumulator; but there is no function that can compute B-1, so you
+have to pull the accumulator unchanged through the adder and store
+it into AR, then compute A+1 on the next microcycle.  Until, that
+is, I (ahem!) changed the code that computes the effective
+address to compute and stash the value -1 into the MQ register;
+it does this on every instruction, but only the SOJxx instructions
+exploit this fact.  Then SOJxx can feed the -1 from the MQ into
+the A input of the adder as it reads the accumulator into the B
+side and the adder computes A+B!  This squeezes SOJxxx from five
+microcycles back down to four.  Very squirrely; I think DEC
+never accepted this change back into their main microcode source.
+(Compare the code at label SOJ in files "skpjmp.32" and
+"skpjmp.modelb" and compare the code at labels XCTGO and
+COMPEA in files "basic.23" and "basic.modelb".)
+
+--Guy
