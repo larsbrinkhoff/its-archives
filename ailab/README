@@ -1,3 +1,4 @@
+AIM-75		Television Camera-to-Computer Adapter, January 1965
 AIM-81		PDP-6 TECO, July 1965
 AIM-82		MAC PDP-6 DECtape File Structure, July 1965
 AIM-83		Use of MACDMP, July 1965
@@ -5,9 +6,13 @@ AIM-88		MACTAP: A PDP-6 DECtape Handling Package, September 1965
 AIM-90		MIDAS, October 1965
 AIM-98		PDP-6 LISP, June 1966
 AIM-118		PDP-6 Software Update, January 1967
+AIM-127a	LISP Linkage Feature, Obctober 1967
 AIM-128		Hardware and Program Memo About SERVO, March 1967
+AIM-138		The Calcomp plotter as an output device, July 1967
+AIM-146		PICPAC: A PDP-6 Picture Package, October 1967
 AIM-147		A Multiple Procedure DDT, January 1968
 AIM-147a	DDT Reference Manual, September 1971
+AIM-157         Time-Sharing LISP for the PDP-6, March 1968
 AIM-161		ITS 1.4 Reference Manual, June 1968
 AIM-161A	ITS 1.5 Reference Manual, July 1969
 AIM-164		The Text-Justifier TJ6, June 1970
