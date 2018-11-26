@@ -58,3 +58,4 @@ ITS_Hardware_Memo_4	A/D and D/A converters
 ITS_Hardware_Memo_5	GE Datanet 760 Output Device
 ITS_Hardware_Memo_10	ARPA Network Interface
 dk-10.12h7              DK-10 programming (hw memo #12)
+pdp10.caios             CH10 Chaosnet interface
