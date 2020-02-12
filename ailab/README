@@ -64,6 +64,7 @@ ITS_Hardware_Memo_4	A/D and D/A converters
 ITS_Hardware_Memo_5	GE Datanet 760 Output Device
 ITS_Hardware_Memo_6	Device 420 - Assorted Switches & Color Scope
 ITS_Hardware_Memo_7A	Using the analog & digital interface of the demo box
+ITS_Hardware_Memo_9	Bit Box
 ITS_Hardware_Memo_10	ARPA Network Interface
 dk-10.12h7              DK-10 programming (hw memo #12)
 pdp10.caios             CH10 Chaosnet interface
