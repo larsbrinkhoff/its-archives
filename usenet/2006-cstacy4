@@ -1,0 +1,47 @@
+From newsserver@localhost  Sat Oct 28 02:00:56 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed1.jnfs.ja.net!jnfs.ja.net!peernews.mcc.ac.uk!zen.net.uk!demorgan.zen.co.uk!nx01.iad01.newshosting.com!newshosting.com!130.81.64.211.MISMATCH!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny01.POSTED!8b1f9295!not-for-mail
+Message-ID: <yzl64e67068.fsf@OSX663.local>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: the last MIT ITS dec-20 (AI.MIT.EDU) is up for sale
+Date: Fri, 27 Oct 2006 06:17:04 GMT
+References: <1161166699.731937.111190@e3g2000cwe.googlegroups.com> <alpine.OSX.0.7.0610180915590.28028@pangtzu.panda.com> <1161230659.204200.15880@b28g2000cwb.googlegroups.com> <1161798043.976284.149520@h48g2000cwc.googlegroups.com> <1161814214.953075.19610@i3g2000cwc.googlegroups.com> <v660k2h81sqij12vrq6omn8uem08v7snb0@4ax.com> <Pine.LNX.4.64.0610260015020.844@localhost.localdomain> <mddhcxq7nr1.fsf@panix5.panix.com> <45418978.5F01EE9B@comcast.net>
+Lines: 28
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.0.50 (darwin)
+Cancel-Lock: sha1:/aORELQsoI5hBwt3dU0UXxsxsYs=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.136.228
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny01 1161929824 68.163.136.228 (Fri, 27 Oct 2006 02:17:04 EDT)
+NNTP-Posting-Date: Fri, 27 Oct 2006 02:17:04 EDT
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:47251
+
+Monty Brandenberg <mcbinc@comcast.net> writes:
+
+> Rich Alderson wrote:
+>> 
+>> Daniel Seagraves <root@localhost.localdomain> writes:
+>> 
+>> > Well, I like to think that the bidding went so high because this is AI,
+>> 
+>> Indeed.
+>
+> Would this be the "more magic" machine by any chance?  If so,
+> I'd love to see pictures of any remnant of that modification...
+
+There is some widespread confusion in this thread about this machine
+being "AI".  This is not the historical ITS computer named "AI".
+That was a KA-10.  The machine on Ebay is a KS-10, which was several
+generations of technology later.  When the "AI" PDP-10 finally died
+after several decades of use, we got this KS machine to stand in its
+place on the network and ported ITS to it.  The historical era was
+already over by then.  This KS-10 machine was used for a little while
+by a few people to run EMACS and the email server.   Another KS machine
+was later brought up under the name "MC" to replace the KL-10 as the
+main mail hub.  Aside from the port itself, which included microcode,
+drivers, and some changes to the way IO worked on this processor, some
+very late ITS development (mostly, implementing some standard network
+protocols) did occur on these KS machines.  At the time of the KS port,
+essentially everyone in the lab had already long switched to TOPS-20
+for document processing, and Lisp Machines for research programming.)

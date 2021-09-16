@@ -1,0 +1,94 @@
+From newsserver@localhost  Fri Jun 29 04:02:12 2007
+Path: uni-berlin.de!fu-berlin.de!out03a.usenetserver.com!news.usenetserver.com!in02.usenetserver.com!news.usenetserver.com!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny04.POSTED!e266a3ae!not-for-mail
+Message-ID: <yzl1wfwexze.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: What I miss in my OS
+Date: Thu, 28 Jun 2007 18:27:02 GMT
+References: <467c4b61$0$15007$4c368faf@roadrunner.com> <f5iua6$8qk_001@s764.apx1.sbo.ma.dialup.rcn.com> <5e6ip7F37c8e7U1@mid.individual.net> <f5lhlt$8qk_002@s861.apx1.sbo.ma.dialup.rcn.com> <5e947fF36vrk3U1@mid.individual.net> <f5o17s$8qk_001@s906.apx1.sbo.ma.dialup.rcn.com> <5ea62gF37m83fU4@mid.individual.net> <f5qnak$8qk_002@s967.apx1.sbo.ma.dialup.rcn.com> <5ecm59F37qkpbU1@mid.individual.net> <f5t9lu$8qk_001@s859.apx1.sbo.ma.dialup.rcn.com> <5ef277F37np3pU1@mid.individual.net> <f604k2$8qk_001@s830.apx1.sbo.ma.dialup.rcn.com>
+Lines: 75
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.0.97 (darwin)
+Cancel-Lock: sha1:Cd3Cl1RkMI3hLYcQKfVjxsSFpzg=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.186.87
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny04 1183055222 68.163.186.87 (Thu, 28 Jun 2007 14:27:02 EDT)
+NNTP-Posting-Date: Thu, 28 Jun 2007 14:27:02 EDT
+Xref: cartman.offog.org alt.folklore.computers:199845
+
+jmfbahciv@aol.com writes:
+> In article <5ef277F37np3pU1@mid.individual.net>,
+>    Roland Hutchinson <my.spamtrap@verizon.net> wrote:
+>>But if I'm working that way, I can _still_ save my work explicitly from time
+>>to time and resume work from my last save if I want to.
+>
+> Yes.  And that is the only way you can "safely" edit code.  This method
+> will never "lose" any edits because your head, and not some computer
+> heiuristic, is keeping track of what is finished and what needs to be
+> done.
+>>
+>>The automatic recovery is just a bit of extra protection,
+>
+> You may think it's protection; I know it's a way to miss edits
+> that you won't notice are missing until further down the code
+> production line.  Then you are in debug mode and bandaid mode.
+> The opportunity of clean code is gone.
+>
+>> and in practice it will often bring me back to _exactly_ the state
+>> I was in before the crash.
+>
+> I doubt that ;-).  You have been very lucky. 
+
+My experience is daily with this automatic recovery, 
+and it's been the same for over a quarter century of 
+continuous use -- and I guess I (and all my cohorts)
+have been very lucky, too.   It works great!
+
+The state of the art circa 1976 (EMACS on ITS on a PDP-10) was that as
+you edit, you execute Save commands, and each time it creates a numbered
+version of the file.  You use your own head (and the directory timestamp) 
+to remember which versions are good ones if you need to go back, 
+and which can be deleted.  So you know that version 69 was before you
+got that distracting call to go to dinner, and that version 14 was
+Monday when you got to a good stopping point, wrapped up went home.  
+To help manage the versions, you can also mark specific versions as
+"spare from reaping" in the filesystem, and invoke a reaper to clean 
+up the unmarked excess versions.  These file version features are what
+you get automatically from the OS.
+
+Meanwhile, EMACS is also doing some things for you (as an application).
+If you turn on Auto Save Mode for the buffer you are interested in,
+then every specified number of characters or elapsed seconds, it saves
+out some backup versions.  (These versions are managed by Emacs and do
+not interfere with the versions you see when you do a Save command.)  
+At any time, including after a crash, you have the option of recovering
+from the recent Auto Save files.  (There is also the orthogonal Undo
+command which you can use to undo changes while editing, but that's an
+editing command rather than a file recovery feature.)  
+Finally, EMACS also gives you the option to log your changes in the 
+form of a Journal of commands; this is captured automatically and
+written to a disk file.  It captures all the commands in your editing
+session (eg. across multiple files).  You can view, edit, and replay 
+the Journal against the (versions of the) files you are interested in.
+
+Around 1985, the above was (on the Lisp Machine) enhanced with 
+a source control system that handled multiple users committing,
+branches, etc.
+
+On the Lisp Machine (both before and after source control), 
+we also had a fancy Patch Management system.  Editing the main
+source files was still done directly, but most changes resulted
+in the semi-automatic generation of a patch file that could be
+applied.  This involved documentation, commentary, and a review
+and approval process.  Although it involved considerable human
+interaction, this was all highly automated and integrated.
+
+One thing that's different here, I think, is that BAH is telling
+a story about receiving a bunch of "edits" from programmers,
+and executing them, rather like a glorified keypunch operator.
+The other people are telling stories of being developers,
+and how they interact directly with the source tree while
+being creative.  What's going on in the people's heads in
+those two scenarios, and their support requirements,
+might be very different.

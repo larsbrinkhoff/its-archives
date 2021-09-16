@@ -1,0 +1,42 @@
+From newsserver@localhost  Mon Jan  9 02:01:07 2006
+Path: uni-berlin.de!fu-berlin.de!logbridge.uoregon.edu!arclight.uoregon.edu!news.u.washington.edu!pangtzu.panda.com!mrc
+Message-ID: <Pine.OSX.4.64.0601081045290.9510@pangtzu.panda.com>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: new ITS trivia
+Date: Sun, 8 Jan 2006 10:47:41 -0800
+References: <Pine.WNT.4.65.0601031410030.4356@Tomobiki-Cho.CAC.Washington.EDU>
+Lines: 22
+Organization: University of Washington
+Sender: mrc@pangtzu.panda.com
+NNTP-Posting-Host: pangtzu.panda.com
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1136746063 31396 206.124.149.117 (8 Jan 2006 18:47:43 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Sun, 8 Jan 2006 18:47:43 +0000 (UTC)
+In-Reply-To: <Pine.WNT.4.65.0601031410030.4356@Tomobiki-Cho.CAC.Washington.EDU>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:45640
+
+On Tue, 3 Jan 2006, Mark Crispin wrote:
+> What was the difference between tty <CTRL/F> and tty <CTRL/K>?
+> What was the similarity?
+> Be specific.
+
+Time's up.
+
+Both commands showed a "systat" or "who" type display of who else was on 
+the system, what they were running, etc.
+
+tty <CTRL/F> showed the directory of the TTY: device, that is 
+the contents of TTY:.FILE. (DIR)
+
+tty <CTRL/K> ran the TTY program, which showed the same directory, only it 
+output each character in a random order (albeit at the correct screen 
+position).  It was quite the neat thing to watch.
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.

@@ -1,0 +1,40 @@
+From newsserver@localhost  Wed Oct 18 02:02:32 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!jnfs.ja.net!hamilton.zen.co.uk!zen.net.uk!demorgan.zen.co.uk!nx02.iad01.newshosting.com!newshosting.com!130.81.64.211.MISMATCH!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny02.POSTED!8b1f9295!not-for-mail
+Message-ID: <yzl1wp6n2gn.fsf@OSX663.local>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Zork for TOPS-10 version?
+Date: Tue, 17 Oct 2006 19:53:45 GMT
+References: <8eqdnaGuZfyK6oHYnZ2dnUVZ_v6dnZ2d@comcast.com> <451EE542.E949E5E3@comcast.net> <alpine.OSX.0.7.0609301515080.541@pangtzu.panda.com> <4525D8BB.B4EC4EA1@comcast.net> <3r95ge.7ja1.ln@via.reistad.name> <eg5d7f$8qk_002@s831.apx1.sbo.ma.dialup.rcn.com> <452693B7.A8DD1454@comcast.net> <4533B07A.FB76A53@comcast.net> <alpine.OSX.0.7.0610161024000.16412@pangtzu.panda.com> <w4cr6x793tm.fsf@rackham.cd.chalmers.se> <Pine.WNT.4.65.0610161759360.2832@Tomobiki-Cho.CAC.Washington.EDU> <85d58r6vs2.fsf@junk.nocrew.org>
+Lines: 21
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.0.50 (darwin)
+Cancel-Lock: sha1:KXbZzYd+7Q1CPR1s/Omq6MP33wk=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.155.145
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny02 1161114825 68.163.155.145 (Tue, 17 Oct 2006 15:53:45 EDT)
+NNTP-Posting-Date: Tue, 17 Oct 2006 15:53:45 EDT
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:47173
+
+Lars Brinkhoff <lars.spam@nocrew.org> writes:
+> So the other ITS systems ran on KA's before the switch to KS's?
+
+The "real" ITS machines were KAs, except for MC (the KL).
+
+ITS was only ported to the KS after after we stopped using the system
+as a primary tool. The KS was an endgame: essentially nobody used ITS
+for real work at that point.  ITS had not even been reliably available
+for use for a while because The KA hardware was very old and flakey. 
+IIRC, the ML and DM machines were already junked and out the door
+before this, and the AI machine was only operating sporadically.  
+The exception was that the MC (KL) machine was still being a mail
+routing hub, a job that was subsequently taken over by one of the
+later KS machines.
+
+Before the KS port, we had already moved on to Lisp Machines for a
+number of years, while essentially all document preperation (which 
+is all that time-sharing was used for) was being done on TOPS-20.
+
+Well, there were still also a very few MACSYMA users on the KL then, 
+but most customers had purchased their own Lisp Machines or VAXes.

@@ -1,0 +1,144 @@
+From newsserver@localhost  Wed Sep  4 05:00:07 2002
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!server3.netnews.ja.net!newspeer.clara.net!news.clara.net!colt.net!kibo.news.demon.net!demon!news-hub.cableinet.net!blueyonder!easynet-quince!easynet.net!cox.net!cyclone1.gnilink.net!spamfinder.gnilink.net!nwrddc01.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <uadmyeqvq.fsf@dtpq.com>
+From: cstacy@dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: It is GNU/Linux, not just Linux
+Date: Tue, 03 Sep 2002 20:54:03 GMT
+References: <jdjqku8ppreg3c6p4susup4p312181jvhh@4ax.com> <aisa21$pl7$1@tilde.itg.ti.com> <2meeluogfqa0tdkcvr410jc6uhmaqv9gtj@4ax.com> <aj8m8q$f1i$1@tilde.itg.ti.com> <m6vgka.sof1.ln@amanda.reistad.priv.no> <akia3r$686$5@bob.news.rcn.net> <01c25082$c9e69e60$0100007f@stupidwin95> <akq8sh$gsc$2@bob.news.rcn.net> <3D7222AC.E1FAD73E@gazonk.del> <akvmoe$8ir$3@bob.news.rcn.net>
+Lines: 124
+Sender: cstacy@BONK
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+NNTP-Posting-Host: 141.154.219.4
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc01.gnilink.net 1031086443 141.154.219.4 (Tue, 03 Sep 2002 16:54:03 EDT)
+NNTP-Posting-Date: Tue, 03 Sep 2002 16:54:03 EDT
+Xref: cartman.azz.us-lot.org alt.folklore.computers:51627
+
+>>>>> On Mon, 02 Sep 02 11:37:48 GMT, jmfbahciv  ("jmfbahciv") writes:
+
+ jmfbahciv> [spit]
+ jmfbahciv> In article <3D7222AC.E1FAD73E@gazonk.del>,
+ jmfbahciv>    "Foobar T. Clown" <fubar@gazonk.del> wrote:
+ >> jmfbahciv@aol.com wrote:
+ >>> [...TECO...]
+ >>> I guess it could have been all of those things.  :-)  I do
+ >>> know it was the only editor that could keep up with me.
+ >> 
+ >> How can you tell the difference between a TECO emacs init file and
+ >> modem noise?...
+
+ jmfbahciv> I never saw one.
+
+!* -*- Teco -*- Tried and true init for CStacy, 17-Jan-83 !
+
+1:<0fsledefs>   !* Disable local editting (teco lossage) in recent releases!
+
+@:i*| 3uDisplay Matching Paren
+      0uPermit UnMatched Paren
+    | m.vText Mode Hook		!* Reasonable status in TEXT mode  !
+
+m(m.m Text Mode)			!* Start in TextMode		   !
+
+ 3 uDisplay Matching Paren		!* Turn on paren-match echoing	   !
+ 0 uPermit UnMatched Paren		!* Beep on paren mismatch	   !
+
+ 1 m.vTags Find File			!* Make Tags use many buffers	   !
+ 1 m.vInhibit Help Messagew		!* No help message		   !
+ 1 m.vFile Versions Kept		!* Keep 1 file with MMReap	   !
+ 1 fs echo errors			!* Errors in echo area		   !
+ 2 fs echo lines			!* 2 echo lines			   !
+70 uFill Column			!* Fill column always 70	   !
+ 1 m.vNext Screen Context Lines	!* Minimal overlap		   !
+
+!* Load useful libraries !
+
+:i*Babyl  m.vMail Reader Library	!* Library to use reading mail     !
+:i*BabylM m.vMail Sender Library	!* Library to use sending mail     !
+
+1:< m(m.mLoad Library)TMACS		!* Maybe load TMACS                !
+    m.m^R Select Bufferu:.x()	!* C-X C-B does winning buffer hack!
+    m.m^R Just One Spaceu.. 	!* M-Space does Just One Space     !
+    m.m^R Draw Vertical Lineu..| >	!* M-| draws vertical line on ITS  !
+
+m(m.m Load)emacs;modlin		!* Fancy modeline w/time display   !
+ 1m.vInvert Filenames			!* Use inverted filenames	   !
+ m.m & Fancy Mode Line,60 m(m.m & Start Realtime Modeline Clock)
+ fsxjname:f6[1 fsmachine:f6[2 :i12-1 ]2	!* 1: Site-Jname	   !
+ f~1MIT-›+4"l 4,fq1:g1u1 '		!* Maybe strip MIT- from site      !
+ :i..j1  :iEditor Name1 ]1	!* Hack modeline	           !
+
+!* Create the Select Previous Buffer function object and its documentation !
+
+@:i*|qPrevious Bufferm(m.mSelect Buffer) 
+ |m.vMM Select Previous Bufferw
+
+@:i*|C Select the previous buffer.
+Repeated use of the command will switch between the two most recent
+buffers.|m.vMM ~DOC~ Select Previous Bufferw
+
+!* Redefinitions !
+
+m.mSelect Previous Bufferu...L	  !* C-M-L Selects previous buffer.!
+q.Wu:.x()				  !* Make C-X C-K do wipe region   !
+600.+Y@fs^RInitu.W			  !* Zero c-W !
+m.m^R Incremental Searchu.s	          !* Incremental Search on c-sh-S  !
+m.m^R Reverse Searchu.r		  !*                    and c-sh-R !
+m.m^R Character Searchu.S		  !* Make C-S use char search.	     !
+m.m^R Reverse Character Searchu.R	  !* Make C-R do the reverse.	     !
+200.+N@fs^RInitu.N			  !* C-N goes to head of next line   !
+200.+P@fs^RInitu.P			  !* C-P goes to head of prev line   !
+m.m^R Down Real Lineu...N		  !* C-M-N goes down vertically      !
+m.m^R Up Real Lineu...P		  !* C-M-P goes up vertically        !
+m.m Insert Fileu:.x()		  !* C-X C-Y does insert file	     !
+
+!* BABYL customization variables!
+
+:i*KMP;ZBABYLm.vMail Reader Library	!* Use experimental ZBabyl thingy !
+1m.vBabyl Require Subjectsw		!* Ask for subjects               !
+1m.vBabyl Autolabel Messagesw		!* Turn on auto labelling         !
+:i*RemindNowm.vBabyl Last | Labelw	!* Make | use RemindNow, not ToDo !
+1m.vBabyl Remind to Delete		!* temporary back-compatibility	  !
+1m.vBabyl Survey Before Expunge	!* Expunge checks Expired msgs    !
+0m.vBabyl F Controlw			!* Forward enters recursive edit  !
+0m.vBabyl Reformation Merges From/Reply-To
+-1m.vBabyl Trim Recipient List		!* Trim but do not flush INFO-xxx !
+!* :i*SYSTEM@m.vBabyl Dont Reply To    People not to reply to!
+
+:@i*|[Mail-From] [Received] [Rcvd-Date] [Via] [Return-path] [Message-ID]
+     [Postal-Address] [Address] [Phone]  [Home] [Office] 
+     [Apparently-To] [In-Real-Life]
+     [Article-I.D.] [Identifier] [Length] [Posted] 
+     [Acknowledge-To] [Fcc]
+|m.vBabyl Reformation Flushes These Fields	!* Like it says           !
+
+er EMACS;EMACS INIT @y			!* Read in default init		!
+etDSK: fsMSnamefsDSnamew		!* Set default file dir		!
+m(hfx*)				        !* Execute buffer (init)	!
+f[modified				!* Bind modified flag	   !
+f[bbind				!* Get a temp buffer	   !
+[0[1[2[3[4[5[6[7			!* Get some temp qregs	!
+fsversion:\u1				!* Get Teco version in q1 !
+qEMACS version:\u2			!* Get Emacs version in q2!
+.(4,fsruntime\ 3ri.),.+3fx3		!* Get runtime in q3	   !
+hk eg -l :fx0 hk
+fsuptimeu4				!* Get uptime in q4 !
+fsOSTeco"n q4/1000u4'"# q4/30u4'	!* Normalize for operating system !
+:i6
+q4/(60*60*24)u5 q5"g q5:\u7 :i66 7 days'    (q4-(q5*60*60*24))u4
+q4/(60*60   )u5 q5"g q5:\u7 :i66 7 hours'   (q4-(q5*60*60   ))u4
+q4/(60      )u5 q5"g q5:\u7 :i66 7 minutes' (q4-(q5*60      ))u4
+q4           u5      q5:\u7 :i66 7 seconds'
+fsmachine:f6u5
+ftTECO.1   EMACS.2   Run = 3    0
+5 has run for6.
+					!* Display greeting	   !
+					!* Pop stuff !
+
+
+!* Local Modes: *!
+!* Comment Column:40 *!
+!* End: *!

@@ -1,0 +1,84 @@
+From newsserver@localhost  Sun Jul 10 02:00:57 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!news.bu.edu!not-for-mail
+Message-ID: <dap7b0$dtg$1@news3.bu.edu>
+From: budd@cs.bu.edu (Phil Budne)
+Newsgroups: rec.arts.int-fiction,alt.sys.pdp10
+Subject: PDP-10 C Compilers (was: A Z-machine implementaiton for TOPS-20)
+Date: 9 Jul 2005 19:08:16 GMT
+References: <da7k9c$vko$1@rumours.uwaterloo.ca> <11cep6dqheevpa6@corp.supernews.com> <Jv6dnZNazq9_4FrfRVn-ig@comcast.com> <daoqi8$2ii$1@citadel.in.taronga.com>
+Lines: 67
+Followup-To: rec.arts.int-fiction
+Organization: Boston University CAS Computer Science
+X-Trace: news3.bu.edu 1120936096 14256 128.197.12.5 (9 Jul 2005 19:08:16 GMT)
+X-Complaints-To: news@bu.edu
+X-Newsreader: trn 4.0-test76 (Apr 2, 2001)
+Originator: budd@cs.bu.edu (Phil Budne)
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:44686
+
+In article <daoqi8$2ii$1@citadel.in.taronga.com>,
+Peter da Silva <peter@taronga.com> wrote:
+>In article <Jv6dnZNazq9_4FrfRVn-ig@comcast.com>,
+>Joe Smith  <joe@inwap.com> wrote:
+>>The only compiler I've seen for the PDP-10 is PCC based, not ANSI.
+>
+>That's the Allman compiler? I used that... it was quirky and unconventional
+>even for 1980. I stuck to APL for most of my programming on TOPS.
+
+I seem to recall the following:
+
+Alan Snyder's C compiler (born on ITS?)
+
+	I used it on TOPS-20, and it was called C20.  Output MIDAS
+	which were assembled into STK files, used it's own linker
+	(STINKR) written in C.
+
+	supported v6-era C syntax? -- used =+ instead of +=?
+
+	I seem to have (some?) of the sources and binaries on old tape
+	images, but the files are on a machine that's off at the moment....
+
+	It may have been his Master's thesis:
+
+		Mentions on DMR's C Hiostory page:
+			http://cm.bell-labs.com/cm/cs/who/dmr/chist.html
+
+		And Portability paper:
+			http://cm.bell-labs.com/cm/cs/who/dmr/portpap.pdf
+
+		The latter references the Honeywell 6000 compiler,
+		so maybe he had it running on both 36-bit machines!
+
+	A 1987 paper lists him at HP Palo Alto Labs.
+
+Utah's port of S.C. Johnson's PCC (PCC20)
+
+	Used this in my latter day TOPS-20 work (until about 1987)
+		ported many Berkeley Unix progs, including troff.
+		I wrote a "sockets" extension for it's library.
+
+	I seem to have a pcc20.exe and the include files,
+	but no sources found, yet...
+
+KCC -- written by Kok Chen, re-worked by KLH.
+
+	Never used it (only available after my TOPS-20 days were over).
+
+	The only sources I've seen, are I think crippled to run under
+	MSDOS, compiled by MSVC (used C++ comments), and would not
+	compile under "normal" C.
+
+	Contains conditionals for a WIDE variety of systems: TOPS-10,
+	TOPS-20, TENEX, Compuserve, WAITS, ITS. Targets include
+	KA, KI, KS, extended KL section zero, extended KL non-zero section.
+
+	see
+	http://pdp10.nocrew.org/docs/kcc.tar.bz2
+
+	If anyone knows of a complete distribution, please post here!!
+
+Lars' GCC port
+
+	Mentioned here.
+
+	page at http://pdp10.nocrew.org/gcc/
+

@@ -1,0 +1,53 @@
+From newsserver@localhost  Thu Oct 19 02:01:07 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!jnfs.ja.net!feeder.news.heanet.ie!nntp-server.pubsub.com!news.glorb.com!news.alt.net!news.u.washington.edu!pangtzu.panda.com!mrc
+Message-ID: <alpine.OSX.0.7.0610180908540.28028@pangtzu.panda.com>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Zork for TOPS-10 version?
+Date: Wed, 18 Oct 2006 09:14:40 -0700
+References: <3r95ge.7ja1.ln@via.reistad.name> <eg5d7f$8qk_002@s831.apx1.sbo.ma.dialup.rcn.com>
+ <452693B7.A8DD1454@comcast.net> <4533B07A.FB76A53@comcast.net>
+ <alpine.OSX.0.7.0610161024000.16412@pangtzu.panda.com>
+ <w4cr6x793tm.fsf@rackham.cd.chalmers.se> <Pine.WNT.4.65.0610161759360.2832@Tomobiki-Cho.CAC.Washington.EDU>
+ <85d58r6vs2.fsf@junk.nocrew.org> <yzl1wp6n2gn.fsf@OSX663.local>
+ <eh4ua3$8ss_003@s847.apx1.sbo.ma.dialup.rcn.com>
+Lines: 28
+Organization: University of Washington
+Sender: mrc@pangtzu.panda.com
+NNTP-Posting-Host: pangtzu.panda.com
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1161188087 24963 206.124.149.117 (18 Oct 2006 16:14:47 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Wed, 18 Oct 2006 16:14:47 +0000 (UTC)
+In-Reply-To: <eh4ua3$8ss_003@s847.apx1.sbo.ma.dialup.rcn.com>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:47185
+
+On Wed, 18 Oct 2006, jmfbahciv@aol.com wrote:
+> >> So the other ITS systems ran on KA's before the switch to KS's?
+> >The "real" ITS machines were KAs, except for MC (the KL).
+> Was there any technical reason for not using KIs?
+
+Yes.  The KI pager sucked.
+
+There's a paper by Greenblatt that made reference to why the KI was 
+considered to be a disappointment.
+
+The ITS KAs used Holloway (later Systems Concepts) pagers that were far 
+more advanced than the memory map on the KI (and first generation KLs). 
+The MC KL had custom microcode (IIRC, the EXTEND instructions were all 
+deleted to make space) to implement an ITS pager.
+
+FWIW, Tenex KAs had BBN designed pagers.  I forget the differences between 
+the two other than the BBN pager used 512 word pages and the ITS pager 
+used 1K pages.
+
+Tenex was made to run on a KI, in spite of the KI pager's inadequacies, 
+but most KI Tenex systems ended up being dual processor systems.  Unlike 
+TOPS-10, I don't recall Tenex on the KI being noticably faster.
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.

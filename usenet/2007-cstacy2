@@ -1,0 +1,65 @@
+From newsserver@localhost  Tue Apr 10 04:05:36 2007
+Path: athena.ukc.ac.uk!feed4.jnfs.ja.net!jnfs.ja.net!peernews.mcc.ac.uk!zen.net.uk!demorgan.zen.co.uk!nx01.iad01.newshosting.com!newshosting.com!130.81.64.211.MISMATCH!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny02.POSTED!e266a3ae!not-for-mail
+Message-ID: <yzl8xd2vzlz.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10,alt.folklore.computers
+Subject: Re: MIT-MC and MIT-AI archives
+Date: Mon, 09 Apr 2007 06:19:38 GMT
+References: <1175940250.570925.87630@n76g2000hsh.googlegroups.com> <mddk5wmwajr.fsf@panix5.panix.com>
+Lines: 46
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.0.92 (darwin)
+Cancel-Lock: sha1:xWGKybfDbOydGrqrxV07uvHnA/o=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.155.52
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny02 1176099578 68.163.155.52 (Mon, 09 Apr 2007 02:19:38 EDT)
+NNTP-Posting-Date: Mon, 09 Apr 2007 02:19:38 EDT
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:47769 alt.folklore.computers:191999
+
+Rich Alderson <news@alderson.users.panix.com> writes:
+
+> shoppa@trailing-edge.com writes:
+>
+>> Inspired by the unavailability of ftp.its.os.org, I was rummaging
+>> through some old tapes of mine from the late 80's and early 90's and
+>> found some archives pretty obviously snapshotted from MIT-AI and MIT-
+>> MC, and found what are pretty obviously some snapshots of some subset
+>> of some directories/filesystems from circa 1990 or earlier.
+>
+>> At this point in time, going on 20 years later, I'm scratching my head
+>> and wondering if these archives aren't already up on the net.
+>
+>> There are many 80's vintage mailing lists of PDP-10 and arpanet/
+>> hackerdom mixed in among the stuff. And a good chunk of MacLisp and
+>> Franz Lisp stuff too.
+>
+>> Can anybody refresh my memory? Is this what Alan Bawden was doing
+>> circa 1990?
+>
+> If what you have are the AI and MC snapshots that were last up on
+> ftp.its.os.org, these have been cleaned up by Bawden to remove any personal
+> files.  (I've used them to put up an ITS on a SimH KS10, long before we ever
+> thought of purchasing one.)
+
+If these are the snapshots that were originally put up some time ago,
+they were not fully sanitized; Alan had to go back and redact some
+more things when people discovered what was there.
+
+I would not put something up unless you are entirely 100% perfectly
+sure that it does not contain material that is not supposed to be there.
+That has changed several times since it was originally put up, 
+because mistakes were made.   The most recent changes that I am
+aware of were in the last 12 months.
+
+If you are not the owner of the material, simply saying that you got
+it from someone else at some point and thought it was therefore
+"okay" is not going to shield you from legal action.
+
+If you have not carefully tracked exactly what was up there,
+perhaps you should contact the people who were maintaining it.
+It's your responsibility to do this.   It is impossible for
+you to contact the people who hold the various rights (which
+is not merely Copyright)  - you have no way of knowing who they are.
+
+I recommend caution.

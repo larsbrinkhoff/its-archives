@@ -1,0 +1,43 @@
+From newsserver@localhost  Thu Feb 22 04:07:08 2007
+Path: athena.ukc.ac.uk!feed4.jnfs.ja.net!jnfs.ja.net!feeder.news.heanet.ie!news.cs.univ-paris8.fr!news.glorb.com!border1.nntp.dca.giganews.com!nntp.giganews.com!local01.nntp.dca.giganews.com!news.giganews.com.POSTED!not-for-mail
+Message-ID: <s37pt2l43r1t5qpa656pnkq17m3s8g5adg@4ax.com>
+From: Bob Supnik <bob.supnik@sicortex.nospam.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Hands on with Dungeon?
+Date: Wed, 21 Feb 2007 14:28:03 -0500
+References: <1170818840.839560.72580@l53g2000cwa.googlegroups.com> <rj1cqe.8se2.ln@via.reistad.name> <7xmz3pucu8.fsf@ruckus.brouhaha.com> <1170877413.878773.271870@s48g2000cws.googlegroups.com> <mddr6t1poel.fsf@panix5.panix.com>
+Lines: 22
+NNTP-Posting-Date: Wed, 21 Feb 2007 13:28:21 -0600
+X-Newsreader: Forte Agent 2.0/32.652
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Trace: sv3-8bY1/KgCxssNr54ynagjrWTdsVp18fFUSXVJgtyci8yESL4MBXqIyXU3vxaTwMKvvV0CfpPOZcs6OvI!Vs4kiaoJNGyIb49zU3N6Q6nDudtWZZGTMINv8HjH1/IgCgFytd8I/Jepm5xJ3X0r0GD81KXe
+X-Complaints-To: abuse@giganews.com
+X-DMCA-Notifications: http://www.giganews.com/info/dmca.html
+X-Abuse-and-DMCA-Info: Please be sure to forward a copy of ALL headers
+X-Abuse-and-DMCA-Info: Otherwise we will be unable to process your complaint properly
+X-Postfilter: 1.3.34
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:47686
+
+Sorry to disagree... at the time I started working on the game, which
+was written in MDL and ran under ITS/TOPS-20 on the PDP-10, it was
+called Dungeon.  The PDP-10 version was <later> renamed to Zork
+because of potential confusion with (and possible legal action by) the
+Dungeons & Dragons board game, which later still became a computer
+game.
+
+I never bothered to rename the PDP-11 (or VAX) version, and it was
+always known as Dungeon.
+
+/Bob Supnik
+
+On 07 Feb 2007 17:56:50 -0500, Rich Alderson
+<news@alderson.users.panix.com> wrote:
+
+>"samuelaxon@gmail.com" <samuelaxon@gmail.com> writes:
+<snip>
+>
+>The translation of ZORK to Fortran by "an anonymous DEC engineer" (Bob Supnik)
+>was accompanied by a re-name to DUNGEON.  ZORK was never called DUNGEON in its
+>original form.

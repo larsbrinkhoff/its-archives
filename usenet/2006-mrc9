@@ -1,0 +1,40 @@
+From newsserver@localhost  Wed Oct 18 02:02:31 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed2.jnfs.ja.net!jnfs.ja.net!sanger.ac.uk!indigo.octanews.net!news-out.octanews.net!teal.octanews.net!nx01.iad01.newshosting.com!newshosting.com!newsfeed.news2me.com!newshub.sdsu.edu!logbridge.uoregon.edu!arclight.uoregon.edu!news.u.washington.edu!Tomobiki-Cho.CAC.Washington.EDU!MRC
+Message-ID: <Pine.WNT.4.65.0610161759360.2832@Tomobiki-Cho.CAC.Washington.EDU>
+From: Mark Crispin <MRC@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Zork for TOPS-10 version?
+Date: Mon, 16 Oct 2006 18:06:55 -0700
+References: <8eqdnaGuZfyK6oHYnZ2dnUVZ_v6dnZ2d@comcast.com> <451EE542.E949E5E3@comcast.net>
+ <alpine.OSX.0.7.0609301515080.541@pangtzu.panda.com> <4525D8BB.B4EC4EA1@comcast.net>
+ <3r95ge.7ja1.ln@via.reistad.name> <eg5d7f$8qk_002@s831.apx1.sbo.ma.dialup.rcn.com>
+ <452693B7.A8DD1454@comcast.net> <4533B07A.FB76A53@comcast.net>
+ <alpine.OSX.0.7.0610161024000.16412@pangtzu.panda.com>
+ <w4cr6x793tm.fsf@rackham.cd.chalmers.se>
+Lines: 15
+Organization: Networks & Distributed Computing
+Sender: mrc@ndcms.cac.washington.edu
+NNTP-Posting-Host: tomobiki-cho.cac.washington.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1161047340 24870 128.95.135.58 (17 Oct 2006 01:09:00 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Tue, 17 Oct 2006 01:09:00 +0000 (UTC)
+In-Reply-To: <w4cr6x793tm.fsf@rackham.cd.chalmers.se>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:47164
+
+On Mon, 17 Oct 2006, rydis@CD.Chalmers.SE wrote:
+> Some notes somewhere (yeah, great reference) has led me to believe
+> that ITS ran on some model of KL, as well.  Is that incorrect?
+
+ITS ran on MIT-MC's KL, which was a very early Model A.  It had custom 
+microcode, and some amount of custom hardware.
+
+I don't think that ITS ever ran on any other KL; or if it would run on an 
+unhacked KL.
+
+-- Mark --
+
+http://staff.washington.edu/mrc
+Science does not emerge from voting, party politics, or public debate.
+Si vis pacem, para bellum.

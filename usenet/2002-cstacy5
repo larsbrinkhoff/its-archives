@@ -1,0 +1,53 @@
+From newsserver@localhost  Fri May 31 05:00:21 2002
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer!btnet!newsfeed.icl.net!news.maxwell.syr.edu!newsfeed1.cidera.com!Cidera!cyclone1.gnilink.net!spamfinder.gnilink.net!nwrddc03.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <u4rgp4n2g.fsf@grant.org>
+From: cstacy@grant.org (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Missing virtual hardware?
+Date: Thu, 30 May 2002 16:28:39 GMT
+References: <aaopot$20nc$1@news.louisville.edu> <c5cf6e8.0205291803.2a8527a5@posting.google.com> <Pine.LNX.4.50.0205291944500.20365-100000@shiva1.cac.washington.edu> <%1kJ8.199$yU2.97@newsread1.prod.itd.earthlink.net> <ad5928$9k4$1@citadel.in.taronga.com>
+Lines: 34
+Sender: cstacy@BONK
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 141.154.221.215
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc03.gnilink.net 1022776119 141.154.221.215 (Thu, 30 May 2002 12:28:39 EDT)
+NNTP-Posting-Date: Thu, 30 May 2002 12:28:39 EDT
+Xref: cartman.at.fivegeeks.net alt.sys.pdp10:37696
+
+Don't forget that EMACS itself (decades before GNU) was a prime
+example of free software in the PDP-10 community. Sharing software
+was just what people in the University environments naturally all 
+did back then, most of the time, at least at MIT.
+
+Here's the "license" (from the source file) for TECO/EMACS from the 1970s:
+
+;ITS TECO was built by RMS on the work of others
+;at the MIT Artificial Intelligence Lab
+;(not to be confused with the Laboratory for Computer Science).
+;It was converted to run on Twenex by MMCM at SRI.
+;
+;TECO is available to those who like the way it is,
+;on a basis of communal co-operation:
+;you are welcome to make improvements, but only if you consult
+;with the other user sites, and send your changes
+;to MIT to be merged in and distributed to everyone.
+
+;;;ITS TECO and EMACS should serve as a lesson to all of what can be achieved
+;;;when programmers' creativity is not crushed by administrators whose main
+;;;concern is stifling humor, stamping out all possibility of enthusiasm, and
+;;;forbidding everything that isn't compulsory.
+
+;;;They were produced in a humane anarchy where one man designs, implements,
+;;;and then documents the feature that inspires him.  They were produced by
+;;;people who could laugh enough to name many years of effort the Incompatible
+;;;Timesharing System.  Of course, the whole story is imaginary.  Working
+;;;conditions which do not crush the spirit can't be practical.  You can't run
+;;;a team that way if you expect to meet the deadline.  TECO doesn't really
+;;;exist; you were only dreaming it.
+
+;;;You owe your improvements to us in return for what you see here.  If anyone
+;;;asks you for a copy, make sure he gets in touch with the MIT AI Lab so he
+;;;can get the latest stuff.

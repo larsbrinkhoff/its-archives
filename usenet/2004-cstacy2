@@ -1,0 +1,75 @@
+From newsserver@localhost  Sun Jan 25 05:00:05 2004
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!peernews.mcc.ac.uk!zen.net.uk!news.linkpendium.com!news-out.visi.com!petbe.visi.com!newsfeed.news2me.com!cyclone1.gnilink.net!spamkiller2.gnilink.net!nwrdny01.gnilink.net.POSTED!8b1f9295!not-for-mail
+Message-ID: <u3ca5rage.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: mouse buttons [was:  The BASIC Variations]
+Date: Sat, 24 Jan 2004 08:56:49 GMT
+References: <brlobn$n3k$1@chessie.cirr.com> <bupbt41m94@enews3.newsguy.com> <uk73jqsqo.fsf@news.dtpq.com> <401132b6$0$2813$61fed72c@news.rcn.com> <buriun$6eg$10@f04n12.cac.psu.edu>
+Lines: 56
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.138.194
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrdny01.gnilink.net 1074934609 68.163.138.194 (Sat, 24 Jan 2004 03:56:49 EST)
+NNTP-Posting-Date: Sat, 24 Jan 2004 03:56:49 EST
+Xref: cartman.azz.us-lot.org alt.folklore.computers:100695
+
+>>>>> On Fri, 23 Jan 2004 16:43:03 +0000 (UTC), Richard E Hawkins ("Richard") writes:
+
+ Richard> In article <401132b6$0$2813$61fed72c@news.rcn.com>,  <jmfbahciv@aol.com> wrote:
+ >> In article <uk73jqsqo.fsf@news.dtpq.com>,
+ >> cstacy@news.dtpq.com (Christopher C. Stacy) wrote:
+
+ >>> The Lisp Machine, which was the first commercially available computer
+ >>> that had a mouse (etc), used a 3-button mouse.  It's keyboard, which was
+ >>> an extended version of the keyboard for the ITS operating system is where
+ >>> the modifier keys META, SUPER, and HYPER originated.  (There were also
+ >>> several other less-commonly used modifiers! You may have seen SUPER etc.
+ >>> in the X window system which came along a little over a decade later)
+
+ >>> On the LispM, you could Control-Meta-Super-Hyper-Right-double-click.
+
+ >> [weeping emoticon here]  I can't translate that to a finger movement.
+ >> But it sounds neat.
+
+ Richard> I can.  And my fingerers ache just thinking about it.  It means holding
+ Richard> down four keys with your off hand while using the weaker finger on your
+ Richard> mouse hand to click twice . . . 
+
+It was not common to use all the modifier keys at once; more common
+to use just one or two (such as  Shift, or Control-Meta.)
+
+The ridiculous example I gave can be performed as follows.  
+If the mouse is in your right hand, your left is mashed
+down on the keyboad just to the left of the Space bar.
+Your thumb is on Control, forefinger on Shift, pinkie
+on Hyper, ring on Super, middle finger on Meta.
+
+Bear in mind that this keyboard is not quite the same layout as
+keyboards today, and was specifically designed for touch-typing 
+at applications that used modifier keys (especially Emacs).
+
+Here's a picture of the Symbolics keyboard:
+http://www.abstractscience.freeserve.co.uk/symbolics/photos/IO/kbd-older.html
+
+A slightly older version of the Lisp Machine keyboard:
+http://world.std.com/~jdostale/kbd/SpaceCadet1.jpeg
+
+Which was in turn was based on the Knight TV keyboard:
+http://world.std.com/~jdostale/kbd/Knight1.jpeg
+
+The Knight keyboard was part of the Knight "TV" system, 
+which was the bit-mapped display terminal system for ITS;
+this is the origin of Control/Meta commands in Emacs.
+(Tom Knight invented this raster scan bitmapped frame-buffer
+display system, originally supporting about a dozen or so of
+these "TV" consoles at a time in 1972, using the PDP-10/PDP-11 
+memory interface that he had invented in 1969).  
+
+The Knight TV system was one of the very first semiconductor memory
+bitmapped displays.  SAIL (at Stanford) had something kind of similar 
+similar which I don't know much about (having used it for all of 10
+minutes, once), but I think theirs may have come came first.

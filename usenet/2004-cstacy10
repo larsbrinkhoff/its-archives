@@ -1,0 +1,64 @@
+From newsserver@localhost  Wed Jun  2 05:00:19 2004
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!jnfs.ja.net!hamilton.zen.co.uk!zen.net.uk!demorgan.zen.co.uk!news2.euro.net!62.253.162.219.MISMATCH!newsrout1.ntli.net!news-in.ntli.net!border1.nntp.dca.giganews.com!border2.nntp.dca.giganews.com!nntp.giganews.com!cyclone1.gnilink.net!spamkiller2.gnilink.net!gnilink.net!nwrdny03.gnilink.net.POSTED!8b1f9295!not-for-mail
+Message-ID: <uoeo3szg3.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: Text Adventures (which computer was first?)
+Date: Tue, 01 Jun 2004 22:09:16 GMT
+References: <c94905$h82$2@chessie.cirr.com> <u65ab75ds.fsf@news.dtpq.com> <6nhpb05gs9mm59opup2a1igjehibnus0qd@4ax.com> <uoeo33yqt.fsf@news.dtpq.com> <efri9c.fvc1.ln@via.reistad.priv.no>
+Lines: 45
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.159.173
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrdny03.gnilink.net 1086127756 68.163.159.173 (Tue, 01 Jun 2004 18:09:16 EDT)
+NNTP-Posting-Date: Tue, 01 Jun 2004 18:09:16 EDT
+Xref: cartman.azz.us-lot.org alt.folklore.computers:115324
+
+>>>>> On Tue, 1 Jun 2004 23:12:14 +0200, Morten Reistad ("Morten") writes:
+
+ Morten> In article <uoeo33yqt.fsf@news.dtpq.com>,
+ Morten> Christopher C. Stacy <cstacy@news.dtpq.com> wrote:
+ Brian> Maybe you would prefer matured or entered old age? 
+ >> 
+ >> By "finished", I certainly did not mean "dead".
+ >> I meant that it was fully developed, and then ported over 
+ >> there by way of TENEX.  (That work, as well as the original work, 
+ >> having been done by people I worked with...)
+
+ Morten> I chose "grew up" as wording, I know emacs was born on ITS, 
+ Morten> but it spread out to the world through Tops20. The adulthood
+ Morten> was entered on unix, years later.
+
+If by "grew up" you mean "became very widespread", 
+then I might agree, at least about the Unix part.
+
+I am not sure about the popularity of EMACS on TOPS-20 or even
+how many TOPS-20 sites ran Emacs.  I am sure that the people who
+were lucky enough to have EMACS on TOPS-20 were very happy with it.
+I know that at some sites it was not allowed due to resources.
+But just the four ITS machines alone had tens of thousands of EMACS
+users over their lifetime.  There was also the Multics version, 
+and the workstations, including the Lisp Machine.  Don't forget all
+the assorted "ersatz" Emacs versions on 8-bit and 16-bit micros.
+VMS also had several implementations of EMACS (but I am sure it was
+restricted at most VMS sites even worse than at TOPS-20 sites).
+
+But in the context of operating system programming features, TOPS-20
+had nothing to do with the development of EMACS.  Essentially all of
+EMACS was developed on ITS a long time before TENEX was a twinkle in
+anyone's eye, although I think there must have been some EMACS
+libraries added later by people using TOPS-20.
+
+Today's implementation of EMACS that's popular on Unix and Windows 
+is of course a completely different set of code, written in a
+different set of languages.  It would be inaccurate to trace it back
+to TOPS-20, because it was written by the original guy (who did all
+his work on ITS and the Lisp Machine), initially based on code from 
+one of the VMS implementations of EMACS, not on the PDP-10 code.
+
+If all you're just trying to say that BBN created a PDP-10 operating
+system (TENEX) capable of running EMACS, and DEC finally picked up
+those capabilities in their follow-on system (TOPS-20), that's right.

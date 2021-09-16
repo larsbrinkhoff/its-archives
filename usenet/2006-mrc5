@@ -1,0 +1,65 @@
+From newsserver@localhost  Tue Mar 21 02:01:09 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!arclight.uoregon.edu!news.u.washington.edu!Shimo-Tomobiki.panda.com!MRC
+Message-ID: <Pine.WNT.4.65.0603201136370.3068@Shimo-Tomobiki.panda.com>
+From: Mark Crispin <MRC@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: PDP-6 monitor trivia
+Date: Mon, 20 Mar 2006 11:57:23 -0800
+References: <Pine.OSX.4.64.0603191632010.8141@pangtzu.panda.com>
+ <qhfyldrl57.fsf@ruckus.brouhaha.com> <Pine.OSX.4.64.0603201108300.8141@pangtzu.panda.com>
+Lines: 44
+Organization: Networks & Distributed Computing
+Sender: mrc@ndcms.cac.washington.edu
+NNTP-Posting-Host: 65.122.177.186
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1142884657 11125 65.122.177.186 (20 Mar 2006 19:57:37 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Mon, 20 Mar 2006 19:57:37 +0000 (UTC)
+In-Reply-To: <Pine.OSX.4.64.0603201108300.8141@pangtzu.panda.com>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:46350
+
+On Mon, 20 Mar 2006, Mark Crispin wrote:
+> Unlike TOPS-20 and ITS, the TOPS-10 world never learned how to do an 
+> efficient search though a table of strings.  If they had, there probably 
+> would have been no need for CALLI.
+
+To elaborate on this further:
+
+The TOPS-10 CALL UUO was surprisingly forward-thinking, but terrible in 
+implementation as it did a linear search through the list of UUO names. 
+DEC eventually gave up on CALL, and IIRC the table stops at TMPCOR (so 
+only CALLI can access the UUOs after that).
+
+The .CALL UUO on ITS can be thought of as being what CALL should have 
+been.  It was, without a doubt, the most advanced system call mechanism of 
+any PDP-10 operating system; JSYS is a very distant #2.  Among other 
+things, the .CALL argument block contained typed values.
+
+Like CALL, .CALL it used SIXBIT names for the calls; but unlike CALL, 
+.CALL did a binary search for the name.  Between the use of names and the 
+typed arguments, it was easy to access system calls from high level 
+languages without having to go into assembly language.  LISP took 
+considerable advantage of this.
+
+TOPS-10's monitor command processing (COMCON) is also a terrible 
+implementation, being a linear search.  The table is ordered by what DEC 
+thought was in order of commonality; but nonetheless a good deal of time 
+was wasted in the big AOBJN loop.
+
+Not only that, but the way that unique abbreviations were handled is 
+staggeringly bad.  It wasn't as bad in the PDP-6 monitor or even 4 and 5 
+series monitors (although it was still an AOBJN loop).  Apparently, the 
+purpose of the new code was to stop the AOBJN on a known match, but it did 
+so at the cost of making the per-iteration code much more costly.
+
+I rewrote monitor common processing in WAITS (which had the original code 
+from the PDP-6) to do a binary search which located the command and did 
+full abbreviation handling in (at most) a dozen machine instructions.  It 
+reduced system overhead time by a noticable percentage.
+
+-- Mark --
+
+http://staff.washington.edu/mrc
+Science does not emerge from voting, party politics, or public debate.
+Si vis pacem, para bellum.

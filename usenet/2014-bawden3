@@ -1,0 +1,32 @@
+From newsserver@localhost  Fri Mar  7 04:02:51 2014
+Path: uni-berlin.de!fu-berlin.de!feeder.erje.net!eu.feeder.erje.net!goblin1!goblin3!goblin.stu.neva.ru!panix!bloom-beacon.mit.edu!bloom-beacon.mit.edu!newsswitch.lcs.mit.edu!grapevine.lcs.mit.edu!not-for-mail
+Message-ID: <w2dy50mc1sv.fsf@scooby-doo.csail.mit.edu>
+From: Alan Bawden <alan@scooby-doo.csail.mit.edu>
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS Questions
+Date: Thu, 06 Mar 2014 19:03:44 -0500
+References: <lf8epj$330$1@odin.sdf-eu.org>
+	<6c176bf1-21d1-4fd6-b44a-f98bd5a4111d@googlegroups.com>
+Lines: 11
+Organization: MIT Computer Science & Artificial Intelligence Lab
+NNTP-Posting-Host: scooby-doo.csail.mit.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Trace: grapevine.csail.mit.edu 1394150624 12412 128.30.2.141 (7 Mar 2014 00:03:44 GMT)
+X-Complaints-To: security@csail.mit.edu
+NNTP-Posting-Date: Fri, 7 Mar 2014 00:03:44 +0000 (UTC)
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/23.2 (gnu/linux)
+Cancel-Lock: sha1:PT2NpG2T0r9kJalWzU6Vbr+RZzo=
+Xref: cartman.offog.org alt.sys.pdp10:58597
+
+papascave@gmail.com writes:
+
+> Anyone remember what TS (ITS standard fn1 for executable files) stands for?
+
+It stands for "Time Sharing".  Have a look at the files in the "."
+directory.  Notice that many of them have "@" as their FN1.  So "@ DDT"
+is the executable for DDT that runs on the bare metal.  "TS DDT" is the
+executable for DDT that runs under timesharing!
+
+-- 
+Alan Bawden

@@ -1,0 +1,78 @@
+From newsserver@localhost  Tue Mar 23 05:00:07 2004
+Path: news.anlx.net!zen.net.uk!dedekind.zen.co.uk!news.glorb.com!border1.nntp.ash.giganews.com!border2.nntp.ash.giganews.com!nntp.giganews.com!cyclone1.gnilink.net!spamkiller.gnilink.net!gnilink.net!nwrddc02.gnilink.net.POSTED!8b1f9295!not-for-mail
+Message-ID: <u1xnlct9d.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: The Adventure Game HAUNT
+Date: Mon, 22 Mar 2004 06:04:14 GMT
+References: <405AAA81.C3584C8F@comcast.net> <dnnl509h5c8qq8578nl8fcsgfpsrik8rb9@4ax.com> <405af29b$0$3077$61fed72c@news.rcn.com> <8l1m50542ubh6tthtaconvr8872m8tstsr@4ax.com> <405b0cf3$0$3051$61fed72c@news.rcn.com> <h1pm50lechtcea8jbpocdac2u6rvef4m8m@4ax.com> <405c414a$0$3077$61fed72c@news.rcn.com> <jfpo509g6knps36snqku54svsna972s02e@4ax.com> <TE%6c.108710$TxJ.71817@news04.bloor.is.net.cable.rogers.com> <0snr50htdmacfa2qsmlijco6c9905aad84@4ax.com>
+Lines: 59
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.149.44
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc02.gnilink.net 1079935454 68.163.149.44 (Mon, 22 Mar 2004 01:04:14 EST)
+NNTP-Posting-Date: Mon, 22 Mar 2004 01:04:14 EST
+Xref: cartman.azz.us-lot.org alt.folklore.computers:108406
+
+>>>>> On Sun, 21 Mar 2004 18:33:13 GMT, Brian Inglis ("Brian") writes:
+
+ Brian> On Sat, 20 Mar 2004 18:00:19 GMT in alt.folklore.computers, "Don
+ Brian> Chiasson" <don_chiasson@notmail.com> wrote:
+
+ >> 
+ >> "Brian Inglis" <Brian.Inglis@SystematicSw.Invalid> wrote in message
+ >> news:jfpo509g6knps36snqku54svsna972s02e@4ax.com...
+ >>> On Sat, 20 Mar 04 11:36:52 GMT in alt.folklore.computers,
+ >>> jmfbahciv@aol.com wrote:
+ >> [snip]
+ >>> >>
+ >>> >Not the HAUNT we had.  It needed a MUDDLE, IIRC.
+ >>> 
+ >>> MUDDLE?
+ >>> 
+ >> MDL, originally MUDDLE... see entry in the computer dictionary
+ >> on line at http://www.computer-dictionary-online.org/?q=MDL
+
+ Brian> Which says it was available on ITS and TOPS-20. 
+ Brian> Perhaps MUDDLE referred to any enhanced LISP at the time? 
+ Brian> I imagine CMU LISP would have features over standard LISP. 
+
+All this talk of MDL in relation to HAUNT is just some random confusion.
+
+The OPS4 system, in which HAUNT is written, was implemented in INTERLISP.
+
+MDL (aka MUDDLE) was a atrange kind of Lisp that ran on just one of
+the ITS machines: MIT-DM.  MDL was later  ported to TOPS-20.  
+MDL was very different from all the other Lisp's at the time, and would
+look strange to a Lisp programmer of that day or this day.  For example,
+it did not use parenthesis.  MDL was used almost exclusively by only the
+small group at MIT where it was developed, which is also who wrote ZORK.
+MDL was not used much anywhere else in the world.  It was not used in the
+rest of Project MAC (AI/LCS by then), which used MACLISP (PDP-10) and
+Lisp Machines, and some SCHEME.  
+
+(I wrote my first ITS program in MDL.  It's function was to boot
+people off the machine who were playing ZORK during busy hours!)
+
+HAUNT had no connection to MDL.
+
+My memory has faded about HAUNT, and I don't think I ever played it,
+but all the other ITS hackers I asked were very definite that HAUNT
+did not run on ITS.  This would make sense, since we didn't have
+INTERLISP on ITS.  (Well, maybe INTERLISP could have been made to run
+under the TOPS-10 simulator, but I don't recall anyone doing that.)
+We had HAUNT on our TOPS-20 machine circa 1985.
+
+I also don't think there was any such thing as "CMU LISP" at the time,
+I think CMU folks just used INTERLISP and maybe MACLISP.  I wasn't at CMU.
+I do know that a few years after HAUNT came out, there was "CMU Spice Lisp", 
+which was tracking the emerging Common Lisp spec.  But Spice Lisp did not run
+on the PDP-10.  Its cross-compiler ran there, but the target was Perq microcode.  
+Around 1985 it was renamed "CMU Common Lisp", and they started writing a novel
+compiler for it that did amazing type-inferencing optimizations. CMUCL has
+become one of the major implementations of Common Lisp, very popular today.
+
+(In fact, I'm using it right this minute...)

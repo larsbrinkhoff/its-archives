@@ -1,0 +1,63 @@
+From 7866505497263311562
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,3e5515f7ea4ee955
+X-Google-Attributes: gidfdb0e,public
+From: Christopher C Stacy <cstacy@world.std.com>
+Subject: Re: ITS CD (was Re: Wanna see how to annoy MRC? ^_^)
+Date: 2000/04/05
+Message-ID: <x8lsnx1ktou.fsf@world.std.com>#1/1
+X-Deja-AN: 606913888
+Sender: news@world.std.com (Mr Usenet Himself)
+References: <Pine.LNX.4.10.10003180849470.6959-100000@bony.umtec.com> <38E6B5EA.5B112B79@bellatlantic.net> <8c7smv$jra$1@saltmine.radix.net> <Pine.LNX.4.10.10004030858500.3837-100000@bony.umtec.com> <8cbru6$s7n$1@saltmine.radix.net> <Pine.LNX.4.10.10004040849200.5364-100000@bony.umtec.com> <PAT.00Apr4113627@smithfield.transarc.ibm.com> <vytem8l7s7o.fsf@ai.mit.edu> <x8lln2tpqa2.fsf@world.std.com> <Pine.LNX.4.10.10004041949070.5677-100000@bony.umtec.com>
+Organization: The World @ Software Tool & Die
+Newsgroups: alt.sys.pdp10
+
+>>>>> On Tue, 4 Apr 2000 19:49:53 -0500, Daniel Seagraves ("Daniel") writes:
+ Daniel> On Tue, 4 Apr 2000, Christopher C Stacy wrote:
+ >> Moreover, the point of contention is not about "ITS", but rather about
+ >> the personal files of the users of some computers that ran ITS.
+
+ Daniel> Really?  I thought it was the software!  So, if I can get rid of the
+ Daniel> personal stuff, I can distribute the remainder?
+
+It's a little more complex than that.
+
+In a sense, there is no such single thing as "ITS" or "the ITS
+software".  There was never any ITS "distribution" or anything, 
+nor was ITS any kind of product, nor (contrary to the silly claims
+on this newsgroup) was ITS a deliverable item on a Government contract.  
+(And as someone pointed out, that would not automatically make it
+public domain or Government property anyway.)  There is no set of
+files or directories which can clearly be identified as "ITS";
+it's all mixed together with personal stuff.  That means that your
+first job would be to determine who holds the copyrights to all the
+pieces that you want to make copies of.  That also implies that you
+know what the pieces are that you need.
+
+It is very likely that MIT holds the copyrights to everything that is
+needed to bring up a running ITS.  However, sorting out what those
+pieces are, and distinguishing them from pieces of private materials
+(software, documentation, and other files) that MIT might not own, 
+and also filtering out other kinds of personal material, is a job
+that can really only be accomplished by certain people at MIT.
+
+If you were to take that upon yourself, you would be incurring all
+the legal liability that goes with it.  And if you were not personally
+intimately involved with the materials at the time, how do you imagine
+you would know for sure what you're looking at?  In addition to
+copyright issues, you could easily get into other kinds of legal
+problems involving areas like invasion of privacy.  There could
+potentially hundreds of people involved in legal actions.  
+Do you have enough lawyers to back you up on a project like this?
+
+Anyway, there are people working with MIT to create a sanitized ITS
+distribution for people who would like this historical artifact.
+They are mostly not getting paid, and are doing it for personal reasons. 
+This also means that they are not in a big pressured hurry to do it.
+When they have something ready, they will also have to get it past the
+MIT lawyers, who must be confident that MIT will not get into trouble
+by accidently releasing things that they shouldn't.
+
+My advice would be to wait for them to get around to it, and not bug them.
+There is no release schedule for this.  It will be a gift when it happens.
+

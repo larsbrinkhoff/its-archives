@@ -1,0 +1,57 @@
+From newsserver@localhost  Tue Nov 25 05:00:09 2003
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!mimas.salford.ac.uk!peernews.mcc.ac.uk!zen.net.uk!news-xfer.cox.net!peer02.cox.net!peer01.cox.net!cox.net!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc02.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <uvfpa87z9.fsf@dtpq.com>
+From: cstacy@dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers,comp.os.cpm
+Subject: Re: IS CP/M an OS?
+Date: Mon, 24 Nov 2003 08:51:37 GMT
+References: <3FB3C071.1445695D@yahoo.com> <bpnves$n5l$8@bob.news.rcn.net> <AOSvb.209697$9E1.1127194@attbi_s52> <bpqdcm$b86$2@bob.news.rcn.net> <oq7rpb.c8s2.ln@via.reistad.priv.no>
+Lines: 38
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.138.194
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc02.gnilink.net 1069663897 68.163.138.194 (Mon, 24 Nov 2003 03:51:37 EST)
+NNTP-Posting-Date: Mon, 24 Nov 2003 03:51:37 EST
+Xref: cartman.azz.us-lot.org alt.folklore.computers:95443
+
+>>>>> On Sun, 23 Nov 2003 22:11:52 +0100, Morten Reistad ("Morten") writes:
+
+ Morten> In article <bpqdcm$b86$2@bob.news.rcn.net>,  <jmfbahciv@aol.com> wrote:
+ >> In article <AOSvb.209697$9E1.1127194@attbi_s52>,
+ >> glen herrmannsfeldt <gah@ugcs.caltech.edu> wrote:
+ >>> jmfbahciv@aol.com wrote:
+ >>> (regarding the PDP-10, someone wrote)
+ >>> 
+ >>>>> Things like sitting on the keyboard . . .
+ >>> 
+ >>>> Sitting the keyboard should never crash the system, unless
+ >>>> you were foolish enough to sit on the keyboard when the monitor
+ >>>> was waiting for answers to destroy options.  I suppose
+ >>>> having the screens divorced from the keyboards was a design
+ >>>> feature, but having them welded together wouldn't allow
+ >>>> sitting errors.
+ >>> 
+ >>> I was told that, at least for the KA-10, you could crash it by typing 
+ >>> too fast and overflowing the input buffer.
+ >> 
+ >> None that I know of.  If it did, it was a bug that got fixed.
+ >> 
+ >> I don't see how any buffer could get overflowed from a user
+ >> POV.  If a buffer is full (depending on the type of I/O different
+ >> methods were used), the user is put into I/O wait until 
+ >> resources get freed up.
+
+ Morten> The PDP11 front end was perfectly able to lose incoming characters,
+ Morten> and in pathological cases early TOPS20 could get wedged in weird
+ Morten> modes. The Tops20 side of this was fixed somewhere around V 4.0;
+ Morten> so the loss just propagated inwards.
+
+TOPS-20 didn't run on the KA-10; you're talking about the KL-10, 
+which had a front-end processor.
+
+But I wouldn't say that this was a problem with a KA-10 nor
+the KL-10 either, per se; I don't believe we had any IO 
+bugs like that in ITS (which ran on both machines).

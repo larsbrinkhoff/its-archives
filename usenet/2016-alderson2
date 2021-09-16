@@ -1,0 +1,84 @@
+From newsserver@localhost  Thu Nov 17 04:05:25 2016
+Path: uni-berlin.de!fu-berlin.de!newsfeed-00-ls.mathworks.com!panix!not-for-mail
+Message-ID: <mddoa1fx7xm.fsf@panix5.panix.com>
+From: Rich Alderson <mail@alderson.users.panix.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Build EMACS & friends on ITS
+Date: 16 Nov 2016 19:32:21 -0500
+References: <86funb6zfx.fsf@molnjunk.nocrew.org> <54acd9d9-7506-4d57-bade-5ca8ad30db13@googlegroups.com> <mdda8d695bk.fsf@panix5.panix.com> <97e7ea46-30b9-4400-8f5b-f23b141e1107@googlegroups.com>
+Lines: 66
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader2.panix.com 1479342741 8339 166.84.1.5 (17 Nov 2016 00:32:21 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Thu, 17 Nov 2016 00:32:21 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 22.3
+Xref: cartman.offog.org alt.sys.pdp10:59006
+
+Lars Brinkhoff <lars.spam@nocrew.org> writes:
+
+> Rich Alderson wrote:
+
+>> Compile TECO > (the MIDAS source file) and load the resulting TECO BIN.  In
+>> DDT, issue the commands
+
+>> 	DUMPIT$G
+>> 	PURIFY$G
+
+> Thank you.  I have TECO built and purified.  Minor note: If I understand
+> correctly, DUMPIT runs PURIFY, so only the first call is needed.
+
+OK, I missed that.  It was a quick glance.
+
+>> You now have a TECO environment, set up by EMACS; EMACS TECO in which to
+>> execute the commands
+
+>> 	mmrun$[prfy]$dump$ts nemacs$$
+>> 	mmrun$einit$? document$$
+
+> The problem is that EMACS; EMACS TECO wants to load EMACS :EJ, which is not
+> a source code file.  It also loads EINIT :EJ.
+
+> I suppose the options would be:
+
+>  - Generate those :EJ files somehow, or
+
+>  - Load the corresponding TECO source files.
+
+Yeah, you would have to replicate all the operations of PURIFY :EJ to generate
+the :EJ files, and the source files are too large to ER @Y :M(HFX*).
+
+>> All of this is derived from the Twenex batch control file
+
+> The Twenex distribution tape comes with precompiled ELIB files, right?
+> What I would like is to compile EMACS from pure source code.
+
+Well, the EMACS sources are also present on the tape; the PURIFY and IVORY
+macros check whether you're running ITS or TENEX or TOPS-20 in order to get the
+naming conventions correct.
+
+By the way, ELIB files are simply :EJ files in a name which is less cumbersome
+for TOPS-20.  When I did the work to update TECO back in the 1990s, there were
+no running ITS systems know to me, so I did what was convenient for customers
+of my employer at the time.
+
+Based on research I've done in the last couple of days, I think that to build
+an EMACS without a preexisting EMACS is a daunting task.  You have to build up
+the TECO environment by substituting function definition strings in place of
+function calls in TECO.INIT, in such a way as to provide you with callable
+functions for later use.  (When I created my own version of EMACS ~30 years
+ago, I started from the vanilla version and used my own versions of the
+functions in EINIT.  I lost that when I left XKL.  Long story.)
+
+I think the answer is, no one ever did what you want.  RMS et al. already had
+bits and pieces of the desired TECO environment painstakingly defined, and
+bootstrapped from there.
+
+It's going to hurt.
+
+-- 
+Rich Alderson					  news@alderson.users.panix.com
+      Audendum est, et veritas investiganda; quam etiamsi non assequamur,
+	  omnino tamen proprius, quam nunc sumus, ad eam perveniemus.
+									--Galen

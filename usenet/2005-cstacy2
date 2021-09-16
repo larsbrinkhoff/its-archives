@@ -1,0 +1,59 @@
+From newsserver@localhost  Sat Feb 26 02:00:09 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!jnfs.ja.net!hamilton.zen.co.uk!zen.net.uk!dedekind.zen.co.uk!news.glorb.com!cyclone1.gnilink.net!spamkiller.gnilink.net!gnilink.net!trnddc09.POSTED!8b1f9295!not-for-mail
+Message-ID: <uk6owict9.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Tops-10 disk quota quandary
+Date: Fri, 25 Feb 2005 20:50:43 GMT
+References: <Xns95FF825EC7E1Ethisisatestofthispc@69.28.186.158> <Pine.WNT.4.63.0502161057120.3292@Shimo-Tomobiki.panda.com> <0-OdnSLxI_9MbYjfRVn-iA@rcn.net> <Pine.WNT.4.63.0502221051280.4076@Tomobiki-Cho.CAC.Washington.EDU> <O7WdnXaQxtVt7oHfRVn-gA@rcn.net> <Pine.LNX.4.63.0502230909310.20308@shiva0.cac.washington.edu> <Xns96069B302BCB5thisisatestofthispc@69.28.186.158> <P_SdnaE6gJb5R4DfRVn-ig@rcn.net> <Pine.WNT.4.63.0502241057020.3232@Shimo-Tomobiki.panda.com> <WMadnRIr6Z2734LfRVn-pg@rcn.net> <Pine.WNT.4.63.0502250819130.164@Shimo-Tomobiki.panda.com>
+Lines: 40
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.166.73
+X-Complaints-To: abuse@verizon.net
+X-Trace: trnddc09 1109364643 68.163.166.73 (Fri, 25 Feb 2005 15:50:43 EST)
+NNTP-Posting-Date: Fri, 25 Feb 2005 15:50:43 EST
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:43932
+
+Mark Crispin <MRC@CAC.Washington.EDU> writes:
+
+> TOPS-20, for the most part, was even better than ITS.  If fascist
+> admins were an issue, I certainly would not have chosen TOPS-20.  ITS,
+> not TOPS-20, had the design of making fascist admins impossible.
+
+Not to dispute that TOPS-20 was designed to better allow "fascism",
+but perhaps I should sometime quote a lot of the email I used to
+receive as an ITS administrator.  One of the popular nicknames
+bestowed upon me was "The Incredible Flushing Man".  :)
+
+> Like UNIX, ITS had somewhat better process management than TOPS-20,
+> but this was overcome by TOPS-20's much better filesystem and memory
+> management.
+
+Agreed.
+
+However, its exactly those features (along with the more
+sophisticated networked file system on ITS) which led to the 
+infamous battle cry:   "Six letter filesnames were never this bad!".
+Too bad we didn't rewrite the ITS filesystem (for hierarchical
+directories and security), and implement extended addressing.
+Then we could have stayed with ITS for the remaining few years.
+But we considered it too late by then for major PDP-10 development.
+
+We had already long moved onto the much more futuristic Lisp Machine.
+The thing taken from TENEX and TOPS-20 to the LispM was the idea of
+the uniform programmable command processor.
+
+Speaking of features, ITS had pipes.  This was somewhat like Unix,
+but predates it, and was fancier (for example: it included interrupts,
+and it worked transparently over the network).  But most people were
+unaware of this feature.  there was no invocation syntax in the shells, 
+so users could not easily access it.  These pipes (accessed via the
+CLI/CLA/CLO devices)  were really only used by the SEND program and
+the shell itself as the IPC mechanism for inter-user text messaging.
+
+Absolutely nothing, of course, was taken from TOPS-10 for our advanced
+operating systems.  Before 1968, our PDP-10 operating system had already
+far surpassed the capabilities that were ever available in TOPS-10,

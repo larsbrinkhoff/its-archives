@@ -1,0 +1,55 @@
+From newsserver@localhost  Mon May  7 04:10:51 2007
+Path: athena.ukc.ac.uk!feed4.jnfs.ja.net!jnfs.ja.net!feeder.news.heanet.ie!newsfeed.esat.net!news.glorb.com!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny07.POSTED!3abab865!not-for-mail
+Message-ID: <gFp%h.5538$XG1.1585@trndny07>
+From: "David Cressey" <cressey73@verizon.net>
+Newsgroups: alt.folklore.computers
+Subject: Re: How many remember working with a PDP-11 or converting PDP-8 code
+Date: Sun, 06 May 2007 19:04:44 GMT
+References: <1178470337.282268.254740@u30g2000hsc.googlegroups.com>
+Lines: 39
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Newsreader: Microsoft Outlook Express 6.00.2800.1409
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2800.1409
+NNTP-Posting-Host: 72.70.235.201
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny07 1178478284 72.70.235.201 (Sun, 06 May 2007 15:04:44 EDT)
+NNTP-Posting-Date: Sun, 06 May 2007 15:04:44 EDT
+Xref: cartman.offog.org alt.folklore.computers:194832
+
+
+"dk" <sales@kanecki.com> wrote in message
+news:1178470337.282268.254740@u30g2000hsc.googlegroups.com...
+> Hi,
+>
+> One of my first consulting assignments after graduation in the 1987
+> was to convert a medical heart monitor that was written in  PDP-8
+> assembly code to run on a PC back then. It was interesting, they will
+> still doing their research using a PDP-8 with 1 inch magnetic tape
+> even then. I have an estimate, and they thought it was too high, about
+> $50,000 for code and new system in  four months. When they took it
+> over to another medical company, it actually cost them over $100
+> million to do and five years.
+>
+> In addition, for operating systems class, we wrote a multitasking os
+> than ran on a stand-alone PDP-11. It was interesting to see that
+> 'fortran.sav' appeared whenerve their was crash. We thought this
+> happened because the core operating system used a fortran subsystem.
+> (Like the way the HP-9000 used a HP Pascal 3.1 sub system for its OS).
+>
+> What do you think?
+>
+> DK
+>
+
+Never worked with a PDP-8 or PDP-11  (except for one program than ran on a
+PDT)
+
+
+What I did work on was a PDP-1,  a PDP-6,  and a few PDP-10s.
+
+It was a PDP-10 running ITS at project MAC where a team of 5 of us orginated
+MDL  (a lisp dialect)  in 1971.
+
+
+Later on,  VAXen.

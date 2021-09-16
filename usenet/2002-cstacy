@@ -1,0 +1,161 @@
+From newsserver@localhost  Thu Jan 17 05:00:15 2002
+Path: news.btopenworld.com!btnet-feed3!newreader.ukcore.bt.net!btnet-feed5!btnet-peer1!btnet!news.maxwell.syr.edu!news-out.visi.com!hermes.visi.com!uunet!ash.uu.net!world!news
+Message-ID: <uzo3ee88v.fsf@spacy.Boston.MA.US>
+From: Christopher Stacy <cstacy@spacy.Boston.MA.US>
+Newsgroups: alt.folklore.computers
+Subject: Re: ITS file names (was Re: School Help)
+Date: Wed, 16 Jan 2002 13:27:28 GMT
+References: <3c3d490e.6861227@news.ocis.net> <3C3FBA4B.4692D545@yahoo.com> <4cv54ukciksg06vj8sfv79464bf9334b7o@4ax.com> <3C43AFB6.D88F212@bell-labs.com> <a22oqn$2fu$1@panix3.panix.com>
+Lines: 146
+Sender: cstacy@BONK
+NNTP-Posting-Host: ppp0b148.std.com
+Organization: The World @ Software Tool & Die
+X-Newsreader: Gnus v5.7/Emacs 20.7
+Xref: cartman.azz.us-lot.org alt.folklore.computers:33002
+
+>>>>> On 15 Jan 2002 21:33:59 -0500, Keith F Lynch ("Keith") writes:
+
+ >> Brian Inglis wrote:
+ >> Did early Unix ed. or a predecessor (ITS, CTSS, Multics?) allow
+ >> up to 12 RAD50 (64 bits) or SIXBIT (72 bits) chars for a filename
+ >> with an (optional?) embedded dot?
+
+ >>Dennis Ritchie  <dmr@bell-labs.com> wrote:
+ dmr>> CTSS named files by a pair of 6-character
+ dmr>> names, in BCD, and thus 6 characters each (blank-padded): 72 bits.
+ dmr>> These corresponded to main name and sometimes-conventional secondary
+ dmr>> name (an extension).
+ dmr>> I don't know about ITS.
+
+ITS filenames looked similar to CTSS but with less restrictions.
+
+ Keith> ITS file names looked like this:
+ Keith> MC: GUEST2; KFL MAIL
+ Keith> The (optional) machine name, followed by a colon, the (optional)
+ Keith> directory name, followed by a semicolon, then the two parts of the
+ Keith> file name itself.  All parts could be up to six characters, but had
+ Keith> to be in the six bit subset of ASCII (space bar through underscore).
+ Keith> No lowercase or control characters.  Presumably this was so that each
+ Keith> file name component would fit into one 36 bit word.
+
+Yup! A file name on an ITS disk was four (36-bit) words of SIXBIT.
+Programs provided appropriate file name defaulting.
+
+As on CTSS, the FN2 was usually a conventional type such as:
+"MIDAS" (assembly source), or "LISP" (Lisp source).
+
+But FN2 could also be a file version number, which was an integer.
+If you opened "FOO >" you got the highest numbered version of that
+file for input, or created a version for output.  Of course "<" 
+got you the oldest one.  You could either have a version or a type,
+but not both.  Most of the time (ie., source code) FN2 was a version.
+
+For example: "DSK:CSTACY;CSTACY LOGIN" was my login init file,
+and the latest MIDAS source code to TECO was "AI:.TECO.;TECO 1215".
+The MACLISP pure binary image was named like "DSK:LISP;PURQIO 1234".
+
+The first part of a file name was the device, either a built-in device
+like TTY or DSK, or CLI/CLO/CLA ("core-link" communication devices 
+that were a fancier version of what Unix later called "pipes"), 
+or JOB (to access another running process), or the name of some ITS
+system on the network.  ITS had a transparent networked file system
+with perfect IO semantics.  (By which I mean, for example, a lot more
+robust than the modern ones invented 20 years later, like NFS!)
+
+Devices could be added, removed, and debugged, dynamically, 
+and used a neat protocol for interacting with the system calls.
+
+ITS had symbolic file links, so a network file server host device
+driver process like I described above would be configured by linking
+a file named after the remote host in the "DEVICE;" directory to
+the actual driver file (also in the "DEVICE;" directory).
+For example, "DEVICE;JOBDEV AI ==> DEVICE;JOBDEV MLDEV",
+where "AI" is the name for the MIT-AI machine, and "MLDEV" is the
+device driver for talking to a remote ITS filesystem over the net.
+So when you open "AI:CSTACY;FOO >" ITS would look up the "AI" device
+and start up an MLDEV device handler, which looked at the arguments
+to the original OPEN system call, contacted the file server on the
+remote AI machine, and implemented all the interruptable semantics
+of the subsequent system calls to do file IO for you.
+
+Around 1982, ITS also supported ASCII filenames, which had the same
+initial "device:" convention but were arbitrarily long and otherwise
+unstructured string specifications.  Note that the ITS disk filesystem
+still only had the same old six-letter FN1 FN2 filenames.  The long
+filenames feature was most useful for remotely accessing files on other
+file servers besides ITS, in particular the Lisp Machine file servers
+using a proprietary protocol. (There were two Lisp Machine file systems,
+both interesting. Another story.)  For less fancy access to the more
+conventional file systems (TOPS-20, VMS, UNIX) there was eventually an
+FTP or TFTP device.  Long filenames never got used very much, though.
+				     
+I took advantage of those long filenames for the DNS resolution device,
+for opening pretend "files" named like "DOMAIN:QUERY;IN;A;SRI-NIC.ARPA".
+(In ASCII mode you got a human-readable RRs, and in binary mode
+ you got binary RR data for use by the resolver library API.)
+
+ Keith> No hierarchical directories.
+
+I am always amazed that we didn't miss having that feature, even
+though we were also former or current users of operating systems 
+that did have them (eg. Multics).
+
+There were a fixed number of disk directories allocated on ITS,
+so you had to wait for someone to die before you could get your
+own home directory.   Guests were all stuffed into shared group
+directories named like GUEST3 or USERS1.
+
+Not only that, but each directory itself was limited: you could 
+only store a certain number of files and links (depending on how
+large the files were -- number of descriptor words, etc.)
+
+Despite those limitations, we were quite happy with the file system,
+and it was extremely reliable.  When research moved onto the Lisp
+Machines, ITS was forsaken and text processing activities moved
+onto TOPS-20.  Although TOPS-20 has a much nicer file system with 
+long names and hierarchical directories, many a former ITS user was
+heard to disparage, "Six letter filenames were never this bad!"
+when encountering relative deficiencies of that more modern OS.
+
+ Keith> I don't recall whether dots were allowed.  
+ Keith> Certainly they weren't routinely used.
+
+Dots weren't used in file names overly much, but were perfectly legal.
+All users would be familiar with the .INFO. directory that contained
+much of the online documentation, for example.
+
+We used parens a fair amount, and also dashes, as in: "-READ- -THIS-".
+To read the master file directory (the "directory of all directories")
+you opened the magic filename "DSK: M.F.D. (DIR)".
+
+ Keith> I recall that files that guests weren't supposed to be
+ Keith> snooping in were sometimes given a name starting with space
+ Keith> bar, which made them hard to read since space bar was the
+ Keith> separator.  It would be like a Unix filename with a slash in it.
+
+You are mis-interpreting that a little bit: a few files that *nobody*
+was supposed to casually open had spaces in them.  But if you wanted
+to type the file name in DDT (ie. for a :PRINT command) you could 
+simply quote odd characters like Space with a c-Q (same as EMACS).
+I think most guest users knew how to do that; it wasn't any secret.
+It was a useful convention for files that you didn't want anyone to
+accidently lock open for reading (typically because some system daemon
+needed to be able to open the file at will or else would get unhappy).
+
+Files that you didn't want people reading were stored in the encrypting
+file system, which was just a device that you could specify as part of a
+regular old file name; it basically implemented a front-end on the regular
+disk device. Hardly anyone ever used it because of speed considerations, 
+and because of the culture, and I don't even remember the device name or
+how you specified your file's passphrase to it, or anything!  Maybe you
+had to do something bizarre, like write on it for input, or open two files
+in succession.  I'll have to go ask someone else who might remember.
+
+So, mostly, really, files that you didn't want people reading were not
+stored on ITS.  ITS did not implement any kind of file protection, 
+and everybody knew that anyone could freely access anyone else's files.  
+It was a very different culture, sort of like living in a very small
+village with always open doors and little soundproofing.  People didn't
+snoop into other people's files simply because it would not be polite.  
+If they did see happen to see something, either it was okay to see it,
+or else they ignored it and pretended that they hadn't seen it.

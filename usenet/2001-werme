@@ -1,0 +1,66 @@
+From newsserver@localhost  Thu May 31 16:27:57 2001
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet-peer1!btnet!news.maxwell.syr.edu!newsfeed.cwix.com!chnws02.mediaone.net!chnws06.ne.mediaone.net!24.128.8.70!typhoon.ne.mediaone.net.POSTED!not-for-mail
+Message-ID: <NGhR6.12862$zl5.4479664@typhoon.ne.mediaone.net>
+From: Ric Werme <werme@mediaone.net>
+Newsgroups: alt.folklore.computers,rec.games.video.classic,comp.lang.logo,alt.sys.pdp10
+Subject: Re: Logo (was Re: 5-player Spacewar?)
+Date: Thu, 31 May 2001 02:06:37 GMT
+References: <%F8Q6.182$l2.12700@news.tufts.edu> <9eror6$1ke$1@mermaid.ucc.gu.uwa.edu.au>
+     <lXdQ6.48926$bv2.12024414@typhoon.austin.rr.com> <starsabre-2705012303030001@98.st-louis-101-102rs.mo.dial-access.att.net>
+     <qhitimezu9.fsf_-_@ruckus.brouhaha.com> <starsabre-2805011602160001@211.st-louis-108-109rs.mo.dial-access.att.net> <oTZQ6.11361$zl5.4077772@typhoon.ne.mediaone.net>
+Lines: 47
+X-Newsreader: NN version 6.5.0 CURRENT #119
+NNTP-Posting-Host: 24.91.12.32
+X-Complaints-To: abuse@mediaone.net
+X-Trace: typhoon.ne.mediaone.net 991274797 24.91.12.32 (Wed, 30 May 2001 22:06:37 EDT)
+NNTP-Posting-Date: Wed, 30 May 2001 22:06:37 EDT
+Organization: Road Runner
+Xref: cartman.azz.us-lot.org alt.folklore.computers:16497 alt.sys.pdp10:3949
+
+Ric Werme <werme@mediaone.net> writes:
+
+>[Cross-posted to comp.lang.logo and alt.sys.pdp10]
+
+Brian's reply seems only to have made it to comp.lang.logo.  He posted there:
+
+Ric Werme <werme@mediaone.net> writes:
+>Brian Harvey is very active in the Logo community and on comp.lang.logo
+>and knows far more than I.  (Hi Brian!)
+
+I know about the BBN work only second-hand.  When I met up with Logo it was
+at the MIT lab that Papert set up post-BBN, running on a PDP-11 under a
+homebrew operating system called SITS (Small ITS, named after ITS, the
+homebrew operating system on the AI Lab PDP-10 upstairs.)  (For those who
+aren't ancient computer experts, the PDP-___ numbers don't reflect the size
+of the machine.  The PDP-6 and PDP-10 were the large DEC computers; the
+PDP-1, PDP-8, and PDP-11 were the small (mini-) computers.  The -10 was
+an enhanced reimplementation of the -6, but the three minicomputers were all
+quite different from each other.  (If you're wondering about the -2, -3,
+-5, and -9, they were designed but never built in large quantities, I think.)
+
+DEC was sort of the Apple of their day; they never had more than a tiny
+sliver of the computer-sales pie, but most of the great ideas can be traced
+back to those machines, especially the PDP-1 and the PDP-6/10, especially
+the ones at MIT and Stanford.  For example, TECO, the first programmable
+text editor, was a product of the Tech Model Railroad Club on the MIT PDP-1.
+
+I wish I knew more about the details of the BBN work so I could address with
+first-hand information the anger some people feel whenever Seymour claims to
+have invented Logo.  (What I know for sure is that he was part of a group
+organized at BBN by Wally Feurzeig, and that both Seymour and Wally made
+important contributions there, as did a bunch of other people.  And that
+Logo today is quite different from the earliest BBN version, so there's a
+sense in which Logo was reinvented later, which is one thing that complicates
+the question.)
+
+Anyway, the glory days of the MIT Logo Lab, including that no-statistics
+proposal we've been discussing on another thread, was built around the
+PDP-11 Logo implementation.  This started before there were microcomputers,
+let alone Logo for micros.  Both the TI-99/4 Logo and the MIT Logo for the
+Apple (the origin of what's now Terrapin Logo) came out of this group after
+the early research using the PDP-11.  Hal Abelson was, I think, the main
+person pushing the development of implementations that people outside MIT
+could actually use (meaning both the TI and the Apple projects).
+--
+Ric Werme                            | werme@nospam.mediaone.net
+http://people.ne.mediaone.net/werme  |       ^^^^^^^ delete

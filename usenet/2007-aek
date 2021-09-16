@@ -1,0 +1,51 @@
+From newsserver@localhost  Sun Apr  8 04:08:22 2007
+Path: athena.ukc.ac.uk!feed4.jnfs.ja.net!jnfs.ja.net!peernews.mcc.ac.uk!zen.net.uk!demorgan.zen.co.uk!news2.euro.net!66.150.105.54.MISMATCH!nntpserver.com!zeus.nntpserver.com!10.1.1.41.MISMATCH!pfilter-v0.1!not-for-mail
+Message-ID: <4617B923.8090705@spies.com>
+From: Al Kossow <aek@spies.com>
+Newsgroups: alt.sys.pdp10,alt.folklore.computers
+Subject: Re: MIT-MC and MIT-AI archives
+Date: Sat, 07 Apr 2007 08:30:43 -0700
+References: <1175940250.570925.87630@n76g2000hsh.googlegroups.com>
+Lines: 29
+User-Agent: Thunderbird 1.5.0.10 (Macintosh/20070221)
+MIME-Version: 1.0
+To:  shoppa@trailing-edge.com
+In-Reply-To: <1175940250.570925.87630@n76g2000hsh.googlegroups.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+NNTP-Posting-Date: 07 Apr 2007 14:37:14 GMT
+X-Complaints-To: abuse@teranews.com
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:47766 alt.folklore.computers:191934
+
+shoppa@trailing-edge.com wrote:
+> Inspired by the unavailability of ftp.its.os.org, I was rummaging
+> through some old tapes of mine from the late 80's and early 90's and
+> found some archives pretty obviously snapshotted from MIT-AI and MIT-
+> MC, and found what are pretty obviously some snapshots of some subset
+> of some directories/filesystems from circa 1990 or earlier.
+> 
+> At this point in time, going on 20 years later, I'm scratching my head
+> and wondering if these archives aren't already up on the net.
+> 
+> There are many 80's vintage mailing lists of PDP-10 and arpanet/
+> hackerdom mixed in among the stuff. And a good chunk of MacLisp and
+> Franz Lisp stuff too.
+> 
+> Can anybody refresh my memory? Is this what Alan Bawden was doing
+> circa 1990?
+> 
+> Tim.
+> 
+
+Alan was working on reading the ITS backups. The 'time capsule file system'
+paper describes the work.
+
+There is an ongoing effort to recover the rest of the backups. I am hoping
+at some point in the future some part of that archive will be made available.
+Currently, none of the people involved will respond to my emails.
+
+The problem with the stuff that was put up in the past was there are personal
+files in it, which would be inappropriate for general distribution.
+
+-- 
+Posted via a free Usenet account from http://www.teranews.com

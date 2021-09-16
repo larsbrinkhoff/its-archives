@@ -1,0 +1,34 @@
+From newsserver@localhost  Sun Jun  1 05:00:10 2003
+Path: uni-berlin.de!fu-berlin.de!peer01.cox.net!cox.net!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc04.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <ullwmub6b.fsf@dtpq.com>
+From: cstacy@dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10,alt.folklore.computers
+Subject: Re: Puff the Magic Dragon on ITS?
+Date: Sat, 31 May 2003 20:13:34 GMT
+References: <1533d93d.0305310721.71699961@posting.google.com>
+Lines: 15
+Sender: cstacy@BONK
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 151.203.6.230
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc04.gnilink.net 1054412014 151.203.6.230 (Sat, 31 May 2003 16:13:34 EDT)
+NNTP-Posting-Date: Sat, 31 May 2003 16:13:34 EDT
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:40622 alt.folklore.computers:78104
+
+>>>>> On 31 May 2003 08:21:47 -0700, Hal Niner ("Hal") writes:
+
+ Hal> What was the "Puff the Magic Dragon" on ITS?  Some sort of cron?  ;) 
+ Hal> Reading ITS BUGS I found a message praising it for sending a happy
+ Hal> birthday message to the author (Guy L Steele, I think).
+
+PFTHMG DRAGON has a feature for launching batch jobs hourly.
+It's main job, though, is to do user accounting (eg. for billing).
+The dragon that sends the birthday greetings to users (based on 
+their INQUIR entries) is the BDAY program.  It sends mail from
+the user-name DRAGON, which INQUIR says is Puff The Magic Dragon.
+The other birthday-related program is NAMDRG; the Name Dragon's main
+purpose is to maintain a list of logged-in users and free consoles;
+this is for continuous real-time status display on the TVs.
+Look up the DEMSIG system call to learn how daemons (dragons) are started.

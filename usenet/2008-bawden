@@ -1,0 +1,32 @@
+From newsserver@localhost  Mon Dec  1 04:03:52 2008
+Path: uni-berlin.de!fu-berlin.de!newspeer.monmouth.com!newsswitch.lcs.mit.edu!grapevine.lcs.mit.edu!not-for-mail
+Message-ID: <w2dskp98jhj.fsf_-_@shaggy.csail.mit.edu>
+From: Alan Bawden <alan@shaggy.csail.mit.edu>
+Newsgroups: alt.sys.pdp10
+Subject: RP07s
+Date: 30 Nov 2008 07:51:36 -0500
+References: <58400c92-542c-400c-b3e1-8789853668e9@f77g2000hsf.googlegroups.com> <mddd4gt3h6u.fsf@panix5.panix.com> <gg31ro$9d5$1@Tempo.Update.UU.SE> <gg3kkv1tgm@news6.newsguy.com> <gg3n1l$fqn$1@reader.motzarella.org> <gg40ne$o27$1@Tempo.Update.UU.SE> <m3zljudqsz.fsf@donnybrook.brouhaha.com> <ggbjc1$g9a$1@Tempo.Update.UU.SE> <m3hc5w9277.fsf@donnybrook.brouhaha.com> <mddzljo90a5.fsf@panix5.panix.com> <gggf6b$eke$1@Tempo.Update.UU.SE> <gggq3t3j1b@news6.newsguy.com> <mdd8wr7vboe.fsf@panix5.panix.com> <m363mbe2by.fsf@donnybrook.brouhaha.com> <ggj8nq$c4v$2@Tempo.Update.UU.SE> <ggk8rg$7s2$1@aioe.org> <mddprkijkad.fsf@panix5.panix.com> <DgqXk.364$5L3.29@newsfe09.iad> <ggm25l02dv4@news1.newsguy.com> <alpine.OSX.2.00.0811271244400.287@hsinghsing.panda.com> <49WXk.5201$1s7.5151@newsfe02.iad> <ggr8db01k66@news6.newsguy.com> <alpine.OSX.2.00.0811290936460.287@hsinghsing.panda.com>
+Lines: 13
+Organization: MIT Computer Science & Artificial Intelligence Lab
+NNTP-Posting-Host: shaggy.csail.mit.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Trace: grapevine.csail.mit.edu 1228049496 43897 128.30.2.14 (30 Nov 2008 12:51:36 GMT)
+X-Complaints-To: security@csail.mit.edu
+NNTP-Posting-Date: Sun, 30 Nov 2008 12:51:36 +0000 (UTC)
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.4
+Xref: cartman.offog.org alt.sys.pdp10:51989
+
+Mark Crispin <mrc@panda.com> writes:
+
+> RP07s were too fast for the KS10 and the front end 11/40 on KL10s. ...
+
+They were??  Oh man that hurts.  One of the last things I tried to do to
+keep ITS running was to get this handy RP07 somebody left us hooked up to
+our KS10s (because we were running out of working RP06s).  The changes I
+made are in the ITS source code, but they were never tested.
+
+Now you're telling me that I was doomed to failure?  Even though that was
+18 years ago, it still hurts to find that out.  Keeping ITS running was
+certainly Quixotic at that point, but now you're telling me the windmill
+was just about to clobber me big time.  I would have been so pissed...

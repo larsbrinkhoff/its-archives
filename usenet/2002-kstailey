@@ -1,0 +1,91 @@
+From newsserver@localhost  Mon Mar 18 05:00:13 2002
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet!news-xfer.siscom.net!hub1.nntpserver.com!news-out.spamkiller.net!propagator-la!news-in-la.newsfeeds.com!sjc-peer.news.verio.net!news.verio.net!sn-xit-01!sn-xit-02!supernews.com!postnews1.google.com!not-for-mail
+Message-ID: <181c8fff.0203170451.75f7eb20@posting.google.com>
+From: kstailey@yahoo.com (Ken Stailey)
+Newsgroups: alt.sys.pdp10
+Subject: Y2K fixes for AI:: DSK: SYSEN2; FIND 199
+Date: 17 Mar 2002 04:51:25 -0800
+Lines: 33
+Organization: http://groups.google.com/
+NNTP-Posting-Host: 198.80.171.28
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+X-Trace: posting.google.com 1016369485 24561 127.0.0.1 (17 Mar 2002 12:51:25 GMT)
+X-Complaints-To: groups-abuse@google.com
+NNTP-Posting-Date: 17 Mar 2002 12:51:25 GMT
+Xref: cartman.at.fivegeeks.net alt.sys.pdp10:36935
+
+Minor Y2K bug in ITS find.  It prints years greater than 1999 as "YYY"
+not "YY".  2000 is printed as 100, 2001 as 101, etc.
+
+This patch fixes that bug in find.  The problem exists in peek and the
+ITS kernel too.  I use unidiff ("diff -u") under *BSD to display the
+changes (sue me) here:
+
+--- find.199    Wed Apr  2 04:59:38 1986
++++ find.200    Sun Mar 17 07:38:26 2002
+@@ -2489,8 +2489,9 @@
+        LDB     K,[220500,,(M)UNDATE]
+        ODEC    K
+        OASCI   "/
+-       LDB     K,[330700,,(M)UNDATE]
+-       ODEC    K
++       LDB     J,[330700,,(M)UNDATE]
++       IDIVI   J,100.
++       ODEC    2,K
+        OASCI   "
+        HRRZ    B,(M)UNDATE
+        MOVEI   A,3
+@@ -2526,8 +2527,9 @@
+        LDB     K,[220500,,UNREF(M)]
+        ODEC    K
+        OASCI   "/
+-       LDB     K,[330700,,UNREF(M)]
+-       ODEC    K
++       LDB     J,[330700,,UNREF(M)]
++       IDIVI   J,100.
++       ODEC    2,K
+        OASCI   ")
+
+ ; print creator if not sname
+
+From newsserver@localhost  Mon Mar 18 05:00:13 2002
+Path: uni-berlin.de!fu-berlin.de!hub1.nntpserver.com!peer1-sjc1.usenetserver.com!usenetserver.com!sn-xit-04!sn-xit-02!supernews.com!postnews1.google.com!not-for-mail
+Message-ID: <181c8fff.0203170533.4b4cd487@posting.google.com>
+From: kstailey@yahoo.com (Ken Stailey)
+Newsgroups: alt.sys.pdp10
+Subject: Y2K fixes for AI:: DSK: SYSEN2; PEEK 629
+Date: 17 Mar 2002 05:33:40 -0800
+Lines: 23
+Organization: http://groups.google.com/
+NNTP-Posting-Host: 198.80.171.28
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+X-Trace: posting.google.com 1016372020 25537 127.0.0.1 (17 Mar 2002 13:33:40 GMT)
+X-Complaints-To: groups-abuse@google.com
+NNTP-Posting-Date: 17 Mar 2002 13:33:40 GMT
+Xref: cartman.at.fivegeeks.net alt.sys.pdp10:36936
+
+Minor Y2K bug in ITS peek command.  It prints years greater than 1999
+as "YYY" not "YY".  2000 is printed as 100, 2001 as 101, etc.
+
+This patch fixes that bug in peek.  The problem exists in find and the
+ITS kernel too.  I use unidiff ("diff -u") under *BSD (sue me) to
+display the changes here:
+
+--- peek.629    Tue Dec  8 23:10:11 1987
++++ peek.630    Sun Mar 17 08:29:02 2002
+@@ -4609,8 +4609,11 @@
+        LDB A,[$TMDAY,,C]
+        DNUM 1,A        ; Output day
+        CTYPE "/
+-       LDB A,[$TMYR,,C]
+-       DNUM 2,A        ; Output year
++       LDB D,[$TMYR,,C]
++       IDIVI D,100.
++       CAIGE D,10.
++        CTYPE "0
++       DNUM 1,U        ; Output year
+        CTYPE 40
+        IDIVI B,60.*60.*2       ; Find # hours in B
+        IDIVI C,60.*2           ; Find # minutes in C

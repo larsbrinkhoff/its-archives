@@ -1,0 +1,22 @@
+From newsserver@localhost  Thu Jul  5 18:55:42 2001
+Path: wards!landlord!newsfeed2.skycache.com!Cidera!newsfeed1.cidera.com!news-reader.ntrnet.net!uunet!ash.uu.net!world!news
+Message-ID: <ulmm40wkm.fsf_-_@spacy.Boston.MA.US>
+From: Christopher Stacy <cstacy@spacy.Boston.MA.US>
+Newsgroups: alt.sys.pdp10
+Subject: PASCAL [was: Algol-10]
+Date: Thu, 5 Jul 2001 05:33:13 GMT
+References: <3B422380.58B395E7@bartek.dontspamme.net> <tk4lhug0osg968@corp.supernews.com> <rTt07.29556$J91.937344@bgtnsc06-news.ops.worldnet.att.net>
+Lines: 7
+Sender: CStacy@BONK
+Nntp-Posting-Host: ppp0b176.std.com
+Organization: The World @ Software Tool & Die
+X-Newsreader: Gnus v5.7/Emacs 20.7
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:4760
+
+>>>>> On Wed, 04 Jul 2001 00:59:03 GMT, Henry W Miller ("Henry") writes:
+ Henry> Was there an "official" Pascal for the PDP-10?  While at DEC, I wrote a
+ Henry> major piece of code (under protest) in Pascal, and I believe that this
+ Henry> version came from Stanford.
+
+On ITS we used a version of PASCAL that was for TOPS-10,
+running under an emulator.  This was necessary for TeX.

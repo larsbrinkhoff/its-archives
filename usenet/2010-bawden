@@ -1,0 +1,48 @@
+From newsserver@localhost  Mon Sep 20 10:47:40 2010
+Path: uni-berlin.de!fu-berlin.de!newsfeed-00.mathworks.com!panix!bloom-beacon.mit.edu!newsswitch.lcs.mit.edu!grapevine.lcs.mit.edu!not-for-mail
+Message-ID: <w2dd3saqbh6.fsf@shaggy.csail.mit.edu>
+From: Alan Bawden <alan@shaggy.csail.mit.edu>
+Newsgroups: alt.sys.pdp10
+Subject: Re: File system internals (was: Re: the end of time)
+Date: 19 Sep 2010 06:22:29 -0400
+References: <alpine.OSX.2.00.1009052232010.13241@hsinghsing.panda.com> <poi2m7-c4f.ln1@laptop.reistad.name> <i6mpj1$b4g$1@speranza.aioe.org> <iqj3m7-pmk.ln1@laptop.reistad.name> <i6nhvp$ue0$1@speranza.aioe.org> <alpine.OSX.2.00.1009052232010.13241@hsinghsing.panda.com> <i6lufa$h1c$1@speranza.aioe.org> <poi2m7-c4f.ln1@laptop.reistad.name> <i6mpj1$b4g$1@speranza.aioe.org> <iqj3m7-pmk.ln1@laptop.reistad.name> <i6nhvp$ue0$1@speranza.aioe.org> <i6nkae$m1k$1@tioat.net> <PM00049036C4D295AB@ac81a7dc.ipt.aol.com> <i6no94$n3j$1@tioat.net> <PM0004904A79E8C6A4@ac828bc9.ipt.aol.com> <alpine.OSX.2.00.1009150910150.392@hsinghsing.panda.com> <PM0004905E3837894C@aca2c7b6.ipt.aol.com> <alpine.OSX.2.00.1009160905380.392@hsinghsing.panda.com> <PM0004907281D25B35@aca22ba8.ipt.aol.com> <alpine.OSX.2.00.1009170919200.392@hsinghsing.panda.com> <PM00049088C43511AE@ac81977a.ipt.aol.com> <alpine.OSX.2.00.1009180820390.392@hsinghsing.panda.com>
+Lines: 29
+Organization: MIT Computer Science & Artificial Intelligence Lab
+NNTP-Posting-Host: shaggy.csail.mit.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Trace: grapevine.csail.mit.edu 1284891749 65821 128.30.2.14 (19 Sep 2010 10:22:29 GMT)
+X-Complaints-To: security@csail.mit.edu
+NNTP-Posting-Date: Sun, 19 Sep 2010 10:22:29 +0000 (UTC)
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.4
+Xref: cartman.offog.org alt.sys.pdp10:56091
+
+Mark Crispin <mrc@panda.com> writes:
+
+...
+> Every modern operating system does, as did most archaic operating
+> systems. TOPS-10 was the oddball here, joined only by ITS (a true oddball).
+> 
+...
+> TOPS-10 and ITS stand alone in that position.  And that position helped
+> kill non-byte addressing.  All modern systems address by bytes, and size by
+> bytes.
+
+The ITS file system stored a byte size and byte count for every file, so we
+weren't quite that lame.
+
+But although the file system could represent any byte size from 1 to 36,
+there was no way to write a file except in 7-bit or 36-bit mode.  And even
+then, there were a lot of old programs that ignored the byte size when
+reading and did all their I/O in 36-bit words and stripped padding in the
+last word.
+
+So it's clear that some ITS hackers in the early 70s were looking ahead and
+tried to start doing the right thing, but they never got finished.  (One of
+several unfinished ideas projects in the ITS kernel.)
+
+And just to add to the full horror of the situation, you may recall that
+ITS used the character ^C for padding instead of NUL.  But since we often
+got files from folks running other flavors of PDP10 operating systems,
+quite a few ITS programs would strip either NULs -or- ^Cs at the end of the
+last word.  What a mess.

@@ -1,0 +1,61 @@
+From newsserver@localhost  Fri Jan 23 05:00:13 2004
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!peernews.mcc.ac.uk!zen.net.uk!news-stoc.telia.net!217.209.241.210.MISMATCH!news-stod.telia.net!telia.net!news.tele.dk!news.tele.dk!small.news.tele.dk!news.maxwell.syr.edu!wn11feed!worldnet.att.net!199.45.49.37!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc03.gnilink.net.POSTED!8b1f9295!not-for-mail
+Message-ID: <uk73jqsqo.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: The BASIC Variations
+Date: Fri, 23 Jan 2004 02:54:56 GMT
+References: <brlobn$n3k$1@chessie.cirr.com> <bbnkub.d9c2.ln@via.reistad.priv.no> <bumbbg$1772$9@f04n12.cac.psu.edu> <buoqva01mpt@enews2.newsguy.com> <bup9ib$1dsa$1@f04n12.cac.psu.edu> <bupbt41m94@enews3.newsguy.com>
+Lines: 42
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.138.194
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc03.gnilink.net 1074826496 68.163.138.194 (Thu, 22 Jan 2004 21:54:56 EST)
+NNTP-Posting-Date: Thu, 22 Jan 2004 21:54:56 EST
+Xref: cartman.azz.us-lot.org alt.folklore.computers:100556
+
+>>>>> On Thu, 22 Jan 2004 15:12:12 -0500, J Clarke ("J") writes:
+
+ J> Dr. Richard E. Hawkins wrote:
+ >> In article <buoqva01mpt@enews2.newsguy.com>,
+ >> Michael Wojcik <mwojcik@newsguy.com> wrote:
+ >> 
+ >>> In article <bumbbg$1772$9@f04n12.cac.psu.edu>, hawk@slytherin.ds.psu.edu
+ >>> (Dr. Richard E. Hawkins) writes:
+ >> 
+ >>>> And even then, the W95 interface is the 1987 Multifinder (system 5) Mac
+ >>>> interface, with the apple menu moved to the bottom of the screen and a
+ >>>> pair of $20 system extensions . . .
+ >> 
+ >>> Even W95 used the right mouse button to bring up a context menu, which
+ >>> as far as I'm concerned is a huge leap over any single-button Mac GUI.
+ >>> If I have to use a point-and-drool UI, I'd at least like it to have
+ >>> some depth.
+ >> 
+ >> Apple actually did research before choosing the single button, and
+ >> found that training time was shorter with a 1-button mouse.  Microsoft
+ >> also had a reason for choosing the number on its mouse: be different
+ >> from apple.
+ >> 
+ >> Modifiers
+
+ J> "Modifiers"?  Is this that idiotic deal where you have to use both the
+ J> keyboard _and_ the mouse to click?
+
+ >> used while clicking accomplish most of the same things that
+ >> right-clicking does under windows.
+
+Since one hand is already resting on the keyboard, why not?
+(You certainly don't need two hands to operate the mouse.)
+
+The Lisp Machine, which was the first commercially available computer
+that had a mouse (etc), used a 3-button mouse.  It's keyboard, which was
+an extended version of the keyboard for the ITS operating system is where
+the modifier keys META, SUPER, and HYPER originated.  (There were also
+several other less-commonly used modifiers! You may have seen SUPER etc.
+in the X window system which came along a little over a decade later)
+
+On the LispM, you could Control-Meta-Super-Hyper-Right-double-click.

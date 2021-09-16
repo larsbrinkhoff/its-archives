@@ -1,0 +1,66 @@
+From -3830371297567966143
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,372239c77c92f4b0
+X-Google-Attributes: gidfdb0e,public
+From: gagner@clark.net (Philip Gagner)
+Subject: Re: KL Console Commands
+Date: 1998/10/07
+Message-ID: <361f769b.76525319@news.clark.net>#1/1
+X-Deja-AN: 398641956
+Content-Transfer-Encoding: 7bit
+References: <Pine.LNX.3.96.980928112124.10870D-100000@bony.umtec.com> <qhu31sc8nn.fsf@ruckus.brouhaha.com> <3613e9a8.18494117@news.clark.net> <6uvli1$o2j$1@strato.ultra.net> <3615172c.19558816@news.clark.net> <36149B71.237C@s054.aone.net.au> <361b6174.71109341@news.clark.net> <6vfom2$326$1@ligarius.ultra.net>
+Content-Type: text/plain; charset=us-ascii
+Organization: TWLG
+Mime-Version: 1.0
+Reply-To: gagner@clark.net
+Newsgroups: alt.sys.pdp10
+
+jmfbahciv@aol.com wrote:
+>>
+>I never met an ITS.  Would you mind explaining why you'ld rather see
+>ITS run?  What did you prefer in ITS over the -10 or -20?
+>/BAH
+
+This is a troll, right?  :-o
+
+ITS was a cleaner implementation of an operating system. It could be,
+because it didn't have to support hundreds of thousands of different
+combinations of devices. As you know, it was developed at MIT AI. It
+lacked a lot in the area of security (this wasn't considered a defect,
+particularly), but it gave a lot on performance. And it was easier to
+maintain, by far.
+
+ITS didn't really have a command set. When you "logged in" (i.e.
+tickled the TTY controller or network controller), ITS would start a
+job process and load a copy of DDT. That DDT had been modified
+somewhat due to the complaints of non-hacker graduate students and
+some professors used to systems like MULTICS or CTSS, so that it had
+an overlay of "commands". Actually, there was only one "command",
+which was colon (:). The next word was dispatched through a table so
+that it looked like :LOAD or :DIR did useful things. But in reality,
+you were running a much enhanced version of DDT, which know about
+sub-processes. This made programming and debugging very much simpler,
+and you didn't have to load DDT in the address space of your program
+(remember all the times a program would run only with DDT loaded??)
+
+Anyway, ITS was designed early on to know about multiple processors
+(sort of--shared memory processors anyway) and remote devices. There
+was a real drive towards device independence, much more so than at
+DEC. So tape drives looked like disks, and so did pretty much
+everything else. This made remote devices a snap, because the system
+already encapsulated the hardware for devices and presented a uniform
+interface. The job control system calls were easier to use and more
+sophisticated. Inter-process communication was a very big item, much
+earlier than TOPS-10 had it. In fact, that part of the DECSystem-10
+IPCF (InterProcess Communication Facility) which I worked on was
+modeled after the way ITS did it.
+
+Finally, the operating system package was much, much smaller than
+DECs.
+
+Problems with ITS included random musings which tried to pass for
+system documentation, almost completely uncommented system code (like
+some sort of recursive sacred scripture, the code was its own
+commentary), and lack of support for any device which didn't interest
+MIT or Stanford.
+

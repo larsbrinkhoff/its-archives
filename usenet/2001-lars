@@ -1,0 +1,76 @@
+From newsserver@localhost  Sat Dec  8 02:35:06 2001
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet-peer1!btnet!news.maxwell.syr.edu!logbridge.uoregon.edu!newsfeed.sunet.se!news01.sunet.se!news.utfors.se!unknown!not-for-mail
+Message-ID: <853d2qkfk3.fsf@junk.nocrew.org>
+From: Lars Brinkhoff <lars.spam@nocrew.org>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Color DEC-20 photos?
+Date: 04 Dec 2001 19:26:04 +0100
+References: <9uinvq$1c5$1@newsmaster.cc.columbia.edu> <85k7w3j9tq.fsf@junk.nocrew.org> <3C0C6FC6.B4F97673@jetnet.ab.ca>
+Lines: 56
+Organization: nocrew
+NNTP-Posting-Host: junk.nocrew.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+X-Trace: yggdrasil.utfors.se 1007490403 20092 212.73.17.42 (4 Dec 2001 18:26:43 GMT)
+X-Complaints-To: abuse@utfors.se
+NNTP-Posting-Date: 4 Dec 2001 18:26:43 GMT
+User-Agent: Gnus/5.0808 (Gnus v5.8.8) Emacs/20.7
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:6831
+
+Ben Franchuk <bfranchuk@jetnet.ab.ca> writes:
+> Nice photos, do you have any more information on the systems shown?
+
+Yep.
+
+> > KL:
+> > http://simh.trailing-edge.com/photos/decsystem_20.jpg
+>  "Is Bigger always better"?
+
+I think this is from DEC's timeline on their former website.
+
+> > http://www.stacken.kth.se/~thn/FullScale/f3-3.jpg
+>  "A Computer with a personality"
+
+Model:          DEC-2065.
+Name:           VERA.  
+Location:       Stockholm, Sweden?
+Owner:          Peter Löthberg.
+Status:         Unknown.
+History:        Belonged to Stacken Computer Society (that's where the
+                picture's from), and before that KTH, Royal Institute of
+                Technology in Stockholm.
+
+> > KS:
+> > http://www.ludd.luth.se/gallery/ludd1-mII/image03.jpg
+>   "B - Basement Level -- Bargain Computing for the masses"
+
+Model:          DEC-2020.
+Name:           eLinor.
+Location:       Ludd Computer Society in Luleå, Sweden.
+Owner:          Anders Magnusson.
+Status:         In runnable condition, except problem with TU45 and RP06.
+                Mostly running ITS.
+Peripherals:    TU45 and RP06, obviously, maybe more.
+History:        Belonged to Lysator Computer Society, and University of
+                Linköping (?) before that.
+
+> > http://www.stacken.kth.se/~thn/FullScale/f2-7.jpg
+>   "Look what else you found the $5 junk box special"
+
+Model:          DEC-2020.
+Name:           NADJA.
+Location:       Stacken Computer Society in Stockholm, Sweden.
+Owner:          Johnny Eriksson.
+Status:         In runnable condition, except there's no cooling.
+Peripherals:    16 lines DZ, 2 KMC/DUP, DELUA ethernet, 2 RP06, 1 TU45.
+History:        Ran TOPS-20 while at KTH.
+
+> > http://www.jfcl.com/pdp10/images/2020.JPG
+>   "Now for $5,754,999.95 we can't throw in a FREE printer cable too!"
+
+No info.
+
+-- 
+Lars Brinkhoff          http://lars.nocrew.org/     Linux, GCC, PDP-10
+Brinkhoff Consulting    http://www.brinkhoff.se/    programming

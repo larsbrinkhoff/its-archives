@@ -1,0 +1,28 @@
+From 6936036132105276502
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,f891b3a78d72d471
+X-Google-Attributes: gidfdb0e,public
+From: Pat Barron <pat@transarc.com>
+Subject: Re: prep.ai.mit.edu...
+Date: 2000/07/19
+Message-ID: <PAT.00Jul19125027@smithfield.transarc.ibm.com>#1/1
+X-Deja-AN: 648266881
+Distribution: world
+References: <yz5d5.428495$VR.5452801@news5.giganews.com>
+Organization: Transarc Corporation
+Newsgroups: alt.sys.pdp10
+
+In article <yz5d5.428495$VR.5452801@news5.giganews.com> Timothy Stark <sword7@grace.speakeasy.org> writes:
+>   For your information, I found out that ITS source package (kshack, etc)
+>   on Alan's directory on ftp://prep.ai.mit.edu was gone! That's why
+>   it turned into the GNU ftp site.  However, another ITS source package
+>   still is available in ftp://ftp.swiss.ai.mit.edu/pub/its.  Good news!
+>   I still have them from prep.ai.mit.edu.  Whew.
+
+Alan's directory is actually on ftp.ai.mit.edu (not prep.ai.mit.edu);
+the directory and its contents are still there.
+
+The archive on ftp.swiss.ai.mit.edu only contains sysdoc and system,
+and is missing the KS10-specific bits from Alan's directory.
+
+--Pat.

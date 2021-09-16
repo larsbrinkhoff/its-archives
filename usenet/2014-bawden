@@ -1,0 +1,74 @@
+From newsserver@localhost  Fri Mar  7 04:02:51 2014
+Path: uni-berlin.de!fu-berlin.de!feeder.erje.net!us.feeder.erje.net!usenet.blueworldhosting.com!feeder01.blueworldhosting.com!border4.nntp.dca.giganews.com!border2.nntp.dca.giganews.com!nntp.giganews.com!ottix-news.ottix.net!newsswitch.lcs.mit.edu!grapevine.lcs.mit.edu!not-for-mail
+Message-ID: <w2d7g87dfap.fsf@scooby-doo.csail.mit.edu>
+From: Alan Bawden <alan@scooby-doo.csail.mit.edu>
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS Questions
+Date: Thu, 06 Mar 2014 01:14:38 -0500
+References: <lf8epj$330$1@odin.sdf-eu.org>
+Lines: 54
+Organization: MIT Computer Science & Artificial Intelligence Lab
+NNTP-Posting-Host: scooby-doo.csail.mit.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Trace: grapevine.csail.mit.edu 1394086478 93699 128.30.2.141 (6 Mar 2014 06:14:38 GMT)
+X-Complaints-To: security@csail.mit.edu
+NNTP-Posting-Date: Thu, 6 Mar 2014 06:14:38 +0000 (UTC)
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/23.2 (gnu/linux)
+Cancel-Lock: sha1:+giAgWt5rkSOa2/52XT+SphsdZc=
+Xref: cartman.offog.org alt.sys.pdp10:58593
+
+David Meyer <papa@iceland.freeshell.org> writes:
+
+> I've been cyber-spelunking venerable ITS (at its.svensson.org and
+> up.update.uu.se). I don't see any other Usenet groups more relevant than 
+> this one, so I hope you'll be indulgent while I hope to find some old ITS 
+> hands.
+
+That describes me, I guess...
+
+> 1. Is there a general method for capturing console output to a file? Or 
+>    even just a way to capture output from LISTF or FIND?
+
+Unix has set our expectations so that this seems like a natural request.
+But historically we didn't think that way...
+
+On Unix, most commands are written with the expectation that they might
+be called upon to read from, or write to, a pipe.  A consequence of this
+is that we all type "| more" a lot.
+
+On ITS.  commands are written with the expectation that output written
+to the TTY: device will always be displayed to a human, output written
+to the DSK: device will always be saved in a file, and output written to
+the COM: device will always be consumed by another program.  A
+consequence of this is that you never have to do anything special to get
+"--MORE--" processing, because it's built in to the TTY: device.
+
+So every program that generates output that you might want to save,
+generally has its own idiosyncratic mechanism for directing output to a
+file.  In the case of the FIND program, an "_" in the command line
+separates the output file from the rest of the arguments:
+
+  :FIND FIND OUTPUT_FOO BAR
+
+puts a list of files named "FOO BAR" in a file named "FIND OUTPUT" in
+your home directory.  (Recall that the "_" character was a left arrow in
+some early versions of ASCII.)
+
+And yes, this can be inconvenient.  It works differently for each
+command, and some commands don't support redirecting output at all.  In
+cases where you _really_ want to save the output of something whose
+author thought that would never be needed, you have to resort to
+trickery using name translations, or the CRTSTY program, or ...
+
+> 2. Is there a command/program for printing file contents in hexadecimal or 
+>    octal?
+
+For examining arbitrary file contents I used to use the <alt>0L command
+in DDT to load the file in to a job and then just use DDT commands to
+examine it.  That's actually quite a convenient way to explore arbitrary
+data files since DDT has a really rich understanding of how people used
+36-bit words...
+
+-- 
+Alan Bawden

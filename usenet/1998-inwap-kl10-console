@@ -1,0 +1,62 @@
+From -5131192238798351856
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,77b70d9629451afa
+X-Google-Attributes: gidfdb0e,public
+From: inwap@best.com (Smith and O'Halloran)
+Subject: Re: ITS Exec DDT/DTE20 question
+Date: 1998/12/18
+Message-ID: <75f7co$5i0$1@shell3.ba.best.com>#1/1
+X-Deja-AN: 423830787
+References: <Pine.LNX.3.96.981217133051.2952A-100000@bony.umtec.com>
+X-Trace: nntp1.ba.best.com 914039005 222 inwap@206.184.139.134
+Organization: a user of Best Internet Communications, Inc.  www.best.com
+Newsgroups: alt.sys.pdp10
+
+In article <Pine.LNX.3.96.981217133051.2952A-100000@bony.umtec.com>,
+Daniel Seagraves  <root@bony.umtec.com> wrote:
+>Having difficulties with the emulator and Exec DDT...
+>	ANDI T,177
+>	PUSHJ P,XDTCM
+
+Strip parity, send 7-bit character to the KL's console using secondary
+protocol to the DTE (Dec Ten to Eleven interface).
+
+XDTCM:	SETZM DTEFLG	;Clear the "DTE is done" flag
+	MOVEM T,DTECMD	;Bits 0-28 are clear, bits 29-35 are char to send
+	CONO DTE,%DBL11	;Ring the PDP-11's doorbell
+	SKIPN DTEFLG	;Check to see if the PDP-11 has completed the command
+	 JRST .-1	;Nope, spin lock
+	MOVE T,DTEF11	;Get data the came from the DTE
+	SETZM DTEFLG	;This signifies that we have read the DTEF11 word
+	POPJ P,
+
+>What I don't understand is that the character read is being used as the
+>command for the DTE20.  This could be ANYTHING.  What is the DTE20
+>supposed to do here?
+
+It depends on what software is running in the console PDP-11.  You have just
+left the world of PDP-10 hardware and have entered the world of PDP-11
+software.  Very little of the DTE20 functionality was defined by hardware.
+
+RXS20F supported "primary protocol" (where all sorts of message could be
+sent to and from the -11) and "secondary protocol" (basically just get
+a character from the LA36 keyboard, send a character to the LA36 printer,
+get/set time-of-day clock).  The latter was compatible with the way that
+the KLDCP diagnostics running in the PDP-11 acted as a teletype inteface
+for the PDP-10.
+
+		---------------------
+
+When Systems Concepts created their PDP-10 clone, they chose to be
+bug-compatible with the KL.  They emulated the DTE20 such that SYSTEM.EXE or
+MONITR.EXE could run on their hardware unmodified.
+
+Foonly and XKL decided to add new or different features to their PDP-10
+clones.  Emulating a DTE20 is a waste; it is better to have a new console
+driver that matches the new hardware.
+	-Joe
+
+-- 
+INWAP.COM is Joe Smith, Sally Smith and our cat Murdock.
+(The O'Hallorans and their cats moved to http://www.tyedye.org/ Nov-98.)
+See http://www.inwap.com/ for PDP-10, "ReBoot", "Shadow Raiders"/"War Planets"

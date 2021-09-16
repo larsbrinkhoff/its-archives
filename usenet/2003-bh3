@@ -1,0 +1,31 @@
+From newsserver@localhost  Fri Apr  4 05:00:10 2003
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!peernews.mcc.ac.uk!zen.net.uk!frnkge1-snf1.gtei.net!news.gtei.net!newsfeed.freenet.de!newsfeed.news2me.com!canoe.uoregon.edu!logbridge.uoregon.edu!newsfeed.berkeley.edu!ucberkeley!agate.berkeley.edu!agate!abbenay.CS.Berkeley.EDU!not-for-mail
+Message-ID: <b6ib0q$slt$1@abbenay.CS.Berkeley.EDU>
+From: bh@cs.berkeley.edu (Brian Harvey)
+Newsgroups: alt.sys.pdp10
+Subject: Re: History of project maintenance tools -- what and when?
+Date: Thu, 3 Apr 2003 22:02:02 +0000 (UTC)
+References: <6b26c83b.0303270121.1c81a3d9@posting.google.com> <b6h7b3$aai$2@bob.news.rcn.net> <b6hq4p$sf7$1@abbenay.CS.Berkeley.EDU> <Pine.LNX.4.55.0304031029400.29697@shiva0.cac.washington.edu>
+Lines: 15
+Organization: University of California, Berkeley, Computer Science Division
+NNTP-Posting-Host: abbenay.cs.berkeley.edu
+X-Trace: agate.berkeley.edu 1049407322 27583 128.32.153.200 (3 Apr 2003 22:02:02 GMT)
+X-Complaints-To: usenet@agate.berkeley.edu
+NNTP-Posting-Date: Thu, 3 Apr 2003 22:02:02 +0000 (UTC)
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:39795
+
+Mark Crispin <mrc@CAC.Washington.EDU> writes:
+>I do not recall GRIPE being an alias for BUG.  Although SYS was a WAITS
+>alias, I don't recall it ever being used on the ITS systems.  The default
+>address for bugs with no specific bug address was BUG-RANDOM-PROGRAM.
+
+That must have been later.  At the time I first created this mini-feature,
+I'm pretty sure long mail aliases (long meaning more than six letters)
+hadn't been invented yet, and I'm quite sure SYS was where gripes went.
+
+I won't swear to the name GRIPE, though; I may be confusing it with the
+WAITS version.  And of course you're right about the colon, but I never
+think of that as being part of the name; it's a piece of syntax meaning
+"enter monmode briefly"!  (Okay, now I'm trying to remember if monmode
+had even been invented in 1965-66, my freshman year, and I'm afraid I
+can't decide.)

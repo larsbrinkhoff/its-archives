@@ -1,0 +1,49 @@
+From newsserver@localhost  Wed Oct 19 04:01:56 2011
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!news2.google.com!newsfeed2.dallas1.level3.net!news.level3.com!panix!not-for-mail
+Message-ID: <mddpqhtoose.fsf@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: TOPS10 SMP - NI
+Date: 18 Oct 2011 19:36:33 -0400
+References: <PM0004AE27A5FC33AB@aca41507.ipt.aol.com> <PM0004AE27A5FC33AB@aca41507.ipt.aol.com> <PM0004AE3D5A2F6A7C@ac82ca5e.ipt.aol.com> <alpine.OSX.2.00.1110010939550.840@hsinghsing.panda.com> <PM0004AE51F17B48B7@aca25806.ipt.aol.com> <PM0004AE3D5A2F6A7C@ac82ca5e.ipt.aol.com> <alpine.OSX.2.00.1110010939550.840@hsinghsing.panda.com> <PM0004AE51F17B48B7@aca25806.ipt.aol.com> <9khml8-pq2.ln1@laptop.reistad.name> <PM0004AE641445F6EF@aca21130.ipt.aol.com> <4e972cb0.4317973@nntp3.rawbw.com> <j77di7$m3b$1@Iltempo.Update.UU.SE> <1773836.1773.1318608901356.JavaMail.geo-discussion-forums@vbat14> <PM0004AF56833DA98E@aca29136.ipt.aol.com> <j7cco4$a2f$1@Iltempo.Update.UU.SE> <PM0004AF6BA77893A5@aca20d41.ipt.aol.com> <j7f0bt$531$1@Iltempo.Update.UU.SE> <4e9cb7a2.15734229@nntp3.rawbw.com> <j7igch$gg1$1@Iltempo.Update.UU.SE> <alpine.OSX.2.00.1110172305280.9034@hsinghsing.panda.com> <j7jpjg$u92$2@Iltempo.Update.UU.SE> <alpine.OSX.2.00.1110180945190.9034@hsinghsing.panda.com>
+Lines: 31
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1318980994 28372 166.84.1.5 (18 Oct 2011 23:36:34 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Tue, 18 Oct 2011 23:36:34 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 22.3
+Xref: cartman.offog.org alt.sys.pdp10:57573
+
+Mark Crispin <mrc@panda.com> writes:
+
+> On Tue, 18 Oct 2011, Johnny Billquist posted:
+
+>> Cool. So, how did the -2020 communicate?
+
+> KMC11/DUP11.
+
+>> I assume ethernet never got working on the machine, even though it had a 
+>> Unibus...
+
+> Not from Digital.
+
+> Stanford did 3MB Ethernet, PUP only, on a 2020 running TOPS-20.
+
+> MIT had 2020 machines doing ITS with TCP.  I don't know if that was 
+> Ethernet, or TCP over Chaosnet.  There are people lurking here who would 
+> know.
+
+I'm (probably) not one of the ones Mark was thinking of, but I can speak
+authoritatively on this:  ITS did TCP/IP over Chaosnet.
+
+There is an Ethernet card in MIT-AI (the KS10 version, which we bought a long
+time ago), but I'm told by the folks who should know that the incomplete driver
+code probably went away with the hacker who was writing it.  It does not exist
+in the AI or MC archives.
+
+-- 
+Rich Alderson                                   news@alderson.users.panix.com
+    the russet leaves of an autumn oak/inspire once again the failed poet/
+    to take up his pen/and essay to place his meagre words upon the page...

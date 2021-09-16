@@ -1,0 +1,59 @@
+From newsserver@localhost  Tue Oct 17 02:01:08 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed2.jnfs.ja.net!jnfs.ja.net!sanger.ac.uk!green.octanews.net!news-out.octanews.net!news.glorb.com!news.alt.net!news.u.washington.edu!pangtzu.panda.com!mrc
+Message-ID: <alpine.OSX.0.7.0610161024000.16412@pangtzu.panda.com>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Zork for TOPS-10 version?
+Date: Mon, 16 Oct 2006 10:55:14 -0700
+References: <8eqdnaGuZfyK6oHYnZ2dnUVZ_v6dnZ2d@comcast.com> <451EE542.E949E5E3@comcast.net>
+ <alpine.OSX.0.7.0609301515080.541@pangtzu.panda.com> <4525D8BB.B4EC4EA1@comcast.net>
+ <3r95ge.7ja1.ln@via.reistad.name> <eg5d7f$8qk_002@s831.apx1.sbo.ma.dialup.rcn.com>
+ <452693B7.A8DD1454@comcast.net> <4533B07A.FB76A53@comcast.net>
+Lines: 36
+Organization: University of Washington
+Sender: mrc@pangtzu.panda.com
+NNTP-Posting-Host: pangtzu.panda.com
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1161021316 29609 206.124.149.117 (16 Oct 2006 17:55:16 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Mon, 16 Oct 2006 17:55:16 +0000 (UTC)
+In-Reply-To: <4533B07A.FB76A53@comcast.net>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:47160
+
+The picture is some model of DECSYSTEM-20.  It is not possible to 
+determine from that picture if it is a KL10 (2040, 2050, 2060, 2065) or 
+KS10 (2020); a few more inches to the right and it would be possible.
+
+Being a DECSYSTEM-20, it is also a PDP-10.  It did NOT "have the same CPU 
+as a PDP-10", it *is* a PDP-10.  A DECsystem-10 is also a PDP-10.
+
+It is thus correct to say, assuming that they ran TOPS-20, "they had a 
+DECSYSTEM-20", "they had a DEC-20", "they had a -20", and "they had a 
+PDP-10".
+
+It would not be correct to say "they had a DECsystem-10" unless they ran 
+TOPS-10 on that machine (which I think is unlikely).
+
+Nor would we say "they had a -10" (as opposed to "they had a PDP-10") 
+unless they ran some operating system other than TOPS-20.  If, for 
+example, they ran ITS (possible on a 2020), then we would could say "they 
+had a -10" since in spite of the paint job it was not a DECSYSTEM-20.
+
+We would NOT say that a machine that runs ITS is a DECsystem-10, nor a 
+DEC-10 (again in spite of paint job).  It is a PDP-10, or a -10.
+
+DECsystem-10 and DECSYSTEM-20 were both marketing terms, and are specific 
+to machines that ran TOPS-10 and TOPS-20.  DEC-10 and DEC-20 are informal 
+abbreviations.
+
+-10 and -20 are even more informal abbreviations; however -10 could also 
+mean a PDP-10 that ran a non-DEC OS.
+
+Does that make things more clear?
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.

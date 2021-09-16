@@ -1,0 +1,49 @@
+Article 717 of alt.folklore.computers:
+Path: rochester!rutgers!cs.utexas.edu!rice!uw-beaver!milton!blake!Tomobiki-Cho!mrc
+From: mrc@Tomobiki-Cho.CAC.Washington.EDU (Mark Crispin)
+Newsgroups: alt.folklore.computers
+Subject: Re: cookie
+Message-ID: <5123@blake.acs.washington.edu>
+Date: 21 Dec 89 00:00:13 GMT
+References: <KIM.89Dec11041331@watsup.waterloo.edu> <RODNEY.89Dec11104132@dali.ipl.rpi.edu> <1157@nsscb.UUCP> <37438@apple.Apple.COM>
+Sender: news@blake.acs.washington.edu
+Organization: Mendou Zaibatsu, Tomobiki-Cho, Butsumetsu-Shi
+Lines: 37
+
+In article <37438@apple.Apple.COM> baum@apple.UUCP (Allen Baum) writes:
+>Hmm... at MIT AI Labs they had a phase of the moon program, which was usually
+>invoked at login- it gave day, date, and phase. Well, I was told that once
+>upon a time there was a bug in the program that would cause the machine to
+>crash. So, you see, there are problems that occur depending on the phase of
+>the moon..
+
+A bit exaggerated.
+
+Here's the actual story, albeit from memory; Guy Steele can give the
+details:
+
+There was an application that generated source code as output.  In a
+header comment the phase of the moon was included.  The problem was
+that a maximum possible text width phase of the moon would make the
+output line longer than the specified limit.
+
+You guessed it, the output routines would recognize this and output
+the overflow on a second line.  The problem was, without any leading
+semicolons the overflow was treated as code instead of comments...
+
+This story was told in "The Hacker's Dictionary: A Guide to the World
+of Computer Wizards", by Steele et al. (I was one of the "et al"),
+published by Harper&Row but (alas!) now out of print.  Unfortunately,
+the typographer saw the obvious mistake in the text in the example of
+the "phase of the moon bug" and...you guessed it...corrected it.
+
+So, as I said, pointing at the appropriate page: "The example of the
+phase of the moon bug bug has a bug.  The bug is that there's no bug.
+That's the bug."  :-)
+
+Mark Crispin / 6158 Lariat Loop NE / Bainbridge Island, WA 98110-2098
+mrc@CAC.Washington.EDU -- MRC@PANDA.PANDA.COM -- (206) 842-2385
+Atheist & Proud -- R90/6 pilot -- Lum-chan ga suki ja!!!
+tabesaserarenakerebanaranakattarashii...kisha no kisha ga kisha de kisha-shita
+sumomo mo momo, momo mo momo, momo ni mo iroiro aru
+uraniwa ni wa niwa, niwa ni wa niwa niwatori ga iru

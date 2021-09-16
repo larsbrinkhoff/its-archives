@@ -1,0 +1,48 @@
+From -7683330701006108048
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,186b816a79207944
+X-Google-Attributes: gidfdb0e,public
+From: wilson@dbit.com (John Wilson)
+Subject: Re: Do KS10 support Ethernet?
+Date: 2000/06/16
+Message-ID: <394a5823$1_1@news.wizvax.net>#1/1
+X-Deja-AN: 635395980
+References: <4J925.173295$701.2240811@news4.giganews.com>
+X-Original-NNTP-Posting-Host: 199.181.141.3
+X-Trace: 16 Jun 2000 12:38:59 -0400, dbit.dbit.com
+Organization: D Bit, Troy, NY
+XPident: Unknown
+Newsgroups: alt.sys.pdp10
+
+In article <4J925.173295$701.2240811@news4.giganews.com>,
+Timothy Stark  <sword7@grace.speakeasy.org> wrote:
+>I learned that it supports Ethernet for KS10 with NI0101
+>interface.
+
+My understanding is that this was an ongoing/stalled project (by JTW???) when
+the ITS machines were shut down, and that it was never finished.
+
+>I learned that NI0101 have three registers only. Is that true?
+
+Yep.  CSR, bus address, and byte count.  The NI2010A is the Q-bus version,
+it has a fourth register (at 764006) for the bus address extension, if
+jumpered for Q22 (otherwise the high 2 bits go in the MSBs of the CSR).
+
+>If not, I am looking for its specs.
+
+If you're still serious, I have a manual which I can copy for you (keep after
+me, I'm really bad about this kind of thing).  Let me know.  It's a pretty
+nice interface, it has all the features you realistically need but it's a
+lot cleaner than the DEUNA/DELUA.  E11 includes NI1010A/NI2010A emulation
+(ASSIGN NI: ...).
+
+The best answer for doing Ethernet on a real live KS10 would probably be
+the DELUA (faster and smaller than the DEUNA, and more importantly, it draws
+less current), since they're a lot easier to find than the Interlan boards.
+I wrote about half of an ITS DELUA driver back when I had a machine running,
+but the tape drive broke before that so the only copy I have is the one that
+(I hope) is still on my RM80 drive.  So unfortunately I can't read it right
+now, maybe some day...  The DEUNA/DELUA is a real pain to emulate though.
+
+John Wilson
+D Bit

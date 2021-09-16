@@ -1,0 +1,32 @@
+From 8863976267186599792
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,3f5e3019a747b2b3
+X-Google-Attributes: gidfdb0e,public
+X-Google-ArrivalTime: 1994-09-08 10:58:48 PST
+Path: nntp.gmd.de!xlink.net!howland.reston.ans.net!europa.eng.gtefsd.com!newsxfer.itd.umich.edu!gumby!yale!news2.near.net!info-server.bbn.com!labs-n.bbn.com!cstacy
+From: cstacy@bbn.com (Chris Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: pdp10 emulator for sparc
+Date: 8 Sep 94 14:23:15 GMT
+Organization: Bolt, Beranek and Newman Inc.
+Lines: 13
+Message-ID: <cstacy.779034195@labs-n.bbn.com>
+References: <34lmlb$8rf@tribune.hri.com> <TSULASA.94Sep8142105@euax3i0c12.eua.ericsson.se>
+Reply-To: cstacy@BBN.COM
+NNTP-Posting-Host: labs-n.bbn.com
+X-Newsreader: NN version 6.5.0 #1 (NOV)
+
+KLH wrote a complete PDP-10 emulator (several varieties of processor) in C,
+and it runs ITS and TOPS-20.  It is not released yet, but I believe he's
+working out the licensing and related issues right now.
+
+A while back (over a year ago?) he gave a little demo by booting up
+the emulation (runs as a regular job under UNIX), logged into it over
+the network (yes, it even emulates the ARPANET IMP interface), and
+sent mail from ITS to a mailing list on the Internet containing a
+wallpaper of running PEEK.  So, it works pretty well, I guess!
+
+Don't send him mail bugging him about it, though, or it we'll never
+see it!  When it's released, there will be announcements about where
+to get a copy and all that.
+

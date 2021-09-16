@@ -1,0 +1,49 @@
+From newsserver@localhost  Tue Aug  4 04:01:26 2009
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!news1.google.com!npeer01.iad.highwinds-media.com!news.highwinds-media.com!feed-me.highwinds-media.com!post01.iad.highwinds-media.com!newsfe15.iad.POSTED!7564ea0f!not-for-mail
+Message-ID: <yzl63d5cty8.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: A Complete History Of Mainframe Computing
+Date: Mon, 03 Aug 2009 02:06:23 -0400
+References: <m3r5x6966g.fsf@garlic.com> <d32301d5-425c-46ff-b5b3-bc43d91fb9cf@l32g2000vba.googlegroups.com> <36da85fc-136b-4f44-ade4-71bbee79502f@j12g2000vbl.googlegroups.com> <605.505T1160T5364345@kltpzyxm.invalid> <092db050-9024-4732-b7c2-68665de1568a@d4g2000yqa.googlegroups.com> <4a4d31c7$0$6194$996e3c2@news.usenetserver.com> <f5630599-ff99-44b4-970c-eefbd5a2738a@h8g2000yqm.googlegroups.com> <m3hbwym37f.fsf@garlic.com> <h4l7ja$jag$1@news.eternal-september.org> <w9z4osxlnwh.fsf@zipcon.net> <proto-5AD0EB.09003128072009@news.panix.com>
+Lines: 29
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (darwin)
+Cancel-Lock: sha1:X7pjcBIbFnMSFKiGQbX921QF2VE=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 70.179.105.8
+X-Complaints-To: newsmaster@cox.net
+X-Trace: newsfe15.iad 1249279585 70.179.105.8 (Mon, 03 Aug 2009 06:06:25 UTC)
+NNTP-Posting-Date: Mon, 03 Aug 2009 06:06:25 UTC
+Organization: Cox
+Xref: cartman.offog.org alt.folklore.computers:264819
+
+Walter Bushell <proto@panix.com> writes:
+> Now days we think nothing of using 16 bit and more character sets.
+
+People didn't always think that 9-bit or 12-bit character sets
+were unreasonable in the late 60s and mid 70s, either.
+
+ITS supported both the ASCII (7-bit) and the SAIL (12-bit) character sets.
+On ITS the extra bits were used as "bucky" bits: CONTROL (not to be
+confused with the ASCII formatting characters), META, and TOP.
+Those are shift keys on the keyboards for those systems; one program
+that you are probably familiar with that used them was called EMACS.
+Some more input characters were keys like CALL, BREAK, CLEAR, HELP,
+RUBOUT, BACK SPACE, BACK NEXT, and ALTMODE.
+
+Output was a superset of ASCII that included lots of other glyphs,
+such as various pointing arrows (up/down/left/right), the Greek 
+letters alpha/beta/gamma/delta/epsiol/pi/lambda, infinity, AND, NOT, OR,
+sub/superset and union (horseshoes), equivalence, existential/universal quantifers,
+greater/less-than-or-equal, not-equal, plus-minus, integral, centered dot,
+circle-X, circle-plus, and lozenge (a skinny diamond).
+
+The Lisp Machine (in the 1970s) had a slightly different expanded
+character set that handled the above plus some more.
+
+By the 1988 version of the Lisp Machine, characters were occupying 32 bits.
+I don't remember how wide they really were (maybe 32), but it was one per word.
+(But you could of course store most disk files using just ASCII.)
+Machines had 2-8 megawords of RAM: each word was 48 bits (32 bits of data,
+8 bits of type-code, 8 bits of ECC).

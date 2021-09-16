@@ -1,0 +1,38 @@
+From newsserver@localhost  Sat Jul  7 04:02:20 2007
+Path: uni-berlin.de!fu-berlin.de!newspeer.monmouth.com!newsfeed.yul.equant.net!novia!border2.nntp.dca.giganews.com!nntp.giganews.com!cyclone1.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny07.POSTED!e266a3ae!not-for-mail
+Message-ID: <yzlmyya6opb.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Screen Librarys?
+Date: Fri, 06 Jul 2007 06:17:20 GMT
+References: <46756e9b$0$4337$bbae4d71@news.suddenlink.net> <f5uobd$5g0$1@panix5.panix.com> <f601ug$8qk_001@s830.apx1.sbo.ma.dialup.rcn.com> <csi8831mtqfnjicl9jvepe51sm9mq3012d@4ax.com> <f61k2t$eu5$1@panix5.panix.com> <1183088981.641170.191690@u2g2000hsc.googlegroups.com> <46859f41$0$4297$bbae4d71@news.suddenlink.net> <1183221799.624448.308330@u2g2000hsc.googlegroups.com> <468b2a2c$0$4341$bbae4d71@news.suddenlink.net> <BsadnVrQiOsgtBDbnZ2dnUVZ_vamnZ2d@comcast.com>
+Lines: 18
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.0.97 (darwin)
+Cancel-Lock: sha1:WiRR2T7c2rlRyFZf3t9SpGeg/oY=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.152.158
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny07 1183702640 68.163.152.158 (Fri, 06 Jul 2007 02:17:20 EDT)
+NNTP-Posting-Date: Fri, 06 Jul 2007 02:17:20 EDT
+Bytes: 2031
+Xref: cartman.offog.org alt.sys.pdp10:47893
+
+glen herrmannsfeldt <gah@ugcs.caltech.edu> writes:
+> When I was using a real PDP-10 there were stories of someone who
+> could type fast enough on a fast terminal to crash the system.
+> That is, overflow the terminal input buffer.
+
+I never heard of such a problem on ITS.
+The terminals there were connected various ways,
+including homebrew multiplexors, DL10 and DTE20,
+virtual network terminals on CHAOS and on TCP/IP,
+and on the AI (KA) machine by a 10-11 interface 
+to Knight's frame buffer system (bitmap graphics
+display consoles to the PDP-10 memory, with the
+fancy keyboards that have been mentioned in
+another thread).
+
+So I am guessing that any crashes from people typing too 
+fast were bugs in the DEC software, rather than some
+necessary lossage of the PDP-10 hardware.

@@ -1,0 +1,67 @@
+From newsserver@localhost  Fri Apr 28 02:01:10 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!jnfs.ja.net!zen.net.uk!hamilton.zen.co.uk!feeder2.ecngs.de!ecngs!feeder.ecngs.de!news.germany.com!newsfeed.cw.net!cw.net!news-FFM2.ecrc.de!news.net.uni-c.dk!newsfeed.sunet.se!news01.sunet.se!129.16.222.141.MISMATCH!gide.ita.chalmers.se!cd.chalmers.se!rydis
+Message-ID: <w4cmze7qlmq.fsf@bianca.cd.chalmers.se>
+From: rydis (Martin Rydstr|m) @CD.Chalmers.SE
+Newsgroups: alt.sys.pdp10
+Subject: Re: Hardware vs. Software
+Date: 27 Apr 2006 13:54:37 +0200
+References: <1142878114.143522.46020@i39g2000cwa.googlegroups.com> <1142893828.607595.250010@i39g2000cwa.googlegroups.com> <1142903529.498549.171590@i40g2000cwc.googlegroups.com> <dvntl3$2ufh$1@agate.berkeley.edu> <dvoost$8qk_002@s1016.apx1.sbo.ma.dialup.rcn.com> <1142947433.989121.261630@i40g2000cwc.googlegroups.com> <0moUf.751$rO4.185@fe02.lga> <dvu2sb$8qk_003@s912.apx1.sbo.ma.dialup.rcn.com> <1143125439.353526.227890@i39g2000cwa.googlegroups.com> <9g9g22pl3c08s2l8qbp8u0gioe5qv0f95o@4ax.com> <e0bdjm$8qk_001@s868.apx1.sbo.ma.dialup.rcn.com> <1144363623.033081.313900@v46g2000cwv.googlegroups.com> <cs964llo5kw.fsf@Psilocybe.Update.UU.SE> <1145984173.007881.87900@i40g2000cwc.googlegroups.com> <cs964kwktro.fsf@Psilocybe.Update.UU.SE>
+Lines: 43
+Organization: Chalmers University of Technology, Sweden
+Sender: rydis@bianca.cd.chalmers.se
+Reply-To: rydis+replies@cd.chalmers.se
+NNTP-Posting-Host: bianca.cd.chalmers.se
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Trace: gide.ita.chalmers.se 1146139409 23805 129.16.79.33 (27 Apr 2006 12:03:29 GMT)
+X-Complaints-To: usenet@gide.ita.chalmers.se
+NNTP-Posting-Date: Thu, 27 Apr 2006 12:03:29 +0000 (UTC)
+X-Attribution: mr
+X-Url: http://www.cd.chalmers.se/~rydis/
+Mail-Copies-To: rydis+copies@cd.chalmers.se
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.4
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:46636
+
+Andreas Davour <ante@update.uu.se> writes:
+> I have a short file somewhere with a summary of common tasks, as done
+> under TOPS20, ITS and generic unix. I can dig for it if I can remember
+> to do it.
+
+This one, probably:
+---
+ITS                     bsd UNIX                TOPS-20
+
+^R foo                  cat foo {or} more foo   TYPE foo
+^R foo;..NEW. (UDIR)    mkdir foo               BUILD <foo>
+$R foo,bar              cp foo bar              COPY foo bar
+SYS^K $$^R              adb -wk /dev/kmem       ^EQUIT {then} /
+^F                      ls                      DIRECTORY
+0^F                     cd ~;ls                 CONNECT {then} DIRECTORY
+foo^F                   ls ~foo                 DIRECTORY <foo>
+^O foo                  rm foo                  DELETE foo
+$^O foo,bar             mv foo bar              RENAME foo bar
+$$^O foo,bar            ln bar foo              {none}
+foo^K                   foo                     foo {or} RUN foo
+^Z                      ^Z                      ^C
+$P                      fg                      CONTINUE
+^P                      bg                      CONTINUE STAY
+{none}                  ^C                      {none}
+$^X.                    kill n                  RESET
+$$U                     ^D {or} logout          LOGOUT
+{normal state}          gdb foo                 DDT
+---
+
+I have no idea whence it comes, since the reference I have to it has
+the legend "Reminds me of the urban myth (?) about the guy who tried
+to crack an ITS machine. He never understood that you don't need to
+log in to do stuff, the only reason to log in is said to be to get
+notification about new mail. Short explanation (stolen):"
+
+(There are easier-to-remember/decode ways to do a lot of the ITS
+examples, of course.)
+
+',mr
+
+-- 
+[Emacs] is written in Lisp, which is the only computer language that is
+beautiful.  -- Neal Stephenson, _In the Beginning was the Command Line_

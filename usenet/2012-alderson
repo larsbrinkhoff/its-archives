@@ -1,0 +1,68 @@
+From newsserver@localhost  Tue May 15 04:01:37 2012
+Path: uni-berlin.de!fu-berlin.de!news.glorb.com!news-out.readnews.com!transit3.readnews.com!panix!not-for-mail
+Message-ID: <mddhaviz88u.fsf_-_@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: alt.folklore.computers
+Subject: Extended-addressing TECO [was Re: Hard Disk Drive Construction]
+Date: 14 May 2012 18:51:45 -0400
+References: <vmrdq7divtutr83t808g6813rljsrkdjno@4ax.com> <ylfkaa1hkxsy.fsf@dd-b.net> <joeqie$gsg$1@dont-email.me> <ylfk62c4f5e1.fsf@dd-b.net> <joheuo$6fb$1@dont-email.me>
+Lines: 50
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1337035906 5276 166.84.1.5 (14 May 2012 22:51:46 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Mon, 14 May 2012 22:51:46 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 22.3
+Xref: cartman.offog.org alt.folklore.computers:319840
+
+Morten Reistad <first@last.name> writes:
+
+> In article <ylfk62c4f5e1.fsf@dd-b.net>,
+> David Dyer-Bennet  <dd-b@dd-b.net> wrote:
+>> Morten Reistad <first@last.name> writes:
+
+>>> In article <ylfkaa1hkxsy.fsf@dd-b.net>,
+>>> David Dyer-Bennet  <dd-b@dd-b.net> wrote:
+>>>> "Rod Speed" <rod.speed.aaa@gmail.com> writes:
+
+>>>>> Peter Flass <Peter_Flass@Yahoo.com> wrote
+>>>>>> Walter Banks wrote
+>>>>>>> jmfbahciv wrote
+
+>>>>>> I remember first encounterung a fullscreen editor - ISPF - it was
+>>>>>> like someone turned on the lights!
+
+>>>>> And I was so keen in the idea that I wrote one that got used for years
+>>>>> and years, in Teco. 
+
+>>>> Huh, guy named Richard Stallman did that, too.  I used his version back
+>>>> in 1981 and for a while.
+
+>>> Some of us still use it, even with the lack of extended addressing support.
+>>> That seems to be  teco limitation, though.
+
+>>> Or we use newfangled clones, like the one I use right now.
+
+>> Yeah, I use newfangled clones regularly.  Actually, this-here one was
+>> also written by RMS.
+
+> regarding the original one; has anyone gotten it to run with a teco that
+> supports extended addressing yet? 
+
+> Or do we have to extend teco, which I don't have sources to, ourselves first?
+
+We have to extend TECO itself, first, which will break it for ITS, since that
+does not understand extended addressing (in user-mode programs).
+
+Old, OLD .sig read in part:
+
+    Rich Alderson                   Current maintainer, MIT TECO EMACS (v. 170)
+
+Funniest moment was when I submitted a Y2K fix for the TIME :EJ library to
+comp.emacs and gnu.emacs, and got responses from RMS and KMP.
+
+-- 
+Rich Alderson                                   news@alderson.users.panix.com
+    the russet leaves of an autumn oak/inspire once again the failed poet/
+    to take up his pen/and essay to place his meagre words upon the page...

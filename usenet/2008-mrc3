@@ -1,0 +1,104 @@
+From newsserver@localhost  Fri May  2 04:07:31 2008
+Path: uni-berlin.de!fu-berlin.de!newshub.sdsu.edu!news.alt.net!news.u.washington.edu!Tomobiki-Cho.CAC.Washignton.EDU!MRC
+Message-ID: <alpine.WNT.1.10.0805011816520.5992@Tomobiki-Cho.CAC.Washignton.EDU>
+From: Mark Crispin <MRC@Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: gcc for the PDP-10
+Date: Thu, 1 May 2008 18:46:44 -0700
+References: <87tzhxzs00.fsf@news.bourguet.org> <alpine.OSX.1.10.0804230715420.5999@pangtzu.panda.com> <5_qdncvVZuCpFpLVnZ2dnUVZ_jCdnZ2d@comcast.com> <g9bpuf.uge1.ln@eden.reistad.name> <C6KdnWjiL4tQoI3VnZ2dnUVZ_vyinZ2d@comcast.com>
+ <alpine.OSX.1.10.0804240825380.8251@pangtzu.panda.com> <ScKdnWn9N8vhS43VnZ2dnUVZ_qmlnZ2d@comcast.com> <alpine.OSX.1.10.0804241211470.8251@pangtzu.panda.com> <n56dnatqGI0-eY3VnZ2dnUVZ_ournZ2d@comcast.com> <alpine.WNT.1.10.0804241414460.5420@Tomobiki-Cho.CAC.Washignton.EDU>
+ <pOWdnV9PNvsG3o_VnZ2dnUVZ_jydnZ2d@comcast.com> <alpine.WNT.1.10.0804251607240.5332@Tomobiki-Cho.CAC.Washignton.EDU> <m363u5b08f.fsf@donnybrook.brouhaha.com> <a7qdnZOS9vdEbY_VnZ2dnUVZ_qCunZ2d@comcast.com> <m38wyyq5lc.fsf@donnybrook.brouhaha.com>
+ <ONWdnbW0-_fSqYjVnZ2dnUVZ_qHinZ2d@comcast.com> <mddy76yd4fx.fsf@panix5.panix.com> <m3ve20drww.fsf@donnybrook.brouhaha.com> <mddhcdhsm4l.fsf@panix5.panix.com> <G9-dndtqgqlyx4fVnZ2dnUVZ_h-vnZ2d@comcast.com>
+Lines: 80
+Organization: UW Technology
+Sender: mrc@ndcms.cac.washington.edu
+NNTP-Posting-Host: tomobiki-cho.cac.washington.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1209692830 11157 128.95.135.58 (2 May 2008 01:47:10 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Fri, 2 May 2008 01:47:10 +0000 (UTC)
+In-Reply-To: <G9-dndtqgqlyx4fVnZ2dnUVZ_h-vnZ2d@comcast.com>
+User-Agent: Alpine 1.10 (WNT 1031 2008-04-10)
+Xref: cartman.offog.org alt.sys.pdp10:50020
+
+On Thu, 1 May 2008, glen herrmannsfeldt posted:
+> How many instructions does it take to load a byte from
+> an arbitrary byte address?  Assume nine bits to make it
+> easier.
+>
+> How many to load a halfword from an arbitrary halfword
+> address?  Assume not using byte pointer instructions,
+> but use EX and H instructions.
+
+This isn't as insightful or useful a question as it may seem, due to the 
+PDP-10 XCT instruction and the ambiguity of what constitutes a "halfword 
+address."
+
+Byte instructions entail both a machine instruction and a pointer in a 
+separate word.  Halfword instructions entail a machine instruction with an 
+immediate value for the pointer.
+
+So, the issue comes to a question of when, and how, the pointer is 
+constructed.  If construction is at compile time, then halfword 
+instructions win for the simple fact that a separate pointer word isn't 
+needed.
+
+The difficulty of constructing a byte pointer vs. the appropriate halfword 
+instruction at runtime is approximately equivalent.  There are various 
+tricks that you can do with either to be a bit more clever than the 
+straightforward code.  For example, if your processor has CIRC (which ITS 
+and Panda KLH10 based systems do) you can divide by powers of 2 faster 
+than using divide.
+
+Byte pointers have an autoincrement mode which is useful, as well as an 
+instruction to add/subtract to a byte pointer.
+
+But the bottom line is "it all depends".  I can come up with a very 
+compelling argument for why byte instructions are better than halfword 
+instructions, or vice versa.  I can come up with equally compelling 
+arguments to debunk the very same argument that I just make.
+
+Here's an example off the top of my head.
+
+Let's say, for the purpose of argument, that a pointer is an integer 
+reflecting an address, assigned MSB first in each word as in normal PDP-10 
+bytes.  Thus, with 9-bit bytes, pointer 4301 would be the 000777,,000000 
+bits of word 106.
+
+Now, with absolutely no attempt to be clever, we have:
+
+To address a 9-bit byte from PTR:
+ 	MOVE 1,PTR
+ 	IDIVI 1,4
+or:
+ 	LDB 1,[POINT 18,PTR,33]
+ 	LDB 2,[POINT 2,PTR,35]
+or
+ 	MOVE 1,PTR
+ 	SETZ 2,
+ 	CIRC 1,-2
+
+then:
+ 	LDB 1,[POINT 9,(1),8
+ 	       POINT 9,(1),17
+ 	       POINT 9,(1),26
+ 	       POINT 9,(1),35](2)
+
+To address an 18-bit byte from PTR:
+ 	MOVE 1,PTR
+ 	TRNE 1,1
+ 	 SKIPA 2,[HLRZ 1,(1)]
+ 	  MOVE 2,[HRRZ 1,(1)]
+ 	LSH 1,-1
+ 	XCT 2
+
+Note that I said "with absolutely no attempt to be clever".  I can think 
+of several ways off the top of my head to do this in fewer instructions. 
+Stew Nelson can come up with more...
+
+-- Mark --
+
+http://staff.washington.edu/mrc
+Science does not emerge from voting, party politics, or public debate.
+Si vis pacem, para bellum.

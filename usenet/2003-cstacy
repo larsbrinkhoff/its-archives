@@ -1,0 +1,107 @@
+From newsserver@localhost  Sun Feb 23 05:00:14 2003
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!peernews.mcc.ac.uk!zen.net.uk!news-xfer.cox.net!newsfeed.news2me.com!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc02.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <uvfzc195q.fsf@dtpq.com>
+From: cstacy@dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: Eliza
+Date: Sat, 22 Feb 2003 18:07:32 GMT
+References: <ld3e4vsjjlatd1gaf7ao7jlf4hn0q87t2m@4ax.com> <howard-E34FC6.22483309022003@enews.newsguy.com> <b279tv$l31$1@freenet9.carleton.ca> <20030210082901.6ef9d357.steveo@eircom.net> <b2b0b5$lee$7@bob.news.rcn.net> <b2c01h$1b7tsc$3@ID-89913.news.dfncis.de> <b2dkuv$9v8$5@bob.news.rcn.net> <3E4AC918.99E8083B@ev1.net> <b2g3qa$e58$5@bob.news.rcn.net> <v4nbeat07qjud9@corp.supernews.com> <b2ged4$3lv$7@bob.news.rcn.net> <BA7482659668D40E@10.0.1.3> <3E519BA0.F76BE1AB@gazonk.del> <3E51B9BB.918B553D@yahoo.com> <mddr8a5tj7p.fsf@panix5.panix.com> <BA7B20F696685829@10.0.1.2> <uwujukohb.fsf@dtpq.com> <3E56A20F.4A38364E@cits1.stanford.edu> <uznop154n.fsf@dtpq.com> <b38ahd$lfd$1@eeyore.INS.cwru.edu>
+Lines: 87
+Sender: cstacy@BONK
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 8bit
+NNTP-Posting-Host: 68.160.161.205
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc02.gnilink.net 1045937252 68.160.161.205 (Sat, 22 Feb 2003 13:07:32 EST)
+NNTP-Posting-Date: Sat, 22 Feb 2003 13:07:32 EST
+Xref: cartman.azz.us-lot.org alt.folklore.computers:67355
+
+>>>>> On 22 Feb 2003 17:03:41 GMT, Natarajan Krishnaswami ("Natarajan") writes:
+
+ Natarajan> On Sat, 22 Feb 2003 01:22:20 GMT, Christopher C. Stacy <cstacy@dtpq.com> wrote:
+ >> They do not include TECO at all.
+ Natarajan> (Yeah, I know you were talking about MULTICS EMACS et al.,
+
+Actually, I was talking about the original EMACS, which was 
+written for an operating system called ITS, and ran on the PDP-10.
+
+ITS is where most of the development of TECO, LISP, and a bunch 
+of other things happened.  It was only used at Project MAC,
+and was invented because CTSS was insufficient and Multics
+was not yet available and had incompatible design goals anyway.
+Commercially available "monitors" weren't even worth mentioning.
+
+TECO was originally written at MIT, and a very ancient vesion
+of it at some point escaped to the outside world (along with 
+it's originator).  Meanwhile, development of the TECO language 
+continued on at MIT, full-blast for about a decade.  The result
+was a very powerful version of TECO, in which EMACS was written.
+
+A number of people were principal developers of that version of TECO.
+Among them was Richard Stallman, who later went on to start all over
+again by writing GNU Emacs (which has nothing to do with TECO).
+
+The version of TECO that is most widely known is the ancient version
+that lacks all the features needed to be a full-fledged programming
+language -- you could _not_ write a sophisticated program (eg. EMACS)
+in it.  It was just a text editor, not a language with which you
+could implement a more powerful text editor.
+
+At MIT, we considered our suped-up version of TECO to be the genuine
+program (since it was the original program and had been on a continual
+development path in the lab there), and we called it simply "TECO".  
+The poor-man's TECO that the rest of the world had was referred to 
+as "DEC TECO", when it was referred to at all (usually in trying to
+clear up some kind of confusion about EMACS).   
+
+I believe the other folks had the corresponding bias, and called 
+their losing version of TECO simply "TECO", and called our version 
+(when they were aware of it at all) "MIT TECO" or "ITS TECO".
+
+The good TECO was eventually ported to the TOPS-20 operating system so
+that people could run EMACS, so some people became familiar with it that way.  
+I always forget whether it was also ported to TENEX or TOPS-10.
+Someone here will remind me whether TECO EMACS was available on those
+operating systems; we didn't have them at Project MAC.  But I suspect
+that it might at least been on TENEX, because some of the authors
+(mentioned earlier) of some well-known TECO/EMACS libraries were working
+occasionally at BBN at the time.  (On the other hand, I also remember
+one of them coming back to lab and one day complaining about how awful
+it was that they didn't have access to the real thing at BBN.)
+
+A version of DEC TECO was also written for the PDP-11.
+
+You could do all the things in (ITS) TECO that you could do in DEC
+TECO, and before EMACS came along, people used raw TECO and other 
+TECO libraries (some of which were later incorporated into EMACS).
+One EMACS command was escape sequence that would let you enter raw
+TECO commands, so you could switch back between EMACS and TECO while
+editing.  And of course, the whole point of EMACS is that you can
+modify it and customize it and add additional features, all of which
+was done in TECO.  Your EMACS init file was, in fact, just a TECO init
+file that would be loaded when you started EMACS.  
+It would contain things like this:
+
+1:< m(m.mLoad Library)TMACS		!* Maybe load TMACS                !
+    m.m^R Select Bufferu:.x()	!* C-X C-B does winning buffer hack!
+    m.m^R Just One Spaceu.. 	!* M-Space does Just One Space     !
+    m.m^R Draw Vertical Lineu..| >	!* M-| draws vertical line on ITS  !
+
+ Natarajan> <ftp://ftp.cis.ohio-state.edu/pub/emacs-lisp/old-archive/packages/teco.el.Z>
+ Natarajan> but I figured that was as perfect a cue as I could ask for.  ;-)
+
+That link is to a (Lisp) library for GNU Emacs, but what that package
+does is implement some version of the poor man's ("DEC") TECO (or some
+subset of it, anyway).  This is not by a long shot the TECO language
+in which EMACS was implemented in.
+
+I think Natarajan knows this, but, just in case anyone's still confused: 
+this library has no bearing on the (earlier mis-stated) history 
+of the evolution of EMACS, except as a funny little coda.
+
+With all the possibilities of things like that running around, 
+it's no wonder that people could get so confused about the facts.
+(But I do think it's weird when they just start making up random
+stories and try to pass them off as facts and history.)

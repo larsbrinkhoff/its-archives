@@ -1,0 +1,38 @@
+From newsserver@localhost  Sat Feb 21 11:02:18 2004
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!mimas.salford.ac.uk!peernews.mcc.ac.uk!peernews.manap.net!zen.net.uk!fuller.zen.co.uk!in.100proofnews.com!in.100proofnews.com!cycny01.gnilink.net!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc01.gnilink.net.POSTED!8b1f9295!not-for-mail
+Message-ID: <u1xoox5w1.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: bit.listserv.ibm-main,alt.folklore.computers
+Subject: Re: Oldest running code
+Date: Sat, 21 Feb 2004 07:12:49 GMT
+References: <!~!UENERkVCMDkAAQACAAAAAAAAAAAAAAAAABgAAAAAAAAAOTAy04Tn1xGX9gAEWocH5MKAAAAQAAAAafAJLwysfUO5N97um9LUJQEAAAAA@netzero.com> <012601c3f7d1$e2efd5a0$0e00a8c0@bt.net> <llmxi099.fsf@earthlink.net>
+Lines: 19
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.145.123
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc01.gnilink.net 1077347569 68.163.145.123 (Sat, 21 Feb 2004 02:12:49 EST)
+NNTP-Posting-Date: Sat, 21 Feb 2004 02:12:49 EST
+Xref: cartman.azz.us-lot.org alt.folklore.computers:104731
+
+>>>>> On Sat, 21 Feb 2004 03:23:32 GMT, Anne & Lynn Wheeler ("Anne") writes:
+ >> I wrote one programme in around 1973 which I know survived into the
+ >> 1990s in production - used hundreds and possibly thousands of times
+ >> a day in a major datacentre.
+
+ Anne> does GML count as a programming language? ... possibly have some stuff
+ Anne> from 71 or 72 ... but probably doesn't still run w/o doing some simple
+
+I am actively using programs that were originally written in the late
+1960s and has been continuously developed since that time (the most
+recent significant work being Y2K fixes).  The software that I'm
+talking about includes TECO, EMACS, and MACLISP on the ITS operating
+system. This is running on an emulated PDP-10 (hosted atop an x86
+Linux box).  This is continuous -- the emulation (not my instance) 
+was running prior to turning off the last hardware PDP-10s at MIT 
+in late 1980s.  The emulator was written by Ken Harrenstein, and I 
+think the first time I saw it running was on an early Apple laptop.
+
+(It can also run TOPS-20, but that OS is of course much more recent.)

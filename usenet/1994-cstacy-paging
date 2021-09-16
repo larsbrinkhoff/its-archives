@@ -1,0 +1,35 @@
+From 5755147453179051564
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,c58c10c42226083c,start
+X-Google-Attributes: gidfdb0e,public
+X-Google-ArrivalTime: 1994-11-06 04:50:57 PST
+Newsgroups: alt.sys.pdp10
+Path: nntp.gmd.de!Germany.EU.net!EU.net!uunet!world!cstacy
+From: cstacy@world.std.com (Christopher C Stacy)
+Subject: Re: ITS Paging
+Message-ID: <CyuJoy.K5C@world.std.com>
+Reply-To: cstacy@spacy.Boston.MA.US
+Organization: The World @ Software Tool & Die
+References: <ENDERS.94Nov4134057@warp6.cs.misu.nodak.edu>
+Date: Sun, 6 Nov 1994 12:50:57 GMT
+Lines: 18
+
+   enders@warp6.cs.misu.nodak.edu (Todd Enders A262 857-3018) asks
+   how ITS style paging works at the hardware level.
+
+The short answer is that addresses were divided logically into 8 bits
+of page number and 10 bits of word address (256 pages of 1024 words).
+The paging box sits between the processor and the memory bus, taking
+bits 18-25 as the page number, and outputting bits 17-25 onto the bus.
+(MA 26-35 just come from the processor.)  The page tables are stored
+in core, and a bunch of associative registers and an aging counter
+formed a sort of page-table cache.  Faulting instructions were aborted
+before they side-effected, set the Memory Protect flag (b22 in CONI APR)
+and requested an interrupt on the processor channel; the paging device
+kept copies of the PC and flags to recover the state.
+
+An instruction (opcode 120) was added to hack the paging device:
+it transferred the state-block, cleared the Associative memory, etc.
+
+The pager also implemented the MAR, One-Proceed, and JPC features.
+

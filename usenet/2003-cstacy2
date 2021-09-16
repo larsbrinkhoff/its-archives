@@ -1,0 +1,112 @@
+From newsserver@localhost  Tue Feb 25 05:00:15 2003
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!peernews.mcc.ac.uk!zen.net.uk!fu-berlin.de!cox.net!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc02.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <uk7fqcl67.fsf@dtpq.com>
+From: cstacy@dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: Eliza
+Date: Mon, 24 Feb 2003 05:17:06 GMT
+References: <b2dkuv$9v8$5@bob.news.rcn.net> <3E4AC918.99E8083B@ev1.net> <b2g3qa$e58$5@bob.news.rcn.net> <v4nbeat07qjud9@corp.supernews.com> <b2ged4$3lv$7@bob.news.rcn.net> <BA7482659668D40E@10.0.1.3> <3E519BA0.F76BE1AB@gazonk.del> <3E51B9BB.918B553D@yahoo.com> <mddr8a5tj7p.fsf@panix5.panix.com> <BA7B20F696685829@10.0.1.2> <uwujukohb.fsf@dtpq.com> <3E56A20F.4A38364E@cits1.stanford.edu> <uznop154n.fsf@dtpq.com> <b38ahd$lfd$1@eeyore.INS.cwru.edu> <uvfzc195q.fsf@dtpq.com> <995A2E81137B4E39.8A0B8D9272B15D29.3E99E48BEA6E4320@lp.airnews.net>
+Lines: 93
+Sender: cstacy@BONK
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.160.161.205
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc02.gnilink.net 1046063826 68.160.161.205 (Mon, 24 Feb 2003 00:17:06 EST)
+NNTP-Posting-Date: Mon, 24 Feb 2003 00:17:06 EST
+Xref: cartman.azz.us-lot.org alt.folklore.computers:67622
+
+>>>>> On Sun, 23 Feb 2003 06:15:30 -0500, Bernie Cosell ("Bernie") writes:
+
+ Bernie> } TECO was originally written at MIT, and a very ancient vesion
+ Bernie> } of it at some point escaped to the outside world (along with 
+ Bernie> } it's originator).
+
+ Bernie> "At some point" is a little disingenuous.  TECO ["Tape Editor
+ Bernie> and Corrector"] was written by Dan Murphy on and for the RLE
+ Bernie> PDP-1 in 1964 I think it was.
+
+I wasn't trying to be disingenuous.  Rather, I was not sure of the
+history of the version that was outside of MIT.  As you noted below,
+there was the original PDP-1 version.  I assumed that Dan Murphy took
+that with him, but I am less sure about whether that particular version
+of the code was the basis for the widespread "DEC TECO" on the PDP-10.
+Maybe I should have said "on at least one occassion".
+
+ Bernie> There are actually two 'ancient versions' that travelled
+ Bernie> about -- there was the PDP-1 version, which we used one form
+ Bernie> or another of well into the 70s, and the PDP-10 version
+ Bernie> (which DEC distributed, I think), which was fancier than the
+ Bernie> PDP-1 version but not as fancy as the ITS version.
+
+ Bernie> Is that true?  Did Dan Murphy actually have a hand in
+ Bernie> implementing ITS Teco, or was it implemented from scratch
+ Bernie> after he left?  I know that Dan *did* work some on the PDP-6
+ Bernie> at MIT, but I don't know if he ported TECO there [he probably
+ Bernie> did] and I *certainly* don't know if anything from the old
+ Bernie> PDP-6 survived when ITS was cobbled up..  Considering that
+ Bernie> TECO didn't *START* "in the lab there", your claim to
+ Bernie> authenticity is a bit strained, IMO -- there's no doubt that
+ Bernie> ITS TECO was the most overdeveloped and hacked-upon version,
+ Bernie> but there were other versions with as least, if not greater,
+ Bernie> a claim to be 'genuine'...
+
+Dan Murphy invented TECO on the PDP-1 at the spark chamber 
+in Building 26.  Much of the hacking on the program was done
+by other people from the Tech Model Railroad Club on the PDP-1
+that was brielfy located there while waiting for the new
+"Project MAC" to get its act (and its computer room) together.
+
+"ITS TECO" is what people who used "DEC TECO" called the program
+that "ITS TECO people" simply called "TECO".  The actual program
+in question was originated on the PDP-1, quickly ported to the
+PDP-6 because the PDP-1 was taken away after a few months.
+That same program, simply called "TECO", ran on that very
+same piece of PDP-6 hardware which also little while later ran 
+the ITS operating system.  The original TECO hackers were exactly 
+the same people who were the first Project MAC hackers.
+But it was a lot simpler to just say "the lab", since we're 
+only talking about one group of people and the same computer.
+
+There was continuous development of that same "TECO" program the 
+from the PDP-1 to the PDP-6, and on to the PDP-10.  Nobody there
+ever called it "ITS TECO" (even when it ran on ITS); it was just
+called "TECO", same name, same source files, same hackers, etc.
+
+Except of course, that there was another "TECO" out there
+at some point.  Well, maybe more than one other version.
+I am unfamiliar with the exact linneage of "DEC TECO", 
+which is why I said "at some point" in my message above.
+For example, if it was all based on an original root,
+that have come from the PDP-1, PDP-6 or PDP-10 version 
+of the original program at MIT.  I am sure that Dan Murphy
+could have gotten the latest version that everyone had been
+hacking the hell out of at any time he wanted after going to BBN.
+If I had to guess, I would think that DEC TECO is most likely
+based on an embryonic version from the PDP-6, not the PDP-1.
+
+The people who ported TECO to the PDP-6 were the same (other) people
+who hacked on the PDP-1 version of TECO.  The port was done over a
+weekend by Greenblatt, Nelson, and Holloway, but I don't think Murphy
+was there.  Those are the same people who did things like add support
+for ASCII to TECO on the PDP-1, and who later, along with a bunch of
+others, added most of the features to TECO on the PDP-6.  I think they
+are also the same hackers who brought you "340 Display Mode", evolving
+the program beyond its paper-tape origins into a visual editor.  
+They are also the same people who were writing ITS.
+
+In the context of the history of EMACS I thought people would want 
+to understand where EMACS's version of TECO came from.  In particular,
+the features that made it possible to write EMACS were invented
+during TECO's evolution when it was an ITS program, and originally
+EMACS necessarily only ran on ITS.  That's why, when they became aware
+of the program, people outside of that community called it "ITS TECO".
+
+My claim is merely that the people at MIT who hacked on TECO 
+from its original creation on the PDP-1 to the later years on ITS, 
+called their program simply "TECO", and that it represents the
+continous development path of the program.   (Also, that "DEC TECO"
+was viewed with some derision, when it was brought to their minds at all,
+which was approximately never.)  Whether anyone wants to label that as
+the "authentic" vesion of TECO is something I don't have an opinion about.

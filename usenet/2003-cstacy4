@@ -1,0 +1,43 @@
+From newsserver@localhost  Fri Oct 10 05:00:08 2003
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!server6.netnews.ja.net!feeder2.news.heanet.ie!newsfeed.esat.net!priapus.visi.com!news-out.visi.com!petbe.visi.com!news-out1.nntp.be!propagator2-sterling!news-in-sterling.nuthinbutnews.com!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc02.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <uismys7fe.fsf@dtpq.com>
+From: cstacy@dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: ITS "crash" command
+Date: Thu, 09 Oct 2003 16:27:17 GMT
+References: <pan.2003.10.09.14.56.52.272112@t-online.de>
+Lines: 24
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.138.194
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc02.gnilink.net 1065716837 68.163.138.194 (Thu, 09 Oct 2003 12:27:17 EDT)
+NNTP-Posting-Date: Thu, 09 Oct 2003 12:27:17 EDT
+Xref: cartman.azz.us-lot.org alt.folklore.computers:92714
+
+>>>>> On Thu, 09 Oct 2003 16:56:53 +0200, Joachim Pense ("Joachim") writes:
+
+ Joachim> I read somewhere that ITS had a "crash" command that was accessible to
+ Joachim> every user and would crash the system when used.
+
+ Joachim> The idea was that that way it was trivial to crash the
+ Joachim> system so nobody would try to invent tricks to do that.
+
+ Joachim> Is that story true? Is it known if and how often this
+ Joachim> command was used anyway, and what happened to people using it?
+
+No, that story is not true.
+
+However, the command for shutting down the system (in a normal
+manner)) was available to all users.  In fact, there was almost
+no security of any kind on the entire system.  It wasn't needed.
+This had nothing to do with reverse psychology.  It had everything 
+to do with the fact that the users on the machine were all assumed 
+to be reasonable people; who would go around crashing a computer?
+
+If someone used the shutdown command, then you would walk over
+to their office a few doors away and ask them why they did that.
+If they were not on campus, you would turn off their account
+and leave them a message asking why they did that.

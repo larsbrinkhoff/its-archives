@@ -1,0 +1,62 @@
+From newsserver@localhost  Tue Mar 27 04:04:44 2007
+Path: athena.ukc.ac.uk!feed4.jnfs.ja.net!jnfs.ja.net!peernews.mcc.ac.uk!zen.net.uk!demorgan.zen.co.uk!meganewsservers.com!feeder2.on.meganewsservers.com!nx01.iad01.newshosting.com!newshosting.com!130.81.64.211.MISMATCH!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny08.POSTED!8b1f9295!not-for-mail
+Message-ID: <yzl1wjbeczy.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: The interactive experience on yesterday's Unix?
+Date: Tue, 27 Mar 2007 00:39:18 GMT
+References: <slrnf07f1n.3nr.grahn+nntp@frailea.sa.invalid> <eu352o$8qk_001@s943.apx1.sbo.ma.dialup.rcn.com> <4607f3e0$1@darkstar>
+Lines: 43
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.0.92 (darwin)
+Cancel-Lock: sha1:xnMLy6ZA9L2XAR6wUSAip5Nhoms=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.239.87
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny08 1174955958 68.163.239.87 (Mon, 26 Mar 2007 20:39:18 EDT)
+NNTP-Posting-Date: Mon, 26 Mar 2007 20:39:18 EDT
+Xref: cartman.azz.us-lot.org alt.folklore.computers:190821
+
+eugene@cse.ucsc.edu (Eugene Miya) writes:
+> In article <eu352o$8qk_001@s943.apx1.sbo.ma.dialup.rcn.com>,
+>  <jmfbahciv@aol.com> wrote:
+>>In article <slrnf07f1n.3nr.grahn+nntp@frailea.sa.invalid>,
+>>   Jorgen Grahn <grahn+nntp@snipabacken.dyndns.org> wrote:
+>>>My question (if I have one) is: back in the late 1970s, when people
+>>>did Unix time sharing in places like Berkeley, what were response
+>>>times like?  (Assuming a fast terminal, or little output.)
+>
+> Largely depended on load and what people were doing.
+> Really long running programs were placed in the background.
+> Even in the Unix paper, it noted that BTLs was running a pi digits
+> computation in the idle portion of the kernel.  Vi (much less emacs)
+> had not yet come out.  Interaction was still pretty controversial in
+> some places.
+
+On a single-user system, TECO (interactive, real-time editing) was
+running with 340 display mode by at least 1964 on the PDP-6 at MIT.
+It was available under timesharing (ITS) around 1966.
+
+UNIX dates from late 1969: UNIX v1 came out in November 1971,
+and it was released as v6 about 4 years after that.
+
+By the time UNIX was invented, TECO had been a programmable display
+editor running under ITS for while.  The most popular TECO libraries
+were combined to form EMACS in 1974.  (There was also a primitive version
+of TECO on DEC's PDP-10 timesharing systems.)  Stanford had a display
+editor on their timesharing system (WAITS), earlier I am pretty sure.
+vi was part of BSD and was written in 1976, a decade after timesharing
+real-time display editors were well-known in the advanced research
+community (eg. Stanford and MIT).
+
+I have no idea how responsive vi was on those early BSD systems.
+TECO (and thus, EMACS) was only available on the PDP-10, but I
+would guess that it would not have been feasible under UNIX.
+ITS and Multics had much more elaborate terminal control subsystems
+than UNIX had (or has today, even), and were able to run Emacs fine.
+I guess if UNIX had appropriate support it could have been ported.
+
+PS. Note that the version of TECO most familiar to people reading this
+    newsgroup is probably "DEC TECO", which was a very ancient version
+    of TECO, lacking most of the important features that made EMACS possible,
+    that was ported from the PDP-1 at MIT where it originated in 1962.

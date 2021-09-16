@@ -1,0 +1,53 @@
+From 8847124097586318429
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,aab1fb6a679b2e5c,start
+X-Google-Attributes: gidfdb0e,public
+From: cz@alembic.crystel.com (Chris Zach)
+Subject: AI.AI.MIT.EDU is coming back online
+Date: 1999/02/23
+Message-ID: <7at1ej$ioj$1@callisto.clark.net>#1/1
+X-Deja-AN: 447310082
+Distribution: world
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=us-ascii
+Organization: IEEE Computer Society
+Mime-Version: 1.0
+Newsgroups: alt.sys.pdp10
+
+Ok. As they say: To everything, there is a time....
+
+I just got the new power lines run into my spare bedroom//computer room. Two 
+20amp 120 volt circuits, and a 20amp 240 volt circuit. Enough power to fire 
+up my 2020 (AI), a pair of RM03's, an RM80 (totally unformatted) and a TU77 
+(condition: Odd)
+
+Now, a question: When I try to boot off the TU77, I get a console error. 
+Checking the Massbus registers, it appears that the 20 is setting an "Invalid 
+density value" in the drive density CSR. Odd thing is I can't clear the error 
+by poking INIT commands into CSR1.
+
+Does the 20 support the TU77 as a boot device, or am I going to have to roll 
+a TU45 in here to get things up.
+
+Also does anyone have any diagnostics on RM03 packs (or even better, TOPS20)? 
+I ate one of my T20 packs in a head crash a few years ago.
+
+Speaking of which: The pack failed as follows: Years ago I tried to clean the 
+heads on an RM03 with 97% isopropyl alcohol and lintless swabs. Bad idea; 
+just touching the heads must have screwed the flying geometry. When I put the 
+pack in, and fired the drive up, the heads marched out and promptly gouged 
+scores into the media. Didn't do any seeks, just plugged the outside track.
+
+Would it be suicide to put this pack into another RM03? Anyplace left out 
+there that might be able to recondition a pack? Or was the outside track 
+track zero?
+
+Thanks
+Chris Zach
+(PS: Once the TU77 is running, ITS goes up)
+
+
+--
+Time to take time
+For Spring will turn to Fall
+In just no time at all...

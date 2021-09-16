@@ -1,0 +1,66 @@
+From 4104171346517065340
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,7bb0c708baa37bbc
+X-Google-Attributes: gidfdb0e,public
+X-Google-Thread: 10d0a0,3ed30fe3c948919f
+X-Google-Attributes: gid10d0a0,public
+X-Google-Thread: fd705,e30867464335c38e
+X-Google-Attributes: gidfd705,public
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Subject: Re: ooh, a *real* flamewar :)
+Date: 2000/04/09
+Message-ID: <Pine.NXT.4.30.0004091233330.6017-100000@Tomobiki-Cho.CAC.Washington.EDU>#1/1
+X-Deja-AN: 608819002
+References: <AtP94.8925$7S.6211@news20.bellglobal.com> <u7lesccvn.fsf@graphics.cornell.edu> <8bjmjp$jc1$1@agate.berkeley.edu> <uya74biy8.fsf@graphics.cornell.edu> <8bo6kb$4qv$1@agate.berkeley.edu> <38E0545F.3CA21138@netinsight.se> <38E767FD.D3D0BBE8@MA.UltraNet.Com> <x8l7lefvdnv.fsf@world.std.com> <38F081DB.F25A9D52@MA.UltraNet.Com>
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Complaints-To: help@cac.washington.edu
+X-Trace: nntp1.u.washington.edu 955310215 28188 (None) 140.142.17.35
+Organization: Networks & Distributed Computing
+Mime-Version: 1.0
+Newsgroups: alt.sys.pdp8,alt.sys.pdp10,alt.folklore.computers
+NNTP-Posting-User: neil
+
+OK.  Here are the facts with respect to the CALLI system call, operation
+41 (also called GETTAB), argument 112,,11:
+
+TOPS-10 implements this system call, a native TOPS-10 system call, in the
+kernel.
+
+TOPS-20 implements this system call in the TOPS-10 compatibility package
+(PA1050).  PA1050 is loaded automatically when a TOPS-10 system call is
+attempted; the machine instructions for the two sets of system calls do
+not overlap.  HOWEVER, as a special case check, CALLI 41 argument 112,,11
+is implemented by the kernel (routine GETPAT in FORK.MAC or MEXEC.MAC in
+older versions) to return the .CNT20 return; and the kernel will return
+this without loading PA1050.  This is the only TOPS-10 system call
+implemented by the TOPS-20 kernel.
+
+ITS implements this system call in the TOPS-20 compatibility package
+(DECUUO).  DECUUO is not loaded automatically, because TOPS-10 and ITS
+system calls have an overlap: TOPS-10 CALL overlaps with ITS .IOT, TOPS-10
+INIT overlaps with ITS .OPEN, and TOPS-10 CALLI overlaps with ITS .ACCESS.
+Fortunately, there are equivalents in the non-overlapping ITS .CALL UUO
+for .IOT, .OPEN, and .ACCESS so DECUUO can safely steal these without
+impacting its own function.  ITS has no special case check in the kernel's
+support code for .ACCESS for this GETTAB.  DECUUO, of course, supports it,
+but a program that wants to switch system call suites based upon this will
+probably lose on ITS.
+
+On Sun, 9 Apr 2000, Alan H. Martin wrote:
+> 	%CNMNT==112,,11	;MONITOR TYPE
+> 		CN%MNX==1B0	;STRANGE MONITOR
+> 		CN%MNT==77B23	;DEC-KNOWN TYPE
+> 			.CNT10==1	;TOPS-10
+> 			.CNITS==2	;ITS
+> 			.CNTNX==3	;TENEX
+> 			.CNT20==4	;TOPS-20
+> 			.CNTCX==5	;TYMCOM-X
+> 		CN%MNS==77B29	;DEC SUB TYPE
+> 		CN%MNC==77	;CUSTOMER SUBSUB TYPE
+
+-- Mark --
+
+* RCW 19.190 notice: This email address is located in Washington State.	*
+* Unsolicited commercial email may be billed $500 per message.		*
+Science does not emerge from voting, party politics, or public debate.
+

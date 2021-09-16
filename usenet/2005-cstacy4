@@ -1,0 +1,44 @@
+From newsserver@localhost  Tue Mar  1 02:00:14 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!canoe.uoregon.edu!cyclone1.gnilink.net!spamkiller.gnilink.net!gnilink.net!trnddc08.POSTED!8b1f9295!not-for-mail
+Message-ID: <upsylfltf.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Tops-10 disk quota quandary
+Date: Mon, 28 Feb 2005 02:41:17 GMT
+References: <Pine.WNT.4.63.0502221051280.4076@Tomobiki-Cho.CAC.Washington.EDU> <O7WdnXaQxtVt7oHfRVn-gA@rcn.net> <Pine.LNX.4.63.0502230909310.20308@shiva0.cac.washington.edu> <Xns96069B302BCB5thisisatestofthispc@69.28.186.158> <P_SdnaE6gJb5R4DfRVn-ig@rcn.net> <Pine.WNT.4.63.0502241057020.3232@Shimo-Tomobiki.panda.com> <WMadnRIr6Z2734LfRVn-pg@rcn.net> <Pine.WNT.4.63.0502250819130.164@Shimo-Tomobiki.panda.com> <uk6owict9.fsf@news.dtpq.com> <y6adnUYLJeqO_r3fRVn-uQ@rcn.net> <ull9byvc9.fsf@news.dtpq.com> <Mu6dnUomZfz0L7zfRVn-qw@rcn.net>
+Lines: 25
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.166.73
+X-Complaints-To: abuse@verizon.net
+X-Trace: trnddc08 1109558477 68.163.166.73 (Sun, 27 Feb 2005 21:41:17 EST)
+NNTP-Posting-Date: Sun, 27 Feb 2005 21:41:17 EST
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:43999
+
+If you asking about the responsiveness of the system, the answer 
+is that it was optimized for interactive sessions, and included
+features for providing real-time response (for doing things like
+controlling robot arms). It had job control features and scheduling
+features exceeding the capabilities of TOPS-10 or TOPS-20 (or any
+other system, actually).  It supported true full dynamic paging 
+(and of course page mapping, etc.).  This predated the TENEX pager;
+ITS used custom hardware on the KA, and custom microcode on the KL.
+User programs could advise the scheduling and the paging system.
+It used working sets.  I think that TOPS-20 may have had paging
+features that were better. ITS was a very low overhead system, 
+and ran much faster than TOPS-10 or TOPS-20,
+
+I'm not sure if that answers your question about "user throughput".
+
+Sometimes that term refers to IO throughput.  Typical users were
+doing things like redrawing their screens a lot while using EMACS,
+or telnetting or transferring files or email over the ARPANET (or 
+over our own local area network which was like Ethernet, but this 
+was all prior to the availability of any such commercial technology).
+Most terminals were at 9600 baud.  Some users employed the bit-mapped
+"TV" terminals, which ran more or less at the speed of the bus.
+
+If you're asking how many punched cards it could read at once,
+you're on the wrong planet.

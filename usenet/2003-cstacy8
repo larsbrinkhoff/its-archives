@@ -1,0 +1,113 @@
+From newsserver@localhost  Thu Nov  6 05:00:12 2003
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!diablo.dera.gov.uk!diablo.theplanet.net!news.maxwell.syr.edu!wn14feed!worldnet.att.net!199.45.49.37!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc03.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <u1xsn5jhw.fsf@dtpq.com>
+From: cstacy@dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: advice on setting up pdp-10 emulator
+Date: Wed, 05 Nov 2003 08:04:27 GMT
+References: <Pine.LNX.4.58-035.0311031214370.8565@unix44.andrew.cmu.edu> <mddism1mhfo.fsf@panix5.panix.com> <Pine.LNX.4.58-035.0311031334360.14374@unix44.andrew.cmu.edu> <mddfzh3wwp8.fsf@panix5.panix.com>
+Lines: 94
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.138.194
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc03.gnilink.net 1068019467 68.163.138.194 (Wed, 05 Nov 2003 03:04:27 EST)
+NNTP-Posting-Date: Wed, 05 Nov 2003 03:04:27 EST
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:42128
+
+>>>>> On 04 Nov 2003 18:17:07 -0500, Rich Alderson ("Rich") writes:
+ Rich> System calls:
+ Rich> Tops-10 utilizes a series of illegal instructions
+ [...]
+ Rich>  (Note that ITS uses the same mechanism, though the particular
+ Rich>  calls are very different.)
+
+ Rich> Tops-20 allows the use of user UUOs, though they are less commonly used than in
+ Rich> Tops-10 programs, but the system call is a single instruction, 104 (JSYS = Jump
+ Rich> to SYStem), with an immediate argument in the range 001 to 777 which selects
+ Rich> the desired function; args are passed via accumulators 1 to 4--long arg blocks
+ Rich> are passed by reference in the ACs.
+
+ITS started out using UUOs (since that what that machine feature was for), 
+and continued to support a bunch of them through its lifetime (some for
+backwards compatability, and some because UUOs were convenient and cheap).  
+
+But modern ITS programs generally invoked the system services 
+through the single UUO named ".CALL", which did a "symbolic" call.
+(CALL is similar to, but predates, and is maybe more flexible than 
+the JSYS UUO of TOPS-20.  On ITS, accumulators were not reserved 
+for .CALL'ed services - you could put your arguments and values
+anywhere you wanted.)
+
+The .CALL UUO specified AC 0, and the memory part of the word 
+pointed to a control block.  The idea was to give a regular syntax 
+for executing all system calls.  The control block contained the
+SIXBIT name of the operation to be performed, and opcode-operand pairs
+that described control bits and immediate or referenced parameters
+(such as AC or memory sources and destinations, data lengths, 
+channel numbers, etc.)
+
+Most system calls were written using a macro like this:
+
+DEFINE SYSCAL NAME,ARGS
+	.CALL [SETZ ? SIXBIT /NAME/ ? ARGS ((SETZ))]
+TERMIN
+
+(Those SETZs are magic cookies that bound the control block.)
+
+Here's an example of opening an output channel on the user's TTY:
+
+SYSCAL OPEN,[%CLBIT,,.UAO ? %CLIMM,,TTYO ? [SIXBIT /TTY/]]
+ .LOSE %LSFIL
+
+This is a generic OPEN call: the first arg is giving control bits, 
+the second arg is an immediate operand giving the channel number
+(symbolically defined somewhere as TTYO), and the last parameter 
+is giving the device name.
+
+The call above is followed by a .LOSE UUO call; all .CALL calls 
+skip on success.  The .LOSE UUO is the standard way to signal a 
+fatal program error.  The job's PC is pointed to the preceeding
+instruction (ie., the failing system call), the job's return
+value is set to the indicated magic bits, and the job is given
+an interrupt.  The upshot of all that is that the user is returned
+to the command shell (DDT) and the magic bits are used to provide
+the information needed to know how to construct a nice error message.  
+%LSFIL refers to a file operation, so the shell would generate the
+error message from the failed call's error code, looking in the
+call's control block to find the relevent file name.
+
+Here's a random example from an application's interrupt handler:
+
+IOCINT: .SUSET [.RBCHN,,A]         ;See which channel is erring.
+        CAIE A,DSKO                ;If it is not the disk output channel
+         JSR AUTPSY                ;  we are in trouble.
+        SYSCAL STATUS,[A ? %CLOUT,,B]
+         JSR AUTPSY
+        LDB A,[330500,,B]          ;Get the error code.
+
+Note the use of the SUSET UUO to read the job's own status variables.
+Although there were (usually more featureful) symbolic versions of all
+or just about all the old UUOs, sometimes it was just convenient to 
+call the functionality in the old way.
+
+Notice also the sad lack of a defined symbol for the byte pointer 
+to get the error code out of the STATUS call's result (which we 
+asked to be placed in B), sigh.
+
+Speaking of style and optimization, though...
+        IFNDEF NOP,NOP=:<IFN CPU%KL,{TRN}.ELSE {JFCL}>
+
+Anyway, in this example program, the AUTPSY routine is a fancy
+fatal error handler, which eventually would do something like:
+
+        SYSCAL LOSE,[%CLIMM,,%LSFIL ? AUTPSY]      ;Else say what went wrong.
+         NOP
+        .LOGOUT 1,
+
+In that case, we're using the symbolic (not UUO) version of the 
+"LOSE" system call; it lets us specofy the failing PC to analyze 
+(as opposed to the normal PC-minus-1).  The .LOGOUT UUO just does
+what you think: terminates the job.

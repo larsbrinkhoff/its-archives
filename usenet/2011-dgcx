@@ -1,0 +1,32 @@
+From newsserver@localhost  Mon May 23 04:04:03 2011
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!35g2000prp.googlegroups.com!not-for-mail
+Message-ID: <34020f05-8b20-46ad-bce1-cbd921857058@35g2000prp.googlegroups.com>
+From: Dave Conroy <dgcx@mac.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: PDP-10/X progress
+Date: Sun, 22 May 2011 18:33:43 -0700 (PDT)
+References: <d2636f4a-d8f4-41fc-a908-c54c14029963@l2g2000prg.googlegroups.com> <mddy61yw7r5.fsf@panix5.panix.com>
+Lines: 11
+Organization: http://groups.google.com
+NNTP-Posting-Host: 76.199.102.50
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+X-Trace: posting.google.com 1306114424 11803 127.0.0.1 (23 May 2011 01:33:44 GMT)
+X-Complaints-To: groups-abuse@google.com
+NNTP-Posting-Date: Mon, 23 May 2011 01:33:44 +0000 (UTC)
+Complaints-To: groups-abuse@google.com
+Injection-Info: 35g2000prp.googlegroups.com; posting-host=76.199.102.50; posting-account=FnmqaQoAAABLwdMv4ZAIHpOIirD1BemN
+User-Agent: G2/1.0
+X-HTTP-UserAgent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-us)
+ AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4,gzip(gfe)
+Xref: cartman.offog.org alt.sys.pdp10:56863
+
+Once I get enough stuff working (and I think I am close to that point
+now) I plan to do some tidy-up, and then put all of my RTL, modified
+ITS files, and home-grown tools (I have, for example, a large set of
+commands for manipulating ITS filesystems) in some public place. The
+bulk of the changes are to ITS, and are in the ITS10X directory, which
+started off as the contents of the KSHACK directory. Most other
+changes are small, and are related to not being in Cambridge (pacific
+time zone, tides in Half Moon Bay) or the government (new daylight
+time rules). I know exactly what files I changed.

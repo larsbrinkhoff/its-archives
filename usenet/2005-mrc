@@ -1,0 +1,54 @@
+From newsserver@localhost  Tue Mar 15 02:00:11 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!arclight.uoregon.edu!news.u.washington.edu!shiva1.cac.washington.edu!mrc
+Message-ID: <Pine.LNX.4.63.0503132215470.14577@shiva1.cac.washington.edu>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS networking under KLH10 (was: Re: problems building an ITS
+ system)
+Date: Sun, 13 Mar 2005 22:22:24 -0800
+References: <42238e99$0$11720$8fcfb975@news.wanadoo.fr> <u1xax3l82.fsf@news.dtpq.com>
+ <422a5d14$0$11703$8fcfb975@news.wanadoo.fr> <ufyz9tigd.fsf@news.dtpq.com>
+ <422b2d4c$0$11698$8fcfb975@news.wanadoo.fr> <uhdjnojr0.fsf@news.dtpq.com>
+ <422cb2e1$0$3125$8fcfb975@news.wanadoo.fr> <uoedv16cv.fsf@news.dtpq.com>
+ <slrnd2qatu.5m2.sam@ankaa.homedns.org> <uacpe1tff.fsf@news.dtpq.com>
+ <42324c72$0$3140$8fcfb975@news.wanadoo.fr> <uoedp70ml.fsf@news.dtpq.com>
+ <4233017b$0$25055$8fcfb975@news.wanadoo.fr> <uekekhe36.fsf@news.dtpq.com>
+ <42337f51$0$3106$8fcfb975@news.wanadoo.fr> <Pine.WNT.4.63.0503130108160.3632@Shimo-Tomobiki.panda.com>
+ <423481e1$0$19319$8fcfb975@news.wanadoo.fr> <e-mail-1303051228210001@localhost>
+ <42349af5$0$3120$8fcfb975@news.wanadoo.fr> <e-mail-1303051428110001@localhost>
+ <4234d6b7$0$1251$8fcfb975@news.wanadoo.fr> <Pine.LNX.4.63.0503131937150.11211@shiva1.cac.washington.edu>
+ <423507df$0$12696$626a14ce@news.free.fr>
+Lines: 23
+Organization: University of Washington
+NNTP-Posting-Host: shiva1.cac.washington.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1110781345 29073 140.142.37.171 (14 Mar 2005 06:22:25 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Mon, 14 Mar 2005 06:22:25 +0000 (UTC)
+In-Reply-To: <423507df$0$12696$626a14ce@news.free.fr>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:44258
+
+On Sun, 14 Mar 2005, Sam Zoghaib wrote:
+> Mark Crispin <mrc@CAC.Washington.EDU> wrote:
+>> IIRC, the IP address is configured into the ITS kernel at assembly time,
+>> so you have to make sure that it is the same as what you set in klh10.
+> I did assemble ITS with that IP address (192.168.0.51)
+
+Well, then, I don't know what's wrong.  Chris Stacy is probably the best 
+person to talk to, since he's the most active person doing ITS development 
+these days.  He's a good guy to know if you're going to be doing much with 
+ITS.
+
+Most of my knowledge of ITS is from the halcyon 3*KA10 (AI, ML, DM) + 
+1*KL10 (MC) days of 30 years ago, although I do have a (real) KS10 based 
+ITS system (PM).  I remembered enough to debug ITS' RM03 support (RMs 
+interrupt in a different way than RPs), but I have forgotten much of what 
+I once knew and a lot changed in the late 1980s when ITS was entirely on 
+KS systems.
+
+-- Mark --
+
+http://staff.washington.edu/mrc
+Science does not emerge from voting, party politics, or public debate.
+Si vis pacem, para bellum.

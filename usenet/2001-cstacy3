@@ -1,0 +1,27 @@
+From newsserver@localhost  Wed May  2 16:08:44 2001
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet!dispose.news.demon.net!demon!europa.netcrusader.net!208.184.7.66!newsfeed.skycache.com!Cidera!news-reader.ntrnet.net!uunet!ash.uu.net!world!news
+Message-ID: <ug0f0zf6w.fsf@spacy.Boston.MA.US>
+From: Christopher Stacy <cstacy@spacy.Boston.MA.US>
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS security [Re: Bulletproofing Tops10]
+Date: Sun, 22 Apr 2001 23:29:27 GMT
+References: <z2Yz6.3296$Rj2.11602@NewsReader> <uwjE6.20966$vk1.25873@NewsReader> <uzod97rex.fsf_-_@spacy.Boston.MA.US> <0VvE6.21685$vk1.29136@NewsReader> <9bv851$cff$1@abbenay.CS.Berkeley.EDU> <CyIE6.21863$vk1.33911@NewsReader>
+Lines: 12
+Sender: CStacy@BONK
+NNTP-Posting-Host: ppp0b150.std.com
+Organization: The World @ Software Tool & Die
+X-Newsreader: Gnus v5.7/Emacs 20.7
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:3626
+
+You didn't have to enable colon commands; you had to enable certain
+dangerous things commands by setting variables in your login init file.
+For example, regarding job control: $$^X (:MASSACRE) is enabled by the
+MASSCP variable; GENJFL controls whether :FOO starts a new program FOO
+if you already have a job named FOO; CLOBRF controls whether FOO^K
+(start a new FOO) will clobber an existing FOO.  The CONFRM variable
+controls whether short commands like $$^X require a trailing "." on them.
+The DELWARN variable controls how the file deletion command ^O and the
+:LINK commands work: disabling them, degree of prompting, etc.
+
+Of course, these aren't security features: they are just user
+interface customizations.  ITS explicitly did not have security.

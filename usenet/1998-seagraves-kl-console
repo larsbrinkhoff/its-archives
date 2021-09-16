@@ -1,0 +1,55 @@
+From 7714223167382084515
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,77b70d9629451afa,start
+X-Google-Attributes: gidfdb0e,public
+From: Daniel Seagraves <root@bony.umtec.com>
+Subject: ITS Exec DDT/DTE20 question
+Date: 1998/12/17
+Message-ID: <Pine.LNX.3.96.981217133051.2952A-100000@bony.umtec.com>#1/1
+X-Deja-AN: 423351868
+Approved: Why bother?
+To: e10@cosmic.com, its-lovers@mc.lcs.mit.edu
+Organization: Planet Digital Network Technologies
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Mime-Version: 1.0
+Newsgroups: alt.sys.pdp10
+
+
+Having difficulties with the emulator and Exec DDT...  I'm currently
+trying to make it go.  I used xkleten to compile a SBLK binary of DDT 68,
+and then fed it to the emulator.  (I taught it to read SBLK files).
+The problem is at TYO3:, where something is going on I don't quite
+understand.  Relevant code follows, T=5 and it has the char read from the
+console.
+
+TY03:
+kl,[
+	PUSH P,T
+	ANDI T,177
+	PUSHJ P,XDTCM
+	POP P,T
+];kl
+	POPJ P,
+
+...  Further down ...
+
+XDTCM:	SETZM DTEFLG	;SEND ARG IN T TO 11, GET RESPONSE IN T
+	MOVEM T,DTECMD
+	CONO DTE,%DBL11
+	SKIPN DTEFLG
+	 JRST .-1
+	MOVE T,DTEF11
+	SETZM DTEFLG
+	POPJ P,
+
+What I don't understand is that the character read is being used as the
+command for the DTE20.  This could be ANYTHING.  What is the DTE20
+supposed to do here?  Or am I reading this different from what it's
+supposed to be?
+
+Daniel Seagraves | I'm an International Clandestine Arms Dealer!
+#!/bin/perl -sp0777i<X+d*lMLa^*lN%0]dsXx++lMlN/dsM0<j]dsj
+$/=unpack('H*',$_);$_=`echo 16dio\U$k"SK$/SM$n\EsN0p[lN*1
+lK[d2%Sa2/d0$^Ixp"|dc`;s/\W//g;$_=pack('H*',/((..)*)$/)
+What is this?  See http://www.dcs.ex.ac.uk/~aba/rsa | 36 BITS 4EVER!
+

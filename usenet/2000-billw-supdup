@@ -1,0 +1,39 @@
+From 6907167689000236727
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,3e5515f7ea4ee955
+X-Google-Attributes: gidfdb0e,public
+From: Bill Westfield <billw@flipper.cisco.com>
+Subject: Re: ITS CD (was Re: Wanna see how to annoy MRC? ^_^)
+Date: 2000/04/05
+Message-ID: <54zor9gcqq.fsf@flipper.cisco.com>#1/1
+X-Deja-AN: 606965530
+Cache-Post-Path: sj-nntpcache-3!unknown@flipper.cisco.com
+References: <Pine.LNX.4.10.10003180849470.6959-100000@bony.umtec.com>  	<Pine.LNX.4.10.10004030858500.3837-100000@bony.umtec.com>  	<8cbru6$s7n$1@saltmine.radix.net>  	<Pine.LNX.4.10.10004040849200.5364-100000@bony.umtec.com>  	<8ce3kl$iq6$1@saltmine.radix.net>
+Organization: Ye 'Ol Disorganized NNTPCache groupie
+X-Cache: nntpcache 2.4.0b2 (see http://www.nntpcache.org/)
+Newsgroups: alt.sys.pdp10
+X-Complaints-To: newsabuse@supernews.com
+
+    No.  Most tourists weren't telnetting in from elsewhere.  Most were on
+    TIPs.  MITRE-TIP and NBS-TIP were in Virginia.  ACCAT-TIP and AMES-TIP
+    were elsewhere.  They would support 300 bps dialup.  Some of them were
+    reputed to support 1200 bps, but since nobody I knew could afford a
+    1200 bps modem, it didn't matter.
+
+Minor nits:
+
+1) TIPs used telnet...
+2) 1200bps (vadic) modems appeared on the market in about 1980, right?
+   (at about $1/bps IIRC) Before that there were some 1200/150 split speed
+   modems (at stanford, maybe elsewhere?
+3) I dunno about "most people used tips."  I seem to recall that a lot of
+   people showed up as connected from other hosts.  Spent most of my time
+   on ITS via  a tops10 (with local terminals at a whopping 2400bps!)
+   running SUPDUP (had to write the SUPDUP program first, of course!) The
+   SUPDUP client I wrote was SO much faster than the tops10 telnet client,
+   perhaps largely because it used a larger bit allocation (which would
+   probably be called a "window" these days.)
+
+BillW   
+-- 
+(remove spam food from return address)

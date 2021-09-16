@@ -1,0 +1,43 @@
+From newsserver@localhost  Mon May 31 04:04:23 2010
+Path: uni-berlin.de!fu-berlin.de!news.uni-stuttgart.de!news.k-dsl.de!aioe.org!not-for-mail
+Message-ID: <htupbc$v3q$1@speranza.aioe.org>
+From: DMcCunney <plugh@xyzzy.com>
+Newsgroups: alt.folklore.computers
+Subject: Re: Information on obscure text editors wanted
+Date: Sun, 30 May 2010 18:37:32 -0400
+References: <hts28g$ib0$1@speranza.aioe.org>	<20100530114416.e278cba2.steveo@eircom.net>	<htu804$50r$2@speranza.aioe.org> <20100530192552.38858c9a.steveo@eircom.net>
+Lines: 26
+Organization: Aioe.org NNTP Server
+NNTP-Posting-Host: YFmtC0RZZRPYlqE8F7fxuA.user.speranza.aioe.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: abuse@aioe.org
+X-Notice: Filtered by postfilter v. 0.8.2
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.24) Gecko/20100228 Thunderbird/2.0.0.24 Mnenhy/0.7.6.666
+Xref: cartman.offog.org alt.folklore.computers:282011
+
+* Ahem A Rivet's Shot:
+> On Sun, 30 May 2010 13:41:26 -0400
+> DMcCunney <plugh@xyzzy.com> wrote:
+> 
+>> I wonder if it might be this:
+>> http://texteditors.org/cgi-bin/wiki.pl?ZED-DOC
+>>
+>> Professor Pratt originally wrote it in TECO, and later rewrote it in
+>> Mock-LISP for Gosling Emacs.
+> 
+> 	I don't think so - I don't believe we had TECO on the 370 and IIRC
+> this ZED was a homegrown Cambridge tool.
+
+Yes, I realized that after I sent the reply.  Professor Pratt's
+creation, used the TECO available under ITS on MIT's system, and made
+use of Control-R mode, which I don't believe was part of "standard" TECO.
+
+And I never heard of TECO being ported to IBM big iron.
+
+Tom Almy has ports of for MS-DOS, OS/2, Windows Console, Linux, and Mac
+OS/X at  http://www.almy.us/teco.html.  Almy's versions are based on
+Pete Siemsen's TECO-C, compatible with TECO-11 v40.
+______
+Dennis

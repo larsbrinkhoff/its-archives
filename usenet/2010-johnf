@@ -1,0 +1,40 @@
+From newsserver@localhost  Fri Jan 15 04:02:42 2010
+Path: uni-berlin.de!fu-berlin.de!news.glorb.com!npeer03.iad.highwinds-media.com!news.highwinds-media.com!feed-me.highwinds-media.com!nx01.iad01.newshosting.com!209.197.12.246.MISMATCH!nx02.iad01.newshosting.com!newshosting.com!novia!news-out.readnews.com!transit4.readnews.com!panix!not-for-mail
+Message-ID: <hioa7c$dms$1@reader1.panix.com>
+From: johnf@panix.com (John Francis)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Origins of the word Zork, for the adventure game
+Date: Thu, 14 Jan 2010 23:43:40 +0000 (UTC)
+References: <JNx2n.16638$w21.106@newsfe17.iad> <hieg47$1e5$1@reader1.panix.com> <mdd3a28e1bh.fsf@panix5.panix.com>
+Lines: 26
+Organization: Public Access Networks Corp.
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1263512620 14044 166.84.1.5 (14 Jan 2010 23:43:40 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Thu, 14 Jan 2010 23:43:40 +0000 (UTC)
+X-Newsreader: trn 4.0-test76 (Apr 2, 2001)
+Xref: cartman.offog.org alt.sys.pdp10:53815
+
+In article <mdd3a28e1bh.fsf@panix5.panix.com>,
+Rich Alderson  <news@alderson.users.panix.com> wrote:
+>
+>> Zork (known as DUNGEO on TOPS-10, DUNGEON on systems with longer filenames)
+>> was an MDL program originally written for ITS at MIT, but soon ported to the
+>> DEC 36-bit operating systems by a member of the LCG group.  Later on it too
+>> was reimplemented in FORTRAN and made available on PDP-11 operating systems.
+>
+>Somewhat confused.  There was a MDL interpreter for TOPS-20, so ZORK (AKA
+>MADADV) runs natively on that operating system.
+>
+>Bob Supnik's FORTRAN implementation (DUNGEO[N]) will of course run on a TOPS-20
+>system, but is not the only way to run ZORK there.
+
+Many TOPS-20 systems didn't have the MDL software on them, so there was a
+little matter of packaging etc. to make it easy to run ZORK/DUNGEO(n) on
+a vanilla 10/20.  Every time a new version of Zork came along this was re-
+done by one of the LCG guys (I won't post the name here); the full Zork
+sources were most definitely not publicly available in those days!
+
+I was not implying that the version running on the LCG machines (or on
+several other 36-bit machines in other facilities) was the FORTRAN port;
+that was for the 16-bit boxes.

@@ -1,0 +1,77 @@
+From -4832006254802767199
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,372239c77c92f4b0
+X-Google-Attributes: gidfdb0e,public
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Subject: Re: KL Console Commands
+Date: 1998/10/09
+Message-ID: <Pine.NXT.4.10.9810091325360.16942-100000@Tomobiki-Cho.CAC.Washington.EDU>#1/1
+X-Deja-AN: 399487314
+References: <Pine.LNX.3.96.980928112124.10870D-100000@bony.umtec.com>  <qhu31sc8nn.fsf@ruckus.brouhaha.com> <3613e9a8.18494117@news.clark.net>  <6uvli1$o2j$1@strato.ultra.net> <3615172c.19558816@news.clark.net>  <36149B71.237C@s054.aone.net.au> <361b6174.71109341@news.clark.net>  <6vfom2$326$1@ligarius.ultra.net>  <Pine.NXT.4.10.9810071335350.10928-100000@Tomobiki-Cho.CAC.Washington.EDU> <6viopm$9le$1@teabag.demon.co.uk> <6vkv9p$tba$4@ligarius.ultra.net> <361D8AA4.2781@s054.aone.net.au>
+To: "Mark & Suzanne (gcs might work)" <SPAMOFFPLS@s054.aone.net.au>
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Complaints-To: help@cac.washington.edu
+X-Trace: nntp1.u.washington.edu 907967504 9350 (None) 140.142.17.37
+Organization: Networks & Distributed Computing
+Mime-Version: 1.0
+Newsgroups: alt.sys.pdp10
+NNTP-Posting-User: swirly
+
+On Fri, 9 Oct 1998, Mark & Suzanne (gcs might work) wrote:
+> jmfbahciv@aol.com wrote:
+> > In article <6viopm$9le$1@teabag.demon.co.uk>,
+> >    cbh@REMOVE_THIS.teabag.demon.co.uk (Chris Hedley) wrote:
+> > >In article
+> > <Pine.NXT.4.10.9810071335350.10928-100000@tomobiki-cho.cac.washington.edu>,
+> > >       Mark Crispin <mrc@CAC.Washington.EDU> writes:
+> > >> ITS and TOPS-20 were both much more advanced operating systems than
+> > >> TOPS-10.
+> > >Dunno about anyone else, but I'm taking cover now.
+> > Why?
+> I think they expecting a flame from BAH or others in this group to 
+> tell them why TOPS-10 was really the better OS :)
+
+I doubt it.  All the PDP-10 OSs were fundamentally good, particularly
+compared to that abomination called VMS.
+
+> I guess I'd agree 
+> with the TOPS-20 since I have more of a single CPU business approach
+> to thinks and like what I see as TOPS-20. But again this is unfair
+> since I gave never logged onto WAITS and ITS and to a lesser degree
+> TOPS-10 though I have a stronger fealing of who it worked (documentation
+> wise).
+
+Well, I have extensive programming experience on TOPS-10, TOPS-20, ITS,
+Tenex, WAITS, and some of the TOPS-10 variants such as CompuServe and CMU.
+Excluding Tenex (which was essentially version 0.xxx of TOPS-20), all of
+these systems had unique features that made them special compared to all
+the others:
+
+TOPS-10		high performance, SMP, support for lots of CPUs (I don't
+		think PDP-6 support was flushed until 6 series, and KA
+		support wasn't flushed until 7 series) and devices.
+
+TOPS-20		a modern OS even by today's standards, albeit hampered by
+		a weak shell and a programming environment that assumes
+		that all the world is assembly language.  Better virtual
+		memory than any other PDP-10 OS or most modern OSs.
+
+ITS		type-independent dumb terminal support in the kernel,
+		albeit limited (the kernel supported two types of
+		Datamedias, but no ANSI terminals).  PCLSR (which no
+		other OS has).  MLDEV (user mode device drivers).  Great
+		hacker playground.
+
+WAITS		most advanced display support of all, not duplicated even
+		today.  Last shared code with TOPS-10 in 3.54 days, but
+		was extensively hacked even then.  Filesystem and device
+		drivers were completely different (most reliable
+		filesystem of any PDP-10 OS, the result of the world's
+		worst hardware).  Lots of funky devices.
+
+-- Mark --
+
+* RCW 19.149 notice: This email address is located in Washington State.	*
+* Unsolicited commercial email may be billed $500 per message.		*
+Science does not emerge from voting, party politics, or public debate.
+

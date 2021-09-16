@@ -1,0 +1,75 @@
+From newsserver@localhost  Sun Jul  1 01:42:45 2001
+Path: athena.ukc.ac.uk!server3.netnews.ja.net!newspeer.clara.net!news.clara.net!feed2.onemain.com!feed1.onemain.com!novia!news.dpc.net!sakura.lunar-tokyo.net!dseagrav
+Message-ID: <Pine.LNX.4.21.0106280806500.14339-100000@sakura.lunar-tokyo.net>
+From: Daniel Seagraves <dseagrav@sakura.lunar-tokyo.net>
+Newsgroups: alt.sys.pdp10
+Subject: OK, whoever wanted to run the ITS...
+Date: Thu, 28 Jun 2001 08:35:51 -0500
+Lines: 63
+Organization: Alliance Internet Technologies, LLC
+NNTP-Posting-Host: sakura.lunar-tokyo.net
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:4618
+
+
+Alright.  If you're going to do this, let's try going about it one step at
+a time, shall we?
+
+First, you need to make disk packs.  For this you need NSALV, the disk
+salvager.  NSALV 260 is the most current version I have.  In any case,
+first we have to put a .SBLK at the top of the source file so we get
+usable output...
+
+(Done and done...)
+
+Now, we're going to compile for KSRP06, which is a generic KS10 with one
+RP06 and one TM03.
+
+And now to compile...
+
+Toad@ MIDAS458 NSALV.260
+NSALVATION
+Which machine? KSRP06
+FORMAT MID included in this assembly
+FRN MID included in this assembly.
+UBSTST+11	204472	1.	67-008
+        RESET   Pseudo, macro or initial sym as label
+DSKTS2          206165   1.   103-044   Symbol table full                      
+Unterminated successful bracketed conditionals                                 
+The first was at 103-004 of file NSALV
+Error is fatal.
+Run time = 10.65
+7919 Symbols including initial ones (100% used)
+
+OK, so we need to make the symbol table bigger.
+You do this with .SYMTAB.
+I raised the symbol values to 5000 syms and 8003 literals.
+
+So we compile again...  And run out of symbols again.  Raised syms to
+8000 also...
+
+And MIDAS crashes.
+
+Here's the run:
+
+Toad@ MIDAS458 NSALV.260
+NSALVATION
+Which machine? KSRP06
+FORMAT MID included in this assembly.
+RFN MID included in this assembly.
+UBSTST+11       204472   1.    67-008
+        RESET   Pseudo, macro or initial sym as label
+MHLEN+1         206304   1.   107-137   PDL overflow
+Unterminated successful bracketed conditionals
+The first was at 105-004 of file NSALV
+Error is fatal.
+Run time = 9.27
+7957 Symbols including initial ones (99% used)
+Toad@
+
+I get similar results when using the default MIDAS, which is NOTPUR MIDAS
+425.
+
+Ideas?
+

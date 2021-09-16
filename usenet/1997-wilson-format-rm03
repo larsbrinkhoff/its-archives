@@ -1,0 +1,48 @@
+From -4339264973181814054
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,458157082eb6a825,start
+X-Google-Attributes: gidfdb0e,public
+From: wilson@dbit.dbit.com (John Wilson)
+Subject: Re: Need RM03 packs...
+Date: 1997/02/19
+Message-ID: <5eds39$5po$1@news.wizvax.net>#1/1
+X-Deja-AN: 219753706
+References: <5edlph$gab@student.computer.org>
+Organization: D Bit, Troy, NY
+Newsgroups: alt.sys.pdp10
+
+
+In article <5edlph$gab@student.computer.org>,
+Chris Zach <cz@alembic.crystel.com> wrote:
+>So does anyone have any RM03 
+>packs that I could pick up? Preferably clean...
+
+I *had* some, haven't seen them in a while...  I also found a place in MD
+that could clean + inspect them for something like $30-40 each, worth it
+if you don't want to trash your drive.
+
+>On a related note, I could use some filters for my RM02/03 drives. Does 
+>anyone still sell them, or is this going to be a limited resource...
+
+I feel sure DEC still sells them, I've got a slightly oldish DAS catalog
+in front of me that gives the part # as 29-22925-00 but doesn't have a
+listing for it except as part of the PM kit 4A-PM116-00, which costs $131
+but supposedly includes 2 of the filters and 10 prefilters (y'know, the
+things that the manual says to wash in warm soapy water but if you do they
+turn to dust and disappear).
+
+>Final question: Does anyone know if the RM80 supported 18bit access? They 
+>have some more space than a RM02, and do use less current....
+
+YES, and don't let anyone tell you otherwise.  You *must* add a jumper
+between pins E06E1 and E06C2 of the RM adapter backplane (that's the cage
+that slides out of the base), and then you'll need to reformat it, but
+MARK in the ITS salvager does that just fine (note that as distributed,
+the RM80 version of NSALV 260 needs a patch to work correctly, see
+ftp://ftp.dbit.com/pub/pdp10/its/build.info).  The KS10 that I ran under
+ITS at Fornax in '92/'93 had an RM80 system disk and worked great, and
+running on 115V with no air filters is a Good Thing.
+
+John Wilson
+D Bit
+

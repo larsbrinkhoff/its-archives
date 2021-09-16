@@ -1,0 +1,26 @@
+From -6191597588417067804
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,7df8e7babda6822a
+X-Google-Attributes: gidfdb0e,public
+From: Tom Knight <tk@ai.mit.edu>
+Subject: Re: Dec 40th anniversary web pages
+Date: 1997/09/05
+Message-ID: <vuy90xbgyzr.fsf@ai.mit.edu>#1/1
+X-Deja-AN: 270194349
+Sender: tk@watt
+References: <5tfkn8$8uh@src-news.pa.dec.com> <ALDERSON.97Aug29112904@netcom11.netcom.com> <01bcb4cd$721363e0$1d49cf8d@wardch> <5up1a3$bso$1@decius.ultra.net> <5upn1f$bac@agate.berkeley.edu>
+Organization: Massachvsetts Institvte of Technology
+Newsgroups: alt.sys.pdp10
+
+
+
+bh@anarres.CS.Berkeley.EDU (Brian Harvey) writes:
+
+> BBN built a hardware pager for the KA-10 as part of an ARPA-funded
+> project to bring virtual memory to the PDP-10.  The other part of the
+> project was TENEX, which ran on these modified KA-10s (and later on
+> other models).  At that time Dan Murphy was at BBN.  TENEX came with
+> him to DEC, where it transmogrified into TOPS-20.
+
+And well before BBN did this, paging hardware for the KA-10 was built
+in the MIT AI Lab by Jack Holloway.  It was used for running ITS.

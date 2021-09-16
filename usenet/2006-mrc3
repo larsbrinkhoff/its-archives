@@ -1,0 +1,37 @@
+From newsserver@localhost  Mon Jan 16 02:01:10 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!arclight.uoregon.edu!news.u.washington.edu!pangtzu.panda.com!mrc
+Message-ID: <Pine.OSX.4.64.0601141918120.445@pangtzu.panda.com>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS hardware trivia
+Date: Sat, 14 Jan 2006 19:27:37 -0800
+References: <Pine.WNT.4.65.0601081153250.3544@Shimo-Tomobiki.panda.com>
+Lines: 17
+Organization: University of Washington
+Sender: mrc@pangtzu.panda.com
+NNTP-Posting-Host: pangtzu.panda.com
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1137295661 15863 206.124.149.117 (15 Jan 2006 03:27:41 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Sun, 15 Jan 2006 03:27:41 +0000 (UTC)
+In-Reply-To: <Pine.WNT.4.65.0601081153250.3544@Shimo-Tomobiki.panda.com>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:45727
+
+On Sun, 8 Jan 2006, Mark Crispin wrote:
+> What was a KL-UDGE?
+
+Time's up.
+
+The KL-UDGE was a custom-built hardware device on the MIT Macsyma 
+Consortium (MIT-MC) computer, which was one of the first KL10 systems. 
+Among other things, the KL-UDGE provided:
+  . MIT-MC's interface to the IMP (and hence ARPAnet)
+  . a date/time clock that would persist across system reboots
+  . console lights
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.

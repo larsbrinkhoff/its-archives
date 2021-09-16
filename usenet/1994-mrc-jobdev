@@ -1,0 +1,94 @@
+From 3773261664998396485
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,5106216c0bbc0609,start
+X-Google-Attributes: gidfdb0e,public
+X-Google-ArrivalTime: 1994-10-25 14:30:22 PST
+Path: nntp.gmd.de!Germany.EU.net!EU.net!uunet!cs.utexas.edu!usc!howland.reston.ans.net!europa.eng.gtefsd.com!news.uoregon.edu!netnews.nwnet.net!news.u.washington.edu!Tomobiki-Cho.CAC.Washington.EDU!mrc
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS Network File System
+Date: Tue, 25 Oct 1994 14:30:22 -0700
+Organization: University of Washington
+Lines: 74
+Message-ID: <Pine.NXT.3.92.941025140303.26111A-100000@Tomobiki-Cho.CAC.Washington.EDU>
+NNTP-Posting-Host: tomobiki-cho.cac.washington.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+To: Martin Cracauer <cracauer@wavehh.hanse.de>
+In-Reply-To: <1994Oct25.104811.8395@wavehh.hanse.de> 
+
+The network file system on ITS is rather a misnomer.
+
+ITS had a very nice concept called the JOB device, which allowed device 
+drivers to be written that ran completely in user mode with absolutely no 
+kernel modifications.  You simply installed the executable of your device 
+driver on the DEVICE; directory, and the system had a new device.
+
+I wrote a number of user-mode device drivers for ITS; the ones I remember
+are one which gave the status of the xerographic printer queue and another
+which gave a terse directory listing.
+
+When you referenced a device name that was not in the kernel's tables, it
+would sniff at the DEVICE; directory to see if an executable with the
+appropriate name was there.  If so, it would fire up a new process running
+that executable.  The first thing the process would do is open a BOJ: 
+device channel to get the other side of the pipe (much like UNIX pipes, 
+only better since the two processes could be in different trees).
+
+Every time you did an I/O system call, it was translated into a request 
+that the device driver then serviced.
+
+Four interesting and useful devices were AI:, ML:, MC:, and DM:, 
+representing the four systems which ran ITS in its heyday.  On each 
+system, the corresponding name was an alias for the local DSK: device 
+(e.g. on AI, AI: was the local DSK:).  But the other three devices were 
+DEVICE; files, links to the MLDEV device driver.  This driver at startup 
+looked at its name, and made an NCP (later TCP) connection to the 
+appropriate server host.
+
+The server host, in turn, would fire up the appropriate network server 
+daemon to satisfy the requests.
+
+The question of ``how it handled network breakdowns'' is best answered by 
+``it didn't''.  If the server crashed, then you got an I/O error.  If the 
+network spazzed, same thing.  We just made sure our machines didn't crash 
+and the network didn't spazz.
+
+The flip side of the coin was that we had advantages of a stateful network
+file system.  Network file access worked just like the local disk, just a
+little bit slower.  None of this being hung and forced to reboot because
+the NFS server wedged again, or the gateway between you and the net is
+down.  None of this trying to use ``soft mounting'' to avoid the hangs, 
+only to be screwed because data is silently corrupted.
+
+Every time I encounter some egregious cretinism of UNIX NFS and complain,
+I get told ``you can't do that because NFS is stateless.'' I remember
+talking with the designers of NFS (Nowicki et al) and not being terribly
+impressed with the pro-stateless arguments then, and remain unimpressed
+now.  The arguments seemed to boil down to ``Woodstock File System by
+Xerox did it that way and they said it was great.'' So, 99.9% of the
+hacking done in NFS applications is to apply the missing state on top of
+NFS, or to debug the lossage where they got it wrong (e.g. rpc.statd and
+rpc.lockd). 
+
+Damn.  I miss ITS!!!!!!!!!!!!!!!!!!!!!
+
+-- Mark --
+
+On Tue, 25 Oct 1994, Martin Cracauer wrote:
+
+> 
+> I appreciate any pointers to information on the Network file system
+> ITS used, especially how it handled network breakdowns.
+> 
+> Online information preferred, but a useful thing would be the exact
+> title of the manual in question, so that I am able to locate it in the
+> local university library (eventually...).
+> 
+> Thanks for any help.
+> 	Martin
+> -- 
+> %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+> Martin.Cracauer@wavehh.hanse.de, Fax. +49 40 5228536
+> 
+

@@ -1,0 +1,89 @@
+From 4033520932613045514
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,81b33c9c2586f98a
+X-Google-Attributes: gidfdb0e,public
+From: Christopher C Stacy <cstacy@world.std.com>
+Subject: Re: death of architectures...
+Date: 2000/03/20
+Message-ID: <x8lbt4a9lek.fsf@world.std.com>
+X-Deja-AN: 599830724
+Sender: news@world.std.com (Mr Usenet Himself)
+References: <547leyms3t.fsf@flipper.cisco.com>
+Organization: The World @ Software Tool & Die
+Newsgroups: alt.sys.pdp10
+
+>>>>> On 19 Mar 2000 15:56:38 -0800, Bill Westfield ("Bill") writes:
+>>>>> On 19 Mar 2000 15:56:38 -0800, Bill Westfield ("Bill") writes:
+
+ Bill> Despite flaming by ex-systems programmers, it is not the CPU or OS
+ Bill> architecture that defines a successful computer system.  It's the
+ Bill> applications.  An OS/CPU can make some thing easier for the programmers,
+ Bill> but "easy for programmers" is of little interest to most of the world, and
+ Bill> irrelevant as long as the programmers (in the end) tear their hair out and
+ Bill> "make it work" anyway.
+
+ Bill> I doubt whether anyone would descrive MSDOS as an "excellant operating
+ Bill> system", yet perhaps it was exactly right for the times.  Allowing programs
+ Bill> to run amok through memory and peripherals was what the world needed at the
+ Bill> time, in order to see "what was possible" without the OS getting in the way.
+
+ITS and the Lisp Machine certainly allowed one to explore all the things
+that were possible, without "getting in the way" of the programmer.
+
+But those operating systems did not run on the microcomputer CPUs
+that MS-DOS ran on.   It's not that DOS (or CP/M) was the right thing
+at the right time -- it was more like it was the *only* thing available.
+CP/M and DOS were toy operating systems written for toy computers,
+and when those computers grew up, the companies based on them continued
+with them.  A few ideas were picked up from the more advanced systems
+at Xerox PARC and retrofitted onto DOS in the form of Windows, but DOS
+itself directly survived until at least a few years ago (1996).
+By that time, Microsoft (and IBM) had a clean-sheet design for an 
+operating system that continued with the GUI-based ideas but putting
+them on top of something conceptually descended from VMS.
+
+So it is largely ideas from Xerox PARC and from DEC that survive in
+the flagship operating system of the flagship product ("Windows 2000")
+of the dominent computer vendor.
+
+ Bill> Similarly, I've never used a system that was a friendly to the assembly
+ Bill> language programmer as the PDP10/tops20 combinations (with ITS and Tops10
+ Bill> on the same hardware close behind, I guess.)  
+
+I (and plenty of other people who used both) found ITS to be friendlier
+and more powerful to hack around with than TOPS-20, but I think that
+people who mosty worked on TOPS-20 might disagree.  (I am not trying to
+really debate that here, just wanted to point out my opinion.)
+
+ Bill> But I'd be hard pressed to
+ Bill> identify any major APPLICATIONS that would be popular today (well, OK, I
+ Bill> still use MM to read mail...), and lets face it - todays style of
+ Bill> application isn't exactly the sort of thing one wants to write in assembly.
+
+The most often used kind of application today is the WYSIWYG display editor,
+and the first one of those was TECO and EMACS, written in assembley and TECO, 
+respectively, on ITS.  Today, there are fonts and things, and most such programs
+are concerned with document issues that most versions of EMACS didn't deal with
+at all.  But ITS had the first implementation of that concept.  And of course,
+many programmers today still use EMACS (re-written by the original author).
+
+ Bill> (Some of things that made tops/its/pdp10 asm-friendly did get copied into
+ Bill> the lisp machines, I think.)
+
+The Lisp Machine operating system, which was eventually named "Genera", did
+indeed have some goodies copied from TOPS-20, notably the command processor.
+(We're just talking ideas here, not any code.)  Genera's command processor was
+actually light-years better than the TOPS-20 version, but TOPS-20 was the
+inspiration for that particular feature.   The Lisp Machine was a quantum
+revolution in operating sysetm design, much more powerful than any of the
+other operating systems.  It had many revolutionary ideas in it, and it also
+stole and sybthesized ideas from all the best operating systems of the time.
+It was written by people who were primarily ITS, Multics, and TOPS-20 hackers.
+It was not a multi-user system - it could have been extended to be one, but that
+was not where the industry was headed.  Unfortunately, it was way ahead of its time,
+especially in terms of the cost of deployment. A single-user personal computer
+priced between $40,000 and $100,000 per seat was not going to make it.
+There were many other questionable strategic business/marketing decisions.
+Anyway, by the time that the hardware cost/performance ratio was there,
+which was just a few years ago, the game was long over.
+

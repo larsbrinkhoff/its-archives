@@ -1,0 +1,146 @@
+From newsserver@localhost  Sat Jan  5 04:02:16 2008
+Path: uni-berlin.de!fu-berlin.de!out03b.usenetserver.com!news.usenetserver.com!in02.usenetserver.com!news.usenetserver.com!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny06.POSTED!e266a3ae!not-for-mail
+Message-ID: <yzl8x351i5k.fsf_-_@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10,alt.folklore.computers
+Subject: stream interfaces
+Date: Fri, 04 Jan 2008 19:54:04 GMT
+References: <02915ef0-52fd-4391-b6b2-92ade459be3e@d4g2000prg.googlegroups.com> <l8jjn3l6vms0vre2mqtroe4c06fpadvoas@4ax.com> <fldf56$kcp$1@Tempo.Update.UU.SE> <flg526$8qk_001@s873.apx1.sbo.ma.dialup.rcn.com> <alpine.OSX.1.00.0801020803580.12702@pangtzu.panda.com> <TZydndXC-7IVueHanZ2dnUVZ_v2pnZ2d@comcast.com> <5u34n6F1g0v39U1@mid.individual.net> <alpine.OSX.1.00.0801022205420.26938@pangtzu.panda.com> <5u5nlgF1gg6qeU1@mid.individual.net> <alpine.OSX.1.00.0801032108550.29069@pangtzu.panda.com>
+Lines: 127
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.1 (darwin)
+Cancel-Lock: sha1:GV+Nw75xa0f+BQT5/o+y1HWAAVI=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.205.200
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny06 1199476444 68.163.205.200 (Fri, 04 Jan 2008 14:54:04 EST)
+NNTP-Posting-Date: Fri, 04 Jan 2008 14:54:04 EST
+Xref: cartman.offog.org alt.sys.pdp10:48782 alt.folklore.computers:222281
+
+Mark Crispin <mrc@CAC.Washington.EDU> writes:
+
+> On Fri, 4 Jan 2008, Dennis Ritchie posted:
+>>> Did UNIX have a hierarchical filesystem from inception?  Tenex did not,
+>>> and TOPS-20's was indisputably inferior to UNIX's; but that was years
+>>> later.
+>> Not on the PDP-7, but it did on the first PDP-11 system.
+>
+> A hierarchical filesystem was definitely important, IMHO even more
+> important than long file names, and UNIX definitely got it right when
+> all of the PDP-10 operating systems got it wrong.  I assume that you
+> folks picked / because it was easier to type than > on Multics.
+
+There were several native (and networked) file systems on the Lisp
+Machine, but the Symbolics "LMFS" is the one I'm interested in here.
+Bernie Greenberg (from Multics) was a principal developer.
+It had all the reliability and recovery properties that you would like
+in the face of the relatively flakey disk hardware of the day.  
+It was a hierarchical file system whose filenames looked like
+">Foo>bar>baz.text.3", with arbitrary name, type, and version numbering.  
+(You don't need to specify the version number for the latest; you can
+also ask for oldest of course.)  There were also relative directories
+as in Multics.  Filesystem nodes have various properties (eg. backup flags), 
+and you could make up new ones.  There were version retention properties,
+and Undelete, Expunge, and so on - much like TOPS-20 that way.
+
+File system security was a capability-based system.
+Owing to the impossibility of buffer overflows and various other
+classes of bugs on the tagged data hardware of the Lisp Machine,
+LMFS made for a very secure file server.
+
+> The TOPS-20 community refused to accept the BBN interface for TCP, and
+> we got a more natural (to us) filesystem interface.  It was
+> mind-boggling to us that UNIX, of all operating systems, didn't allow
+> you to write (or pipe) to a network printer without the intermediary
+> of a program that knew how to do network I/O.  [It was one of our few
+> "neener-neeners" over the UNIX guys in the 1980s, otherwise our butts
+> were getting kicked...]
+
+The Lisp Machine network API was an object-oriented stream interface.
+The usual way was to ask for a high-level service (eg. TERMINAL)
+on a particular host name, and it would use the distributed name
+and service subsystem to resolve that into the most desirable available
+combination of network/medium (eg. TCP/IP, CHAOS, DECNET, DNA, etc)
+and protocol (TELNET, SUPDUP, etc.) for you, and hand you a stream.
+
+Operations on the stream are the methods available via multiple
+inheritence, which includes generic IO and network device control.
+
+There were layers of lower-level interfaces for system programmers.
+
+> The other thing that I'll complain about in the fundamental design of
+> UNIX's filesystem is that there is no way to translate from an inode
+> (or open designator from the user programmer POV) to a path.  I
+> understand the issue with hard links, but could have been a linked
+> list between the lunk names so you could do the translation (and IMHO
+> this is all the more reason that you need this capability).  Oh well,
+> something to be kept in mind the next time a new operating system is
+> designed.  [IIRC, NT has this problem too.]
+
+The Lisp Machine allowed the programmer to open any file on any
+operating system on any connected network using the remote host's
+own native file syntax.  (Practically every well-known system and 
+network and protocol I can think of was implemented.) The first token
+in any filename is the host name, followed by a colon, followed by
+whatever syntax was appropriate.  
+
+It understood in great detail all about filenames on all the operating
+systems, allowing the program to manipulate pathname components correctly
+using generic operations.  Even merging filename components across
+operating systems.  (An example application is the proper and
+intelligent filename completion, including hierarchical wildcard
+processing, in the interactive command-line.)
+
+So the programmer just writes
+
+   (OPEN "XX:<FRED.DERF>HELLO.TXT")
+
+and that would open up and return a stream to a file on 
+the TOPS-20 host "XX" (through the generic service interface
+described above).
+
+File stream operations are generic.
+Some flavors of streams could do more operations.
+The semantics are specified based on the generic API
+and the remote host's file service.
+
+(Some operations that are not actually supported in the 
+remote host could be emulated for you on this end; the 
+distributed service database was used to configure that.
+Examples include wildcards and version numbers.)
+
+(The network and file subsystems also had block/buffer protocols
+underneath them, if you needed to manually control the IO for
+some reason.  Applications really just used streams, though.
+In some complex network applications, two streams and signalling.)
+
+This "generic function, object-oriented" approach echoes
+both the generic device driver protocol of ITS and the 
+way that Lisp works.
+
+Anyway, to get to the specific point above...
+
+When you have a file stream open, there is a generic operation that
+will return the pathname object that opened it.  You can also ask for 
+the "truename", which is the pathname object for the file you got
+(which for example would have the actual version number filled in,
+or could have chased a symbolic link.)
+
+I've said a mouthful here and left out a zillion details.
+In general, the above stuff did all the right things and you can
+let your imaginations run wild with correct assumptions.
+I'll try to answer any questions as best as I can.
+
+Aside from myriad questions of details that could be raised about 
+the wild claims above, I could also make some comparisons and
+notes about things like pipes and addressing (memory) segments.
+But then maybe we should change the subject line.
+
+The time frame of all that stuff, in the incarnation I have described it, 
+is 1983 (although a lot of it was present in the late 70s).
+
+The Lisp Machine drew heavily from the experience of people who had
+developed TENEX, Multics, ITS, and other systems.  (I don't think
+we ever had any actual Bell Unix people aboard, but certainly all 
+were familiar with Unix, and a few of the people had done some
+development on the Berkeley fork.)
