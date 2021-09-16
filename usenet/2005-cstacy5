@@ -1,0 +1,104 @@
+From newsserver@localhost  Sun Sep 18 02:00:46 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!jnfs.ja.net!feeder.news.heanet.ie!news.cs.univ-paris8.fr!proxad.net!216.239.36.134.MISMATCH!postnews.google.com!news4.google.com!border1.nntp.dca.giganews.com!nntp.giganews.com!cyclone1.gnilink.net!spamkiller.gnilink.net!gnilink.net!trnddc02.POSTED!8b1f9295!not-for-mail
+Message-ID: <ull1vwk97.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Need simulator, and PC based disassembler / assembler.
+Date: Sat, 17 Sep 2005 19:45:57 GMT
+References: <uk6hqskzh.fsf@comcast.net> <dgbehf$8qk_004@s787.apx1.sbo.ma.dialup.rcn.com> <u9begd.cq2.ln@via.reistad.priv.no> <dggu2l$8qk_001@s779.apx1.sbo.ma.dialup.rcn.com> <7ulhgd.p7o.ln@via.reistad.priv.no>
+Lines: 85
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.219.89
+X-Complaints-To: abuse@verizon.net
+X-Trace: trnddc02 1126986357 68.163.219.89 (Sat, 17 Sep 2005 15:45:57 EDT)
+NNTP-Posting-Date: Sat, 17 Sep 2005 15:45:57 EDT
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:45146
+
+Morten Reistad <firstname@lastname.pr1v.n0> writes:
+
+> In article <dggu2l$8qk_001@s779.apx1.sbo.ma.dialup.rcn.com>,
+>  <jmfbahciv@aol.com> wrote:
+> >In article <u9begd.cq2.ln@via.reistad.priv.no>,
+> >   Morten Reistad <firstname@lastname.pr1v.n0> wrote:
+> >>In article <dgbehf$8qk_004@s787.apx1.sbo.ma.dialup.rcn.com>,
+> >> <jmfbahciv@aol.com> wrote:
+> 
+> [snip handling echo near the user]
+> 
+> >>It was obvious in 1978, and still is, that you want this action
+> >>taken as close to the user as possible. The front ends and
+> >>multiplexer networks of old has been replaced by network connections, 
+> >>but the principle holds good then as now. 
+> >
+> >Yes, the need was obvious in 1978.  We called this forms control
+> >and was addressed in JMF's and CDO's architectural spec.
+> 
+> Not just forms. All forms of input. Even emacs. 90% of all
+> typing just requires a simple echo as long as the action is within
+> boundaries.
+
+Emacs, of course, has lots of break characters.  
+But people type at least as many plain text characters.  
+The trick is that *every* character in Emacs runs a command.  
+But for ordinary letters (not control or meta shifted 
+characters), the normal command is "self-insert".  
+So Emacs could dynamically look at the command key bindings
+in effect and compute new break masks as it was running along.
+Echoing of course also has to work in sophisticated ways with 
+the redisplay part of Emacs.  This is all a lot more complex 
+than just some set-it-and-forget-it break mask application.
+
+On ITS there was a system call for hacking break characters
+for Emacs (and, actually, for sending non-break characters
+directly into an Emacs (TECO) buffer data structure,
+updating both the call's byte pointer and the buffer's
+extent block pointers).  This was on all model PDP-10s, 
+and did not involve the KL's PDP-11 front-end.
+
+ ECHOIN: echo characters and store them in a buffer,
+          until a break character
+   arg 1         TTY channel number
+   arg 2         Byte pointer to buffer
+   arg 3         Number of characters left in buffer
+   arg 4         Address of break table
+   arg 5         Address of TECO buffer block (or zero)
+
+ITS had very sophisticated display terminal handling
+in the monitor which even knew about about things
+like the "echo area" portion of the screen.
+These complex TTY modes affect even the basic .IOT
+(input a character from the terminal) call.
+
+ITS also had hair for a remote echoing protocol
+(eg. negotiated pre-echoing) that was implemented
+by a few network clients and "smart" terminals;
+and Emacs was also aware of that feature.
+
+ITS was a very different environment and very different
+implementation from the other PDP-10 systems (TOPS-10, 
+TENEX, TOPS-20), and the performance implications of
+character-at-a-time IO on the main CPU were acceptable.
+
+On TOPS-20, the situation was much worse, and the
+break-mask input monitor call (TEXTI) was not ammenable
+to Emacs (because of the way it wanted to echo break
+characters).  That call might have been fixed in the
+TOPS-20 monitor by MIT around 1983 when the AI Lab got
+a TOPS-20 machine (but I don't think so).
+
+On Multics, they basically redesigned their fancy
+front-end terminal controllers (IOM) to work with Emacs,
+because interrupts were *really* expensive on that
+operating system.    
+
+I think the paper where this is discussed is:
+Multics Emacs: The History, Design and Implementation
+Bernard S. Greenberg (1979)
+http://icebox.stratus.com/vos/multics/tvv/mepap.html
+
+See also maybe:
+"Multics Emacs (Prose and Cons): A commercial text-processing system in Lisp"
+Proceedings of the 1980 ACM conference on LISP and Functional Programming

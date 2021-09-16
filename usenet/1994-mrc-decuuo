@@ -1,0 +1,34 @@
+From 6151020904188817571
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,a371a654447f05ca,start
+X-Google-Attributes: gidfdb0e,public
+X-Google-ArrivalTime: 1994-11-27 16:01:16 PST
+Path: nntp.gmd.de!newsserver.jvnc.net!news.cac.psu.edu!news.pop.psu.edu!psuvax1!news.ecn.bgu.edu!usenet.ins.cwru.edu!hookup!caen!usenet.cis.ufl.edu!usenet.eel.ufl.edu!news.uoregon.edu!netnews.nwnet.net!news.u.washington.edu!Tomobiki-Cho.CAC.Washington.EDU!mrc
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Will a executable for Tops10 work on ITS?
+Date: Sun, 27 Nov 1994 15:10:50 -0800
+Organization: University of Washington
+Lines: 15
+Message-ID: <Pine.NXT.3.92.941127150751.4389A-100000@Tomobiki-Cho.CAC.Washington.EDU>
+NNTP-Posting-Host: tomobiki-cho.cac.washington.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+In-Reply-To: <Czsu64.Dp0@world.std.com> 
+
+On Fri, 25 Nov 1994, Christopher C Stacy wrote:
+> Maybe.  ITS eventually included a TOPS-10 emulator that would
+> trap and emulate the DEC MUUOs.  It supported TOPS-10 v6.02
+> and (Stanford's) WAITS, and was how various FORTRAN and PASCAL
+> programs were run.  I think DECUUO may have originally been
+> brought up in order to run ADVENTURE, but it was mostly used
+> to run the Stanford display program ("D") and (original) TeX.
+> (I think an assortment of things like DEC's DDT, JOBDAT,
+> MACRO, FILCOM, LINKER, BLISS, and RUNOFF, were also available.)
+
+DECUUO was originally written to bring up the Stanford drawing program 
+(SUDS, called D on ITS machines).  As such, it emulated WAITS, not 
+TOPS-10, in its original form.  RMS hacked it to make it more in line 
+with TOPS-10, and later on I hacked it to bring it up somewhat to 6.02.  
+[It was I who got MACRO to run under ITS.]
+

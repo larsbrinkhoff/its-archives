@@ -1,0 +1,44 @@
+From newsserver@localhost  Wed Dec 19 00:48:47 2001
+Path: wards!landlord!newspeer2.clara.net!news.clara.net!news.netcologne.de!news-spur1.maxwell.syr.edu!news.maxwell.syr.edu!cpk-news-hub1.bbnplanet.com!nycmny1-snh1.gtei.net!news.gtei.net!panix!news.panix.com!panix1.panix.com!not-for-mail
+Message-ID: <9vmueh$loo$1@panix1.panix.com>
+From: klh@panix.com (Ken Harrenstien)
+Newsgroups: alt.sys.pdp10,alt.sys.pdp11,alt.sys.pdp8
+Subject: Re: SIMH 2.8-3
+Date: 18 Dec 2001 03:23:45 -0500
+References: <p8vr1u0irrmc48pnl7s1cf9uaopct3matq@4ax.com> <9vl1g3$i32$1@panix1.panix.com> <6uk7vl4l2m.fsf@chonsp.franklin.ch>
+Lines: 27
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: Ken Harrenstien <klh@panix.com>
+NNTP-Posting-Host: panix1.panix.com
+X-Trace: news.panix.com 1008663826 1033 166.84.1.1 (18 Dec 2001 08:23:46 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: 18 Dec 2001 08:23:46 GMT
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:7124 alt.sys.pdp11:1631
+
+In article <6uk7vl4l2m.fsf@chonsp.franklin.ch>,
+Neil Franklin  <neil@franklin.ch.remove> wrote:
+>klh@panix.com (Ken Harrenstien) writes:
+>> In TOPS-10/20 there are several race conditions -- places where the
+>> monitor code makes silent assumptions about how long devices take to
+>> do certain things, and it breaks if they are too fast (or too slow!).
+>> Every time I found one of those while working on my 10 emulator, (and
+>> the similarly-microprocessor-controlled NIA20 ethernet interface was a
+>> fruitful source of these), for many frustrating hours I would mumble
+>> curses about misguided stone age programmers.
+>
+>Any info/list on where all the found ones are? For other
+>emulator/clone writers, or for fixing the OSes if someone one day does
+>such an project.
+
+Urm.  The KLH10 source contains hints -- anytime there is a timeout or
+delay, it is there for a good reason -- but the comments don't always
+identify the offensive code, largely because at one point I tried to
+expunge everything that DEC lawyers might construe as NDA issues.  If
+anyone seriously wants to start a new career as a Free-20 monitor
+programmer, I would have to go back through my offline notes and
+compile (or contribute to) a master list.
+
+By contrast I only found one race in all of ITS, and that was in the
+bootstrap.
+
+--Ken

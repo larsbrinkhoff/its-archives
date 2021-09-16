@@ -1,0 +1,564 @@
+From 6379637015999374945
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,981b646eef599692,start
+X-Google-Attributes: gidfdb0e,public
+X-Google-Thread: fd705,9c77e13fc5c1e70a
+X-Google-Attributes: gidfd705,public
+From: shoppa@alph02.triumf.ca (Tim Shoppa)
+Subject: How Jerry Pournelle was kicked off the Arapanet
+Date: 1998/01/24
+Message-ID: <6ad9ar$o3d$1@nntp.ucs.ubc.ca>
+X-Deja-AN: 318893670
+References: <wkwwg6hxwz.fsf@ifi.uio.no> <34cc18da.40166597@news.interlog.com> <6a5sea$rhq$1@nntp.ucs.ubc.ca> <6a8fbj$50s@news-central.tiac.net>
+Organization: TRIUMF, Canada's National Meson Facility
+Newsgroups: alt.folklore.computers,alt.sys.pdp10
+
+
+In article <6a8fbj$50s@news-central.tiac.net>,
+Lawrence Woods  <lwoods@shell1.tiac.net> wrote:
+>Tim Shoppa <shoppa@alph02.triumf.ca> wrote:
+>: Of course, Jerry Pournelle also has the honor of being the only person
+>: I know who was kicked off of the ARPAnet.  I'll dig up the email
+>: logs if anyone is interested.
+>I'd be interested!
+
+OK, here it is.  The log files below have moved with me from account to
+account over the years, but I believe that I originally found them
+on MC.LCS.MIT.EDU in 1987 or so.  These files were widely circulated
+at the time; I was extremely surprised to not be able to find them
+on the web today.  I suppose the point-and-click generation simply
+doesn't care about anything that happened over a decade ago - which
+is too bad, as there's a fascinating amount of history contained
+in the the attached file.
+
+Tim. (shoppa@triumf.ca)
+
+
+
+                HOW JERRY POURNELLE GOT KICKED OFF THE ARPANET
+
+
+
+   This file explains why Jerry Pournell <POURNE@MIT-MC.ARPA (ex-tm)> is
+   no longer on the ARPANet. It's in chronological order. I hope this
+   clears up any misunderstanding and confusion that may exist.
+
+
+Date: 19 January 1984 00:50 EST
+From: Christopher C. Stacy <CSTACY @ MIT-MC>
+Subject:  TACACS
+To: REM @ MIT-MC, BANDY @ MIT-MC, DEVON @ MIT-MC, DIGEX @ MIT-MC,
+    JURGEN @ MIT-MC, PINTO @ MIT-MC, POURNE @ MIT-MC, KFL @ MIT-MC,
+    STEVEH @ MIT-MC, GUMBY @ MIT-MC, IAN @ SRI-NIC
+cc: USER-ACCOUNTS @ MIT-MC
+
+
+
+   Hi,
+
+   I didn't see your original messages, and I don't know how the NIC got
+   into the loop, but I am indeed the person to answer your questions.
+
+   Apparently you have encountered TAC access control (TACACS) on your
+   favorite MILNET TAC. TACACS is a login system based on encrpytion
+   codes recorded on little paper cards which authorized MILNET TAC users
+   are being issued. To be a MILNET TAC user, you must have a personal
+   TACACS account and be issued one of these cards, so that you can type
+   your login code to the TAC and make it happy. People establish TACACS
+   accounts and get cards by contacting me to get registered.
+
+   If you stick to using ARPAnet TACs, you will have no trouble, since
+   TACACS for the ARPAnet is going to be a little different and has not
+   been completely figured out yet.
+
+   MIT is not sponsoring guest/tourist usage of the MILNET; if you are a
+   guest, you should just switch to using a TAC on the ARPAnet and avoid
+   the problem. I can provide you the name of an ARPAnet TAC in your
+   area, but I cannot authorize you to use it or provide you with
+   telephone dialup numbers.
+
+   I will soon have some "Guest TACACS cards" for authorized MIT people
+   on our machines who need to use a MILNET TAC but have not yet been
+   registered for their own personal cards. These cards are confusingly
+   named: they have nothing to do with guest accounts and are not
+   available to tourists/guests.
+
+   To put it straight: in general, you are up a creek, and there really
+   isn't very much to be done about it. Feel free to ask me further
+   questions or whatever though.
+
+   Cheers, Chris
+
+
+Date: Wed, 29 May 85 06:16:01 EST
+From: Leigh L. Klotz <KLOTZ@MIT-MC.ARPA>
+To: POURNE@MIT-MC.ARPA
+cc: USER-ACCOUNTS@MIT-MC.ARPA
+
+
+
+   You used the word "ARPANET" in your June Byte column three times. You
+   even said
+
+   "I gave Alex the local ARPANET access number to record for the
+   1200-baud modem and inadvertently transposed two numbers."
+
+   I don't care if Alex IS a computer -- you may soon find your accounts
+   on MC decremented by gov't order.
+
+
+Date: Thu, 30 May 85 03:57:38 EST
+From: Jerry E. Pournelle <POURNE at MIT-MC.ARPA>
+To:   KLOTZ at MIT-MC.ARPA
+
+
+
+   thank you. if left to you I suppose I cewrtainly will find my accounts
+   terminated. Your nice private message appreciated. seppuku follows..
+   maybe you ought to have me dumped off the net and be done with it? or
+   must you work through someone else? J. E. Pournelle
+
+
+Date: Thu, 30 May 85 11:23:26 EST
+From: David Vinayak Wallace <GUMBY at MIT-MC.ARPA>
+To:   KLOTZ at MIT-MC.ARPA
+Subject:   Surprise!
+
+
+
+
+Date: Wed, 29 May 85 07:04:16 EST
+From: Leigh L. Klotz <KLOTZ at MIT-MC.ARPA>
+
+
+
+     Do you think I chastised jerry pournelle too much for talking about
+     his use of the arpanet in byte?
+
+
+
+   Yes. It's embarrassing to send a message to someone like that when a
+   message in OFF POURNE would have done as well!
+
+   And now you've sent the message out I'll have to go and find out why
+   he had to mention it in the first place!
+
+
+Date: Thu, 30 May 85 18:44:42 EST
+From: Leigh L. Klotz <KLOTZ@MIT-MC.ARPA>
+To: POURNE@MIT-MC.ARPA
+cc: GUMBY@MIT-MC.ARPA
+
+
+
+
+Date: Thu, 30 May 85 03:57:38 EST
+From: Jerry E. Pournelle <POURNE at MIT-MC.ARPA>
+To:   KLOTZ at MIT-MC.ARPA
+
+
+
+     thank you. if left to you I suppose I cewrtainly will find my
+     accounts terminated. Your nice private message appreciated. seppuku
+     follows.. maybe you ought to have me dumped off the net and be done
+     with it? or must you work through someone else?
+
+     J. E. Pournelle
+
+
+
+   USER-A is the mailing list created explicitly for dealing with these
+   sorts of issues. It is the appropriate forum for discussion. There are
+   eight people on user-a. You probably know better than I do, but last I
+   heard about 100,000 times as many people read BYTE. Thus, the issue of
+   privacy is the last one you should raise.
+
+   I don't particularly want to force you into ritual disembowelment;
+   rather, I'm interested -- and I'm not the only one -- in why you find
+   it necessary to flaunt your use of the arpanet. The more attention you
+   (and other people) draw to non-blow-em-up use of the arpanet the more
+   likely some Proxmire type is to start inquiring into its operations.
+
+
+Date: Fri, 31 May 85 01:11:16 EST
+From: Jerry E. Pournelle <POURNE@MIT-MC.ARPA>
+To: KLOTZ@MIT-MC.ARPA
+cc: GUMBY@MIT-MC.ARPA
+
+
+
+   I find this thoroughly distasteful. If you have some authority to
+   order me off the net, do so. If not, leave me alone.
+
+
+Date: 31 MAY 1985 0225 EST
+From: GSB at MIT-MC.ARPA (Glenn S. Burke)
+To:   KLOTZ at MIT-MC.ARPA
+
+
+
+   i guess i haven't been paying enough attention to realize that he knew
+   there was any heckling going on at all.
+
+   I'm almost tempted to let him take his marbles and floppy disks and go
+   home.
+
+
+Date: Fri, 31 May 85 09:39 EDT
+From: Kent M Pitman <KMP at SCRC-STONY-BROOK.ARPA>
+To:   CStacy at MIT-MC.ARPA
+cc:   Klotz at MIT-MC.ARPA, KMP at SCRC-STONY-BROOK.ARPA,
+      Gumby at MIT-MC.ARPA
+Subject:   Pourne
+
+
+Date: Fri, 31 May 85 01:11:16 EST
+From: Jerry E. Pournelle <POURNE@MIT-MC.ARPA>
+To: KLOTZ@MIT-MC.ARPA
+
+
+
+     I find this thoroughly distasteful. If you have some authority to
+     order me off the net, do so. If not, leave me alone.
+
+
+
+   Personally, I'd just turn off his account. It's not like it's the
+   first time, and he not only flaunts his use of our machines but stabs
+   us in the back with grumblings about why he doesn't like this or that
+   program of ours when he gets a chance. (Am thinking particularly of an
+   article he wrote which condemned Lisp for reasons amounting to little
+   more than his ignorance, but which cited Teach-Lisp in a not-friendly
+   light... The man has learned nothing from his presence on MC and sets
+   a bad example of what people might potentially accomplish there. I'd
+   rather recycle his account for some bright 12-yr-old...)
+
+
+Date: Fri, 31 May 85 11:02:27 EST
+From: John G. Aspinall <JGA at MIT-MC.ARPA>
+To:   KLOTZ at MIT-MC.ARPA, GSB at MIT-MC.ARPA
+Subject:   just think of it...
+
+MIT Maximum Confusion PDP-10
+
+MC ITS.1488. PWORD.2632.
+TTY 57
+16. Lusers, Fair Share = 86%
+
+*:login pourne
+That account has been temporarily turned off.
+Reason:
+Think of it as evolution in action.
+Any questions may be directed to USER-ACCOUNTS
+*
+
+
+
+   ------------------------------------------------
+
+   I don't know whether you guys have read Niven and Pournelle's
+   _Oath_of_Fealty_, but "Think of it as evolution in action." is their
+   thinly disguised rallying cry for do-it-yourself social Darwinism. It
+   would be so, so sweet to shove it back in his face.
+
+
+Date: Sat,  1 Jun 85 04:37:47 EST
+From: David Vinayak Wallace <GUMBY at MIT-MC.ARPA>
+To:   KLOTZ at MIT-MC.ARPA
+Subject:   POURNE
+
+
+Date: Sat,  1 Jun 85 00:09:30 EST
+From: Glenn S. Burke <GSB at MIT-MC.ARPA>
+
+
+
+     I.e., little jerry isn't going to get my sympathy if big bad leigh
+     klotz picks on him.
+
+
+
+   KLOTZ: 5'8"?
+
+   POURNE: >6'4"
+
+   Fuck it. Flush him.
+
+
+Date: Tue,  4 Jun 85 16:01:51 EST
+From: David Vinayak Wallace <GUMBY at MIT-MC.ARPA>
+To:   KLOTZ at MIT-MC.ARPA
+Subject:   pourne
+
+
+
+   Why hasn't he been flushed yet?
+
+
+Date: Tue,  4 Jun 85 16:54:04 EST
+From: Christopher C. Stacy <CSTACY@MIT-MC.ARPA>
+To: ACCOUNTS-HELD-REFUSED@MIT-MC.ARPA
+
+I set the following account:
+Was:    POURNE  NTURIS  [OK]            TM Jerry E. Pournelle   06/03/85
+Is:     POURNE  NTURIS  [OFF]           TM Jerry E. Pournelle   06/03/85
+Because:  This account has been terminated due to abuse.
+
+
+
+
+Date: Tue,  4 Jun 85 17:04:29 EST
+From: Christopher C. Stacy <CSTACY@MIT-MC.ARPA>
+To: USER-ACCOUNTS@MIT-MC.ARPA
+
+
+
+   Given POURNE's obnoxious attitiudes towards USER-A and his apparent
+   belief that he has a god-given right to be on this machine and the
+   network, we have flushed him.
+
+
+Date: Tue,  4 Jun 85 17:55:12 EST
+From: David Vinayak Wallace <GUMBY at MIT-MC.ARPA>
+To:   KLOTZ at MIT-MC.ARPA
+Subject:   POURNE
+
+
+
+   Too late. CSTACY flushed him even from the tac database.
+
+
+Date: Fri, 12 Jul 85 20:54:44 EDT
+From: Glenn S. Burke <GSB at MIT-MC.ARPA>
+To:   KLOTZ at MIT-MC.ARPA
+Subject:   [Forwarded: topaz!RU-BLUE!LECIN@seismo.CSS.GOV, Re: for those out th
+ere who DON'T read SF-LOVERS...]
+
+Received: from MIT-OZ by MIT-MC.ARPA via Chaosnet; 11 JUL 85  05:47:15 EDT
+Received: from MIT-HTVAX.ARPA by MIT-OZ via Chaosnet; 11 Jul 85 05:46-EDT
+Received: from seismo.CSS.GOV (css-ring-gw.ARPA) by MIT-HTVAX.ARPA (4.12/4.7)
+        id AA13327; Thu, 11 Jul 85 05:35:05 edt
+Return-Path: <topaz!RU-BLUE!LECIN@seismo.CSS.GOV>
+Received: from topaz.UUCP by seismo.CSS.GOV with UUCP; Thu, 11 Jul 85 05:29:07
+EDT
+Received: from RU-BLUE.ARPA by topaz.arpa; Thu, 11 Jul 85 05:28:06 edt
+Message-Id: <8507110928.AA07998@topaz.arpa>
+Date: 11 Jul 85  05:21 EDT (Thu)
+From: Mijjil <topaz!RU-BLUE!LECIN@seismo.CSS.GOV>
+To: topaz!seismo!bandykin@seismo.CSS.GOV
+Phase-Of-The-Moon: LQ+1D.13H.12M.5S.
+Subject: for those out there who DON'T read SF-LOVERS...
+
+---begin forwarded message---
+
+Date: Monday, 8 July 1985  15:45-EDT
+From: "Franz Mark" at LLL-MFE.ARPA
+Re:   WESTERCON 38 and The Pournelle/ARPANET Split
+
+
+
+   We attended the WESTERCON 38 SF convention held in Sacramento, CA,
+   over the July 4th weekend. At WESTERCON we talked with Jerry Pournelle
+   about why he never contributed to the SF-LOVERS bb since he had an
+   account at MIT-MC. He said his account at MIT-MC was terminated by
+   some "graduate student" in charge of accounting, who felt he did not
+   have a need for an account. He knows who this "graduate student" is,
+   and he refuses to grovel so that his account is reinstated. However,
+   he asked us to broadcast this little story - presumably so that MIT-MC
+   will come to him.
+
+   BTW - if you ever get a chance to meet Jerry Pournelle, you will not
+   be dissappointed. Sequel to FOOTFALL:-)
+
+   HARPANET FOR PRESIDENT,
+
+   HUSENET FOR VICE-PRESIDENT.
+
+   Also planned is a sequel (and a prequel) to THE MOTE IN GOD'S EYE.
+   WESTERCON 38 was run very well. In addition to Jerry, we spent several
+   hours talking with Greg Bear, Norman Spinrad, Robert Adams, James P.
+   Hogan, Larry Niven, John Brunner, and David Brin.
+
+   ---end forwarded message---
+
+   He might still have an account if he could keep from using words like
+   ARPANET and DARPA in his column in BYTE magazine!
+
+   {Mijjil}
+
+
+Date: Wed, 24 Jul 85 22:35:03 EDT
+From: Christopher C. Stacy <CSTACY@MIT-MC.ARPA>
+Subject:  [kerch: Jerry Pournelle]
+To: USER-ACCOUNTS@MIT-MC.ARPA
+
+
+
+   I'll take care of this, but I thought you might be amused by it.
+
+
+Date: Wed Jul 24 13:15:44 1985
+From: kerch at lll-tis-b (Berry Kercheval)
+To:   CSTACY
+Re:   Jerry Pournelle
+Status: N
+
+
+
+     (Note -- I am a neutral third party)
+
+     Mr. Pournelle bids me tell you that if you intended to annoy him,
+     you have succeeded, and that his next column in BYTE will have a lot
+     to say about the ARPANET....
+
+
+
+
+Date: Wed, 24 Jul 85 23:00:04 EDT
+From: David Vinayak Wallace <GUMBY@MIT-MC.ARPA>
+Subject:  [kerch: Jerry Pournelle]
+To: CSTACY@MIT-MC.ARPA
+cc: USER-ACCOUNTS@MIT-MC.ARPA
+
+
+
+   It's funny this should appear in my mail to-day. I had lunch this
+   afternoon with McCarthy, and in the course of conversation (we were
+   discussing SF) he mentioned that someone at MC had flushed
+   Pournelle...
+
+   As for pournelle himself: He really thinks that WE are trying to annoy
+   HIM??? Of course if he's vitriolic enough and all the obnoxious
+   turists vanish (leaving the nice ones of course) then he may have
+   atoned without realising it...
+
+
+Date: Thu, 25 Jul 1985  00:04 EDT
+From: PGS%MIT-OZ@MIT-MC.ARPA
+To:   "Christopher C. Stacy" <CSTACY@MIT-MC.ARPA>
+Cc:   USER-ACCOUNTS@MIT-MC.ARPA
+Subject: [kerch: Jerry Pournelle]
+
+
+Date: Wednesday, 24 July 1985  22:35-EDT
+From: Christopher C. Stacy <CSTACY at MIT-MC.ARPA>
+To:   USER-ACCOUNTS at MIT-MC.ARPA
+Re:   [kerch: Jerry Pournelle]
+
+
+
+     I'll take care of this, but I thought you might be amused by it.
+
+
+
+   You might consider contacting Byte about publishing some note from us
+   to appear simultaneously with this. This is only important if
+   pournelle is going to say what I think he is going to say (what JMC
+   told me pournelle was claiming), which is that the reason his account
+   was flushed was because he favors the Strategic Defense Initiative,
+   and MC is run by a bunch of communists. This will no doubt please
+   darpa immensely.
+
+   Pournelle claims that he heard at a science fiction convention that
+   you (chris) had said that the real reason his account was flushed was
+   that ``he (pournelle) is a fascist.'' Given the current political
+   climate, this could raise some sort of ruckus, so it would probably be
+   good to nip this in the bud.
+
+
+Date: Thu, 25 Jul 85 14:06:21 EDT
+From: Daniel Weise <DANIEL@MIT-MC.ARPA>
+Subject: Pournelle and Byte.
+To: PGS@MIT-MC.ARPA, USER-ACCOUNTS@MIT-MC.ARPA,
+    CSTACY@MIT-MC.ARPA
+
+
+
+   All we have to to is warn Byte that MIT will sue the magazine if any
+   incorrect defamatory comments are made by Pournelle. I am sure the
+   editors there have the same opinion of him that we do and will make
+   sure that Pournelle doesn't end them up in court.
+
+   As it stands Pournelle really doesn't understand the state of the
+   world. If he insists on printing his delusions then MIT's case would
+   be trivial to win.
+
+   Daniel
+
+
+Date: Wed,  9 Oct 85 23:55:48 EDT
+From: Leigh L. Klotz <KLOTZ@MIT-MC.ARPA>
+To: user-a@MIT-OZ
+
+
+
+   The following is offered without comment. It was forwarded to me by
+   someone who reads the Byte Magazine bulletin board.
+
+
+     = = B Y T E   C O S Y  3.1+  = =
+
+    ===========================
+     ######  #######  ###   ##
+     ###   #   ###     ### ##
+     ######    ###      ####  (TM)
+     ###   #   ###     ## ###
+     ######  #######  ##   ###
+    ===========================
+     BYTE Information Exchange
+
+    McGraw-Hill Information Systems Co.
+
+    COSY Conferencing System, Copyright (c) 1984 University of Guelph
+         Written by: Alastair JW Mayer
+
+    :j networks/arpanet
+    Joining conference 'networks', topic 'arpanet'. 0 new message(s).
+    Read:3
+    ==========================
+    networks/arpanet #3, from jerryp, 377 chars, Tue Jul  9 18:22:01 1985
+    This is a comment to message 2.
+    There is/are comment(s) on this message.
+    --------------------------
+    One thing that is known about ARPA: you can be heaved off it
+    for supporting the policies of the Department of Defense.
+    Of course that was intended to anger me.  If you have an
+    ARPA account, please tell CSTACY that he was successful;
+    now let us see if my Pentagon friends can upset him. Or
+    perhaps some reporter friends.  Or both.,  Or even
+    the House Armed Services Committee.
+
+    No more unread messages in this topic
+    Hit <RETURN> for next active conf/topic.
+    Read:bye
+
+
+
+
+Date: Thu, 24 Oct 85 16:45:09 EDT
+From: "Christopher C. Stacy" <CSTACY@MIT-MC.ARPA>
+Subject:  vax135!petsd!pedsgd!bobh at UCB-VAX.Berkeley.EDU
+To: USER-ACCOUNTS@MIT-MC.ARPA
+
+
+
+   It would be a good idea if people did NOT respond to the message about
+   Jerry Pournelle; nothing useful can come from stirring this around
+   further.
+
+
+Date: Sat, 9 Nov 1985  23:10 EST
+From: PGS%MIT-OZ@MIT-MC.ARPA
+To:   user-a@MIT-MC.ARPA
+Subject: Pournelle
+
+
+
+   Leigh read me some of Mr. Pournelle's expose' of the ARPAnet. He
+   pretty much said that, due to increased demands on computational
+   resources, guest accounts are no longer generally available on MC,
+   thereby saving Chris some typing.
+
+
+
+

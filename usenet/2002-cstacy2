@@ -1,0 +1,22 @@
+From newsserver@localhost  Sat Feb  9 05:00:14 2002
+Path: news.btopenworld.com!btnet-feed3!btnet-peer0!btnet!dispose.news.demon.net!demon!news.maxwell.syr.edu!newspeer.radix.net!uunet!ash.uu.net!world!news
+Message-ID: <u8za47zln.fsf@theworld.com>
+From: Christopher Stacy <cstacy@theworld.com>
+Newsgroups: alt.folklore.computers
+Subject: Re: Filesystem namespaces (was Re: Serving non-MS-word *.doc files (was   Re: PDP-10 Archive migrationplan))
+Date: Fri, 8 Feb 2002 15:38:44 GMT
+References: <francini1026-ya02408000R0202021715320001@news.ne.mediaone.net> <a3ru2m$bcf$1@iruka.swcp.com> <a3u1bd$7is$12@bob.news.rcn.net> <a3ugd7$qj0$1@helle.btinternet.com> <a3uu19$b1q$1@iruka.swcp.com> <3C63636E.8E535F6@bell-labs.com>
+Lines: 7
+Sender: cstacy@BONK
+NNTP-Posting-Host: ppp0b014.std.com
+Organization: The World @ Software Tool & Die
+X-Newsreader: Gnus v5.7/Emacs 20.7
+Xref: cartman.at.fivegeeks.net alt.folklore.computers:35327
+
+On ITS (ca.1967) user processes were accesible as part of the filesystem.
+The device name was "USR" and the file name consisted of the username
+and unique jobname.  Processes were called "jobs".  In fact, opening
+such a file was the only way to perform most process manipulations,
+such as: creation of jobs, reowning disowned jobs, selection of existing
+jobs, and testing for the existence of a job.  This is also how you
+read or wrote a job's memory, and accessed its control variables.

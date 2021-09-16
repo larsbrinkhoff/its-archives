@@ -1,0 +1,47 @@
+From newsserver@localhost  Sun Jan  1 02:00:48 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed2.jnfs.ja.net!jnfs.ja.net!sanger.ac.uk!green.octanews.net!news-out.octanews.net!news.glorb.com!cycny01.gnilink.net!spamkiller.gnilink.net!gnilink.net!trnddc07.POSTED!8b1f9295!not-for-mail
+Message-ID: <yzlr77uufyh.fsf@OSX663.local>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: print m.f.d. (file)
+Date: Sat, 31 Dec 2005 03:02:14 GMT
+References: <1135981073.767606.259720@f14g2000cwb.googlegroups.com>
+Lines: 28
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.0.50 (darwin)
+Cancel-Lock: sha1:6izJDwLnn8cVr5vxkbhW9/xxvSU=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.173.77
+X-Complaints-To: abuse@verizon.net
+X-Trace: trnddc07 1135998134 68.163.173.77 (Fri, 30 Dec 2005 22:02:14 EST)
+NNTP-Posting-Date: Fri, 30 Dec 2005 22:02:14 EST
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:45621
+
+"Mike Speed" <mike8s2@yahoo.com> writes:
+
+> How can I assign ":print m.f.d. (file)" to some sort of macro?
+> Or write a midas program that would do the same thing?  
+> It would have to work from whatever directory I was in,
+> so would I have to change its  > and recompile the whole thing?
+> I would also like a command that would list every file on
+> the system (along with what directory it was in).
+
+DDT is not extensible and doesn't have a command macro 
+definition facility.  You'll have to write a program.
+You could write the program in any language -- MIDAS, TECO,
+and LISP being the usual ones -- or even as a DDT command script.
+
+M.F.D. (FILE) is (as far as your program is concerned) nothing
+more than a file that you can open from which you can read a
+depiction of the MFD -- a listing of all the directory names
+on the system.  I can't quite figure out what you're asking
+about regarding a current directory.   ITS does not have
+hierarchical directories, if that's what you're thinking.
+(I don't know what you think ">" has to do with anything.)
+
+If you want to write a program to list all the files on the system,
+have it open up the MFD as above, loop reading each directory name 
+from there, for each directory open up the file ".FILE. (DIR)",
+and print out the results.
+
+This is all documented in the OPEN system call documentation.

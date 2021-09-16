@@ -1,0 +1,89 @@
+From newsserver@localhost  Thu Apr  3 04:04:57 2008
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!news1.google.com!border1.nntp.dca.giganews.com!nntp.giganews.com!local02.nntp.dca.giganews.com!nntp.isomediainc!news.isomediainc.POSTED!not-for-mail
+Message-ID: <alpine.OSX.1.10.0804021032050.345@pangtzu.panda.com>
+From: Mark Crispin <mrc@Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: historical revisionism
+Date: Wed, 2 Apr 2008 10:52:20 -0700
+References: <alpine.WNT.1.10.0804011651130.4020@Tomobiki-Cho.CAC.Washignton.EDU> <rvecc5-9bf.ln1@tools.pfarrell.com>
+Lines: 64
+NNTP-Posting-Date: Wed, 02 Apr 2008 12:52:22 -0500
+Sender: mrc@pangtzu.panda.com
+In-Reply-To: <rvecc5-9bf.ln1@tools.pfarrell.com>
+User-Agent: Alpine 1.10 (OSX 1016 2008-03-27)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Usenet-Provider: http://www.giganews.com
+NNTP-Posting-Host: 206.124.149.117
+X-Trace: sv3-ZITxU7owBsVlD9Qsl1zw/kXrU3I/jVzVYiW/pcXhZFg65+c3SiDkFT/UKv3TYOtRejMIbgPfvYxeTFY!Cx5yVpZgoWLjTh2vZQirEXc68iBbjooxXmJHphFo2xrJdXj89RUx5fauOj8XYSUCTSh8b+nb4om5!OshvJ4w2d/VF0W0hnuLfRFNV
+X-Complaints-To: abuse@isomediainc
+X-DMCA-Complaints-To: abuse@isomediainc
+X-Abuse-and-DMCA-Info: Please be sure to forward a copy of ALL headers
+X-Abuse-and-DMCA-Info: Otherwise we will be unable to process your complaint properly
+X-Postfilter: 1.3.38
+Xref: cartman.offog.org alt.sys.pdp10:49497
+
+On Wed, 2 Apr 2008, Pat Farrell posted:
+> And no mention that 'vi' is a direct spiritual descendant of TECO.
+> More limited, but ifoo$ to insert sure looks familiar.
+
+I always consider vi to be part of the west coast line (TV, E, TVEDIT, 
+etc.) instead of the east coast line (TECO, EMACS).  However, there was 
+certainly cross-pollinization between the two lines.  Although most people 
+in the 1970s and 1980s were firmly in one camp or the other, almost 
+everybody had familiarity with the other side.
+
+I, personally, never learned vi; but my E skills from WAITS transferred to 
+vi well enough that I can do simple editing on a system which lacks emacs.
+
+DEC TECO was crippled until the release of TV-TECO in TOPS-20.  TECO, as 
+written by Dan Murphy, always was a display editor.  I'm sure that Dan can 
+chime in with a lot more history.
+
+TECO (by this I mean the program on MIT ITS) remained much like the 
+TOPS-20 TV-TECO program over a decade later until RMS visited SAIL in the 
+early 1970s and saw E and its real time editing features.  This was, 
+indeed, a critical turning point and RMS was part of it; he implemented ^R 
+mode in TECO which was its first real-time editing.  Some familiar 
+commands, such as ^A, ^B, ^D, ^F, ^K, ^N, ^O, ^P, ^V appeared during this 
+time.
+
+Other people quickly developed macro packages, and by 1976 there were two 
+major ones: TECMAC and TMACS.  There were also personal variations as 
+well.  For example, I had an extended version of TECMAC which had meta 
+commands to operate on words the way that control commands operated on 
+characters, and convinced RMS that this was an important basic 
+functionality.
+
+EMACS was created in late 1976/early 1977 by a group of people, including 
+RMS, Guy Steele, and Dave Moon, in an effort to unify TECMAC and TMACS. 
+I take credit for the design in which commands such as ^X^R (read file) 
+prompt you for a file name instead of opening a TECO minibuffer with the 
+necessary TECO commands and the cursor placed where the file name should 
+go.  I nagged RMS into making that change.  [Yes, it is undoubtably true 
+that RMS did most of the programming -- but he did not operate in a 
+vacuum!]
+
+EMACS would have languished in obscurity and died when ITS did, were it 
+not for the effort of Mike McMahon, one of the most brilliant programmers 
+that I have ever met.  MMcM did "the impossible": he ported EMACS to 
+TOPS-20!
+
+MMcM's port is another critical turning point in the history of EMACS; and 
+had this not happened I am convinced GNU would not have happened since 
+nobody would have paid any attention to RMS in the early 1980s.  RMS got 
+the attention and support he needed to launch GNU because he was the 
+developer and distributor of EMACS for TOPS-20.
+
+Sadly, MMcM gets very little credit today; he deserves more.  I should 
+also mention that he was the original author of the TOPS-20 mailsystem. 
+I am most associated with it, and did indeed write some of its components 
+(most notably the SMTP and IMAP servers).  But MM, MMAILR (originally 
+XMAILR), and MMAILBOX (originally XMAILBOX) were created by MMcM; I have 
+always attempted to correct people who call me the "author of MM".
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.

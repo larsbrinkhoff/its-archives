@@ -1,0 +1,37 @@
+From -329490831042583245
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,a0cf60d33a1c44d4
+X-Google-Attributes: gidfdb0e,public
+From: Alan Bawden <Death@To.Spammers>
+Subject: Re: The DEC PDP-3
+Date: 1997/09/21
+Message-ID: <21Sep1997.233651.Alan@LCS.MIT.EDU>#1/1
+X-Deja-AN: 274396135
+Sender: alan@oolong.camellia.org
+References: <5v6e4g$1g7a$1@flood.weeg.uiowa.edu> <34172B67.54569811@stoneweb.com> <5v8mnc$2cf$1@kirin.wwa.com> <5vb9g5$3tq$1@decius.ultra.net> <3419E809.6BB2FA03@stoneweb.com> <francini-ya02408000R2109970335410001@news.ultranet.com> <6046tb$rc8$1@kirin.wwa.com>
+Original-Sender: Death@To.Spammers
+Organization: ITS Preservation Society
+Newsgroups: alt.sys.pdp10
+
+
+In article <6046tb$rc8$1@kirin.wwa.com> 
+jeverett@wwa.DEFEAT.UCE.BOTS.com (John Everett) writes:
+
+   From: jeverett@wwa.DEFEAT.UCE.BOTS.com (John Everett)
+   Newsgroups: alt.sys.pdp10
+   Date: 21 Sep 1997 22:25:47 GMT
+   ...
+   My (very fuzzy) recollection of TW's first use of the JFFO had to do
+   with identifying which physical disk required service. I believe there
+   was a word somewhere where bits represented disks, and a one in a
+   corresponding position meant that disk needed attention....
+
+The RH10/RH11 "attention" register contains one bit for each disk unit.
+The ITS disk control code certainly uses a JFFO to dispatch on those bits
+(I just checked to be sure).  I can't imagine that any PDP10 programmer
+would do anything -other- than use a JFFO after she reads that contol
+register.
+
+--
+My true electronic mail address is the obvious substring of the Message-Id
+of this message.

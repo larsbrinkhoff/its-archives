@@ -1,0 +1,50 @@
+From newsserver@localhost  Tue Oct 18 04:01:49 2011
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!news1.google.com!Xl.tags.giganews.com!border1.nntp.dca.giganews.com!nntp.giganews.com!local2.nntp.dca.giganews.com!nntp.speakeasy.net!news.speakeasy.net.POSTED!not-for-mail
+Message-ID: <UpidnbdL5-QsWgHTnZ2dnUVZ_gmdnZ2d@speakeasy.net>
+From: "Bob, K1BC" <fake.address@k1bc.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Early Tenex development
+Date: Mon, 17 Oct 2011 20:26:21 -0400
+References: <13485981.617.1318866686570.JavaMail.geo-discussion-forums@vbbdd1> <bo6dnQ1YmYyB_wHTnZ2dnUVZ_vudnZ2d@speakeasy.net> <alpine.OSX.2.00.1110171041050.9034@hsinghsing.panda.com>
+Lines: 26
+NNTP-Posting-Date: Mon, 17 Oct 2011 19:26:25 -0500
+User-Agent: Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.0.7) Gecko/20060909 Thunderbird/1.5.0.7 Mnenhy/0.7.4.0
+MIME-Version: 1.0
+In-Reply-To: <alpine.OSX.2.00.1110171041050.9034@hsinghsing.panda.com>
+Content-Type: text/plain; charset=ISO-8859-1; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Usenet-Provider: http://www.giganews.com
+NNTP-Posting-Host: 66.92.67.196
+X-Trace: sv3-yfh733pkLVlqnKG0h3d/ml5TDb6N1yvb/S/HpavhmlEGngXLdJlX932+5gjxOmw+Jh5q2iUpQz+Tujj!6IVu0XmDDbNZOuMLthcm+rt/6PATqSWn1wWIyAo3tyRTlyIInWPOsie2qOycH2hf7a8l2xummZYC!DKCl6TGwa2aPC0F82Ywc5UOUYZv3/iE=
+X-Abuse-and-DMCA-Info: Please be sure to forward a copy of ALL headers
+X-Abuse-and-DMCA-Info: Otherwise we will be unable to process your complaint properly
+X-Postfilter: 1.3.40
+X-Original-Bytes: 2464
+Xref: cartman.offog.org alt.sys.pdp10:57538
+
+Mark Crispin wrote:
+> On Mon, 17 Oct 2011, Bob, K1BC posted:
+>> As you say, this wasn't all unique to TENEX.  ITS did address space,
+>> but the user interface was DDT.  Berkeley's 940 system did much of
+>> the user experience stuff.
+> 
+> For what it's worth, ITS had better process structure (much like UNIX); 
+> but TENEX had better virtual memory.
+
+Can you expand on what you believe was better about the process
+structure in ITS than in TENEX?  TENEX didn't have such sugar as
+the ENVironment being passed in a standard way, but that's pretty
+much a frill, easily added.  Did ITS have that?
+
+I did some coding for ITS over at the AI lab.  Mostly porting some
+tools from DEC to ITS and vice versa.  But nothing that needed
+multiple processes.  I did write tools in TENEX that used multiple
+processes.
+
+I didn't mention in my previous list the process splice mechanism:
+EXEC above a USER process.  USER process croaks, either a loop
+or a crash of some sort.  EXEC, on command, says "splice a debugger in."
+Now the structure is EXEC above DDT above USER job.  All the detritus
+from the crash is there to be debugged.
+
+/Rcc

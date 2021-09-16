@@ -1,0 +1,229 @@
+From newsserver@localhost  Thu Mar 25 05:00:22 2004
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!jnfs.ja.net!feeder.news.heanet.ie!zen.net.uk!demorgan.zen.co.uk!news2.euro.net!news.cambrium.nl!news.cambrium.nl!border1.nntp.ash.giganews.com!border2.nntp.ash.giganews.com!nntp.giganews.com!cyclone1.gnilink.net!spamkiller.gnilink.net!gnilink.net!nwrddc02.gnilink.net.POSTED!8b1f9295!not-for-mail
+Message-ID: <u3c7x6eic.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: The Adventure Game HAUNT
+Date: Wed, 24 Mar 2004 22:56:13 GMT
+References: <405AAA81.C3584C8F@comcast.net> <dnnl509h5c8qq8578nl8fcsgfpsrik8rb9@4ax.com> <405af29b$0$3077$61fed72c@news.rcn.com> <8l1m50542ubh6tthtaconvr8872m8tstsr@4ax.com> <405b0cf3$0$3051$61fed72c@news.rcn.com> <h1pm50lechtcea8jbpocdac2u6rvef4m8m@4ax.com> <405c414a$0$3077$61fed72c@news.rcn.com> <u1xnns4mx.fsf@news.dtpq.com> <405d77a6$0$3058$61fed72c@news.rcn.com> <mddy8prny4w.fsf@panix5.panix.com> <uzna7cebq.fsf@news.dtpq.com> <40618e23$0$3042$61fed72c@news.rcn.com>
+Lines: 209
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.149.44
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc02.gnilink.net 1080168973 68.163.149.44 (Wed, 24 Mar 2004 17:56:13 EST)
+NNTP-Posting-Date: Wed, 24 Mar 2004 17:56:13 EST
+Xref: cartman.azz.us-lot.org alt.folklore.computers:108823
+
+>>>>> On Wed, 24 Mar 04 12:05:23 GMT, jmfbahciv  ("jmfbahciv") writes:
+ jmfbahciv> I'm talking about a program that was GAM:HAUNT.EXE
+
+ADVENT was the original "dungeon" game; a FORTRAN program.
+ZORK was a different game, inspired by ADVENT, written in MDL.
+HAUNT was a different game, inspired by those two, written in OPS4.
+
+MDL was an obscure dialect of Lisp used by one small group at
+Tech Square. MDL was written in MIDAS (PDP-10 assembler).  
+It ran on ITS, TENEX, and TOPS-20.
+
+OPS4 was a AI programming language, implemented in INTERLISP,
+
+INTERLISP was one of the two major dialects of Lisp.
+It was not used at MIT, so I don't know too much about it.
+I assume it was originally written in MACRO.  On the PDP-10, 
+I think it ran on almost everything: TOPS-10, TENEX, TOPS-20,
+and maybe SAIL, but I don't think anyone ever brought it up on ITS.
+
+ jmfbahciv> We never had the sources to the game I'm talking about
+ jmfbahciv> because the language was proprietary (another reason I
+ jmfbahciv> believed when I was told it was MDL).
+
+I am not sure what is meant by "proprietary language".
+
+The MDL people, of course, loved it when other people wrote 
+programs in MDL.  MDL was not accepted by most groups at the lab,
+but it was happily offered and promoted by its small community.
+It was a very interesting dialect of Lisp, and many of its
+advanced features were later incorporated into Common Lisp.
+Like most dialects of Lisp in the 1970s, MDL was compiled,
+but also had an interpreter. MDL also contributed to the
+Scheme dialect of Lisp.
+
+ZORK is one of the most famous programs of all time, and certainly
+MDL's claim to fame.  ZORK was originally named "Dungeon", and was 
+not the only adventure-type game to be called that at some point.
+But people kept logging in and playing the game when they should
+not have been, and so the ZORK developers tried hiding the program
+under various names so that people couldn't find it and run it.
+ZORK was the last name when they gave up trying to hide it.
+
+My first program on ITS was in MDL.  It's job was to look at 
+who was logged in to the system and help kick people off who 
+were wasting resources (most notably, of course, playing ZORK.)
+
+On the subject of these Lisp languages...
+
+The rest of the groups at Project MAC (AI/LCS) all used the venerable
+MACLISP, which was the other major dialect of Lisp competing with
+INTERLISP.  MACLISP (MIT) and INTERLISP (BBN/Xerox) represent the two
+early major forks from the original Lisp language, and they correspond
+to two different user communities, two different flavors of magic, etc.  
+Both were widely used by the ARPANET community.
+
+INTERLISP was developed over at BBN, and was adopted by Xerox PARC.
+In addition to running on the PDP-10, it also ran on the Xerox
+Lisp machines, and was later ported to conventional workstations.
+
+MACLISP is arguably the more direct descendant of the original Lisp
+invented at Project MAC, and it is the language from which most Lisp
+dialects sprang, including at the time: MDL, Scheme, and the MIT Lisp
+Machine's Lisp (aka ZetaLisp).  Most dialects of Lisp are offshoots
+from MACLISP.  By contrast, INTERLISP was much more coherent and 
+didn't really have derivatives or different dialects.
+
+When literate people say "Lisp" today, they are 
+usually referring to one of four languages:
+
+1."Common Lisp". Essentially a subset of MIT Lisp Machine Lisp, 
+   with a few things from Xerox (but not from INTERLISP proper). 
+   This was invented to unify the disparate dialects of MACLISP,
+   which was necessary because ARPA decided there were too many
+   dialects of Lisp and was going to pick INTERLISP as the
+   one language (even though the MACLISP family was bigger).
+   It's primary design goal was compatability with existing
+   MACLISP-type source code, and cleaning up a few language
+   issues of current practice.  It was explicitly not intended
+   as a new dialect of Lisp or having any radical departures.
+
+   Common Lisp is an industrial-strength language that supports 
+   a variety of programming paradigms and styles, including
+   procedural, functional, declarative, and object-oriented.  
+   Most Lisp compilers do some type inferencing, but Lisp 
+   is based on a latent dynamic (run-time) type system.
+   Common Lisp is a compiled language.
+   Widely used in all kinds of applications.
+   ANSI standard X3.J13.
+
+2. GNU Emacs Lisp (aka "elisp").
+   The run-time extension language for GNU Emacs.
+
+   The original version of Emacs was on the PDP-10.
+   It was a set of Editor MACros implemented in TECO 
+   (which was in turn written in MIDAS), not Lisp.
+   Early versions of Lisp were lacked certain features needed
+   for really general-purpose programming.  As soon as Lisp
+   improved in those areas, it was used for reimplementing
+   Emacs.  This happened first on Multics with their version
+   of MACLISP, and then on the Lisp Machine (which was the
+   AI lab's successor to the PDP-10 ITS environment).
+
+   More than a decade later when RMS decided to implement
+   Emacs for Unix, he did it with a small Lisp interpreter
+   for a language similar to MACLISP. (Moore's law had not
+   yet reached the point where Common Lisp was reasonable
+   to use on small computers)
+
+   GNU Emacs Lisp is a "toy" dialect of Lisp.
+   It is an interpreter only.  In terms of style and 
+   semantics, it represents a step backwards from the 
+   major era of Lisp development circa 1980. It is designed
+   just to be an editor extension language. Despite those
+   limitations and shortcomings, it does it's job, and people
+   even write some pretty complex Emacs subsystems in it.
+
+3. Scheme.  Invented to experiment with the semantics of
+   programming languages, and for pedagogical purposes.
+
+   Descended from MACLISP and MDL.  Contributed a little
+   bit to Common Lisp.  But Scheme is very different from
+   Common Lisp in many fundamental ways.  It represents an
+   entirely different (and almost exclusively academic)
+   user community than Common Lisp.
+
+   Scheme is mainly used as a teaching vehicle in conjunction
+   with books like "Structure and Interpretation of Computer
+   Programs".  But some versions of Scheme are also used in
+   commercial contexts.
+
+   Scheme is different enough from Common Lisp that some
+   people even doubt or debate whether it is in fact Lisp.
+   Scheme is the only Lisp that many undergraduate students
+   are exposed to, and they are very confused and disconcerted
+   when they encounter "real Lisp" (that is, Common Lisp).
+   But  (apply 'similar-to 
+               '(lambda (lang) 
+                  (lexigraphic-synytax (lamguage lang)))
+            '(scheme lisp))
+   and therefore Scheme is certainly considered 
+   by outsiders to be Lisp.
+
+   Nobody agrees on what Lisp is exactly, except that it's
+   "a ball of mud". But like certain other "dirty" things
+   in life, they think they know it when they see it.
+
+4. Either some terribly archaic version of Lisp circa 1967,
+   or some random proprietary extension language that probably
+   amounts to a bastard dialect in the MACLISP family with perhaps
+   some Common Lisp-isms thrown in.  Some CAD programming systems,
+   notably AutoCAD, have their own Lisp dialects.  Or maybe they
+   mean ISO Standard Lisp, a dialect that nobody uses, born of
+   political gesture from when ANSI Common Lisp was being standardized    
+
+Lisp has been around for a very long time (second only to FORTRAN), 
+and Lisp hackers are very frustrated that there's a plethora of
+wrong information (very outdated, or just ignorant bullshit) out there.  
+For some correct information about Lisp, some good places to start are:
+
+ http://www.alu.org/alu/res-lisp.clp
+ http://www.cons.org/cmucl/
+ http://www.cliki.net/
+ http://alu.cliki.net/
+
+Well, back to the subject of HAUNT, which isn't written in Lisp...
+
+>>>>> On Wed, 24 Mar 04 11:58:47 GMT, jmfbahciv  ("jmfbahciv") writes:
+ jmfbahciv> Somebody obviously transformed the JSYSes for UUOs for HAUNT.EXE
+ jmfbahciv> when running it on the -10.  The reason that check was put on
+ jmfbahciv> execution times was because the code was MUDDLEd and sucked up
+ jmfbahciv> system resources.  This is what I was told--I did not look
+ jmfbahciv> at the code.
+ 
+ >>>>> On Wed, 24 Mar 04 12:05:23 GMT, jmfbahciv  ("jmfbahciv") writes:
+jmfbahciv> It is very clear that you are correct and I'm confused.
+ jmfbahciv> But I'm not confused about where the game was played, the
+ jmfbahciv> purpose of the stub nor the reasons told to me why
+ jmfbahciv> gameplay was restricted.
+
+As you realize by now, HAUNT is a completely different game from ZORK,
+and it doesn't have anything to do with MDL.  Someone was seriously
+confused when they made those remarks to you. They probably had heard
+of ZORK and maybe thought that HAUNT was a version of ZORK or something.
+And they didn't know what MUDDLE was, and apparently didn't have a
+very clear conception of what programming was about, for that matter.
+(Hmmm, your words "code was muddled and sucked up resources" actually
+ring some kind of bell!  Probably a joke that was overheard by 
+someone somewhere and then repeated.)
+
+MDL (aka MUDDLE) doesn't have anything to do with inefficient code.
+The MDL compiler generated good code.  (Lisp compilers have traditionally
+generated pretty efficient code, and have often been used as vehicles to
+explore theories about compiler design.  For example, the MACLISP compiler
+beat the DEC FORTRAN compiler on some numeric benchmarks back in those days.)  
+
+Anyway, the name MUDDLE is a joke relating to theories at the lab about
+how humans think, and how to design programming languages for them.
+Some other languages being developed there were named PLANNER, CONNIVER,
+and SCHEME.  MDL was a language designed for Dynamic Modelling, which is
+just a fancy way of suggesting that complex programs need a language that
+can express models of the highly dynamic systems in world we live in.  
+Hence, "dynamic muddling", etc.  (And we all know that the ITS machine
+named "DM" really stood for "Dungeon Machine", not "Dynamic Modelling"...)
+
+HAUNT was a very large program -- which was the entire point of
+writing it -- so it probably did suck up a lot of resources.
+It was written in OPS4, which probably required the significant
+INTERLISP runtime environment to be present.   And so they stuck
+that bootstrap program on it to control when it was allowed to run.
+

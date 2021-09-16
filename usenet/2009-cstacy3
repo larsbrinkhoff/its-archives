@@ -1,0 +1,54 @@
+From newsserver@localhost  Fri May  8 04:04:11 2009
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!news2.google.com!npeer03.iad.highwinds-media.com!news.highwinds-media.com!feed-me.highwinds-media.com!post01.iad.highwinds-media.com!newsfe14.iad.POSTED!7564ea0f!not-for-mail
+Message-ID: <yzlk54tjpht.fsf@103.sub-75-199-118.myvzw.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: How did the monitor work under TOPS?
+Date: Thu, 07 May 2009 04:17:50 -0400
+References: <87ljqi8mck.fsf@chbarts.motzarella.org> <0sbct4dtf272877khfhse6tqh3be870ma9@4ax.com> <mddocun0yyd.fsf@panix5.panix.com>
+Lines: 34
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (darwin)
+Cancel-Lock: sha1:dYJIzpzUcshZElFvRljF+GQyU+4=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 70.179.91.13
+X-Complaints-To: newsmaster@cox.net
+X-Trace: newsfe14.iad 1241684271 70.179.91.13 (Thu, 07 May 2009 08:17:51 UTC)
+NNTP-Posting-Date: Thu, 07 May 2009 08:17:51 UTC
+Organization: Cox
+Xref: cartman.offog.org alt.folklore.computers:259486
+
+Rich Alderson <news@alderson.users.panix.com> writes:
+
+> John Everett <jeverett3@sbcglobal.DEFEAT.UCE.BOTS.net> writes:
+>
+>> To my knowledge neither TENEX nor its progeny TOPS-20 was ever
+>> referred to as a "Monitor".
+>
+> The Tops-10 monitor program is named "SYSTEM.EXE".  The TOPS-20 monitor program
+> is named "MONITR.EXE".  I don't recall what the TENEX folks named their
+> monitor.
+>
+> But they were *all* called "the monitor".
+
+Just to chime in, we didn't usually call ITS "the monitor" either.
+
+And HACTRN was not a program, it was (normally for almost everyone)
+simply the name of the user's toplevel process.  Each user process 
+can have any tree of subprocesses in a hierarchical control arrangement.
+Normally users have a DDT at the top which they use as their general
+command interpreter (and also debugger) to control their job tree.
+HACTRN was normally loaded with a program named DDT, hence the "HACTRN
+is DDT" minor confusion I've seen on these threads.  A few people used
+other programs (such as Lisp) as their toplevel.  Daemon toplevel processes
+(eg. the mailer or the accounting system) were not called HACTRN and of
+course were running some useful daemon program (not DDT).  (However you
+could patriate any process, not just your own, to move under your DDT
+for debugging).
+
+Ummm.. I think we just called the kernel in ITS, "ITS" or "the system".
+
+The word "monitor" suggested the monolithic design where the user
+command interface is the same program as the kernel, but ITS was
+already way beyond that...not bad for the 1960s!
+:)

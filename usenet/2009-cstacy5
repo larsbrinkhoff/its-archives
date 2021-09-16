@@ -1,0 +1,70 @@
+From newsserver@localhost  Mon Sep 28 04:02:52 2009
+Path: uni-berlin.de!fu-berlin.de!news.glorb.com!news2.glorb.com!npeer03.iad.highwinds-media.com!news.highwinds-media.com!feed-me.highwinds-media.com!post01.iad.highwinds-media.com!newsfe19.iad.POSTED!7564ea0f!not-for-mail
+Message-ID: <yzly6o0mby0.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: Status of Arpanet/Internet in 1976?
+Date: Sun, 27 Sep 2009 15:20:39 -0400
+References: <0fa0c23a-1eba-4f86-817b-b81a6e85177d@j19g2000vbp.googlegroups.com> <62ad857f-edae-4183-bcc0-964f784213c2@j9g2000vbp.googlegroups.com> <Pine.LNX.4.64.0909221456440.27561@darkstar.example.net> <h9d38v329r6@news2.newsguy.com> <mddpr9h7b40.fsf@panix5.panix.com> <h9fm9f11npn@news2.newsguy.com> <mdd8wg4t1ou.fsf@panix5.panix.com> <h9i7h012vhe@news1.newsguy.com>
+Lines: 50
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (darwin)
+Cancel-Lock: sha1:OIqaO/CjZtNBnDqUQV9P+ZWfwng=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 70.179.105.8
+X-Complaints-To: newsmaster@cox.net
+X-Trace: newsfe19.iad 1254079239 70.179.105.8 (Sun, 27 Sep 2009 19:20:39 UTC)
+NNTP-Posting-Date: Sun, 27 Sep 2009 19:20:39 UTC
+Organization: Cox
+Xref: cartman.offog.org alt.folklore.computers:267647
+
+jmfbahciv <jmfbahciv@aol> writes:
+> Rich Alderson wrote:
+>> jmfbahciv <jmfbahciv@aol> writes:
+>>
+>>> Rich Alderson wrote:
+>>>> jmfbahciv <jmfbahciv@aol> writes:
+>>
+>>>>> By law, those networks had to be separated from all
+>>>>> commercial network paths.  So, unless you were working
+>>>>> for the government in a secure area or for a university
+>>>>> doing government work, you would not have access to
+>>>>> that piece.
+>>
+>>>> In 1976, that wasn't much of a problem, since there *was* no Internet
+>>>> as we define it today.
+>>
+>>> There were networks and they talked to each other.
+>>
+>> Not disputing that.  There were internetworks in existence, certainly.
+>> However, "the Internet"--the one that most people think that they know
+>> something about because they've heard of it on TV--did not exist in
+>> 1976.
+>>
+> Oh, I see what you're distinguishing.  It's roots were being watered
+> and tended, though.  I don't think any of us could have
+> anticipated the "web" usages that occurred in the 90s.  Data entry
+> and screen forms had been.
+
+Feature-wise the ARPANET had everything the Internet has today.
+Email, File Transfer, Telnet, Instant Messaging, and even more
+sophisticated things on some systems.  All that stuff was around 
+by the very early 1970s.  The only difference I can think of is
+that the early versions of the web (ca. 1968) never caught on.
+
+For example, Augment/NLS (networked HyperText and more) goes back 
+to 1968 and was on the ARPANET in the early years.
+See http://www.dougengelbart.org/about/augment.html
+
+For example, the ITS machines had transparent remote file access
+with fully atomic (consistent) syscall/IO semantics, over the ARPANET.
+(Similar to NFS, but better.)  I don't have the reference materials
+handy, but that was around 1977 (maybe earlier). The syntax for a local
+file is like "DSK:CSTACY;SOME FILE" but to reference a file over the
+network (say, on the AI lab machine) simply say "AI:CSTACY;SOME FILE".
+Other devices were also remotely accessible - it was built a generalized
+remote device/object protocol running in device-driver userland.
+
+The Internet protocols have brought us a larger network, and the wide
+adoption has brought all the social effects and commercialization.
+But has there been anything fundamentally new in the last 38 years?

@@ -1,0 +1,101 @@
+From newsserver@localhost  Wed May  2 16:08:43 2001
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet!dispose.news.demon.net!demon!news.maxwell.syr.edu!newsswitch.lcs.mit.edu!world!news
+Message-ID: <uzod97rex.fsf_-_@spacy.Boston.MA.US>
+From: Christopher Stacy <cstacy@spacy.Boston.MA.US>
+Newsgroups: alt.sys.pdp10
+Subject: ITS security [Re: Bulletproofing Tops10]
+Date: Sat, 21 Apr 2001 23:40:38 GMT
+References: <z2Yz6.3296$Rj2.11602@NewsReader> <3AD18A06.25DABDFB@inwap.com> <9ba4iu$aa0$1@bob.news.rcn.net> <Y2HC6.3021$986.4396@NewsReader> <9bhc25$9un$6@bob.news.rcn.net> <4FID6.4541$%Q.7798@NewsReader> <9bpa02$ea4$2@bob.news.rcn.net> <2VbE6.863$vs4.2536@NewsReader> <9brv7m$j87$1@bob.news.rcn.net> <uwjE6.20966$vk1.25873@NewsReader>
+Lines: 87
+Sender: CStacy@BONK
+NNTP-Posting-Host: ppp0b157.std.com
+Organization: The World @ Software Tool & Die
+X-Newsreader: Gnus v5.7/Emacs 20.7
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:3611
+
+>>>>> On Sat, 21 Apr 2001 18:30:49 +0100, JD  ("JD") writes:
+ JD> Hence the ITS sites experienced difficulties as the Arpanet
+ JD> got bigger and random hackers arrived.
+
+I am wondering what the basis is for your statements about ITS.
+For example, could you provide a story or something to explain
+what specific problems you are referring to and how they are 
+related to security?
+
+For those who don't know: the policy on the ITS systems was fairly
+unique: essentially anybody was allowed to use the system as a guest.
+This was an administrative policy decision, not an artifact of the
+system security features or lack thereof.  I certainly agree that
+such a policy is not appropriate for all environments and cultures!
+
+Originally, ITS did not require a user account for logging in.
+(In fact, logging in was optional.  All it did was set your
+home directory, if you had one, and run your login init file.)
+
+The only notable problem with the ARPANET was that lots of
+users started connecting, and they would tie up the system.
+Sometimes they would log in using other people's user-names.
+The solution was to implement user accounts, which required
+network users to log in with a registered user-name and password.
+However, almost anybody was given an account for the mere asking.
+When the system was over busy, guests were asked or forced to log out.
+Misbehaving guests had their accounts revoked.  People using direct
+terminals, or coming from blessed network sites, still did not have 
+to supply a password or log in to gain access.
+
+ITS still had no system security beyond the login firewall.
+Once you were logged in, you could do anything.  
+This resulted in very few problems (perhaps two or three incidents
+occurring over about eight years and around 10,000 users.)  
+I think this was remarkable.
+
+ JD> Of course it didn't help that the command
+ JD> language for ITS was a souped-up DDT and that there were no controls
+ JD> at all; it was fairly easy to wreak havoc without meaning to, just by
+ JD> writing things like :ZIP!FOO$U^PZ(*&&K.  Monkeys and typewriters.
+
+However, in practice, that didn't ever happen, partly because people
+are not monkeys.  By the way, your example :ZIP!FOO$U^PZ(*&&K. 
+doesn't mean or do anything.  Also, the DDT command interpreter didn't
+work exactly as you suggest; the dangerous commands (such as "delete
+file") were by defaultly available only in their keyword forms like on
+most systems.  So if you wanted to delete a file, you would type the
+:DELETE command, but if you were an expert user, you could enable the
+command shortcut as ^O.  Of course, since most DDT commands are for
+debugging some job you're running, the worst damage would be that
+you might trash your program.
+
+Although most ITS users were not experts and would never try to use
+most DDT commands on purpose, this never turned out to be a problem.
+They just did :LISTF and :DELETE and :RUN and :KILL and so on, and
+didn't generally make the kinds of mistakes that you suggest.
+
+The few problems we experienced were deliberate and studied malice.
+They were never sophisticated (since there was nothing in your way
+to outsmart), but if you wanted to be an asshole you could just go
+around deleting all the files or telling the system to reboot.
+I can only remember that sort of thing happenning once.
+
+ JD> If I recall correctly there was one of the ITS sites (ML? MC?) that
+ JD> tried to implement security, with hilarious results.  It was like
+ JD> putting a lock on the front door of a house built out of tissue paper.
+
+I don't have any idea what you're talking about here, as ITS never
+tried to implement any security beyond requiring a login account.
+
+Well, there was one thing.  In order to debug the running kernel
+using DDT, you had to type a command first.  That wasn't in the early
+versions of the system, but it had nothing to do with ARPANET tourists.
+
+ITS was designed to provide a relatively small number of trusted
+users with a high level of service, suitable for tasks ranging from
+interactive program development to real-time control of robots.
+By contrast, Multics was designed to provide an adequate level
+of service to many users, presuming them all untrusted.
+ITS worked wonderfully in the environment it was designed for, 
+and, surprisingly, even when there were zillions of unculterated
+anonymous tourists.
+
+If you can recall correctly some hilarous story about the implementation
+of security on ITS, I would love to hear it, as I very much enjoy that
+sort of laugh, and somehow totally missed out on it...

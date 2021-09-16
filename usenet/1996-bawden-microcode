@@ -1,0 +1,41 @@
+From -8628986964660356772
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,7aabf1cb31f7c009
+X-Google-Attributes: gidfdb0e,public
+From: Alan Bawden <Alan@LCS.MIT.EDU>
+Subject: Re: ADP OnSites (was: Looking for DECsystem-2020)
+Date: 1996/12/05
+Message-ID: <5Dec1996.005400.Alan@LCS.MIT.EDU>#1/1
+X-Deja-AN: 202453080
+sender: alan@curry.epilogue.com
+references: <329EB4CF.41C67EA6@crash.com> <grturnerE1p2Ip.28M@netcom.com>
+organization: ITS Preservation Society
+newsgroups: alt.sys.pdp10
+
+
+In article <58554b$di2@shellx.best.com> 
+inwap@best.com (Smith and O'Halloran) writes:
+   >I always had the impression that there were some microcode hacks
+   >involved as well.
+   There was only one version of microcode for the KS-10; it was the same for
+   TOPS-10 and TOPS-20.
+
+True.  But...
+
+Certainly the same microcode image was used for both Tops-10 and -20, but
+there was a mode-bit somewhere that selected which of two totally separate
+microcode routines handled the fault.  So in some sense, there -was- some
+Tops-10 specific microcode hackery.  (Eventually, microcode space got so
+tight that DEC introduced a microcode assembly-time switch so that they
+could select which kinds of paging were supported -- I don't know which
+possible images were actually used.)
+
+I used the Tops-10 page refill microcode as my model when I wrote the ITS
+page refill microcode.  It was a real lifesaver that it was so separate
+from the Tops-20 microcode -- it meant that I could see what gyrations I
+had to make the micromachine perform without first having to understand all
+about Tops-20 paging!
+-- 
+Alan Bawden                                    Alan@LCS.MIT.EDU
+617/492-7274                   06BF9EB8FC4CFC24DC75BDAE3BB25C4B
+

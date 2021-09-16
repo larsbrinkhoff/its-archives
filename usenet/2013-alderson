@@ -1,0 +1,79 @@
+From newsserver@localhost  Wed Oct 16 04:00:30 2013
+Path: uni-berlin.de!fu-berlin.de!news.linkpendium.com!news.linkpendium.com!panix!not-for-mail
+Message-ID: <mdd1u3mypr4.fsf_-_@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: alt.sys.pdp10
+Subject: SMTP vs. DECnet vs. X.25 [was Re: TOPS-20 question about SYSJOB]
+Date: 15 Oct 2013 21:21:35 -0400
+References: <otk359dvivjk4t0f9uav4m68on3p4vjj18@4ax.com> <mddpprg7s7r.fsf@panix5.panix.com> <otk359dvivjk4t0f9uav4m68on3p4vjj18@4ax.com> <mddpprg7s7r.fsf@panix5.panix.com> <otk359dvivjk4t0f9uav4m68on3p4vjj18@4ax.com> <mddpprg7s7r.fsf@panix5.panix.com> <ui3959hak53c4lfujj5a43ip4hdh9mp5dp@4ax.com> <PM0004E863631A22D6@aca2180e.ipt.aol.com> <5259d27e.1052875@nntp3.rawbw.com>
+Lines: 61
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1381886497 16402 166.84.1.5 (16 Oct 2013 01:21:37 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Wed, 16 Oct 2013 01:21:37 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 22.3
+Xref: cartman.offog.org alt.sys.pdp10:58353
+
+nobody@nowhere.txt (Duty Calls) writes:
+
+> On 10 Oct 2013 13:49:00 GMT, jmfbahciv <See.above@aol.com> wrote:
+
+>> That kind of stuff would have been Mark's development.  The -20 only knew
+>> about DECnet and was not allowed to know about any other protocols.
+
+> More rubbish.  TOPS0-20 had DECnet, TCP/IP, and X.25 support.  SMTP is
+> in the application layer, "on top" of these, and theoretically could
+> have been written to use any or all of them.
+
+As a matter of fact--and I do mean fact, not opinion[1]--SMTP is a TCP-based
+mail protocol, defined in RFC 821, so is not directly applicable to either
+DECnet or X.25.
+
+As it happens, the MM mail system for TENEX and TOPS-20 was written to be as
+agnostic as possible about the underlying mail transport.  When I worked on it
+in 1983, the handler (MMAILR) supported 4 modes of delivery for messages in the
+mail queue:
+
+    1.  Local - sender and recipient on same machine, use the file system
+    2.  Internet - sender local (or relay), recipient on a known Internet host,
+	open an SMTP (TCP/IP) connection to the remote host and deliver
+    3.  PUP - sender local (or relay), recipient on a known PUP network host[2],
+	open a PUP connection to the remote host and deliver
+    4.  Chaosnet - sender local (or relay), recipient on known Chaosnet network
+	host[3], open a Chaosnet connection to the remote host and deliver.
+
+Most of the code was common, with a few protocol-specific subroutines for final
+delivery.
+
+My job was to add MMDF ("phone net") functionality to the MM system so that the
+University of Chicago could exchange e-mail with other members of EduCOM's
+EduNet facility, which was hosted out of MIT-Multics in a star configuration.
+I realized early on that UofC was sadly out of date (~200 edit levels behind
+current), got the latest bits from MRC at Stanford, and began a lifelong
+friendship which was cut too short last year.
+
+I realize that DEC marketed mail programs called MS and MX which dealt with
+DECnet addressing as well as TCP/IP.  These were based on an early version of
+the MM package, according to MRC, who did some of the work for DEC IIRC.
+
+
+
+[1] I cut my teeth as a TOPS-20 systems programmer extending the MM mail
+    system, created by MMcM (IIRC) and maintained for decades by MRC.  This was
+    the work that got Mark and me acquainted and led to his pointing me at a
+    Stanford job posting, which I took.
+
+[2] This was probably restricted by this time to the Stanford campus, although
+    PARC might have been running the MM system on MAXC.  I'm pretty sure that
+    SRI was running TCP/IP on their systems (DEC and Foonly) by then.
+
+[3] Done so that the MIT AI Lab ITS (PDP-10) and LispM systems could send mail
+    to and receive mail from MIT-XX, which ran TOPS-20.  I don't think Chaosnet
+    was used anywhere else.  (Oh, maybe early Symbolics installations?)
+
+-- 
+Rich Alderson                                   news@alderson.users.panix.com
+    the russet leaves of an autumn oak/inspire once again the failed poet/
+    to take up his pen/and essay to place his meagre words upon the page...

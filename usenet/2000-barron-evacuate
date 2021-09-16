@@ -1,0 +1,45 @@
+From 5784996171996488147
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,acbc57502b425d08
+X-Google-Attributes: gidfdb0e,public
+From: Pat Barron <pat@transarc.com>
+Subject: Re: PDP-10 binary file format
+Date: 2000/07/19
+Message-ID: <PAT.00Jul19125556@smithfield.transarc.ibm.com>#1/1
+X-Deja-AN: 648266878
+Distribution: world
+References: <85lmyyacgj.fsf@junk.nocrew.org> <8l4343$cgq$1@bob.news.rcn.net> <858zuy8h6n.fsf@junk.nocrew.org>
+Organization: Transarc Corporation
+Newsgroups: alt.sys.pdp10
+
+In article <858zuy8h6n.fsf@junk.nocrew.org> lars brinkhoff <lars@nocrew.org> writes:
+>   > Sigh!  PDP-10s probably generated a trillion binaries in their
+>   > lifetimes.  Giving the filenames would be a good start if
+>   > you really want the question answered.  And also include
+>   > the extensions, since they had particular formatting meanings.
+>
+>   Gladly.  These are ITS system programs:
+>
+>   @.ddt
+>   @.its
+>   @.nits
+>   @.nsalv
+> [...]
+
+I'm assuming you've gotten these files either from the collections
+on ftp.ai.mit.edu, or ftp.swiss.ai.mit.edu, or else from the ITS
+"final snapshots".  Alan Bawden wrote a program called "EVACUATE"
+to archive the contents of the machines on to a Unix filesystem,
+and that is what produced these files.  The program converted the
+36-bit words from files in the ITS filesystem, to 8-bit bytes to
+store in the Unix filesystem.  One thing that was really neat about
+it is that the conversion caused text files from ITS to be converted
+ASCII text files on Unix that are directly readable (i.e., with
+"cat", "emacs", etc.) without needing any special tools.
+
+The best place I've seen this format explained is within John Wilson's
+"itstar" program.  Look at ftp://ftp.dbit.com/pub/pdp10/its/itstar,
+and pay particular attention to the file "unpack.c", whose comments
+describe the conversion format in detail.
+
+--Pat.

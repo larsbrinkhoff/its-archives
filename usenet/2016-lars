@@ -1,0 +1,51 @@
+From newsserver@localhost  Thu Nov 24 04:05:02 2016
+Path: uni-berlin.de!fu-berlin.de!p16no102628qta.1!news-out.google.com!j8ni535qtc.0!nntp.google.com!p16no102624qta.1!postnews.google.com!glegroupsg2000goo.googlegroups.com!not-for-mail
+Message-ID: <a541c143-0920-45f6-8d43-8feccdf8b6ef@googlegroups.com>
+From: Lars Brinkhoff <lars.spam@nocrew.org>
+Newsgroups: alt.sys.pdp10
+Subject: Build ITS from scratch, using source code
+Date: Tue, 22 Nov 2016 22:37:17 -0800 (PST)
+Lines: 29
+X-Received: by 10.99.157.135 with SMTP id i129mr710319pgd.78.1479883038119;
+        Tue, 22 Nov 2016 22:37:18 -0800 (PST)
+X-Received: by 10.157.37.59 with SMTP id k56mr107895otb.3.1479883038056; Tue,
+ 22 Nov 2016 22:37:18 -0800 (PST)
+Complaints-To: groups-abuse@google.com
+Injection-Info: glegroupsg2000goo.googlegroups.com; posting-host=212.247.53.108;
+ posting-account=iRS-VwkAAABt-J9QeQnsmYGfMqaUV8dl
+NNTP-Posting-Host: 212.247.53.108
+User-Agent: G2/1.0
+MIME-Version: 1.0
+Injection-Date: Wed, 23 Nov 2016 06:37:18 +0000
+Content-Type: text/plain; charset=UTF-8
+Xref: cartman.offog.org alt.sys.pdp10:59026
+
+Hello,
+
+Here is an attempt to build ITS from scratch with boot and dump tapes,
+and then building as much from source code as possible:
+
+http://github.com/PDP-10/its
+
+The purposes are:
+
+ - To provide an automated build from start to end.  No user invervention
+   is necessary.
+
+ - To check whether source code exists for all programs.  Actually,
+   we already found a few cases where they don't.
+
+ - To ensure that we know how to build all programs.  In many cases
+   just invoke MIDAS, but some require the use of DDT.
+
+ - To update programs with the latest bug fixes and enhancements.
+
+ - To be able to set configurable options across the whole system,
+   such as host name, IP address, hardware devices.
+
+The build currently runs on the SIMH and KLH10 emulators.  Of course,
+we'd be delighted to test this on a real KS10.
+
+
+http://github/PDP-10 is a GitHub organization devoted to the PDP-10.
+Everyone are welcome to join.

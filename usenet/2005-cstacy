@@ -1,0 +1,101 @@
+From newsserver@localhost  Thu Feb 24 02:00:13 2005
+Path: uni-berlin.de!fu-berlin.de!peer01.cox.net!cox.net!cyclone1.gnilink.net!spamkiller.gnilink.net!gnilink.net!trnddc02.POSTED!8b1f9295!not-for-mail
+Message-ID: <uoeea7uc3.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Tops-10 disk quota quandary
+Date: Wed, 23 Feb 2005 23:03:08 GMT
+References: <mM6dnXg-KNaVtGvcRVn-pA@rcn.net> <mddsm4pgsdu.fsf@panix5.panix.com> <Pine.WNT.4.62.0501251352300.2320@Tomobiki-Cho.CAC.Washington.EDU> <0IGdnfpxdNng6WrcRVn-3A@rcn.net> <Pine.LNX.4.62.0501260947251.11612@shiva1.cac.washington.edu> <Xns95FF825EC7E1Ethisisatestofthispc@69.28.186.158> <Pine.WNT.4.63.0502161057120.3292@Shimo-Tomobiki.panda.com> <0-OdnSLxI_9MbYjfRVn-iA@rcn.net> <Pine.WNT.4.63.0502221051280.4076@Tomobiki-Cho.CAC.Washington.EDU> <O7WdnXaQxtVt7oHfRVn-gA@rcn.net> <Pine.LNX.4.63.0502230909310.20308@shiva0.cac.washington.edu> <Xns96069B302BCB5thisisatestofthispc@69.28.186.158>
+Lines: 82
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.166.73
+X-Complaints-To: abuse@verizon.net
+X-Trace: trnddc02 1109199788 68.163.166.73 (Wed, 23 Feb 2005 18:03:08 EST)
+NNTP-Posting-Date: Wed, 23 Feb 2005 18:03:08 EST
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:43867
+
+Arthur Krewat <krewat@bartek.dontspamme.com> writes:
+
+> When it was the ARPANET (not Internet...), I remember bouncing around 
+> cataloging, I don't know, 10-15 different PDP-10's back in '81-82 or so. 
+> That's a big bunch of the ARPANET universe at that time. Sure, lots of 
+> TOPS-20 machines too - they were easy to login as ANONYMOUS(FTP) and poke 
+> around :)   Telenet in '81 or '82 was another place to poke around and 
+> discover lots of PDP-10's, must have been another 30-40 TOPS-10 systems.
+
+I don't have any old network host tables conveniently accessible,
+but in March 1980 the ARPANET had 50 PDP-10s listed in the Resource Handbook.  
+17 TOPS-20, 22 TENEX, 6 TOPS-10, 4 ITS, and 1 WAITS.  
+I just now counted them by hand, and those numbers correspond 
+to my recollection of surfing around from 1976-1981, and from 
+when I was an ARPANET Liaison shortly thereafter.
+
+I don't think the number of TOPS-10 machines went up during 
+the period you mentioned -- I am sure it went down.
+Maybe you were surfing on the DEC internal net or something,
+rather than the ARPANET or Internet?
+
+I thought Mark did mean the ARPANET, but maybe he was referring 
+to the decline of TOPS-10 after the TCP/IP transition.
+
+Did any TOPS-10 systems ever make it onto the Internet?
+Looking at some email from August 1983, I see a test results of 190 ARPANET
+hosts for Internet protocol connectivity, and a bunch are running TOPS-20
+and TENEX, but none are running TOPS-10.  I mainly remember when the TCP/IP
+cutover happened that I had to convince the DCA to specially allow NCP
+access to our ITS machines at MIT, because some important remote users
+were stranded on TOPS-10.
+
+> Mark Crispin <mrc@CAC.Washington.EDU> wrote:
+> > If all you did was COBOL, then that was an acceptable choice.
+> 
+> Lots of people did only that - or BASIC. TOPS-20 greatly shrank the 
+> number of users you could support while getting usefull work done. LIRICS 
+> benchmarked it's ability, it came down to 10-12 users on TOPS-20,
+> 30-40 EASILY on TOPS-10. This was on 512K or 1Mword KS10's.
+  
+None of the PDP-10s on the ARPANET were KS10s.
+
+> > If you needed to run any sort of modern application, or edit with 
+> > something more advanced than TECO or SOS, then it was not.
+> 
+> Define "modern" in the context of the late 70's through the late 80's, 
+> when the last versions of TOPS-10 came out.
+
+"Modern" in the offered context appears to mean "more sophisticated
+and demanding of resources in certain ways than TECO and COBOL".
+
+Modern applications, programming languages, and editors?
+In the late 70s?
+
+Lisp (in several flavors) was the most widely used programming
+language in the ARPA research community, especially on PDP-10s.
+(The sophistication and power of this language has not yet been
+surpassed, although a few of its features have been copied, 
+poorly, for other "modern" languages in the last decade.
+Lisp is still quite popular today, mostly used for research,
+and commercially as a secret competitive advantage.)
+
+There were also many other experimental programming languages
+(eg. object-oriented, agent-oriented, formal logics) that people 
+used that were implemented on top of Lisp.  Also, very general 
+purpose languages like Smalltalk and SAIL were used locally by 
+some sites for both research and production purposes.
+
+MACSYMA was a heavily-used mathematical programming system.  
+The SPICE VLSI circuit simulator was another widely used program.
+And there were many simulation programming systems.
+People did a lot of board layouts using SUDS.
+For advanced editors, the obvious example was EMACS, but there
+were others.  There were also many document preperation systems
+(notably, SCRIBE and TeX).  There was also NLS.
+
+That's off the top of my head.
+
+COBOL and BASIC were not used in this community.
+But some of the ARPANET sites were at schools, where some of the
+students may have used those languages on TOPS-20 (in some cases, 
+possibly on the machines that were connected to the network).

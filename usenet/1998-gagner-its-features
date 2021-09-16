@@ -1,0 +1,121 @@
+From -4484570485981302568
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,372239c77c92f4b0
+X-Google-Attributes: gidfdb0e,public
+From: gagner@clark.net (Philip Gagner)
+Subject: Re: KL Console Commands
+Date: 1998/10/17
+Message-ID: <3627e1cf.119660567@news.clark.net>
+X-Deja-AN: 401978255
+Content-Transfer-Encoding: 7bit
+References: <Pine.LNX.3.96.980928112124.10870D-100000@bony.umtec.com> <qhu31sc8nn.fsf@ruckus.brouhaha.com> <3613e9a8.18494117@news.clark.net> <6uvli1$o2j$1@strato.ultra.net> <3615172c.19558816@news.clark.net> <36149B71.237C@s054.aone.net.au> <361b6174.71109341@news.clark.net> <6vfom2$326$1@ligarius.ultra.net> <361f769b.76525319@news.clark.net> <6vku3e$tba$1@ligarius.ultra.net> <361e29e6.61611468@news.clark.net> <707pq8$7al$4@strato.ultra.net>
+Content-Type: text/plain; charset=us-ascii
+Organization: TWLG
+Mime-Version: 1.0
+Reply-To: gagner@clark.net
+Newsgroups: alt.sys.pdp10
+
+jmfbahciv@aol.com wrote:
+<SNIP>
+>
+>So, when you patched, where did the patch go?  In the DDT address space
+>or the user's (child's) address space?  And I'm assuming that the symbol
+>table had to be in DDT's address space; wouldn't there have to be
+>some really interesting screwing around to resolve them when debugging
+>was invoked?
+Let job = the job being debugged:
+It worked the way it should -- the symbol table was read by the DDT
+process, so it would know what locations were assigned what symbolic
+names, but of course it wouldn't be loaded in the job's address space
+(why should it?)
+
+Patches were made into the job's address space, like they should be.
+There wasn't any screwing around necessary, because the symbol table
+didn't really live anywhere -- it was read by DDT and used to convert
+symbolic addresses into numerical ones (the way DDT always works, even
+when loaded in the job's address space). DDT knew that memory
+references were ALWAYS to the job and never to DDT's address space
+(why should they be?). So it was all clean and easy.
+
+Let's say you do the following:
+
+FOO+23/	JRST @SYMBOL(J)	JRST @SYMBOL+1(J)
+
+as your patch. DDT knows that FOO is in the job's address space
+(because everything is--DDT doesn't know that it itself even exists),
+so it resolves the reference and adds 23, then opens the location with
+a system call, getting the value and using the usual DDT magic to turn
+it into symbolic representation (JRST @SYMBOL(J)) and then waits for
+the user input, which is the patch. The user types it, DDT resolves
+the symbol references and makes a deposit into process memory system
+call, and everything goes on as before, except you've fixed the
+fencepost error.
+
+So what's the problem?
+
+>>>>Anyway, ITS was designed early on to know about multiple processors
+>>>>(sort of--shared memory processors anyway) and remote devices.
+>>>
+>>>Was it a timesharing system or one these task partition systems that
+>>>people have a tendency to call timesharing?
+>>Oh no, it was very real timesharing. It developed as a reaction to
+>>CTSS (Compatible Time Sharing System) on IBM 7094 machines, which were
+>>compatible with batch processing. ITS was Incompatible Time Sharing,
+>>and truly was clock-driven interrupt timesliced processing with exec
+>>and user paged address spaces and the whole ball of wax. Very
+>>sophisticated and pure, in fact, far more so than DECSystem-10
+>>timesharing.
+>
+>In what way was it purer than the -10?  I remember Jim wanting
+>to do VM differently but don't remember the details or the 
+>problems.  And nobody agreed on the scheduler.  I can't recall
+>what the attitude to the swapper was at the moment.
+
+Oh, ITS had things like dymanic core allocation done in user mode
+earlier than TOPS-10, and in fact more stuff was done by system jobs
+than in TOPS. This is purer because it prevents certain types of
+system crashes. Also, ITS had far more device independence (there was,
+for example, a CORE device), and there were very many more job control
+calls for detailed communication with sub-processes or sister
+processes. ITS had streams and the like. And so forth.
+
+<snip>
+>>The similarities were that on all of them you could tell how sick the
+>>system was by looking at the PI lights. I think ITS displayed the
+>>current job number in lights, so if one job was hogging the system you
+>>could easily tell which one. (Jobs could set their own priority, and
+>>did so frequenty). Of course on the KL-10 there were very few
+>>differences...
+>
+>So, did you have "I have priority" wars :-)?
+
+Rarely. User's were pretty much careful about other folks. The kill
+user command (and the kill user system call) were both unprivileged,
+so that if you really got torqued at someone you could zap him/her
+right off the machine. But this rarely happened. The community of
+users was very sophisticated, and not folks you'd want to start a hack
+war with if you had any sense. So everybody behaved. Often people used
+the feature to give certain jobs (like computing very large Mersenne
+primes) LESS priority. But if I needed to finish a little job because
+I had a class in twenty minutes, nobody really objected if I stole a
+few more cycles than my share.
+>
+>>
+>>>Would something like DECnet or ANF-10 have been difficult to 
+>>>incorporate into the system?
+>>
+>>Well, the first question is who would have wanted to? ITS was on the
+>>ARPANET early on, and the task wasn't that difficult. Because ITS had
+>>strong device independence, network devices weren't hard to implement,
+>>and because the file systems were designed to be device independent,
+>>remote file systems were also up pretty early (in fact the various ITS
+>>systems around MIT were tied together over the ARPANET very shortly
+>>after the IMP arrived).
+>
+>When did the ARPANET happen?  I remember Jim talking about working on
+>a project that connected systems at ORNL, but then, the next time
+>I had an inkling of computers talking reasonably to each other
+>was ANF10.
+
+ITS was on the ARPANET in 1971 or 72 or so.
+

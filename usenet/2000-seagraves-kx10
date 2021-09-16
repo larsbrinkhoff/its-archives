@@ -1,0 +1,61 @@
+From 1015821564955033514
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,3e5515f7ea4ee955
+X-Google-Attributes: gidfdb0e,public
+From: Daniel Seagraves <root@bony.umtec.com>
+Subject: Re: ITS CD (was Re: Wanna see how to annoy MRC? ^_^)
+Date: 2000/03/21
+Message-ID: <Pine.LNX.4.10.10003210846330.9856-100000@bony.umtec.com>#1/1
+X-Deja-AN: 600395569
+Approved: Why bother?
+References: <Pine.LNX.4.10.10003180849470.6959-100000@bony.umtec.com> <MMVA4.6585$Of2.228148@typhoon.ne.mediaone.net> <38D60AEB.D35F962@netinsight.se> <Pine.LNX.4.10.10003200832030.8846-100000@bony.umtec.com> <38D5E50B.1164025E@trailing-edge.com>
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Trace: newsfeed.slurp.net 953646336 198.199.189.6 (Tue, 21 Mar 2000 07:45:36 CDT)
+MIME-Version: 1.0
+NNTP-Posting-Date: Tue, 21 Mar 2000 07:45:36 CDT
+Newsgroups: alt.sys.pdp10
+
+
+> Is the "ITS CD" available commercially?  
+
+Nope.
+
+> Is it an archive that's
+> (currently) accessible over the web?
+
+Not all of it.  IIRC the system itself was placed under the GPL or some
+other free license not too long ago.  I might be wrong.  In any case, I
+can give you system stuff (unless someone objects) but I can't give you
+home directories.  The problem is sorting out which is which, which won't
+be known until we get ITS running again on an emulator.  So I really can't
+give out anything outside of AI:SYSTEM; (and SYSENG; and obvious stuff)
+without getting in trouble.
+
+It's not that I want to keep ITS secret, or any of the other stuff I have
+- I'd very much like to be able to distribute kx10, as well as my patches
+for it.  But Stu asks that it not be distributed, and it's his emulator.
+As far as the CD, I had to pester people for a few months to get it.
+I think MIT will get mad and do nasty legal things to me if I make it
+publicly available.  THAT'S why it's not available.  I'm not wanting to
+keep it mine or keep people from seeing it - I'm afraid of the legal
+asswhipping I'd get for making it available.
+
+As for kx10, Stu says no distribution, and it's his program, so that's
+that.  He wrote it, it would be wrong of me to go against his wishes.
+
+(BTW, Stu's primary concerns seem to be that he doesn't want to have to
+explain to everyone how to be a TOPS-20 operator, and the legal issuses of
+distributing OSes.  Like me, he too is afraid of a legal asswhupping.)
+
+> There do seem to be several on-line archives of AI:HUMOR, at least.
+
+Yes.  You have one of them.
+
+"Confuse, annoy, and DEE-STROY!" -- Jet Wolf | "Nothing Happens." -- ADVENT
+"You'd be surprised what you can live through..." -- Anonymous
+"...A man can pass his family and his name down through his sons, but it's
+his honour that gets passed through his daughters.  He can see the best
+and worst of life in his girls.  A daughter is something far too precious,
+and he'll do anything to protect her."
+	-- Reichsfuehrer Siegfried Koenig, _Matrose_Mond_, David Oliver
+

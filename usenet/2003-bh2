@@ -1,0 +1,28 @@
+From newsserver@localhost  Fri Apr  4 05:00:10 2003
+Path: uni-berlin.de!fu-berlin.de!skynet.be!skynet.be!kibo.news.demon.net!demon!news-hog.berkeley.edu!ucberkeley!agate.berkeley.edu!agate!abbenay.CS.Berkeley.EDU!not-for-mail
+Message-ID: <b6hq4p$sf7$1@abbenay.CS.Berkeley.EDU>
+From: bh@cs.berkeley.edu (Brian Harvey)
+Newsgroups: alt.sys.pdp10
+Subject: Re: History of project maintenance tools -- what and when?
+Date: Thu, 3 Apr 2003 17:14:01 +0000 (UTC)
+References: <6b26c83b.0303270121.1c81a3d9@posting.google.com> <b6em8g$2su$1@bob.news.rcn.net> <b6fi8d$rdd$1@abbenay.CS.Berkeley.EDU> <b6h7b3$aai$2@bob.news.rcn.net>
+Lines: 12
+Organization: University of California, Berkeley, Computer Science Division
+NNTP-Posting-Host: abbenay.cs.berkeley.edu
+X-Trace: agate.berkeley.edu 1049390041 21625 128.32.153.200 (3 Apr 2003 17:14:01 GMT)
+X-Complaints-To: usenet@agate.berkeley.edu
+NNTP-Posting-Date: Thu, 3 Apr 2003 17:14:01 +0000 (UTC)
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:39789
+
+jmfbahciv@aol.com writes:
+>Vectored gripes?  I don't know what that means.
+
+GRIPE EMACS would mail to BUG-EMACS (which was a mailing list to which
+one could subscribe), etc.  You could still say GRIPE with no argument
+and it would still, iirc, MAIL SYS, as would GRIPE with an argument for
+which there was no corresponding BUG-XXX alias.
+
+In the SAIL version of vectored gripes, you could list more than one
+program, in case the problem was in the interaction of two programs:
+GRIPE E,MAIL meant GRIPE E and GRIPE MAIL with the same message.  I don't
+remember whether that existed in the ITS version (sorry).

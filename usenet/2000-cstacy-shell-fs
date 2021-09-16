@@ -1,0 +1,143 @@
+From 117614892617046417
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,7bb0c708baa37bbc
+X-Google-Attributes: gidfdb0e,public
+X-Google-Thread: fd705,e30867464335c38e
+X-Google-Attributes: gidfd705,public
+X-Google-Thread: 10d0a0,3ed30fe3c948919f
+X-Google-Attributes: gid10d0a0,public
+From: Christopher C Stacy <cstacy@world.std.com>
+Subject: Filenames, shells, remote file access [was: ooh, a *real* flamewar :)
+Date: 2000/03/24
+Message-ID: <x8lzorozuck.fsf_-_@world.std.com>
+X-Deja-AN: 601661391
+Sender: news@world.std.com (Mr Usenet Himself)
+References: <AtP94.8925$7S.6211@news20.bellglobal.com> <u66ufdro9.fsf@graphics.cornell.edu> <8bbm3j$8in$1@pravda.ucr.edu> <38da49e6_2@news.wizvax.net> <8beb7i$707$1@citadel.in.taronga.com>
+Organization: The World @ Software Tool & Die
+Newsgroups: alt.sys.pdp8,alt.sys.pdp10,alt.folklore.computers
+
+>>>>> On 24 Mar 2000 00:00:50 GMT, Peter da Silva ("Peter") writes:
+
+ Peter> In article <38da49e6_2@news.wizvax.net>, John Wilson <wilson@dbit.com> wrote:
+ >> OK how about the flip side, how come no one seems to have been interested in
+ >> writing a command processor replacement for T10/T20/ITS that *did* expand *?
+
+ Peter> The command processor on TOPS was a monitor, not a shell. It couldn't be
+ Peter> conveniently replaced.
+
+The user's command processor on ITS was a user program, and people did write
+replacements.  I think under UNIX someone has recently implemented a 
+Lisp (well, Scheme, actually) shell  ... ITS had those of things.
+
+Of course, the command processor on the Lisp Machine understood all about
+file names and wildcards and filename completion and such, not only for the
+native file system, but also for the all the other operating systems: 
+ITS, several different flavors of Unix with different rules, DOS, TOPS-20,
+VMS, Multics, Macintosh, and others that I can't remember.
+
+File name handling was provided by the operating system.  (This operating
+system was rather different than UNIX or Windows, but rather than thinking
+"monolithic kernel", you should think more like "dynamic libraries".)
+
+Transparent file access (via FTP, NFS, NFILE, or any other protocol -- 
+automatically selected) was also built into the system, so any application or
+user command could open or manipulate any file on any system simply by referring
+to the file.  The system would figure out what kind of operating system the
+file server was running, what the best protocols were to access the file,
+and take care of connecting and running it all under the hood for you.
+
+The file name was not mapped to a standard convention - you used the remote
+file system's syntax.  So if you wanted a file "/home/cstacy/foobar" that
+lived on some Unix box named BART, the file "Open" library call would take
+this string:
+
+  BART:/home/cstacy/Foobar.txt
+
+For a similarly named file on TOPS-20, it would be
+
+  LISA:<CSTACY>FOOBAR.TXT
+
+and on the native LispM file system (which was sort of like Multics,
+except that it had types and versions and other goodies) you would say
+
+ HOMER:>CStacy>Foobar.text
+
+By the way, LMFS was like what NTFS does with case: it preserves
+the input case you specified, but the case is not significant.
+
+If you were typing to the command processor, you would type the same thing,
+and it would know how to do filename completion in the appropriate syntax.
+In addition to basic syntax rules and restrictions, the system also knew
+about whether the (remote or local) file system supported types, version
+numbers, links, all the different kinds of file properties for devices and 
+files and directories on each file system, which operations like wildcards
+had to be emulated and which were supported by the remote file protocol,
+whether there were file links, etc. etc. etc.  
+
+The system could also merge pathnames properly, even across different types
+of files systems; this made it possible for filename defaulting to work.
+For one example, you could do:
+
+  :Copy File LISA:<CSTACY>FOOBAR.TXT BART:/home/cstacy/
+
+and have it do the right thing (create a file named "foobar.txt").
+That example doesn't show it, but I am pretty sure it knew that
+even though UNIX didn't have file types, that the right thing would
+to automatically convert for a system that used "foo.text" into
+the typical "foo.txt" when doing that kind of filename merging.
+It had rules for handling the ideosyncrocies of each filesystem.
+
+Understanding all about wildcards was really handy for copying files
+around between two other operating systems.  It even worked great to 
+do it when the targets were two UNIX filesystems, even though it would 
+have required writing a very complicated shell or perl program to do it 
+on those systems natively!
+
+The basis for this was not simply pattern matching, but rather algorithms
+which actually knew what was going on with the file names and knew about
+the different operating systems.  Also, it did *not* give the user full 
+regexp matching support, only partial, so you could not say "'f' followed 
+by any three characters then two numeric digits and the string 'you'".
+But given what it *did* do, there seemed no practical need -- nobody ever
+asked for anything like that.  But if it came up, that could be added to
+the system very easily (in a few days), and then all the applications and
+user interfaces would have been able to exploit it.
+
+There was also a provision for creating a mapping into a standard generic
+filename syntax, which was useful for certain application delivery issues.
+This involved telling the system that there was a fake ("logical") host,
+say, nambed BURNS, and then telling it that BURNS was really LISA,
+and that the toplevel directory was "/home".  So when you said 
+"BURNS:CSTACY;FOOBAR.TEXT" it was turned into "LISA:/home/cstacy/foobar".
+This was useful if you had a site where the actual location of the files
+moved around from server to server periodically (such as when the server
+got too full).  For example, you could always refer to the file SYS:NET;TCP.LISP
+to get the sources to the TCP implementation, and the system would automatically
+find the right file server (and pattern-match specified directory structure).
+
+All of these features I've described in this entire message were part of the
+system -- free and automatic and invisible to all programs and all user
+interfaces on the system.  It's all part of the service of the normal calls
+such as OPEN and RENAME and ACCEPT-PATHNAME (completing user input), etc.
+
+No "mounting" or anything like that was required on the part of the user.
+There was a distributed database at the site which contained the configuration
+information - mostly this said which hosts ran which operating systems, 
+and what protocols were available.  The system also supported DNS and NIS 
+and integrated the information from those sources.
+
+Everything was extensible, of course.  That's one of the main points of the
+operating system.  So If you had a new file system on some operating system, 
+or even a new model for how an existing file system should be viewed or used,
+you could implement support for it.  The system is multiple-inheritence
+object oriented (and that's very easy and elegant to program in Lisp, unlike
+in C++), so you could mix and match behaviours from existing file system
+classes and methods and specialize them as needed.  It would take an
+experienced system programmer somewhere between a couple hours and a couple
+of days to bring up support for a new kind of file system.
+
+This is just a quickie-tip-of-the-iceberg-description of the coolness, of course.
+It is so far ahead of what the currently popular operating systems do that I am not
+at all confident that I am getting it across to you in such a terse explanation.
+(Whatever you're probably thinking based on what I hve told you --  most likely it
+was in reality a lot better than that and I have not described thoroughly enough.)

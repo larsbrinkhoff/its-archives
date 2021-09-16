@@ -1,0 +1,81 @@
+From newsserver@localhost  Thu Feb 14 05:00:21 2002
+Path: news.btopenworld.com!btnet-feed3!btnet-peer0!btnet-peer1!btnet!news.maxwell.syr.edu!howland.erols.net!panix!panix2.panix.com!not-for-mail
+Message-ID: <a4d1tb$clm$1@panix2.panix.com>
+From: klh@panix.com (Ken Harrenstien)
+Newsgroups: alt.sys.pdp10
+Subject: MM+CCMD (was Re: command-line completion)
+Date: 13 Feb 2002 01:42:51 -0500
+References: <GrDHML.Jso@world.std.com> <a493l9$dsu$1@watsol.cc.columbia.edu> <a4ab7q$rjm$1@panix2.panix.com> <a4bf4i$99k$1@watsol.cc.columbia.edu>
+Lines: 65
+Organization: PANIX Public Access Internet and UNIX, NYC
+NNTP-Posting-Host: panix2.panix.com
+X-Trace: news.panix.com 1013582572 13968 166.84.1.2 (13 Feb 2002 06:42:52 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: 13 Feb 2002 06:42:52 GMT
+Xref: cartman.at.fivegeeks.net alt.sys.pdp10:9381
+
+In article <a4bf4i$99k$1@watsol.cc.columbia.edu>,
+Frank da Cruz <fdc@columbia.edu> wrote:
+
+>Gee, maybe it's time to gather up all the pieces and put it back together.
+>At Columbia, CCMD got the Y2K and y2K+1 patches (announced here) and that
+>was about the end of it.
+
+Would love to send my stuff in, at least.  Note that the code is still
+copyrighted by Columbia and the notice says nothing about
+modification.  If no one there has time to maintain it, perhaps you
+could spare a few cycles to get it GPL'd (or free-forked, etc) so that
+aspect doesn't hinder possible development or distribution by others.
+
+>Meanwhile I still use MM, as do other survivors from the DEC-20 era.
+>Recently Columbia migrated its user file system to humongous NFS servers,
+>and now we are all faced with the "NFS bug": Edit a message in EMACS under
+>MM, save the message in EMACS, exit EMACS, return to MM, find the result
+>truncated, sometimes partially, sometimes totally.  EMACS has told Unix
+>(Solaris in this case, but it also happens elsewhere) to save the file and
+>then exits.  Does EMACS do an fsync()?  (I don't know.)  In any case, since
+>this is an NFS disk, the file is written when Unix feels like getting
+>around to it AND when NFS feels like getting around to it, if ever, and MM
+>often reads it back before it is fully written.
+
+Hmmm.  Have used MM+EMACS on NFS configs and seen this on other
+places, but can't recall it ever happening on Panix, which uses NetBSD
+NFS servers.
+
+>The problem is alleviated somewhat if you add a pause to MM at the point
+>where it gets control back from EMACS but before it reads in the temp file.
+>But since there is no way of knowing how long the pause must be, it can
+>(and does) still fail, no matter what you choose.
+>
+>On "bad NFS days", you can lose one message after another this way, so
+>I started adding code to MM to try to catch the situation and fix it, but
+>so far have not succeeded (it's only a spare time project and I don't have
+>any).  I know Mark says NFS and Pine just don't mix and maybe the same is
+>true of MM and nothing can be done about it.
+
+You could try making it use temporary edit files on /tmp or /var/tmp,
+which normally are non-NFS dirs and have the 1000 ("sticky") mode bit
+set so only owners can delete/rename files therein.  I don't remember
+if this still applies to Solaris though.
+
+At any rate, clearly this is fixable by conspiracy, with sufficient
+motivation; unfortunately I'm not an expert on elisp but I gather you
+can do just about anything with it, which presumably would extend to
+doing pipe or socket I/O.
+
+As an interesting note, the original PDP-10 EMACS (actually TECO)
+maintains its buffer pointers in a specific block pointed to by AC 2,
+precisely so superior processes are able to read out the contents
+directly from memory.  This is how the QMAIL program snarfs things
+back on ITS; I don't remember if MM does the same thing on TOPS-20.
+
+>Once this is fixed, my list for MM includes:
+      [...]
+>Actually I have much longer list but will probably never get to it so no
+>point including it.
+
+You never know.  Now I'm wondering how many other MM users still
+exist, whether because they prefer the UI or because they want old
+mail files to remain accessible.
+
+--Ken

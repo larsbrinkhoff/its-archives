@@ -1,0 +1,40 @@
+From newsserver@localhost  Mon Nov 17 05:00:16 2003
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!diablo.dera.gov.uk!diablo.theplanet.net!news.maxwell.syr.edu!c03.atl99!chi1.webusenet.com!news.webusenet.com!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc02.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <uznev8yrg.fsf@dtpq.com>
+From: cstacy@dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers,comp.os.cpm
+Subject: Re: IS CP/M an OS?
+Date: Mon, 17 Nov 2003 03:22:45 GMT
+References: <217e491a.0311111802.33df304f@posting.google.com> <jo0uob.ma9.ln@seasip.demon.co.uk> <3FB3C071.1445695D@yahoo.com> <GBQsb.446$rV.54@bignews5.bellsouth.net> <217e491a.0311131419.324b4b75@posting.google.com> <RZTsb.24$Cc6.10@bignews1.bellsouth.net> <217e491a.0311141103.60ebf7cd@posting.google.com> <3fb53fab$0$14055$afc38c87@news.optusnet.com.au> <217e491a.0311142008.244ebeb6@posting.google.com> <3fb6fe8d$0$14048$afc38c87@news.optusnet.com.au> <217e491a.0311161003.116db521@posting.google.com> <3FB82F3C.BB099EEC@comcast.net>
+Lines: 21
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.138.194
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc02.gnilink.net 1069039365 68.163.138.194 (Sun, 16 Nov 2003 22:22:45 EST)
+NNTP-Posting-Date: Sun, 16 Nov 2003 22:22:45 EST
+Xref: cartman.azz.us-lot.org alt.folklore.computers:94786
+
+>>>>> On Mon, 17 Nov 2003 00:20:07 GMT, Charles Richmond ("Charles") writes:
+ Charles> If you are talking about a "timesharing system" (probably you
+ Charles> are referring to ITS), then there was *no* timesharing system
+ Charles> until the PDP-6. The PDP-1 *never* had a timesharing system
+ Charles> at MIT. The PDP-1 was a "single user" machine, and that is
+ Charles> how it ran when Spacewar! was played...
+
+ Charles> My sources are _Hackers_, by Steven Levy, and a web page that
+ Charles> duplicates a Creative Computing article on Spacewar! written
+ Charles> by one of the three guys in the "Higham Institute"
+
+There was indeed a PDP-1 timesharing system at MIT, and I believe
+it's where the "capabilities" protection concept was originated.
+
+My sources are: myself (ITS hacker) and various friends of mine who
+had developed and used the PDP-1 timesharing system.  If you would
+like a more "legitimate" reference, I think that Jack Dennis published
+at least one paper about it: a CACM article entitled, "A multiuser
+computation facility for education and research".
+
+Wasn't "Hackers" the book that spelled TECO "TICO", and Multics "MULTIX"?

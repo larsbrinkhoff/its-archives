@@ -1,0 +1,50 @@
+From newsserver@localhost  Sun Oct 28 01:05:50 2001
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet!newsfeed.mathworks.com!nycmny1-snh1.gtei.net!cpk-news-hub1.bbnplanet.com!news.gtei.net!newsfeed1.cidera.com!Cidera!cyclone2.usenetserver.com!usenetserver.com!news-east.rr.com!chnws02.mediaone.net!chnws06.ne.mediaone.net!24.128.8.202!typhoon.ne.mediaone.net.POSTED!not-for-mail
+Message-ID: <ty3B7.19627$f6.9157478@typhoon.ne.mediaone.net>
+From: "Mike McMahon" <mmcmrr@mediaone.net>
+Newsgroups: alt.sys.pdp10
+Subject: Re: [OT PDP-10 stuff] Re: Pointers to pointers to functions declaration
+Date: Tue, 23 Oct 2001 01:17:13 GMT
+References: <3BC66931.137F0DB5@iprimus.com.au> <yYMx7.35041$T24.15060932@typhoon.san.rr.com> <9q886k$ddl$1@elf.eng.bsdi.com> <9qa40d$kif@gap.cco.caltech.edu> <9qa8qo$fk8$1@elf.eng.bsdi.com> <RgLA7.135674$3d2.4078606@bgtnsc06-news.ops.worldnet.att.net> <87sncckmaa.fsf@prep.synonet.com> <wwitd7mem4.fsf@atlas.cfht.hawaii.edu>
+Lines: 32
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Newsreader: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+NNTP-Posting-Host: 65.96.243.27
+X-Complaints-To: abuse@mediaone.net
+X-Trace: typhoon.ne.mediaone.net 1003799833 65.96.243.27 (Mon, 22 Oct 2001 21:17:13 EDT)
+NNTP-Posting-Date: Mon, 22 Oct 2001 21:17:13 EDT
+Organization: Road Runner
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:6167
+
+
+"Jim Thomas" <thomas@atlas.cfht.hawaii.edu> wrote in message
+news:wwitd7mem4.fsf@atlas.cfht.hawaii.edu...
+> Which version of TECO?  At least as of Texas TECO the old style search is
+> 30 (base 10) words.  That doesn't fit in the registers.  And that's not
+> counting the 6 registers it used as registers.  I don't remember any
+> version of the search code running in fast memory.
+
+The inner loop of the ITS TECO search was nine instructions and ran in the
+ACs.  Even though it ran a bit slower on KLs, RMS insisted on keeping it
+this way, since it ran _so much_ faster on KAs.
+
+The search string was compiled into a linked list of instruction sequences,
+with elements like CAIN for a simple constant character.  The search loop
+then did ILDB through the buffer and XCTed these as it went.  Special
+characters turned into PUSHJ instructions.  The linked list elements were
+the OR alternatives.
+
+Why this was more the right thing makes sense when you remember that the
+purpose was not to speed up the S command typed on a VT05.  Rather it was to
+make the language commands like indentation in EMACS run faster.  These, for
+the all important LISP mode in particular, were full of syntax wildcards and
+other complex searches.  These "internal" searches happened much more often
+than user-initiated ones.  Also, the default interactive search command in
+EMACS was Incremental Search, which caused some heated debate back then, but
+is now taken for granted by GNU-Emacs users.  Except when searching for
+something very specific in a very large file, all the CPU time went to
+updating the display for the incremental behavior.  Editors with only the
+simpler commands would do better with a search with the same simple
+semantics, but a better implementation algorithm, such as Boyer-Moore.

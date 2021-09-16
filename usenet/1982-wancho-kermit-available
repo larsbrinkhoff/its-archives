@@ -1,0 +1,64 @@
+Date: 6 September 1982 03:39-EDT
+From: Frank J Wancho <FJW@Mit-Mc>
+Subject:  KERMIT files available
+To: INFO-CPM at BRL, PROTOCOLS at Rutgers
+Via:  Mit-Mc; 6 Sep 82 3:43-EDT
+Via:  Brl; 6 Sep 82 3:48-EDT
+Via:  Brl-Bmd; 6 Sep 82 3:56-EDT
+
+KERMIT source files and documentation are now available on MC as
+described below:
+
+MC:CPM;AR67:   SIZE  CRC
+
+   KERMIT DOC  136k 4542H  SCRIBE formatted doc file (complete)
+   KERMIT HLP    2k C297H  Brief help for TOPS20 users
+   KERMIT MAC   73k 56A4H  MACRO source for TOPS20 end (KERMIT-20)
+
+MC:CPM;AR68:
+
+   KERMIT ASM  102k B590H  Original KERMIT-80 source for use with SYMBOL
+   KERMIT GET    3k C869H  How to raw capture the HEX files using DDT
+   KERMIT HTH   21k 3F0CH  HEX for Heath 89 KERMIT-80
+   KERMIT OSI   21k 110AH  HEX for OSI KERMIT-80
+   KERMIT ROB   22k 0545H  HEX for VT-180 (Robin) KERMIT-80
+   KERMIT 1ASM 102k 4A0CH  Source for KERMIT-80 edited for use with ASM
+
+(An implementation of KERMIT is also available from Columbia
+University for the IBM mainframe...)
+
+Abstract (extracted from the doc file):
+
+'KERMIT is a set of programs that implement the "KL10 Error-Free
+Reciprocol Microcomputer Interchange over TTY-Lines" protocol.  As the
+acronym tries to imply, KERMIT allows error-free transfer of files
+between computers over normal terminal communication lines.  The
+protocol was originally intended for use between microcomputers and
+Digital Equipment Corporation DECSYSTEM-20 KL10 processors (hence the
+name), but, happily, the protocol will work between any two computers.
+
+'KERMIT transfers data by encapsulating it in "packets" of control
+information.  This information includes a synchronization marker, a
+packet number to allow detection of lost packets, a length indicator,
+and a "checksum" to allow verification of the data.  Lost or corrupt
+packets are detected, and retransmission is requested.  In addition,
+various special control packets allow cooperating KERMITs to connect
+and disconnect from each other and to exchange various kinds of
+information.
+
+'The KERMIT manual and all the associated programs are available to
+anyone who asks for them'...  'We encourage anyone who develops new
+implementations of KERMIT to send them back to Columbia so they can be
+included on the standard KERMIT distribution tape; full credit will be
+given to all contributors.  In return, we trust that no one who
+obtains KERMIT will attempt to put it on the market, claiming it to be
+their own.'
+
+--------------------
+
+We will provide a gateway service at MC for updated source files for
+either KERMIT-20 or KERMIT-80.  Please send notice of file
+availability to me (FJW@MC) and bug reports, etc., to
+EIBEN@DEC-MARLBORO, who made these files available from Columbia.
+
+--Frank

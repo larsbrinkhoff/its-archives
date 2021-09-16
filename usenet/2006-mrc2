@@ -1,0 +1,44 @@
+From newsserver@localhost  Mon Jan  9 02:01:08 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!arclight.uoregon.edu!news.u.washington.edu!pangtzu.panda.com!mrc
+Message-ID: <Pine.OSX.4.64.0601081047510.9510@pangtzu.panda.com>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: new WAITS trivia
+Date: Sun, 8 Jan 2006 10:50:16 -0800
+References: <Pine.WNT.4.65.0601031411540.4356@Tomobiki-Cho.CAC.Washington.EDU>
+Lines: 24
+Organization: University of Washington
+Sender: mrc@pangtzu.panda.com
+NNTP-Posting-Host: pangtzu.panda.com
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1136746219 31631 206.124.149.117 (8 Jan 2006 18:50:19 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Sun, 8 Jan 2006 18:50:19 +0000 (UTC)
+In-Reply-To: <Pine.WNT.4.65.0601031411540.4356@Tomobiki-Cho.CAC.Washington.EDU>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:45641
+
+On Tue, 3 Jan 2006, Mark Crispin wrote:
+> WAITS had a monitor command which was a single, printing, character (but not 
+> a letter).
+> What was it?
+> What did it do?
+
+Time's up.
+
+This was the "@" monitor command, which ran the ATSIGN (or @) program.
+
+@ was a program ported from ITS which read source files and did a cross 
+referenced listing.  It recognized PDP-10 assembly and LISP sources. 
+Among other things, @ recognized insert operators so it could point to 
+which file contained the definition of the symbol as well as the 
+references.
+
+Although @ was rarely used with MACRO (since you could use CREF), it was 
+quite useful with FAIL and MIDAS sources.
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.

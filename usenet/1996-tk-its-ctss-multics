@@ -1,0 +1,51 @@
+From -5935970112903599927
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,63dbdcac24dfbf80
+X-Google-Attributes: gidfdb0e,public
+From: tk@ai.mit.edu (Tom Knight)
+Subject: Re: Trivia Time!
+Date: 1996/12/23
+Message-ID: <TK.96Dec23171103@watt.ai.mit.edu>#1/1
+X-Deja-AN: 205745124
+references: <599f2m$scl$1@mhafn.production.compuserve.com>
+organization: MIT Artificial Intelligence Laboratory
+newsgroups: alt.sys.pdp10
+
+
+> From: mol@bartlet.df.lth.se (Magnus Olsson)
+
+> I'd be thrilled to hear some more about CTSS and what it was like for the
+> user; the "look and feel" of the thing.
+> 
+> And (to relate it to the newsgroup's charter :-) ): how much did CTSS
+> influence the design of ITS?
+
+Well, it certainly affected its name...  But, speaking more to the
+point, ITS had an early emphasis on fast response and user interface
+that was entirely missing in CTSS.  CTSS was half duplex, and oriented
+to user I/O on a line by line basis.  Many of its terminals had a
+"feature" which mechanically locked the keyboard until the central
+machine (really the channel program, I guess) was ready to receive the
+keyboard input.  The only exception to this line oriented synchronous
+I/O was the "break" key which allowed you to squeeze one bit into the
+CPU, which it chose to interpret as a quit command.
+
+ITS was full duplex, and character oriented, from day 1.  The echoing
+was, in many cases, handled by the user code.  Many user level
+programs took user level interrupts in response to single character
+key strokes in ITS.
+
+I would actually say that the main influence of CTSS on ITS was a
+demonstration of just what it was that we didn't want to do.
+
+ITS soon migrated to display oriented devices rather than printing
+terminals, and used them to support editor windows.  I don't think
+CTSS ever did anything vaguely like that, except possibly (and rarely) on
+specialized displays such as the KLUDGE.  There was the ARDS storage
+tube displays, I guess.  FLASH.
+
+Remarkably (to me) these CTSS ideas in user interface were carried
+across to Multics, where they prevented good user interfaces for many,
+many years.  Eventually, Multics supported full duplex and character
+oriented displays quite effectively.
+

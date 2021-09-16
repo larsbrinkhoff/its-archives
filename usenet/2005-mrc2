@@ -1,0 +1,50 @@
+From newsserver@localhost  Mon Dec 19 02:00:45 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!arclight.uoregon.edu!news.u.washington.edu!pangtzu.panda.com!mrc
+Message-ID: <Pine.OSX.4.64.0512181715300.9510@pangtzu.panda.com>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: OK, So I've Installed TOPS-20...
+Date: Sun, 18 Dec 2005 17:27:02 -0800
+References: <1132243631.195689.312750@g44g2000cwa.googlegroups.com>
+ <438169BB.502@cs.washington.edu> <3l53o1p16f573sa2v8u1peu3nuoe3oauju@4ax.com>
+ <mddveylg9hq.fsf@panix5.panix.com> <cit5o1tu5gkup7aat9opog91hnm3ug9046@4ax.com>
+ <dlv1jq$8qk_001@s799.apx1.sbo.ma.dialup.rcn.com> <ork8o1l0qlde8kj7d1tsff5mgbtsnoe1js@4ax.com>
+ <dm1o7u$8qk_001@s1217.apx1.sbo.ma.dialup.rcn.com> <Awlpf.4699$It6.2517@fe02.lga>
+Lines: 26
+Organization: University of Washington
+Sender: mrc@pangtzu.panda.com
+NNTP-Posting-Host: pangtzu.panda.com
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1134955625 24883 206.124.149.117 (19 Dec 2005 01:27:05 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Mon, 19 Dec 2005 01:27:05 +0000 (UTC)
+In-Reply-To: <Awlpf.4699$It6.2517@fe02.lga>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:45582
+
+On Sun, 18 Dec 2005, Carl Appellof wrote:
+> What display settings, Barb?  The ASR-33 I first used TECO-10 on didn't have
+> no stinkin' display settings!  The only "display" from the original TECO on
+> the -10 was the cache in your head and the output from 0TT$
+
+The ultimate source of TOPS-10 TECO was the reimplementation of Dan 
+Murphy's PDP-1 TECO on the PDP-6 at the MIT AI Lab; that is, a very early 
+version of ITS TECO.  That program most definitely had display support, 
+and was always used on the 340(?) display.
+
+Bob Clements brought a copy to DEC and ported it to the DEC monitor.  The 
+display support did not survive the port, probably because most PDP-10 
+systems did not have displays and were used with remote Teletypes.
+
+If you don't take my word for it, I have a videotape of the 1984 
+roundtable with Richard Greenblatt, Bob Clements, Dan Murphy, and other 
+luminaries where they discuss this history.
+
+It was a mystery to the original authors of TECO that anyone would ever 
+consider TECO usable without a display.
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.

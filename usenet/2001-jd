@@ -1,0 +1,80 @@
+From newsserver@localhost  Wed May  2 16:08:44 2001
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet-peer1!btnet-feed3!btnet!NewsPeer!Fusion!NewsReader.POSTED!not-for-mail
+Message-ID: <0VvE6.21685$vk1.29136@NewsReader>
+From: "JD" <j.day777@btclick.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS security [Re: Bulletproofing Tops10]
+Date: Sun, 22 Apr 2001 08:36:09 +0100
+References: <z2Yz6.3296$Rj2.11602@NewsReader> <3AD18A06.25DABDFB@inwap.com> <9ba4iu$aa0$1@bob.news.rcn.net> <Y2HC6.3021$986.4396@NewsReader> <9bhc25$9un$6@bob.news.rcn.net> <4FID6.4541$%Q.7798@NewsReader> <9bpa02$ea4$2@bob.news.rcn.net> <2VbE6.863$vs4.2536@NewsReader> <9brv7m$j87$1@bob.news.rcn.net> <uwjE6.20966$vk1.25873@NewsReader> <uzod97rex.fsf_-_@spacy.Boston.MA.US>
+Lines: 65
+Reply-To: "JD" <j.day777@btclick.com>
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Newsreader: Microsoft Outlook Express 5.50.4133.2400
+X-MimeOLE: Produced By Microsoft MimeOLE V5.50.4133.2400
+NNTP-Posting-Host: 213.123.160.139
+X-Trace: NewsReader 987925180 213.123.160.139 (Sun, 22 Apr 2001 08:39:40 BST)
+NNTP-Posting-Date: Sun, 22 Apr 2001 08:39:40 BST
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:3613
+
+
+"Christopher Stacy" <cstacy@spacy.Boston.MA.US> wrote in message
+news:uzod97rex.fsf_-_@spacy.Boston.MA.US...
+> >>>>> On Sat, 21 Apr 2001 18:30:49 +0100, JD  ("JD") writes:
+
+(snippage throughout)
+
+>  JD> Of course it didn't help that the command
+>  JD> language for ITS was a souped-up DDT and that there were no
+controls
+>  JD> at all; it was fairly easy to wreak havoc without meaning to,
+just by
+>  JD> writing things like :ZIP!FOO$U^PZ(*&&K.  Monkeys and
+typewriters.
+>
+> By the way, your example :ZIP!FOO$U^PZ(*&&K.
+> doesn't mean or do anything
+
+I know that!
+
+> Also, the DDT command interpreter didn't
+> work exactly as you suggest; the dangerous commands (such as "delete
+> file") were by defaultly available only in their keyword forms like
+on
+> most systems.  So if you wanted to delete a file, you would type the
+> :DELETE command, but if you were an expert user, you could enable
+the
+> command shortcut as ^O.
+
+Was this the case from the beginning?  I do not recall having to
+enable the shorter commands; but perhaps this was done in an init
+file.
+
+> If you can recall correctly some hilarous story about the
+implementation
+> of security on ITS, I would love to hear it, as I very much enjoy
+that
+> sort of laugh, and somehow totally missed out on it...
+>
+What I do recall was that the use of passwords on ITS was not
+uncontroversial. One site, in particular (I think it was MC or ML) was
+the first to implement a password system.  Other sites (AI?) did not.
+And, for awhile at least, the password system would be there one day,
+gone the next; or instead of ITS xxxx, you would get a message telling
+you to use uname such-and-such with password so-and-so, as if the
+system was deliberately fighting itself.  RMS, in particular, was
+exercised about passwords and controls of any sort, and was vocal
+about the folly of implementing them.
+
+If I recall correctly there were commands like :GUN (this killed a
+process) which anyone could use but which logged their use on the ITS
+console teletype, so you could tell who was using them. I thought
+there had been an attempt to implement more controls than this,
+though, and corresponding squabbles within the ITS community about
+whether and how they should be implemented.
+
+But memories fade, especially after 25 years away from all of this; I
+don't remember the details, any more than I remember commands from ITS
+DDT.  I am sure your recollections are far sharper.
+
+Change sevens to noughts for e-mail.

@@ -1,0 +1,53 @@
+From 3232553425562956665
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,81c46bb995c85c07
+X-Google-Attributes: gidfdb0e,public
+From: Daniel Seagraves <root@bony.umtec.com>
+Subject: Re: Daniel Seagrave's e10
+Date: 2000/05/30
+Message-ID: <Pine.LNX.4.10.10005301229490.13504-100000@bony.umtec.com>#1/1
+X-Deja-AN: 629091783
+Approved: Why bother?
+X-Trace: newsfeed.slurp.net 959707148 198.199.189.6 (Tue, 30 May 2000 12:19:08 CDT)
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+MIME-Version: 1.0
+NNTP-Posting-Date: Tue, 30 May 2000 12:19:08 CDT
+Newsgroups: alt.sys.pdp10
+
+
+On Tue, 30 May 2000, lars brinkhoff wrote:
+
+> I haven't seem any news about Daniel Seagrave's e10 PDP-10 emulator
+> lately.  What happened to him and/or it?
+
+I'm still here, and still hacking.  It's just slow going.
+I took a break from coding when my stepdad was diagnosed with cancer (He
+is making a recovery, he's alive and kicking! [swearing and swinging too
+^_^]) and I never really recovered from it.
+
+I'm currently toying with a rewrite (Yes, again), this time using pthreads
+and other stuff.  The current stumbling block is that I still have no idea
+how do handle math, and nobody has a decent explanation of it.  I have it
+decoding instructions, and using the console in the normal manner (PI 0
+requests, not writing directly into memory).
+
+(Basically, I ran into some DEEP DEEP pits, I forgot to allow for the KL
+accounting timers and the ITS XCTR (XCT Relocated) instruction, and a
+rewrite currently looks more attractive than the massive surgery a fix
+would entail.  I also made some incorrect assumptions as to how the
+hardware worked, mostly in the PI system, which would need even more
+surgery to fix.)
+
+I'm trying to beat that KS guy to release but I don't think I'll get it... v_v
+
+I also have a copy of kx10, I'm hacking on that too.  When I get stuck on
+one, I switch to the other and hack awhile.  (The way they're written is
+different enough that I don't have to worry about crossing code.)
+
+"Confuse, annoy, and DEE-STROY!" -- Jet Wolf | "Nothing Happens." -- ADVENT
+"You'd be surprised what you can live through..." -- Anonymous
+"...A man can pass his family and his name down through his sons, but it's
+his honour that gets passed through his daughters.  He can see the best
+and worst of life in his girls.  A daughter is something far too precious,
+and he'll do anything to protect her."
+	-- Reichsfuehrer Siegfried Koenig, _Matrose_Mond_, David Oliver

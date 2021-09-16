@@ -1,0 +1,115 @@
+From 4516886835067066
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,7bb0c708baa37bbc
+X-Google-Attributes: gidfdb0e,public
+X-Google-Thread: fd705,e30867464335c38e
+X-Google-Attributes: gidfd705,public
+X-Google-Thread: 10d0a0,3ed30fe3c948919f
+X-Google-Attributes: gid10d0a0,public
+From: Christopher C Stacy <cstacy@world.std.com>
+Subject: Re: The computer jargon file
+Date: 2000/03/02
+Message-ID: <x8lzosiklwz.fsf@world.std.com>
+X-Deja-AN: 592088479
+Sender: news@world.std.com (Mr Usenet Himself)
+References: <AtP94.8925$7S.6211@news20.bellglobal.com> <slrn8b5rds.5br.jmaynard@thebrain.conmicro.cx> <x8l3dqk52u8.fsf@world.std.com> <6ud7pnhlno.fsf@chonsp.franklin.ch> <89idjl$1gfp$1@news.enteract.com>
+Organization: The World @ Software Tool & Die
+Newsgroups: alt.sys.pdp8,alt.sys.pdp10,alt.folklore.computers
+
+>>>>> On 1 Mar 2000 06:33:25 GMT, Eric Fischer ("Eric") writes:
+ Eric> Neil Franklin  <neil@franklin.ch.remove> wrote:
+ >> Where does one get docs about how to use ITS?
+ Eric> The manual is available in PostScript (scanned page images) at
+ Eric>   ftp://publications.ai.mit.edu/ai-publications/0-499/AIM-161A.ps
+
+I'm not sure which memo that is offhand, but it's not going to tell
+you very much.  The real documentation was not published as memos,
+but rather was all on-line, mostly in the .INFO. and INFO directories.
+
+The standard ITS toplevel user interface was a program called DDT.
+It was an assembley-oriented program debugger that also included many
+extra commands for all the commmon utilities (login, file manipulation,
+job manipulation, etc.)  However, DDT was not a friendly program:
+unless you were a system programmer, it would be considered generally
+less friendly than any UNIX shell.  
+
+A bunch of the features in UNIX (such as being able to manipulate multiple
+jobs at once from the shell) were eventually copied from ITS, but they
+mostly didn't turn out as nice on UNIX.  They tended to try copying
+superficial behaviour rather than the underlying technology that
+made it work right.
+
+The most commonly used major applications on ITS were: TECO/EMACS,
+MACLISP (and some related Lisp languages), MACSYMA, TEX, and ZORK (a game).
+People didn't spend a lot of time sitting in the "shell".
+
+ITS had many wonderful features; it's hard to figure out where to start.
+
+From a user's point of view, one nice feature was --MORE--.
+The operating system terminal driver knew the size of your screen
+(and what capabilities your terminal had, and device-independant
+terminal control protocols, etc.) and by default would enable
+the MORE feature.   If the application moved the cursor off the
+bottom of the screen (that is, more lines than would fit), then
+the application received a software MORE interrupt.  It could handle 
+this by implementing its own MORE prompt, or it could let the system
+handle it with a simple default one.  The MORE service was built-in
+to the system, free and automatic; no user intervention was required.
+If the user wanted MORE processing turned off for some reason, you could
+do that with a simple command.  If the application wanted to do something
+fancy with it (such as offering to abort the computation as well as the
+output), it could do that.
+
+When this idea was copied into UNIX, it became the user's burden to
+remember to pipe the output into a seperate program called "more".
+This also lost the feature of the application to control that part
+of the interface.
+
+Here's another couple of them for you.
+
+ITS had a simple, highly reliable non-hierarchical file system.
+Files were named like:   DEVICE:DIRECTORY;NAME1 NAME2.
+(Yes, that's a space between NAME1 and NAME2.  Yes, we eventually
+found the lack of subdirectories to be an undesiable limitation.)
+There were many good features to the file system I won't go into here.
+Anyway, NAME2 was typically used as either a type or a version number.
+Version numbering was the most useful way to do it.
+
+The operating system (by which I mean the system calls OPEN,RENAME,DELETE,etc.)
+understood about NAME2 being a version number.  If you opened a file whose
+NAME2 was ">", then a new numeric version of the file was opened instead.
+It was not difficult to manage multiple versions of files, they were
+wholly and undisputably a totally winning feature of great utility that
+Saved Everybody's Ass All The Time.
+
+GNU EMACS tried to sort of emulate the version number feature for UNIX,
+but it's not the same.  Unless the operating system (or, to do it the
+hard way: every single application running on the system) understands
+what's going on with version numbres, it doesn't really work as well.
+
+The better solution, adopted by TOPS-20, VMS, and of course the Lisp
+Machine, was to have *both* a TYPE and a VERSION, rather than giving up
+one for the other.
+
+By the way, that DEVICE part could refer to the file system on another
+machine.  Upon seeing a non-built-in (eg. not a disk or terminal)
+device name,  ITS would look in a file directory that contained
+user-mode device drivers written to use a generic device-driver protocol.
+One thing it might find would be a symbolic link named for one of the
+other ITS machines, linked to the "MLDEV" device.  It would load up that
+driver and run it, and it would implement the transparent remote file system.  
+This device driver (MLDEV) correctly implemented the ITS file system IO
+semantics exactly, without any of the the problems commonly associated
+with NFS.  If you're sitting on the "AI" machine and want a file "FOO  >"
+that's in your directory on the "ML" machine, you just referenced 
+it as "ML:CSTACY;FOO >" and it all just worked perfectly.
+
+This is not even scratching the surface of ITS; I've hardly said anything.
+
+Would ITS be a suitable operating system for use today?  
+Well, it was written in assembly language for a machine with an 18-bit
+address space, and most serious development stopped on it before 1979.
+By then, those developers had moved on to the Lisp Machine.
+
+I'm not sure I really answered your question very much,
+but I would be happy to answer more specific questions.

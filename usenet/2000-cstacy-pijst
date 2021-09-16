@@ -1,0 +1,56 @@
+From 375876545446776266
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,7bb0c708baa37bbc
+X-Google-Attributes: gidfdb0e,public
+X-Google-Thread: fd705,e30867464335c38e
+X-Google-Attributes: gidfd705,public
+X-Google-Thread: 10d0a0,3ed30fe3c948919f
+X-Google-Attributes: gid10d0a0,public
+From: Christopher C Stacy <cstacy@world.std.com>
+Subject: Re: ooh, a *real* flamewar :)
+Date: 2000/03/24
+Message-ID: <x8lwvmszt9i.fsf@world.std.com>#1/1
+X-Deja-AN: 601667460
+Sender: news@world.std.com (Mr Usenet Himself)
+References: <AtP94.8925$7S.6211@news20.bellglobal.com> <8bab0g$kgj$1@pegasus.csx.cam.ac.uk> <38D914B2.372425D4@cfht.hawaii.edu> <8bda9t$g3i$3@bob.news.rcn.net> <8bdarq$fnm$1@pegasus.csx.cam.ac.uk> <38DA3187.E0406750@netinsight.se> <8bdc2d$nt4$1@bob.news.rcn.net> <m_zC4.8953$Of2.338444@typhoon.ne.mediaone.net>
+Organization: The World @ Software Tool & Die
+Newsgroups: alt.sys.pdp8,alt.sys.pdp10,alt.folklore.computers
+
+>>>>> On Fri, 24 Mar 2000 01:59:46 GMT, Ric Werme ("Ric") writes:
+ Ric> jmfbahciv@aol.com writes:
+ >> In article <38DA3187.E0406750@netinsight.se>,
+ >> Johnny Billquist <Johnny.Billquist@netinsight.se> wrote:
+ >>> Ben Harris wrote:
+ >>>> 
+ >>>> Does this mean that TOPS-10 was the origin of using ^T for this?
+ >>> 
+ >>> Beats me, but I know that both TOPS-10, TOPS-20 and RSTS/e had it.
+
+ Ric> Umm, I think I might have implemented that at C-MU, egged on by the
+ Ric> Stanford camp, so maybe Stanford did it first.
+
+We put that feature into ITS late in the game (around 1983 I think).
+It gave a software interrupt (%PIJST) to the current program, which,
+ if not handled, was handled in some standard way by the superior
+(eg. the shell).  We used the sequence "^_^J".  The ^_ is an escape
+character (since all the control characters like ^T are normally
+available to applications) and the ^J was mneumonic for "job".
+This was coded into the TTY driver kernel; I don't remember
+exactly what the user-level side (DDT) did with it.
+It was just a hack, and I'm not sure it was ever actually used,
+but I stole the idea from TOPS-20.
+
+ITS was normally used from a display terminal (CRT), and so there was a line
+called "who-line" that sat on the bottom (or top, if you wanted) of your screen 
+constantly displaying status information about the CPU and OS and the application.
+So you didn't have to go asking for it: it was right there in front of
+you all the time. 
+
+But with the ^_^J feature, a program could do something special, 
+or the debugger could tell you something about what was going on.
+
+There was a ^T command in DDT (typed to DDT itself, when it had control
+of the console, not when some running or stopped program had TTY control)
+that did something completely unrelated (filename translation mapping).
+
+Chris

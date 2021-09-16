@@ -1,0 +1,45 @@
+From newsserver@localhost  Sat Sep  7 05:00:14 2002
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!server6.netnews.ja.net!server1.netnews.ja.net!fu-berlin.de!nf3.bellglobal.com!snoopy.risq.qc.ca!ps01-chi1!rip!news.webusenet.com!prodigy.com!newsmst01.news.prodigy.com!prodigy.com!postmaster.news.prodigy.com!newssvr14.news.prodigy.com.POSTED!3a2e9f9f!not-for-mail
+Message-ID: <B99D96B1.1C5%dgc@spies.com>
+From: "David G. Conroy" <dgc@spies.com>
+Newsgroups: alt.sys.pdp10
+Subject: fpga pdp-10 status report
+Date: Fri, 06 Sep 2002 06:14:29 GMT
+Lines: 27
+User-Agent: Microsoft-Outlook-Express-Macintosh-Edition/5.0.5
+Mime-version: 1.0
+Content-Type: text/plain; charset="US-ASCII"
+Content-transfer-encoding: 7bit
+NNTP-Posting-Host: 64.171.6.237
+X-Complaints-To: abuse@prodigy.net
+X-Trace: newssvr14.news.prodigy.com 1031292869 ST000 64.171.6.237 (Fri, 06 Sep 2002 02:14:29 EDT)
+NNTP-Posting-Date: Fri, 06 Sep 2002 02:14:29 EDT
+Organization: Prodigy Internet http://www.prodigy.com
+X-UserInfo1: [[PAPDONYJPOBQDYMBCD^VX@WB]^PCPDLXUNNHLHEQR@ETUCCNSKQFCY@TXDX_WHSVB]ZEJLSNY\^J[CUVSA_QLFC^RQHUPH[P[NRWCCMLSNPOD_ESALHUK@TDFUZHBLJ\XGKL^NXA\EVHSP[D_C^B_^JCX^W]CHBAX]POG@SSAZQ\LE[DCNMUPG_VSC@VJM
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:38134
+
+Tonight I logged into an ITS, running on the
+micromachine simulator, which believes that consoles look like
+16c450 UARTS, and disks have ATA-2 interfaces.
+
+Fixing ITS to understand a different kind of terminal
+and disk was easy. Fixing ITS to understand a model of machine which
+was like a KS, but not exactly a KS, was fairly easy too (once
+I clued into the fact that "IFE KA10P" really means "IFN KL10P\KS10P").
+
+Finding the microcode bug which caused translation buffer
+misses on writes to replay incorrectly sometimes (a joy to find; poke
+at the offending location with DDT and the crash goes away because
+DDT took the miss on a read), and finding the microcode typo
+which caused byte pointers to be read/written controlled by bit 11 of
+XCTR rather than bit 10, took a lot longer.
+
+And there are still problems. LOCK crashed the system with
+what looked like a stack overflow/underflow trap, which is tomorrow's
+debugging.
+
+But at this point I think I believe the architecture of
+the machine is sound, and it's time to finish designing and then
+build the hardware version of things.
+
+dgc

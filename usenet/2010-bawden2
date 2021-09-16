@@ -1,0 +1,35 @@
+From newsserver@localhost  Sun Nov 28 04:04:52 2010
+Path: uni-berlin.de!fu-berlin.de!newsfeed-00.mathworks.com!panix!bloom-beacon.mit.edu!newsswitch.lcs.mit.edu!grapevine.lcs.mit.edu!not-for-mail
+Message-ID: <w2dy68fkz7t.fsf@shaggy.csail.mit.edu>
+From: Alan Bawden <alan@shaggy.csail.mit.edu>
+Newsgroups: alt.sys.pdp10
+Subject: Re: It's (starting to be) a PDP-10
+Date: 27 Nov 2010 02:22:30 -0500
+References: <18fbed0d-da8e-4d1a-b554-6e8fcb159a92@o23g2000prh.googlegroups.com>
+Lines: 16
+Organization: MIT Computer Science & Artificial Intelligence Lab
+NNTP-Posting-Host: shaggy.csail.mit.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Trace: grapevine.csail.mit.edu 1290842550 18519 128.30.2.14 (27 Nov 2010 07:22:30 GMT)
+X-Complaints-To: security@csail.mit.edu
+NNTP-Posting-Date: Sat, 27 Nov 2010 07:22:30 +0000 (UTC)
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.4
+Xref: cartman.offog.org alt.sys.pdp10:56252
+
+Your decision to duplicate the ITS KA10 paging hardware, rather than the
+ITS KS10 paging microcode, is spot on.  When I wrote that microcode,
+I was painfully constrained by DEC's hardware -- the resulting pager is not
+particularly pretty, and I had to make some not-so-pretty changes to ITS as
+well.
+
+Yes, the right thing is to re-think the KA10 pager.  Somewhere I've got a
+photocopy of short memo by somebody (probably Jack Holloway?) describing
+the original ITS paging box, but I can't find it right now, and you've
+probably reverse engineered every thing in it by now anyway.  You might
+want to make some changes to the format of the 18-bit page table entry.  I
+recall that it had a 3 or 4 bit age field (called PMAGEM in the ITS
+source), but ITS only ever used a single bit for aging -- so you can
+squeeze that down and leave room for more physical address bits.
+
+Did you implement 1-proceed?

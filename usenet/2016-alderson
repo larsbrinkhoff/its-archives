@@ -1,0 +1,80 @@
+From newsserver@localhost  Fri Nov 11 04:04:08 2016
+Path: uni-berlin.de!fu-berlin.de!newsfeed-00-ls.mathworks.com!panix!not-for-mail
+Message-ID: <mdda8d695bk.fsf@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Build EMACS & friends on ITS
+Date: 10 Nov 2016 20:24:31 -0500
+References: <86funb6zfx.fsf@molnjunk.nocrew.org> <54acd9d9-7506-4d57-bade-5ca8ad30db13@googlegroups.com>
+Lines: 63
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader2.panix.com 1478827474 21419 166.84.1.5 (11 Nov 2016 01:24:34 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Fri, 11 Nov 2016 01:24:34 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 22.3
+Xref: cartman.offog.org alt.sys.pdp10:59003
+
+Lars Brinkhoff <lars.spam@nocrew.org> writes:
+
+> Lars Brinkhoff:
+
+>> Does anyone remember how to build TECO, EMACS, and INFO on ITS?
+
+> The answer is in INFO; CONV >.  If you already have EMACS installed, you
+> first run the EINIT library to regenerate essential :EJ files.  After that,
+> you can start TECO and load EMACS; EMACS TECO.  Finally, dump a new EMACS
+> with MMRun$PURIFY$Dump$TS NEMACS$$.
+
+> Now, I would like - if possible - to build EMACS from source code, without a
+> previous version of EMACS installed.
+
+Compile TECO > (the MIDAS source file) and load the resulting TECO BIN.  In
+DDT, issue the commands
+
+	DUMPIT$G
+	PURIFY$G
+
+You now have a TECO environment, set up by EMACS; EMACS TECO in which to
+execute the commands
+
+	mmrun$[prfy]$dump$ts nemacs$$
+	mmrun$einit$? document$$
+
+(All of this is derived from the Twenex batch control file, in which the
+following sequence is executed (IDDT is a TENEX variant which splices itself
+into the process tree, giving an effect similar to that of the ITS multi-
+forking DDT):
+
+ ! compile the new TECO
+
+ @midas
+ *temp_teco
+
+ !Now start up the new TECO, and dump out the environment the init file creates!
+
+ @iddt
+ *;ytemp
+ *purify$g
+ *mmrun$purify$dump$nemacs.exe$
+ *mmrun$einit$? document$
+ ^Z
+
+ @delete temp.exe
+
+The DUMPIT procedure is specific to ITS, and is documented in the MIDAS source
+for TECO.
+
+You need to read the files EMACS1; EMACS TECO, EMACS1; PURIFY >, EMACS1; CCL >,
+EMACS1; EINIT >, and INFO; CONV > as well as the TECO source to put all this
+together.
+
+If I've made some errors in the preceding, it's been more than 5 years since I
+last tried to build an EMACS from scratch on ITS, and I don't remember whether
+this was sufficient.  But it's a start.
+
+-- 
+Rich Alderson					  news@alderson.users.panix.com
+      Audendum est, et veritas investiganda; quam etiamsi non assequamur,
+	  omnino tamen proprius, quam nunc sumus, ad eam perveniemus.

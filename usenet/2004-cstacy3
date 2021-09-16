@@ -1,0 +1,192 @@
+From newsserver@localhost  Sat Feb  7 05:00:15 2004
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!peernews.mcc.ac.uk!zen.net.uk!news-stoc.telia.net!217.209.241.210.MISMATCH!news-stod.telia.net!telia.net!news.tele.dk!news.tele.dk!small.news.tele.dk!news.maxwell.syr.edu!wn13feed!worldnet.att.net!199.45.49.37!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc02.gnilink.net.POSTED!8b1f9295!not-for-mail
+Message-ID: <uisijbxlv.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: rec.arts.sf.written,alt.folklore.computers
+Subject: Re: ARPAnet guest accounts, and longtime email addresses
+Date: Fri, 06 Feb 2004 23:24:18 GMT
+References: <tillman-601DFE.17460028012004@news.fu-berlin.de> <40185001.59825496@news.telusplanet.net> <MPG.1a83297e60305d3a9896cc@vic.nntp.telstra.net> <bv9vhd$2q3$1@panix3.panix.com> <4018d5cd$0$27800$cc9e4d1f@news.dial.pipex.com> <54oesnujxb.fsf@cypher.cisco.com> <slrnc27son.2l5.ylee@pobox.com>
+Lines: 172
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 8bit
+NNTP-Posting-Host: 68.163.194.147
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc02.gnilink.net 1076109858 68.163.194.147 (Fri, 06 Feb 2004 18:24:18 EST)
+NNTP-Posting-Date: Fri, 06 Feb 2004 18:24:18 EST
+Xref: cartman.azz.us-lot.org alt.folklore.computers:102931
+
+>>>>> On 6 Feb 2004 20:03:36 GMT, Yeechang Lee ("Yeechang") writes:
+ Yeechang> Over in rec.arts.sf.written and some other places, 
+           
+ >> Bill Westfield <billw@cypher.cisco.com> wrote:
+ >> In those days, the ARPANet was officially for use only by people
+ >> with relevant DoD contracts.  That included a lot of universities,
+ >> and the net was playground, remote access, discussion forum, and
+ >> file sharing tool for all sorts of students, ex-students, and
+ >> people who managed to talk their way into "guest" accounts at the
+ >> more liberal universities (like MIT, where you could try to log in
+ >> an get a "that username does not exist.  Do you want to apply for
+ >> an account?" message, and subsequent account.)
+
+Bill has a pretty good memory!
+The program he's referring to went like this:
+
+	  jrst [type dspc,/AThat name is not known.
+/
+		sosge failct
+		  phaser
+		jrst pwhel1]	   ;help him out
+	type dspc,/AThere is no password associated with that name.
+/
+	sosge failct		   ;don't let him hack us forever
+	  phaser		   ;  a loser, hack him back
+pwhel1:	ask /Do you wish to apply for an account?/
+	  ret
+	pjrst acoun1		   ;give him help!
+
+
+For you PDP-10 programmers out there: The ^P is an escape code
+that's part of the API for the terminal-independant display system,
+a very cool feature in ITS.  The  kernel would translate that string
+into an intermediate representation in the output buffer.
+Then, upon output the TTY driver would interpret that into a program
+of the appropriate actions (which might have to be emulated on some
+underpowered terminals) using the escape codes for whatever type of
+terminal was connected (or re-connected) at the moment of output. 
+^PA means "beginning of fresh line if needed".
+
+Here's some of the help text from the program:
+
+/,/Applications for accounts can sometimes be done online.
+Do :ACOUNT to find out if online applications are being accepted.  
+If they are, simply answer the questions which :ACOUNT asks you,
+and a USER-ACCOUNTS person will process your application quickly.
+If you are in a particular hurry, you may contact USER-ACCOUNTS
+people by sending network mail to USER-ACCOUNTS.  
+You should come back later and check if your account has been approved
+by attempting to log in.
+/
+
+It was possible to get a guest account if you had some
+affiliation with another ARPANET host, or if you were
+an MIT student, or even if you were a totally unknown
+unaffiliated random high school student from another
+part of the country.   There were not too many of those.
+I think we all knew each other.  Anyway, all you had to
+do was come up with a good excuse about what you wanted 
+to use the computer for (eg. what research you wanted to
+conduct), and seem like a reasonable person.  
+
+ Yeechang> I'm curious what happened to such guest accounts
+ Yeechang> without formal affiliation to the universities.
+ Yeechang> Were they all eventually eliminated?  
+ Yeechang> Or do some/many still survive to this day?
+
+They were mostly eliminated as time went on.
+
+Computers come and go, and their names get retired, 
+and people move on to other places, and then they 
+don't have any need of the old computer account anymore.
+And most places periodically clean up and get rid of
+old accounts, especially ones that are gratuitous.
+
+I can think of at least one friend, though, who had a guest 
+account at Stanford back around 1979 who still has it today.
+I think she might have been affiliated, though, at some 
+point in the middle of that time.
+
+Those were back in the days when you could count the number of
+computers in the world, and most of them cost several million 
+dollars each, and there was certainly no public data network.
+There were few people in the world who had ever actually seen 
+a computer.  Having access to a computer was a big deal,
+but there were not lots of people who wanted to do that.
+
+I remember on the ARPANET when the Radio Shack TRS-80 came out 
+for Christmas.  We were suddenly swamped with people who had
+learned what a modem was, and had found out the dial-up numbers
+by reading articles posted on BBS systems.   We had about three
+years with lots of guest applications, and had to put a whole
+new procedure in place to deal with them.  Then things calmed
+down a little when the military put passwords on the ARPANET 
+dialups.  Not long after that, lots more universities were
+getting on the network (which was now called "Internet").
+So there were plenty of other places to get guest accounts.
+
+Now we have personal computers, and the Internet is public.
+If you don't have a computer, you can use one at your public
+library, and read your email on Yahoo or Hotmail.
+So who needs a guest account?
+
+I think most universities do have guest accounts for people who 
+never officially had anything to do with the place, are only
+affiliated by having a friend who works there or something.
+But guest accounts for totally unknown strangers is unheard of.
+
+ Yeechang> And speaking of MIT, what about people with longtime email
+ Yeechang> addresses?  Philip Greenspun <philg@mit.edu> is well known
+ Yeechang> for having had the same email address since 1976
+ Yeechang> (presumably barring the shift over from bang paths).
+
+There were no addresses "@MIT.EDU" until sometime after 1983.
+I don't remember when that started, but I think it was probably
+around 1986 or later.   Back in the old days, there were no
+domains - just host names.  If Phil's email address was always
+at the same lab at MIT, it would probably have been PHILG@MIT-AI.  
+We never used UUCP at the AI lab, just the ARPANET, so there were
+no "bang paths".  My email address there has been the same since 
+1979 (except of course that @MIT-AI turned into @MIT-AI.ARPA, 
+then @AI.MIT.EDU, and now it's turning into @CSAIL.MIT.EDU).
+
+I think there are plenty of people who have ARPANET email addresses
+older than 1976.  RMS probably had his email address there since 1971,
+and there are several people before than him who are still online with
+email addresses at that lab.
+
+ Yeechang>  Compared to that, my @columbia.edu (Sep 1994) and @pobox
+ Yeechang> (1996) addresses are still very much youngsters, even if
+ Yeechang> older than perhaps 97% of today's net. Other candidates,
+ Yeechang> besides Greenspun, for the longevity title?
+
+It depends on what kind of "network" you are referring to.
+But if you're referring to the ARPANET/Internet, I think 
+it would probably be someone from MIT, BBN, or UCLA.
+
+If you want to count UUCP as a network, just go look up the
+person who invented UUCP.  I bet his uname is still the same,
+but the host name is probably entirely different.
+
+If you mean the oldest CONTINUOUS email address, still in use,
+regardless of network (or no network), and with substantially 
+the same host name, then it's probably someone at MIT who had 
+the same login name on the Project MAC system, or someone at IBM. 
+I would guess someone at MIT (like Corbato or Minsky) though, 
+for various mostly non-technical reasons.
+
+If you don't care whether the address is still in use, and just
+want the oldest one, and if you want to count any computer that 
+had a message system that talked to more than one computer, 
+those are much older than true computer networks.
+
+I think the first email address I had was in 1975 or 1976 on the STSC
+APL*PLUS system (which would exchange email nightly with its sister
+system across the room).  I think that kind of thing was already
+fairly old-hat by then. (We wrote similar kinds of email systems as
+high school kids back in those days!) IBM already had some kind of 
+large corporate computer network by then, didn't it?  
+Someone here will tell.
+
+If you want to count any computer that had an "email" system where
+people could send and receive messages without both being logged in 
+at the same time, even if it didn't talk to other computers, 
+then you're going to have to go back to at least 1963.
+Probably into the 1950s.
+
+Long ago, we just called it "mail" -- never "email".  "Email" is very
+new name for it.  I remember when we were disgusted by the new word,
+and vowed that we would never refer to "mail" as "email".
+I think that lasted about 5 years before everyone gave in.
+But we still usually say just "mail" when speaking to each other.

@@ -1,0 +1,49 @@
+From 5348962578249468684
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,186b816a79207944
+X-Google-Attributes: gidfdb0e,public
+From: Pat Barron <pat@transarc.com>
+Subject: Re: Do KS10 support Ethernet?
+Date: 2000/06/15
+Message-ID: <PAT.00Jun15154254@smithfield.transarc.ibm.com>#1/1
+X-Deja-AN: 635026059
+References: <4J925.173295$701.2240811@news4.giganews.com>
+Organization: Transarc Corporation
+Newsgroups: alt.sys.pdp10
+
+In article <4J925.173295$701.2240811@news4.giganews.com> Timothy Stark <sword7@grace.speakeasy.org> writes:
+>   I studied TOPS-10 7.04 monitor sources for Ethernet but found out that
+>   it supports Ethernet for KL10 only.  How about KS10 processor?  However,
+>   I found KMC-11, DUP-11 and DMR-11 in DNADLL.MAC.   I never heard of them
+>   before.  How do they works?  Are they Ethernet?  I know DZ-11 for
+>   terminals.  I never heard of CD11 before.  What is that?
+
+None of these are Ethernet.  DUP11 is a synchronous serial communications
+interface.  KMC11 is a general-purpose microprocessor (i.e., you download
+"microcode" to it, and it runs independently of its host processor), and
+saw a lot of use as a communications processor (with something like
+a DUP11) to do DDCMP or other protocol processing, to offload that
+work from the host CPU.  The DMR11 is a synchronous serial interface
+that has its own microprocessor (don't remember if it had downloadable
+microcode or not) that could do either DDCMP or SDLC, or both?  (I forget
+the exact details....).  There was a prepackaged combination of the
+DUP11 and KMC11 you could get for the KS10, and in that configuration the
+two boards together were known as a DN20-BA.
+
+>   I studied ITS sources that I got from ftp.swiss.ai.mit.edu. It is under
+>   GPL right now. I learned that it supports Ethernet for KS10 with NI0101
+>   interface.  I learned that NI0101 have three registers only. Is that true?
+>   If not, I am looking for its specs.
+
+As far as I know, the Ethernet support in ITS was never completed and
+does not work.  The best chance (almost certainly the only chance, if
+you don't want to hack the ITS code itself) you probably have of speaking
+TCP/IP from an emulated ITS system is to pretend you are an ACC LH/DH
+interface talking to an IMP ....  I'm still trying to find a copy of
+the manual for the ACC LH/DH interface, though I have the 4.2BSD driver
+for it, and could probably reverse-engineer an emulation from that (in
+theory one could do the reverse engineering from the LH/DH driver code
+in ITS, but the Unix driver written in C is a lot easier to understand,
+IMHO....).
+
+--Pat.

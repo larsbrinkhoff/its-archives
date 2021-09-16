@@ -1,0 +1,56 @@
+From newsserver@localhost  Fri May  8 04:04:11 2009
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!news2.google.com!npeer02.iad.highwinds-media.com!news.highwinds-media.com!feed-me.highwinds-media.com!post01.iad.highwinds-media.com!newsfe07.iad.POSTED!7564ea0f!not-for-mail
+Message-ID: <yzlocu5jql0.fsf@103.sub-75-199-118.myvzw.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: Opinion: The top 10 operating system stinkers
+Date: Thu, 07 May 2009 03:54:19 -0400
+References: <m3myaqng7v.fsf@garlic.com> <86prfl66iv.fsf@brain.hack.org> <87tz4xji1s.fsf@chbarts.motzarella.org> <86ocurbbrd.fsf@brain.hack.org> <gsk9vf0jh1@news2.newsguy.com>
+Lines: 36
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (darwin)
+Cancel-Lock: sha1:sZXOXzKC7mdLTpHPSHKdCoB/mNs=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 70.179.91.13
+X-Complaints-To: newsmaster@cox.net
+X-Trace: newsfe07.iad 1241682860 70.179.91.13 (Thu, 07 May 2009 07:54:20 UTC)
+NNTP-Posting-Date: Thu, 07 May 2009 07:54:20 UTC
+Organization: Cox
+Xref: cartman.offog.org alt.folklore.computers:259485
+
+jmfbahciv <jmfbahciv@aol> writes:
+> Tops-10 nor tops-20 does this.  They save the context of the user
+> and resumes the user job where it left off (with a couple of
+> exceptions depending the what was going on).  Nothing ever get
+> restarted from the beginning.
+
+On TOPS-10 if your program is interrupted in the middle of the
+execution of a system call (UUO) that was doing say some output,
+what PC does the interrupt handler see?   The last thing the
+user saw was his own PC and at that address was a UUO call.
+Now the UUO has output 60 of the 120 characters that were
+in the user's buffer that was passed to it.   Now we stop
+the UUO in the middle of its work, returning control to
+the user's context.   What does user think the PC is,
+and how can he determine how much has been output so far?
+
+On ITS the answer is that the PC is pointing to the UUO,
+and the user's UUO arguments (eg. a buffer pointer that's
+in an AC or some word in a control block his address space)
+has been updated with the correct count of 60 bytes output.
+Or if this was input, we also see the input buffer contents
+having been updated, of course.  The interrupt handler (which 
+might be the user's code, or might be the user poking around 
+in DDT, or might be some other process on the system that opened 
+this process for messing with it) can examine the state of the 
+call, since it's being reflected in the user's address space, 
+and even adjust it if desired.  Now the interrupt returns, and
+ITS resumes processing the UUO where it left off according to
+that state that the user/handler saw/modified.
+
+In other words, system calls just look exactly like ordinary PDP-10
+instructions executing in your address space.  The same as if you
+were interrupted out of the middle of a BLT or something.
+
+This makes fancy interrupt driven programming possible, 
+and it also makes some fancy debugging possible.

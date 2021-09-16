@@ -1,0 +1,56 @@
+From 4905186172897314959
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,372239c77c92f4b0
+X-Google-Attributes: gidfdb0e,public
+From: wilson@dbit.com (John Wilson)
+Subject: Re: KL Console Commands
+Date: 1998/10/07
+Message-ID: <361c085e.0@news.wizvax.net>#1/1
+X-Deja-AN: 398823318
+References: <Pine.LNX.3.96.980928112124.10870D-100000@bony.umtec.com> <Pine.LNX.3.96.981007102940.17468A-100000@bony.umtec.com> <361ba313.5952698@news.clark.net> <Pine.LNX.3.96.981007134213.18731B-100000@bony.umtec.com>
+X-Trace: 7 Oct 1998 20:33:34 -0500, dbit.dbit.com
+Organization: D Bit, Troy, NY
+Newsgroups: alt.sys.pdp10
+
+In article <Pine.LNX.3.96.981007134213.18731B-100000@bony.umtec.com>,
+Daniel Seagraves  <root@bony.umtec.com> wrote:
+>On Wed, 7 Oct 1998, Philip Gagner wrote:
+>> I'm probably wrong about this, but as I recall ITS ran on the
+>> modified page controller that MIT used--would it ever run on a vanilla
+>> KL? I vaguely remember an effort to make it do that, but I never heard
+>> whether anyone got it working.
+
+The modified page controller existed in hardware form only on the KA machines,
+for the KL and KS it was done using custom microcode on vanilla hardware.
+Which is good news if that's what you have, but since the emulator won't be
+running the real microcode it will need to have a special ITS mode to
+emulate the behavior of the ITS microcode.
+
+>I have the DECsystem 10/20 Processor Refrence Manual from 36bit.org,
+>and I plan on emulating everything in it that I can.  And if I can't, I'll
+>fake it, or find someone to explain it to me.
+
+FYI the ITS paging stuff isn't in any of the DEC docs, and neither are a
+few other goodies (like BLTBU/BLTUB) that may come up later.  The ITS
+microcode sources will help a lot though.  FWIW, I did a quick sketch of
+my understanding (from various sources) of ITS paging in
+
+	http://www.dbit.com/pub/pdp10/info/paging.its
+
+>I'm at 43% done, and I'm not giving up
+
+Just to chime in with everyone else, don't underestimate the difficulty
+of the paging, interrupt, and I/O systems.  Just to do KS10 style I/O you
+need to do a whole lot of twiddling to bridge between the Unibus and the
+KS10 bus (Unibus maps and BRx translation for both UBAs), and emulating the
+Unibus devices themselves is no picnic;  I'm sure the KL10 I/O system is a
+lot harder.  Thanks to bad docs, the TU77 is very difficult to get right,
+and the RM/RP disks aren't as bad but still non-trivial.  But it's still
+doable, luckily the 10s don't seem to have had anything like the insane
+proliferation of different peripherals that DEC's 16/32-bit machines had, so
+you can do just one kind of disk (e.g. RP06) and one kind of tape (e.g. TU77)
+and probably satisfy 99% of everybody.
+
+John Wilson
+D Bit
+

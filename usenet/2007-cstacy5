@@ -1,0 +1,29 @@
+From newsserver@localhost  Tue Aug 14 04:01:24 2007
+Path: uni-berlin.de!fu-berlin.de!news.glorb.com!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny09.POSTED!e266a3ae!not-for-mail
+Message-ID: <yzlbqdbvnsm.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: very obscure question
+Date: Mon, 13 Aug 2007 08:31:06 GMT
+References: <1186889794.698565.26260@z24g2000prh.googlegroups.com>
+Lines: 13
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.0.97 (darwin)
+Cancel-Lock: sha1:V56YKrDPokzAALu7BmLw79rydH8=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.132.16
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny09 1186993866 68.163.132.16 (Mon, 13 Aug 2007 04:31:06 EDT)
+NNTP-Posting-Date: Mon, 13 Aug 2007 04:31:06 EDT
+Xref: cartman.offog.org alt.sys.pdp10:47957
+
+Dave Conroy <dgcx@mac.com> writes:
+
+> Does anyone remember if the AC pointer in the KA-10 ITS pager (the
+> pointer that is loaded from word 7 of the 8-word block used by LPMx
+> and SPM) was a physical address or an exec mode virtual address (it's
+> hard to tell from the source, because its only ever set to AC0S(U) or
+> UUOACS(U), both of which would have been 1-1 mapped).
+
+Physical addresses are usually called "absolute" addresses here,
+and the ACP is an absolute address, if I am not mistaken.

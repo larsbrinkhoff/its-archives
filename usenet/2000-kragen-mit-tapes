@@ -1,0 +1,67 @@
+From 2259910519507401777
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,c3b996f26089e426
+X-Google-Attributes: gidfdb0e,public
+X-Google-Thread: 1022b1,7a4f0d7c84d8ce9f
+X-Google-Attributes: gid1022b1,public
+X-Google-Thread: fd705,7a4f0d7c84d8ce9f
+X-Google-Attributes: gidfd705,public
+X-Google-Thread: f6134,7a4f0d7c84d8ce9f
+X-Google-Attributes: gidf6134,public
+From: kragen@dnaco.net (Kragen Sitaker)
+Subject: Re: PDP-10 Emulator
+Date: 2000/05/18
+Message-ID: <0h%U4.11002$nm6.126033@news-east.usenetserver.com>#1/1
+X-Deja-AN: 625200638
+References: <sgs33e14oog147@corp.supernews.com> <39213818.F258CA84@netinsight.se> <tBYU4.8103$nm6.72787@news-east.usenetserver.com> <syg0rfqw9g.fsf@tiktok.cygnus.com>
+X-Abuse-Info: Otherwise we will be unable to process your complaint properly
+X-Complaints-To: support@usenetserver.com
+Organization: None
+NNTP-Posting-Date: Thu, 18 May 2000 19:46:04 EDT
+Newsgroups: alt.sys.pdp10,alt.folklore.computers,comp.org.decus,comp.emulators.misc
+
+In article <syg0rfqw9g.fsf@tiktok.cygnus.com>,
+Michael Meissner  <meissner@redhat.com> wrote:
+>kragen@dnaco.net (Kragen Sitaker) writes:
+>> The TCFS guys at MIT have a bunch of 7-track backup tapes from the
+>> early 1970s they wanted to read in 1995 (in order to transfer the data
+>> to a more modern medium).  I thought I recalled that Tom Knight was
+>> going to build a 7-track tape drive for them, but I can't find a
+>> reference to that on the Web, so maybe I am misremembering.
+>
+>I do recall at one point hearing that they were copying the old ITS backup
+>tapes and that they had literally 1 shot at getting the data (ie, the tapes
+>were self-destructing as being read, and bits literally falling off the tape).
+>IIRC, the reason for this was provide some evidence for prior use in a patent
+>case (my memory says it was the XOR graphics patent, but I'm probably
+>misremembering).
+
+There were a number of tapes that did flake apart as they were being
+read (perhaps a magnetic force microscope would have been a better tool
+than a tape drive for reading these tapes?), but some of them actually
+became more readable after flaking.  Turns out that, in some cases, the
+flaking oxide was stuff stuck to the back of the tape --- that had been
+peeled off the layer of tape underneath it.
+
+There were several reasons given for the TCFS project in the thesis;
+prior patent art is one, historical search is another (Phil Agre wanted
+to know when the word "foo" came into use among the hackers), and "I
+want my thesis" is a third.
+
+I've heard that, indeed, the self-destruction problem is a problem with
+many tapes.  I'd think that, in principle, you could recover 800bpi
+data from a pile of 1/8"-diameter metal oxide flakes, but I would
+expect it to be difficult in practice.
+
+(Once I scratched the backing off a classified CD-R in the course of
+marking it "ruined".  Oops, that was dumb.  Now there's classified data
+flakes all over the classified carpet, which unfortunately gets cleaned
+with an unclassified vacuum cleaner.  Everyone assured me there was
+nothing to worry about --- not least since we declassified a successful
+copy of the same CD a few hours later --- but I felt really dumb.)
+-- 
+<kragen@pobox.com>       Kragen Sitaker     <http://www.pobox.com/~kragen/>
+The Internet stock bubble didn't burst on 1999-11-08.  Hurrah!
+<URL:http://www.pobox.com/~kragen/bubble.html>
+The power didn't go out on 2000-01-01 either.  :)
+

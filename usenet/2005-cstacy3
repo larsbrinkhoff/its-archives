@@ -1,0 +1,141 @@
+From newsserver@localhost  Sat Feb 26 02:00:09 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!jnfs.ja.net!hamilton.zen.co.uk!zen.net.uk!demorgan.zen.co.uk!meganewsservers.com!feeder2.on.meganewsservers.com!216.196.98.140.MISMATCH!border1.nntp.dca.giganews.com!border2.nntp.dca.giganews.com!nntp.giganews.com!cyclone1.gnilink.net!spamkiller.gnilink.net!gnilink.net!trnddc04.POSTED!8b1f9295!not-for-mail
+Message-ID: <ufyzkiatn.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Tops-10 disk quota quandary
+Date: Fri, 25 Feb 2005 21:33:42 GMT
+References: <0IGdnfpxdNng6WrcRVn-3A@rcn.net> <Xns9606A3A42DCthisisatestofthispc@69.28.186.158> <1109136849.6eb38d0e857dceeab6da413f3a1378fd@teranews> <Pine.LNX.4.63.0502230856340.20308@shiva0.cac.washington.edu> <in5lvc.s0l2.ln@via.reistad.priv.no> <Pine.WNT.4.63.0502241509360.312@Tomobiki-Cho.CAC.Washington.EDU> <Xns9607C72F9B74Athisisatestofthispc@69.28.186.158> <Pine.WNT.4.63.0502241712480.312@Tomobiki-Cho.CAC.Washington.EDU> <Xns9607E835C5052thisisatestofthispc@69.28.186.158> <Pine.WNT.4.63.0502242001460.312@Tomobiki-Cho.CAC.Washington.EDU> <Xns96087FE34355Dthisisatestofthispc@69.28.186.158> <mddu0o0a1th.fsf@panix5.panix.com>
+Lines: 122
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.166.73
+X-Complaints-To: abuse@verizon.net
+X-Trace: trnddc04 1109367222 68.163.166.73 (Fri, 25 Feb 2005 16:33:42 EST)
+NNTP-Posting-Date: Fri, 25 Feb 2005 16:33:42 EST
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:43935
+
+Rich Alderson <news@alderson.users.panix.com> writes:
+
+> Arthur Krewat <krewat@bartek.dontspamme.com> writes:
+> 
+> > Hmm... and why has no one dupilicated TOPS-20's command line structure? 
+
+ 
+> Leaving aside tcsh (available on most if not absolutely all versions
+> of Unix or Unix-like operating systems), or the command processor in
+> any version of Kermit, the Cisco IOS user interface is very much
+> based on the Tops-20 command line structure.  Through 20 years of
+> software development, no better CLI has come up.
+
+Some programs that I and others wrote on the PDP-10 under ITS 
+also had a completing command reader.  The main shell on ITS was
+not exactly command-line oriented, but I think many users would
+have very much liked a TOPS-20 style command interface there.
+
+The Unix shell completion feature is hardly equivalent to what
+TOPS-20 had.  (Likewise the trivial completion in programs like Emacs.)
+
+The real reason that it was not duplicated is that it was a 
+sophisticated piece of software tha was hard to implement.  
+The other operating systems being developed at the time were VMS,
+systems based on Unix, MSDOS, and GUI-based systems.  VMS ignored
+the command processor, to the great chagrin of users, MSDOS we
+needn't explain, Unix was just lame-o, and most of the forward-looking
+systems like the Macintosh eschewed command lines altogether.
+
+The most advanced operating system in the mid 1980s that used a command-line
+processor was the Symbolics Lisp Machine.  This system did indeed have a
+uniform programmable command procesor based on the TOPS-20 one.  
+However, it was much fancier, easier to program, was integrated
+with the GUI, and also was heavily based on an advanced user interface
+concept known as "presentation types".
+
+Here's a trivial example that uses the built-in presentation type
+object classes SEQUENCE and PATHNAME.  (You could compose object
+types, or implement new classes using the multiple-inheritence
+object oriented features of Lisp).
+
+You invoked the command like on TOPS-20:
+
+  :seT fiLE-gENERATION-RETENTION-COUNT (one or more file pathnames) ... GENERATIONS TO KEEP ...
+
+(actually echoed in nice capitalization, uppercase shown above just 
+to illustrate the completion happenning)
+
+and then you would enter (network) file pathnames (with full completion,
+syntax parsing, and wildcards) or even just click on any that happened to 
+be on the screen (they would light up when you waved the mouse over them,
+because the system remember that they were file pathnames).  You could
+intelligently back up and delete inputs (slightly fancier than TOPS-20),
+and of course you had full Emacs-style editing available at all times.
+You could press HELP to find out that the prompt "generations to keep"
+was looking for "a positive number or None", for example.
+
+Here's the code:
+
+(define-command (com-set-file-generation-retention-count
+		     :command-table "File")
+    ((files  '((sequence (pathname))))
+     (generations `((token-or-type (("None" . 0 )) ((integer 1)))
+		    :description "a positive number or None")
+		  :prompt "generations to keep"
+		  :default 0))
+   (let ((pathnames nil))
+     (dolist (file files)
+       (if (send file :wild-p)
+	   (mapcar #'(lambda (f)
+		       (when f (pushnew f pathnames)))
+		   (condition-case (err)
+			(find-wild-files file)
+		      (fs:file-operation-failure
+			(format *error-output* "~&Error: ~~A~" err))))
+	   (pushnew file pathnames)))
+     (dolist (file pathnames)
+       (let ((old (getf (cdr (fs:file-properties file)) ':generation-retention-count)))
+	 (format t "~&Setting generation retention count of ~A from ~A to ~D."
+		 file (or old "None") (if (= generations 0) "None" generations)))
+       (fs:change-file-properties file t ':generation-retention-count generations))))
+
+
+This command is, of course, about setting the maximum number of file versions
+to be preserved by the filesystem.  File versioning was invented on ITS,
+carried over to TOPS-20, also appeared in VMS and of course on the Lisp Machine.
+
+> > Oh, and MacLisp, SUDS etc have not been ported to new hardware?
+> > Hmm, a  quick Google search shows otherwise... 
+> 
+> Really?  URLs?  Because I don't see anything relevant for SUDS (other than a
+> couple of resume lines) in the first 100 Google results; I suspect that you
+> have no idea what SUDS is.  And other than the Multics implementation of
+> Maclisp done decades ago, I don't see anything about new implementations of
+> that either.  So please, share the URLs.  SUDS especially would be a money
+> maker.
+
+I think Rich is correct; if you can produce those URLs that you say
+you found on Google, we'd all like to see them.
+
+MACLISP was just on ITS, Multics, and TOPS-20 (and TENEX?)
+We had already started moving away from the PDP-10 (onto Lisp Machines)
+before TOPS-20 was released.  By the 1980s,. there were dialects related
+to MACLISP on other systems such as VMS and Unix. Today however, there are
+many implementations of ANSI Common Lisp, which is a subset of what we had
+on the Lisp Machine, which was in turn based on MACLISP.
+
+Of course there are other board and circuit layout and drawing programs, 
+but some people prefer SUDS and are actively using it to design new 
+hardware today.  I've done a little work in this area, but I don't
+consider myself an expert on such software.  But I do happen to know
+some of the people using SUDS, and I can assure you that they're smart.
+
+If you are wondering why sometimes an old program that works very well is
+still used, rather than a more "modern" program, there are two reasons.
+First, the old one might still have features that the new ones do not.
+Second, why learn a new program when there's nothing wrong with the old one?
+Third, if it's not broken
+
+If you are asking why great ideas are sometimes discarded and bad crappy
+ideas become popular, that's not really a question about computers.
+I'd write more, but I need to run down to McDonalds and get a burger now.

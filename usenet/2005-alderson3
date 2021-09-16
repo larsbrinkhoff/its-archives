@@ -1,0 +1,131 @@
+From newsserver@localhost  Sat Sep 10 02:00:55 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!jnfs.ja.net!zen.net.uk!hamilton.zen.co.uk!nntp.theplanet.net!inewsm1.nntp.theplanet.net!news.maxwell.syr.edu!panix!not-for-mail
+Message-ID: <mdd4q8uqdqh.fsf@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Need simulator, and PC based disassembler / assembler.
+Date: 09 Sep 2005 14:48:22 -0400
+References: <1125343931_1847@spool6-east.superfeed.net>
+Lines: 113
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1126291702 6827 166.84.1.5 (9 Sep 2005 18:48:22 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Fri, 9 Sep 2005 18:48:22 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 21.3
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:44884
+
+OK, I'm going to try to help one more time.
+
+I logged onto XKLeTen.PaulAllen.com, an XKL Toad-1 system running Tops-20 which
+has the DECUS libraries on-line, and took a look at what was there, using the
+PHOTO screen logging tool available under Tops-20:
+
+*******************************************************************************
+[PHOTO:  Recording initiated  Fri 9-Sep-2005 11:02AM]
+
+!cd [decus.lib10.0156]
+!v
+
+   PS:<DECUS.LIB10.0156>
+ 110.INF.1;P525252          1 25(7)      29-Apr-1975 09:29:00 ALDERSON  
+ CHESS.HOW.1;P525252        2 640(36)    13-Apr-1970 16:00:00 ALDERSON  
+   .SAV.1;P525252          20 10151(36)   8-Jun-1970 17:00:00 ALDERSON  
+
+ Total of 23 pages in 3 files
+!tyPE (FILE) 110.INF.1 
+ THIS IS DECUS #110  
+
+!head chess.how
+THE GREENBLATT CHESS PROGRAM (MACHACK) RUNS UNDER CONTROL
+OF THE DEC TIME-SHARING MONITOR FOR THE PDP-6/10.
+
+THIS COPY COMES TO YOU FROM TYMSHARE, INTERGALACTIC COMPUTER
+OPERATIONS, CALIFORNIA, USA		RPG.
+
+THE FOLLOWING COMMANDS ARE RELEVANT:
+
+PB	PLAY BLACK - INSTRUCTS MACHACK TO PLAY ON BEHALF 
+	OF BLACK
+!get chess.sav
+!iNFORMATION (ABOUT) meMORY-USAGE 
+
+27. pages, Entry vector loc 140 len 254000
+
+  Section 0	R, W, E,  Private
+0-13	 Private   R, W, E
+15-33	 Private   R, W, E
+!reset
+!cd [decus.lib20.0030]
+!v
+
+   PS:<DECUS.LIB20.0030>
+ CHESS.EXE.1;P525252       28 14336(36)  22-Aug-1980 17:40:32 DECUS     
+   .HOW.1;P525252           2 640(36)    13-Apr-1970 16:00:00 DECUS     
+
+ Total of 30 pages in 2 files
+!head chess.how
+THE GREENBLATT CHESS PROGRAM (MACHACK) RUNS UNDER CONTROL
+OF THE DEC TIME-SHARING MONITOR FOR THE PDP-6/10.
+
+THIS COPY COMES TO YOU FROM TYMSHARE, INTERGALACTIC COMPUTER
+OPERATIONS, CALIFORNIA, USA		RPG.
+
+THE FOLLOWING COMMANDS ARE RELEVANT:
+
+PB	PLAY BLACK - INSTRUCTS MACHACK TO PLAY ON BEHALF 
+	OF BLACK
+!get chess.exe
+!i mem
+
+27. pages, Entry vector loc 140 len 254000
+
+  Section 0	R, W, E,  Private
+0-13	 CHESS.EXE.1  1-14   R, CW, E
+15-33	 CHESS.EXE.1  15-33   R, CW, E
+!pop
+
+[PHOTO:  Recording terminated Fri 9-Sep-2005 11:04AM]
+*******************************************************************************
+
+Things to note:
+
+1. The DECUS program numbers are usually given in octal, so library 156 is also
+   #110.
+
+2. The Tops-10 entry is a .SAV file, while the Tops-20 entry is an .EXE file.
+   This reflects different internal layouts for the executable file itself
+   (zero compression, for example), but nothing about the memory image which
+   the file represents.
+
+3. Loading the two versions into memory, they are apparently identical in
+   memory usage, making it more likely that they are the same program packaged
+   differently.
+
+4. The file CHESS.HOW is identical between the two versions, stating that this
+   is a version from TYMSHARE.  "THE DEC TIME-SHARING MONITOR FOR THE PDP-6/10"
+   is an early version of what later became known as Tops-10, so it's a port,
+   because Project MAC did not run this monitor, preferring the homegrown ITS.
+
+5. RPG is, I believe, Dick Gruen, who was also at the Stanford AI Lab at one
+   time.  It wouldn't surprise me at all that RG would give him a copy to bash
+   on.
+
+6. The timestamp on the Tops-10 version shows that it is older than the Tops-20
+   operating system by about 5 years--and the DECUS people were scrupulous in
+   keeping timestamps for historical accuracy.
+
+I can easily make disassemblies of the two available, should you wish to see
+for yourself that the code is the same, and that only Tops-10 monitor calls
+(i. e., system calls) are used.
+
+I'll even make a bootable Tops-10 disk image for SimH available to you, if you
+have someplace I can send 70MB (the approximate size of a bzip2'd RP06 disk
+image).
+
+-- 
+Rich Alderson                                       | /"\ ASCII ribbon     |
+news@alderson.users.panix.com                       | \ / campaign against |
+"You get what anybody gets. You get a lifetime."    |  x  HTML mail and    |
+                         --Death, of the Endless    | / \ postings         |

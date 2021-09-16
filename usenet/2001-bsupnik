@@ -1,0 +1,66 @@
+From newsserver@localhost  Wed May  2 16:08:45 2001
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet!dispose.news.demon.net!demon!grolier!sn-xit-01!sn-post-01!supernews.com!corp.supernews.com!not-for-mail
+Message-ID: <p4f8et4kc0fcm1hg1tjn615juegkdcuili@4ax.com>
+From: Bob Supnik <bsupnik@us.inter.net>
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS 1-proceed flag
+Date: Mon, 23 Apr 2001 10:40:27 -0400
+References: <q256et4j2rkdmhd4h22hr9uu25gn617pfv@4ax.com>
+Lines: 50
+Organization: Posted via Supernews, http://www.supernews.com
+X-Newsreader: Forte Agent 1.8/32.548
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-Complaints-To: newsabuse@supernews.com
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:3636
+
+On further reflection, I think that the KS10's implementation is
+broken.
+
+On the KS10, FLG.1PROC and FLG.2PROC are supposed to work rather like
+the VAX T and TP bits.  FLG.1PROC (VAX T) is checked after interrupts
+and traps are processed; if set, it sets FLG.2PROC (VAX TP) to trigger
+the trap before the next instruction.  For the KS10 (not the VAX), the
+problem is that FLG.2PROC is checked at the same point that FLG.1PROC
+is checked - after interrupts and traps, not before.  Imagine this
+scenario:
+
+n-1/	set FLG.1PROC via JRSTF
+n/	fetch
+	check FLG.1PROC/2PROC; 1PROC set, hence set 2PROC
+	execute
+n+1/	interrupt... 1-proceed set in saved flags
+	:
+	JRSTF from interrupt
+n+1/	fetch
+	check FLG.1PROC/2PROC; 1PROC set, hence set 2PROC
+n+2/	fetch
+	check FLG.1PROC/2PROC; 2PROC set, hence trap
+
+The 1-proceed trap at the end of instruction n has been missed.  This
+is because the state of 2PROC is not saved (no equivalent to VAX TP).
+To make this work, 2PROC would need to be checked BEFORE interrupts
+and traps, not after.
+
+/Bob
+
+On Sun, 22 Apr 2001 13:48:56 -0400, Bob Supnik <bsupnik@us.inter.net>
+wrote:
+
+>The last work item on my ITS list is the 1-proceed capability.  It is
+<snip>
+>The KS10 implements this feature entirely through internal state
+>flags.  When a JRSTF or JEN with flags<8> set is seen, an internal
+>flag, FLG.1PROC is set (flags<8> is not set in the hardware).  During
+>decode, an extra check is put in to test for FLG.1PROC.  If set, then
+>another internal flag, FLG.2PROC, is checked.  If FLG.2PROC is clear,
+>it is set, and normal execution occurs.  If FLG.2PROC is set, the
+>1-proceed trap is sprung, and both FLG.1PROC and FLG.2PROC are
+>cleared.
+>
+>The interrupt JSR and page fault handlers check FLG.1PROC and, if it
+>is set, set flags<8> in the save flags word.
+>
+>The fetch trap handler checks FLG.2PROC and, if it is set, takes the
+>1-proceed trap instead.

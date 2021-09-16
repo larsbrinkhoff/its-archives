@@ -1,0 +1,252 @@
+From newsserver@localhost  Thu Sep 15 02:01:02 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!bigboote.WPI.EDU!newsfeed-00.mathworks.com!news-out.newsfeeds.com!spool6-east.superfeed.net!spool6-east.superfeed.net!not-for-mail
+Message-ID: <1126741773_443@spool6-east.superfeed.net>
+From: "Visitor" <None@example.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Mr. Stacy... AboutMr. Greenblatt & MacHack VI
+Date: Wed, 14 Sep 2005 18:46:51 -0500
+References: <1126566173_26453@spool6-east.superfeed.net> <uoe6xsouv.fsf@news.dtpq.com> <1126578537_26585@spool6-east.superfeed.net> <uhdcpihb2.fsf@news.dtpq.com> <1126623765_27737@spool6-east.superfeed.net> <uoe6way0w.fsf@news.dtpq.com> <1126714564_13@spool6-east.superfeed.net> <uk6hjvb9b.fsf@news.dtpq.com> <1126721687_127@spool6-east.superfeed.net> <ubr2vv6oj.fsf@news.dtpq.com> <1126729196_237@spool6-east.superfeed.net> <u3bo7v0x5.fsf@news.dtpq.com> <1126732574_267@spool6-east.superfeed.net> <ubr2vtis1.fsf@news.dtpq.com>
+Lines: 228
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Newsreader: Microsoft Outlook Express 6.00.2900.2180
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+X-RFC2646: Format=Flowed; Original
+X-Report:  Please report illegal or inappropriate use to <abuse@newsfeeds.com>. Forward a copy of ALL headers INCLUDING the body. (DO NOT SEND ATTACHMENTS)
+X-Comments2:  IMPORTANT: Newsfeeds.com does not condone,support,nor tolerate spam or any illegal or copyrighted postings.
+X-Comments:  This message was posted through Newsfeeds.com
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:44998
+
+"Christopher C. Stacy" <cstacy@news.dtpq.com> wrote in message
+news:ubr2vtis1.fsf@news.dtpq.com...
+
+> I'm not quite following what you're saying, above.
+> Are you saying that "TECH II" was not of historical
+
+Not as much of historical significance as the original TECH was.
+
+However, the problem with the version of TECH-II we found is that it's been
+modified by unknown parties in unknown ways for unknown reasons at unknown
+times.
+
+We don't know for certain its history.  We can't prove that particular
+version is a significant one.
+
+> significance?  Or that the Computer Museum, which
+> is doing a big project on computer chess, would not
+> be interested in whether it ran on a PDP-6?
+> Or that nothing is known about the program,
+> or who wrote it?
+
+Well... You can read the comments in the files themselves....
+
+For the TOPS-20 one (the one with the damaged source), it doesn't say a lot.
+Don't know if this was the original source by Alan Baisley or not.  It
+doesn't mention CHEOPS, but that's about all that can be said for sure.
+
+The TOPS-10 version has no source, but the hlp file certainly suggests a
+long line of modifications.  That program had definetly traveled some.
+
+The ITS version, which has references to the PDP and CHEOPS has no
+documentation with it.
+
+So we don't really know much beyond it existing.
+
+We don't know who wrote modified it, why it was modified, when it was
+modified.
+
+We can speculate.  But we don't know for sure.  Unless somebody comes
+forward who was involved and can say for sure whether that is or is not
+their program or modifications.
+
+Conditions like that are fine for collectors etc., but a professional
+quality collection (like what museums do) tend to prefer a bit more
+information.
+
+It does have references to the PDP-6, so they may find it interesting for
+that reason.  But that's not a heck of a lot compared to what it might mean
+(ie: the cheops references etc.)
+
+
+But again, as I've said, if we have anything they want, they are welcome to
+it.  The whole point of collecting this stuff is to put it on the web for
+anybody who wants it.  We don't want to hoarde stuff.
+
+
+> When you say "we can only assume" and make various
+> suggestions that "we" don't know any details about
+> all this stuff, to whom are you referering?
+
+Currently, myself, plus the guy who posted it on his ftp site.
+
+Plus, the computer history museum...  Without somebody coming forward and
+giving a definite history or accounting, it doesn't have as much value to
+it.
+
+No idea where the original author is at, so we can't compare the source to
+see what was actually modified.
+
+For us hobbiests, that's acceptable.  We'd prefer more info, but speculation
+is acceptable.
+
+Speculation is not acceptable for a genuine archive.
+
+If Mr. Greenblatt or somebody else comes forward and says that was his
+modifications, then that's great... it makes the program rather valuable and
+significant.
+
+
+> I don't know anything about computer chess, and have no interest,
+> but in using Google for about 15 seconds, I can see a bunch has
+> been written about this stuff.  20 seconds later, I can tell you
+> that a program named "Kaissa" from the Soviet Union won the first
+
+Right.  Common knowledge.
+
+I haven't yet tried contacting them to see if that still exists...
+Considering how much reorganization has occured since then, I doubt it.
+
+Still it might... from what I gather, some form of Kaissa existed as late as
+1990
+
+> World Computer Chess Championship in Stockholm; it defeated
+> (among others) Tech II in 33 moves, in round 2.  After 90 seconds
+> of research on the ACM web site, I begin to wonder if you have
+> read the extensive literature mentioning Tech II, for example?
+
+Sure, I know a few things about TECH-II...  At least the original version of
+TECH-II, anway.  (Have I studied each and every chess program since the
+early 60's... No... Do you know how many there have been?!!  By 1980 there
+were hundreds.  Heck, by the mid 70's there were more than 50, with many
+just being local programs that gained little attention.  No, I can't be 100%
+familiar with every one of them... If I was writing a history book, then I
+would need to be.  But I'm not writing a book.  Finding chess programs
+before they are lost doesn't require me to know the authors nickname or
+whether they were left handed, etc.)
+
+But that doesn't mean the program we found is the real TECH-II.
+
+My simply saying "Yes this is the real TECH-II" or "This is the copy that
+Mr. Greenblatt modified" doesn't make it so.
+
+That's fine for a hobbiest collector.
+
+A professional quality collectio needs more.
+
+And it is known for certain that one other version in that same directory
+*has* been modified by other parties.
+
+
+> Have you read the proceedings from ACM International Computer
+> Chess Championships and from the annual United States Computer
+> Chess Championships, from say, around 1969-1979?
+>
+> Another 2 minutes later, I have located Marc Boule's 2002
+> Master's thesis, an FPGA for chess moves, and have read:
+>  "As its title indicates, the Chess Oriented Processing System
+>  (Cheops) was also developed as a custom chess playing machine.
+>  The core of Cheops is a custom built, 16 bit CPU designed specifically
+>  to execute chess instructions. The Chess Array Module, along with
+>  controlling logic, is responsible for generating chess moves.
+>  The Cheops system was integrated to the TECH II and MacHack chess
+>  programs but no performance results are given [44].
+>  Cheops was developed at the Massachusetts Institute of Technology
+>  during the late 1970s."
+
+
+Which was not part of the original history of TECH or TECH-II that I was 
+familiar with.
+
+That was an event that happened much later.
+
+And no, it's not widely mentioned.
+
+
+> This suggests to me that, for example, Tech II was a well-known
+> chess program.  Which further suggests that you don't know what
+
+Yes, it was.  Moderately so, anyway.  Not famous well known, but known.  It
+and the original TECH were used for a variety of experiments over the years.
+
+
+> you are talking about.  Which leads me to the conclusion' that you
+
+In what way...  That we can't prove that the copy we found is the real
+version?
+
+We can already prove that there have been other modifications because the
+hlp file with it says so.
+
+You've made one heck of a jump in reading that reference...
+
+You've made the assumption that the version we have is the version they are
+talking about.
+
+You don't know that.
+
+You've just decided that since you don't like me, that I must automatically
+be wrong and that you must automatically be right.
+
+The reality is that you don't know the history of the program that was
+found.  You are only speculating.
+
+It may indeed be the one being discussed.  But we don't know at this point.
+
+
+And I readily admit I don't have the original references... As I've said
+before, I'm stuck in a rural area with no place around here that carries
+those journals.    They may be available online, but since I don't belong to
+those organizations I don't have access.
+
+
+> are wasting people's time, while you deride and dismiss the efforts
+
+"Wasting people's time".... Well, since you seem to enjoy these
+conversations, that must mean your time is even less valuable than mine...
+
+> of professional historians and collectors in this area, and assert
+> that they have done nothing.  So why are you wasting everyone's time?
+
+"Dismiss the efforts".... And how do you reach that conclusion?
+
+Pretty big jump considering I have said no such thing.
+
+I have said there has been very little effort to collect the old programs.
+That's very true.  Some of the authors I've contacted have not been
+contacted about their stuff recently.  (And in fact, one of the major
+authors from the 70's & early 80's   He hadn't donated his program.  Either
+he didn't want to, or more likely, they didn't want it at the time.  He's
+also the one who suggested that whatever we collect, we donate to them to
+help their very small collection.)
+
+Heck, I'd love to sit back and let them do all the work and reap the
+benefits.  I really really would.  It'd be a heck of a lot easier.
+
+But they haven't been.  That's why so much stuff is now lost.
+
+It's only been releatively recent when anybody showed any interst.  Even
+now, their efforts are not... extensive.  They've got a lot of areas to
+cover.  They don't have the time, the people or the finances to put into an
+extensive search.
+
+I've already collected at least as many programs as they have.  More,
+actually. Then throw in the ones from people I'm in contact with, and we
+probably have couple times more than what they have.  And where as most of
+theirs are commercial, most of mine are free, open, and somewhat
+historically significant.
+
+
+You have one very bad habit of jumping to things that were not said.
+
+
+>
+> That's a rhetorical question.
+>
+
+
+
+
+----== Posted via Newsfeeds.Com - Unlimited-Uncensored-Secure Usenet News==----
+http://www.newsfeeds.com The #1 Newsgroup Service in the World! 120,000+ Newsgroups
+----= East and West-Coast Server Farms - Total Privacy via Encryption =----
+

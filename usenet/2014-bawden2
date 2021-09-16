@@ -1,0 +1,38 @@
+From newsserver@localhost  Fri Mar  7 04:02:51 2014
+Path: uni-berlin.de!fu-berlin.de!feeder.erje.net!eu.feeder.erje.net!eweka.nl!lightspeed.eweka.nl!193.141.40.65.MISMATCH!npeer.de.kpn-eurorings.net!npeer-ng0.de.kpn-eurorings.net!bloom-beacon.mit.edu!bloom-beacon.mit.edu!newsswitch.lcs.mit.edu!grapevine.lcs.mit.edu!not-for-mail
+Message-ID: <w2d38ivdetm.fsf@scooby-doo.csail.mit.edu>
+From: Alan Bawden <alan@scooby-doo.csail.mit.edu>
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS Questions
+Date: Thu, 06 Mar 2014 01:24:53 -0500
+References: <lf8epj$330$1@odin.sdf-eu.org>
+	<w2d7g87dfap.fsf@scooby-doo.csail.mit.edu>
+Lines: 17
+Organization: MIT Computer Science & Artificial Intelligence Lab
+NNTP-Posting-Host: scooby-doo.csail.mit.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Trace: grapevine.csail.mit.edu 1394087093 93699 128.30.2.141 (6 Mar 2014 06:24:53 GMT)
+X-Complaints-To: security@csail.mit.edu
+NNTP-Posting-Date: Thu, 6 Mar 2014 06:24:53 +0000 (UTC)
+User-Agent: Gnus/5.13 (Gnus v5.13) Emacs/23.2 (gnu/linux)
+Cancel-Lock: sha1:v7j3BO1lkMzLS0i1xYQQhombkek=
+Xref: cartman.offog.org alt.sys.pdp10:58594
+
+Alan Bawden <alan@scooby-doo.csail.mit.edu> writes:
+
+> On ITS, commands are written with the expectation that output written
+> to the TTY: device will always be displayed to a human, output written
+> to the DSK: device will always be saved in a file, and output written to
+> the COM: device will always be consumed by another program....
+
+Before some other ITS old-timer writes in to correct me, I meant to
+write:
+
+  ..., and output written to the CLO: device will always be consumed by
+  another program....
+
+There was a COM: device, but it didn't do anything interesting...
+
+-- 
+Alan Bawden

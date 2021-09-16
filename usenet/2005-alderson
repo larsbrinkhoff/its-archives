@@ -1,0 +1,48 @@
+From newsserver@localhost  Sat Jan 29 02:00:09 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!elk.ncren.net!news2.wam.umd.edu!bloom-beacon.mit.edu!panix!not-for-mail
+Message-ID: <mdd3bwlv1k1.fsf@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: alt.folklore.computers
+Subject: Re: creat
+Date: 28 Jan 2005 13:41:34 -0500
+References: <41AC885A.22AA10BF@plano.net> <ntednSddSNJBnnDcRVn-sg@rcn.net> <3596mgF4k69skU1@individual.net> <5ee1v0lopho5b8ue6ikaae6ruhu1lceqqb@4ax.com> <35n6bfF4jhre9U1@individual.net> <fvsjv0teferiogf76p58tkrlr4810k3n0a@4ax.com>
+Lines: 30
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1106937694 5470 166.84.1.5 (28 Jan 2005 18:41:34 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Fri, 28 Jan 2005 18:41:34 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 21.3
+Xref: cartman.azz.us-lot.org alt.folklore.computers:134874
+
+Brian Inglis <Brian.Inglis@SystematicSW.Invalid> writes:
+
+> On 25 Jan 2005 15:19:11 GMT in alt.folklore.computers,
+> blmblm@myrealbox.com wrote:
+
+>> In article <5ee1v0lopho5b8ue6ikaae6ruhu1lceqqb@4ax.com>,
+>> Brian Inglis  <Brian.Inglis@SystematicSW.ab.ca> wrote:
+
+>>> Zane Healy put my OCRed Pocket guide on his web page:
+>>> http://zane.brouhaha.com/~healyzh/teco/TecoPocketGuide.html
+
+>> Thanks; should help make sense of BAH's previous message.
+
+> Then try decoding Minsky's Turing machine simulator for education. 
+
+I'm pretty sure that Minsky's simulator is written in ITS TECO, with a
+somewhat different command set from the DEC versions on the card in question.
+
+There is a copy of the ITS TECO command set on my private web page:
+
+	http://www.panix.com/~alderson/teco-order.html
+
+This is a conversion to simple HTML of the file EMACS:TECO.ORDER (Tops-20
+naming) from the MIT EMACS distribution.
+
+-- 
+Rich Alderson                                       | /"\ ASCII ribbon     |
+news@alderson.users.panix.com                       | \ / campaign against |
+"You get what anybody gets. You get a lifetime."    |  x  HTML mail and    |
+                         --Death, of the Endless    | / \ postings         |

@@ -1,0 +1,58 @@
+From 2384614716329389032
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,5106216c0bbc0609
+X-Google-Attributes: gidfdb0e,public
+X-Google-Thread: fd705,a72639d424d23eb3,start
+X-Google-Attributes: gidfd705,public
+X-Google-ArrivalTime: 1994-10-31 23:33:52 PST
+Path: nntp.gmd.de!xlink.net!howland.reston.ans.net!news2.near.net!info-server.bbn.com!news.bbn.com!map
+From: map@NIC.DSI.Net (Michael Patton)
+Newsgroups: alt.folklore.computers,alt.sys.pdp10
+Subject: Re: ITS Network File System
+Date: 01 Nov 1994 07:14:30 GMT
+Organization: BBN Systems and Technologies, Cambridge, MA
+Lines: 38
+Message-ID: <MAP.94Nov1021434@gaak.NIC.DSI.Net>
+References: <1994Oct25.104811.8395@wavehh.hanse.de>
+NNTP-Posting-Host: gaak.bbn.com
+In-reply-to: cracauer@wavehh.hanse.de's message of Tue, 25 Oct 94 10:48:11 GMT
+
+In article <1994Oct25.104811.8395@wavehh.hanse.de> cracauer@wavehh.hanse.de (Martin Cracauer) writes:
+   I appreciate any pointers to information on the Network file system
+   ITS used, especially how it handled network breakdowns.
+
+You've already gotten sufficient descriptions of operations from MRC
+and TK, so I'll defer...although I will point out one thing about the
+reliability issue.  Since all I/O in ITS (whether network or not) was
+transactions (we didn't always know enough to call them that, but they
+were) which either did or did not happen and everything was consistent
+in between, this was preserved across the network, except for one
+minor thing.  If the remote machine crashed or the link broke, just as
+you were committing, you could not be absolutely certain of whether
+your action had happened, you know you got a lost connection, but
+could never be certain if it happened before or after the commit
+point.  This was, of course, trivial when compared to the number of
+ways NFS can trash your file system.  The ITS file system was
+inherently more robust.  Unlike the early UNIX hackers, early ITS
+hackers would spend their time fixing file system code rather than
+file systems.  In the long run it paid off...
+
+   Online information preferred, 
+
+Well, the best online descriptions are the two just posted (presumably
+now in the archive at Univ. of Washington...  For more details than
+you probably care for you could always look through the preserved
+copies of the last ITS file systems at MIT.  I think the file that
+documents this use is in there somewhere...  Use anonymous FTP to
+MC.LCS.MIT.edu (which was the name of one of the ITS systems until it
+was retired) and look in /its.  Since, here in the future, you have to
+use NFS and not MLDEV, access to these may not be reliable.
+
+	-MAP
+
+P.S.  Now that I have a house with a huge basement and a large
+electrical entrance, anyone got a working KS10 in the Northeast
+looking for a home?  I'd love to have one in my collection...  Sorry,
+no three phase (but maybe with enough incentive, it _is_ available on
+the pole out front :-).
+

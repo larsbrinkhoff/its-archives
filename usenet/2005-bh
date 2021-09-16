@@ -1,0 +1,71 @@
+From newsserver@localhost  Wed Aug  3 02:01:12 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!canoe.uoregon.edu!newsfeed.news.ucla.edu!newsfeed.berkeley.edu!ucberkeley!agate.berkeley.edu!agate!abbenay.CS.Berkeley.EDU!not-for-mail
+Message-ID: <dcodq5$ovd$1@abbenay.CS.Berkeley.EDU>
+From: bh@abbenay.CS.Berkeley.EDU (Brian Harvey)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Your PDP10 recollections
+Date: Tue, 2 Aug 2005 18:25:09 +0000 (UTC)
+References: <1122746172.375177.272660@g43g2000cwa.googlegroups.com> <rbqse1hg8idjev2bcj7jjboi3sevf4gs5a@4ax.com> <1122936809.520603.89420@z14g2000cwz.googlegroups.com>
+Lines: 54
+Organization: University of California at Berkeley, Department of Electrical Engineering and Computer Science
+Reply-To: bh@cs.berkeley.edu
+NNTP-Posting-Host: abbenay.cs.berkeley.edu
+X-Trace: agate.berkeley.edu 1123007109 77041 128.32.153.200 (2 Aug 2005 18:25:09 GMT)
+X-Complaints-To: usenet@agate.berkeley.edu
+NNTP-Posting-Date: Tue, 2 Aug 2005 18:25:09 +0000 (UTC)
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:44731
+
+"Mike Speed" <mike8s2@yahoo.com> writes:
+>  I wonder if anyone has published anything like this?
+
+There are some contemporaneous published accounts, perhaps most notably the
+Stewart Brand article in Rolling Stone.
+
+Anyway, are you sure you wouldn't rather hear about amazing stories of IBM 407
+plugboard programming?  At the MIT radio station we had, umm, liberated one
+board, which had to serve eight different purposes, selected using three of
+the four toggle switches that lesser plugboard programmers used for minor
+variations on a single theme.  (For example, in our board, the fourth switch
+was used to double-space the printout.)  [I've just re-read this before
+posting and I'm not sure the point is clear, so let me try again.  Mostly
+people used one switch to mean one thing, but we used three switches to
+represent a binary number 0-7 that selected one of eight totally different
+functions.]
+
+But it was also because of the radio station that I found my way to the AI
+Lab, which was the loosest computer facility about letting hangers-on use the
+machine.  At the beginning it was a PDP-6, and was mainly used for single-user
+interactive computing with a signup sheet, but the signer-up could choose to
+boot up ITS and let other people use it also.  We used it to maintain the
+mailing list for the radio station.  I was a freshman, so I was amazed when I
+tripped over a bug in TECO, and reported it to one of the glorious system
+hackers, who said "I'm busy, why don't you fix it yourself?"  That was how I
+learned to program the thing.  My big contribution was to add the sort command
+to TECO.  Its name was ^P because all the other characters were taken!  I was
+really proud of it because it didn't just sort lines; it took three TECO
+command strings as arguments:
+	1.  Move from beginning of record to beginning of sort key.
+	2.  Move from beginning of sort key to end of sort key.
+	3.  Move from end of sort key to end of record.
+and it started at the beginning of the buffer and ran these three in rotation
+until reaching the end, then started sorting.
+
+Then one day Richard Greenblatt walked over, stroked his chin, and said, "I
+guess we ought to start paying you."  That was my first clue that people
+actually got paid to do this stuff in college (although I had worked at IBM
+the summer before, which is a story in itself, but not for this group I guess.
+:-)
+
+I've been really lucky -- I worked at the MIT AI lab at just the right time to
+get to hang out some at the mill with the PDP-10 gang, and I worked at the
+Stanford AI lab at just the right time to hang out some at PARC when they were
+building the Alto.
+
+I also vividly remember the conversation I had with Tom Knight in which I
+said, "I just can't understand it -- my program works most of the time,
+but..." at which point he broke in with "you're using the value in the AC
+after a BLT" and of course he turned out to be right.
+
+But I feel a little shy writing about all this stuff because mostly it's
+stories about other people's hacks, and they should do it!  Like 0$$^F for
+example...

@@ -1,0 +1,79 @@
+From newsserver@localhost  Tue Dec 11 04:02:01 2007
+Path: uni-berlin.de!fu-berlin.de!out03b.usenetserver.com!news.usenetserver.com!in02.usenetserver.com!news.usenetserver.com!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny03.POSTED!e266a3ae!not-for-mail
+Message-ID: <yzlaboiapb1.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Trusty pdp10, Rusty minds
+Date: Mon, 10 Dec 2007 09:09:55 GMT
+References: <d6dc20c6-d50b-4165-aba1-73cfa9ca8715@i29g2000prf.googlegroups.com> <TPqdnfYXQ7V96cHanZ2dnUVZ_v6rnZ2d@comcast.com> <fjhuiq$o7b$1@agate.berkeley.edu> <alpine.WNT.1.00.0712091551040.6072@Shimo-Tomobiki.Panda.COM> <fji60d$qpd$1@agate.berkeley.edu> <alpine.WNT.1.00.0712091818110.4272@Shimo-Tomobiki.Panda.COM> <yzlejdvrrxm.fsf@news.dtpq.com> <alpine.OSX.1.00.0712092325320.24610@pangtzu.panda.com>
+Lines: 60
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.1 (darwin)
+Cancel-Lock: sha1:4cntSSQ4cDYqQlID8vmtpudAXV8=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.192.101
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny03 1197277795 68.163.192.101 (Mon, 10 Dec 2007 04:09:55 EST)
+NNTP-Posting-Date: Mon, 10 Dec 2007 04:09:55 EST
+Xref: cartman.offog.org alt.sys.pdp10:48440
+
+Mark Crispin <mrc@CAC.Washington.EDU> writes:
+
+> Sadly, ITS did not live up to its promise in this department, 
+> and relied too much on CRTSTY.  This is one area where UNIX 
+> eventually got it right and better than anyone else.
+
+I'm not sure I quite agree with that conclusion, but whatever...
+
+[For those reading this other than Mark...]
+
+ITS terminal IO buffers had normal (eg. ASCII or 12-bit SAIL) characters
+and virtual terminal control codes.  On output, the system mapped each of
+these instructions into one or more the specific device codes in order
+to implement the desired virtual terminal function.   If you changed
+terminals mid-stream (eg. detaching, and then logging back in), the
+program would continue to work correctly even though you changed
+physical terminal types.   These codes were the same as the SUPDUP
+(super duper TELNET) protocol and its Network Virtual Terminal.
+The API for putting these codes into an output stream was that they
+were prefixed by ctrl-P (eg. "^PA" was beginning-of-line or something).
+
+There were two implementation of the virtual-to-device translation.
+The one built into the kernel had some limitations, mostly I think
+due to the amount of state they wanted to retain at that interrupt
+level (I forget exactly what the problem was), so a user-land program
+called CRTSTY was written.  CRTSTY also did fancy look-ahead optimizations
+on cursor movement, and was generally more sophisticated.  But CRTSTY
+was a hack that worked by logging you in an extra time on a pseudo-terminal
+(STY) and piping your raw virtual codes through there, so it was more
+expensive to use.  Most terminals of the day (notably, VT52, H19, AAA)
+worked fine with just the built-in kernel version of the output translations.
+
+>> the process-hang predicate feature
+> Yes, it was a cute hack to be able to set your kernel scheduler test
+> instruction from a system call, and have it execute in your user
+> context. But in retrospect this feature was not quite as useful or
+> special as it sounds.  There were limits to what could be in your
+> FLSINS...
+
+The main application that used it was the mail daemon (COMSAT),
+to notice when a file was dropped into the mail input queue.
+
+This was one of the ideas that was ported to the Lisp Machine,
+whose scheduler did not have those kinds of limitations.
+
+>> By the way, the system was not limited to 6+6 filesnames,
+>> just the disk file system.  You could open arbitrary length
+>> filenames on remote file servers.
+>
+> Are you sure about this?  Certainly the .OPEN UUO was limited to
+> SIXBIT arguments, and I'm pretty sure the OPEN .CALL UUO was similarly
+> limited. Perhaps this was something put in after my time to allow
+> opening LMFS files from ITS.
+
+Yes (also for accessing files on TOPS-20): the .SOPEN call.
+It was not widely integrated into most programs, but mostly made
+it into TECO, some file transfer programs, and the like.
+
+I'm thinking of more ITS features, now, but it's too late
+in the evening for more writeups...another day.

@@ -1,0 +1,118 @@
+From -2586077950470180036
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,3e5515f7ea4ee955
+X-Google-Attributes: gidfdb0e,public
+From: Christopher C Stacy <cstacy@world.std.com>
+Subject: Re: ITS CD (was Re: Wanna see how to annoy MRC? ^_^)
+Date: 2000/04/05
+Message-ID: <x8lln2tkpf5.fsf@world.std.com>
+X-Deja-AN: 606936733
+Sender: news@world.std.com (Mr Usenet Himself)
+References: <Pine.LNX.4.10.10003180849470.6959-100000@bony.umtec.com> <8bm5iu$prp$1@saltmine.radix.net> <8bmjph$mps$1@199.201.191.2> <38E6B5EA.5B112B79@bellatlantic.net> <8c7smv$jra$1@saltmine.radix.net> <Pine.LNX.4.10.10004030858500.3837-100000@bony.umtec.com>
+Organization: The World @ Software Tool & Die
+Newsgroups: alt.sys.pdp10
+
+>>>>> On Mon, 3 Apr 2000 09:14:53 -0500, Daniel Seagraves ("Daniel") writes:
+ Daniel> On 2 Apr 2000, Keith F. Lynch wrote:
+ Daniel> [snip]
+
+ >> It's a myth that there was a golden age when everyone on the net was a
+ >> hacker, and private files could be left unprotected.
+ >> 
+ >> ITS was full of "lusing turistic scum" who were always getting warned,
+ >> or even flushed.  People often read each others's mail, and sometimes
+ >> even altered it.  It was common for people to spy on each other.
+
+ Daniel> This is hinted at in some of the stuff I've read.  I gather that turist
+ Daniel> then == luser (or user) today?
+
+Daniel,
+
+ITS was indeed very open: all users had what under UNIX would be
+called root privileges (at all times).  Also, login did not require
+any password, except when connecting from untrusted locations.
+
+As mentioned above, there was a utility program that let you watch
+what someone else was seeing on their terminal.  Mere voyerism was 
+not the primary use of that facility, though; it was generally used 
+to help some user who has having trouble.  It was also useful for
+observing someone who was *making* trouble!  Just randomly surfing
+around usually turned out rather boring.
+
+There were certainly problems with malicous users, or more often,
+users who were just making a mistake.  One poor fellow never lived
+down the day he misunderstood a filename wildcard syntax and
+accidently deleted almost all the files on the system!
+
+We considered those kinds of problems to be worth the trouble,
+compared to dealing with file security issues.  But that doesn't
+work in the large.  A better analogy in today's world would be
+a file directory in which the Group permissions were set so that
+all group member could read/write/delete the files.
+
+ITS was designed for use by a small number of cooperative users living
+in a small laboratory.  It was a very advanced PDP-10 operating system
+with many interesting features.  ITS was written at MIT (originally
+for the PDP-6) and was not based on any other system.  
+
+It was somewhat different from later PDP-10 operating systems such 
+as TOPS-10 and TOPS-20.  Many people considered ITS to be better 
+than TOPS-20, although "Twenex" had many features (security, batch
+processing, extended addressing, uniform application command interface,
+and more) which ITS lacked.  ITS was where EMACS, among other things,
+was invented.
+
+The ITS computers were run under a policy where we would allow some
+limited access by guest users.  We called the guest users "tourists",
+and they included students and researchers from MIT and elsewhere
+on the network, and even some totally random people who somehow
+figured out how to connect to us via the ARPANET.  However, I don't
+recall the tourists being referred to in the derogatory manner 
+described above, at least by us, even when they were being pests.
+
+The ITS hackers (system programmers) jokingly referred to all the
+other users as "lusers"; that didn't have anything to do with tourists.
+This joke appears in various places all over the system.
+See "LUSER" (or even "USER") in an authentic version of the JARGON file.
+
+Some of the tourists were high school or college kids from the DC area
+who had somehow gotten hold of a dialup number to the ARPANET.
+Like, their daddy worked for the Defense Department, and they stole
+it from him, and then they told a friend who told a friend.
+Sometimes these tourists (knowing that at least to some degree,
+they were not supposed to be on the system) would try to masquerade
+as someone else; the smart ones just kept a low profile.
+The DC/VA tourists were generally considered to be the most pesty
+and most prone to do annoying things on the system, partly because
+there were just more of them.  Anyway, when any particular tourist
+became a problem, we would ask them to straighten up, or finally
+go ahead and delete their account.  
+
+Starting around late 1981, when people suddenly had access to personal
+computers (like the TRS-80) and modems and BBS systems, there were many
+more problems with tourist users.   Our open, unprotected environment
+was not very compatible with the nascent real world.
+
+Doing something like altering someone else's email would be a good
+example of behaviour that would get you kicked off the system.  
+That particular thing didn't happen very much -- I don't actually
+remember any such incidents off the top of my head.  More likely
+would be someone accidently deleting someone else's mailbox.
+
+None of these guest users had any "right" to be on the system; the
+whole deal was totally at the sufferage of the ITS administrators,
+and so accounts could be terminated anytime for any arbitrary reason.
+Typically, accounts were terminated for not obeying the rules about
+when you were allowed to be connected (ie. not when the machine is
+busy), harassing other users, or for doing things (eg. on the network)
+that brought unwanted attention from the Government (you will recall
+that the ARPANET was not a public network, but rather a military
+network owned and opeated by the Department of Defense).
+
+Not too surprisingly, many tourists had really weird and distorted ideas
+about the system, the policies, the people on it, and the whole thing.
+
+-- Chris
+
+This message is a copyrighted work of Christopher Stacy with All Rights Reserved.
+

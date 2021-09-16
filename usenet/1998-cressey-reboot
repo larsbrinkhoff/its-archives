@@ -1,0 +1,35 @@
+From -6407880339056332161
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,fa4f9cb9e3641f8c,start
+X-Google-Attributes: gidfdb0e,public
+From: David Cressey <DCressey@compuserve.com>
+Subject: Re: Simple program for -10
+Date: 1998/05/29
+Message-ID: <eHK1MHwi9GA.250@nih2naab.prod2.compuserve.com>#1/1
+X-Deja-AN: 357634894
+Newsgroups: alt.sys.pdp10
+
+
+racerdave@net1plus.com (SP-1) writes: 
+> Here is a simple program some of you might remember...
+> 
+> 	XWD	-16,0
+> ST:	CONO	PTR,60
+
+I once had to write a 16 word program to reboot ITS
+(MIT's operating system for DEC 36 bit machines)
+It had to reside in some bizarre place like locations 20
+through 37  (octal),  because 17 was the last AC and 40
+was the first location of the UUO handler.
+
+Well,  all I really had to do was load a one block secondary 
+boot program,  but what with including a channel program,
+and doing an I/O reset and all,...
+
+Well I remember it was the tightest coding I'd ever done.
+
+Not necessarily the best coding,  If you get my drift.
+
+Regards,
+    Dave
+

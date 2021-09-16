@@ -1,0 +1,33 @@
+From -1878714083710267934
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,47203fc512857e73,start
+X-Google-Attributes: gidfdb0e,public
+From: David G Cressey <73230.1665@CompuServe.COM>
+Subject: Other bootstraps.
+Date: 1997/03/20
+Message-ID: <5gs8or$g1l$1@mhafn.production.compuserve.com>#1/1
+X-Deja-AN: 227152198
+Organization: CRESSEY CONSULTING & SW
+Newsgroups: alt.sys.pdp10
+
+
+All this talk about the RIM10B reminds me of a bootstrap
+I had to write.  It had to fit in 16 words.   Not the 
+accumulators, but, I think,  locations 20 through 37.
+
+It had to load ITS  (well, actually a secondary loader
+that would load ITS)  from a disk.  Not only the pdp-10 code
+but also the channel program had to reside in the 16 words.
+That was tight!
+
+For those of you who may not recognize the reference,   ITS was
+the incompatible timesharing system,  which was built at the MIT
+AI lab to run their PDP-10s.  I worked at Dynamic Modelling, just
+down the hall from AI.
+
+Regards,
+    David Cressey <David_Cressey@compuserve.com>
+
+-- 
+|   Any opinions expressed in this message are mine alone.      |
+|    73230.1665@compuserve.com    |  Voice: 413-648-9523        |

@@ -1,0 +1,46 @@
+From newsserver@localhost  Wed Oct 18 02:02:32 2006
+Path: uni-berlin.de!fu-berlin.de!logbridge.uoregon.edu!arclight.uoregon.edu!news.u.washington.edu!Tomobiki-Cho.CAC.Washington.EDU!MRC
+Message-ID: <Pine.WNT.4.65.0610171038020.3168@Tomobiki-Cho.CAC.Washington.EDU>
+From: Mark Crispin <MRC@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Zork for TOPS-10 version?
+Date: Tue, 17 Oct 2006 10:44:49 -0700
+References: <8eqdnaGuZfyK6oHYnZ2dnUVZ_v6dnZ2d@comcast.com> <451EE542.E949E5E3@comcast.net>
+ <alpine.OSX.0.7.0609301515080.541@pangtzu.panda.com> <4525D8BB.B4EC4EA1@comcast.net>
+ <3r95ge.7ja1.ln@via.reistad.name> <eg5d7f$8qk_002@s831.apx1.sbo.ma.dialup.rcn.com>
+ <452693B7.A8DD1454@comcast.net> <4533B07A.FB76A53@comcast.net>
+ <alpine.OSX.0.7.0610161024000.16412@pangtzu.panda.com>
+ <w4cr6x793tm.fsf@rackham.cd.chalmers.se> <Pine.WNT.4.65.0610161759360.2832@Tomobiki-Cho.CAC.Washington.EDU>
+ <85d58r6vs2.fsf@junk.nocrew.org> <mddmz7ulufe.fsf@panix5.panix.com>
+Lines: 20
+Organization: Networks & Distributed Computing
+Sender: mrc@ndcms.cac.washington.edu
+NNTP-Posting-Host: tomobiki-cho.cac.washington.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1161107212 14428 128.95.135.58 (17 Oct 2006 17:46:52 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Tue, 17 Oct 2006 17:46:52 +0000 (UTC)
+In-Reply-To: <mddmz7ulufe.fsf@panix5.panix.com>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:47172
+
+On Tue, 17 Oct 2006, Rich Alderson wrote:
+> Lars Brinkhoff <lars.spam@nocrew.org> writes:
+>> Mark Crispin <MRC@CAC.Washington.EDU> writes:
+>>> ITS ran on MIT-MC's KL, which was a very early Model A.
+>> So the other ITS systems ran on KA's before the switch to KS's?
+> I believe that's true, yes.  And on a PDP-6 prior to that.
+
+In the mid 1970s, ITS ran on three KAs (AI, ML, DM) and one KL (MC).
+
+The AI system had a PDP-6 (which was the former AI system) as a slave 
+processor.  By the mid 1970s, it was mostly unused (except to play music 
+from time to time).
+
+The DM system was also once a PDP-6.  I never saw that PDP-6 powered up.
+
+-- Mark --
+
+http://staff.washington.edu/mrc
+Science does not emerge from voting, party politics, or public debate.
+Si vis pacem, para bellum.

@@ -1,0 +1,77 @@
+From newsserver@localhost  Thu Oct 15 04:03:41 2009
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!news1.google.com!npeer02.iad.highwinds-media.com!news.highwinds-media.com!feed-me.highwinds-media.com!post01.iad.highwinds-media.com!newsfe04.iad.POSTED!7564ea0f!not-for-mail
+Message-ID: <yzly6nea1no.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: Status of Arpanet/Internet in 1976?
+Date: Wed, 14 Oct 2009 03:13:31 -0400
+References: <0fa0c23a-1eba-4f86-817b-b81a6e85177d@j19g2000vbp.googlegroups.com> <62ad857f-edae-4183-bcc0-964f784213c2@j9g2000vbp.googlegroups.com> <Pine.LNX.4.64.0909221456440.27561@darkstar.example.net> <h9d38v329r6@news2.newsguy.com> <mddpr9h7b40.fsf@panix5.panix.com> <h9fm9f11npn@news2.newsguy.com> <mdd8wg4t1ou.fsf@panix5.panix.com> <h9i7h012vhe@news1.newsguy.com> <yzly6o0mby0.fsf@news.dtpq.com> <h9q4t301evb@news6.newsguy.com> <bfd466b4-f149-4e93-84ee-cf89ebc97b5d@j4g2000yqa.googlegroups.com> <h9vk7f3197v@news5.newsguy.com> <20090930161157.295e6ff2.steveo@eircom.net> <ha2778112e2@news7.newsguy.com> <20091001142314.6cfc2847.steveo@eircom.net> <ha4rh382rf2@news7.newsguy.com> <mddws39iagy.fsf@panix5.panix.com> <hafbua31dh2@news5.newsguy.com>
+Lines: 57
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (darwin)
+Cancel-Lock: sha1:KGWbTT/FDj42dbsfXcW6eY67zfc=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 70.179.105.8
+X-Complaints-To: newsmaster@cox.net
+X-Trace: newsfe04.iad 1255504412 70.179.105.8 (Wed, 14 Oct 2009 07:13:32 UTC)
+NNTP-Posting-Date: Wed, 14 Oct 2009 07:13:32 UTC
+Organization: Cox
+Xref: cartman.offog.org alt.folklore.computers:269041
+
+jmfbahciv <jmfbahciv@aol> writes:
+
+> Rich Alderson wrote:
+>> jmfbahciv <jmfbahciv@aol> writes:
+>>
+>>> Ahem A Rivet's Shot wrote:
+>>>> On Thu, 01 Oct 2009 08:37:32 -0400
+>>>> jmfbahciv <jmfbahciv@aol> wrote:
+>>>>
+>>>>> Ahem A Rivet's Shot wrote:
+>>>>>> On Wed, 30 Sep 2009 09:01:06 -0400
+>>>>>> jmfbahciv <jmfbahciv@aol> wrote:
+>>>>>>
+>>>>>>> Eric Chomko wrote:
+>>>>>>>> Clearly you have heard of "talk" right? Same thing as IM.
+>>>>>>>>
+>>>>>>> didn't people have to be logged into the same machine?  That's
+>>>>>>> not what I'd call instant messaging.  The only networking involved
+>>>>>>> is the TTY patch panel.
+>>>>>>  The version of talk in BSD supports "user@machine" addressing
+>>>>>> for network connections. It's still not really the same as IM which
+>>>>>> supports "user" addressing regardless of where the user is logged in.
+>>>>>>
+>>>>> I understand this so far...but doesn't somebody/thing have to phone
+>>>>> the @machine for it to be "instant"?  I'm interpreting "instant"
+>>>>> to be automatic contact without user intervention nor prodding.
+>>>>    The @machine has to be connected by a network of some kind, it's
+>>>> not going to work over dial up UUCP, it might over Micnet though.
+>>
+>>> I understand it has to be connected.  I'm not writing my question well.
+>>> Does @machine have to be on-network-line all the time or does the
+>>> machine the user posted the message have enough smarts to "call up"
+>>> the @machine to download the bits?
+>>
+>> It must be online all the time.
+>>
+> Thanks.  So when did automatic connections based on need rather
+> than existence happen out there (where "out there" is other than
+> DEC products)?
+
+On ITS in the very early days you could send an instant message to user@host, 
+and by around 1977 (or perhaps much earlier, I really would have to research
+the date) you could do :UNTALK user@host.  UNTALK was a graphical chat program
+where you saw each other's keystrokes in real time, with your window on the
+top half of the screen and the other user's on the bottom half.
+But you did have to know the person's address - the user directory service
+(NAME/FINGER) did not hook into the IM service on ITS.
+
+On the other hand, on ITS if you just sent email to "CSTACY" it would
+look in the INQUIR database to find out which machine I lived on, and
+if I were online at the time I could (if I set the option) receive the
+email in real-time on my console.  (There's a whole huge story there
+about how such interrupts were handled.)  INQUIR was the user database,
+and it was automatically synched all the time (by having the directory
+daemons send database updates to each other through email, in fact.)
+
+I don't think I'm describing this stuff in all it's glory; tired.

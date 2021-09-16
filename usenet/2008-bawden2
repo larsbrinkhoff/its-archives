@@ -1,0 +1,43 @@
+From newsserver@localhost  Tue Dec  2 04:03:46 2008
+Path: uni-berlin.de!fu-berlin.de!newspeer.monmouth.com!newsswitch.lcs.mit.edu!grapevine.lcs.mit.edu!not-for-mail
+Message-ID: <w2doczw8ca6.fsf@shaggy.csail.mit.edu>
+From: Alan Bawden <alan@shaggy.csail.mit.edu>
+Newsgroups: alt.sys.pdp10
+Subject: Re: RP07s
+Date: 01 Dec 2008 04:39:29 -0500
+References: <58400c92-542c-400c-b3e1-8789853668e9@f77g2000hsf.googlegroups.com> <gg3n1l$fqn$1@reader.motzarella.org> <gg40ne$o27$1@Tempo.Update.UU.SE> <m3zljudqsz.fsf@donnybrook.brouhaha.com> <ggbjc1$g9a$1@Tempo.Update.UU.SE> <m3hc5w9277.fsf@donnybrook.brouhaha.com> <mddzljo90a5.fsf@panix5.panix.com> <gggf6b$eke$1@Tempo.Update.UU.SE> <gggq3t3j1b@news6.newsguy.com> <mdd8wr7vboe.fsf@panix5.panix.com> <m363mbe2by.fsf@donnybrook.brouhaha.com> <ggj8nq$c4v$2@Tempo.Update.UU.SE> <ggk8rg$7s2$1@aioe.org> <mddprkijkad.fsf@panix5.panix.com> <DgqXk.364$5L3.29@newsfe09.iad> <ggm25l02dv4@news1.newsguy.com> <alpine.OSX.2.00.0811271244400.287@hsinghsing.panda.com> <49WXk.5201$1s7.5151@newsfe02.iad> <ggr8db01k66@news6.newsguy.com> <alpine.OSX.2.00.0811290936460.287@hsinghsing.panda.com> <w2dskp98jhj.fsf_-_@shaggy.csail.mit.edu> <m3y6z0e7p6.fsf@donnybrook.brouhaha.com>
+Lines: 24
+Organization: MIT Computer Science & Artificial Intelligence Lab
+NNTP-Posting-Host: shaggy.csail.mit.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Trace: grapevine.csail.mit.edu 1228124369 67576 128.30.2.14 (1 Dec 2008 09:39:29 GMT)
+X-Complaints-To: security@csail.mit.edu
+NNTP-Posting-Date: Mon, 1 Dec 2008 09:39:29 +0000 (UTC)
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.4
+Xref: cartman.offog.org alt.sys.pdp10:52001
+
+Eric Smith <eric@brouhaha.com> writes:
+> Alan Bawden <alan@shaggy.csail.mit.edu> writes:
+> > One of the last things I tried to do to keep ITS running was to get
+> > this handy RP07 somebody left us hooked up to our KS10s (because we
+> > were running out of working RP06s).  The changes I made are in the
+> > ITS source code, but they were never tested.
+> 
+> I don't know whether it's too fast, but I think you'd also have to
+> hack the console firmware (8080 code) if you wanted the KS to boot
+> from the RP07.
+
+I think that 8080 code was generic enough that it would work with any disk
+attached through an RH11.  (Again ignoring the speed issue.)  Certainly we
+booted from RM03s and even an RM80.  We never hacked the 8080 -- we only
+had a listing of the code that it ran.
+
+(Actually that RM80 only partly worked.  We managed to reformat it in 18-bit
+mode, and you could boot up and run ITS for weeks, and then the drive would
+suddenly fail and nothing short of repeating the 18-bit format would bring
+it back to life -- empty.)
+
+It's also possible that I was never planning on booting from that RP07.  I
+recall starting to work on a kludge that would boot a KS10 by typing the
+microcode in through the serial console...

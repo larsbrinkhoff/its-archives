@@ -1,0 +1,48 @@
+From newsserver@localhost  Thu Sep 13 04:00:32 2012
+Path: uni-berlin.de!fu-berlin.de!newsfeed-00.mathworks.com!panix!not-for-mail
+Message-ID: <mddfw6njas0.fsf_-_@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: alt.folklore.computers,alt.sys.pdp10
+Subject: Living computer Museum system status [was Re: PDP-10 system calls, was 1132 printer history]
+Date: 12 Sep 2012 15:34:07 -0400
+References: <ichas81ay0.fsf@home.home> <PM0004C7EE59325D7D@users-ibook-g4-6.unknown.dom> <k16uh3$16rc$2@leila.iecc.com> <k17683$aja$1@speranza.aioe.org> <nkojg9-8of.ln1@wair.reistad.name> <mddfw6wqn98.fsf@panix5.panix.com> <k2bdl9$aef$1@dont-email.me>
+Lines: 30
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1347478458 27987 166.84.1.5 (12 Sep 2012 19:34:18 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Wed, 12 Sep 2012 19:34:18 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 22.3
+Xref: cartman.offog.org alt.folklore.computers:330193 alt.sys.pdp10:58061
+
+"Charles Richmond" <numerist@aquaporin4.com> writes:
+
+> Hey, Rich... Is the DEC-10 down at the Living Computer Museum???  I have 
+> *not* been able to access it via telnet for quite a while...
+
+Hi, Charles,
+
+Sorry for not responding earlier.  It's been hectic around here as we move into
+our new configuration (new exhibit space, new organization, new visitor model,
+etc.), opening on 25 October 2012.
+
+We moved the large systems into a new computer room (raised floor and big HVAC,
+5000ft^2 vs our old 960ft^2) on a different floor as part of this.  We haven't
+got the terminal lines hooked up yet, and have had some disks die in the mean
+time, on the 2065.  We're working on that, and the KI-10 restoration, and the
+Sigma 9 restoration, and the KS-10 restorations (1 TOPS-20 v4.1, 1 ITS), and
+the disk emulator, and that's just in that room.  We're also working on the
+PDP-7, the PDP-8/e, the PDP-11/70, the Nova, the PDP-12, the Interdata 7/32,
+the Alto IIXM, and a whole bunch of early micros (our mission got expanded),
+all for that opening date.
+
+Exciting times, if slightly exhausting.
+
+I promise to let everyone know just as soon as the terminal lines get hooked up
+on the 2065.
+
+-- 
+Rich Alderson                                   news@alderson.users.panix.com
+    the russet leaves of an autumn oak/inspire once again the failed poet/
+    to take up his pen/and essay to place his meagre words upon the page...

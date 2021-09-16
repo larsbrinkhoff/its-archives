@@ -1,0 +1,32 @@
+From newsserver@localhost  Fri Jul 13 22:22:22 2001
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet!newsfeed.direct.ca!look.ca!howland.erols.net!usc.edu!news.service.uci.edu!eppstein
+Message-ID: <eppstein-5C0953.08134810072001@news.service.uci.edu>
+From: David Eppstein <eppstein@ics.uci.edu>
+Newsgroups: alt.sys.pdp10
+Subject: Re: [Q] Size of an int?
+Date: Tue, 10 Jul 2001 08:13:48 -0700
+References: <zEs%6.45101$mK4.4803220@news6-win.server.ntlworld.com> <9hptrm$2ac$3@murdoch.hpl.hp.com> <3B40C7AC.1A161204@yahoo.com> <slrn9k1jj1.ho.dave@slaney.palamon.ie> <slrn9k1tob.r8t.gergo.barany@hold.otthon.at> <jtu1ktgl7kcsja7cosf0ac518g47okk65e@4ax.com> <3B411039.2DA6@earthlink.net> <o1h4ktoptrd44pv5p2807op8hu2u37mkd7@4ax.com> <9i0j34$408$1@sunnews.cern.ch> <e4o9kt0pafa5u6gacaid3rq7dr308nfu76@4ax.com> <9i2uq2$c19$1@sunnews.cern.ch> <yAw27.31025$C81.2433647@bgtnsc04-news.ops.worldnet.att.net> <uwv5h8agd.fsf@spacy.Boston.MA.US>
+Lines: 16
+Organization: UC Irvine, Dept. of Information & Computer Science
+NNTP-Posting-Host: cx344290-c.irvn1.occa.home.com
+User-Agent: MT-NewsWatcher/3.1 (PPC)
+X-Face: %L;%tM$D+%zkQ$zp8f/vAx*mr6T79jgxh,SC!$,8.r%HBe}KZ)iMb$tB.Z,30
+        3QLpj-NoP*NzsIC,boYU]bQ]H'<P%JD/,.J>y<#4ga3$21:
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:4881
+
+In article <uwv5h8agd.fsf@spacy.Boston.MA.US>,
+ Christopher Stacy <cstacy@spacy.Boston.MA.US> wrote:
+
+> There was a C compiler that ran on ITS (and I think it must have run
+> on some other systems, too) called KCC.  I never needed to use it, 
+> but I think KLH might have written it.  It might have been used to
+> compile the Dover spooler or something, I forget.  (Does MRC recall?)
+
+Kok Chen originally wrote it, KCC stands for Kok Chen's Compiler.
+I worked on it at Stanford for a while, and when I left KLH took it over.
+One version is at <ftp://ftp.dbit.com/pub/pdp10/kcc/>; I recently gave Rich 
+Alderson my pre-KLH copy of the sources but I don't know what he did with 
+them.
+-- 
+David Eppstein       UC Irvine Dept. of Information & Computer Science
+eppstein@ics.uci.edu http://www.ics.uci.edu/~eppstein/

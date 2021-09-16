@@ -1,0 +1,62 @@
+From newsserver@localhost  Thu Jan 19 02:01:23 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!news-feed01.roc.ny.frontiernet.net!nntp.frontiernet.net!news.glorb.com!cycny01.gnilink.net!spamkiller.gnilink.net!gnilink.net!trnddc06.POSTED!8b1f9295!not-for-mail
+Message-ID: <yzlirshdt1d.fsf_-_@OSX663.local>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: FIDO [was: TOPS-20 TLINK trivia]
+Date: Wed, 18 Jan 2006 23:18:20 GMT
+References: <O96zf.150434$vl2.139912@fe2.news.blueyonder.co.uk> <Pine.OSX.4.64.0601170830040.445@pangtzu.panda.com> <Xns974FA25CB752mmcmcomcast@216.196.97.136>
+Lines: 43
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.0.50 (darwin)
+Cancel-Lock: sha1:sgyzmqExk4I6t2Cu+jPMSuf/3A8=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.174.189
+X-Complaints-To: abuse@verizon.net
+X-Trace: trnddc06 1137626300 68.163.174.189 (Wed, 18 Jan 2006 18:18:20 EST)
+NNTP-Posting-Date: Wed, 18 Jan 2006 18:18:20 EST
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:45782
+
+Mike McMahon <mmcm@comcast.nospam> writes:
+> The SRI / MIT / SCRC finger daemon / idle job reaper / idle terminal
+> screensaver loads a list of users to whom it will TTMSG when they
+> are one-way linked.
+>
+> ^G^G^G[WOOF! WOOF! HERE BE: Job n, TTY m, USRXXX]
+>
+> The source (CERBER.FAI) survives on bitsavers, quite by accident
+
+Historical note: this functionality is derived, 
+I believe, from the FIDO program on ITS.
+
+========================================================================
+        HOW-2 TRAIN FIDO:
+GIVE FIDO UP TO 10 THINGS TO WATCH FOR, SEPARATED BY COMMAS, BLANKS,
+OR CARRIAGE RETURNS. THERE ARE FIVE TYPES OF OBJECTS:
+  1) USER    JUST GIVE THE UNAME, E.G.'LOSER'
+  2) TTY     GIVE 'T' FOLLOWED BY 2-DIGIT OCTAL TTY #, E.G. 'T04'
+  3) HOST    GIVE 3-DIGIT OCTAL HOST NUMBER,FOLLOWED BY 'H'.
+  4) JOB     GIVE 'J=' FOLLOWED BY THE NAME OF THE JOB TO WATCH FOR.
+  5) DEVICE  GIVE: '*LPT*'  FIDO BARKS IF PRINTER USED
+                   '*DIS*'  DITTO FOR 340 DISPLAY
+                   '*SIX*'  DITTO FOR PDP-6
+
+-    A MINUS SIGN PREFIXED TO ANY OF THE ABOVE WILL MAKE FIDO BARK
+     IN THE ABSENCE (NOT PRESENCE) OF THE OBJECT FOLLOWING.
+Z    PREFIX BY DECIMAL # TO SET SLEEP TIME IN SECS (DEFAULT 10 SEC)
+^L   LISTS OBJECTS THUS FAR, CLEARS SCREEN IF DATAPOINT
+^G   KILLS THE CURRENT LINE, STOPS TYPEOUT IF ANY
+RUBOUT--AS USUAL
+
+          FINALLY, TO USE YOUR WATCHDOG, GIVE
+^S   WHICH WILL START FIDO PROWLING THE GROUNDS.
+
+******
+
+   AFTER LEARNING WHAT YOU WANT IT TO WATCH FOR, FIDO WILL DISOWN
+ITSELF AND WAKE UP EVERY 10 SECONDS OR SO TO CHECK THE SYSTEM
+STATUS; IF IT FINDS SOMETHING, IT WILL BARK AT YOU IN THE FOLLOWING
+FASHION:
+'WOOF!! WOOF!! HERE BE:
+ T23   RWG  HACTRN'
+========================================================================

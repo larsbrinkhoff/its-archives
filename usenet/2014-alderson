@@ -1,0 +1,51 @@
+From newsserver@localhost  Fri Aug 15 04:06:44 2014
+Path: uni-berlin.de!fu-berlin.de!usenet.stanford.edu!panix!not-for-mail
+Message-ID: <mddmwb6y47g.fsf@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: alt.folklore.computers
+Subject: Re: TECO EMACS development [was Re: The SDS 92, its place in  history?]
+Date: 14 Aug 2014 20:41:23 -0400
+References: <f22d0b90-c143-44bc-a20e-1b593fb9934d@googlegroups.com> <PM0004FFA4A4084BEF@aca414df.ipt.aol.com> <5m8vab-6ub.ln1@sambook.reistad.name> <lro6a7$20h$1@reader1.panix.com> <ivl4bb-j3e.ln1@sambook.reistad.name> <f22d0b90-c143-44bc-a20e-1b593fb9934d@googlegroups.com> <PM0004FFA4A4084BEF@aca414df.ipt.aol.com> <5m8vab-6ub.ln1@sambook.reistad.name> <lro6a7$20h$1@reader1.panix.com> <ivl4bb-j3e.ln1@sambook.reistad.name> <f22d0b90-c143-44bc-a20e-1b593fb9934d@googlegroups.com> <PM0004FFA4A4084BEF@aca414df.ipt.aol.com> <5m8vab-6ub.ln1@sambook.reistad.name> <lro6a7$20h$1@reader1.panix.com> <ivl4bb-j3e.ln1@sambook.reistad.name> <mddiom51mbx.fsf_-_@panix5.panix.com> <PM0005000942D980A7@aca2328e.ipt.aol.com>
+Lines: 33
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1408063283 26064 166.84.1.5 (15 Aug 2014 00:41:23 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Fri, 15 Aug 2014 00:41:23 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 22.3
+Xref: cartman.offog.org alt.folklore.computers:385657
+
+jmfbahciv <See.above@aol.com> writes:
+
+> Rich Alderson wrote:
+
+>> I maintained my own development environment for EMACS into the present
+>> century, and submitted a Y2K fix for the TIME library to comp.emacs and
+>> gnu.emacs.bug less than 15 years ago.  RMS and KMP agreed that I was the
+>> current TECO/EMACS maintainer at that time.
+
+> What was the last EMACS development project?
+
+Assuming you mean the TECO version, rather than Emacs in general (written for
+the most part in Lisp for a long time now).
+
+Partly maintenance, partly development:  On the assumption that TOPS-20 would
+go on longer than ITS (and it has, since it is still used in XKL router
+products instead of an IOS-style interace), I made the decision to change from
+the old ITS naming convention for "compiled" libraries (LIBNAM :EJ) to one
+which is friendlier to TOPS-20 and at the same time still quite usable on ITS
+(LIBNAM ELIB).  Of course, in TOPS-20 there's a period instead of a space
+between the first and second names (in Tops-10/TOPS-20 parlance, filename and
+extension).
+
+This was something I did first in my own version, and then carried over to the
+main code branch.  It had ramifications in a number of places which were not
+obvious on simple inspection.
+
+That was in the 1990s, before the Y2K fix.
+
+-- 
+Rich Alderson                                   news@alderson.users.panix.com
+    the russet leaves of an autumn oak/inspire once again the failed poet/
+    to take up his pen/and essay to place his meagre words upon the page...

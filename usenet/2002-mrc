@@ -1,0 +1,85 @@
+From newsserver@localhost  Sat Feb  2 05:00:45 2002
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet-peer1!btnet!news.maxwell.syr.edu!logbridge.uoregon.edu!news.u.washington.edu!140.142.17.34.MISMATCH!news.u.washington.edu!Tomobiki-Cho.CAC.Washington.EDU!mrc
+Message-ID: <Pine.NXT.4.50.0202010810250.20720-100000@Tomobiki-Cho.CAC.Washington.EDU>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Serving non-MS-word *.doc files (was Re: PDP-10 Archive 
+ migrationplan)
+Date: Fri, 1 Feb 2002 08:26:50 -0800
+References: <3C4A7DF8.2AEC4BD7@trailing-edge.com> <a3co61$2sg4$1@citadel.in.taronga.com>
+ <a3cqgb$17bpq6$1@ID-99522.news.dfncis.de> <a3crig$142u$1@citadel.in.taronga.com>
+ <a3ctso$15vusj$1@ID-99522.news.dfncis.de>
+Lines: 63
+Organization: Pandamonium Reigns
+NNTP-Posting-Host: tomobiki-cho.cac.washington.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII
+X-Trace: nntp1.u.washington.edu 1012580813 28418 (None) 140.142.17.39
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-User: okamoto
+In-Reply-To: <a3ctso$15vusj$1@ID-99522.news.dfncis.de>
+Content-Length: 314159 (believe this at your own risk)
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:9091
+
+On Thu, 31 Jan 2002, Roland Hutchinson wrote:
+> >>Anyone want to start an Interlisp thread?
+> > Man, that's the *fastest* I ever managed to troll someone. Looks
+> > like less than 11 minutes here... do I get extra points?
+> >
+> > Quaxity quuxity,
+> > Teitelman's InterLISP
+> > Has a DWIM feature that's
+> > Really a screw;
+> > MacLISP has evident
+> > Superiority,
+> > Letting its customer
+> > Mean what he do.
+> >
+> > -- the Great Quux.
+> I'll take that for a "no," then, shall I?
+
+You probably should.  I find it interesting though that most of the people
+who criticize Interlisp have never really used it, but rather rely upon
+the say-so of third parties.
+
+It really was an East Coast/West Coast thing.  Lisp bounced back and forth
+between BBN and Stanford for a while, culminating in Lisp 1.6 at Stanford.
+A bare-bones distribution of Lisp 1.6 got onto DECUS tapes and never was
+updated, thus convincing an entire generation that Lisp was useless.
+
+I don't think that MacLisp started with Lisp 1.6; I think that it came out
+of Lisp 1.5.  There is no doubt that it was *the* Lisp for ITS.  Later it
+was ported to TOPS-10 and was the only serious Lisp that ran on that
+platform; however TOPS-10 was never a serious Lisp platform.
+
+I think that BBN came up with the first Interlisp, which quickly became
+quite popular on Tenex systems.  The Stanford AI Lab never upgraded to
+Tenex, and the majority of the Lisp community there moved to the SUMEX
+project at Stanford, the AI Lab at SRI, or Xerox PARC, all of which had
+Tenex systems on which Interlisp was a major application.
+
+Thus, Lisp languished on John McCarthy's system (JMC was, of course, the
+inventor of Lisp).  In the late 1970s, Guy Steele and Richard Gabriel got
+MacLISP running at SAIL but by then SAIL was long out of the running as a
+Lisp shop.
+
+Xerox came out with its Lisp D-machines (Dolphin, Dandelions, Danetigers)
+which were Interlisp and quite nice as development platforms.  Think of a
+Smalltalk box that used Lisp instead of Smalltalk.
+
+Most people today only know about Common Lisp, the language which was
+built to merge all of these divergent Lisp dialects and to sell Symbolics
+Lisp machines...  It succeeded in the former but not the latter.
+
+Anyway, Guy Steele's little poem above is cute, but remember that he was
+in effect Mr. MacLisp for many years.  He is hardly an unbiased source.
+For a great many people, Interlisp was a wonderful development
+environment, and DWIM did the right thing 999 times out of 1000.  Nobody
+ever understood GLS' claims of DWIM screwing the user; it never made
+things worse, often made things better, and in any case could be turned
+off.
+
+-- Mark --
+
+http://staff.washington.edu/mrc
+Science does not emerge from voting, party politics, or public debate.

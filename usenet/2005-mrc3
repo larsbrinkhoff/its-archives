@@ -1,0 +1,60 @@
+From newsserver@localhost  Sat Dec 31 02:00:49 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!arclight.uoregon.edu!news.u.washington.edu!pangtzu.panda.com!mrc
+Message-ID: <Pine.OSX.4.64.0512292216220.9510@pangtzu.panda.com>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS trivia this time
+Date: Thu, 29 Dec 2005 22:32:36 -0800
+References: <Pine.OSX.4.64.0512291031510.9510@pangtzu.panda.com>
+ <11r9e7ube4mtibe@corp.supernews.com> <dp2igu$8d4$1@news3.bu.edu>
+Lines: 39
+Organization: University of Washington
+Sender: mrc@pangtzu.panda.com
+NNTP-Posting-Host: pangtzu.panda.com
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1135924359 29403 206.124.149.117 (30 Dec 2005 06:32:39 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Fri, 30 Dec 2005 06:32:39 +0000 (UTC)
+In-Reply-To: <dp2igu$8d4$1@news3.bu.edu>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:45616
+
+On Thu, 30 Dec 2005, Phil Budne wrote:
+>>> What ITS system call was effectively
+>>>   JRST .-1
+> The .HANG UUO
+
+Correct.
+
+>>> Why did it exist?
+> To spin after an instruction which might skip, typically used after an
+> AOSE-style lock.  ITS would perform the test(*) without switching to
+> user mode, avoiding unnecessary context switches, a sort of user-mode
+> scheduler test.
+> (*) Only certain instructions could appear before the .HANG
+
+Also correct.
+
+Basically, when a process was blocked (e.g., in an I/O wait) on ITS, 
+location FLSINS(U) (where U contained the process number) was an 
+instruction that, if it skips, indicates that the process should be 
+unblocked.
+
+Thus, .HANG set the previous instruction as the process' FLSINS.  Of 
+course, it had to do a bit more work than that (e.g., on instructions that 
+referenced memory) but that's the general idea.
+
+.HANG allowed a timeout value in an AC.  Thus,
+ 	JFCL
+ 	.HANG 1,
+was equivalent to
+ 	.SLEEP 1,
+
+Since there was process-process memory mapping on ITS, all sorts of 
+semaphores were possible without having to poll.
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.

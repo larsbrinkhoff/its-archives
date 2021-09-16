@@ -1,0 +1,50 @@
+From newsserver@localhost  Wed May  2 16:08:44 2001
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet!dispose.news.demon.net!demon!logbridge.uoregon.edu!newsfeed.berkeley.edu!ucberkeley!agate.berkeley.edu!agate!abbenay.CS.Berkeley.EDU!not-for-mail
+Message-ID: <9bv851$cff$1@abbenay.CS.Berkeley.EDU>
+From: bh@abbenay.cs.berkeley.edu (Brian Harvey)
+Newsgroups: alt.sys.pdp10
+Subject: Re: ITS security [Re: Bulletproofing Tops10]
+Date: 22 Apr 2001 11:33:05 -0700
+References: <z2Yz6.3296$Rj2.11602@NewsReader> <uwjE6.20966$vk1.25873@NewsReader> <uzod97rex.fsf_-_@spacy.Boston.MA.US> <0VvE6.21685$vk1.29136@NewsReader>
+Lines: 34
+Organization: University of California, Berkeley, Computer Science Division
+NNTP-Posting-Host: abbenay.cs.berkeley.edu
+X-Trace: agate.berkeley.edu 987964383 5001 128.32.45.203 (22 Apr 2001 18:33:03 GMT)
+X-Complaints-To: abuse@berkeley.edu
+NNTP-Posting-Date: 22 Apr 2001 18:33:03 GMT
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:3620
+
+"JD" <j.day777@btclick.com> writes:
+>>  So if you wanted to delete a file, you would type the
+>> :DELETE command, but if you were an expert user, you could enable the
+>> command shortcut as ^O.
+>
+>Was this the case from the beginning?  
+
+In the *very* beginning, there were no colon commands.  If you were using
+ITS, you were an expert!  Or at least you were a programmer, and therefore
+familiar with DDT.
+
+I think it was Don Eastlake who added the colon commands.  For a while
+you actually had to type the colon; then, later, there was a "monitor mode"
+in which DDT printed the colon as a prompt, and if you wanted an old-style
+altmode command you hit rubout, I mean delete, to get rid of the colon.
+
+Then after that someone invented the clever heuristic that if you logged
+in with :LOGIN FOO it put you in monmode, but if you said FOO$U it put
+you in ddtmode.
+
+I don't remember having to enable the ddtmode commands, either, so that
+came some time after 1973, when I moved out west, I think.  Unless :DDTMOD
+is what "enable" means in this context.
+
+>What I do recall was that the use of passwords on ITS was not
+>uncontroversial. [...]  RMS, in particular, was
+>exercised about passwords and controls of any sort, and was vocal
+>about the folly of implementing them.
+
+The way I remember it is that nobody was particularly enthusiastic
+about passwords, but ARPA insisted; they were starting to get worried
+about malicious users net-hopping.  The ability to have a null password
+(you just hit return at the password prompt) was the compromise.
+But I was in California by that time, so I got much of this second-hand.

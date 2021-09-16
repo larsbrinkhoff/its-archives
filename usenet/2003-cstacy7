@@ -1,0 +1,99 @@
+From newsserver@localhost  Tue Apr 15 05:00:13 2003
+Path: uni-berlin.de!fu-berlin.de!cox.net!cyclone1.gnilink.net!spamkiller.gnilink.net!nwrddc02.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <uvfxh66m2.fsf@dtpq.com>
+From: cstacy@dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: PDP-10 Macsyma
+Date: Mon, 14 Apr 2003 04:33:11 GMT
+References: <F07C912B8269410C.4EB6414A03C5BA78.2E39A611F451E64A@lp.airnews.net> <b77acn08sa@enews1.newsguy.com> <Xns935B7889C4024johnwhimseycom@204.127.204.17> <Pine.WNT.4.55.0304131322360.4080@Shimo-Tomobiki.Panda.COM>
+Lines: 80
+Sender: cstacy@BONK
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 151.203.61.59
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc02.gnilink.net 1050294791 151.203.61.59 (Mon, 14 Apr 2003 00:33:11 EDT)
+NNTP-Posting-Date: Mon, 14 Apr 2003 00:33:11 EDT
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:39921
+
+>>>>> On Sun, 13 Apr 2003 13:36:24 -0700, Mark Crispin ("Mark") writes:
+
+ Mark> On Sat, 12 Apr 2003, John Saeger wrote:
+ >> Does anybody know if runnable PDP-10 Macsyma is available anywhere?  And
+ >> maybe the source code?
+
+ Mark> The only known runnable PDP-10 Macsyma is the TOPS-20 port of Macsyma 304.
+ Mark> Unfortunately, it has a 1983 Symbolics copyright and trade secret notice
+ Mark> for "enhancements", meaning that it can't be distributed without the
+ Mark> permission of the current owner of the assets of Macsyma, Inc.
+
+ Mark> The ITS archive had a copy of MIT (not Symbolics) Macsyma
+ Mark> source, but I don't know if that is available or what needs to
+ Mark> be done to whip it into shape.
+
+If anyone has a copy of those archives, I would suggest being
+very careful about the legal implications of releasing them.
+
+MIT sold Symbolics the exclusive rights to that very code.
+Afterwards, the U.S. Department of Energy demanded rights to a
+derivative work of that very same code.  Various legal battles
+ensued to resolve that predicament, and the Macsyma that was
+eventually made available under license from DOE was _not_ the
+MACLISP version.  It was a subset that had been ported to NIL,
+a long dead dialect of Lisp for the VAX.  The "Maxima" program
+is yet a third derivative of that, whose rights to GPL are from
+an agreement with DOE, deriving from DOE's license with MIT.
+
+The version of Macsyma from Symbolics was eventually rewritten
+by them into Common Lisp.  This is not, however, the basis of
+the "Maxima" program, which was an independant effort operating
+on a different fork of the code.
+
+Also, the ITS version doubtless includes various works that 
+are owned by private individual contributors (rather than MIT
+or Symbolics, and certainly not DOE).  One should be careful 
+to identify the proper owner of each file (which could possibly
+conflict with what the copyright notices say).  Just because MIT
+or somebody perhaps put an incorrect copyright notice on something
+doesn't relieve any later third parties who want to copy those files.
+
+Also, be aware that the name "Macsyma" is trademarked by Symbolics 
+(whose assets have been bought by various successor companies,
+whose company names include the "Macsyma" or "Symbolics").
+I did a little work on it about 9 years ago during the period
+it was owned by "Macsyma, Inc.".
+
+To use the MACLISP version of Macsyma, one should seek to secure
+a legal agreement license from the current incarnation of Symbolics
+(which probably still owns the exclusive license to that code),
+and possibly also a second legal agreement from MIT, which has 
+entered into licensing contracts with other third parties (ie. DOE).
+
+All that being said, I think it would be really cool if the original
+MACSYMA that ran in MACLISP on ITS and TOPS-20 was available for the
+PDP-10 emulators.  Perhaps someone will sort out all the legalities.
+
+However, the GPL'd version of MACSYMA, aka MAXIMA, is better than
+the original program on the PDP-10, if only for its modern graphics.
+MAXIMA is of course written in Common Lisp, not MACLISP.
+
+If you just want a really good version of Macsyma, not having
+to do with PDP-10s, you can currently purchase a copy of "Macsyma"
+from Symbolics.  It started as the original MACLISP version, then
+was ported to Zetalisp (the Lisp Machine), then to ANSI Common Lisp.  
+Macsyma runs on Windows, and has lots more features than "Maxima", 
+and represents many years of additional commercial development.
+
+I think the most recent incarnation of Symbolics is called 
+"New Symbolics Technologies" or something.  They are based
+in Northern Virginia. I could dig up the contact information.
+
+ObHistory: The final product from Symbolics was a Lisp Machine
+called "Open Genera" that ran in software: a complete emulation
+of the Ivory processor chip that powered the workstations.
+The emulator only runs on DEC Alphas (that being the fastest
+thing around at the time, and the only 64-bit platform, anyway.)
+This product is also still available, but you don't need it to
+run Macsyma.  Their PC version of Macsyma is much better, 
+having had extensive development post-LispM era.

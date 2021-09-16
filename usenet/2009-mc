@@ -1,0 +1,50 @@
+From newsserver@localhost  Fri Apr 10 04:01:29 2009
+Path: uni-berlin.de!fu-berlin.de!goblin2!goblin.stu.neva.ru!news.net.uni-c.dk!newsfeed.sunet.se!news01.sunet.se!news.lysator.liu.se!not-for-mail
+Message-ID: <86prfl66iv.fsf@brain.hack.org>
+From: Michael Widerkrantz <mc@hack.org>
+Newsgroups: alt.folklore.computers
+Subject: Re: Opinion: The top 10 operating system stinkers
+Date: Thu, 09 Apr 2009 20:12:08 +0200
+References: <m3myaqng7v.fsf@garlic.com>
+Lines: 30
+Organization: Temple of the Moby Hack
+NNTP-Posting-Host: koeberg.lysator.liu.se
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Trace: news.lysator.liu.se 1239287344 1031 130.236.254.29 (9 Apr 2009 14:29:04 GMT)
+X-Complaints-To: root@lysator.liu.se
+NNTP-Posting-Date: Thu, 9 Apr 2009 14:29:04 +0000 (UTC)
+User-Agent: Gnus/5.110011 (No Gnus v0.11) Emacs/22.3 (berkeley-unix)
+Cancel-Lock: sha1:h2KpxrkXgQjqSgFhhR1NbZOmGTg=
+Xref: cartman.offog.org alt.folklore.computers:258085
+
+Anne & Lynn Wheeler <lynn@garlic.com> writes:
+
+> Opinion: The top 10 operating system stinkers
+> http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=9131178
+
+> ITS (Incompatible Timesharing System), late 1960s
+
+I don't think Steven has ever used ITS. He clearly doesn't get the file
+name convention. Although I admit hierarchical directory structures
+would be nice and six characters feels small, ITS feels rather modern. I
+admit that I have only used it on emulators, but I think the real thing
+wasn't that much different, although possibly slower.
+
+Even in the ITS 1.5 Reference Manual (AI Memo 161A) from 1969, that
+early version reads very much like a fairly modern operating
+system. Indeed, some modern operating system has still far to go to even
+match its features (PCLSRing, for instance).
+
+Scanned original here (I was the one who once asked the nice librarians
+at the AI lab to scan it and publish it on the net):
+
+  ftp://publications.ai.mit.edu/ai-publications/0-499/AIM-161A.ps
+
+David Carter later typed it in again:
+
+  http://www.sigfs.org/its-reference/
+
+-- 
+M.C. Widerkrantz, http://hack.org/mc/
+Plain text e-mail, please. OpenPGP welcome.

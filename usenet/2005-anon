@@ -1,0 +1,164 @@
+From newsserver@localhost  Thu Sep  8 02:01:07 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!feed1.jnfs.ja.net!jnfs.ja.net!fu-berlin.de!newscon06.news.prodigy.com!prodigy.net!border1.nntp.dca.giganews.com!nntp.giganews.com!news-out.spamkiller.net!spool6-east.superfeed.net!spool6-east.superfeed.net!not-for-mail
+Message-ID: <1126118644_16237@spool6-east.superfeed.net>
+From: "Visitor" <None@example.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Need simulator, and PC based disassembler / assembler.
+Date: Wed, 7 Sep 2005 12:11:35 -0500
+References: <1125343931_1847@spool6-east.superfeed.net> <mddy86bf1z6.fsf@panix5.panix.com> <1125973392_6997@spool6-east.superfeed.net> <7xslwic1hn.fsf@ruckus.brouhaha.com> <1126022519_11283@spool6-east.superfeed.net> <mddslwiqbaa.fsf@panix5.panix.com> <1126034200_12215@spool6-east.superfeed.net> <mddmzmpra4u.fsf@panix5.panix.com> <1126057466_13415@spool6-east.superfeed.net> <87fysh1own.fsf@gw.dd-b.net> <1126068535_13749@spool6-east.superfeed.net> <dfmat5$8qk_001@s943.apx1.sbo.ma.dialup.rcn.com>
+Lines: 141
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Newsreader: Microsoft Outlook Express 6.00.2900.2180
+X-RFC2646: Format=Flowed; Original
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.2180
+X-Report:  Please report illegal or inappropriate use to <abuse@newsfeeds.com>. Forward a copy of ALL headers INCLUDING the body. (DO NOT SEND ATTACHMENTS)
+X-Comments2:  IMPORTANT: Newsfeeds.com does not condone,support,nor tolerate spam or any illegal or copyrighted postings.
+X-Comments:  This message was posted through Newsfeeds.com
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:44846
+
+<jmfbahciv@aol.com> wrote in message 
+news:dfmat5$8qk_001@s943.apx1.sbo.ma.dialup.rcn.com...
+>
+> Oh, quit it.  You could have saved face and just said typo.
+
+Fine.  It was a typo.
+
+Except it wasn't.  That was what was written down in the stuff I happened to 
+have handy about MacHack VI.
+
+But alright.  If it makes you happy, then it was a typo.
+
+
+> You are confused.  People here have been trying to help
+
+You also missed the not so minor fact the much of the 'confusion' is in an 
+area I have repeatedly said I didn't care about and that is not relevant to 
+the program.
+
+I don't care about the PDP itself.
+
+I don't even care if Mr. Greenblatt painted his pink and stuck a bra on his. 
+That's not relelvant to the program.  (True, it'd be an interesting 
+historical story, but not really relevant to the program.)
+
+
+> eliminate that confusion.  You have a wish to get some
+> old code and get it to run.  IT IS IMPORTANT THAT YOU
+> UNDERSTAND WHAT YOU CAN AND CANNOT DO.  That is why
+
+In the begining, I was told to run it under ITS.
+
+I accepted that as being correct.
+
+So, I hunted down all the stuff, got the recommended pdp-10 emulator, and 
+spent a couple days trying to get it to run.
+
+Needless to say, it failed because 1) the program wasn't for ITS, 2) the 
+instructions I was given wasn't for ITS.
+
+As for getting TOPS-10 installed and MacHack VI installed under it, I 
+haven't been successful there either.  I've been busy with other things and 
+haven't had the time to spend on it like I did with the ITS stuff I was 
+told.  The quick check I did didn't turn up any quick installation 
+instructions like for ITS.
+
+I did play with one image that said it was already set up, but that didn't 
+work out.
+
+I haven't asked about more instructions in here about getting the program to 
+run.  I haven't been coming back in here and asking more and more questions 
+about how to get the program to run, etc.  I figured that when I do get the 
+extra time to spend on it, I'd just download the manuals and try to figure 
+it out myself.
+
+The majority of stuff in here (esp. lately) has not been at all relevant to 
+the program or to my getting the program to run.
+
+
+Lately, it's all been in areas that I repeatedly said I didn't care and that 
+weren't relevant.  pdp hardware stuff.
+
+
+> people are correcting your mistakes.  Because, if
+> these mistakes are not corrected, you will never achieve
+
+Actually, you are mistaken.
+
+It doesn't matter in the slightest whether Greenblatt did the pdp-10 or 
+pdp-11 version after the original pdp6.
+
+That was part of the latest stuff from pdp fanatics.
+
+He worked on his program for more than 10 years, off and on.  Things did not 
+necessarily happen in pdp chronological order.
+
+And some stuff I have on MacHack VI is contradictory (dates wrong, etc.)
+
+And I have no idea which specific version was on those decus tapes.  Other 
+than it's for the PDP-10, of course.
+
+
+> your goal.  People of the Greenblat flavor will not expend
+> any time to satisfy anybody who cannot learn the basic
+> ABCs of computing.  They do not have the time to waste.
+>
+> Please take note.  Everything you thought was a nitpick, was
+> not.  It is necessary knowledge to do the kind of work you
+> said you wanted to do.  We don't waste time picking useless
+> nits.
+
+*IF* you care about the PDP hardware and its history and so on.
+
+Then no.  It probably isn't a nitpick.
+
+But if you are only interested in the program, then most of those other 
+comments are totally worthless and irrelevant.
+
+Most of that stuff just does not matter to the history of the program or to 
+whether it would be possible to get, archive, and publish the source for 
+MacHack VI.
+
+
+The reality is many of you are trying to do a history of the PDP etc. that 
+simply isn't relevant.
+
+What is relevant are things like:
+
+1) get a pdp-10 emulator.
+2) get such and such support tape images.
+3) follow the xyz commands to get the OS installed.
+4) follow the abc commands to get MacHack VI installed.
+5) enter the comand 123 to actually run MacHack VI.
+
+or.
+
+1) I've been in touch with Mr. Greenblatt and he says he's willing to hunt 
+for the source.  It'll only be a matter of weeks before we get the tape read 
+and the source avialble!
+
+
+The vast majority of stuff that's been said in here aren't even vaguely 
+relevant to any of those things.
+
+
+I know that many people like the PDP.  Any pdp.  That's not uncommon.  Most 
+people from the 50's, 60's or 70's have strong feelings about the first 
+computer they used.  Or one they used the most.  Sometimes those feelings 
+are highly negative.  Other times they are very fond memories.
+
+But I'm not one of the pdp fans.  I have never used a PDP.  I don't have the 
+urge now to use a pdp.  If you were to offer to give me a fully working 
+pdp-6/8/10/11/11-780, etc. etc., I wouldn't care.
+
+The closest I care about the pdp itself is in following a sequence of steps 
+to get the MacHack VI program running.  The pdp emulator is just an end to 
+the means, not the goal itself.  The important part is the program.
+
+
+
+
+
+----== Posted via Newsfeeds.Com - Unlimited-Uncensored-Secure Usenet News==----
+http://www.newsfeeds.com The #1 Newsgroup Service in the World! 120,000+ Newsgroups
+----= East and West-Coast Server Farms - Total Privacy via Encryption =----

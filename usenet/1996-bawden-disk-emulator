@@ -1,0 +1,39 @@
+From -3542539660041577579
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,9df11a227a8ab9ed
+X-Google-Attributes: gidfdb0e,public
+From: Alan Bawden <alan@lcs.mit.edu>
+Subject: Re: KS10 and third party Massbuss boards
+Date: 1996/09/12
+Message-ID: <3238DB1E.41C67EA6@lcs.mit.edu>#1/1
+X-Deja-AN: 180299778
+references: <50uk4d$dpp@student.computer.org> <511m32$fv3@nntp.ucs.ubc.ca> <512dqc$quk@student.computer.org> <5143ov$qn8@nntp.ucs.ubc.ca> <517n6o$ebd@newsy.ifm.liu.se>
+content-type: text/plain; charset=us-ascii
+organization: ITS Preservation Society
+mime-version: 1.0
+newsgroups: alt.sys.pdp10
+x-mailer: Mozilla 3.0 (X11; U; FreeBSD 2.1.0-RELEASE i386)
+
+
+Jan Lien wrote:
+> RM80.  I have heard that RM80 (jumpered to 18-bit mode) will be usable
+> at least for ITS.  So the software hack for ITS is there.
+
+Yeah, we had that working for a while.  I'm not convinced that the RM80
+support for 18-bit mode really worked though.  It was often the case
+that when you powered the drive up your data was gone.  We never figured
+out exactly what the problem was, but I developed the superstition that
+you were -more- likely to lose if you powered the drive up when it was
+write-protected (you read that right).
+
+To answer a question someone else asked: yes it was Systems Concepts
+that
+marketed a box that emulated RP06's and RP07's.  We almost got one at
+MIT
+to keep our ITS machines running when our RP06's became unmaintainable.
+It was rather pricey as I recall...
+
+-- 
+Alan Bawden                                    Alan@LCS.MIT.EDU
+617/492-7274                   06BF9EB8FC4CFC24DC75BDAE3BB25C4B
+

@@ -1,0 +1,29 @@
+From newsserver@localhost  Tue May 13 04:05:57 2008
+Path: uni-berlin.de!fu-berlin.de!newspeer.monmouth.com!newsswitch.lcs.mit.edu!grapevine.lcs.mit.edu!not-for-mail
+Message-ID: <w2dbq3bwfmx.fsf@shaggy.csail.mit.edu>
+From: Alan Bawden <alan@csail.mit.edu>
+Newsgroups: alt.folklore.computers,alt.sys.pdp10
+Subject: Re: Microsoft versus Digital Equipment Corporation
+Date: 12 May 2008 14:17:58 -0400
+References: <478f99f5$1@darkstar> <alpine.OSX.1.10.0805090924080.23506@pangtzu.panda.com> <g025mk$uhi$1@monolith.in.taronga.com> <alpine.LN8.1.10.0805091232490.4349@Nokia-N800-39> <g02br1$10dq$1@monolith.in.taronga.com> <slrng2al4p.e8j.t-bone@citadel.metropolis.local> <xtqdncnko9eRB7jVnZ2dnUVZ_uednZ2d@rcn.net> <DltVj.1299$Kk3.323@bignews9.bellsouth.net> <K_ednYZM65EZBrvVnZ2dnUVZ_h3inZ2d@comcast.com> <alpine.OSX.1.10.0805111047020.25776@pangtzu.panda.com> <cs9hcd3tz4b.fsf@Psilocybe.Update.UU.SE> <alpine.OSX.1.10.0805120800180.25776@pangtzu.panda.com>
+Lines: 9
+Organization: MIT Computer Science & Artificial Intelligence Lab
+NNTP-Posting-Host: shaggy.csail.mit.edu
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+X-Trace: grapevine.csail.mit.edu 1210616281 19861 128.30.2.14 (12 May 2008 18:18:01 GMT)
+X-Complaints-To: security@csail.mit.edu
+NNTP-Posting-Date: Mon, 12 May 2008 18:18:01 +0000 (UTC)
+Original-Sender: alan@csail.mit.edu
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.4
+Xref: cartman.offog.org alt.folklore.computers:237209 alt.sys.pdp10:50498
+
+Mark Crispin <mrc@Washington.EDU> writes:
+
+> Yes.  However, I don't think that the KS version of ITS had the JPC, but it
+> was in the KA (feature of the Holloway pager) and KL (feature of the ITS
+> microcode).  I've long forgotten the DDT command that reported it.
+
+We tried very hard to get the JPC into the ITS microcode for the KS10.  It
+would have been easy if we were willing to add an extra cycle to the
+execution of the JRST instruction, but we weren't.

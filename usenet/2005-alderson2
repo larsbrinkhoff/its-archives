@@ -1,0 +1,142 @@
+From newsserver@localhost  Mon Jun 20 02:00:29 2005
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!news.maxwell.syr.edu!panix!not-for-mail
+Message-ID: <mdd8y179cev.fsf@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: alt.folklore.computers,comp.sys.dec
+Subject: Re: Question about Dungeon game on the PDP
+Date: 19 Jun 2005 00:51:52 -0400
+References: <1118571694.235902.50580@g14g2000cwa.googlegroups.com> <0fCdnbYBas6q2i3fRVn-ig@sunset.net> <20050615.2355.60224snz@dsl.co.uk> <mddaclpq5zd.fsf@panix5.panix.com> <20050616.2342.60260snz@dsl.co.uk>
+Lines: 124
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1119156715 15396 166.84.1.5 (19 Jun 2005 04:51:55 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Sun, 19 Jun 2005 04:51:55 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 21.3
+Xref: cartman.azz.us-lot.org alt.folklore.computers:149596
+
+bhk@dsl.co.uk (Brian {Hamilton Kelly}) writes:
+
+> On 16 Jun, in article <mddaclpq5zd.fsf@panix5.panix.com>
+>      news@alderson.users.panix.com "Rich Alderson" wrote:
+
+>> Not quite sure what you mean by "VAX/MDL/Fortran version".  The original
+>> ZORK was written in a dialect of Lisp[2] called MDL (Modeling Dynamics
+>> Language, pronounced "Muddle") which was very much PDP-10-only (depending in
+>> quite a bit of its internals on the 36-bitness of data), so it has nothing
+>> to do with either Fortran *or* Vaxen.
+
+> Sigh!
+
+> (I've just downloaded zork_os2.zip from Hobbes so as to demonstrate this)
+
+OK, so the MDL sources were used in a VAX Fortran port.  Sorry, I haven't had
+much to do with VMS systems over the last 28 years--DECUS NOTES for a while
+when I chaired a SIG working group--so the way you worded it looked as if you
+were claiming that MDL ran on a VAX.
+
+I just fired up ZORK on a Toad-1:
+
+     XKLeTen - Tops20 for the Wired World, TOPS-20 Monitor 7(102400)-1
+    @login alderson
+    Password: 
+     Job 10 on TTY26 18-Jun-2005  9:24PM
+     Previous LOGIN: 16-Jun-2005 11:27AM
+    [Job 7(DET) also logged in under ALDERSON]
+
+    The phase of the moon is:
+     FQ+5D,51M,46S
+
+     Job 10, TTY26, User ALDERSON, Host xkleten.paulallen.com
+
+     Sat 18-Jun-2005 21:24:19  Up 2307:40:05
+     5+6 Jobs   Load av   0.04   0.02   0.01
+
+
+    !v mdl104.*
+
+       PS:<ALDERSON>
+     MDL104.EXE.1;P775200     132 67584(36)   3-Dec-1993 16:33:46 ALDERSON  
+       .SYMBOLS.1;P775200      38 19374(36)   6-Sep-1977 08:05:09 ALDERSON  
+
+     Total of 170 pages in 2 files
+    !v madadv.*
+
+       PS:<ALDERSON>
+     MADADV.HELP.2;P775200      5 2101(36)    7-Aug-1978 23:00:26 ALDERSON  
+       .INFO.1;P775200          1 369(36)    10-Mar-1978 21:07:48 ALDERSON  
+       .SAVE.1;P775200        274 140288(36)  3-Dec-1993 17:11:58 ALDERSON  
+
+     Total of 280 pages in 3 files
+    !
+    !def mdl: dsk:
+    !zork
+    Welcome to Dungeon.
+    This version created March 30.
+    You are in an open field west of a big white house, with a boarded
+    front door.
+    There is a small mailbox here.
+    >open mailbox
+    Opening the mailbox reveals a leaflet.
+    >read leaflet
+    Taken.
+                            WELCOME TO DUNGEON
+
+        DUNGEON is a game of adventure, danger, and low cunning.  In it
+    you will explore some of the most amazing territory ever seen by
+    mortal man. Hardened adventurers have run screaming from the terrors
+    contained within!
+
+        In DUNGEON the intrepid explorer delves into the forgotten
+    secrets of a lost labyrinth deep in the bowels of the earth,
+    searching for vast treasures long hidden from prying eyes, treasures
+    guarded by fearsome monsters and diabolical traps!
+
+        No PDP-10 should be without one!
+
+        DUNGEON was created at the Programming Technology Division of the
+    MIT Laboratory for Computer Science, by Tim Anderson, Marc Blank,
+    Bruce Daniels, and Dave Lebling.  It was inspired by the ADVENTURE
+    game of Crowther and Woods, and Dungeons and Dragons, by Gygax and
+    Arneson.  DUNGEON is written in MDL (alias MUDDLE).
+
+        On-line information may be available using the HELP and INFO
+    commands (most systems).
+
+        Direct inquiries, comments, etc. by Net mail to DUNGEON@MIT-DMS.
+
+          (c) Copyright 1978 Massachusetts Institute of Technology.  
+                           All rights reserved.
+
+    >help
+
+    ZORK/DUNGEON User Information
+
+    I. Getting a ZORK/DUNGEON
+     
+        a. ITS:  Say ZORK^K to DDT rather than :ZORK to get a zork. 
+        b. 10X/20X:  Invoke the local dungeon (usually DUNGEO)
+     [...]
+    >quit
+
+    Your score would be 0 [total of 500 points], in 5 moves.
+    This score gives you the rank of Beginner.
+    Do you wish to leave the game? (Y is affirmative): 
+    y
+    !!
+
+Note that the original MDL version says "PDP-10", not "DECSYSTEM".
+
+I've been carrying that version of MDL, the MADADV save file, and the ZORK
+startup program from place to place since early 1978, when it came to Chicago
+from DEC HQ.  I've always had hardware on which to play it, but then, I've
+been lucky in my career (though some might disagree ;-).
+
+Even better, I can play it on SimH or KLH10 these days, too!
+
+-- 
+Rich Alderson                                       | /"\ ASCII ribbon     |
+news@alderson.users.panix.com                       | \ / campaign against |
+"You get what anybody gets. You get a lifetime."    |  x  HTML mail and    |
+                         --Death, of the Endless    | / \ postings         |

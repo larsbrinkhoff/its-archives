@@ -1,0 +1,51 @@
+From newsserver@localhost  Tue Dec 11 04:02:01 2007
+Path: uni-berlin.de!fu-berlin.de!out04b.usenetserver.com!news.usenetserver.com!in02.usenetserver.com!news.usenetserver.com!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny09.POSTED!e266a3ae!not-for-mail
+Message-ID: <yzlabojrpdv.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: Trusty pdp10, Rusty minds
+Date: Mon, 10 Dec 2007 07:16:12 GMT
+References: <d6dc20c6-d50b-4165-aba1-73cfa9ca8715@i29g2000prf.googlegroups.com> <alpine.WNT.1.00.0712091818110.4272@Shimo-Tomobiki.Panda.COM> <fji9vj$s69$1@agate.berkeley.edu> <alpine.LN8.1.00.0712091959360.4525@Nokia-N800-39> <fjigtu$ud5$1@agate.berkeley.edu>
+Lines: 32
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.1 (darwin)
+Cancel-Lock: sha1:vlFb/zTlH1nJ4AII6AXo5nPv7Z0=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.192.101
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny09 1197270972 68.163.192.101 (Mon, 10 Dec 2007 02:16:12 EST)
+NNTP-Posting-Date: Mon, 10 Dec 2007 02:16:12 EST
+Xref: cartman.offog.org alt.sys.pdp10:48437
+
+bh@cs.berkeley.edu (Brian Harvey) writes:
+> Mark Crispin <MRC@CAC.Washington.EDU> writes:
+>>> Remember Greenblatt's paper about why /swapping/ is all a bad idea?
+>>
+>>No, I don't.  But, by virtual memory I do not mean swapping.
+>
+> No, of course not.  But the paper argued that you should never run more users
+> than you can entirely fit in memory because it'd be too inefficient to get
+> them in and out.
+
+And indeed, the MC machine had more (6 times, I think it was) 
+physical memory than the PDP-10 address space.  Timesharing 
+and virtual memory really works great that way!    :)
+
+Most people today probably only understand that address space
+(virtual memory) is always much larger than physical memory.
+
+The LispMs, which were single-user machines, did have more virtual 
+than physical memory: 32-bit (originally 24-bit) address space
+(plus a bunch of extra data-type tag bits).
+
+This memory stuff reminds me (because it was implemented along with 
+the same hardware/ microcode changes): the CPU of the ITS machines 
+and later on the Lisp Machines had some wonderful software debugging
+features computers today lack.  Features like One-Proceed (which is
+like the Single Step switch on the PDP-10 panel), memory bus spying 
+on words (MAR), and Jump-PC ("came from" traces), for example.
+On the LispM this also included such niceties as trap-on-exit and
+trap-on-entry for subroutines. This is all without modifying your
+program in any way -- you trap out and have complete access to the
+complete unadulterated program state from which you can inspect,
+alter, resume, or even change return values, etc.

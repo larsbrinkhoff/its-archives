@@ -1,0 +1,106 @@
+From 5024079025509406460
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,abeee15d0b88e55c
+X-Google-Attributes: gidfdb0e,public
+From: Christopher Stacy <cstacy@pilgrim.com>
+Subject: Re: Question about running 10 sw on a 20
+Date: 1998/11/18
+Message-ID: <uemr1k0se.fsf@pilgrim.com>#1/1
+X-Deja-AN: 413043841
+References: <72hagc$aok$1@supernews.com> <ALDERSON.98Nov13144252@netcom.netcom.com> <72t36k$csq@zk2nws.zko.dec.com>
+X-Complaints-To: usenet@entertainment-tonight.ai.mit.edu
+X-Trace: entertainment-tonight.ai.mit.edu 911368399 11266 206.3.211.31 (18 Nov 1998 05:53:19 GMT)
+Organization: Pilgrim Telephone
+NNTP-Posting-Date: 18 Nov 1998 05:53:19 GMT
+Newsgroups: alt.sys.pdp10
+
+amartin@denton.zko.dec.com (Alan H. Martin) writes:
+> In article <ALDERSON.98Nov13144252@netcom.netcom.com> alderson@netcom.com writes:
+> >Did you know that there is only one (1) single monitor UUO in Tops-20?
+> Let me guess: the same one is also in ITS?
+
+If I understand what you're asking, the answer is no.
+
+ITS is pretty different from TOPS-20 in many ways; remember, they're entirely
+unrelated programs with no common code base or ancestry or anything.
+(ITS is also in no way related to TOPS-10, or anything else, for that matter.)
+
+ITS implements opcodes 40-47 as monitor calls; they all trap to location 40.
+The desired system call is selected by the decoding of some combination of
+the opcode, AC, and address fields in the UUO.
+
+Originally, all system services in ITS were through UUOs.
+Later, most of them were functionally replaced by a single UUO that took
+a function name as its argument in a variable call block.  These new "symbolic"
+system calls often had additional features lacking in the corresponding old UUOs.
+
+For example, there was both the original .OPEN UUO and a symbolic "OPEN".  
+Most code used the new symbolic OPEN call, but some old code used .OPEN.  
+The old way (.OPEN UUO) took the directory name from a "user variable"
+(which would have been set by another UUO), rather than passing it as
+an argument in a system call block.  The new way passed the directory
+name in the .CALL argument block.  (If you were opening a device that
+did not have directories, you might use the old or new way, but for
+disk files the new way was a clear winner.)
+
+There was an even newer OPEN call, SOPEN, which took an ASCIZ string
+or an AOBJN list of strings, so that you could have long filenames.
+This was useful if you wanted to be able to open a file that lived on
+some foreign operating system elsewhere on the net.  Very few programs
+were written or bothered to be updated to use SOPEN instead of OPEN.
+
+Most code used a mixture of both UUOs and the .CALL UUO.
+
+For one thing, the .LOSE UUO was often used as the (non-skip) failure
+instruction after any .CALL (system call) UUO.  There was also a .CALL
+symbolic version of LOSE, and it provided more functionality.  
+But the new functionality was only needed when implementing fancy
+error-handling routines, so people would just write a .LOSE instead.
+
+There were some UUOs that did not have symbolic counterparts and vice versa.
+
+Nobody really used micro-tapes by the time of the symbolic calls regime,
+so there was no symbolic version of .UINIT or .UBLAT.  There was no
+need to make a symbolic version of the .SWAP UUO whose purpose was to
+invoke a debugging test of the system's swapping routine.  
+On the other hand, the scheduling UUOs .SLEEP and .HANG were commonly
+used in programs, and there was just no symbolic counterpart for them.
+
+Here's some typical code to read in a file directory:
+
+Background: file names in ITS are sixbit and have four parts: device,
+directory, filename1 and filename2, such as "DSK:CSTACY;INDEX HTML".
+That's a whole 'nother story.  Also, directories are not hierarchical.
+Anyway, to read a directory, open the magic file named ".FILE. (DIR)".
+
+OPENER:	.CALL [	SETZ ? SIXBIT/OPEN/
+		[.BII,,INCHAN]
+		[SIXBIT/DSK/]
+		[SIXBIT/.FILE./]
+		[SIXBIT/(DIR)/]
+		SETZ SNAME]			;SNAME has name of the directory.
+	 .LOSE %LSFIL
+READIT:	MOVE TT,[-2000,,DIR]			;1K will be read into DIR
+	.IOT INCHAN,TT
+	.CLOSE INCHAN,
+
+Usually people wrote some standard macro for doing .CALLs, like this:
+
+DEFINE SYSCAL OPER,ARGS
+	.CALL [SETZ ? SIXBIT /OPER/ ? ARGS ((SETZ))]
+TERMIN
+
+Note the use of .IOT in the previous code fragment, 
+even though they could have written it all this way:
+
+READIT:	MOVE T,[444400,,DIR]			;BP to where to read.
+	MOVEI TT,2000				;All dirs fit in 1K.
+	SYSCAL SIOT,[%CLIMM,,INCHAN ? T ? TT]
+	  .LOSE %LSFIL
+	.CLOSE INCHAN,
+
+
+Cheers,
+Chris
+
+[Copyright 1998 by Christopher Stacy]

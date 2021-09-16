@@ -1,0 +1,38 @@
+From newsserver@localhost  Fri May  8 04:04:11 2009
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!news1.google.com!border1.nntp.dca.giganews.com!nntp.giganews.com!npeer02.iad.highwinds-media.com!news.highwinds-media.com!feed-me.highwinds-media.com!post01.iad.highwinds-media.com!newsfe22.iad.POSTED!7564ea0f!not-for-mail
+Message-ID: <yzlskjhjrg2.fsf@103.sub-75-199-118.myvzw.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: Opinion: The top 10 operating system stinkers
+Date: Thu, 07 May 2009 03:35:41 -0400
+References: <m3myaqng7v.fsf@garlic.com> <86prfl66iv.fsf@brain.hack.org> <87tz4xji1s.fsf@chbarts.motzarella.org> <86ocurbbrd.fsf@brain.hack.org>
+Lines: 18
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (darwin)
+Cancel-Lock: sha1:jOXpGZoJ1mtF1N2C1PDvXfvRyh4=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 70.179.91.13
+X-Complaints-To: newsmaster@cox.net
+X-Trace: newsfe22.iad 1241681742 70.179.91.13 (Thu, 07 May 2009 07:35:42 UTC)
+NNTP-Posting-Date: Thu, 07 May 2009 07:35:42 UTC
+Organization: Cox
+Xref: cartman.offog.org alt.folklore.computers:259484
+
+Michael Widerkrantz <mc@hack.org> writes:
+> My guess is most people who used ITS learned very little TECO, perhaps
+> enough for editing, but not as a general programming language. My guess
+> is that most users used MIDAS (the ITS assembler) or MacLisp for their
+> programming. Any experienced ITS users who can comment on that?
+
+ITS was in use for a very long time by a lot of different people
+ranging from secretary's, random email guests, MACSYMA users, computer
+science and AI researchers, system programmers, and others. 
+They all had different skill sets and interests and it also changed
+over time. (For example, TECO was around a long time before EMACS.)
+I would say that Most programming (not counting the macros programmed
+by people for their document preperation in R, Pub, TeX, etc. or their
+editing macros in TECO) was done in MACLISP. MACSYMA users wrote a lot
+of code in MACSYMA. There were other languages (MDL, SCHEME, and higher
+order AI languages) that were heavily used, and some standard languages
+(FORTRAN, PASCAL, C, etc. some under TOPS-10 emulation) that were really
+never used.  Mostly only the system programmers wrote programs in MIDAS.

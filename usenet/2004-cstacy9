@@ -1,0 +1,49 @@
+From newsserver@localhost  Wed May 26 05:00:09 2004
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!prodigy.com!prodigy.com!atl-c02.usenetserver.com!news.usenetserver.com!border1.nntp.dca.giganews.com!border2.nntp.dca.giganews.com!nntp.giganews.com!cyclone1.gnilink.net!spamkiller.gnilink.net!gnilink.net!nwrddc02.gnilink.net.POSTED!8b1f9295!not-for-mail
+Message-ID: <uwu307hx1.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: Blinkenlights?
+Date: Tue, 25 May 2004 13:30:50 GMT
+References: <40AFF210.F221298@sonnic.net> <CsKdndM71vanaS3dRVn-gw@mpowercom.net> <44e2b05phn607vjaqfofg05n5ps16cf2n5@4ax.com> <c8rrl0$76601$1@hades.csu.net>
+Lines: 30
+Sender: CStacy@BOHR
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.245.45
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc02.gnilink.net 1085491850 68.163.245.45 (Tue, 25 May 2004 09:30:50 EDT)
+NNTP-Posting-Date: Tue, 25 May 2004 09:30:50 EDT
+Xref: cartman.azz.us-lot.org alt.folklore.computers:114804
+
+On the Lisp Machine, the "lights" were drawn on the bottom of the
+screen, in the form of small horizontal bars that would blink on
+when active.  There was one for CPU activity, one for disk activity, 
+one for GC activity, and I think another one.   Also down there was
+a higher-level status message that told you the state of the current
+process (as determined by the scheduling software or alternatively
+by the application) - the default run state message was "Run".
+There were also progress bars and messages down there that showed 
+all network activity, file IO progress, so you could tell what the
+machine was doing.  And of course, a clock, and one or two other
+useful status thingies related to Lisp.   The low-level run bars
+were operated by the microcode - they really were like machine lights.
+
+This was actually just a fancier version of what we had on ITS on the
+PDP-10 (with the displays bitmapped into the 10's address space).
+
+The MIT PDP-10s that ran ITS had a "one-proceed" instruction stepping
+feature (and some other home-grown custom hardware trapping and
+debugging features).  You could access those through normal software,
+so users could do even more than one could do from the front panel,
+assuming the system was not crashed.  The Lisp Machine also had those.
+If the Lisp Machine was totally crashed, there was no front panel, 
+but it instead had a debugging bus that you could connect to another
+Lisp Machine to do all the front panel things (and more).  Later versions
+of the Lisp Machine had front-end processors built in, much like the KL,
+so you always had something you could talk to.
+
+Ah, but it's not quite the same was walking over to a KA and using 
+the front panel switches and lights to debug and reprogram the machine.  
+I always loved using those console switches.  Best ever.

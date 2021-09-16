@@ -1,0 +1,50 @@
+Received: from Gang-of-Four.Stanford.EDU by SAIL.Stanford.EDU with TCP; 9 Mar 90  08:05:10 PST
+Received: from DIP.BBN.COM by Gang-of-Four.Stanford.EDU (5.61/inc-1.0)
+	id AA28360; Fri, 9 Mar 90 08:04:31 -0800
+Message-Id: <9003091604.AA28360@Gang-of-Four.Stanford.EDU>
+Received: by DIP.BBN.COM id aa06065; 9 Mar 90 10:55 EST
+To: les@gang-of-four.stanford.edu
+Subject: Re: more weird Uni* commands
+Newsgroups: alt.folklore.computers
+In-Reply-To: <1990Mar8.223327.14502@Neon.Stanford.EDU>
+References: <9003030414.AA26475@en.ecn.purdue.edu> <JOHN.90Mar5185256@jetson.UPMA.MD.US> <RDH.90Mar7122010@borodin.sli.com>
+Organization: Bolt Beranek and Newman Inc., Cambridge MA
+Cc: clements@BBN.COM
+Date: Fri, 09 Mar 90 10:50:30 -0500
+From: clements@BBN.COM
+
+Hi, Les,
+
+In article <1990Mar8.223327.14502@Neon.Stanford.EDU> you write:
+>Robert D. Houk writes:
+>>TECO predates '72 by several years, going back well into the '60s at
+>>least. The ancestral forms of TECO go back to MIT and the PDP-6 days,
+>>if not before even that.
+>
+>True -- as I recall it was available on the PDP-6 when delivered at
+>Stanford in June 1966.
+
+You may recall that I was the guy that came out with that PDP-6
+to do the installation.  I brought a copy of project-MAC teco and
+did the conversion to the DEC monitor while we were having those
+horrible problems of trying to get the machine to pass acceptance
+without the air conditioner.  So it was available on the PDP-6
+but only in stand-alone MAC-tape when we started, and available
+in DEC timesharing when I went home.
+
+
+By the way, I got to Palo Alto for the first time in a decade
+last month.  I drove down Arastradero to see if I could spin by
+the old SAIL building (D.C. Power?).  I wanted to point it out to
+my lady friend.  It seemed to have been sold off and the gate was
+locked.  Ah, well.
+
+/Rcc
+
+>Les Earnest                                  Phone:  415 941-3984
+>Internet: Les@Sail.Stanford.edu              USMail: 12769 Dianne Dr.
+>UUCP: . . . decwrl!Sail.Stanford.edu!Les         Los Altos Hills, CA 94022
+
+
+
+Bob Clements, K1BC, clements@bbn.com

@@ -1,0 +1,56 @@
+From newsserver@localhost  Wed May  2 15:57:24 2001
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!btnet-peer0!btnet-peer!btnet!newsfeed.mathworks.com!wn3feed!worldnet.att.net!198.6.0.7!uunet!ash.uu.net!world!news
+Message-ID: <x8ln1bgk8do.fsf@world.std.com>
+From: Christopher C Stacy <cstacy@world.std.com>
+Newsgroups: alt.sys.pdp10,alt.folklore.computers
+Subject: Re: 36-bit MIME types, PDP-10 FTP
+Date: Wed, 21 Feb 2001 03:44:19 GMT
+References: <3A85706B.B4A96DC3@nospam.nospam> <3A8C2842.98FAC4EE@nospam.nospam> <96hd0g$s7k$1@newsmaster.cc.columbia.edu> <3A8C1EAE.7EE8CEE0@trailing-edge.com> <96jgg7$4ga$1@newsmaster.cc.columbia.edu> <3A8D7001.7D4B93B0@bartek.dontspamme.net> <NGWj6.3198$CW1.3673763@typhoon.ne.mediaone.net> <Pine.NXT.4.40.0102201331430.18849-100000@Tomobiki-Cho.CAC.Washington.EDU>
+Lines: 41
+Sender: news@world.std.com (Mr Usenet Himself)
+NNTP-Posting-Host: world.std.com
+Organization: The World @ Software Tool & Die
+X-Newsreader: Gnus v5.7/Emacs 20.5
+Xref: cartman.azz.net alt.sys.pdp10:2071 alt.folklore.computers:10619
+
+>>>>> On Tue, 20 Feb 2001 13:39:09 -0800, Mark Crispin ("Mark") writes:
+
+ Mark> On Sun, 18 Feb 2001, Ric Werme wrote:
+ >> I have a copy of the conversion docs people used to implement the first
+ >> TCP/IPs at work.  I think the date is 1978 or 1980.  I don't think there
+ >> was ever a "switchover", for a while I think the protocols and hardware
+ >> were supported both.  However, I was completely uninvolved with all that.
+
+ Mark> I was very much involved with all that.  I wrote the TOPS-20 Telnet client
+ Mark> and SMTP client/server software for TCP.
+
+ Mark> The date of the TCP/IP Transition was January 1, 1983.  On that date, new
+ Mark> IMP software was downloaded which disabled NCP use except for those ports
+ Mark> which had "reclama".
+
+ Mark> SU-Score, my site, had reclama, not because it needed it but rather
+ Mark> because NCP-only sites like SU-AI (which also had reclama) would have been
+ Mark> cut off.  SU-AI and the ITS systems at MIT both ended up using up all
+ Mark> their reclama and thus went off the net (they were accessible via their
+ Mark> campus nets using Pup and Chaos protocols respectively).  Both implemented
+ Mark> TCP somewhat later although the ITS systems at MIT never were major
+ Mark> Internet players after that.
+
+Mark,
+
+I think your memory is failing you, here.
+
+ITS implementation of TCP-IP was begun on November 10, 1982,
+nearly single-handedly by Ken Harrenstien, and MIT-MC was
+doing TCP on December 19th.  The other machines began running
+the TCP version of ITS on flag day: MIT-AI started running
+ITS 1312 on December 31 at 21:03-EST and it all worked.
+That included SMTP, FTP, TELNET, MLDEV, etc., etc.
+
+I obtained the reclama for the ITS systems, but that was for the
+benefit of people at other sites that were stuck with NCP.
+
+The ITS systems ran on hardware that was in the process of
+being decommissioned shortly after that.
+
+Chris

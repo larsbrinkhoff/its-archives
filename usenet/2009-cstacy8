@@ -1,0 +1,36 @@
+From newsserver@localhost  Tue Dec 22 04:01:31 2009
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!news2.google.com!npeer02.iad.highwinds-media.com!news.highwinds-media.com!feed-me.highwinds-media.com!post02.iad.highwinds-media.com!newsfe10.iad.POSTED!7564ea0f!not-for-mail
+Message-ID: <yzl637zvi3c.fsf@news.dtpq.com>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers
+Subject: Re: PDP-10s and Unix
+Date: Mon, 21 Dec 2009 21:49:11 -0500
+References: <1u-dnZ58BO5PEbzWnZ2dnUVZ_vdi4p2d@cablespeedmi.com> <4b234a0d$1@dnews.tpgi.com.au> <hg097h6emb@news3.newsguy.com> <4b241ade@dnews.tpgi.com.au> <slrnhi9tge.1km.grahn+nntp@frailea.sa.invalid> <mddljh55hju.fsf@panix5.panix.com> <hg6jdh$nuq$1@news.eternal-september.org> <mddy6l2s93f.fsf_-_@panix5.panix.com> <hgckfh$fjc$1@news.eternal-september.org> <proto-7E0AF1.16311617122009@news.panix.com> <w9zfx79p5x8.fsf@zipcon.net> <87y6l1urpj.fsf@blp.benpfaff.org> <w9zfx79w43g.fsf@zipcon.net> <hgfsl112lmq@news2.newsguy.com> <hggsnl$l6u$1@news.eternal-september.org> <7p33pvF3rk1r6U2@mid.individual.net>
+Lines: 16
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.2 (darwin)
+Cancel-Lock: sha1:ZrobY8+//E5Lf1MHg9CNo3FSBgI=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 70.179.105.8
+X-Complaints-To: newsmaster@cox.net
+X-Trace: newsfe10.iad 1261450152 70.179.105.8 (Tue, 22 Dec 2009 02:49:12 UTC)
+NNTP-Posting-Date: Tue, 22 Dec 2009 02:49:12 UTC
+Organization: Cox
+Xref: cartman.offog.org alt.folklore.computers:271916
+
+"Dennis Ritchie" <dmr@bell-labs.com> writes:
+
+> "Peter Flass" <Peter_Flass@Yahoo.com> wrote in message 
+> news:hggsnl$l6u$1@news.eternal-september.org...
+>  ....
+>>
+>> Unlike reasonable languages[1], C treats characters as computational data 
+>> as well as holding a character code. For example, it makes the assumption 
+>> that an unsigned char datatype can hold binary values between 0 and 255.
+>
+> At least 255.  Given that there was a C compiler for the PDP-10 by
+> 1974 (MIT M.S. thesis by Alan Snyder, though I don't know how much it was used)
+
+I used it to compile something (that I didn't write) on ITS.
+Can't remember what!  I think maybe it was something to do with
+a spooler interface to the Xerox Alto controlling the Dover.

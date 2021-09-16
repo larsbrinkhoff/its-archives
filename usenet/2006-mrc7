@@ -1,0 +1,48 @@
+From newsserver@localhost  Tue Jun 27 02:01:12 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!jnfs.ja.net!logbridge.uoregon.edu!arclight.uoregon.edu!news.u.washington.edu!pangtzu.panda.com!mrc
+Message-ID: <Pine.OSX.4.64.0606261104170.1066@pangtzu.panda.com>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: TOPS-20 Basic
+Date: Mon, 26 Jun 2006 11:09:25 -0700
+References: <Ah0cg.3618$Mm3.2941@newsfe6-win.ntli.net>
+ <e7gim6$8qk_001@s775.apx1.sbo.ma.dialup.rcn.com> <722h7e.rr12.ln@via.reistad.name>
+ <e7j19p$8qk_001@s984.apx1.sbo.ma.dialup.rcn.com> <qg9j7e.mud2.ln@via.reistad.name>
+ <e7lroq$brs_001@s790.apx1.sbo.ma.dialup.rcn.com> <mddr71d9j4z.fsf@panix5.panix.com>
+ <e7obdp$8qk_001@s956.apx1.sbo.ma.dialup.rcn.com>
+ <Pine.OSX.4.64.0606260623010.1066@pangtzu.panda.com> <ho85n3-ite.ln1@dmz.pfarrell.com>
+ <yzlejxbzvhi.fsf@OSX663.local>
+Lines: 22
+Organization: University of Washington
+Sender: mrc@pangtzu.panda.com
+NNTP-Posting-Host: pangtzu.panda.com
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1151345368 11366 206.124.149.117 (26 Jun 2006 18:09:28 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Mon, 26 Jun 2006 18:09:28 +0000 (UTC)
+In-Reply-To: <yzlejxbzvhi.fsf@OSX663.local>
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:46764
+
+On Mon, 26 Jun 2006, Christopher C. Stacy wrote:
+> The ITS pager was fancier and used 1K word pages.
+> The BBN pager used 512 word pages.
+
+I'm not sure about that.  Although the ITS pager was undoubtably much more 
+sophisticated than the KI pager (and KL "hardware", as opposed to 
+"microcode" pager), I don't think that it went to the extent of having an 
+SPT and CSTs.
+
+ITS virtual memory was certainly less sophisticated than virtual memory in 
+Tenex/TOPS-20.  Even RMS admitted that (although he may have forgotten 
+that he did so).  What were particularly good/unique in ITS were:
+  . generic display terminal support (although maintenance fell by the
+    wayside; you have to use CRTSTY for ANSI which is the standard today)
+  . PCLSR
+  . the .CALL UUO
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.

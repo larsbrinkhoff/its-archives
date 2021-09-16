@@ -1,0 +1,59 @@
+From newsserver@localhost  Tue Dec 13 04:06:26 2016
+Path: uni-berlin.de!fu-berlin.de!news.unit0.net!eternal-september.org!feeder.eternal-september.org!newsfeed.Update.UU.SE!news.Update.UU.SE!.POSTED!not-for-mail
+Message-ID: <o2lu6c$90k$1@Iltempo.Update.UU.SE>
+From: Johnny Billquist <bqt@softjar.se>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Stacken's PDP-10s
+Date: Mon, 12 Dec 2016 11:29:32 +0100
+References: <o2gev0$6k1$1@ol.freeshell.org>
+ <ebba2ce4-6e7d-4825-80f4-fe4a2721394a@googlegroups.com>
+ <o2i0ru$s28$1@Iltempo.Update.UU.SE> <o2krkc$pad$2@Iltempo.Update.UU.SE>
+ <115f1625-456a-486b-b6df-7f9258ddf089@googlegroups.com>
+Lines: 34
+Organization: Update Computer Club
+NNTP-Posting-Host: 84-73-96-229.dclient.hispeed.ch
+Mime-Version: 1.0
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+X-Trace: Iltempo.Update.UU.SE 1481538572 9236 84.73.96.229 (12 Dec 2016 10:29:32 GMT)
+X-Complaints-To: newsmaster@Update.UU.SE
+NNTP-Posting-Date: Mon, 12 Dec 2016 10:29:32 +0000 (UTC)
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:45.0)
+ Gecko/20100101 Thunderbird/45.5.1
+In-Reply-To: <115f1625-456a-486b-b6df-7f9258ddf089@googlegroups.com>
+Xref: cartman.offog.org alt.sys.pdp10:59053
+
+On 2016-12-12 10:59, Lars Brinkhoff wrote:
+> Johnny Billquist wrote:
+>> By the way, I had an account on that KA-10 back in the 80s. And the name
+>> of the machine was/is KATIA, which is a pretty nice pun in Swedish...
+>
+> What operating system(s) did you encounter on KATIA?  Rumour has it it was
+> running TOPS-10 most of the time, but sometimes also TENEX or ITS.
+
+I seem to remember that we were experimenting with ITS on it, but 
+otherwise TOPS-10. I never saw TENEX on it, but I was not that closely 
+involved in the activity, so I really can't say for sure.
+
+> According to the ITS source code, there was a KS10 running ITS at Stacken.
+> Do you know anything about that?
+
+I can't remember any KS running ITS at Stacken, but again, there might 
+have been some people playing with that as well. By the time KTH stopped 
+running their PDP-10s, and Stacken was trying run more machines on their 
+own, I was sortof not that active, and there might have been many things 
+I don't know about. Stacken had a power problem, though, so "we" never 
+ran much on our own. KATIA was, I think, the only large thing that 
+Stacken ever really ran. But KATIA was running when Stacken was still on 
+the KTH machines as well, as far as I can recall.
+
+And of course, you had Peter, who was running his own tri-SMP KI-10 at 
+his own place at the same time (we're talking mid 80s here).
+
+	Johnny
+
+-- 
+Johnny Billquist                  || "I'm on a bus
+                                   ||  on a psychedelic trip
+email: bqt@softjar.se             ||  Reading murder books
+pdp is alive!                     ||  tryin' to stay hip" - B. Idol

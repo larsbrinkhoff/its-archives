@@ -1,0 +1,41 @@
+From newsserver@localhost  Wed Nov  1 02:01:07 2006
+Path: athena.ukc.ac.uk!feed3.jnfs.ja.net!feed4.jnfs.ja.net!jnfs.ja.net!peernews.mcc.ac.uk!zen.net.uk!demorgan.zen.co.uk!news2.euro.net!newshub3.home.nl!home.nl!feeder3.cambrium.nl!feed.tweaknews.nl!nx02.iad01.newshosting.com!newshosting.com!130.81.64.211.MISMATCH!cycny01.gnilink.net!spamkiller2.gnilink.net!gnilink.net!trndny07.POSTED!8b1f9295!not-for-mail
+Message-ID: <yzlbqnse9kg.fsf@OSX663.local>
+From: cstacy@news.dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.sys.pdp10
+Subject: Re: What's in a jiffie?
+Date: Tue, 31 Oct 2006 16:25:52 GMT
+References: <fuh4k2dfhcraimjo3592lm34987oan8nhj@4ax.com>
+Lines: 22
+User-Agent: Gnus/5.11 (Gnus v5.11) Emacs/22.0.50 (darwin)
+Cancel-Lock: sha1:o6OiXepQimyIiSMkCUYAT6wtbqs=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 68.163.136.228
+X-Complaints-To: abuse@verizon.net
+X-Trace: trndny07 1162311952 68.163.136.228 (Tue, 31 Oct 2006 11:25:52 EST)
+NNTP-Posting-Date: Tue, 31 Oct 2006 11:25:52 EST
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:47288
+
+Bob Supnik <bob.supnik@sicortex.nospam.com> writes:
+
+> When I wrote the KS10 simulator, I modelled the timer at pretty
+> close to the hardware level, with a frequency of 1001Hz
+> (reflecting the slightly less than 1msec timing).
+>
+> I'm about to add the ability to 'idle' to SimH, and one of the
+> prerequisites is that the clock events have to occur a lot less
+> frequenlty than the granularity of the host timer, which is typically
+> 1msec.  At the moment, the KS10 doesn't do that and woudn't be able to idle.
+
+> 3. What did ITS use for a clock tick interval?
+
+ITS uses devices 20 and 24 for the 4.1 Mhz timer.
+The "clock break" interrupt is set there to be
+a traditional jiffy:  KSFREQ==4100000./60
+
+> 6. What's the idle loop in ITS?
+
+It sticks a halt (JRST 4,) in ACs 1-16,
+puts [AOJA 17] into 17, 
+and jumps there in user mode.

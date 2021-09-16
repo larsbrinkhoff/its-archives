@@ -1,0 +1,174 @@
+From newsserver@localhost  Wed Aug 29 04:00:49 2012
+Path: uni-berlin.de!fu-berlin.de!news.glorb.com!news-out.readnews.com!transit4.readnews.com!panix!not-for-mail
+Message-ID: <mdd3936h4w3.fsf@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: comp.lang.pl1,alt.folklore.computers
+Subject: Re: 1132 printer history
+Date: 28 Aug 2012 21:18:52 -0400
+References: <ichas81ay0.fsf@home.home> <PM0004C739407B7F56@aca20194.ipt.aol.com> <k0e7jt$8gf$1@speranza.aioe.org> <PM0004C74D3AE516A3@users-ibook-g4-6.unknown.dom> <k0guvi$103f$1@leila.iecc.com> <k0k0br$uak$1@dont-email.me> <ichas81ay0.fsf@home.home> <PM0004C739407B7F56@aca20194.ipt.aol.com> <k0e7jt$8gf$1@speranza.aioe.org> <PM0004C74D3AE516A3@users-ibook-g4-6.unknown.dom> <k0guvi$103f$1@leila.iecc.com> <k0k0br$uak$1@dont-email.me> <ichas81ay0.fsf@home.home> <PM0004C739407B7F56@aca20194.ipt.aol.com> <k0e7jt$8gf$1@speranza.aioe.org> <PM0004C74D3AE516A3@users-ibook-g4-6.unknown.dom> <k0guvi$103f$1@leila.iecc.com> <k0k0br$uak$1@dont-email.me> <502def01$2$fuzhry+tra$mr2ice@news.patriot.net> <PM0004C78A7FF36F26@ac8409ec.ipt.aol.com>
+Lines: 155
+Followup-To: alt.folklore.computers
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1346203148 26599 166.84.1.5 (29 Aug 2012 01:19:08 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Wed, 29 Aug 2012 01:19:08 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 22.3
+Xref: cartman.offog.org alt.folklore.computers:329038
+
+jmfbahciv <See.above@aol.com> writes:
+
+> Shmuel (Seymour J.) Metz wrote:
+
+>> In <k0k0br$uak$1@dont-email.me>, on 08/16/2012
+>>    at 06:39 PM, "Charles Richmond" <numerist@aquaporin4.com> said:
+
+>>>what most computer systems refer to as "system calls", IBM has to
+>>>call "supervisor calls".
+
+>> First, it's "system call" that is the neologism, and second, a system
+>> call is a software artifact, not an instruction.
+
+> Not necessarily.  The difference between TOPS-10's CALL UUOs and
+> the CALLI UUO may be an example.
+
+Sorry for coming in so late to this particular party.  I know I'm going to
+regret speaking up.
+
+First, the difference between the CALL and CALLI UUO's is completely and
+entirely irrelevant to the discussion in which we find ourselves.  More on that
+later.
+
+Barb, Shmuel is correct that you are confusing hardware effects and software
+applications of those effects.  I might disagree with him regarding the status
+of "system call" as a neologism, but I'm not here to dispute that point.  I'm
+here to talk about PDP-10 hardware instructions and the uses to which they are
+put in operating system software.
+
+First, let me point out to Charles that on the System/360, SVC (the mnemonic
+for the supervisor call) represents a single hardware instruction, opcode 0A,
+whose 2nd byte is an immediate operand.  This is substituted into the Program
+Status Word and the supervisory program is called; the 8-bit value in the PWS
+selects a service from a dispatch table.  This is much more like the JSYS
+instruction as used in TENEX and TOPS-20 than like the suite of instructions
+used in Tops-10 or in ITS.
+
+For those not familiar with the PDP-10 architecture, I will explain more
+clearly than I have seen so far in this long subthread just how the hardware
+treats illegal instructions, in kernel ("Monitor") and user modes.
+
+If the hardware is running in a privileged state, known as Monitor mode, all
+illegal instructions trap by having the opcode and the calculated effective
+address placed into memory location 40, with the accumulator, index, and
+indirect fields set to zero.[1] Whatever instruction has been placed into
+location 41 is then executed; most commonly, this is some kind of subroutine
+call.
+
+If the hardware is running in an unprivileged state, known as User mode, a
+subset of illegal instructions, opcodes 001-037, trap into the address space of
+the running program instead of the Monitor's (as the supervisor program is
+called).  If no routine to handle this trap is set up, with its address placed
+in user virtual address 41, the operating system is called to issue an error
+message.
+
+If, instead, an instruction with opcode 040-077 (and several others, like the
+JSYS instruction, opcode 104) is executed, the trap places the result in the
+Monitor's address 40 and executes its 41 contents.  This is used by PDP-10
+operating systems as a system call mechanism, and PDP-10 programmers tend to
+conflate the two ideas.
+
+But nothing happens to any particular piece of hardware other than the memory
+locations in the Monitor's address space simply by executing an illegal
+instruction.  In fact, DEC's Tops-10 and the MIT AI Lab's ITS use the same
+Unimplemented User Operations for very different purposes.  Notice the overlaps
+in the tables below.
+
+
+ITS UUO List
+
+UUO    Symbol     Description
+
+040    .IOT       Executed for each item or block of data transmitted between
+                  a user program and a symbolic input-output device
+041    .OPEN      Used to initialize input-output between a device and a
+                  program
+042    .OPER      A class of system calls further decoded by the value of their
+                  effective address
+043    .CALL      A class of system calls further decoded by the value of their
+                  accumulator field
+044    .USET      Executed by procedures to examine and set some of the system
+                  variables associated with their inferior procedures
+045    .BREAK     Executed by a procedure to signal its superior
+046    .STATUS    Used to ascertain the status of an input-output device,
+                  channel, or transfer
+047    .ACCESS    Used in input-output to randomly addressable devices
+
+
+Tops-10 UUO List
+
+040    CALL       A class of system calls decoded by name
+041    INIT       Initialize I/O device and open a file
+047    CALLI      A class of system calls decoded by index value (effective
+                  address)
+050    OPEN       Open file by name on an I/O device
+051    TTCALL     Special TTY operations
+055    RENAME     Rename or delete a file
+056    IN         Input from a file, skip on error or EOF
+057    OUT        Output to a file, skip on error
+060    SETSTS     Set file status
+061    STATO      Check file status, skip if ones
+062    STATUS     (also GETSTS) Read file status
+063    STATZ      Check file status, skip if zeroes
+064    INBUF      Set up ring of input buffers
+065    OUTBUF     Set up ring of output buffers
+066    INPUT      Read from a file
+067    OUTPUT     Write to a file
+070    CLOSE      Close a file
+071    RELEAS     Release I/O device
+072    MTAPE      Positioning functions for DECtape and 1/2" tape
+073    UGETF      Get next free DECtape block number
+074    USETI      Set next input block number (DECtape or disk)
+075    USETO      Set next output block number (DECtape or disk)
+076    LOOKUP     Select a file for input on an open channel
+077    ENTER      Create an output file on an open channel
+
+
+Several of the DEC UUOs use either the value of the AC field, or the effective
+address, to provide finer selection of the intended operations.
+
+Now, as to Tops-10's CALL and CALLI:  CALL is a bad idea that was quickly
+recognized as such, and nothing further was done with it after the first few
+system calls were implemented using it, the honors going instead to CALLI.  The
+difference is this:  The CALL instruction takes an argument consisting of the
+address of a word containing the *name* of a system call, represented in
+SIXBIT[2], with other arguments in the words following the CALL.
+
+The CALLI instruction, in contradistinction, uses a numerical value, most often
+represented symbolically, which is used by the Monitor as a dispatch index into
+a table of routines.  (The early CALL routines could also be reached via CALLI,
+with the latter's symbolic names = the former's SIXBIT values.)
+
+Customer sites can define new CALLI values.  These are traditionally negative
+numbers, since DEC reserved positive values for itself.  Sites like SAIL,
+Tymshare, and Compuserve often defined hundreds of "negative CALLIs" for their
+special purpose extensions to Tops-10.  DEC supplied 1 such CALLI themselves,
+the LIGHTS instruction (CALLI -1); although Bard thinks of this as hardware, it
+calls a privileged routine in the Tops-10 Monitor which causes all of the
+lights on a KA-10 or KI-10 CPU front panel to turn on briefly; it serves to
+check the privileges of the invoking user.[3]
+
+
+[1] Waving my hands a little bit here.  Certain instructions on the KA-10
+    processor (and only on that processor) use locations 60 and 61 instead, but
+    otherwise the handling is the same.
+[2] A 64-member subset of ASCII consisting of the characters from SPACE to _
+    inclusive.
+[3] On a KL-10 or KS-10, there are no lights to be manipulated, but it still
+    serves its other purposes.  On TOPS-20, there is a LITES% JSYS for the same
+    reason.
+
+-- 
+Rich Alderson                                   news@alderson.users.panix.com
+    the russet leaves of an autumn oak/inspire once again the failed poet/
+    to take up his pen/and essay to place his meagre words upon the page...

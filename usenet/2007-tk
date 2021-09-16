@@ -1,0 +1,35 @@
+From newsserver@localhost  Mon Jul  9 04:01:58 2007
+Path: uni-berlin.de!fu-berlin.de!newsfeed-00.mathworks.com!panix!bloom-beacon.mit.edu!senator-bedfellow.mit.edu!dreaderd!not-for-mail
+Message-ID: <vuyd4z28gn4.fsf@shaggy.csail.mit.edu>
+From: Tom Knight <tk@mit.edu>
+Newsgroups: alt.folklore.computers,comp.arch
+Subject: Re: VLIW pre-history
+Date: 08 Jul 2007 22:17:35 -0400
+References: <5aq40sF2oskqvU1@mid.individual.net> <f6l5in$8qk_001@s928.apx1.sbo.ma.dialup.rcn.com> <ht4m6f.6i.ln@eden.reistad.name> <f6m8d3$8up$1@gemini.csx.cam.ac.uk> <b1cm6f.p11.ln@eden.reistad.name> <m34pkhkrcy.fsf@venus.pienet> <f6nsd9$8qk_001@s772.apx1.sbo.ma.dialup.rcn.com> <f6o2th$4d$1@gemini.csx.cam.ac.uk> <f6qcji$8qk_001@s925.apx1.sbo.ma.dialup.rcn.com> <Kp8ki.296647$p47.14105@bgtnsc04-news.ops.worldnet.att.net> <j1r2935vr02h44pbt44r6q94p5022d7e2o@4ax.com> <nzgki.298785$p47.55137@bgtnsc04-news.ops.worldnet.att.net>
+Lines: 19
+Sender: tk@shaggy.csail.mit.edu
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.4
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: shaggy.csail.mit.edu
+X-Trace: 1183947458 senator-bedfellow.mit.edu 494 128.30.2.14
+Xref: cartman.offog.org alt.folklore.computers:200436
+
+Stephen Fuld <S.Fuld@PleaseRemove.att.net> writes:
+> >>> 2.  Always get date-time from something mechanical;
+> >>>     this requires an additional device (which nobody wanted
+> >>>     to pay for).  Even then you have the problem of setting
+> >>>     this peripheral's date-time stamp with its "getting it
+> >>>     right the first time" problems.
+> >> This was certainly true in the 1960s, but by the mid 70s, you could
+> Yes, of course.  By the time of PCs, around the early 1980s, they put
+> such things in.  But if you look at my post, I was referring to the
+> 1970s which was the era of mainframes, supercomputers and minis.  You
+> know, there were computers before the IBM PC!  :-)
+
+ITS (PDP-6 time sharing system at MIT) solved this problem by
+automatically dialing up CTSS and setting its clock from the CTSS
+clock.  Of course, the machine was only booted about twice a year,
+when the hot patches got out of control.  I later made a 60 Hz line
+clock which always ran, and served us well for many years except
+during rare power outages.

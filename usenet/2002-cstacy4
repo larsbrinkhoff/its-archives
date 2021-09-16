@@ -1,0 +1,78 @@
+From newsserver@localhost  Sat Oct  5 05:00:12 2002
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!peernews.mcc.ac.uk!peernews.manap.net!peer.news.zetnet.net!peernews.cix.co.uk!shale.ftech.net!news.ftech.net!diablo.theplanet.net!news.maxwell.syr.edu!news-out.nuthinbutnews.com!propagator2-sterling!news-in-sterling.newsfeed.com!news-in.nuthinbutnews.com!cyclone1.gnilink.net!spamfinder.gnilink.net!nwrddc04.gnilink.net.POSTED!53ab2750!not-for-mail
+Message-ID: <uptuucyjh.fsf@dtpq.com>
+From: cstacy@dtpq.com (Christopher C. Stacy)
+Newsgroups: alt.folklore.computers,comp.lang.lisp
+Subject: Re: Chaosnet
+Date: Tue, 01 Oct 2002 09:13:07 GMT
+References: <3D9358AD.24C675C6@osfn.org> <an1u4d$25u$1@usenet.otenet.gr> <an9gmf$11l6$1@f1node01.rhrz.uni-bonn.de> <ur8fbb5m0.fsf@dtpq.com> <3d98b2af$1@news.ucsc.edu>
+Lines: 59
+Sender: cstacy@BONK
+User-Agent: Gnus/5.09 (Gnus v5.9.0) Emacs/21.2
+MIME-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+NNTP-Posting-Host: 141.154.221.20
+X-Complaints-To: abuse@verizon.net
+X-Trace: nwrddc04.gnilink.net 1033463587 141.154.221.20 (Tue, 01 Oct 2002 05:13:07 EDT)
+NNTP-Posting-Date: Tue, 01 Oct 2002 05:13:07 EDT
+Xref: cartman.azz.us-lot.org alt.folklore.computers:54598 comp.lang.lisp:39633
+
+>>>>> On 30 Sep 2002 13:23:11 -0800, Eugene Miya ("Eugene") writes:
+ Eugene> In article <ur8fbb5m0.fsf@dtpq.com>,
+ Eugene> Christopher C. Stacy <cstacy@dtpq.com> wrote:
+ >> I think old computer stuff is fun, but I am still wondering:
+ >> Why does anyone care about CHAOSNET at all?
+
+ Eugene> Getting it right.
+
+I can't quite decipher your response because it lacks any context.
+My question was: in this day and age, for what purpose are people
+so interested in CHAOSNET, such that they keep asking about it?
+
+It's historically interesting, but the question comes up regularly 
+on comp.lang.lisp and other newsgroups which are not primarily about
+footnotes in the history of computing.
+
+By "Getting it right", maybe you are suggesting that CHAOSNET is
+superior to what people run on their LAN's today (TCP/IP), or for
+inventing some replacement for TCP/IP.  I am not sure there are
+many lessons to be learned that would be applicable to designing
+today's kind of local area networks.  CHAOSNET's main virtue was
+that it was very simple.
+
+CHAOSNET was the local area network protocol invented at the MIT 
+AI Lab for the Lisp Machines, back before Ethernet was available.  
+It also ran on ITS, of course, and was later ported to Unix, VMS, 
+and TOPS-20.  It was made pretty much obsolete when Ethernet became
+commercially available and TCP/IP was implemented on the Lisp Machine.
+
+Here's CHAOSNET in a nutshell.
+It was a 75 ohm 4 Mbit CSMA cable network.
+Packets begin with 48 bits of hardware leader, consisting of the source
+and destination address (what today we would call the MAC address),
+and a checksum.  There was a simple bridging (routing) protocol.
+Packets can be uncontrolled (like UDP) or controlled (like TCP,
+delivered in sequence and flow controlled)
+The data portion of the packet is up to 252 16-bit words.  
+The first 128 bits of the data are the software header.  
+CHAOSNET had a flat 16-bit address space (8 bit subnet and 8 bit host).  
+It had 16-bit "indexes" which specified the unique port numbers on
+each end (the address+index is globally unique on the host).  
+Request for connections to services are not by well-known port number,
+but by well-known contact name strings (eg. "MAIL").  
+A protocol could also receive some initial data in the RFC packet.
+Also, instead of opening a connection, lightweight protocols could
+be defined to send back a single-packet response (ANS packet).
+An RFC could also cause the server to send a redirection packet (FWD).
+There were a few other simple packets similar to what ICMP does.
+That's about it!   If you get a copy of the AI Lab Memo #628,
+you can read about the API and other details.
+
+My personal theory is that people who hear the word "CHAOSNET" have
+little idea what it was, but they just think the name sounds cool.
+
+It's called that because of the contrast between a wire network with
+packet collisions, versus ARPANET NCP or the token-ring experiments
+going on downstairs at the Laboratory for Computer Science, and also
+because one of the inventors (or his girlfriend, I forget exactly)
+was reading the Roger Zelazny fantasy novels at the time.

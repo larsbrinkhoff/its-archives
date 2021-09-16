@@ -1,0 +1,67 @@
+From newsserver@localhost  Wed Jul  9 04:01:31 2008
+Path: uni-berlin.de!fu-berlin.de!newspeer.monmouth.com!newsswitch.lcs.mit.edu!bloom-beacon.mit.edu!panix!not-for-mail
+Message-ID: <mddbq189m8v.fsf@panix5.panix.com>
+From: Rich Alderson <news@alderson.users.panix.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Anybody booted an OS from scratch on still-running PDP-10?
+Date: 08 Jul 2008 16:03:44 -0400
+References: <rem-2008jul05-004@yahoo.com>
+Lines: 49
+Organization: PANIX Public Access Internet and UNIX, NYC
+Sender: alderson+news@panix5.panix.com
+NNTP-Posting-Host: panix5.panix.com
+X-Trace: reader1.panix.com 1215547424 16593 166.84.1.5 (8 Jul 2008 20:03:44 GMT)
+X-Complaints-To: abuse@panix.com
+NNTP-Posting-Date: Tue, 8 Jul 2008 20:03:44 +0000 (UTC)
+X-Newsreader: Gnus v5.7/Emacs 22.1
+Xref: cartman.offog.org alt.sys.pdp10:51628
+
+
+jaycx2.3.calrobert@spamgourmet.com.remove (Robert Maas,
+http://tinyurl.com/uh3t) writes:
+
+> Somebody in that thread on that other newsgroup mentionned this
+> newsgroup, which I never heard of before, so that's why I'm
+> suddenly here. So, does anybody here know of anyone who has
+> hand-coded some sort of bootstrap program such as DDT (on a PDP-10
+> of course) and from that point build an OS sufficient to support a
+> filesystem whereupon compiling a Common Lisp program would make
+> sense?
+
+> Or use some very old OS that was hand-coded in assembly
+> language for PDP-10?
+
+Well, ITS (the Incompatible Timesharing System) was first coded for the PDP-6,
+which is architecturally very close to the PDP-10, and was later ported to the
+10.  MACLISP, one of the important influences on Common Lisp, was written in
+MIDAS, the PDP-6/10 assembler created for ITS.  From MACLISP came not only
+Common Lisp, but also Scheme (and Rabbit, a Scheme compiler) and MACSYMA.
+
+MACLISP was ported to TOPS-20 (and its ancestor TENEX), which may seem very old
+to you but which is still under development at XKL, as well as to WAITS.
+
+> Then has any such person bootstrapped to any
+> version of Lisp that is sufficient to write binary files (needed to
+> compile Lisp to a file) from within Lisp? Once that point is
+> reached, I believe it would be relatively easy to bootstrap the
+> rest of the way to a fullfledged minimal subset of Common Lisp, and
+> then to all of Common Lisp.
+
+There were several other lisps for the PDP-10, under different operating
+systems.  John Sauter mentioned LISP 1.6, which I believe ran under Tops-10 and
+WAITS (the Stanford Artificial Intelligence Laboratory derivative which
+diverged very very early).  BBNLisp => Interlisp (later ported to a family of
+Lisp machines developed by Xerox).  Portable Standard Lisp (from Utah, basis of
+the REDUCE mathematics package, similar in spirit to MACSYMA).
+
+And there is ELISP, Rutgers' original implementation of Common Lisp, written
+for TOPS-20; eventually, this became TOPS-20 Common Lisp.
+
+All of these (with the possible exception of Utah's PSL, I simply don't
+remember for certain) were all written in assembler and Lisp.
+
+The C-based Lisps, such as Franz, were PDP-10 Lisp wannabees.
+
+-- 
+Rich Alderson                  "You get what anybody gets. You get a lifetime."
+news@alderson.users.panix.com                           --Death, of the Endless

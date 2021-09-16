@@ -1,0 +1,148 @@
+From newsserver@localhost  Sat Sep 18 04:04:49 2010
+Path: uni-berlin.de!fu-berlin.de!postnews.google.com!news1.google.com!Xl.tags.giganews.com!border1.nntp.dca.giganews.com!nntp.giganews.com!local2.nntp.dca.giganews.com!nntp.posted.isomediainc!news.posted.isomediainc.POSTED!not-for-mail
+Message-ID: <alpine.OSX.2.00.1009170919200.392@hsinghsing.panda.com>
+From: Mark Crispin <mrc@panda.com>
+Newsgroups: alt.sys.pdp10
+Subject: Re: File system internals (was: Re: the end of time)
+Date: Fri, 17 Sep 2010 10:21:37 -0700
+References: <alpine.OSX.2.00.1009052232010.13241@hsinghsing.panda.com> <alpine.OSX.2.00.1009052232010.13241@hsinghsing.panda.com> <i6lufa$h1c$1@speranza.aioe.org> <poi2m7-c4f.ln1@laptop.reistad.name> <i6mpj1$b4g$1@speranza.aioe.org> <iqj3m7-pmk.ln1@laptop.reistad.name>
+ <i6nhvp$ue0$1@speranza.aioe.org> <alpine.OSX.2.00.1009052232010.13241@hsinghsing.panda.com> <i6lufa$h1c$1@speranza.aioe.org> <poi2m7-c4f.ln1@laptop.reistad.name> <i6mpj1$b4g$1@speranza.aioe.org> <iqj3m7-pmk.ln1@laptop.reistad.name> <i6nhvp$ue0$1@speranza.aioe.org>
+ <i6nkae$m1k$1@tioat.net> <PM00049036C4D295AB@ac81a7dc.ipt.aol.com> <i6no94$n3j$1@tioat.net> <PM0004904A79E8C6A4@ac828bc9.ipt.aol.com> <alpine.OSX.2.00.1009150910150.392@hsinghsing.panda.com> <PM0004905E3837894C@aca2c7b6.ipt.aol.com>
+ <alpine.OSX.2.00.1009160905380.392@hsinghsing.panda.com> <PM0004907281D25B35@aca22ba8.ipt.aol.com>
+Lines: 123
+NNTP-Posting-Date: Fri, 17 Sep 2010 12:21:39 -0500
+In-Reply-To: <PM0004907281D25B35@aca22ba8.ipt.aol.com>
+User-Agent: Alpine 2.00 (OSX 1167 2008-08-23)
+MIME-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Usenet-Provider: http://www.giganews.com
+NNTP-Posting-Host: 206.124.149.116
+X-Trace: sv3-uoukXIi/FWDExeKWb4E6/d6I6nkiPbqgELh0v7xKojIBP2MGhHq0I6BrAoqmg4lDCda8DgXhV42jASw!LUb7Gee0dGVJ2hIjpmt1fOtmu0zICt+czHhSOjV9+32QZeOF0yjrPTW/MrbHgt/SiQrXyWh5qJbG!0n+Vyx2DSe7Li7BQ82ZuDlD1Ga5c
+X-Abuse-and-DMCA-Info: Please be sure to forward a copy of ALL headers
+X-Abuse-and-DMCA-Info: Otherwise we will be unable to process your complaint properly
+X-Postfilter: 1.3.40
+Xref: cartman.offog.org alt.sys.pdp10:56078
+
+On Fri, 17 Sep 2010, jmfbahciv posted:
+>> In TOPS-10, you had to assume that NUL is not a
+>> character.  If you "read a NUL" you would discard it and read the next
+>> byte, as a NUL was either padding to end of file (or to a word boundary at
+>> end of line in the case of SOS files).
+> Or a nul signified the end of the data.
+
+That's the same case as "padding to end of file".
+
+>> The problem is that there are cases where zero bytes are significant.
+> Zero bytes?  As in no bytes or a byte that had a zero value?
+
+A byte that has a zero value.  Zero bytes are unavoidable when 
+doing byte based file reads in TOPS-10, because TOPS-10 only maintains 
+word counts, not byte counts.
+
+> Either
+> was used but it depended on the app, not the OS.  The TOPS-10
+> monitor philosophy was to not make assumptions about how the apps
+> wanted their data.
+
+Yes, but that's not the issue here.  Simply put, it is not possible to 
+determine if a file is a CRLF by itself, a CRLF followed by one NUL, a 
+CRLF followed by two NULs, or a CRLF followed by three NULs.  All three 
+cases appear the same.
+
+This is a contrived example, and not real-world; but it demonstrates the 
+problem if NUL is anything other than a value to be ignored.
+
+>> Not
+>> all byte files are ASCII files; and some ASCII files have embedded NULs
+>> that are significant (put another way, they are semi-binary).  These just
+>> can't be handled reasonably in TOPS-10 unless you can accept padding to a
+>> word boundary.
+> A SIXBIT zero value was a byte of zeroes.  Code handled that well; the
+> monitor didn't get in the way of the app which used it.
+
+A SIXBIT zero value overloads with space.  If you are using SIXBIT, and 
+space is a valid character in the string, then you have the same problem 
+as I outlined above.
+
+Of course, most SIXBIT consumers did not use space, and thus avoided the 
+problem.
+
+The bottom line is that modern programming uses a byte count and does not 
+discard NULs.
+
+> I don't think this ever came up in our (OS development) discussions; or,
+> if it did, I never considered it important enough to my work to make
+> a mental note.  Please don't jump to the conclusion that I'm dismissing
+> the topic; I'm not.  It simply wasn't on my personal event horizon.
+
+I'm sure that it was not.  It's after TOPS-10's time.
+
+>> As time went on, the PDP-10 text convention of five septets per word
+>> became a liability.  The PDP-10 world and the UNIX world both mistakenly
+>> considered "text file" and "ASCII file" to be synonyms.  The problem was
+>> that the PDP-10 world interpreted "text file" as meaning "ASCII file" and
+>> the UNIX world interpreted "ASCII file" as meaning "text file".
+> When did those two become separate notions?
+
+I can't say precisely, but it was no later than the 1980s.
+
+Consider yourself fortunate that you did not participate in the 
+text-beyond-ASCII wars.
+
+>> Had the PDP-10 world switched to nonet based text early on (perhaps with
+>> the extra bit being some kind of tag bit), it would have avoided this
+>> problem.  As it was, the septet/octet problem became an additional nail in
+>> the PDP-10's coffin.
+> This would have never happened, even in the early 80s.  My USAGE project
+> got reams of protests because we decided to write the USAGE data in
+> ASCII.  Disk space was still an expensive premium even in the early 80s.
+
+I have little doubt.  But it was a short-term benefit (albeit mandatory) 
+for a long-term loss.
+
+>> TOPS-20 potentially could have solved this problem, but it didn't (much to
+>> the frustration of many of us in the TOPS-20 world).  The full gory
+>> details are too long to put in a single email.
+> Perhaps they could have converted in the late 80s but all development
+> had been stopped by then; the engineering committee would have never
+> approved the project.
+
+Actually, TOPS-20 had blunders that it inherited from Tenex and were too 
+late to fix by the 1980s.
+
+One of these was the fact that the file byte size/byte count was treated 
+as advisory.  The file open mode was what counted.  Most software that 
+wanted to read a text file opened the file in 7-bit and read it with 7-bit 
+byte pointers, never mind that the file was 8-bit or 9-bit.  I can't think 
+of a single program that read text files that looked at the file byte size 
+to set the open byte size.
+
+This made it infeasible to use text files with alternative byte sizes, 
+even if you were willing to tolerate bit truncation at the high end.  It 
+simply was not doable to fix every program that opened text files.
+
+TOPS-20 was perfectly capable of doing the conversions.  If you mumbled 
+the right arcane command options then it could even type an 8-bit file on 
+the console.  But all that sophisticated code came to nought because it 
+required arcane commands and arcane code to use it.
+
+There was a good short-term reason for this blunder; a great many text 
+files were inherited from TOPS-10 and thus had 36-bit byte sizes and word 
+counts; and files that came from a TOPS-10 or ITS system was also this 
+way (PDP-10 -> PDP-10 FTP transfers were invariably in word image mode 
+instead of ASCII mode).
+
+Another short-term benefit for a long-term loss; and again another case 
+where the short-term benefit really was mandatory.
+
+Unfortunately, there's no obvious design around the problem, even if you 
+could take a time machine back to 1969.  The best that I can think of 
+involves the concept of an "undefined" byte size that would treat the file 
+as a TOPS-10 file, as distinguished from a file with a defined 36-bit byte 
+size.
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.

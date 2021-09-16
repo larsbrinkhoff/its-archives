@@ -1,0 +1,65 @@
+From newsserver@localhost  Tue Mar 11 04:04:31 2008
+Path: uni-berlin.de!fu-berlin.de!news.glorb.com!news.alt.net!news.u.washington.edu!Tomobiki-Cho.CAC.Washignton.EDU!MRC
+Message-ID: <alpine.WNT.1.00.0803101314270.3748@Tomobiki-Cho.CAC.Washignton.EDU>
+From: Mark Crispin <MRC@Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: PDP-10 locations
+Date: Mon, 10 Mar 2008 13:33:56 -0700
+References: <mddbq5v4cfm.fsf@panix5.panix.com> <fqojfd$8qk_001@s903.apx1.sbo.ma.dialup.rcn.com> <alpine.OSX.1.00.0803060840210.14163@pangtzu.panda.com> <fqr9h2$8qk_001@s863.apx1.sbo.ma.dialup.rcn.com> <1m1uqf.4fa.ln@eden.reistad.name>
+ <408ga5-fpl.ln1@tools.pfarrell.com>
+Lines: 43
+Organization: UW Technology
+Sender: mrc@ndcms.cac.washington.edu
+NNTP-Posting-Host: tomobiki-cho.cac.washington.edu
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; format=flowed; charset=US-ASCII
+X-Trace: gnus01.u.washington.edu 1205181262 16272 128.95.135.58 (10 Mar 2008 20:34:22 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Mon, 10 Mar 2008 20:34:22 +0000 (UTC)
+In-Reply-To: <408ga5-fpl.ln1@tools.pfarrell.com>
+User-Agent: Alpine 1.00 (WNT 954 2008-03-06)
+Xref: cartman.offog.org alt.sys.pdp10:49282
+
+On Mon, 10 Mar 2008, Pat Farrell posted:
+> On Sat, 08 Mar 2008 13:43:45 +0100, Morten Reistad wrote:
+>> However, the customers didn't buy hardware. They bought the software,
+>> and just needed hardware to run it on. This was blatantly evident
+>> by around 1975, or earlier.
+> I'll agree but change the words a bit. Customers didn't buy hardware or
+> software. They bought solutions to business problems.
+
+Hmm.  I think that that this overlooks an important segment of the market: 
+customers who bought platforms that would support their pre-existing 
+solutions to their business problems.  That is, the customer had the 
+solution, but needed to expand the number of engines that executed the 
+solution.
+
+There was quite a debate in the 1980s between those that favored fewer 
+large powerful engines (sometimes creating a monolithic engine from 
+existing smaller engines) and those who favored loosely-coupled clusters 
+of many, smaller, less powerful engines.  The debate was eventually won by 
+the latter due to economic factors; the Great Monoliths fell to the Killer 
+Micros.
+
+> The combination of TOPS-10 on KIs was a great solution to many problems.
+
+The KI10 was the perfect TOPS-10 engine.  It was an significant upgrade 
+from the KA10, even more than the modest processor speed improvement would 
+indicate, because its memory map made it possible to get rid of The Big 
+BLT.
+
+I suspect that most TOPS-10 customers would have been happy with a 
+lower cost (and less power-hungry) KI10-class CPU instead of a KL10.
+
+The KI10 was not particularly satisfactory for ITS and Tenex because its 
+memory map simply was not up to the requirements of a pager; both ITS and 
+Tenex had custom paging hardware added to their KA10 systems.  Tenex was 
+ported to the the KI10 anyway, but KI10 Tenex was never particularly 
+impressive.  Most of the KI10 Tenex systems were dual-CPU systems to get 
+any sort of reasonable performance.
+
+-- Mark --
+
+http://staff.washington.edu/mrc
+Science does not emerge from voting, party politics, or public debate.
+Si vis pacem, para bellum.

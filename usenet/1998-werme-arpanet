@@ -1,0 +1,64 @@
+From -5074279217856870209
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,372239c77c92f4b0
+X-Google-Attributes: gidfdb0e,public
+From: nospam@zk3.dec.com (Eric Werme - replace nospam with werme)
+Subject: Re: KL Console Commands
+Date: 1998/10/20
+Message-ID: <70goj9$ufj$1@nntpd.lkg.dec.com>#1/1
+X-Deja-AN: 403023136
+References: <Pine.LNX.3.96.980928112124.10870D-100000@bony.umtec.com> <qhu31sc8nn.fsf@ruckus.brouhaha.com> <3613e9a8.18494117@news.clark.net> <6uvli1$o2j$1@strato.ultra.net> <3615172c.19558816@news.clark.net> <36149B71.237C@s054.aone.net.au> <361b6174.71109341@news.clark.net> <6vfom2$326$1@ligarius.ultra.net> <361f769b.76525319@news.clark.net> <6vku3e$tba$1@ligarius.ultra.net> <361e29e6.61611468@news.clark.net> <707pq8$7al$4@strato.ultra.net>
+Organization: Digital Equipment Corporation
+Reply-To: (Replace nobody with werme) nobody@zk3.dec.com
+Newsgroups: alt.sys.pdp10
+
+jmfbahciv@aol.com writes:
+
+>>>Would something like DECnet or ANF-10 have been difficult to 
+>>>incorporate into the system?
+
+>>Well, the first question is who would have wanted to? ITS was on the
+>>ARPANET early on, and the task wasn't that difficult. Because ITS had
+>>strong device independence, network devices weren't hard to implement,
+>>and because the file systems were designed to be device independent,
+>>remote file systems were also up pretty early (in fact the various ITS
+>>systems around MIT were tied together over the ARPANET very shortly
+>>after the IMP arrived).
+
+>When did the ARPANET happen?  I remember Jim talking about working on
+>a project that connected systems at ORNL, but then, the next time
+>I had an inkling of computers talking reasonably to each other
+>was ANF10.
+
+The ARPAnet started in 1969, CMU was on the net in a year or so.  I
+think I installed the first RFC 542 FTP client in September 1972 just before
+vacation, largely driven by the AI group's claim that Stanford would
+have their server running real soon now.  (Got back from vacation and
+found my code didn't work.  Sigh.)  The new Telnet was implemented in
+73.  Ed Taft at Harvard did TOPS-10 servers for FTP and TELNET.
+
+When I got to DEC, I joined a group looking into terminal protocols
+for DECnet.  I pushed for TELNET (and the ARPAnet protocols), but people
+seemed intent on a protocol to fit DEC's needs.  If I had gotten there
+about six months earlier perhaps I could have influenced things
+better, but then again, there were some pretty strong personalities to
+deal with and the NIH syndrome was pretty well entrenched.
+
+Actually, there were a couple good things in ANF-10's terminal protocol,
+but the whole company would have done better embracing the ARPAnet
+protocols.  Better late than never!
+
+When I joined DEC, Harvard and CMU were the only TOPS-10 systems on
+the net.  Rutgers joined a year or so later.  It was all public domain
+code.  DEC did a ARPAnet project, but that was after I left in 1978
+to join a small company in NH working on a Z80 based printer.
+
+To confirm the answer - ITS was on the ARPAnet, it had TELNET and FTP
+and file sharing.  It had no use for DECnet or ANF-10.
+
+--
+<>    Eric (Ric) Werme     <> The above is unlikely to contain   <>
+<>    ROT-13 addresses:    <> official claims or policies of     <>
+<>   <jrezr@mx3.qrp.pbz>   <> Compaq Computer Corp.              <>
+<> <jrezr@plorecbegny.arg> <>  http://www.cyberportal.net/werme  <>
+

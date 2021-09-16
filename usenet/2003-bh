@@ -1,0 +1,31 @@
+From newsserver@localhost  Thu Apr  3 05:00:16 2003
+Path: athena.ukc.ac.uk!server2.netnews.ja.net!server6.netnews.ja.net!feeder.news.heanet.ie!newsfeed.esat.net!news-spur1.maxwell.syr.edu!news.maxwell.syr.edu!news-hog.berkeley.edu!ucberkeley!agate.berkeley.edu!agate!abbenay.CS.Berkeley.EDU!not-for-mail
+Message-ID: <b6fi8d$rdd$1@abbenay.CS.Berkeley.EDU>
+From: bh@cs.berkeley.edu (Brian Harvey)
+Newsgroups: alt.sys.pdp10
+Subject: Re: History of project maintenance tools -- what and when?
+Date: Wed, 2 Apr 2003 20:47:09 +0000 (UTC)
+References: <6b26c83b.0303270121.1c81a3d9@posting.google.com> <6b26c83b.0303302216.11e1153c@posting.google.com> <thvv-EDE5A8.08524431032003@news.comcast.giganews.com> <b6em8g$2su$1@bob.news.rcn.net>
+Lines: 15
+Organization: University of California, Berkeley, Computer Science Division
+NNTP-Posting-Host: abbenay.cs.berkeley.edu
+X-Trace: agate.berkeley.edu 1049316429 97044 128.32.153.200 (2 Apr 2003 20:47:09 GMT)
+X-Complaints-To: usenet@agate.berkeley.edu
+NNTP-Posting-Date: Wed, 2 Apr 2003 20:47:09 +0000 (UTC)
+Xref: cartman.azz.us-lot.org alt.sys.pdp10:39776
+
+jmfbahciv@aol.com writes:
+>Just as a note which probably has nothing to do with the guy's
+>question:  TOPS-10 shipped an unsupported program called GRIPE
+>which allowed a user to insert a set of ASCII text whenever
+>s/he had a bitch.  It would "store" what was written in a file
+>in a systems PPN.
+
+I implemented ITS's first version of a GRIPE command.  It was a
+synonym for MAIL TK (because, as a lowly ignorant freshman, I'd
+found that Tom Knight was the best bet for getting a quick and
+friendly answer to beginner questions).
+
+That lasted about an hour, until Tom came to work and found his
+mailbox full.  He changed it to MAIL SYS, and that's how it worked
+until someone invented vectored gripes.

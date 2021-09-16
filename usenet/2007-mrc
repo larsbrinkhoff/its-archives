@@ -1,0 +1,91 @@
+From newsserver@localhost  Sun Nov 25 04:01:46 2007
+Path: uni-berlin.de!fu-berlin.de!newsfeed.freenet.de!news-out1.kabelfoon.nl!newsfeed.kabelfoon.nl!xindi.nntp.kabelfoon.nl!newsfeed.hal-mli.net!feeder1.hal-mli.net!news.alt.net!news.u.washington.edu!pangtzu.panda.com!mrc
+Message-ID: <alpine.OSX.0.99999.0711232229270.14460@pangtzu.panda.com>
+From: Mark Crispin <mrc@CAC.Washington.EDU>
+Newsgroups: alt.sys.pdp10
+Subject: Re: Happy Birthday VMS
+Date: Fri, 23 Nov 2007 22:44:31 -0800
+References: <fhilpo$45l$1@Tempo.Update.UU.SE> <fhk09k$8qk_001@s949.apx1.sbo.ma.dialup.rcn.com> <y_2dnblnp7OrGN3anZ2dnUVZ_sqinZ2d@comcast.com> <fhrt6e$8qk_001@s850.apx1.sbo.ma.dialup.rcn.com> <k531j.1415$kk4.310@newsfe02.lga> <SfadnZjzfaSJadnanZ2dnUVZ_judnZ2d@comcast.com>
+ <d9d278cc-f997-47fd-97f4-2d6cebf3dcc8@f13g2000hsa.googlegroups.com> <fi3qmj$8qk_001@s920.apx1.sbo.ma.dialup.rcn.com> <alpine.OSX.0.99999.0711220801480.11691@pangtzu.panda.com> <fi6dqp$8qk_001@s949.apx1.sbo.ma.dialup.rcn.com>
+Lines: 69
+Organization: University of Washington
+Sender: mrc@pangtzu.panda.com
+NNTP-Posting-Host: pangtzu.panda.com
+Mime-Version: 1.0
+Content-Type: TEXT/PLAIN; charset=US-ASCII; format=flowed
+X-Trace: gnus01.u.washington.edu 1195886672 18799 206.124.149.117 (24 Nov 2007 06:44:32 GMT)
+X-Complaints-To: help@cac.washington.edu
+NNTP-Posting-Date: Sat, 24 Nov 2007 06:44:32 +0000 (UTC)
+In-Reply-To: <fi6dqp$8qk_001@s949.apx1.sbo.ma.dialup.rcn.com>
+User-Agent: Alpine 0.99999 (OSX 825 2007-11-21)
+Xref: cartman.offog.org alt.sys.pdp10:48164
+
+On Fri, 23 Nov 2007, jmfbahciv@aol.com wrote:
+> I thought there was a problem w.r.t. the number of hosts in an area.
+> I thought that the field reserved for the number was 9 bits and,
+> until that had been redefined, the limit of the number of systems
+> in an area was 777.
+
+This had nothing to do with TCP/IP.
+
+The physical host addressing on the original ARPAnet was 8 bits.  This was 
+quickly realized to be a mistake, and was expanded to 32-bits within the 
+network, although hosts that used the old 8-bit interface would continue 
+to work (but couldn't address IMPs higher than IMP 63 or nodes on an IMP 
+higher than 3).
+
+I wrote the first 32-bit PDP-10 ARPAnet driver in 1977.  It was my very 
+first kernel programming project, strictly unauthorized of course.  When 
+Dave Moon heard about my sucess, he did the same for the MIT ITS systems 
+and had it running a week later.  It was quite an embarassment for BBN, 
+which had claimed that it would take years to upgrade the PDP-10 Tenex 
+systems, and tried to deny that I had succeeded (and were even more 
+embarassed when my claim was proven true).  BBN was forced to fix Tenex 
+post haste.
+
+Now, it took Digital about 5 years after that before it implemented 32-bit 
+host addressing in TOPS-20.  Of course, when they did it, they did it 
+wrong; but perhaps that was a limitation of their cruddy AN20 hardware.
+
+>> Similarly, your statement about "military constraints" is based upon
+>> ignorance and surmise from third-hand information.  Yes, access to the
+>> ARPAnet was restricted by the military; but ARPAnet hardware and software
+>> never was.  More importantly, there were commercial networks based upon
+>> ARPAnet technology.
+> Then why was the /AN tape so restricted.
+
+Digital marketing.
+
+What made this particularly obscene is that the /AN tape files were 
+largely unchanged from Tenex (albeit with Digital copyrights), and the 
+Tenex AN stuff was open soure.
+
+FWIW, I rewrote most of the AN user mode applications, and my code is what 
+Digital ultimately distributed in later versions of TOPS-20AN.  What I 
+didn't write, I helped debug.
+
+>> The reason why Digital did not use its early advantage in this technology
+>> was NOT due to any "military constraints" or "limitations" or "lack of
+>> extensibility" in TCP/IP, but rather because Digital was utterly clueless
+>> and did its best to stick fingers in ears screaming "I can't hear you!!"
+>> Digital was terrified of technology that it did not own and control.
+> This is nonsense from the LCG perspective.  PDP-10s had foreign hardware
+> hooked up since the beginning.
+
+That may be, but remember that we're talking about the late 1970s and 
+early 1980s during the change from DEC to Digital.
+
+> The AN came from BBN.  Was it ours to sell?  There was more behind
+> that AN implementation than obduration.
+
+DEC bought complete rights to Tenex from BBN, and AN was part of Tenex 
+from inception.
+
+The Digital networking strategy was DECnet, and Digital did not want there 
+to be any other networking technology.
+
+-- Mark --
+
+http://panda.com/mrc
+Democracy is two wolves and a sheep deciding what to eat for lunch.
+Liberty is a well-armed sheep contesting the vote.
