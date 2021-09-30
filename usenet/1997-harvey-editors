@@ -1,0 +1,34 @@
+From -8340843533531526199
+X-Google-Language: ENGLISH,ASCII-7-bit
+X-Google-Thread: fdb0e,b86535ae43b511c4
+X-Google-Attributes: gidfdb0e,public
+From: bh@anarres.CS.Berkeley.EDU (Brian Harvey)
+Subject: Re: What "SOS" is.
+Date: 1997/09/14
+Message-ID: <5vhlsb$ke2@agate.berkeley.edu>#1/1
+X-Deja-AN: 272489227
+References: <5ukng7$i6g$1@sue.cc.uregina.ca> <5v9t6e$49v$9@teabag.demon.co.uk> <5vcjqn$9a3@bonkers.taronga.com> <341A4AB0.4343@cisco.com>
+Organization: University of California, Berkeley
+Newsgroups: alt.sys.pdp10
+
+
+"Henry W. Miller" <hmiller@cisco.com> writes:
+>	Oh, I don't know if I can totally agree with that remark - they 
+>sure beat the hell out of their line-oriented predecessor, LINED.
+
+What still amazes me is how long it took for the TOPS-10 world to get
+the message about display editing.  At a DECUS around 1974 I remember
+a huge, vociferous argument between the fans of TECO (a non-display version
+for the PDP-10, first written at the MIT AI Lab, which had long since
+transmuted it into the immediate-mode display-oriented ITS version)
+and the fans of SOS (an acronym standing for "son of stopgap," so called
+because its original users at the Stanford AI Lab already clearly
+understood that display-oriented editing was the way to do, and by the
+time of this meeting had replaced it with TVEDIT).  I was amused.
+
+This was also around the same time as the infamous "DEC standard editor"
+document, a half-inch-thick book with exactly one page on an optional
+display-oriented mode.
+
+[I removed all the other newsgroups because I wouldn't want to say
+anything bad about PDP-10 culture except among friends.  :-) ]

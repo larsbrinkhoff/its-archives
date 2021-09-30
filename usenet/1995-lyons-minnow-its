@@ -1,0 +1,49 @@
+Path: nntp.gmd.de!newsserver.jvnc.net!igor.rutgers.edu!rutgers!uwvax!uchinews!chicagokent.kentlaw.edu!news.ecn.bgu.edu!willis.cis.uab.edu!gatech!howland.reston.ans.net!agate!darkstar.UCSC.EDU!news.hal.COM!decwrl!pa.dec.com!nntpd.lkg.dec.com!racer.enet.dec.com!dave
+From: dave@racer.enet.dec.com ()
+Newsgroups: alt.sys.pdp10
+Subject: Re: Desktop PDP/10?
+Date: 6 Feb 1995 16:14:10 GMT
+Organization: Digital Equipment Corporation
+Lines: 36
+Distribution: world
+Message-ID: <3h5hsi$hbp@nntpd.lkg.dec.com>
+References: <3gr0q0$fvq@giga.bga.com> <aldersonD3E22J.7o5@netcom.com>
+Reply-To: dave@racer.enet.dec.com ()
+NNTP-Posting-Host: racer.tay.dec.com
+X-Newsreader: mxrn 6.18-9
+
+
+In article <aldersonD3E22J.7o5@netcom.com>, alderson@netcom.com (Richard M. Alderson III) writes:
+|>In article <3gr0q0$fvq@giga.bga.com> hsnewman@bga.com (Harris Newman) writes:
+|>
+|>>Is there such a thing? How much?
+|>
+|>Not exactly, but you can run one of the emulators on a desktop system.
+|>
+|>The smallest real PDP-10 I know of is the size of a two-drawer file cabinet.
+|>Too large for your desktop, but it would stand next to your desk just fine.
+|>-- 
+|>Rich Alderson		[Tolkien quote temporarily removed in favour of
+|>alderson@netcom.com	 prosetylizing comment below --rma]
+|>
+|>Please support the creation of the humanities hierarchy of newsgroups!
+|>
+
+The "Minnow", which never really saw the light of day because it would
+have killed the VAX off was about the size of a VAXstation 3100, had 2 MEG
+of memory, 4 Serial I/O ports, and an interface for external disks, tapes,
+and networks.
+
+The reasons for its death (and the fact that the KS 10 price was jacked
+up by almost $40,000K) was to "protect" the just starting VAX line.
+
+It was done by all the same crew that did the KS 10.  DMCC did the software,
+I think.
+
+I think only 2-4 were ever built, and the only OS I ever saw running on it
+was ITS.
+
+
+-- 
+
+Dave Lyons, dave@racer.enet.dec.com
