@@ -1,0 +1,319 @@
+Relay-Version: version B 2.10 5/3/83; site utzoo.UUCP
+Path: utzoo!watmath!clyde!burl!ulysses!mhuxl!ihnp4!zehntel!hplabs!sri-unix!cpmlist@Amsaa.ARPA
+From: cpmlist@Amsaa.ARPA
+Newsgroups: net.micro.cpm
+Subject: SIMTEL20 ARCHIVES.
+Message-ID: <586@sri-arpa.UUCP>
+Date: Mon, 2-Apr-84 16:49:15 EST
+Article-I.D.: sri-arpa.586
+Posted: Mon Apr  2 16:49:15 1984
+Date-Received: Wed, 18-Apr-84 07:04:14 EST
+Lines: 307
+
+From:      Dave Towson (info-cpm) <cpmlist@Amsaa.ARPA>
+
+     Public Domain Software Lovers - At long last, the Great Archive Blurb is 
+finished!  This updated version covers ALL of the archives on SIMTEL20, and
+will (I hope) answer most of the questions that have been pouring in since the
+announcement of the new PC-BLUE archive.
+
+     I especially want to thank Gail Zacharias <GZ@MIT-MC> for a very thorough
+job of proof-reading and error reporting.  The blurb is considerably improved
+as a result of her efforts.
+
+     Thanks are also due to Frank Wancho <WANCHO@SIMTEL20> for making the 
+archives possible, and to Keith Petersen <W8SDZ@SIMTEL20> and Richard Conn
+<RCONN@SIMTEL20> for maintaining them.  Without the efforts of these people,
+I wouldn't have had to write this thing (hmmmmm).
+
+     Finally, thanks to all of you who have been patiently waiting for this
+information, and wishing I'd hurry up so that you could get at the goodies.
+
+     This blurb is about thirteen-thousand characters long.  It's a lot to
+absorb at one time if you don't already know most of it.  My advice is to print
+it, and keep it on hand for reference.
+
+
+
+Dave Towson
+INFO-CPM-REQUEST @ AMSAA
+
+
+-------------------------------------------------------------------------------
+
+                            THE SIMTEL20 ARCHIVES
+
+
+
+OVERVIEW
+
+     There is a collossal amount of free public domain CP/M software in
+several archives on SIMTEL20, a PDP-20 running TOPS-20 at White Sands Missile
+Range.  Files may be obtained using FTP (described in a following paragraph)
+with user-name "anonymous".  For a password, use your host-name (or any string
+of printing characters).  Throughout this message, FTP examples are given in a
+GENERIC syntax.  You will have to consult either a local documentation file or
+your friendly system wizard to learn the actual syntax used with your local
+mainframe operating system.
+
+     UNIX users can do "man ftp" for instructions.  ITS users can do 
+":INFO FTP".  I will be happy to update this message to include pointers to
+other sources of documentation if they are sent to INFO-CPM-REQUEST.
+
+     To get directory listings, connect to SIMTEL20 via FTP and do this:
+
+                get micro:<cpm>cpm.crclst 
+                get micro:<cpmug>cpmug.crclst 
+                get micro:<sigm>sigm.crclst 
+		get micro:<unix>unix.crclst 
+		get micro:<pc-blue>pc-blue.crclst 
+
+The first will get you a directory of a cpm archive that was moved from MIT-MC.
+This is the one to watch for the very latest CP/M offerings, as it is updated
+frequently.  The second is the full catalog of the CP/M Users Group.  It (and
+the third and fifth archives) will be updated as new disks are issued.  The 
+third is the full catalog of the Special Interest Group for Microcomputers 
+(SIG/M), a service of the Amateur Computer Group of New Jersey.  The fourth
+contains UNIX-related software, not all of which is CP/M-specific.  That which
+does apply specifically to CP/M is in the directory <UNIX.CPM>.  The CRCLST
+file shows the contents of the full UNIX archive, which is growing rapidly.
+The fifth archive contains software for the IBM-PC.
+
+     There are many overlaps in the first three archives, but you will find the
+latest versions in the <CPM> archive.  In general, the archived software is
+very good, having been worked-over and refined by multiple users.  The comments
+tend to be complete and imformative.
+
+
+
+FILE TYPES
+
+     Files in the <CPM> archive are stored in two formats, ASCII for DOC, HEX 
+and ASM files, and ITS binary for COM and squeezed files.  Squeezed files have
+been compressed using the programs available in directory <CPM.SQUSQ> to obtain
+an approximate 35-percent size reduction.  These files can be identified by the
+letter Q in the file-type field. For example, file MICRO:<CPM.MODEM903>DEFF.AQM
+is a squeezed file.  It must be transferred as a binary file, and then un-
+squeezed.  The unsqueezing can be done on the CP/M system using USQ-20.COM (or
+whatever is the current version from directory <CPM.SQUSQ>), or there are
+several host-based unsqueezers in the <CPM> archive (see for example, directory
+<CPM.TOPS-20>).  File MICRO:<CPM>CPM.CRCLST shows the type of storage used for
+each file in the <CPM> archive.
+
+     ALL FILES in the <UNIX> archive are stored in ASCII.
+
+     With the exception of the CATALOG FILES to be described later, ALL FILES
+in the  <SIGM>, <CPMUG>  and  <PC-BLUE>  archives are stored in ITS binary,
+a format  which had its origin  at MIT.   Each file  begins with  a  36-bit
+identifier-word containing DSK8 in SIXBIT code.  This reads as 446353300000
+in octal, and 933AD8000 in hexadecimal.  All data are stored as four 8-bit
+bytes per 36-bit SIMTEL20 word, with the low-order four bits of each word
+filled with zeros.  If such a file is interpreted as a contiguous string,
+as will happen if a straight binary transfer is made to a 16 or 32-bit UNIX
+machine, the four zero filler-bits per 36-bit group will cause rather bizarre
+and frustrating results.  The methods for dealing with this situation, which
+differ from machine to machine, are explained in a following paragraph.
+
+     The ONLY files in the <SIGM>, <CPMUG> and <PC-BLUE> archives that are NOT
+stored in ITS binary are the CATALOG files.  These files, which are stored in
+ASCII, contain (in reverse numerical order) the -CATALOG.nnn files from all the
+volumes of their respective archives.  To obtain these composite catalog
+files, connect to SIMTEL20 via FTP and do this:
+
+		get micro:<sigm>sigm.cat 
+		get micro:<cpmug>cpmug.cat 
+		get micro:<pc-blue>pc-blue.cat 
+
+Remember, ALL are ASCII files.
+
+
+
+FILE TRANSFER VIA FTP
+
+     FTP stands for File Transfer Protocol, a formalized procedure for moving
+files among machines on the Defense Data Network (DDN) and other networks that
+connect with the DDN.  The protocol is implemented by a program called FTP.
+The different mainframe operating systems implement FTP with variations in
+command syntax.  Some systems have the remote-file-name precede the local-file-
+name in the command.  Others reverse this order.  Some versions have the whole
+command on a single input line, while others use multiple lines.  Read the
+documentation for your local system, or consult a friendly system wizard
+for the details of your local FTP command syntax.  FTP transfers from SIMTEL20
+can be made with user-name "anonymous".  Use your host-name (or any string of
+printing characters) for a password.
+
+     Users of TOPS-10, TENEX, TOPS-20 or ITS systems can use "type image" or
+"type paged" mode for ALL transfers.  UNIX users must use "type ascii" mode 
+for ASCII files, and "type tenex" or "type L 8" mode for ITS binary files.
+MULTICS users must use "type ascii" mode for ASCII files, and "type image"
+mode for ITS binary.
+
+     Once an ITS binary file has been transferred to your mainframe, additional
+processing is needed to make it into a standard CP/M file.  This processing is
+done automatically by the programs used on TOPS-20 and ITS machines for
+downloading to a micro, so those users need not be concerned with this.  UNIX
+users have only to remove the first four bytes of each file.  These four bytes 
+are a special "ITS header", and are not really a part of the file.  They can
+be removed using the UNIX utility "dd", or they can be removed using the
+program ITSCVT, available as an ASCII-transferable .HEX file in directory
+MICRO:<CPM.HEX>.
+
+     Post-processing of files on MULTICS machines can be done using a modified
+version of the system copy utility.  At present, transfer of this program is
+a delicate matter because of the need to preserve the vendor's proprietary
+rights.  If you need this utility, send a message to INFO-CPM-REQUEST, and
+I'll put you in touch with the person who has the program.
+
+     Anyone who can obtain an exact contiguous copy of an ITS binary file 
+(probably using "type image" mode), and then download it to a CP/M machine
+without losing any bits, can post-process the file into standard format using a 
+CP/M program available from INFO-CPM-REQUEST.  If there is enough interest in 
+this program, it can be added to the <CPM> archive.  If it necessary for you to
+take this route, study the description of ITS binary format given in the 
+section on FILE TYPES, so that you will know what to expect.  This method 
+worked satisfactorily with transfers to our 16 and 32-bit UNIX machines before
+we learned to use "type tenex" mode.
+
+
+
+MAINFRAME PROGRAMS FOR TRANSFERRING FILES BETWEEN MAINFRAMES AND MICROS
+
+Christensen Protocol:
+
+     For a micro to reliably exchange files with a mainframe, cooperating
+file transfer programs with automatic error detection and retransmission of
+faulty blocks must be running on both computers.  One such family of programs
+uses a popular protocol created by Ward Christensen and enhanced by others.  
+Directory MICRO:<UNIX.CPM> contains two programs, UC and the older UMODEM
+(both written in C), which implement this protocol on UNIX machines.  See the
+file MICRO:<UNIX>UNIX.CRCLST for a list of other useful UNIX utilities.
+
+     On ITS machines, file transfer using the Christensen protocol can be done
+using MMODEM (type :MMODEM for instructions), or LMODEM.  Documentation for
+LMODEM is in file .INFO.;LMODEM HELP. Other useful ITS utilities include TYPE8,
+which types an ASCII file stored in ITS binary format; TYPESQ, which types an
+ITS binary format "squeezed" file (see the first paragraph under FILE TYPES);
+USQ, which creates an unsqueezed version of a squeezed file; HEXIFY, which
+creates an Intel hex format file from an ITS binary format COM file; COMIFY
+which creates a COM file from an Intel hex file; and CRC, which computes the
+Cyclic Redundancy Check value for a file, using the same algorithm that is used
+by the CP/M program CRCK.  Brief instructions for any of these utilities except
+LMODEM can be obtained by typing ":utility_name" (for example, :CRC).
+
+     TOPS-20 utilities for transferring and manipulating files can be found in
+directory MICRO:<CPM.TOPS-20>.  See MICRO:<CPM>CPM.CRCLST for a list of
+available programs.
+
+     File transfer and conversion utilities for use with VAX/VMS machines are
+contained in directory MICRO:<CPM.VAXVMS>.  See MICRO:<CPM>CPM.CRCLST for
+details.
+
+
+Kermit:
+
+     Another excellent program for transferring files is called KERMIT.  This
+program has the advantage of being available for an impressively large number
+of mainframes and micros.  It is, for example, available for the IBM-PC, and
+DOES NOT require CP/M.
+
+     To get started with KERMIT, connect to Columbia-20 using FTP, and do this:
+
+		get ps:<kermit>00readme.txt 
+		dir ps:<kermit> 
+
+Note two things:  The machine name is "columbia-dash-twenty", and the filename
+begins with "zero-zero".
+
+     After reading 00README.TXT, look at your directory listing and see what's
+currently available (it may have changed since the last edit of 00README.TXT).
+>From then on, you are on your own.  Questions can be addressed to INFO-KERMIT @
+COLUMBIA-20.
+
+
+
+MICROCOMPUTER PROGRAMS FOR TRANSFERRING FILES BETWEEN MAINFRAMES AND MICROS
+
+Christensen Protocol:
+
+     An excellent program for transferring files between micros, or between
+micros and mainframes is called MDM7xx, where the "xx" is replaced with two
+digits to give the current version number.  This program, often referred to as
+MODEM7 (the name of its easier to pronounce ancestor), uses the popular
+Christensen protocol to transfer files with automatic error detection and
+retransmission of erroneous blocks.  
+
+     To get started with MDM7xx, you should first FTP and examine three files
+from the directory MICRO:<CPM.MODEM7>.  After connecting to SIMTEL20, do this:
+
+		get micro:<cpm.modem7>(see below) 
+		get micro:<cpm.modem7>mdm7xx.doc 
+		get micro:<cpm.modem7>mdm7xx.msg 
+
+All are ASCII files.  Together, they will tell you just about all there is to
+know about getting the program to run on your machine.  Take the time to read
+these files; they're quite informative. You will also get some helpful insights
+from reading some of the overlay files.  These overlays, described in file
+MICRO:<CPM.MODEM7>(see below), are used to customize MDM7xx for particular
+machines without having to edit and assemble the huge MDM7xx source file. 
+Complete instructions for performing this procedure are contained in each 
+overlay file.  The above use of "see below" refers to a file with the
+characters "OVL" in its name.  This message will be updated when the name of
+that file becomes stable (at this moment, there are two).
+
+
+Kermit:
+
+     As stated in an earlier paragraph, KERMIT is also an excellent program for
+transferring files between computers.  It, too, does automatic error detection 
+and retransmission, and it works between mainframe and micro, between micros,
+and between mainframes.  See the earlier paragraph for details.
+
+
+Getting Started:
+
+     In order to get MDM7xx or KERMIT running on your micro, you must first
+transfer the necessary files from mainframe to micro.  If you already have a
+receive-to-disk communications program of some sort, you can use it to move
+the needed files.  It is VERY CONVENIENT to be able to transfer 8-bit binary
+files, although in most cases it is not absolutely necessary.  Some of the 
+files are quite large.  For example, MDM7xx.COM is over 18K bytes, and the HEX
+file (which you will need if you can't transfer 8-bit files) is over 52K.  
+Moving large files to your micro without using an error detecting protocol can
+result in frustrating errors, but it can be done by receiving multiple copies
+and using manual or machine-assisted comparisons to locate and repair bad parts
+of the code.  However, there IS a better way.
+
+     Directory MICRO:<CPM.MODEM> contains a file that can be FTPed to your
+mainframe, printed, and then entered into your micro by hand and assembled. 
+It is quite short.  To examine this option, connect to SIMTEL20 via FTP and
+do this:
+
+		get micro:<cpm.modem>pipmodem.asm 
+		get micro:<cpm.modem>pipmodem.doc 
+		get micro:<cpm.modem>mboot3.asm 
+
+All are ASCII files.  Read PIPMODEM.DOC first, then look at MBOOT3.ASM.
+PIPMODEM.DOC explains the situation very nicely.  Questions concerning these 
+programs should be sent to INFO-CPM @ AMSAA.
+
+
+
+ADDITIONS, IMPROVEMENTS AND CORRECTIONS
+
+     Suggestions for additions, improvements and corrections to this message
+are always welcome.  Please send them to INFO-CPM-REQUEST.  Additional
+information concerning FTP is, however, beyond the scope of this message.  If
+you need help with FTP, please read the documentation for your local system,
+or see your friendly system wizard.
+
+     Contributions of public domain software are actively solicited.  If you
+have something that seems appropriate for inclusion in the <CPM> archive, 
+please contact Keith Petersen <W8SDZ@SIMTEL20>.  Likewise, contributions to the
+<UNIX> archive can be addressed to Richard Conn <RCONN@SIMTEL20>.
+
+     Happy hacking!
+
+
+
+					Dave Towson
+					INFO-CPM-REQUEST @ AMSAA
