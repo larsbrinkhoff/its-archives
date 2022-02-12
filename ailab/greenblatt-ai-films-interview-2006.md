@@ -7,86 +7,90 @@ MIT AI Lab in the late 1960s.
 This text was transcribed from the
 [original recordings](https://projects.csail.mit.edu/films/aifilms/Podcasts/Originals/). There are also [edited versions](https://projects.csail.mit.edu/films/aifilms/Podcasts/) which rearrange some of the material.
 
-This is an unedited automatic transcription with numerous errors.
+Sections with a / have been edited by hand to match the audio.
+Otherwise, this is an unedited automatic transcription with numerous errors.
 
 @@index
 
 ## 2006-05-23
 
-### 01-eye
+### 01-eye /
 
 (0:00)
 OK, this is Rick Greenblatt,
 and we're here in the office on Tuesday,
 May 23rd, 2006, and we're looking
-at video clips and we looked at
+at video clips. And we looked at
 clip number one and that was Minsky
 holding forth on Winston's thesis,
-and then there was a second section.
-Narration by Dave Walz also
+and then there was a second section,
+narration by Dave Waltz, also
 talking about towers and cubes,
-and one thing another.
-And then you had mentioned that the black
-and white was from the 3:40 deck display.
+and one thing and another.
+
+*And you had mentioned that the black
+and white was from the 340 DEC display.*
+
 (0:34)
 That's right, there's quite a few of these
 clips in here that are black and white.
 I think you'll be able to recognize them
-have been shot off of the three forty.
-The 3:40 was an interesting
-piece of hardware. It it.
+that have been shot off of the 340.
+The 340 was an interesting
+piece of hardware.
 It did not have a raster,
-it it had random access to flexion.
+it had random access deflection.
 And of course with the cathode
-ray tubes and magnetic deflection.
-You know it's it's a lot of work.
+ray tubes and magnetic deflection,
+you know, it's a lot of work.
 (1:00)
 You've gotta change currents
 in these big coils,
-which is not easy to do,
-so it it it was a 10,024 by 2024
+which is not easy to do.
+So it was a 1024 by 1024
 resolution thing and it could deflect
-any point on that in 35 microseconds.
-So for our purposes here in terms of trying
+to any point on that in 35 microseconds.
+
+*So for our purposes here in terms of trying
 to catch a little bit of the history,
 the most important thing is that
 that black and white display is
-one of the earliest displays.
-Well, actually it was, it was.
-Actually,
-there were others earlier that this.
+one of the earliest displays.*
+
+Well, actually 
+there were others earlier.
 (1:31)
-This one was represented.
-A significant refinement in
+This one represented
+a significant refinement in
 that kind of a thing.
-The PDP one that the digital PDP one
+The Digital PDP-1
 had a Type 30 display which had a 50
 microsecond random access deflection.
-And also this this 3:40 that we're talking
-about had had a a vector generator.
-It had a character generator
-and it had an incremental.
+And also this 340 that we're talking
+about had a vector generator,
+it had a character generator
+and it had an incremental,
 (2:00)
-Increment generator OK,
-so each of those were interesting as
-we're looking at any of black and white,
+increment generator.
+So each of those were interesting.
+
+*As we're looking at any black and white,
 we should be aware that the the stuff
 itself is captured by a device that's
-off historical interest in a way.
-Yeah, I would say it is and it would
-just photograph right on the screen.
-You know, just with a camera, no no separate.
-Well we had a hood.
-I think that sat down over at some of them,
-some of that.
+of historical interest.*
+
+In a way, yeah, I would say it is.
+And it just photographed right on the screen,
+you know, just with a camera, no separate...
+well, we had a hood, I think, that sat down over at some of them.
 Some of this may have been done using
-that hood, but it was pretty cool.
-Should.
+that hood, but it was pretty...
+
+*Say that again. It was captured...*
+
 (2:30)
-Well,
-actually you'll see a picture of it here.
-So yeah,
-let's defer that discussion in second when
+Well, actually you'll see a picture of it here.
+So, yeah, let's defer that discussion in a second when
 we actually have the picture in front of us.
 
 ### 02-robot
@@ -94,8 +98,8 @@ we actually have the picture in front of us.
 Yeah, we're looking at tape two and the first
 part connecting these circles here is a hack,
 I believe,
-by mikes pesner mikes pesner SPECINER,
-and I did contact my special are
+by Mike Speciner, Mike Speciner, SPECINER,
+and I did contact Mike Speciner
 just recently and just advised
 him that this stuff was on.
 (3:01)
@@ -130,14 +134,14 @@ This guy is very familiar and I can't
 remember his name I I wanna say Solina wins.
 I have no idea if that's the
 correct name or not.
-Micah Bell Gospar yeah Bill Gospar IIII.
+Michael Bill Gosper yeah Bill Gosper IIII.
 Contact with and he he's he's
 on tape quite a few of these and
 and we can you can reach him,
 but this particular fellow at the
 end of this is in the middle of tape
 two and it's it's just after the
-two cuts on on mikes pesner thing.
+two cuts on on Mike Speciner thing.
 (4:36)
 And. He has a contour thing here.
 What's being displayed here?
@@ -166,8 +170,8 @@ standing in the door and the arm is
 in the process of doing something.
 This this arm you see here and you'll
 see it in several of these other
-clips is is referred to as the AM
-Farm American Machine and Foundry.
+clips is is referred to as the AMF arm &mdash;
+American Machine and Foundry.
 (6:12)
 Foundry arm and this.
 This was a a factory arm designed for
@@ -209,7 +213,7 @@ occasionally with spring leaks
 and spray oil all over the place
 and do things like that.
 Anyway,
-this particular clip Minskey is
+this particular clip Minsky is
 just looking on at the thing while.
 (8:04)
 A demo is being moving and here in the
@@ -330,13 +334,13 @@ or even maybe three prior lives, but he was.
 (13:30)
 A senior hardware engineer at at
 Digital Equipment Corporation and this
-this clip is in PDP six days so the
-PDP six was designed like many deck
+this clip is in PDP-6 days so the
+PDP-6 was designed like many DEC
 projects of that era by two engineers.
 One senior in one junior.
 The senior engineer was Gordon Bell.
 And and the junior engineer was was Alan
-Kotok on the PD and Alan later dust the deck.
+Kotok on the PD and Alan later dust the DEC.
 (14:03)
 10 that's right, yeah, and.
 And no OK the the other person
@@ -348,7 +352,7 @@ career in doing various things.
 Could go into for a long time.
 (14:30)
 We probably better not.
-OK, they're they're sitting here at the 3:40.
+OK, they're they're sitting here at the 340.
 Far OK, yeah, and there's just.
 There's some other clips that
 are better of the three.
@@ -378,13 +382,13 @@ Minsky Bennett arm.
 Yeah Bennett was this bill Bennett was
 the machinist who made this argument.
 It was done.
-These bones of the arm were were
+These bones of the arm were
 machined out of solid aluminum blocks.
 So and and represented very elaborate
 machining for the day and so forth.
 (16:02)
 OK, and now this next
-thing is the waltz finger.
+thing is the Waltz finger.
 And I didn't remember too
 much about it except it,
 but that Dave Waltz.
@@ -411,12 +415,12 @@ in it and the finger is able to
 reach right around.
 (17:01)
 Yeah, and what did you lose?
-Dave waltz.
+Dave Waltz.
 Well, yeah.
 And. And then then,
 at the very end of the clip we
 get a a very short clip clip.
-Of a simulation on the 3:40.
+Of a simulation on the 340.
 Of of the Shirred loop program.
 SHR Dlu and that was a program.
 (17:32)
@@ -437,19 +441,19 @@ so it's kind of natural language interface.
 Yeah, that's the courtesy of Winograd
 Gerry Sussman, who is still here,
 of course, and so on.
-I did did a thing called micro Planner.
+I did did a thing called Micro-Planner.
 In part and and also another part of that
-was done by fellow named Jean Czarniak.
+was done by fellow named Eugene Charniak.
 So this is the total program Trudeau,
 which contains a natural language
-component from Winograd and the micro
-Planner component from Jerry's,
+component from Winograd and the Micro-Planner
+component from Jerry's,
 US right and and and and also it can
-contribution from this gaijin czarniak.
+contribution from this Eugene Charniak.
 (18:46)
-Yeah, and Czerniak is a is a brown and has
+Yeah, and Charniak is a is a brown and has
 been for many years, is that spelling?
-Czerniak ayaka something like attorney.
+Charniak ayaka something like attorney.
 (19:03)
 Yeah, and his contribution to Trudeau was,
 oh, I think it's something having to do with
@@ -462,7 +466,7 @@ I'm in a meeting with.
 I thought it was very good.
 Gonna take as much as I can get OK.
 Alright bye bye. OK, this next clip.
-Ginger czerniak yeah, and he has had
+Eugene Charniak yeah, and he has had
 a full career at Brown University
 and and and he's been associated.
 (20:03)
@@ -472,7 +476,7 @@ I think he had something to do with
 the semantics of of the language,
 semantics, interface or something in
 addition to micro planning, you may
-have also contributed to micro planner.
+have also contributed to Micro-Planner.
 The three of them sort of worked together,
 yeah? OK, yeah, so that's yes,
 that's a lot of stuff.
@@ -480,12 +484,12 @@ that's a lot of stuff.
 ### 03-gas
 
 Yeah, OK, then the next clip,
-which was oh three, yeah?
+which was 03, yeah?
 Or one really is just kind of 1 clip
 and that's all we actually was.
 (20:38)
 Two clips it it was the Minsky clip and
-then it was the the walls narration.
+then it was the the Waltz narration.
 And an 02 had had had a quite
 a number of clips there 03.
 I really should be broken out.
@@ -505,10 +509,10 @@ really want to get Shirley from there.
 So this is, yeah.
 Film #3 that yeah well film #3 I have
 already over and film number three was was
-more of Mike's best and there's gas and.
+more of Mike Speciner's gas and.
 (21:32)
 And I think it was mostly gas actually.
-So I basically spent near Saks,
+So basically Speciner's gas,
 so I've moved on here too.
 
 ### 04-cubechess
@@ -524,7 +528,7 @@ of scherdel and this also.
 (22:08)
 Yeah, right, right, that's right,
 and you can see here that it it it
-simulates on the 3:40 a a very simple
+simulates on the 340 a a very simple
 arm that can kind of comes down and
 sticks to the Cuban and picks up
 and has a a number of cubes here.
@@ -552,9 +556,9 @@ see we're seeing the.
 Yeah, and the first thing we see
 here is the Model 35 teletype.
 And this was the main console
-input of of the PDP 6 and then.
+input of of the PDP-6 and then.
 Then here he's sitting and there's
-the 3:40 there. There it is.
+the 340 there. There it is.
 What we're talking about and
 it's set up for chess here.
 He's got a.
@@ -605,7 +609,7 @@ the Council shot program.
 Since they're playing it can you 1968?
 Well, in the 65 it it could have,
 it could have.
-This isn't PDP 6 era so it's pretty early I.
+This isn't PDP-6 era so it's pretty early I.
 I think it's probably 65 or
 66 kind of area. Oh
 now here we see a shot of the console
@@ -619,10 +623,10 @@ then we see the actual console area itself.
 (25:42)
 Here's the lights and switches
 the machine had here and then.
-Here are the deck tapes.
-These little deck tapes, the deck.
-Each of these deck tapes held
-64 K words of 36 million words.
+Here are the DECtapes.
+These little DECtapes, the DEC...
+Each of these DECtapes held
+64K words of 36-bit words.
 So it was actually a a a non sequential
 device where the other peculiarity of it.
 (26:03)
@@ -638,14 +642,14 @@ The paper tape was built
 into the processor here,
 so we can barely see it actually.
 Now just to the left of the lower
-micro tape is the 400 character per
+microtape is the 400 character per
 second paper tape reader and then this.
 (26:37)
 This item here just to the left
 of the upper maintenance panel.
 Here is the burpee 60 character
 per second paper tape punch.
-And those were both built in to the PDP 6.
+And those were both built in to the PDP-6.
 And. And they were very similar to the
 corresponding items which are on the the.
 (27:00)
@@ -653,27 +657,27 @@ The punches are out.
 So the the yeah the the computer is
 using punch tape output and input input.
 Yeah, in an earlier at this era it
-looks like we were on micro tape.
+looks like we were on microtape.
 I mean in the very earliest days
-of the PDP six. Of course the
-micro tape software wasn't ready.
+of the PDP-6. Of course the
+microtape software wasn't ready.
 So in that case we were
 completely based on paper tape.
-So when you're saying micro tape,
+So when you're saying microtape,
 that's not the same as dictators.
 Yeah it is. It's exactly the same.
 (27:33)
 There was a a copy mark dispute
-and and and deck had to rename it.
+and and and DEC had to rename it.
 There was somebody else had
 copyrighted that word or something?
 OK, yeah, there's a light here,
 which is sort of preventing us from
-seeing the other pair of microchips.
+seeing the other pair of microtapes.
 This.
 This machine had a total of
-6 micro tape drives in pairs.
-Deck tape drives again the same same thing.
+6 microtape drives in pairs.
+DECtape drives again the same same thing.
 (28:00)
 And this right here is just a blank
 panel where where they still.
@@ -694,11 +698,11 @@ worth that is 16 registers.
 Which was the fast accumulator's and
 then further and then the next two days.
 Here are the memory that came with the
-machine from deck the the this was 16
-K of 36 bit words crossed $120,000.
+machine from DEC the the this was 16
+K of 36-bit words crossed $120,000.
 (29:11)
 And then sitting out here at the far end
-of the line is the fabric Moby memory.
+of the line is the Fabritek moby memory.
 And we we just get a little view of that.
 It's very likely that at this time,
 this mobile memory wasn't working is
@@ -714,12 +718,12 @@ It it it, it cost it was 256
 K of of 40 bit words,
 of which 36 could be used,
 and it costs $385,000 from
-fabric tech it was.
+Fabritek it was.
 (30:01)
 Well, that's what we've,
 that's a that's its name.
-That's what we called it and and Moby was is.
-Is is a you know is a Moby Dick?
+That's what we called it and and moby was is.
+Is is a you know is a moby Dick?
 Sort of a large and and it has
 some other connotation to it.
 Yeah so. You guys designed it.
@@ -737,10 +741,10 @@ We've got 400 grand and you you each
 get 400 grand to to do something with.
 So basically we took this 400 grand
 and and contracted to get this
-Moby memory and company again.
-Was fabric fabric tech fabric tech.
+moby memory and company again.
+Was Fabritek, Fabritek.
 (31:01)
-Patrick fabric tech.
+Patrick Fabritek.
 They're making this was a core
 memory you know, made of of,
 of of little Donuts and it's
@@ -772,11 +776,11 @@ But the conventional core
 you see this memory yeah,
 so the ratio of prices we can see.
 In other words this this memory on
-the end here was 16 K of memory.
+the end here was 16K of memory.
 It cost 120,000.
 Right and and this is 256 K.
-2 bit word 3636 so the PDP 6 is a
-36 bit machine and it had parity
+2 bit word 3636 so the PDP-6 is a
+36-bit machine and it had parity
 as well so it was actually 37.
 (32:32)
 So this is a foggy death now,
@@ -947,8 +951,8 @@ I'm not sure what this is.
 Now I take it back.
 This may not be.
 This looks like our blocks.
-Oh by Roger Banks phone number
-six film #7 is an arm and.
+Oh by Roger Banks film number
+six, film number six an arm and.
 I'm not even sure that it's here,
 and this might be the Stanford
 armor or someplace around.
@@ -980,7 +984,7 @@ and this is Stanford Tech.
 (40:04)
 I don't know very much about it.
 Did you operate?
-Well, well, the M farm was almost
+Well, well, the AMF arm was almost
 entirely under program control.
 It didn't have any interface that
 that Minsky Bennett arm did have was
@@ -1005,7 +1009,7 @@ Whatever it is.
 
 OK now if CLIP 7.
 OK, now here we go.
-Here's a here's a better shot of the PDP6
+Here's a here's a better shot of the PDP-6
 console area right at the start here.
 (41:00)
 So again, we see the teletypes.
@@ -1013,7 +1017,7 @@ There's a little bit different.
 We've moved the furniture around it,
 and in this picture and it it looks
 like the three 40s on the other side.
-OK and OK. Here's the MF arm.
+OK and OK. Here's the AMF arm.
 Again you can see here that it it.
 It had cylindrical coordinates.
 It it had a a rotate.
@@ -1033,7 +1037,7 @@ along as as it goes vertically,
 and it's geared to the extend motion.
 OK, now this this.
 (42:01)
-Person here is is Bill Gospar and
+Person here is is Bill Gosper and
 he was the primary programmer of
 this thing and and of the.
 And and and then,
@@ -1050,16 +1054,16 @@ As you see this hand it has a little
 gnome and a little little piece
 of metal with a triangle on it.
 Now what we're seeing here now
-is the video sector.
+is the vidissector.
 This this in this era we were probably
-working with 16 K of 36 bit memory,
+working with 16K of 36-bit memory,
 so there was no way that you could hold a
 whole raster of of of data in the computer.
 (43:00)
 You know it's just completely impossible.
 So in order to deal with that situation,
-we made our own camera called a video
-sector and this is a camera that had.
+we made our own camera called a vidissector
+and this is a camera that had.
 Random access deflection.
 You'd say you know I XY.
 You feed that out it it it
@@ -1073,7 +1077,7 @@ kind of looks like a bug running
 around on the screen right there.
 (43:37)
 That is actually the program reading
-input from the video sector and and
+input from the vidissector and and
 sensing the light sort of tracking along
 the lines of of the cubes and so forth.
 Whatever lines it finds in the scene.
@@ -1105,7 +1109,7 @@ what the program is doing right?
 So it's purely an output device.
 OK, but what's also going on is is
 that the program is also reading
-input from the video sector at
+input from the vidissector at
 areas corresponding to to where
 it's it's looking OK and and it's
 using the random access.
@@ -1117,7 +1121,7 @@ uh in the screen it you know,
 it's just steps right along that line
 that OK, what am I looking at here?
 OK, OK, what we're looking at here is
-the M farm and hand the image itself.
+the AMF arm and hand the image itself.
 I'm not looking at a screen no,
 no no this is this is the arm.
 Or no, this this is a a pictionary
@@ -1282,8 +1286,8 @@ I guess maybe we can get this first group.
 8-9 let's see here.
 (51:32)
 OK, now #8 is a sound.
-Picture and what this is is is logo.
-These are turtles made with logo.
+Picture and what this is is is Logo.
+These are turtles made with Logo.
 And we see here a turtle made out
 of stepping motors and and it has a,
 uh, a felt marker that it can
@@ -1292,7 +1296,7 @@ make things on and and this.
 Kid is is programmed to to to to make a,
 uh, a design here.
 One of the famous design that they made
-is called a squirrel and that one actually.
+is called a squiral and that one actually.
 And it's made by a very very simple.
 Per computer program.
 And it's a good hack to this day it
@@ -1300,7 +1304,7 @@ represents a tragedy that the the kids
 are not learning how to really program.
 They just play games with
 their computers and so forth.
-But this is. Is it still logo
+But this is. Is it still Logo
 stuff going on with everybody?
 Yes there is. It's it's almost,
 you know it's going on a few places.
@@ -1315,20 +1319,20 @@ but he may drop by occasionally.
 But yeah,
 of course Hal is in the in the building here.
 Yeah yeah. And how and in these days
-he was part of the logo group, right?
+he was part of the Logo group, right?
 Now there's other people too.
 (53:01)
 I know you don't want to give me a year.
 Yeah, I don't know it
 was something like that.
 Anyway, the these these turtle things could
-be made either on the 3:40 or on the.
+be made either on the 340 or on the.
 On a display or or with the physical turtle
 and these displays were very expensive,
 so that was a big problem was with
 how to make a a display for the kids.
 (53:36)
-Control it's being controlled by the logo
+Control it's being controlled by the Logo
 language and and the the console being used.
 Here is something called an executive port.
 Drawing on the screen, yeah,
@@ -1345,9 +1349,9 @@ device for the for the PDP.
 Well, I'm not sure which this
 this looks to me like.
 This was possibly being driven
-from the PDP six.
+from the PDP-6.
 I actually I think it was in later years.
-It was PDP 11 and then and
+It was PDP-11 and then and
 then different other things.
 But here at the at beginning
 here you see these consoles.
@@ -1424,11 +1428,11 @@ I think I think.
 Well, they have three kids
 who know what's going on.
 I mean they they they well,
-we had a logo sitting here and they're
+we had a Logo sitting here and they're
 they're giving teletype commands, yeah,
 and there's there's illustrations of that.
 (57:33)
-There's this logo programming language,
+There's this Logo programming language,
 you know which is designed so it
 had a sort of a built-in editor,
 and it had everything else you need.
@@ -1471,7 +1475,7 @@ And this particular film I think.
 I'm not sure what display
 this is shot off of it.
 This looks to me like it might have been
-the 3:40 these kids might have come into
+the 340 these kids might have come into
 to our lab for this particular thing.
 So in this era,
 I don't believe they did have a a display
@@ -1500,8 +1504,8 @@ of two for example and and you
 and you have 3 consoles so that
 is absolutely incredible.
 They're out there in a school in 1968.
-Device coming back in to run the PDP six
-for the purpose of running a logo program.
+Device coming back in to run the PDP-6
+for the purpose of running a Logo program.
 Yeah,
 and they're doing this in
 their own class in their own
@@ -1516,7 +1520,7 @@ of the story is so tragic, I mean.
 (60:46)
 There may be reason why they don't
 tell it too often is because the
-this the you know this whole logo
+this the you know this whole Logo
 thing was was flubbed and but but as
 a historical fact this is as big a
 game as the one that we all remember
@@ -1587,7 +1591,7 @@ Friday through Friday.
 (63:37)
 I'll give you my number to contact
 information, so right now.
-(contact details removed)
+(contact details snipped!)
 (64:01)
 Yeah. OK, let me shut this off.
 Let me see how do I stop it now stop it.
@@ -1713,8 +1717,8 @@ That was an easy thing to do.
 ### 13-cubechess
 
 But OK, now here this is our robot.
-This is the M farm and we saw before and
-this is phone number 13 phone number 13
+This is the AMF arm and we saw before and
+this is film number 13 film number 13
 and I think this may be tower for now.
 (5:31)
 I'm not sure who this girl is.
@@ -1723,20 +1727,20 @@ probably an open loop picking up.
 We're just doing this
 terrible noise type of thing.
 OK now here we have chest which is my
-programming and it might be Carl Angleman.
+programming and it might be Carl Engelman.
 Anyway, it's we're looking
-at the PDP6 console area.
-The 3:40 is on the right,
-the micro tapes or visible.
+at the PDP-6 console area.
+The 340 is on the right,
+the microtapes are visible.
 This is a shot from the the
-screen and the free 40 display.
+screen and the 340 display.
 (6:04)
 Talked about that and it just
 looks like you're confusing just.
 This is commonplace now where you
 want to understand that this is like
 the first time for all of this stuff.
-Probably in 6768 years I would guess.
+Probably in 67, 68 years I would guess.
 
 ### 14-cube
 
@@ -1745,12 +1749,12 @@ Back with the AMF arm. According to my.
 (6:33)
 Yeah, my fine is the early around.
 Comes into play later.
-Well now the two of them were
-were were actually the same time
-the animal farm, the Minsky,
+Well now the two of them
+were actually the same time
+the AMF arm, the Minsky,
 and we built in machine from scratch.
 Ourselves is Skype Bill Bennett.
-The AM Farm was a industrial arm
+The AMF arm was a industrial arm
 from American Machine and foundry.
 We we interfaced it. Now here.
 Here's a good hack this.
@@ -1854,7 +1858,7 @@ As far as I know, I don't know.
 Anyway, I don't keep track of this stuff too.
 OK, let's see here.
 (10:31)
-Here is more AMF farm.
+Here is more AMF arm.
 Here it is finding cubes and
 picking them up and stacking cubes.
 Did you copy demo? This one?
@@ -1869,20 +1873,20 @@ OK, so that's that's #14.
 
 (11:01)
 OK, now now here we go
-with 1515 is the Ernst.
+with 15, 15 is the Ernst.
 So this is a new generation old,
 much older generation, this this.
 This was before I came to MIT by quite a bit.
 There's a guy named Ernst who had
-had made this arm for the TX Zero.
-The TX Zero was a very early computer.
+had made this arm for the TX-0.
+The TX-0 was a very early computer.
 It was the first computer
 was a transistor I CPU.
 (11:31)
 It was made at Lincoln Labs.
 There was a quick shot of the
 name plate as we went by there
-there's a picture of the TX0.
+there's a picture of the TX-0.
 So this was a very first
 computer with a transistor I CPU.
 It was in building 20.
@@ -1923,10 +1927,10 @@ There's a smaller direction to apply it.
 (13:02)
 That's right, that's right,
 and it's really a different direction.
-Also from the TX two at Lincoln Lab
+Also from the TX-2 at Lincoln Lab
 to follow when Lincoln Live got
 around to making their real machine,
-it was a 36 bit machine called TX 2.
+it was a 36-bit machine called TX-2.
 OK anyway, what we see here
 is this left double panel.
 Large thing to this to that's the CPU.
@@ -1935,7 +1939,7 @@ it had eight K of 18 bit memory.
 (13:34)
 This is the operating console
 area here and CRT display point
-plotting CRT similar PDP one.
+plotting CRT similar PDP-1.
 To the left of that is a switch is
 registered it had. 16 registers of.
 16 bits per switch so you know you
@@ -2005,7 +2009,7 @@ several years before I came on scene, but.
 But anyway, then when she didn't have,
 she was physically sitting.
 Oh, it's it seems only 26 it was.
-It was next door to the PDP one
+It was next door to the PDP-1
 on the 2nd floor of building 26.
 (16:32)
 Yeah, it it having been moved,
@@ -2056,7 +2060,7 @@ supplies were also largely vacuum tubes.
 And had.
 What kind of power they're putting up?
 Well, I don't know that yeah,
-I mean the the PDP one had.
+I mean the the PDP-1 had.
 Plus 10 and minus 15.
 What were the primary primary supplies?
 I don't know what they were on that Excel,
@@ -2110,10 +2114,10 @@ You know, back in you know,
 but even at that time you see it
 been quite a few years. I mean,
 when I was doing this this stuff here,
-you know it was 6360 four 6566 kind
+you know it was 63, 64, 65, 66 kind
 of thing and and then further on but
 but I probably saw this tape sometime
-in the neighborhood of 6667 maybe.
+in the neighborhood of 66, 67 maybe.
 And you know at that point that it already
 been eight years ago or something like that.
 (20:35)
@@ -2196,7 +2200,7 @@ OK, so that's that's 15.
 
 ### 16-solar
 
-OK, so now go on to 60.
+OK, so now go on to 16.
 I wonder when I see something like this,
 whether or not it's true.
 What you said that this stuff is
@@ -2232,10 +2236,10 @@ Color on any of our displays in
 those days that just make up.
 However, there was one.
 (25:01)
-The deck had made two.
+DEC had made two.
 Yeah, that's his. February 15, 1970.
 So so this one, yeah. Anyway, yeah,
-yeah there was a deck had made.
+yeah there was a DEC had made.
 Two color displays as an
 experiment and these were.
 Really humongous.
@@ -2248,7 +2252,7 @@ Early television we've got
 round screen thing.
 Well, this one actually wasn't round.
 Many of those CRT's in those days
-were were this one was was the
+were this one was was the
 CRT they'd been designed for.
 Regular for early part television.
 So so it it was sort of pseudo rectangle,
@@ -2289,15 +2293,15 @@ during this this color display
 having been made it was it was so
 low resolution there wasn't really
 a used anyone and and and basically
-it's it kind of sat around a deck.
+it's it kind of sat around at DEC.
 (27:16)
 One of them for for many years
 and somebody said well,
 let's get rid of this and give it to
 MIT so at a fairly late stage this
-this is 1970. We already had the K 810.
+this is 1970. We already had the KA10.
 During his so this is the
-successor to the PP. 6.
+successor to the PDP-6.
 (27:35)
 And we had the two computers set up
 in the same computer room and and we
@@ -2313,16 +2317,16 @@ serious modification to the guts
 of the PDP tend to add the paging
 box and while that was happening.
 (28:11)
-K10 was kind of out of Commission for
+KA10 was kind of out of commission for
 running time sharing for quite a while,
 but we would use it for running this
 color display and and and sort of games.
 Kind of as a separate processor,
 whereas the main load was on the
-Piedmont PDP 6. So for the multi.
+Piedmont PDP-6. So for the multi.
 (28:34)
 No, not yet, no.
-Our thing was a PDP6 and P-10.
+Our thing was a PDP-6 and P-10.
 Now the multiple people were
 at the other end of the floor
 and and they had a succession
@@ -2334,8 +2338,8 @@ Yeah? And then the CTSS people,
 well was much earlier, yeah?
 And then. Like that that's right.
 (29:06)
-CCTS followed Multics,
-follow following CTSS and I TS.
+CTSS followed Multics,
+follow following CTSS and ITS.
 Is still unique.
 OK, so now we're going here into 17. And.
 So the only one that needs real
@@ -2395,583 +2399,662 @@ but I think it probably was.
 I mean, they they have a tunnel type
 or one of these executive ports.
 (31:30)
-They they have the logo
-probing at Gramming language,
-logo, programming languages,
-commands like four week,
-10, you know right 90.
+They they have the Logo
+programming language,
+Logo, programming languages,
+commands like FORWARD
+10, you know RIGHT 90.
 So I said, yeah, OK.
 
-### 18-bongo
+### 18-bongo /
 
 OK, and then here's the number
-of these things that kids
-on bongo boards and I.
-It's really not too much.
-Like that was this this this idea of
-balancing was was a thing and and that that
+of these things with kids
+on bongo boards and I...
+there's really not too much there.
+This idea of
+balancing was a thing and that
 did have some serious things that people
-for a number of years worked on on the on.
+for a number of years worked on.
 (32:01)
-The idea of balancing a stick and and
-reading programs to do that and so forth.
-And it's still hot.
+On the idea of balancing a stick and
+writing programs to do that and so forth.
+
+*And it's still hard.
 It's still a hard problem.
 All these Japanese robots.
 They're able to walk on a flat
-surface will fall over very easily.
+surface but fall over very easily.*
+
 But anyway, yeah.
-Problem involved in balancing a stick
+The whole problem involved in balancing a stick
 was sort of a classical problem.
 It's not too hard,
-but was eventually done, but.
-It was worked on by number of people,
-different situations and
+but was eventually done.
+But it was worked on by number of people,
+different situations.
 
-### 19-cube
+### 19-cube /
 
-this is phone number 19.
+*And this is film number 19.*
+
 (32:31)
 Yeah, this is film number 19.
-This is the AMF AR.
+This is the AMF arm.
 This looks like it might be an open
-open cube stacking. I know it's a lot.
+loop cube stacking.
+
+*Similar to one of the films we saw earlier.*
+
 That's basically what it is.
 
-### 20-cube
+### 20-cube /
 
 Proceed onto to the 20s.
 (33:01)
-Free.
-So in 20 is also a farm. Tubestock
-again, I don't see any evidence of
+
+So in 20 is also a AMF arm. Cube stacking.
+Again, I don't see any evidence of
 any vision going on here, so I think I
 think this is just open loop stacking.
-(33:39)
-What you mean when you say
-open well some of these?
-These ones are our vision.
-You know where it's actually seeing the
+
+*(33:39)
+Tell me what you mean when you say
+open loop stacking?*
+
+Some of these, Gosper's ones, are vision.
+You know, where it's actually seeing the
 the cube and and figuring out where it
 is and doing all the transformations
-and going down and picking it up right?
-So you gotta censor up here.
-That's a light thing and then you got the
-hand down here and that's a closed loop.
-(34:00)
-So now we open loop who's doing the movie.
-The. The robot is just moving.
+and going down and picking it up, right?
+
+*So you got a sensor up here
+that's a light thing, and then you got the
+hand down here, and that's a closed loop.*
+
+That's right.
+
+*(34:00)
+So now with open loop who's doing the moving around?*
+
+The robot is just moving.
 You know, putting things back where
-I put them before and so forth.
-It's not not actually seeing anything,
-it's doing OK or or even
-no vision component to it.
-OK, so you've done that coordinate
-normalization activity before and the robot.
-Now the program has this understanding.
-Physical spaces and remembers.
-I put this on.
+it put them before and so forth.
+It's not actually seeing anything it's doing &mdash;
+there's no vision component to it at all.
+
+*OK, so you've done that coordinate
+normalization activity before, and the robot,
+now the program has this understanding of the
+physical spaces and remembers I put this on...*
+
 (34:31)
-I like your outline with your blind and with
-no touch sensor either really any any memory.
-I put block.
+Well, I like your outline with your blind and with
+no touch sensor either.
+
+*Any memory? I put block.*
+
 That's sort of before the thing starts.
 It would probably go down close and they
-would feed it to block or do something.
-You know that that's.
+would feed it the block or do something.
+You know that that's...
 
-### 21-bongo
+### 21-bongo /
 
 OK, now this this is Cynthia Solomon,
 who's briefly on this.
-And she was seen.
-Collaborator had previously been.
+And she was Seymour Papert's collaborator, 
+previously had been.
 She went back to school at one point,
-she was Marvin Minsky,
-secretary, and she she was,
-and she had been involved in
-logo for quite a few years.
+she was Marvin Minsky's secretary.
+And she had been involved in
+Logo for quite a few years.
 (35:10)
 Quite a difference in this situation.
 
-### 22-turtle
+### 22-turtle /
 
-So OK, so now we moved on to #2222.
-This is the big turtle.
+*So OK, so now we moved on to number 22.*
+
+22 &mdash; this is the big turtle.
 Drawing something.
-This is a. Squirrel polygenism music.
-And that's what Seymour Copper was
-talking about. In that other clip.
+This is a squiral polygon or something.
+And that's what Seymour Papert was
+talking about in that other clip.
 (35:34)
 A very popular thing for the kids.
 Very easy for the kids to draw.
 
-### 23-worm
+### 23-worm /
 
-Yeah, and here is some stuff
-for relatively short time.
-We ran this logo thing on the PDP 6 and
-and until they logo group eventually
-got their own PDP 11 I started
-something like what they call it.
-Promise this these are this
-this is this is a a worm,
-which means that it's it has a head
+Yeah, and here is some stuff.
+For a relatively short time,
+we ran this Logo thing on the PDP-6
+until the Logo group eventually
+got their own PDP-11 and started...
+
+*Oh my, what a... figures?*
+
+This is a worm,
+which means that it has a head
 and it kind of goes somewhere and
-then it leaves a trail behind a trail.
+then it leaves a trail behind, a trail
 (36:09)
-On the screen.
+on the screen.
 Through the program and the
 program has to refresh it.
 There's another popular program
-that you can write in local,
-particularly when it was on the 3:40.
-It's so yeah, there's several different.
-So. Beginning here, we have a short.
+which you can write in Logo,
+particularly when it was on the 340.
+It's so... yeah, there's several different...
+
+*So, what kind of stuff...*
+
+Beginning here, we have a short
 (36:35)
-File directory showing the very
+file directory showing the very
 short filenames. The filenames
-have two six character names.
+had two six character names.
 Very likely that was a directory of
-a micro tape micro tape, you know,
-held the 64 K of 36 bit words and
+a microtape. Microtape, you know,
+held 64K of 36-bit words and
 the directory structure held about
-45 miles or so that you could
-put on one micro tape you know.
-(37:00)
+40 files or so that you could
+put on one microtape, you know.
+
+*(37:00)
 Which is the stuff that I
-always call dictate?
-That's right, it's original name was
-micro tape and due to a copyright issue
-they they changed his name to duct tape.
-I I usually call it micro typing.
-Same stop, same stuff.
+always call DECtape?*
 
-### 24-worm
+DECtape, that's right. Its original name was
+microtape and due to a copyright issue
+they changed this name to DECtape.
+I usually call it microtape.
 
-OK, now we're at 24 now.
-This one is a little bit interesting.
-This one I I called up gospar
-after let me see couple of these
-things and he asked me did did did?
-Did I see something with all the
-circles and I said yeah I did and
-so here it is this this and I
-think this may be specially circle
+*Same stuff.*
+
+Same stuff.
+
+### 24-worm /
+
+*OK, now we're at 24.*
+
+Now this one is a little bit interesting.
+This one, I called up Gosper
+after you let me see couple of these
+things, and he asked me did 
+I see something with all the
+circles, and I said yeah I did.
+And so here it is &mdash; and I
+think this may be Speciner's circle hack.
 I don't know too much about the
-details of it this this next thing
-is definitely special nurse thing.
+details of it.
+This next thing
+is definitely Speciner's thing.
+
+*Speciner is spelt...?*
+
 (37:47)
-Personal.
-ECINER he's also reachable through
+SPECINER. He's also reachable through
 the MIT Alumni Association.
 And he's also local.
 I actually did call him and talk
 to him briefly and just let him
-know that these in the first guy,
-the other guy mentioned you
-said glossary called Gospar told
-him and and another third one
-is Bueller Bueller. I I.
-(38:13)
-Don't rush me.
+know that these...
+
+*And the first guy, the other guy you mentioned, Gosper you called him?*
+
+Gosper, I called him, and another third one is Beeler.
+
+*(38:13)
+GOSPER is Gosper?*
+
+Yes, OK.
+
 And Beeler, I have his phone number,
-but I haven't responded.
-We haven't succeeded.
-Anyway, This Is Us gas simulation,
+but I haven't succeeded in reaching...
+Anyway, this is his gas simulation,
 which we have several clips
-of it in various cities.
+of it in various of these.
+
 (38:31)
 And then here at the end, I'm not sure,
-just looks like some room.
+just looks like some... well,
 I'm not sure exactly what that is,
-something that display up overnight.
-And now here goes into color
-when it goes to color,
-then it's then it's on that color display.
+some kind of display hack.
+Now here it goes into color.
+When it goes to color,
+then it's on that color display.
 The color display had such low
 resolution that it could hardly
 display characters at all,
 so it was used mostly for
 display hacks and it also had
-this miss convergence problem.
-So it it really was not
+this misconvergence problem.
+So it really was not
 primarily useful for anything,
 it was just for making pretty pictures.
 (39:03)
 It could make pretty pictures.
 
-### 25-logo
+### 25-logo /
 
-OK, here we're looking over
-the phone number 2525 and
-this is Model 35 teletype.
-This is a logo and so they print
-quote in English should do that.
+OK, here we're looking over the...
+
+*Film number 25.*
+
+25 and
+this is a Model 35 teletype.
+This is Logo and so they print
+code in English... should do that.
 This is mostly the others.
-This is typing in one hole.
+This is typing in one whole
 (39:30)
-Program and then type in a Little
-Display, Act another little pro.
-Now now we have this circle thing again,
-which. Interesting,
+program and then type in a little
+display hack, another little program.
+Now we have this circle thing again,
+which is interesting,
 that should be on the same tape.
 I don't know and now we
 have the color thing again.
 OK, so the the particular
 juxtaposition of those on on the
 tape is somewhat interesting.
-I don't have any particular.
-What did. Why did God ask if you'd
-seen any of the circle stuff?
+I don't have any particular...
+
+*What did... Why did Gosper ask if you'd
+seen any of the circle stuff?*
+
 Well, he did, I don't know.
-I just you know that that that that yeah
-here we had some old tapes from PDP
-six days and I gave them the URL and.
+I just told him that
+here we had some old tapes from PDP-6
+days and I gave him the URL and
 (40:08)
-He said he was gonna maybe take a look.
-Take a look, OK?
-OK, so here we are at #25 and
+he said he was gonna maybe take a look.
+
+*Take a look, OK?*
+
+OK, so here we are at number 25 and
 this is also a big turtle.
-And.
+And, what's this?
 Some stuff. And then here's
 another turtle. This is a somewhat
-more plexiglass turtle with.
+more plexiglass turtle with,
 (40:40)
-Also with stepping motors and.
-Not so big and kind of a little more
-modern in the sense less overhead.
-It just has the stepping rotational anyway.
-That's that's also great physical turtle.
-OK, so that's 2025.
+also with stepping motors and
+not so big and kind of a little more
+modern in the sense of less overhead.
+It just has the stepping motors.
+Anyway, that's also the physical turtle.
+OK, so that's 25.
 
-### 26-robot
+### 26-robot /
 
 (41:01)
-I'm 60 now. 26 is shared.
-So that's one.
-Major major thesis.
+Now, let's see, 26. 26 is SHRDLU.
+
+*That was one of the big theses on the AAAI line.
+Very major thesis.*
+
 That's right, this is Terry Winograd,
-and basically this.
-Well, the English language
+and basically this,
+well, the English language
 component was Terry Winograd.
-But also Sussman and Czarniak
+Also Sussman and Charniak
 had major contributions,
 so the three of them worked together.
 I guess all three of their PhD
-thesis were involved in this,
-although some sense we really
-want to pull together,
-these sure do pieces of of clip into
+theses were involved in this,
+although in some sense...
+
+*We really want to pull together,
+these sure-do pieces of clip into
 a single thing and then have it
-linked into the feces on the three.
+linked into the theses for the three.*
+
 (41:41)
 Anyway, what you can see here is
 that it has a rather sophisticated
-English language than where it can.
-You can say things to it,
-it has a semantic database.
-Wearing it,
+English language thing where it can,
+you can say things to it.
+It has a semantic database, where
 it views this picture of the blocks
 world and can accept commands
 and notice things about it.
-And these blocks have colors and the
-summer pyramids and summer cubes and
-summers a box and they put things
-in the box or do this and that.
+And these blocks have colors and
+some are pyramids and some are cubes and
+some is a box, and you say "put things
+in the box" or do this and that.
+
 (42:08)
 It also has a simulation.
 It did not ever really interface
-to to the physical.
-Are mobile people try to do that
-a little bit but but it was.
-It was.
-The program was so big and
-together with the arm thing.
-Problem of getting those two linked together
+to to the physical arm, although
+people tried to do that
+a little bit, but
+the program was so big and
+together with the arm thing,
+the problem of getting those two linked together
 at the same time was probably difficult.
 But it did have a simulation, which is
-what we see here now in the 3:40 and.
+what we see here now on the 340.
 (42:33)
-It is this thing descending
-here is is just a very.
-Rough stimulation of the arm,
-but but it,
+And this thing descending
+here is just a very rough simulation of the arm,
 but as you give it commands it will actually,
 you know,
-kind of reach down latch on to something,
+kind of reach down, latch on to something,
 pick it up and move it down
 and send it on something else.
-But they never sold that,
+
+*But they never solved that,
 so it works in virtual space,
 but they never actually got
-it to play in physical.
+it to play in physical.*
+
 Well, it could.
 (43:00)
-I mean, it's it's essentially
-trivial to do that, but they were.
-It was technical obstacles
+I mean, it's essentially
+trivial to do that, but
+it was technical obstacles
 because it was a big program,
-and in Lisp and got this thing
-was a machine language and and
-just just the problem of getting
+and in Lisp.
+And Gosper's thing
+was in machine language, and
+just the problem of getting
 the two of them running together
-and and communicating was was
+and communicating was
 more trouble than it was worth.
-OK, but here it is here haven't
-given any command here it is picking
-up a blog and putting it down.
-Simulates that.
-(43:32)
-Now when I grab the big deal is that
-he's doing this in the English language.
+
+*OK.*
+
+OK, but here it is, having given it a command,
+here it is picking up a block and
+putting it down.
+It simulates that.
+
+*(43:32)
+Now Winograd's big deal is that
+he's doing this in the English language.*
+
 Well, there's there's a
-number of that's right.
-I mean, this has a.
+number of... that's right.
+I mean, this has quite a sophisticated
 English language component.
-So it has a language component.
-It has a linguistic component.
-Rather, I should say and and then
-it had the implementation involved.
-This thing called micro
-Planner which is a famous.
-Sussman and Czarniak together did it,
+So it has a language component &mdash;
+it has a linguistic component, rather, I should say &mdash;
+and then it had the implementation, involved
+this thing called Micro-Planner
+which is a famous...
+
+*That was Sussman?*
+
+Sussman and Charniak together did it,
 and exactly what the division of
-Labor is between the two of them.
+labor is between the two of them,
 (44:02)
-I don't know,
-but micro planner is not taking
+I don't know.
+
+*But Micro-Planner is not taking
 these words then and taking a
-command like move the block,
-yeah, and then breaking up well.
-Micro Planner was a thing
+command like "move the block",
+and then breaking up... designing a sort of sketch for it?*
+
+Micro-Planner was a thing,
 involved backtracking,
-so essentially what it is is as a solution.
-You know, sort of problem solving solution.
-In micro planning you could write a program.
+so essentially as a solution,
+you know, a sort of problem-solving solution.
+In Micro-Planner you could write a program.
 The program would go off and try and
-do something if it if it reached a
-certain thing it it had a provision to
-say OK stop you, you do not win a fail.
+do something. If it reached a
+certain thing, it had a provision to
+say OK, stop, you're not winning, fail.
 (44:38)
-It could then.
-Go back to the last point.
+It could then
+go back to the last point
 It made a choice,
 undo everything,
-get back to that point and then
+get back to that point and
 then proceed along a different
-path so it was non deterministic.
-In that sense you could get to a program
+path, so it was non-deterministic
+in that sense. You could get to a program
 and there's multiple ways forward.
-It would try one that failed,
-then then then,
+It would try one &mdash; if that failed,
 then backtrack and go to the others.
-(45:06)
-It's a big deal.
-I have a strategy and.
-The thing is,
-it works pretty well.
-I mean it was.
-Aside from just the backtracking of it,
-it had a database and had a number
-of other things that I was like
-micro planner, and this is certainly.
-Recollection was session was definitely
-a major play with that program.
 
-### 27-solar
+*(45:06)
+It's a big deal, to have a strategy and...*
+
+The thing is,
+it worked pretty well.
+I mean, aside from just the backtracking of it,
+it had a database and had a number
+of other things. I always liked
+Micro-Planner, and this is a certain...
+
+*Your recollection was Sussman was definitely
+a major player with that program?*
+
+Yeah, Sussman and Charniak.
+
+### 27-solar /
 
 (45:31)
-OK, now we're 27.
-OK, and this is the. Music.
-We had had music on the deck
+OK, now we're at 27.
+
+*And this has sound.*
+
+OK, and this is the music.
+We had had music on the DEC
 computers for many years.
-A guy named Peter Samson who was
-a mile railroad guy and so forth.
-Originally did a music
-system for the PDP one.
+A guy named Peter Samson, who was
+a model railroad guy and so forth,
+originally did a music
+system for the PDP-1.
 And it was based on what was called
-the program flags there were.
+the program flags.
+
 (46:02)
-There were these lights that that on the
-PDP one that were just could be tested by,
-you know skip on program flag one
-or skip program Flag 10 and it
-also where we're on the console
-and it was a physical light bolt
+There were these lights on the
+PDP-1 that were just... could be tested by,
+you know, skip on program flag one
+or skip on program flag one-zero.
+And also were on the console,
+it was a physical light bulb
 that you could see on the console.
-You could could be set up to the
-program to do whatever it wanted
-and so the the interface simply
-consisted of of connecting.
-The light drivers that were driving
+You could be set up to the
+program to do whatever it wanted.
+And so the interface simply
+consisted of connecting
+the light drivers that were driving
 these lights on the console through
-a capacitor to to a mixer and
+a capacitor to a mixer and
 an audio amplifier.
 (46:37)
 So it was purely a square wave kind of
-thing and the the computer was making
+thing, and the computer was making
 music simply by toggling that at an
-audio rate and the PDP one was fast enough.
+audio rate and the PDP-1 was fast enough.
 It could do it for sort of three
-parts more or less before.
-The sample rate became too
+parts, more or less, before
+the sample rate became too
 low and you got aliasing.
-It's beginning to sound bad
-when we got the PDP six,
-we just updated the the the same program
-and and it's P6 being faster and so
-forth we were able to do 6 parts.
-(47:16)
+and it began to sound bad.
+When we got the PDP-6,
+we just updated the same program,
+and the PDP-6 being faster and so
+forth, we were able to do 6 parts.
+
+*(47:16)
 And this is a recognizable song.
-Yeah, so you gotta score someplace.
-Or Oh yeah, this is this is typed
+So you gotta score someplace?*
+
+Yeah, this is typed
 in from sheet music in many cases,
-and there was a compiler called.
-It wasn't really very much a compiler,
-but I did reformat things and and
-basically do a certain amount of.
-(47:36)
+and there was a compiler called...
+it wasn't really very much of a compiler,
+but it did reformat things and and
+basically do a certain amount of...
+
+*(47:36)
 Now this is all pre Moog synthesizer
-and all that kind of stuff right?
+and all that kind of stuff, right?
 This is just the original notion
-of taking well switch switch.
-This is
-1969. Yeah, see this.
-This is this is quite old.
+of taking a machine...*
+
+Well, uh, Switched-On Bach...
+
+*The date on this is 1969.*
+
+Yeah, see,
+this is quite old.
 We'd had music much earlier than.
 So, so that's right,
-this this is probably not moose incisor,
-but but but the original PDP1 music I
-think may make might very well have been.
+this is probably not previous to the Moog synthesiser,
+but the original PDP-1 music, I think,
+might very well have been.
 (48:06)
-Again, you have to work out.
-Look at the exact dates, but.
+Again, you have to work out...
+look at the exact dates, but...
 But basically that was already
 going when I got to MIT in 62,
-so Sampson actually hacked that.
-Sometime 62 or earlier.
-I got you on my team for 62.
-So original computer science had an
+so Samson actually hacked that
+sometime 62 or earlier.
+I got to MIT in Fall 62.
+
+*So original computer science had an
 artistic connection to it right away.
-It's only later if there were
+It's only later...*
+
+There were
 a few other computerized music
-things that that that existed in
+things that existed in
 those days that were pretty funny.
 (48:37)
-The one thing that was not done by us
-but was just as something at the time
-there was something called a 650 change.
-You know, the IBM big IBM computer centers
-had had the machine called a 1401,
-which was.
-Peripheral processing to the 79 well,
-those those machines had
+One thing that was not done by us,
+but was just something at the time...
+there was something called a 650 chain.
+You know, the big IBM computer centers
+had a machine called a 1401,
+which was peripheral processing to the 7090.
+Well,
+those machines had
 a high speed printer,
-but they change and somebody at
-IBM generated a music thing that
+but with chains. And somebody at
+IBM generated a music thing
 that basically had to do with,
-with striking printing things
+with striking, printing things
 on that thing at the right time,
 and so forth.
 (49:11)
-And for for marching kind of thing
-for percussive kind of thing.
-It actually sounded pretty good.
-It's pretty interesting sound to it.
+And for a marching kind of thing,
+for a percussive kind of thing,
+it actually sounded pretty good.
+It's a pretty interesting sound to it.
 But you know,
-so there were just a few things that
-they held up creating that chain.
+so there were just a few things that were...
+
+*They held up creating that chain.
 For the Arabic,
 Farsi and so forth languages for so
-long because they wanted to just
-create one change for that entire region.
+long, because they wanted to just
+create one chain for that entire region.
 (49:36)
 So in the same way that the
-change that they had for the for
-the European had the unlocks and
+chains that they had for
+the European had the umlauts and
 the other pieces in the chain.
-So they just manufacture, want change.
+So they just manufacture one chain.
 They wanted to play the same game with
-that region of the of that kind of alphabet.
+that region of... that kind of alphabet.
 So they talked about it
 for 10 years or something.
 By the time they finally saw
-that we moved on to Doc.
-You know the whole thing,
-we can't move.
+that we moved on to dot...
+you know the whole thing
+became moot.*
+
 Yeah,
-the chain was really printer of
+the chain was really... a printer of
 those days was really quite a piece
-of logic and that she really went
-around pretty fast and and the thing
+of logic, and that chain really went
+around pretty fast. And the thing
 skipped when it went to form feed one page.
 (50:12)
-It really moved fast with 75
-inches per second or something so.
-So occasionally when it when
-it would shoot too much,
-it it it would eat.
-Florist.
-Operationally, down at the Houston
-Spacecraft Center they had several of
-these 14 oh ones lined up and people would
-come in and get output on huge sheets
-of these these huge sheets of paper.
+It really moved fast, 75
+inches per second or something,
+So occasionally when
+it would shoot too much...
+
+*This thing would eat a forest!
+In a large operation, like down at the Houston
+Spacecraft Center, they had several of
+these 1401s lined up, and people would
+come in and get output on
+these huge sheets of paper
 (50:38)
-This thing worked on.
+this thing worked on.
 They came in with two wheels and
-pick up a stack of output that which
-I thought was immoral. Well, yeah.
+pick up a stack of output that high, which
+I thought was immoral.*
+
+Well, yeah.
 When it was printing it,
 it was only 600 lines per minute,
 which in those days was a lot.
-But that's I mean it's it's
+But that's bzzzzzz...
 it's 10 lines per second,
 so it's going pretty good,
-but it's but it you know the
-paper is moving kind of slow.
+but the paper is moving kind of slow.
 (51:01)
-But then when it gets to the the you
-know the page object to move to the
-top of the next page and it's not,
+But then when it gets to the
+page eject to move to the
+top of the next page, and
 it's in the middle of the
-previous page or something.
-You know it goes shoot,
-you know it.
-Really it doesn't waste anytime moving
+previous page or something,
+you know, it goes shoot!
+You know it
+really doesn't waste any time moving
 that page at all to get to the next thing.
-So that's the only way to get information.
-Well, a couple of people in external
-laboratories are good screen,
-but the world at large.
-The only thing you're getting is
-you're getting these things in the
-world of business and so forth is
+
+*So that's the only way to get information.
+A couple of people in external
+laboratories have got screens,
+but the world at large,
+the only thing you're getting is
+you're getting these things.
+The world of business and so forth is
 all running with these huge reports,
 and that's it.
 (51:30)
-Biggest thing on a blog.
+The 1401 is the biggest thing on the block.*
 
-### 28-logo
+### 28-logo /
 
-OK, and and this is again we're
-now looking at take 28 and this
-again is logo on the on the 35
-teletype so just demonstrating that.
-And more logo and then and then.
-This is a short thing of 340.
+OK, and this is again... we're
+now looking at tape 28, and this
+again is Logo on the 35 teletype.
+
+*So just demonstrating that.*
+
+And more Logo... and then
+this is a short thing of the 340.
 Again it looks like a lot of this
-stuff was from the year that we,
+stuff was from the year that we...
 which was fairly short when we were
-running logo on the and then here's
-a circle thing circle come back.
+running Logo on the... and then here's
+a circle thing.
+
+*The circle's come back.
 (52:00)
-We need to know there's a spiral thing yeah?
-And let's see now this this one
-doesn't look like it's color they.
-Put together and there's.
-OK, well anyway clips have
+We need to know...*
+
+And there's a spiral thing.
+And, let's see now, this one
+doesn't look like it's color.
+Somebody just put it together,
+and there's something like that.
+OK, well, anyway, clips have
 assembled for who knows what reason.
 
 ### 29-solar
@@ -3045,8 +3128,8 @@ Republican Governor of Massachusetts.
 (54:30)
 OK,
 well here we here we have some
-more stuff off the 3:40 it starts
-with this special news gas thing
+more stuff off the 340 it starts
+with this Speciner's gas thing
 again and then some more circle.
 OK so now that gas thing again
 is the model of a.
@@ -3065,8 +3148,8 @@ direction of the deflection.
 So yeah, I think I guess right?
 Yeah, I guess it's safe.
 But anyway, I think that this this
-this circle thing is also specialist.
-I think that's probably also specialist.
+this circle thing is also Speciner's.
+I think that's probably also Speciner's.
 This this is a contour thing and.
 I, I think this this we had
 a earlier clip of this guy.
@@ -3077,54 +3160,57 @@ that's that's the name comes up on.
 (55:33)
 It wasn't a close social minded.
 
-### 31-robot
+### 31-robot /
 
 OK, so now we are on 31. And again,
 we're looking at a 35 teletype.
-Typing in a logo procedure.
-And.
-You got a pretty bad ribbon.
-Of course in those days.
-Any kind of a console thing
-was dependent upon the ribbon
-you had to change the ribbon,
-the ribbon and it was full
+Typing in a Logo procedure.
+And you got a pretty bad ribbon.
+Of course in those days,
+any kind of a console thing
+was dependent upon the ribbon.
+You had to change the ribbon,
+and it was a whole
 hassle connected with it.
 (56:08)
-There there is some more 340 display.
-I think it looks like and and
+There is some more 340 display,
+I think it looks like, and
 the turtle and little man there.
-So this again is mislabeled.
-That's being called a robot, but it's not.
-It's really the church.
-Well, it's mostly turtle squirrel.
-And then there's a fairly interesting.
 
-### 32-mathlab
+*So this again is mislabeled.
+That's being called a robot, but it's not.
+It's really the turtle.*
+
+Well, it's mostly the turtle, and the squiral.
+And then there's a fairly interesting...
+
+### 32-mathlab /
 
 (56:30)
-OK, so now we're ready for
-32 like that somebody.
-Stand it up.
-This is this guy.
-2.
+OK, so now we're ready for 32...
+
+*I feel like that's somebody.
+That's got to be a standard equation of some sort.*
+
+This is this guy...
+
+*32.*
+
 Let's see.
-Blocked.
-OK, just a block down here.
+Blocks... OK, just a block diagram here.
 It doesn't show very much about it now.
 I believe that this thing
-was was a. That was not
-instead this. This thing guy
-named Engelmann did
+was a... not Macsyma. Instead, this thing that the guy
+named Engelman did.
 
 ### 33-cube
 
 OK 33 this
 is cube 33 OK and here we are OK
-here we are picking the Norman.
+here we are picking the gnomon.
 (57:20)
 OK there you can see where
-the Norman is on the magnetic
+the gnomon is on the magnetic
 thing we aren't reaches up,
 pulls it off and if it drops it.
 Stop the film. They stop the film
@@ -3143,8 +3229,8 @@ a magnet or anything, no.
 (58:04)
 Is that, is that normal?
 OK, now. This this is the lights of
-the processor. Now the PDP6 processor.
-And then. We had 219 inch relay
+the processor. Now the PDP-6 processor.
+And then. We had two 19-inch relay
 racks to the right of the machine
 to the left of the of the console,
 which were the guts of the processor
@@ -3174,15 +3260,19 @@ tube there and then in front of me,
 the operator console.
 There was the the lights and the actual
 operator switches which consisted of.
-Of long finger stretches,
-he's really nice buttons that you
+Of long finger switches,
+really nice buttons that you
 can operate to start the machine
-and stop part of the PDP great
-this is this is high class.
+and stop
+
+*Part of the PDP-8?*
+
+This is high class. The PDP-8 is el-cheapo!
+
 (59:33)
 This is this is great.
 Yeah,
-I'm more of them and so forth
+And more of them and so forth
 because it's much more expensive
 machine and basically that the
 the registers that the programmer
@@ -3211,11 +3301,11 @@ and in order to to reload the paper
 tape or empty the chat box and and
 so it's it's slid back in and then
 there wasn't an empty panel where
-where the microchips were mounted
+where the microtapes were mounted
 typically and then below that was.
 (60:50)
 The.
-There was a whole 36 bit word of
+There was a whole 36-bit word of
 lights which which were there was
 a set of address switches.
 (61:01)
@@ -3247,7 +3337,7 @@ it's going to load those lights as well,
 so hopefully things will stay In Sync.
 Yeah and then then below those 36 lights
 was 36 which is we just called the
-native word and the PDP 6 again had this.
+native word and the PDP-6 again had this.
 (62:06)
 This problem with getting started?
 I mean you know,
@@ -3276,7 +3366,7 @@ shadow memory that was safe.
 You reference those things,
 you got the accumulator system that
 there was another feature of the
-PDP6 which turned out to be a bad
+PDP-6 which turned out to be a bad
 feature in the later versions of it,
 but they're initial idea was that
 you could actually speed up your
@@ -3307,7 +3397,7 @@ Well, occasionally that would
 get wiped out and.
 And when that happened then then that church.
 You would have to actually key in and
-and the people of deck actually did that.
+and the people of DEC actually did that.
 They had to key in about 8 or 10 words
 of 36 foot boards with with the keys.
 You know.
@@ -3427,21 +3517,21 @@ OK, now this looks like I think that
 this is this is a mathematical thing.
 I'm a 35 or security 5 and.
 From this thing, I can't tell whether
-it's maxima or or engelmann's math lab,
+it's Macsyma or Engelman's Mathlab,
 but just because of the other things,
-I think it may be math lab.
-The maximum system, did you know
+I think it may be Mathlab.
+The Macsyma system, did you know
 work on this on this, you know this?
 They got their own machine at a fairly
 early stage, but but there was a time.
 (69:00)
 Of course when they didn't have a machine,
-so the maximum machine that I
-was familiar with was a PDP ten.
+so the Macsyma machine that I
+was familiar with was a PDP-10.
 Well, that's right.
-We we got kaitens in late 60s and there
+We we got KA10s in late 60s and there
 were three of them on the 9th floor there.
-That AI lab had one maximum
+That AI lab had one Macsyma
 group had one and the the dynamic
 modelling group under look like one.
 But this is this is the AI machine because.
@@ -3449,12 +3539,12 @@ Warning display we're seeing here.
 (69:31)
 OK, we see refreshing so taking 35 we're
 looking at either a running version of
-maxima or a running version of math Lab,
+Macsyma or a running version of Mathlab,
 both running in the same laboratory.
 Well, they were somewhat
 competitive projects.
-This guy, Carl angleman.
-Associated with Mitre,
+This guy, Carl Engleman.
+Associated with MITRE,
 which is my Theresa government consulting
 output and so on and and originally MIT but
 eventually became a separate corporation.
@@ -3468,165 +3558,194 @@ so whenever he was around.
 So anyway, I think that that's what it was.
 His he attempted to do some stuff.
 
-### 36-wireforks
+### 36-wireforks /
 
-OK now here is this wire for us.
-This is on the color display on the 36.
+OK now here is this wireforks.
+This is on the color display...
+
+*This is on the 36?*
+
 Yeah, this this is one of the
-things that kind of displays that
+things, the kind of displays that
 you could do on this color display,
-which it was good for us is basically
+which it was good for. It's basically
 making a fireworks display,
-and so it's so again the world at
+and so it's...
+
+*So again the world at
 this time is still playing completely
 in print on paper and MIT labs.
 (70:39)
-I'm beginning to develop this
-whole business of well I guess
-in some way actually.
-Maybe this this color display as I
-described was was given to MIT as
-a hand me down six or eight years
-after it had been built it from deck
-deck deck had built these two things
-in the early PDP one days but deck
+are beginning to develop this
+whole business of screen...*
+
+Well I guess in some way, actually...
+
+*Tektronix was years later.*
+
+This color display as I
+described it was given to MIT as
+a hand-me-down six or eight years
+after it had been built.
+
+*From who?*
+
+From DEC. DEC had built these two things
+in the early PDP-1 days.
+
+*But DEC
 at that time was all MIT people.
 (71:08)
-They roll out the door they roll
-into into deck right?
-No. Well, I mean I, there's a lot,
-but I wouldn't, you know it was.
-It was, you know,
-those are close connection, but it wasn't.
-Well, it was a separate company too.
-I mean, it was it wasn't
-a very close connection.
-Pretty close I would say.
+They roll out the door, they roll
+into DEC right?*
+
+No. Well, I mean, there's a lot,
+but I wouldn't, you know it was,
+you know,
+those are close connections, but it wasn't,
+well, it was a separate company too.
+
+*It was a very close connection.*
+
+Pretty close, I would say.
 Well, it was close enough that they
-gave MIT their number 3 PDP one
-for example and then and then us.
-(71:38)
-They got the first one, it was number 3.
+gave MIT their number 3 PDP-1
+for example, and then, and then us, we...
+
+*(71:38)
+They got the first one, it was number 3.*
+
 It was actually the first one and then there
-was one given to BBN ever sold to BBN.
-In this ours was actually the first one
+was one given to BBN, sold to BBN.
+And ours was actually the first one
 that was in the final configuration.
-If you look at the pictures of the PDP one,
-the blue thing with the with dancing
-the MIT was the first of those, the.
+If you look at the pictures of the PDP-1,
+the blue thing with the fancy...
+the MIT one was the first of those.
 (72:03)
 Two earlier ones were sort of a
 desktop configuration that would
 look completely different,
-but it was the same machine,
-but maybe three became the actual
-production format of the action.
-But anyway, after like fireworks,
-yeah, that's what this is.
+but it was the same machine, but...
+
+*But the model three became the actual
+production format of the machine.*
+
+But anyway, after...
+
+*Like fireworks?*
+
+Yeah, that's what this is.
 This is fireworks on the color display.
 But anyway, you get to the question
-of what you're displaying out.
-I I think we were able to make a little bit.
+of what you're displaying.
+I think we were able to make a little bit of use here.
 (72:30)
-You see, this had being several
-years later and and this business
-about the PDP 10 but we had a K
-810 driving this color display.
-Very likely at this time so that was a
+You see, this had been several
+years later, and this business
+about the PDP-10... we had a KA10
+driving this color display
+very likely at this time. So that was a
 much faster machine that was, you know,
-five microseconds per instruction.
-Average and mean that it was made
-by using flip chips and it had
+five microseconds per instruction, average.
+And it was made
+by using flip chips and
 it had an integrated circuit.
-The fast accumulator's of the of the
-PDP six of P10K10 were were 16 bits per
-per per chip and so you know instead of
-being a 19 inch relay rack that they.
+The fast accumulators of the 
+PDP-6, the PDP-10, KA10 were 16 bits per
+chip and so you know instead of
+being a 19 inch relay rack that the
 (73:13)
-Fast accumulator's were about 6 inches
-or so of a of a flip chip plug in,
-so you know this. Again, the serious.
-Beginnings of integration.
+fast accumulators were about 6 inches
+or so of a flip chip plugin, you know.
+
+*This is again, the serious...*
+
+The beginnings of integration.
 The very beginnings of integration
-as far as tech is concerned,
-all the logic was still discrete transistors,
+as far as DEC is concerned.
+All the logic was still discrete transistors,
 but it was sort of a second generation
-discrete transistor called Flip Flop
-opposed to the first generation.
+discrete transistor called flip chips
+opposed to the first generation,
 (73:41)
-Discrete transistor called system modules.
-The system modules where they
-know decade in the very original
+discrete transistors called system modules.
+The system modules were, you know,
+know... DEC in the very original
 days was a module company.
-They weren't even the computer company
+They weren't even a computer company,
 they went into business making these
-modules so that had a a particular
+modules, so that had a a particular
 mechanical format and connector and
-everything called system modules
-and it kind of a a generalization
-of that was used for the pieces.
+everything, called system modules,
+and kind of a generalization
+of that was used for the PDP-6.
+
 (74:04)
 Anyway, getting back to this point here.
-In the days of the PDP one,
-I don't know what they did with it.
-I mean I was at deck and you know
-whatever customers they had but but
-with the PDP one they had even less
+In the days of the PDP-1,
+I don't know what they did with them,
+it was at DEC and you know
+whatever customers they had, but
+with the PDP-1 they had even less
 opportunity to do anything interesting
 with this color display because
 not only was it incredibly slow,
 but they all got incredibly
 slow machines and so forth.
-We at least had a relatively faster cycles
-to be able to play with sprinkles and it
-was it was completely dependent on that.
+We at least had a relatively faster machine...
+
+*Cycles to be able to play with sprinkles.*
+
+And it was completely dependent on that,
 (74:34)
-In order to even just play
-a little bit of stuff.
-Even so, it was really just good for.
-My pictures
+in order to even display a little bit of stuff.
+Even so, it was really just good for making pictures.
 
-### 37-robot
+### 37-robot /
 
-but I'm going to.
+*I'm going to...*
+
 OK, we are now in 37.
 OK, this says ETL robot and this looks like
-this is not ours so we might be able to.
-Well, it's a post thing, it's not.
-It's not the same thing we've seen before.
-It's it's an arm.
+this is not ours. So we might be able to...
+Well, it's a post thing, 
+it's not the same thing we've seen before.
+It's an arm
 (75:00)
-It's on a post.
+that's on a post.
 It's not ours.
-He has a group in Switzerland, so.
-But I don't know if it may have.
-Pasta is also possible.
-Something to do with. Anyway,
-yeah, this this is stuff which.
-So let's see.
-Patient polyhedrons using range?
-Oh yeah, and it's oh he T
-also has a thing in Japan.
+ETL is a group in Switzerland, so.
+But I don't know if it may have... it's also possible it may have
+something to do with Stanford.
+Anyway, yeah, this this is stuff which...
+
+Is this... recognition of polyhedrons using rangefinder?
+Oh, and he also has this thing in Japan.
+
 (75:36)
-Yeah, so this is.
-Here's some Japanese writing,
-so this this is your phone.
-This is so we want to either lose
-want to label. It definitely is.
-A farmer is not MIT film, right?
+Yeah, so this is, here's some Japanese writing,
+so this is Japan.
+This is...
+
+*So we want to either lose or want to label it. Definitely foreign, not
+MIT film, right?*
+
 Alright, so that's 37.
-And have TTL for this still around
-right? They get their phone.
+
+*And are ETL from this still around? They may eventually get their film
+back.*
+
 (76:07)
 There's a few people that were
-here and then and and went back to
-there
+here and then, and went back to
+there.
 
 ### 38-robot
 
-and maybe now this is also
+And maybe now this is also
 something I'm pretty sure this is.
-Stanford might be Sri,
+Stanford might be SRI,
 but this is a number 38 and
 assembly task where there is
 some kind of a generator and.
@@ -3705,7 +3824,7 @@ Yeah, and I'm not sure.
 This might be special,
 I'm not sure just exactly what this is.
 (79:00)
-This doesn't really look like logo no.
+This doesn't really look like Logo no.
 It looks like it might be related
 to that game of life kind of stuff.
 No it's not.
@@ -3758,7 +3877,7 @@ Stick figure, yeah.
 So because we don't have the head thing.
 We might try to speak up.
 OK, let's see. OK, so anyway,
-this is a stick figure logo. And.
+this is a stick figure Logo. And.
 He had some relationship to John Rowe.
 Now see that's actually interesting.
 This is a different form of. It's.
@@ -3779,7 +3898,7 @@ John Rowe and and, and yeah,
 that was. In the school,
 as it says here in the note. We we.
 One of the things we had at that
-stage was a data general supernova,
+stage was a Data General SuperNOVA,
 which is a so-called mini computer.
 Of those days it was.
 You know, kind of portable
@@ -3925,25 +4044,25 @@ To these notes.
 So let's see what we have 43.
 Drunk camera.
 OK, now that's a that's a picture off
-of the 3:40 that's assembly language
-code on the 3:40 that's on the screen.
+of the 340 that's assembly language
+code on the 340 that's on the screen.
 That person.
 (10:30)
 It almost looks a little bit like
 time makers, but I don't think so.
 So. OK, now now here is a a board
-that we had for micro tapes.
+that we had for microtapes.
 This is a board we used for storing
-these little micro tapes so each one of
-these tapes had 65 K of 36 bit words.
-Here someone is is mounting a micro tape.
-Mystics like it might be rich Zippel.
-Here's a console. The PDP 6.
+these little microtapes so each one of
+these tapes had 65K of 36-bit words.
+Here someone is is mounting a microtape.
+Mystics like it might be Rich Zippel.
+Here's a console. The PDP-6.
 There's a console switches.
 (11:01)
 There's a run light.
-Program counter micro tape goes.
-Spin the micro tape controller is
+Program counter microtape goes.
+Spin the microtape controller is
 over here to the right there was
 a whole 19 inch relay rack which
 was just the control for the micro
@@ -3976,7 +4095,7 @@ that first person is, but somebody.
 OK, now we go to the second
 clip and it's a cube sitting
 in the workspace there.
-And this is the M farm again.
+And this is the AMF arm again.
 (12:32)
 And. That's in Fr minutes hand.
 It comes down on top of the cube.
@@ -3989,7 +4108,7 @@ It's it's really yeah, yeah.
 (13:03)
 It's painful. Here we go again Gabon.
 So this is our take so just exactly why
-we have all these ******* here but.
+we have all these spazzes here but.
 OK.
 Here it's going again.
 (13:30)
@@ -3998,7 +4117,7 @@ Bond missed it altogether.
 I say it's behind them.
 Yeah, this this looks does not
 show any vision, so I don't believe
-that this is gospel program.
+that this is Gosper program.
 This is probably this tower of
 annoy program or something.
 It's it's just kind of open loop
@@ -4062,14 +4181,14 @@ That's Bennett again.
 And there is, they've got their
 arm mounted on the shoulder and.
 Trying to do something with it and OK,
-now there's micro tapes
+now there's microtapes
 again going spin spin.
-There's a PDP6 console
+There's a PDP-6 console
 scanning over here to the.
-Updated the micro tape controller.
+Updated the microtape controller.
 I think it's looking at the lights
-on the micro tape controller.
-The microchips had absolutely no
+on the microtape controller.
+The microtapes had absolutely no
 electronics whatsoever in the drives.
 (17:01)
 The drive was was relays to
@@ -4194,7 +4313,7 @@ Yeah he was a smoker and and in those days
 that was another form of air pollution which.
 (22:03)
 There actually were some people in the
-lab who were Bill Gospar, in particular.
+lab who were Bill Gosper, in particular.
 His father was a doctor or something
 that he was. You used to take a fan
 too to Chinese restaurants and things,
@@ -4220,10 +4339,10 @@ apply to that tape.
 ### 44-logo
 
 (23:02)
-OK, so now let's try 44 which is 44 logo.
+OK, so now let's try 44 which is 44 Logo.
 OK, let me get this will do the MP4 just.
 OK, and here we are looking at a 35 teletype.
-And this is this logo computer
+And this is this Logo computer
 language. Typing away.
 (23:41)
 The Zoom command is Apple Option 8.
@@ -4231,7 +4350,7 @@ OK, should be. It's a good
 thing to know which I. OK.
 Well, whoops.
 Episode
-yeah, so anyway it's printing out a logo
+yeah, so anyway it's printing out a Logo
 program here to me through some that
 it's nothing too interesting. TJ make.
 (24:18)
@@ -4241,7 +4360,7 @@ what that tape is. OK, now back here.
 Remember what this? Let's see.
 Delete should be back.
 OK, so anyway that's 44. Not too
-interesting, but it is early logo.
+interesting, but it is early Logo.
 
 ### 45-mac
 
@@ -4254,7 +4373,7 @@ like we're off by one or something or.
 (25:15)
 OK, now working OK now here is a
 label on the front which looks
-like it was shot off of the 3:40.
+like it was shot off of the 340.
 You can kind of tell the way that there's
 a beat with the refresh of the display
 and the and the frame rate of the film.
@@ -4266,7 +4385,7 @@ I think this is one that demonstrates
 it being used as sort of a control
 in this little game or something.
 Let's see if that's true.
-Anyway, that's the 3:40.
+Anyway, that's the 340.
 Now let's see what we got here.
 So here's somebody stepping up into
 the eye tracker position here.
@@ -4304,7 +4423,7 @@ I have no idea where and.
 (27:30)
 I think they're the ones who made this OK,
 now here we go.
-There's Marvin minsky.
+There's Marvin Minsky.
 Here's the Minsky Bennett arm here.
 Here he is waving it around.
 Prosthetic hand yeah this is just a fake
@@ -4315,7 +4434,7 @@ I I remember that piece of hardware,
 I don't remember exactly what it is actually.
 (28:02)
 OK, this is here.
-We are on the 3:40 it looks like.
+We are on the 340 it looks like.
 And it looks like we're the
 arm is is over some cubes.
 So I guess they.
@@ -4327,7 +4446,7 @@ In other words, this this visual device.
 We couldn't since we couldn't
 hold even one frame in memory,
 we had this random access camera
-device called a video sector and it's
+device called a vidissector and it's
 something we had to make ourselves up
 from from basically practically nothing.
 (28:40)
@@ -4335,13 +4454,13 @@ And it was a magnetic deflection device.
 OK, here it is, finding a cube,
 and so we see here.
 It's kind of crawling around
-and you can see on the 3:40.
+and you can see on the 340.
 Where it's it's looking.
 It's kind of.
 Crawling around in the cube in there that
 match found found the internal edges,
 and then there's the cute and wow. OK,
-here's the chest display again on the 3:40.
+here's the chest display again on the 340.
 (29:07)
 And here we are.
 Here it is again finding cubes.
@@ -4383,10 +4502,10 @@ The speed of the computer and
 nothing else and.
 So basically
 was a good coder and and there was
-this PDP nine that that had belonged
+this PDP-9 that that had belonged
 to the kludge it was floating around
 and so he coded up a just a tech
-program for the PDP nine and so I
+program for the PDP-9 and so I
 think this may very well be what this
 is even though this looks like a 340
 type of display I don't think it is.
@@ -4403,7 +4522,7 @@ to examine the tree.
 So many plies deep and then
 examine captures beyond that.
 OK, now here's the console of
-the PDP 6 area 35 teletype.
+the PDP-6 area 35 teletype.
 (31:33)
 There's some it looked like
 there was some 33 teletypes so.
@@ -4416,7 +4535,7 @@ was primary input device.
 In those days many years.
 Let's see, it looks like this is you
 can see a little bit of a console
-in the 3:40 display over here.
+in the 340 display over here.
 (32:09)
 OK, we got here.
 OK, now that this is is a what's called
@@ -4424,10 +4543,10 @@ a flip chip this this this strip.
 Here is a panel of digital logic.
 In that bad, I think that goes with this.
 (32:31)
-Presented video sector.
+Presented vidissector.
 Maybe that was a control for the vivisector?
-We we had several video
-sectors that we had made and.
+We we had several vidissectors
+that we had made and.
 I'm thinking maybe that was
 a control for one of them.
 OK, here we are looks like.
@@ -4446,7 +4565,7 @@ However, it's not. So again,
 here we got the labels off. OK.
 (33:33)
 Ralph has written a program with OK.
-Now this is Dave Walz.
+Now this is Dave Waltz.
 Recognize his voice disabled.
 Specify the physical nature
 of each individual line.
@@ -4528,7 +4647,7 @@ Let's see if that turns out to be true.
 Labels are displaced. Yeah OK the number.
 Yeah, something like that yeah.
 So anyway 47 according to me is.
-My notes here are supposed to be MF.
+My notes here are supposed to be AMF.
 So let's see what we've got here.
 (37:01)
 OK, there's a time that was.
@@ -4639,7 +4758,7 @@ though it's it's 48.
 (41:31)
 Yeah, OK, so now now we go for 49.
 It's 49. According to my notes,
-49 is a 340 logo turtle
+49 is a 340 Logo turtle
 actually come to think of it,
 this might very well be the supernova turtle.
 OK, yeah, there it is.
@@ -4681,53 +4800,55 @@ If you when you see this and
 this is kind of looks like it,
 I would say this is, you know,
 the point is is not very finely focused,
-and so the 3:40 was quite high.
+and so the 340 was quite high.
 (43:33)
 More focus, so I think that this
 is probably shot off of that.
 OK, so anyway, that's what that is.
-That's a display turtle.
-49 OK, so now we go on 250.
+That's a display turtle, 49.
 
-### 50-logo
+### 50-logo /
 
-OK now 50 is is a view out of the
+OK, so now we go on to 50.
+OK, now, 50 is is a view out of the
 window. And so this is actually
-interesting to some people this.
+interesting to some people.
 (44:08)
-Yeah, this this is here we see the parking
-lot there there where the Draper lab is now.
-That was all just an open parking lot.
+Here we see the parking
+lot there.
+Where the Draper lab is now,
+that was all just an open parking lot.
 Here is the tire factory which is
-over there where the where the other.
-I guess they're they're the deactivating
-part of the Draper lab is weather building
-that and this all was an industrial.
-Here's the railroad track here we see.
+over there where,
+I guess, the deactivating
+part of the Draper lab is, where they're building
+that.
+
+And this all was an industrial area.
+Here's the railroad track.
+Here we see...
 (44:32)
-Lots of pollution, you know.
+lots of pollution, you know.
 In those days there was all kinds of
-gases going on in Cambridge. They.
-The power plant burn coal down close
-to the river, so there was OK here.
+gases going on in Cambridge.
+The power plant burned coal down close
+to the river, so there was smoke out here.
+
 Here again we see just across
-the street across Hampshire St.
-And. Lots of.
-This and that. Here's
+the street, across Hampshire Street.
+And lots of this and that. Here's
 more of the parking lot.
 (45:09)
-Soon.
-It was a car. I said the air out which.
-You know, we're pretty much cars,
+These are the cars of the era, which
+you know, were pretty much cars,
 although they they look different.
 They got us around.
 They weren't anywhere
-near as reliable and they.
-Like other problems.
+near as reliable and they
+had their problems.
 (45:32)
-But
-OK, so that's that's that.
-That's that. Tape 50.
+But OK, so that's that.
+That's tape 50.
 
 ### 51-cube
 
@@ -4741,23 +4862,23 @@ Now here it is going to get this.
 It's trying to get the gnome and
 there's a magnet holder there.
 And oh, I see,
-and they know when he gospar has in his hand.
+and they know when he Gosper has in his hand.
 So he's he's only now dropping it in there.
 So it realizes that it it
 it it it has scripted.
 It does have that much force sense
 and now it's moving it around.
 And it moves it and then it searches
-for it with the video sector and
+for it with the vidissector and
 it finds it and it establishes
 the coordinate transformation.
 (46:37)
 And here we're looking at the
-3:40 and we're and it's able to.
+340 and we're and it's able to.
 Essentially,
 do a reverse transform and you see.
 You know what the grippers would look like,
-reprojected back to the to the 3:40.
+reprojected back to the to the 340.
 And OK, so it's moving around and it.
 (47:03)
 Calibrates itself in this.
@@ -4785,11 +4906,11 @@ OK, and these triangles I think it is.
 I think it took six positions
 so that that represents the.
 (48:01)
-Is 6. Inputs of the Norman at 6
+Is 6. Inputs of the gnomon at 6
 different positions of the arm,
 and then it solves equations,
 stab Lish transformations.
-OK, now there it is putting the Naumann
+OK, now there it is putting the gnomon
 back in place and it's if it works,
 it's able to do that without assistance.
 It can just sort of put it back up there.
@@ -4803,7 +4924,7 @@ It was able to to pick it up and put it back.
 Without assistance, fairly well.
 I was feeling happy.
 Had that.
-OK, here's gospar demonstrating that
+OK, here's Gosper demonstrating that
 that again there is a slight amount
 of force feedback on the fingers and
 he can just push it to at the fingers
@@ -4816,7 +4937,7 @@ It's as we saw with the other program.
 It it's it's capable of coming down on
 top of something and going minds and
 not really realizing what it's doing.
-Here is the video sector again
+Here is the vidissector again
 searching for Cuban, just hanging
 around and eventually finding it,
 and now it's going to send the arm down,
@@ -4828,9 +4949,9 @@ Puts it down somewhere so so so
 that's hand eye coordination.
 That's that's another good
 thing that this did not up here.
-Here's the video said here's
-one of the video sectors.
-We had two video sectors
+Here's the vidissector here's
+one of the vidissectors.
+We had two vidissectors
 that worked pretty well.
 This is a small one.
 And.
@@ -4862,7 +4983,7 @@ and it was very strong.
 (51:03)
 It was a big hydraulic motor.
 It was a 5 horsepower hydraulic
-source and the extent of the MFOM
+source and the extent of the AFM arm
 could really deliver a punch if it.
 Something went wrong and it
 decided to do that. It was.
@@ -4914,7 +5035,7 @@ And 52 is sure OK.
 (53:02)
 Sure, Lou. Is this?
 OK, so this is this is off the
-3:40 and this is a simulation.
+340 and this is a simulation.
 It's not a physical simulation,
 but it's actually rather good
 simulation of the blocks world.
@@ -4932,7 +5053,7 @@ This was basically the work of three people,
 primarily at Terry Winograd
 did the linguistics?
 Adjustment I think did microplanet.
-And then Eugene Czerniak also
+And then Eugene Charniak also
 had a thesis out of this,
 and I don't remember exactly what his did.
 There may be something you can
@@ -4960,7 +5081,7 @@ clip the whole thing. OK 53.
 
 ### 53-robot
 
-OK, 53 is a Walsh finger.
+OK, 53 is a Waltz finger.
 (55:04)
 OK, well here we have a little
 device which has tendons and
@@ -4988,16 +5109,15 @@ Work pretty well.
 OK, I'm here. Illustration of
 the motors in the gears and.
 Various winding things and so on.
-OK. So 4053 is the waltz finger.
+OK. So 4053 is the Waltz finger.
 
-### 54-bongo
+### 54-bongo /
 
 (56:34)
-54
-is bongo well. I don't think we even
+54 is bongo. Well, I don't think we even
 waste time on that if this is bongo. Yeah,
 there's quite a few kids on bongo boards.
-These are logo kids and not too much
+These are Logo kids and not too much
 more that can be said about it.
 
 ### 55-worm
@@ -5010,7 +5130,7 @@ idea of bound of balance was.
 (57:04)
 I've seen in you know that there was
 several aspects to that, and so I mean OK,
-here we have the video sector. And.
+here we have the vidissector. And.
 Looking at some seen here
 we got this fake hand.
 That's the first clip.
@@ -5060,13 +5180,13 @@ Let's take a look at this a little
 bit and see I that's George Mitchell.
 On the left there I believe.
 And so Alan Kotok was, you know,
-the code designer of this PDP 6.
+the code designer of this PDP-6.
 Is that is that that's not nice.
 It's not me.
 The person looking over his shoulder.
 I'm not sure who is. Right, yeah,
 now is it just yesterday or we could go?
-Alan kotok. Yeah I'm sorry.
+Alan Kotok. Yeah I'm sorry.
 (59:35)
 Two days ago yesterday two
 days ago two days ago.
@@ -5077,11 +5197,11 @@ Matthew is really quite a
 spectacular guy, and so forth anyway.
 Anyway, he.
 (60:01)
-He was the Co. Designer of this PDP 6.
+He was the Co. Designer of this PDP-6.
 The engineers in those days that
 they had sort of a senior one and
 a junior two guys worked as a team.
-So on the PDP 6 Gordon
+So on the PDP-6 Gordon
 Bell was a senior engineer.
 Alan Kotok was a junior engineer.
 Alan Kotok had had graduated at MIT.
@@ -5090,14 +5210,14 @@ McCarthy chess program.
 It was his thesis and so on.
 That was just before I came.
 And he was in a member of
-the Mile Railroad club.
+the Model Railroad club.
 (60:32)
 He was very prominent.
 Quite a figure at the mall.
 Very little club in a lot of ways.
-He then worked for deck and this
+He then worked for DEC and this
 this picture I think was taken in
-the very early days of the PDP6
+the very early days of the PDP-6
 when we just just had gotten. So.
 I I don't know if these clips are in order,
 that wouldn't necessarily. Anyway,
@@ -5112,25 +5232,25 @@ It's done a number of
 things and and including.
 The essay 10. There's company called
 Systems Concepts and and they did things
-for the PDP tending and included after
-decade abandoned the PDP 10 and it's a
+for the PDP-10 ding and included after
+decade abandoned the PDP-10 and it's a
 little bit before then to these folks
-made their own PDP 10 re engineered it,
+made their own PDP-10 re engineered it,
 made it run much faster and just
 with a very very small company.
 (61:46)
 Sold a bunch of them and it was a company
 called CompuServe which was quite
 prominent in the early timesharing.
-CompuServe used PDP 10s and a bunch of
+CompuServe used PDP-10s and a bunch of
 them they got from this SC company.
 (62:00)
 Anyway still not a whole lot of
 other things about Steve Nelson.
 He is close friend of mine so he still is OK.
 So here we are at the console of
-the PDP 10 there's code talkers,
-the micro tapes in the background and
+the PDP-10 there's code talkers,
+the microtapes in the background and
 machine in the background. Haven't.
 OK, now I see what we got here.
 I believe this guy on the right standing
@@ -5187,8 +5307,8 @@ Right down here. OK. And.
 I think it actually yeah this this.
 OK, there's a guy named the famous
 thing thing that was done with life
-at these days. Was Bill gospar.
-Bill Gospar became the world
+at these days. Was Bill Gosper.
+Bill Gosper became the world
 expert on life and discovered a
 number of cities puffer trains,
 and I'm not sure what all it's it's.
@@ -5201,12 +5321,12 @@ But, and this I'm not so sure this
 might be possibly be Bill graspers,
 or actually I think Bill Man wrote,
 wrote the program.
-Bill Gospar actually mainly
+Bill Gosper actually mainly
 just programmed the life.
 At the cellular automata level,
 he didn't write the underlying
 program that much, I don't think.
-So yeah, this this is possibly build gospar.
+So yeah, this this is possibly build Gosper.
 (65:35)
 Dot com it's a little right.
 Yeah it has a few little annotations here.
@@ -5276,7 +5396,7 @@ Well, that that is a thing.
 Of course you know.
 It's a simplification to have
 just a toy toy doned OK now.
-Here is some kind of a math maxima thing,
+Here is some kind of a math Macsyma thing,
 and the question is which one is it?
 As we were. Discussing the other day,
 there's. There's basically two
@@ -5284,17 +5404,17 @@ different mathematics programs
 that were going on at this time.
 (68:31)
 One of them was this.
-This guy Engelmann from from my dad who
+This guy Engelman from from my dad who
 was really just a guest and visitor and and
 his thing really wasn't well, it was OK.
 I mean, he was a good hack,
 but you know I didn't leave that much.
-And Mitre, being a government would dependent
+And MITRE, being a government would dependent
 upon government funding and so forth they do.
 They do really have the
 resources security too far.
 The other one, of course,
-was Joe, Moses, and Maxima.
+was Joe, Moses, and Macsyma.
 And that of course had
 had quite a bit longer.
 (69:02)
@@ -5310,7 +5430,7 @@ it might add, that's another story.
 (69:34)
 OK, so anyway, I'm not positive that
 based on this which which one this is?
-If this is engelmann's or if this is Moses.
+If this is Engelman's or if this is Moses.
 That's my mother. OK, so that's 57.
 
 ### 58-logo
@@ -5375,14 +5495,14 @@ OK 61.
 Yeah.
 OK, 61 is the. OK.
 (72:04)
-OK, here we are. OK this is a video
-sector finding cube searching around.
+OK, here we are. OK this is a vidissector
+finding cube searching around.
 Looks like it's found one.
 What's going on?
 Did they have zoom or something?
 Oh well, the camera zoomed deck OK.
 Now here's Lucy.
-Lucy was Professor Minsky secretary.
+Lucy was Professor Minsky's secretary.
 During an era she was very petite and
 this this was really a great thing.
 (72:32)
@@ -5422,13 +5542,13 @@ OK.
 63 test test.
 OK yeah, this is a game.
 This is looks like it's
-probably shot off to 3:40.
+probably shot off to 340.
 Not entirely positive is it looks
 probably is pretty sure it is,
 although it's a slight chance
 it might be baseless program.
 (74:33)
-Please run on this PDP 7.
+Please run on this PDP-7.
 I had a similar split.
 I think this one is probably mine.
 Wow. OK, that would reset the board.
@@ -5462,7 +5582,7 @@ Yeah, we only a few frames where we have
 a fairly decent picture of Jack Holloway.
 The other two people in this family.
 Exactly who you are. Who is Jim Taylor?
-Jack and that's Bill Gospel.
+Jack and that's Bill Gosper.
 They're going to the next cut.
 (76:30)
 Jack Holliway was a gifted programmer, and.
@@ -5512,7 +5632,7 @@ We have these boards and all the calders.
 Well, that's right,
 that was 35 just right there for
 the characters and then we had
-them in the deck 20s all the time,
+them in the DEC-20s all the time,
 sharing systems I had it and and then
 a few other machines around campus.
 They they architecture machine people,
@@ -5523,7 +5643,7 @@ connection connect and so on.
 So it was kind of predecessor
 before Ethernet was available.
 OK, now here we go with the this
-is Bill Gospar sitting here
+is Bill Gosper sitting here
 and somebody has a hand up for
 almost looks like lovely late.
 I'm not sure whose hand that is.
@@ -5560,9 +5680,9 @@ before Multics might have.
 Trying to do something I don't think.
 (81:01)
 I don't think it was Multics.
-Emphasis CCSS, so there he is,
+Emphasis CTSS, so there he is,
 taking away. And.
-Again, this is looks like it's maximum.
+Again, this is looks like it's Macsyma.
 Yeah, probably just taking all this.
 Problem.
 OK, and here's integrate sine X cosine X.
@@ -5571,11 +5691,11 @@ OK, so this this is that was his
 thesis was integral calculus.
 He did a bunch of stuff on that,
 and we've done it for years and.
-There was a big piece of Maxim.
+There was a big piece of Macsyma.
 It was immigration.
 Now exactly. What is his though I
 don't know what your this is this now
-at a later stage maximum did run on
+at a later stage Macsyma did run on
 Multics and these 2741 terminals we
 normally use with CTSS and MULTICS.
 (82:04)
@@ -5587,7 +5707,7 @@ It wasn't enough for me.
 We had, I think,
 a few times just for short term period.
 Sorry, we had 2741 interface to
-the to the PDP 10 via something
+the to the PDP-10 via something
 but normally one would not use
 this terminal and it was not a.
 (82:35)
@@ -5600,7 +5720,7 @@ so I'm not sure about that.
 It depends upon what era.
 They must take it.
 OK, but but anyway the.
-CTSS and maxima folks and
+CTSS and Macsyma folks and
 Multics folks wound up using
 these selected terminals.
 (83:07)
@@ -5631,7 +5751,7 @@ Yeah.
 Yeah, yeah. These are.
 And again, this is based on a
 raster type of thing which which in
-the days of the video sector was.
+the days of the vidissector was.
 (84:31)
 Very unusual and you know late,
 later of course you have a raster
@@ -5759,83 +5879,78 @@ Actually I think it's we
 started off with these things.
 Yeah, really quick, OK?
 
-### 70-gas
+### 70-gas /
 
 OK, so we're going to start
-off here and this is Friday.
-The 9th of June 2006 and.
-And basically 6968 sixty nine and
-70 are all special needs gas,
-and we're all pretty non interesting.
+off here and this is Friday the 9th of June 2006.
+And basically 68, 69 and 70 are all Speciner's gas,
+and they're all pretty non-interesting.
 
-### 71-robot
+### 71-robot /
 
 (2:02)
-OK, and then 71 was the ETL.
-Arm vision and drum.
-So that was doesn't have to do with us.
-It's I don't know if we're positively
-certain that it's from ETL, but it's.
-It's not from here then.
+OK, and then 71 was the ETL arm vision and drum.
+So that doesn't have to do with us.
+I don't know if we're positively
+certain that it's from ETL, but it's not from here.
 
-### 72-gas
+### 72-gas /
 
-72 was gas.
+Then 72 was gas.
 
-### 73-gas
+### 73-gas /
 
 And had the heart thing on at 73
 was also a little bit of gas.
 
-### 74-bongo
+### 74-bongo /
 
 74 was a bongo attempt
 with a 180 degree jump.
 
-### 75-logo
+### 75-logo /
 
 (2:34)
-75 was logo, big Turtle with some
-drawing and also some looking at the.
-At a 35 teletype doing logo
+75 was Logo, the big Turtle with some
+drawing and also some looking at a 35 teletype doing Logo.
 
-### 76-robot
+### 76-robot /
 
 76 was Mahabala vision,
-which Mahabala was a Pakistani.
-He he was a graduate student here.
+which... Mahabala was a Pakistani.
+He was a graduate student here.
 I believe there was a picture of
-him that we got of fairly good.
+him that we got, of fairly good.
 (3:01)
 He did some vision and we also
 got a fairly good picture of the
-video sector which was this video
-input device with the random
-access deflection that we.
-Made ourselves or actually that one.
-I think we,
-I think that one was made by tripolye.
-That view is is the generation of
-video sector that was in these films.
+vidissector which was this video
+input device with random
+access deflection that we
+made ourselves.
+Or actually that one,
+I think that one was made by Triple I.
+The TVB is the generation of
+vidissector that was in these films.
 We later had something called TVC.
 
-### 77-life
+### 77-life /
 
-OK 77 was life Allah Roger Banks so.
+OK 77 was life a la Roger Banks. So,
 (3:34)
 Roger Banks was a guy
 who worked with Fredkin.
-He worked on cellular autonomous Thomas.
+He worked on cellular automata.
 We had, I think earlier
-in this thing we had a a.
-A show of of him doing a constructor,
+in this thing we had
+a show of of him doing a constructor,
 and this was just simulating
-some seller Tom and his his
-cellular automata could do life,
+some cellular automaton.
+His cellular automata could do Life,
 but it could also do other games.
 (4:03)
 It was somewhat more general
-rules than than just life and so
+rules than than just Life, and so
 I think that that that clip was
 essentially a demonstration of that.
 
@@ -5844,13 +5959,13 @@ essentially a demonstration of that.
 78 is A is the arm the AMF arm
 and it basically showed scanning.
 Picking up some fingers,
-it showed that the the fingers on the 3:40,
+it showed that the the fingers on the 340,
 so it was one of the things
 that that was good about.
 (4:33)
 This was, I think it also showed some of the.
-The calibration with the GNOME and
-there was this little Nauman thing
+The calibration with the gnomon and
+there was this little gnomon thing
 which was designed to be held liable by
 the by the fingers of the arm and the hand.
 And it also had a magnet that kind of.
@@ -5863,8 +5978,8 @@ and also put it back up there.
 So I think we saw some of that.
 After it was, it was there,
 the arm would flip it over.
-There was a triangle on the GNOME and the
-video sector would find the triangle,
+There was a triangle on the gnomon and the
+vidissector would find the triangle,
 locate it,
 the arm would go to six different
 positions and it would calibrate
@@ -5873,13 +5988,14 @@ They.
 All the transformations involved
 and and then and then when it went
 to see to find blocks on the table,
-you and you were looking at the 3:40
+you and you were looking at the 340
 you would actually see the fingers.
 (5:40)
-Of the arms sort of appear on the 3:40 as if.
+Of the arms sort of appear on the 340 as if.
 You know they're being translated to the
-view Plainview port of the 3:40 and,
+view Plainview port of the 340 and,
 and that's what we saw on on 78.
+
 79 was something called teaching
 children thunking, and it was just a.
 (6:02)
@@ -5888,6 +6004,7 @@ It was some kind of a of a picture
 of a printing and and it wasn't
 clear exactly what it what it was.
 But anyway it was something OK.
+
 So now 78 I think is about to where we were,
 when when the big disaster happened.
 Let's see maybe. Well, maybe not.
@@ -5900,9 +6017,9 @@ my indexes are fusing.
 OK, so let's take a look at 78 cube here.
 OK.
 OK, and what we see is the
-video sector poking around.
+vidissector poking around.
 (7:01)
-And this is this is being shot off the 3:40
+And this is this is being shot off the 340
 and and it's just showing where it looks.
 It didn't have enough core memory to
 hold even a single frame video frame,
@@ -5925,10 +6042,10 @@ the triangle was seen in the in the viewport,
 when it when it was moved into
 different places with the arm.
 And here's more picking up.
-Here's the actual arm AM farm.
+Here's the actual arm, AMF arm.
 And it's got a fair pile of blocks here.
 (8:02)
-And there's gospar.
+And there's Gosper.
 And there's that moment it just put
 the nomin back up there, I think.
 And then it's kind of picking up
@@ -5999,10 +6116,10 @@ Let's go to the 90s, the nines.
 ### 80-cube
 
 OK, 80 cube is. It's again a
-pretty good one of of gospel and
-EMF farm according to my notes,
+pretty good one of of Gosper and
+AMF arm according to my notes,
 so that indeed seems to be the case.
-That's the same farm and TV be set up there.
+That's the same AMF arm and TV be set up there.
 (11:37)
 And this is fairly organized
 movie taking action where somebody
@@ -6043,7 +6160,7 @@ There's something I don't know him.
 But sitting on his stand over here,
 we can see this other.
 Monitor and that monitor is just
-slave to the 3:40 and basically.
+slave to the 340 and basically.
 With that you can look to see where it's
 looking where the program is looking,
 and you know whether the right
@@ -6076,7 +6193,7 @@ now yeah this this this display in the
 background is is one of these HP displays,
 so that's that's a random access display,
 quite fast deflection.
-As slave to the 3:40 so we can see
+As slave to the 340 so we can see
 that it has the same pictures as 340.
 (15:01)
 It's it's spot size is not nearly as
@@ -6105,369 +6222,375 @@ That's right at the end of the clip.
 (16:01)
 OK, so that's 80.
 
-### 81-mathlab
+### 81-mathlab /
 
-OK, now we're ready for 81. Uh.
+OK, now we're ready for 81.
 Oh, this is the one of Bill Martin.
-And Bill Martin had a had a thesis
-that he did on the 7090 where.
-It did a fairly elaborate mathematical
-notation printer you know with.
+Bill Martin had a thesis
+that he did on the 7090 where
+it did a fairly elaborate mathematical
+notation printer, you know, with
 (16:33)
-Multidimensions and integrals
+multidimensions and integrals
 and differentials and so forth.
 So here he is looking at this.
+
 Mathematics from an 1860 book or something?
 Famous book and paging through that,
 and then he's looking at some mathematics.
-Here. He input some mathematics.
-Here's a shot of his thesis, Martin.
+Here. He inputs some mathematics.
+Here's a shot of his thesis, Martin,
 (17:02)
-January 1967. And I think that
-might have been the secretary,
+January 1967.
+
+And I think that
+might have been his secretary,
 or conceivably his wife.
-I'm not sure who's at the console, the PDP 6.
-The microchips are spinning.
-Uh.
-And. No, now he's she's typing on the.
-On the. 35 teletype and, and here
+I'm not sure who's at the console, the PDP-6.
+The microtapes are spinning.
+Now she's typing on the the 35 teletype and here
 it is inputted, which she types.
 (17:34)
-She just typed something very simple, and.
+She just typed something very simple.
 And here's something a little
 more complicated, and it does a
 nice job of of printing that out.
-And dumb.
-Yeah I I think and it's saying math lab.
+
+And, yeah, I think it's saying Mathlab.
 I think that he had originally
 done this on the 7090 and I think
-he moved it to the PDP 6 this.
+he moved it to the PDP-6.
 (18:04)
-This is probably running all on the PDP
-6 so this is it was written on Lisp on
+This is probably running all on the PDP-6.
+It was written on Lisp on
 the 7090 so it wasn't too hard to move
-and it originally had been a a decoupling.
+and it originally had been a Deke Humboldt thing.
 The 7090 of course didn't have a
-direct display or other than the
-clouds which you didn't use and that
-was but he had some kind of a thing.
-I believe he did it on the PDP
-one for his actual thesis.
+direct display, other than the
+Coolidge(?) which he didn't use, and that
+was, but he had some kind of a thing.
+I believe he did it on the PDP-1
+for his actual thesis.
 But he had that body of code
-sitting around. OK, here we are.
+sitting around.
+
+OK, here we are.
 (18:30)
-Back to cubes and OK,
-that was quickly, then and then.
-Here's this fellow Carl Angleman.
+Back to cubes and OK, that was quickly then.
+Here's this fellow Carl Engelman.
 The other thing I should mention
 about Bill Martin is that he
 got cancer and passed away.
-A very tragic loss and.
-Yeah it was. It was in the early 80s.
-We within uh, within a fairly short period.
-We had David Marr passed away
-and and Bill Martin pass away.
-2 principles in the lab in
-the 82 or three in frame.
+A very tragic loss and...
+
+*When...?*
+
+Yeah it was, it was in the early 80s.
+Within a fairly short period,
+we had David Marr passed away
+and Bill Martin pass away.
+Two principals in the lab in
+the 82 or 3 timeframe.
+
 (19:04)
-Anyway, OK now. Here's the thing.
+Anyway, OK now, here's the thing.
 Here's what we were looking at when
 when the big disaster happened.
-OK, so here a little bit less
+OK, so here, a little bit less
 than halfway into the clip.
-We have a shot of what.
-Unfortunately we don't have very
-many shots of so that I was trying to
+We have a shot of what
+unfortunately we don't have very
+many shots of.
+So I was trying to
 stop it on this yesterday on Tuesday
 and the mouse driver fried and it
 crashed the machine entirely and
 we lost the whole session. So OK.
+
 (19:35)
 So what we see here is a little bit
 less than halfway into the clip.
-On the left is the Moby memory and we
-see it's it's two bays and we see.
-Just about a third of the Big Bay,
+On the left is the moby memory and we
+see it's two bays and we see
+just about a third of the big bay,
 which is where the the actual core
-memory stack was the the majority of
-the space inside the that whole Big
-Bay was actually filled with with the
-actual core memory and you know you
-could actually see see the physical
-core there and and begin to to look at it.
+memory stack was.
+The majority of
+the space inside that whole big
+bay was actually filled with with the
+actual core memory, and you
+could actually see the physical
+core there and begin to look at it when you opened it up.
+
 (20:07)
-If when you opened it up all
-this right hand Bay left.
-Yeah, right hand Bay.
-Is actually the interface,
-so this at the top of it our lights
+This right hand bay &mdash; yeah, right hand bay &mdash; 
+is actually the interface.
+So this at the top of it are lights &mdash;
 normal for memory that show the address
-and data and then then there's a few
-controls and this Rotary knob here is
-is a Rotary knob for the self tester.
+and data &mdash; and then there's a few
+controls and this rotary knob here is
+is a rotary knob for the self tester.
 (20:30)
 The memory had a built-in self
-test are so you could turn that
-Rotary knob to different places and
+tester. So you could turn that
+Rotary knob to different places
 and the memory would go through a
-pattern and you could you know put
-probes in there and it was.
-It was just really.
-Amazingly remarkable how small the
-signal was and so forth and so on.
-Maybe we come out of that pattern,
-but in the normal operation the memory that
-that that Rotary now would be straight up,
-and so on.
+pattern and you could, you know, put
+probes in there.
+And it was just really
+amazingly remarkable how small the
+signal was and so forth and so on,
+that would come out of that pattern.
+But in normal operation of the memory
+that rotary knob would be straight up.
+
 And then it also had a meter here,
-and a little dilly so you
+and a little dealy so you
 could do marginal test.
 (21:05)
 Marginal test is something that
 the old computers had where you
 could adjust the power supply
 just very slightly a little bit,
-and that way you could stress it so if.
-If you had something that was was flaky,
-you could try to to just adjust
+and that way you could stress it.
+So if you had something that was was flaky,
+you could try to just adjust
 the power supply just a little bit,
-and maybe it would would fail more
+and maybe it would fail more,
 and then maybe you could track
-it down and and and find out what
+it down and find out what
 was actually going on.
+
 (21:31)
-Oh OK,
-now the next two days here to
-the right of the mobi memory are
-the Type 163 Dec memory that was
+OK, now, the next two bays here to
+the right of the moby memory are
+the Type 163 DEC memory that was
 delivered with the machine.
-And it the memory actually
+And it, the memory actually
 occupied both of those bays,
-although the the right
-hand one wasn't too full.
-And so and and and not too
-long after this deck made,
-it had also a very similar memory to this,
-which which which it managed
-to fit all in one Bay.
+although the right-hand one wasn't too full.
+And not too long after this DEC made
+also a very similar memory to this,
+which managed to fit all in one bay.
+
 (22:04)
-But that was 16 K of 36 bit
+But that was 16K of 36-bit
 memory and it did have parity.
-And in fact on the right hand Bay
+And in fact on the right hand bay
 we see another set of lights at the
-top that was the parity option.
-The the base machine.
-The parody was not built into it, but it was.
-It was an option that you could
-buy an ad on the memory bus.
+top. That was the parity option.
+The base machine, the parity was not built into it, but it was
+an option that you could buy and add on the memory bus.
 (22:30)
 So when we first got our
 machine it didn't have parity.
-And I don't know if Dec gave it to us
-or if we decided it was worth while
-having the memory was pretty reliable.
-So I I think they may have given
-it to us or so. Just sort of.
+And I don't know if DEC gave it to us
+or if we decided it was worthwhile
+having. The memory was pretty reliable,
+so I think they may have given
+it to us or so, just sort of.
 Maybe it wasn't ready.
 The engineering wasn't ready
-initially anyway.
-That those lights there go went
-to the parody option and there
+initially.
+
+Anyway, those lights there went
+to the parity option and there
 was just a rack or two of logic
 in the top of the of the memory
-there and that simply computed
-the parity of 36 bits and.
+there, and that simply computed
+the parity of 36 bits
 (23:03)
-And road and and check that.
-And that was and that was
-a bit more the parody.
-OK, and and now here's a closer shot of
-the self test panel on the mobi memory
-we see the manufacturer which is fabric.
+and wrote and checked that.
+And that was the parity.
+
+OK, and now here's a closer shot of
+the self test panel on the moby memory.
+We see the manufacturer which is Fabritek.
 And the address and the data lights.
-And then they self test and the
-meter which is associated with the.
+And then the self test and the
+meter which is associated with
 (23:35)
-With a marginal test and let's see here
-what else we might have here is we.
-OK then then this next.
-OK then we go to a short thing of
-the cube and now the the the and
-then we had a short clip of of the.
-Display math Max mathematical display
-and now what we're seeing here.
+the marginal test.
+
+And let's see here what else we might have here.
+OK then then this next...
+then we go to a short thing of
+the cube and now we have a short clip of the
+display, the mathematical display,
+
 (24:03)
-22 users are sitting down at at something
-called the GE consoles. And these were.
-Uh, something that we bought.
-Quite early it was.
-It it it was a thing that that had
+And now what we're seeing here,
+two users are sitting down at something
+called the GE consoles. And these were something that we bought quite early.
+It was a thing that that had
 been made by General Electric and we
 made a whole new interface to it.
 (24:32)
-It actually had a Magneto restrictive
-delay line as the memory in it and it
+It actually had a magnetorestrictive
+delay line as the memory in it, and it
 supported four of these consoles and
-and we see one of the consoles a pretty
+and we see one of the consoles, a pretty
 good shot here in the middle of the
-screen they they view the monitor was
-was it was it just a studio quality TV
-set so it was a fairly high quality.
-Television set as such as would be
-used in a in a TV studio monitor of
-the day and the keyboard that that
-was used in those was was actually
-the keyboard from a 33 teletype
+screen.
+The view, the monitor was
+just a studio quality TV
+set, so it was a fairly high quality
+television set such as would be
+used in a TV studio monitor of
+the day.
+
+And the keyboard that
+was used in those was actually
+the keyboard from a 33 teletype,
 which was none too terribly good,
-and they had kludged a solinoid
+and they had kludged a solenoid
 to do the release.
 (25:17)
-The normally of course,
-in a teletype that there's a mechanical
-motor and one thing another that does the.
-You you.
-You hit the key and the key
+Normally of course,
+in a teletype there's a mechanical
+motor and one thing and another that does...
+you hit the key and the key
 actually has quite a lot of
 mechanics and locks and so forth.
 (25:32)
-So once one key is down that it
+So once one key is down, it
 actually mechanically prevents
 any other key from going down.
-And and there's little you know,
+And there's little
 switches that are closed that
 actually include the the character
 code for the key that you've hit,
 and then in order to reset it
-you need A to yank up again.
-Pretty hard on a on a reset bar,
-which kind of ***** it again for the
-next character, and they had just.
-Rigged up a solenoid in order to do that.
+you need to yank up again
+pretty hard on a reset bar,
+which kind of cocks it again for the
+next character.
+And they had just rigged up a solenoid in order to do that.
 (26:01)
 So it's pretty kludgy,
-although it it worked sort of
+although it worked sort of
 OK for the time.
-It it it it it only had 40 characters wide,
-so it was the the the amount of memory
-it was had and so on was the length
-of line was pretty totally short,
-but on the other hand we did
-have a wrap around thing and and
-basically it for its day.
-It was usable but but this is what we use
-for displays and you know in the same.
+
+It only had 40 characters wide,
+so the amount of memory
+it had and so on, the length
+of line was pretty totally short.
+But on the other hand we did
+have a wrap around thing and
+basically it, for its day,
+it was usable.
+But this is what we used
+for displays and in the same era
 (26:31)
-Where are they?
-Everyone else in the world?
-At the commercial companies
-customer of deck anyway,
-was using strictly printing terminals
-which were really much worse.
-I would say even though the
-screen was so small Stanford also,
-you know was interested in displays
-and trying to develop displays.
-One thing.
-Another OK here is somebody
+everyone else in the world
+at the commercial companies &mdash;
+customers of DEC anyway &mdash;
+were using strictly printing terminals
+which were really much worse,
+I would say, even though the
+screen was so small.
+Stanford also, you know, was interested in displays
+and trying to develop displays, one thing or another.
+
+OK, here is somebody
 sitting at a 35 teletype,
 and here's more mathematical stuff.
-Here's some more books and copying in.
+Here's some more books and copying in
 (27:04)
-Formulas off from the book.
+formulas off from the book.
 Fairly hairy formulas.
 And here, apparently we've got it copied in.
-And and here's a diagram of this thing.
+And here's a diagram of this thing.
 I think Martin said this simplification
-package I believe did become part of maxima.
-Later you'd have to get the final
+package I believe did become part of Macsyma later.
+You'd have to get the final
 word on that from from Joel Moses,
-but who is the main integrator
-of the maximum project?
-And so on. But I'm pretty sure
-Martin stuff went into that.
+who was the main integrator
+of the Macsyma project and so on.
+But I'm pretty sure Martin's stuff went into that.
+
 (27:38)
 And here's some things and OK.
-And oh, and here's doing integrating stuff,
+Here's doing integrate and stuff,
 so this is actually an
-early version of maxima.
+early version of Macsyma.
 I don't know if it was called
-maximine that at that point,
-but OK, so that's 81.
+Macsyma at that point.
+But OK, so that's 81.
 
-### 82-screen
+### 82-screen /
 
-The integral program, of course,
-was written by Joe Moses that was his
-thesis and OK now here is the other.
+The integrator program, of course,
+was written by Joel Moses &mdash; that was his
+thesis.
+OK, now here is the other.
+
 (28:04)
-The smoking the pipe on the GE
-console is this Carl Angleman guy,
+Smoking the pipe on the GE
+console is this Carl Engelman guy,
 and he was also interested in mathematics
 and also had some mathematic programs.
-He was. Wasn't was really sort of a visitor.
-He he was really associated with the Mitre
+He was really sort of a visitor.
+He was really associated with the MITRE
 Corporation and he was sort of trying
-to serve as an as an interface between
-Mitre and and US and something and.
+to serve as an interface between
+MITRE and us or something.
 (28:32)
-And of course Mitre was connected
-with the military and so forth. So.
-He he just sort of did things he wasn't.
-Quite as winning, but he
-was sort of a nice guy.
+And of course MITRE was connected
+with the military and so forth.
+So he just sort of did things &mdash; he wasn't
+quite as winning, but he was sort of a nice guy.
+
 OK, let's see what we see here.
-This and he had a program and this I
-think this this display here that we're
+This &mdash; and he had a program and I think this display here that we're
 seeing is very likely his program.
 (29:00)
 And it also could do mathematical type stuff.
-Not as fancy as maximum,
+Not as fancy as Macsyma,
 I would say as a general thing,
-but but it did have.
-It was an early effort and
+but it did have, it was an early effort and
 I'm sure had its points.
-OK, that's 82
+OK, that's 82.
 
-### 83-logo
+### 83-logo /
 
-83 logo. OK, it says logo
-werma OK so This is why I had.
-Yeah I know that to 3:40 it's not
-entirely clear whether this is a 340
-or this data general. Display and.
+83 Logo. OK, it says Logo Worm.
+This is... is that the 340?
+It's not entirely clear whether this is the 340
+or the Data General display and...
 (29:42)
-The only way you could talk to tell the
-difference would be that spot size,
-so the 3:40 has quite a bit finer points,
+The only way you could hope to tell the
+difference would be the spot size.
+So the 340 has quite a bit finer points,
 and these lines are fairly wide width,
-so I I think this may very well
-be the the logo display it was
-driven by a data Gen Supernova,
-which is an early mini computer and.
+so I think this may very well
+be the Logo display.
+
+It was
+driven by a Data General SuperNOVA,
+which is an early minicomputer, and
 (30:06)
-It was, you know,
-just after data General got started.
+it was, you know,
+just after Data General got started.
 I think it was about the second or
-third model that they put out and.
-Oh, it was, uh, about uh,
-it was a rack width and and and
-a full rack depth and about.
-Maybe 20 inches high or so and
-it weighed probably 100 hundred.
+third model that they put out, and
+it was about... it was a rack width and
+a full rack depth and about
+maybe 20 inches high or so, and
+it weighed probably 100, 150 pounds.
 (30:31)
-£50 is possibly carry it for
-a couple of people and it was
-a fairly fast little machine.
-Actually it I think it had eight
-K of memory and and two Michael,
-you know 16 bit and and maybe two
+It was possible to carry it for a
+couple of people and it was
+a fairly fast little machine, actually.
+I think it had 8K of memory, and
+16 bit, and maybe two
 microseconds or so cycle time.
-OK, so that's that. That's 83 now
+OK, so that's that. That's 83 now.
 
 ### 84-robot
 
 84 robot what do we got here 84 is
-again the AM farm calibrating again.
+again the AMF arm calibrating again.
 (31:09)
 And this looks like a fairly
 good thing of the calibration.
@@ -6475,16 +6598,16 @@ I think this is where it may screw
 up a couple times. Well, who knows?
 OK, so again it's playing with the
 gnome and it's doing the calibration.
-Errors gospar gossipers.
+Errors Gosper gossipers.
 Adjusting the camera settings.
 (31:33)
 And. Here we are taking pictures
 again snapping our thing.
 Again, it's. Arm is frosting ramp
 building towers and stuff here.
-Here again, we're looking at the 3:40
+Here again, we're looking at the 340
 and and we see the this transformation of
-the finger grippers right onto the 3:40.
+the finger grippers right onto the 340.
 (32:00)
 So you sort of get a realistic view
 of exactly what that would look like.
@@ -6523,7 +6646,7 @@ some oblong blocks.
 And.
 We got a little bit of a bug in the
 vector generator there for a moment.
-And. The three forty had a fairly
+And. The 340 had a fairly
 elaborate vector generator, and.
 (33:30)
 And increment mode generator
@@ -6579,7 +6702,7 @@ cost around $35,000 or something.
 It was 640 lines per minute,
 which was reasonably fast.
 It was before before the days of
-having a printer on the PDP one
+having a printer on the PDP-1
 I mean and and early days of PDP
 six we had no high speed printing
 at all and we just printed out on
@@ -6647,24 +6770,23 @@ that that drove the printer and did
 whatever was necessary to make it go.
 (38:03)
 We we had an interface to it.
-OK so now here's Engelmann
+OK so now here's Engelman
 showing something or other and.
 And that's and that's clip 85.
 
-### 86-bongo
+### 86-bongo /
 
 OK, 86 is bongo so I think
-we'll just skip over that
+we'll just skip over that.
 
 ### 87-cube
 
-87.
-Is cube. Something,
+87 is cube. Something,
 so let's see what that is.
 (38:31)
 OK, here we are.
-With this off the 3:40 watching
-the video sector scan around trying
+With this off the 340 watching
+the vidissector scan around trying
 to find the cube it looks like.
 It's kind of crawling around the
 cube and kind of remembering where
@@ -6763,14 +6885,14 @@ OK, so that's more arm, that's 87.
 ### 88-eye
 
 (42:30)
-OK, now we go to 8880 die.
+OK, now we go to 88, 88 eye.
 OK, we've actually. Oh now.
 This is actually the finished.
 The film with the color OK, now that's TVC.
 And now now we see there that
 this large brown thing is.
 Is is something we actually
-made is a a better video sector
+made is a a better vidissector
 with a big tube in it and.
 (43:02)
 And this is Dave Waltz.
@@ -6815,14 +6937,14 @@ Supper.
 Small fraction of the available
 because the machine has good ideas
 about where to look for lying
-and this this I think is walz's
+and this this I think is Waltz's
 thesis and he's describing it here.
 It it basically.
 Does parses the individual.
 (45:05)
 Interior lines and the vertices
 variously finding skeletons and OK.
-And now here we are back to the MF Farm,
+And now here we are back to the AMF arm,
 where we're doing some of this.
 And here it is finding vertices and
 let's you know what's this doing now.
@@ -6868,7 +6990,7 @@ but he built his own mice and he had
 some stuff with that that did some.
 Real time feedback.
 They had a fairly simple turtle that was
-and it was looking at a video sector.
+and it was looking at a vidissector.
 (47:36)
 Was looking at it and it was
 sort of direct coupled.
@@ -6880,7 +7002,7 @@ tightly well tightly coupled.
 In other words,
 you know we move that the turtle just a
 little bit and immediately see that in the.
-In the video sector and attempt to
+In the vidissector and attempt to
 generate a transformation between the two,
 and basically you know get the turtle
 to wear where you wanted it to go
@@ -6888,7 +7010,7 @@ without any without any actual sensors
 on the turtle itself, purely by vision,
 and without detailed calibration.
 (48:12)
-OK, Dave, Walt Patrick Winston.
+OK, Dave Waltz, Patrick Winston.
 Robert Woodham.
 OK they're all.
 OK,
@@ -6928,10 +7050,10 @@ That's that's 89.
 OK.
 So now we go through a ten MP4.
 OK 90 logo.
-Logo 340 ternel you think?
+Logo 340 turtle, I think.
 Yeah, so this is a fairly elaborate
-squirrel type of thing that kids can do
-very with very simple program, very elegant.
+squiral type of thing that kids can do
+very with a very simple program, very elegant.
 
 ### 96-worm (out of order)
 
@@ -6940,7 +7062,7 @@ OK, now we go for worm which is
 also number 90 and this again is is
 a display hack where it just with
 a simple program as a display of
-a directory or micro tape maybe.
+a directory or microtape maybe.
 And here's this little worm fish
 kind of flowing around.
 It's a simple rule.
@@ -6956,7 +7078,7 @@ where there are these patterns
 and and people didn't understand
 where these patterns came from,
 and they eventually found out that
-these patterns were were made by,
+these patterns were made by,
 you know, very early.
 Animals that were executing
 these simple programs and making
@@ -6968,76 +7090,75 @@ that that fairly elaborate track which
 didn't manage to be preserved for many.
 Many, probably millions of years OK.
 
-### 91-turtle
+### 91-turtle /
 
 Now here's the big turtle.
-And it's Jim just turning around here. And.
+And it's just turning around here.
+
 (51:36)
-Smarter long turtle.
-It's making a squirrel
+Some more turtle.
+It's making a squiral
 or a spiral or something.
 OK, so that's it.
 91 is the big turtle.
 
-### 92-turtle
+### 92-turtle /
 
-92 more big turtle.
-This picture was very popular with the kids.
-It was this was the first turtle
-ever made and people you know
-it just kept staying and use.
+92 &mdash; more big turtle.
+This big turtle was very popular with the kids.
+It was, this was the first turtle
+ever made and people, you know, just kept staying and use it.
 (52:02)
 It wasn't the most advanced and
-this or that but it was it.
-As far as the kids were concerned,
+this or that but it was,
+as far as the kids were concerned,
 it was one of the best ones.
-Most popular.
-OK, so there it is drawing away
+It was popular.
+OK, so there it is drawing away.
 
-### 93-cube
+### 93-cube /
 
 93 cube.
 OK, let's see.
 We've got some some blocks.
-Yeah, you could ever.
+Yeah, we got...
 (52:30)
-I can hear, let's see,
-zoom in, zoom out a little bit.
-Looks like it made it
+... let's see, zoom in, zoom out a little bit.
+Looks like it made a
 fairly high stack there.
-OK, now here is a a.
-I think this may be a contour map
-of of of that fake human hand
-just showing a complex thing.
-We unfortunately we didn't.
-We had very little thing this this
-may be the only effort to to really
-deal with complex smooth objects even
-present day and I think that maybe that
-linowitz guy or whatever it is basically.
-(53:10)
-So there's.
-Steps to draw draw card tours.
-OK, that's that's 93.
 
-### 94-solar
+OK, now here is a,
+I think this may be a contour map
+of that fake human hand
+just showing a complex thing.
+Unfortunately, we had very little time.
+This may be the only effort to to really
+deal with complex smooth objects even in the
+present day, and I think that maybe what that
+Lenowitz guy or whatever it is basically has.
+(53:10)
+So there's steps to draw contours.
+OK, that's 93.
+
+### 94-solar /
 
 Now 94.
-OK, this 94 now this is a it looks
+OK, this 94, now, this is... it looks
 like this solar data and it may
 have been sort of this propagation.
 (53:32)
 It looks like it may be a display hack.
 I don't know what that is,
 but this guy that did this is still around.
-Actually I haven't still haven't
+
+Actually I haven't &mdash; still haven't
 contacted him in many years.
-He used to be my roommate is
-my name is Mike Beeler and he
+He used to be my roommate.
+His name is Mike Beeler and he
 had gotten this data from some
 contact at Harvard or something,
-and so he just sort of did that as a.
-Demonstration for them.
+and so he just sort of did that as a
+demonstration for them.
 At the time it was pretty
 interesting for them.
 
@@ -7061,7 +7182,7 @@ of plexiglass OverDrive supported out of.
 Just looked up for the bottom. Here.
 Now you can see it turtle course,
 yeah, and it's just making a
-hexagon or something and squirrel.
+hexagon or something and squiral.
 So the turtles are great things for teaching
 kids and and you know, they they're.
 Well, they've been used a little
@@ -7084,13 +7205,13 @@ Seymour Papert has kind of come out
 of retirement and and Alan Kay is
 also involved in it and and basically
 they have a thing where where you can
-run logo right on your web browser.
+run Logo right on your web browser.
 (55:45)
 Now we're just saying any web
 browser that has Java,
 you know it has a box and you can
-type in a logo program and it will
-execute the logo program and and
+type in a Logo program and it will
+execute the Logo program and and
 there's another window that has the
 turtle and will draw turtle things
 and so that's a demonstration.
@@ -7098,9 +7219,9 @@ They're going to hack it up so that it has.
 (56:02)
 The full thing.
 In that way you know that will
-make logo instantly available to
+make Logo instantly available to
 sort of everyone over the web.
-And I remember doing logo like stuff
+And I remember doing Logo like stuff
 with that at a summer camp with Java
 where he wrote like a robot class
 and then we just drive it around.
@@ -7108,7 +7229,7 @@ Well, you know,
 it's just there's some of that and
 that's good that that was done.
 However,
-you know of course logo involved
+you know of course Logo involved
 programming and they involve switches,
 you know.
 (56:35)
@@ -7150,7 +7271,7 @@ went on to become a some note in
 the Internet and she's was at Sun,
 and I think she's now at
 Microsoft or whatever.
-But she was in the logo group and
+But she was in the Logo group and
 she had a idea for a card programmer.
 So this this device.
 Was three plexiglass strips and the
@@ -7206,7 +7327,7 @@ that would initiate the execution,
 and so the whole thing was very very
 very simple and even the smallest
 kid could could program with it
-and and and make squirrels and and
+and and and make squirals and and
 do various things and it it it.
 (60:03)
 I don't know.
