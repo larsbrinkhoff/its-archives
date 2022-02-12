@@ -13,6 +13,8 @@ This is an unedited automatic transcription with numerous errors.
 
 ## 2006-05-23
 
+### 01-eye
+
 (0:00)
 OK, this is Rick Greenblatt,
 and we're here in the office on Tuesday,
@@ -86,6 +88,9 @@ actually you'll see a picture of it here.
 So yeah,
 let's defer that discussion in second when
 we actually have the picture in front of us.
+
+### 02-robot
+
 Yeah, we're looking at tape two and the first
 part connecting these circles here is a hack,
 I believe,
@@ -471,6 +476,9 @@ have also contributed to micro planner.
 The three of them sort of worked together,
 yeah? OK, yeah, so that's yes,
 that's a lot of stuff.
+
+### 03-gas
+
 Yeah, OK, then the next clip,
 which was oh three, yeah?
 Or one really is just kind of 1 clip
@@ -502,6 +510,9 @@ more of Mike's best and there's gas and.
 And I think it was mostly gas actually.
 So I basically spent near Saks,
 so I've moved on here too.
+
+### 04-cubechess
+
 With four and for the first part of
 the clip is is actually the AMF arm.
 Doing the the so-called copy demo,
@@ -833,6 +844,9 @@ of simply hanging an audio amplifier
 and off of the light driver so.
 Depending upon what's going on,
 there may very well be a yeah yeah, alright.
+
+### 05-life
+
 So this is Phil #5.
 OK now film #5 is is mislabeled here.
 (35:01)
@@ -924,6 +938,9 @@ to Toffoli or any of them.
 Can I call them on that?
 No, that's right. That is true.
 That is true all right.
+
+### 06-robot
+
 OK, now this this is the Ernst.
 Well, well, I actually.
 I'm not sure what this is.
@@ -983,6 +1000,9 @@ Yeah, I don't know what it is I was doing.
 That's that's something OK.
 That's clip 6.
 Whatever it is.
+
+### 07-arm
+
 OK now if CLIP 7.
 OK, now here we go.
 Here's a here's a better shot of the PDP6
@@ -1256,6 +1276,9 @@ That's that's it, for that's #7 OK,
 let's stop there.
 Well,
 I guess maybe we can get this first group.
+
+### 08-turtle
+
 8-9 let's see here.
 (51:32)
 OK, now #8 is a sound.
@@ -1531,6 +1554,9 @@ Yeah, and this I'm not sure if this is
 a very this might possibly be safe.
 An early game, well, it's hard to say.
 OK, OK, that's let's clip 8.
+
+### 09-butterfinger
+
 OK, now we're good here.
 Last one for today.
 I think it's gonna be clip 9.
@@ -1581,6 +1607,9 @@ With a better understanding of the tools,
 I would just be able to skip
 to the end, but OK, stop.
 Recording test test test.
+
+### 10-robot
+
 (0:31)
 OK, yeah 10, here is a kind
 of Seymour Papert. And.
@@ -1638,6 +1667,9 @@ activity that came out was being
 able to control this turtle that
 that was a drawing mechanism device
 involved this programming language.
+
+### 11-robot
+
 OK, now this.
 (3:34)
 This.
@@ -1657,6 +1689,9 @@ And probably what you're saying is,
 there's a good chance we need to
 pull it out of the collection.
 With somebody else's work.
+
+### 12-robot
+
 And this and 12 also looks like it may be.
 (4:35)
 This is another one which is.
@@ -1674,6 +1709,9 @@ can't claim to fame is that it's doing
 a tracking of a line on the floor.
 Yeah, we did that too.
 That was an easy thing to do.
+
+### 13-cubechess
+
 But OK, now here this is our robot.
 This is the M farm and we saw before and
 this is phone number 13 phone number 13
@@ -1699,6 +1737,9 @@ This is commonplace now where you
 want to understand that this is like
 the first time for all of this stuff.
 Probably in 6768 years I would guess.
+
+### 14-cube
+
 OK, now we're onto #14 and back here.
 Back with the AMF arm. According to my.
 (6:33)
@@ -1823,6 +1864,9 @@ Sorting, so it's it's picked
 up all the cubes and it's
 sorted them according to size.
 OK, so that's that's #14.
+
+### 15-robot
+
 (11:01)
 OK, now now here we go
 with 1515 is the Ernst.
@@ -2149,6 +2193,9 @@ most probably made in support of
 his thesis. Say that control.
 (23:35)
 OK, so that's that's 15.
+
+### 16-solar
+
 OK, so now go on to 60.
 I wonder when I see something like this,
 whether or not it's true.
@@ -2305,6 +2352,9 @@ We don't know why I think
 it just intended to.
 Trying to give an idea of how
 you could use color to do so.
+
+### 17-turtle
+
 (30:04)
 OK here is is the big turtle.
 This was the original turtle.
@@ -2351,6 +2401,9 @@ logo, programming languages,
 commands like four week,
 10, you know right 90.
 So I said, yeah, OK.
+
+### 18-bongo
+
 OK, and then here's the number
 of these things that kids
 on bongo boards and I.
@@ -2374,6 +2427,9 @@ It's not too hard,
 but was eventually done, but.
 It was worked on by number of people,
 different situations and
+
+### 19-cube
+
 this is phone number 19.
 (32:31)
 Yeah, this is film number 19.
@@ -2381,6 +2437,9 @@ This is the AMF AR.
 This looks like it might be an open
 open cube stacking. I know it's a lot.
 That's basically what it is.
+
+### 20-cube
+
 Proceed onto to the 20s.
 (33:01)
 Free.
@@ -2420,6 +2479,9 @@ That's sort of before the thing starts.
 It would probably go down close and they
 would feed it to block or do something.
 You know that that's.
+
+### 21-bongo
+
 OK, now this this is Cynthia Solomon,
 who's briefly on this.
 And she was seen.
@@ -2431,6 +2493,9 @@ and she had been involved in
 logo for quite a few years.
 (35:10)
 Quite a difference in this situation.
+
+### 22-turtle
+
 So OK, so now we moved on to #2222.
 This is the big turtle.
 Drawing something.
@@ -2440,6 +2505,9 @@ talking about. In that other clip.
 (35:34)
 A very popular thing for the kids.
 Very easy for the kids to draw.
+
+### 23-worm
+
 Yeah, and here is some stuff
 for relatively short time.
 We ran this logo thing on the PDP 6 and
@@ -2478,6 +2546,9 @@ micro tape and due to a copyright issue
 they they changed his name to duct tape.
 I I usually call it micro typing.
 Same stop, same stuff.
+
+### 24-worm
+
 OK, now we're at 24 now.
 This one is a little bit interesting.
 This one I I called up gospar
@@ -2529,6 +2600,9 @@ primarily useful for anything,
 it was just for making pretty pictures.
 (39:03)
 It could make pretty pictures.
+
+### 25-logo
+
 OK, here we're looking over
 the phone number 2525 and
 this is Model 35 teletype.
@@ -2570,6 +2644,9 @@ modern in the sense less overhead.
 It just has the stepping rotational anyway.
 That's that's also great physical turtle.
 OK, so that's 2025.
+
+### 26-robot
+
 (41:01)
 I'm 60 now. 26 is shared.
 So that's one.
@@ -2701,6 +2778,9 @@ of other things that I was like
 micro planner, and this is certainly.
 Recollection was session was definitely
 a major play with that program.
+
+### 27-solar
+
 (45:31)
 OK, now we're 27.
 OK, and this is the. Music.
@@ -2872,6 +2952,9 @@ all running with these huge reports,
 and that's it.
 (51:30)
 Biggest thing on a blog.
+
+### 28-logo
+
 OK, and and this is again we're
 now looking at take 28 and this
 again is logo on the on the 35
@@ -2890,6 +2973,9 @@ doesn't look like it's color they.
 Put together and there's.
 OK, well anyway clips have
 assembled for who knows what reason.
+
+### 29-solar
+
 Yeah, OK, now we go to 29 and
 again it's a solar corona.
 This one actually has a title.
@@ -2953,6 +3039,9 @@ do with Massachusetts.
 So that was one of became transportation
 and Volpi, I think eventually became. And.
 Republican Governor of Massachusetts.
+
+### 30-gas
+
 (54:30)
 OK,
 well here we here we have some
@@ -2987,6 +3076,9 @@ name or who it is, and that's
 that's that's the name comes up on.
 (55:33)
 It wasn't a close social minded.
+
+### 31-robot
+
 OK, so now we are on 31. And again,
 we're looking at a 35 teletype.
 Typing in a logo procedure.
@@ -3007,6 +3099,9 @@ That's being called a robot, but it's not.
 It's really the church.
 Well, it's mostly turtle squirrel.
 And then there's a fairly interesting.
+
+### 32-mathlab
+
 (56:30)
 OK, so now we're ready for
 32 like that somebody.
@@ -3020,7 +3115,11 @@ It doesn't show very much about it now.
 I believe that this thing
 was was a. That was not
 instead this. This thing guy
-named Engelmann did OK 33 this
+named Engelmann did
+
+### 33-cube
+
+OK 33 this
 is cube 33 OK and here we are OK
 here we are picking the Norman.
 (57:20)
@@ -3255,6 +3354,9 @@ you know, determine where
 they lost the time pulse,
 or you know some figure out
 what's going on in there.
+
+### 34-robot
+
 (66:08)
 OK, now this is the eye tracking.
 We had a number of early eye
@@ -3317,6 +3419,9 @@ they were able to show the new bonds
 or able to recognize faces and that
 blew away the whole notion of the
 child as a clean slate at birth.
+
+### 35-screen
+
 (68:33)
 OK, now this looks like I think that
 this is this is a mathematical thing.
@@ -3362,6 +3467,9 @@ but it was still sort of family,
 so whenever he was around.
 So anyway, I think that that's what it was.
 His he attempted to do some stuff.
+
+### 36-wireforks
+
 OK now here is this wire for us.
 This is on the color display on the 36.
 Yeah, this this is one of the
@@ -3476,7 +3584,11 @@ was it was completely dependent on that.
 In order to even just play
 a little bit of stuff.
 Even so, it was really just good for.
-My pictures, but I'm going to.
+My pictures
+
+### 37-robot
+
+but I'm going to.
 OK, we are now in 37.
 OK, this says ETL robot and this looks like
 this is not ours so we might be able to.
@@ -3508,7 +3620,11 @@ right? They get their phone.
 (76:07)
 There's a few people that were
 here and then and and went back to
-there and maybe now this is also
+there
+
+### 38-robot
+
+and maybe now this is also
 something I'm pretty sure this is.
 Stanford might be Sri,
 but this is a number 38 and
@@ -3580,7 +3696,11 @@ closed space and if anybody crosses
 that line coming into this close,
 they will be shot.
 Scariest time. Had the ICBM guidance
-and so forth. Working on 39 the worm.
+and so forth.
+
+### 39-worm
+
+Working on 39 the worm.
 Yeah, and I'm not sure.
 This might be special,
 I'm not sure just exactly what this is.
@@ -3649,6 +3769,9 @@ yes, it's supernova.
 OK, looks like that's that's a little.
 Thing there tells me in a little
 bit I'm going to what that is.
+
+### 40-logo
+
 So so OK so 40 is.
 As in note here. Yeah it was.
 (2:31)
@@ -3668,6 +3791,9 @@ had a display turned on.
 And that's what it says.
 Here clip it's 40 inch.
 So I believe it.
+
+### 41-radial
+
 OK, so now 41.
 OK, now 41 is Draper Labs,
 so I don't know anything about that.
@@ -3760,6 +3886,9 @@ I haven't seen him in a number of years,
 but I I think I think it might be
 possible to to look him up and find him.
 Cool. OK, so here that's 41.
+
+### 42-radial
+
 Now we go on to 42.
 (8:02)
 OK, this is more a symbol of radio bearing.
@@ -3786,6 +3915,9 @@ and and so forth and so on so.
 So anyway. Yeah, I'm at that time.
 OK, so let's see here.
 Got here. So if that's 42.
+
+### 43-arm
+
 OK, so now here we go.
 (10:00)
 I'm 43 which is back to us.
@@ -4084,6 +4216,9 @@ so anyway that that was 43 that has that.
 We just looked at and and had that.
 The tape can comment does not
 apply to that tape.
+
+### 44-logo
+
 (23:02)
 OK, so now let's try 44 which is 44 logo.
 OK, let me get this will do the MP4 just.
@@ -4107,6 +4242,9 @@ Remember what this? Let's see.
 Delete should be back.
 OK, so anyway that's 44. Not too
 interesting, but it is early logo.
+
+### 45-mac
+
 OK, so now we're going to go to 45 and.
 25 robot
 OK, Now this is assemble radio bearing
@@ -4299,6 +4437,9 @@ Looks like trying to find some
 cubes on a table or something.
 And that's the end of it.
 I guess that's 45. OK, so now.
+
+### 46-robot
+
 We're going to go on here to 46 robot.
 OK, it's labeled as Stanford AI.
 However, it's not. So again,
@@ -4377,6 +4518,9 @@ I'm interested in as well.
 OK, so anyway, that's. 36
 OK, and this is definitely not does not
 go with that title of Butterfinger, OK?
+
+### 47-robot
+
 OK, so now we go to clip 47.
 OK, it says Bill Bennett arm.
 (36:30)
@@ -4459,6 +4603,9 @@ But so it's more that it's more that.
 OK, so that was that was the first time.
 Again, whoops. Alright, so that was.
 47 So now we're ready for 48.
+
+### 48-worm
+
 48 worm, but I don't think it is.
 Let's see what it is.
 OK, this is the bubble thing and.
@@ -4486,6 +4633,9 @@ OK, and then we went.
 Well, there we go. That's it, yeah.
 OK, so that's that's what that seems to be,
 though it's it's 48.
+
+### 49-worm
+
 (41:31)
 Yeah, OK, so now now we go for 49.
 It's 49. According to my notes,
@@ -4538,6 +4688,9 @@ is probably shot off of that.
 OK, so anyway, that's what that is.
 That's a display turtle.
 49 OK, so now we go on 250.
+
+### 50-logo
+
 OK now 50 is is a view out of the
 window. And so this is actually
 interesting to some people this.
@@ -4575,6 +4728,9 @@ Like other problems.
 But
 OK, so that's that's that.
 That's that. Tape 50.
+
+### 51-cube
+
 OK 51 cube.
 51 OK, 51 is supposed to be the solar corona.
 OK again that the comments here are are off.
@@ -4750,6 +4906,9 @@ OK, so here we are picking up cubes.
 I'm sweating tubes and and and that's
 pretty much what that clip is,
 that's 51.
+
+### 52-robot
+
 So now we go back to 52.
 And 52 is sure OK.
 (53:02)
@@ -4798,6 +4957,9 @@ so yeah. Yeah.
 So it's doing that.
 OK so 52 is sure. Pretty good
 clip the whole thing. OK 53.
+
+### 53-robot
+
 OK, 53 is a Walsh finger.
 (55:04)
 OK, well here we have a little
@@ -4827,13 +4989,20 @@ OK, I'm here. Illustration of
 the motors in the gears and.
 Various winding things and so on.
 OK. So 4053 is the waltz finger.
+
+### 54-bongo
+
 (56:34)
 54
 is bongo well. I don't think we even
 waste time on that if this is bongo. Yeah,
 there's quite a few kids on bongo boards.
 These are logo kids and not too much
-more that can be said about it. OK 55.
+more that can be said about it.
+
+### 55-worm
+
+OK 55.
 It was related to something they were doing,
 but the films interested.
 Yeah, there this their their overall
@@ -5004,6 +5173,9 @@ around a Mile River club. Yeah.
 (64:03)
 Each question. OK, so.
 OK, so that was 55.
+
+### 56-life
+
 Which are going to be six?
 Yeah, just 11.
 That's what I said but OK,
@@ -5075,6 +5247,9 @@ This is, yeah, I think this is Gaspar.
 Let's get that.
 So that is 56 is gaspar's life,
 so it's good to have that.
+
+### 57-screen
+
 So anyway, yeah, I mean basically
 from the lab's point of view,
 it was a problem that you know,
@@ -5137,6 +5312,9 @@ OK, so anyway, I'm not positive that
 based on this which which one this is?
 If this is engelmann's or if this is Moses.
 That's my mother. OK, so that's 57.
+
+### 58-logo
+
 OK, let me have 58.
 OK this this again.
 (70:02)
@@ -5166,6 +5344,9 @@ a little bit not working too well,
 but working a little bit I guess.
 (71:02)
 OK, so that is 58 now.
+
+### 59-bongo
+
 We're ready for a 59 as as bongo.
 My notes say that 59 Cynthia
 Solomon is is on that one,
@@ -5174,6 +5355,9 @@ But she is thinking that Solomon
 was a person involved in the lab
 for a long time and had quite a
 history and she was like they say OK.
+
+### 60-bongo
+
 Now here it says Krakauer.
 But it goes. This is bongos.
 (71:32)
@@ -5184,6 +5368,9 @@ maybe it may it may.
 I think maybe the title was done by Crocker,
 right? See that, but yeah, OK anyway, yeah.
 OK so 60 is too much.
+
+### 61-arm
+
 OK 61.
 Yeah.
 OK, 61 is the. OK.
@@ -5212,6 +5399,9 @@ best thing that I've ever did.
 OK.
 OK, so that's that one. OK.
 OK, so that was 61.
+
+### 62-logo
+
 So now we're ready for 62 so.
 So the time we got here, we had.
 (73:31)
@@ -5226,6 +5416,9 @@ Someone that I tracked.
 62 is just. I track it a little bit.
 (74:03)
 OK.
+
+### 63-chess
+
 63 test test.
 OK yeah, this is a game.
 This is looks like it's
@@ -5348,6 +5541,9 @@ We got excited. Firefox.
 OK, so now let's see.
 If it's too late. OK, so that is 63,
 and that's not chess.
+
+### 64-robot
+
 OK, now let's see where we go for.
 Oh no, there were some tests on
 that actually wasn't too bad.
@@ -5412,7 +5608,11 @@ Multics had originally been
 designed for Type 37 teletype,
 but they turned out to be losers, so.
 They wound up with using that.
-OK, so that was 64. OK now we go for 65.
+OK, so that was 64.
+
+### 65-worm
+
+OK now we go for 65.
 Here.
 (83:32)
 OK, here we have a display turtle.
@@ -5421,6 +5621,9 @@ supernova display channel.
 OK.
 OK, so I think that's
 what that is. Interesting.
+
+### 66-worm
+
 (84:03)
 Now let's see 66. Interesting yeah,
 OK, but it's not really natural.
@@ -5438,7 +5641,11 @@ The time this was done it was.
 Yeah.
 Alright. Anyway, yeah that.
 (85:04)
-So let's say 66. Now go to 67.
+So let's say 66.
+
+### 67-life
+
+Now go to 67.
 67 life.
 Yeah. Oh no, that's right.
 This is not like this is.
@@ -5487,10 +5694,16 @@ It's just something there.
 Well. Into the hacker,
 he says 67. I'm OK.
 Select banks constructor.
+
+### 68-gas
+
 OK 68 is supposed to be.
 (87:31)
 There's no gas again. About
 yeah, let's move down.
+
+### 69-gas
+
 Surround.
 (88:02)
 Switch. I think it was the 69.
@@ -5545,27 +5758,49 @@ I think actually I think maybe in 70.
 Actually I think it's we
 started off with these things.
 Yeah, really quick, OK?
+
+### 70-gas
+
 OK, so we're going to start
 off here and this is Friday.
 The 9th of June 2006 and.
 And basically 6968 sixty nine and
 70 are all special needs gas,
 and we're all pretty non interesting.
+
+### 71-robot
+
 (2:02)
 OK, and then 71 was the ETL.
 Arm vision and drum.
 So that was doesn't have to do with us.
 It's I don't know if we're positively
 certain that it's from ETL, but it's.
-It's not from here then. 72 was gas.
+It's not from here then.
+
+### 72-gas
+
+72 was gas.
+
+### 73-gas
+
 And had the heart thing on at 73
 was also a little bit of gas.
+
+### 74-bongo
+
 74 was a bongo attempt
 with a 180 degree jump.
+
+### 75-logo
+
 (2:34)
 75 was logo, big Turtle with some
 drawing and also some looking at the.
 At a 35 teletype doing logo
+
+### 76-robot
+
 76 was Mahabala vision,
 which Mahabala was a Pakistani.
 He he was a graduate student here.
@@ -5583,6 +5818,9 @@ I think that one was made by tripolye.
 That view is is the generation of
 video sector that was in these films.
 We later had something called TVC.
+
+### 77-life
+
 OK 77 was life Allah Roger Banks so.
 (3:34)
 Roger Banks was a guy
@@ -5600,6 +5838,9 @@ It was somewhat more general
 rules than than just life and so
 I think that that that clip was
 essentially a demonstration of that.
+
+### 78-cube
+
 78 is A is the arm the AMF arm
 and it basically showed scanning.
 Picking up some fingers,
@@ -5709,6 +5950,9 @@ there were for what it shows,
 it probably does a better job of
 showing it than than most of the other
 attempts to to show that we've seen.
+
+### 79-logo
+
 OK, and now 79 is.
 OK, the teaching showing,
 thinking well now, how did they I
@@ -5751,6 +5995,9 @@ Alright.
 (11:03)
 So that is the 80s.
 Let's go to the 90s, the nines.
+
+### 80-cube
+
 OK, 80 cube is. It's again a
 pretty good one of of gospel and
 EMF farm according to my notes,
@@ -5857,6 +6104,9 @@ I don't know if that's what that actually is.
 That's right at the end of the clip.
 (16:01)
 OK, so that's 80.
+
+### 81-mathlab
+
 OK, now we're ready for 81. Uh.
 Oh, this is the one of Bill Martin.
 And Bill Martin had a had a thesis
@@ -6143,6 +6393,9 @@ early version of maxima.
 I don't know if it was called
 maximine that at that point,
 but OK, so that's 81.
+
+### 82-screen
+
 The integral program, of course,
 was written by Joe Moses that was his
 thesis and OK now here is the other.
@@ -6173,8 +6426,11 @@ I would say as a general thing,
 but but it did have.
 It was an early effort and
 I'm sure had its points.
-OK, that's
-8283 logo. OK, it says logo
+OK, that's 82
+
+### 83-logo
+
+83 logo. OK, it says logo
 werma OK so This is why I had.
 Yeah I know that to 3:40 it's not
 entirely clear whether this is a 340
@@ -6207,6 +6463,9 @@ K of memory and and two Michael,
 you know 16 bit and and maybe two
 microseconds or so cycle time.
 OK, so that's that. That's 83 now
+
+### 84-robot
+
 84 robot what do we got here 84 is
 again the AM farm calibrating again.
 (31:09)
@@ -6300,6 +6559,9 @@ OK,
 so here's now we're back to the beginning,
 so we're just seeing that again,
 that's calibration.
+
+### 85-screen
+
 OK,
 so now we're ready for 85 screen.
 And this again, I think, is probably
@@ -6388,8 +6650,15 @@ We we had an interface to it.
 OK so now here's Engelmann
 showing something or other and.
 And that's and that's clip 85.
+
+### 86-bongo
+
 OK, 86 is bongo so I think
-we'll just skip over that 87.
+we'll just skip over that
+
+### 87-cube
+
+87.
 Is cube. Something,
 so let's see what that is.
 (38:31)
@@ -6490,6 +6759,9 @@ again, taking metaking stack
 apart and sorting them I guess.
 And here's more and here's more.
 OK, so that's more arm, that's 87.
+
+### 88-eye
+
 (42:30)
 OK, now we go to 8880 die.
 OK, we've actually. Oh now.
@@ -6628,7 +6900,11 @@ Supervised OK, so this this was just before.
 Winston became director of the lab.
 It looks like. OK, so that is 88.
 That's kind of a more of a finished product.
-Clip. Let's go to 89.
+Clip.
+
+### 89-logo
+
+Let's go to 89.
 OK, there's a 340 and this
 looks like it's probably
 this eye tracking business.
@@ -6645,6 +6921,9 @@ I think this is just demonstrating
 someone looking around.
 OK, so that's not too much.
 That's that's 89.
+
+### 90-logo
+
 (49:32)
 OK.
 So now we go through a ten MP4.
@@ -6653,6 +6932,9 @@ Logo 340 ternel you think?
 Yeah, so this is a fairly elaborate
 squirrel type of thing that kids can do
 very with very simple program, very elegant.
+
+### 96-worm (out of order)
+
 (50:01)
 OK, now we go for worm which is
 also number 90 and this again is is
@@ -6685,6 +6967,9 @@ call them and and they they they leave
 that that fairly elaborate track which
 didn't manage to be preserved for many.
 Many, probably millions of years OK.
+
+### 91-turtle
+
 Now here's the big turtle.
 And it's Jim just turning around here. And.
 (51:36)
@@ -6693,6 +6978,9 @@ It's making a squirrel
 or a spiral or something.
 OK, so that's it.
 91 is the big turtle.
+
+### 92-turtle
+
 92 more big turtle.
 This picture was very popular with the kids.
 It was this was the first turtle
@@ -6704,7 +6992,11 @@ this or that but it was it.
 As far as the kids were concerned,
 it was one of the best ones.
 Most popular.
-OK, so there it is drawing away 93 cube.
+OK, so there it is drawing away
+
+### 93-cube
+
+93 cube.
 OK, let's see.
 We've got some some blocks.
 Yeah, you could ever.
@@ -6727,6 +7019,9 @@ linowitz guy or whatever it is basically.
 So there's.
 Steps to draw draw card tours.
 OK, that's that's 93.
+
+### 94-solar
+
 Now 94.
 OK, this 94 now this is a it looks
 like this solar data and it may
@@ -6745,6 +7040,9 @@ and so he just sort of did that as a.
 Demonstration for them.
 At the time it was pretty
 interesting for them.
+
+### 95-turtle
+
 OK,
 here we go in 95 turtle again the big turtle.
 (54:06)
