@@ -13,3 +13,27 @@ Taustalla kone jossa on sinistä, Digital VAX-11/780. Oikealla
 oranssinvärinen on Digital DECSYSTEM-2020 (eli PDP-10 KS10)
 
 5. DECSYSTEM-2020 @ MIT (1989)
+
+----------------------------------------------------------------------
+
+Yes. I did visit MIT AI LAB back in 1989.
+
+I had been a "tourist" on the MIT-AI ITS machine and had a chat online
+with RMS, and he created an account for me on the prep.ai.mit.edu VAX
+back in 1985-86 I guess.  However, I was arrested because of hacking
+the Finnish university network, So I decided to use different names at
+that time.
+
+Then in 1989 I had a business trip to the U.S. and managed to persuade
+my boss to take a trip through Boston, we decided to stop by MIT and
+try to go to visit mr. Stallman.
+
+However, it happened that he was visiting Finland that time (yes I'm
+from Finland), so we didn't meet. But as we went knocking the door,
+Leonard Tower Jr. opened the door and gladly gave us a tour around the
+AI lab.
+
+Here's a session log I found from my archives, it's nothing much than
+reading the bboard. I'm still in process going through all the old
+boxes full of printouts.
+http://setala.sdf.org/its/MIT-AI.1.txt

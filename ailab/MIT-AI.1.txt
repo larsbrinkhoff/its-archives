@@ -1,0 +1,1669 @@
+Connected to ai.ai.mit.edu.
+Escape character is '^]'.
+MIT Artificial Intelligence Lab PDP-10
+
+AI ITS.1588. PWORD.2656.
+TTY 16
+3. Lusers, Fair Share = 69%
+>>>  AI is just a little KS10.  Do not use it as a chaos/arpa gateway.
+>>>  Turists: be extra conscious of the load.
+
+*mk$u
+Password:  
+[OK]
+[Home dir=USERS2]
+   MONDAY, JANUARY 19, 1987  10:41:35 PM
+Welcome to ITS
+
+
+--MSGS-- 
+*MSG 2299:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 31 Dec 86 15:19:50 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/07/87 15:14:10
+KIRSH@OZ.AI.MIT.EDU 12/31/86 15:14:10 Re:  Housing for One
+Received: from OZ.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 31 DEC 86  15:04:1!
+9 EST
+Received: from REAGAN.AI.MIT.EDU by OZ.AI.MIT.EDU via Chaosnet; 28 Dec 86 19:40!
+-EST
+Received: from JANIS.AI.MIT.EDU by REAGAN.AI.MIT.EDU via CHAOS with CHAOS-MAIL !
+id 16668; Sun 28-Dec-86 19:39:16 EST
+Date: Sun, 28 Dec 86 19:39 EST
+From: David Kirsh <KIRSH@OZ.AI.MIT.EDU>
+Subject: Housing for One
+To: bboard@OZ.AI.MIT.EDU
+cc: kirsh@OZ.AI.MIT.EDU
+Message-ID: <861228193943.1.KIRSH@JANIS.AI.MIT.EDU>
+
+
+A friend of mine has just moved to Boston and is looking for a nice one bedroom!
+ apt. in
+Cambridge, Watertown or Newton.   She can be reached at 641-3663.  Please reply!
+ to her
+directly.
+
+^_
+
+--MSGS-- 
+*MSG 2300:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 31 Dec 86 18:55:55 !
+EST
+--More-- 
+DISTRIB:  *CCC, *ATHENA, *MULTICS, *LCS-UVAX, *COMET, *BORAX, *MLSITE, *OZ, *VX!
+, *XX, *MD, *ML, *MX, *MC, *AI
+EXPIRES: 01/07/87 18:52:22
+PAULA@XX.LCS.MIT.EDU 12/31/86 18:52:22 Re:  Stock Room Closing
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU 31 Dec 86 18:18:31!
+ EST
+Date: Mon 29 Dec 86 13:59:17-EST
+From: Paula A. Vancini <PAULA@XX.LCS.MIT.EDU>
+Subject: Stock Room Closing
+To: *mac@XX.LCS.MIT.EDU
+Message-ID: <12266711593.19.PAULA@XX.LCS.MIT.EDU>
+
+
+Please note that the Stock Room will be closed all day Friday,
+January 2, 1987 for inventory.  It will, however, be open for
+mail purposes only.
+
+Paula,
+for Gerry
+-------
+
+^_
+
+--MSGS-- 
+*MSG 2301:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 31 Dec 86 23:03:25 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/07/87 22:57:56
+LIZ%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU 12/31/86 22:57:56 Re:  NATO Advanced Study Ins!
+titute
+Received: from OZ.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 31 DEC 86  22:53:2!
+3 EST
+Date: Mon 29 Dec 86 10:10-EST
+From: Liz Highleyman <LIZ%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU>
+Subject: NATO Advanced Study Institute
+To: bboard%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU
+
+          International School of Solid-State Device Research
+
+          (A NATO Advanced Study Institute)
+
+          Course #4: Physics and Applications of Quantum Wells
+                     and Superlattices
+
+          EriceTrapani-Sicily;  April 21 - May 1, 1987
+
+          Registration deadline: 26 December 1986
+
+          For more info: see poster on 7th floor bulletin board 
+               or write: E.E. Mendez
+                         IBM T.J. Watson Research Center
+                         P.O. Box 218
+                         Yorktown Heights, NY  10598
+
+^_
+
+--MSGS-- 
+*MSG 2302:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 31 Dec 86 23:06:26 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/07/87 23:01:53
+LIZ%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU 12/31/86 23:01:53 Re:  International School of!
+ Materials Science & Technology
+Received: from OZ.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 31 DEC 86  22:53:2!
+6 EST
+Date: Mon 29 Dec 86 10:14-EST
+From: Liz Highleyman <LIZ%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU>
+Subject: International School of Materials Science & Technology
+To: bboard%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU
+
+         INTERNATIONAL SCHOOL OF MATERIALS SCIENCE & TECHNOLOGY
+
+         13th Course: Elemental and Molecular Clusters
+
+         Erice-Trapani-Sicily;  1-15 July 1987
+
+         Deadline for Application: 1 April, 1987
+
+         For more info:  see poster on 7th floor bulletin board
+              or write:  Dr. Gianfraco Pacchioni
+                         Departamento di Chimica Inorganica
+                             e Metallorganica
+                         Universita degli Studi
+                         Via Vanerian 21
+                         I-20133 Milano
+                         Italy
+
+^_
+
+--MSGS-- 
+*MSG 2303:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU 31 Dec 86 23:10:31 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/07/87 23:05:32
+LIZ%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU 12/31/86 23:05:32 Re:  University of Utah
+Received: from OZ.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 31 DEC 86  22:53:2!
+9 EST
+Date: Mon 29 Dec 86 10:17-EST
+From: Liz Highleyman <LIZ%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU>
+Subject: University of Utah
+To: bboard%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU
+
+    GRADUATE STUDY IN COMPUTER SCIENCE
+
+    For information about the university, programs available, faculty,
+    and application procedure, please see poster on 7th floor bulletin 
+    board.
+
+
+^_
+
+--MSGS-- 
+ROOMS 1:
+Received: from MX.LCS.MIT.EDU (CHAOS 1440) by AI.AI.MIT.EDU  5 Jan 87 02:44:37 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 02/05/87 02:42:28
+RIVIN@MX.LCS.MIT.EDU 01/05/87 02:42:28 Re: rooms for rent
+Three rooms are available in a shared house in Cambridge.
+The house is located on Broadway, a block away from
+Tech Square. The present inhabitants of the house are
+a computer professional, a mathematician and a MechE
+grad student. One of these (me) is going West and would
+like to sublet his room (one of the three).
+ Since the house is shared, the rent depends on the number
+of inhabitants. Rents depend (slightly) on the rooms,
+since some rooms are bigger then others. With a total of
+four people, the rent would be roughly $150 (+ utilities)
+Important house restrictions are NO SMOKING and NO PETS.
+I have negleted to mention that the present inhabitants
+are all male, but that is an accident rather then a result
+of any kind of policy.
+
+Please reply by email to me (rivin@mc or rivin@sail) 
+or call 492-3654. If you call,
+don't ask for Igor, since I am going away today. Ask for
+Dave or Mike, as they are the ones there. The best time
+to call is at night (between 6 and 8 and between 10 and midnight)..
+^_
+
+--MSGS-- 
+*MSG 2304:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  5 Jan 87 12:10:16 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/12/87 12:03:56
+Received: from BITSY.MIT.EDU (TCP 2222000003) by MC.LCS.MIT.EDU  5 Jan 87 11:59!
+:00 EST
+Received: by BITSY.MIT.EDU (5.45/4.7)
+        id AA05544; Mon, 5 Jan 87 12:00:24 EST
+Date: Mon, 5 Jan 87 12:00:24 EST
+From: Ron M. Hoffmann <hoffmann@BITSY.MIT.EDU>
+Message-Id: <8701051700.AA05544@BITSY.MIT.EDU>
+To: bboard@mc.lcs.mit.edu
+Subject: Athena's internet address
+
+After notifying appropriate sites, the last vestige of athena.mit.edu's
+old address has been decommissioned.
+
+Those operating off very old host tables may update same with the new
+address which is 18.72.0.39 for athena.mit.edu.
+
+Happy New Year.
+
+-Ron Hoffmann
+ <postmaster@athena.mit.edu>
+
+^_
+
+--MSGS-- 
+*MSG 2305:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  5 Jan 87 16:05:50 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/12/87 16:00:22
+GREIF@XX.LCS.MIT.EDU 01/05/87 16:00:22 Re:  SHOWING OF ENGELBART VIDEOTAPE
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  5 Jan 87 15:59:43!
+ EST
+Date: Mon 5 Jan 87 16:01:51-EST
+From: Irene Greif <GREIF@XX.LCS.MIT.EDU>
+Subject: SHOWING OF ENGELBART VIDEOTAPE
+To: bboard@MC.LCS.MIT.EDU,
+    tape: ;
+cc: greif@XX.LCS.MIT.EDU
+Message-ID: <12268568913.38.GREIF@XX.LCS.MIT.EDU>
+
+
+
+                        DOUG ENGELBART:
+                THE AUGMENTED KNOWLEDGE WORKSHOP
+
+               DATE:          Wednesday, January 14, 1987
+               TIME:          2:15pm
+               PLACE:         NE43-512A
+               REFRESHMENTS:  2pm
+
+
+                    AN HISTORICAL VIDEO TAPE
+
+     Doug  Engelbart  invented  the  mouse, and many of the
+     other features of user interfaces that we now take for
+     granted.    His  vision of high-performance work teams
+     led him to develop many other facilities that are more
+     slowly  gaining  acceptance:  structured documents and
+     hypertext, conferencing,  multi-media  displays.    In
+     this  tape of Doug Engelbart's presentation at the ACM
+     Conference on the History of the Personal Workstation,
+     Doug  talks about his vision, his career, the agencies
+     that supported him (including ARPA  under  it's  first
+     director,  J.  C.  R.  Licklider), and the systems his
+     group developed.    The  tape  includes  a  20  minute
+     segment  from the Augment system demo at the 1968 Fall
+     Joint Computer Conference  in  San  Francisco.    Tape
+     length:  1 hour 20 minutes.
+
+     Host:  I. Greif
+-------
+
+^_
+
+--MSGS-- 
+*MSG 2306:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  5 Jan 87 18:47:07 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/12/87 18:40:43
+MFREEMAN@SIERRA.STANFORD.EDU 01/05/87 18:40:43 Re:  Call for Papers --- ASPLOS-!
+II
+Received: from Sierra.Stanford.EDU (TCP 4402400015) by MC.LCS.MIT.EDU 31 Dec 86!
+ 17:56:15 EST
+Date: Wed 31 Dec 86 14:56:04-PST
+From: Martin Freeman <MFREEMAN@Sierra.Stanford.EDU>
+Subject: Call for Papers --- ASPLOS-II
+To: arpanet-bboards@MC.LCS.MIT.EDU
+Message-ID: <12267278985.14.MFREEMAN@Sierra.Stanford.EDU>
+ReSent-Date: 05 Jan 1987 17:53:37 EST
+ReSent-From: Arpanet-BBoards-Request@MC.LCS.MIT.EDU
+
+
+
+
+                      Call for Papers
+
+  Second International Conference on Architectural Support
+for Programming Languages and Operating Systems (ASPLOS-II)
+
+                    Rickey's Hyatt House
+          Palo Alto, California, October 5-8, 1987
+
+         Sponsored by ACM and IEEE Computer Society
+
+
+
+This is a reprise of the highly successful symposium held in
+1982. Many of the ideas discussed at that time are now
+reaching the marketplace.  This time, we intend to focus on
+experimental analyses of architectures and performance
+evaluations of prototype systems, including application-
+specific designs. The time is ripe to review progress and
+identify future directions.
+
+Full papers (approximately 5000 words) are solicited in:
+
+* Language and OS-Influenced Processor Designs
+
+* Architecture-Influenced Compiler and OS Design
+
+* Experimental Analysis of Instruction Set and Other
+Architectural Design Choices
+
+* Performance Evaluation of Prototype and Newly Available
+Commercial Systems
+
+We also solicit short (1000 word) high quality technical
+abstracts on innovative commercial and prototype systems
+that address topics of relevance to this conference. Full
+presentations will be expected.
+
+Five copies of submitted papers should be sent to the
+program chairman at the address below, and will be accepted
+for evaluation until February 1, 1987. Submissions will be
+read by members and designated reviewers of the program
+committee:
+
+Randy Katz, U.C. Berkeley (chairman)
+Forest Baskett, Silicon Graphics
+David Ditzel, AT&T Bell Laboratories
+James Goodman, University of Wisconsin
+John Hennessy, Stanford University
+Edward McCreight, Xerox PARC
+Steven Muchnick, Sun Microsystems
+Richard Sites, DEC Hudson
+Alan Smith, U.C. Berkeley
+Chuck Thacker, DEC Systems Res. Center
+Philip Treleaven, University College London
+Mario Tokoro, Keio University
+
+Authors will be notified of acceptance or rejection by May
+15, 1987.  Accepted papers must be typed on special forms
+and received by the program chairman by July 1, 1987.
+
+A number of special activities are planned in conjunction
+with the conference, including tutorials, invited papers,
+and a special journal issue. The best submitted papers will
+be considered for publication in this issue.
+
+Program Chairman: Randy H. Katz, Computer Sciences Division,
+U.C. Berkeley, Evans Hall, Berkeley, Ca  94720
+randy@ucbarpa.berkeley.edu
+
+General Chairman: Martin Freeman, Center for Integrated
+Systems, Stanford University, Stanford, Ca  94305
+mfreeman@sierra.stanford.edu
+-------
+
+^_
+
+--MSGS-- 
+*MSG 2307:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  5 Jan 87 19:33:05 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/12/87 19:27:06
+ZELLICH@SRI-NIC.ARPA 01/05/87 19:27:06 Re:  List-of-lists updated [now THREE fi!
+les]
+Received: from SRI-NIC.ARPA (TCP 1200000063) by MC.LCS.MIT.EDU 22 Dec 86 00:03:!
+04 EST
+Date: Fri 19 Dec 86 09:10:57-PST
+From: Rich Zellich <ZELLICH@SRI-NIC.ARPA>
+Subject: List-of-lists updated [now THREE files]
+To: List-notice-recipients: ;
+cc: Total-list-recipients: ;
+Message-ID: <12264070432.19.ZELLICH@SRI-NIC.ARPA>
+ReSent-Date: 05 Jan 1987 17:54:06 EST
+ReSent-From: Arpanet-BBoards-Request@MC.LCS.MIT.EDU
+
+The following SRI-NIC files have been updated and are available for FTP:
+
+   NETINFO:INTEREST-GROUPS-1.TXT (general information and ADA-SW to INFO-CPM)
+                                 1,410 lines/66,811 characters
+   NETINFO:INTEREST-GROUPS-2.TXT (INFO-DEC-MICRO to MHS_(X.400)_Implementation)
+                                 1,342 lines/61,537 characters
+   NETINFO:INTEREST-GROUPS-3.TXT (MILSIM to XPORT)
+                                 1,241 lines/56,185 characters
+
+For those on the To: list (ARPANet/MilNet sites), SRI-NIC supports the 
+net-standard "ANONYMOUS" login within FTP, using any password.  For those on 
+the Cc: list (non-ARPANet/MilNet sites), the actual files will follow in 3 
+separate messages.
+
+Cheers,
+Rich
+
+CHANGES SINCE LAST UPDATE-NOTICE (8 Dec 86):
+
+   THIS LIST RE-SPLIT FROM 2 SECTIONS INTO 3 SECTIONS:
+      ADA-SW thru INFO-CPM;
+      INFO-DEC-MICRO thru MHS_(X.400)_Implementation;
+      MILSIM thru XPORT.
+   AI-CHI
+      New mailing list (AI related to human-computer interface design).
+   AVIATION
+      Added second Coordinator name/address.
+   CAN-INET
+      Added BitNet sub-distribution list subscription address.
+   GAMEMASTERS
+      Added BitNet sub-distribution list subscription address.
+   GOULDBUGS
+      Added BitNet sub-distribution list subscription address.
+   INFO-AMIGA
+      New Coordinator;
+      Added BitNet sub-distribution list subscription address.
+   INFO-HZ100
+      Added BitNet sub-distribution list subscription address.
+   INFO-IBMPC
+      Added BitNet sub-distribution list subscription address.
+   INFO-IBMRT
+      New mailing list (discussion of the IBM RT Computer).
+   INFO-KERMIT
+      Added BitNet sub-distribution list subscription address.
+   INFO-NETS
+      Added BitNet sub-distribution list instructions.
+   INFO-PROTEON
+      Added BitNet sub-distribution list subscription address.
+   INFO-VAX
+      Added BitNet sub-distribution list subscription address.
+   PC-TOKEN-RING
+      Changed host name to domain form;
+      Added BitNet sub-distribution list subscription address.
+   SECURITY
+      Added BitNet sub-distribution list subscription address.
+   SPACE
+      Changed list and -Request host names;
+      Added BitNet sub-distribution list subscription address.
+   UNIX-EMACS
+      New host name;
+      New usenet newsgroup name;
+      Added bitnet sub-list & Coordinator.
+   UNIX-SOURCES
+      Added BitNet sub-distribution list subscription address.
+   UNIX-WIZARDS
+      Added BitNet sub-distribution list subscription address.
+   
+
+-------
+
+-------
+
+^_
+
+--MSGS-- 
+*MSG 2308:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  5 Jan 87 20:11:42 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/12/87 20:05:32
+Received: from MIT-MULTICS.ARPA (TCP 1200000006) by MC.LCS.MIT.EDU 21 Dec 86 17!
+:22:17 EST
+Received: from CORNELLA(MAL) by MITVMA (Mailer X1.23) id 5244;
+          Fri, 19 Dec 86 14:25:30 EST
+Received: by CORNELLA (Mailer X1.23b) id 5108; Fri, 19 Dec 86 14:21:09 EST
+Date: 19 December 86 14:21 EST
+From: RMXJ%CORNELLA@WISCVM.WISC.EDU
+Subject: (copy) putting a notice on a bulletin boar
+To: ARPANET-BBOARDS@MC.LCS.MIT.EDU
+ReSent-Date: 05 Jan 1987 17:56:29 EST
+ReSent-From: Arpanet-BBoards-Request@MC.LCS.MIT.EDU
+
+Originally sent from: MARIEA@CRNLGSM
+Originally sent to: RMXJ@CORNELLA
+
+Mariea Blackburn, Director for Admissions at the Johnson Graduate
+School of Management at Cornell University, will be conducting two
+workshops at Cornell entitled "Managing Admissions with a Microcomputer".
+The dates are: March 23-25 and July 27-29 (1987).
+
+For further information, please write to:
+Programs in Professional Education
+Cornell University
+B-12 Ives Hall
+Ithaca, NY 14853-4201
+
+OR
+
+You may contact Ms. Blackburn directly at:
+Mariea @ CRNLGSM  (on BITNET)
+Mariea%crnlgsm.bitnet@wiscvm.wisc.edu (Internet)
+
+
+cc: ADVISE-L, ARPANET-BBOARDS, INFO-MICRO, HUMAN-NETS
+
+
+^_
+
+--MSGS-- 
+*MSG 2309:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  5 Jan 87 20:58:25 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/12/87 20:51:12
+Received: from cu-arpa.cs.cornell.edu (TCP 1200600140) by MC.LCS.MIT.EDU 19 Dec!
+ 86 06:38:21 EST
+Received: by cu-arpa.cs.cornell.edu (5.45/4.30)
+        id AA20000; Thu, 18 Dec 86 12:57:13 EST
+Date: Thu, 18 Dec 86 12:56:37 EST
+From: horan@tcgould.tn.cornell.edu (Frederick Horan)
+Message-Id: <8612181756.AA17904@tcgould.tn.cornell.edu>
+Received: by tcgould.tn.cornell.edu (5.31/4.30)
+        id AA17904; Thu, 18 Dec 86 12:56:37 EST
+Newsgroups: arpa.bboard
+Subject: Cognitive Studies position
+Reply-To: batcomputer!horan@cu-arpa.cs.cornell.edu (Frederick Horan)
+Distribution: na
+Organization: Theory Center, Cornell University, Ithaca NY
+Apparently-To: arpanet-bboards@mit-mc.arpa
+ReSent-Date: 05 Jan 1987 17:57:15 EST
+ReSent-From: Arpanet-BBoards-Request@MC.LCS.MIT.EDU
+
+
+                    POSSIBLE COGNITIVE STUDIES POSITION(S):
+
+Assistant Professor:  Possible tenure-track position in Cognitive Studies and
+either Linguistics or Psychology to begin July 1, 1987; there is the
+possibility of an additional position to begin July 1,1987 or 1988.  
+
+Areas of specialization are open, but candidates should demonstrate inter-
+disciplinary research and teaching abilities; the successful candidate will be
+not only an excellent linguist or psychologist (or both) but will address 
+questions that cut across traditional disciplinary boundaries. Primary 
+appointment will be in either the Department of Modern Languages and 
+Linguistics or in the Department of Psychology; candidates will also partic-
+ipate in the newly organized Cognitive Studies Program, which involves
+faculty not only from these departments but also from Philosophy, Mathematics,
+Computer Science, Neurobiology and Behavior, and Human Development and
+Family Studies.  
+
+Possible areas of research include natural language processing and parsing 
+models, computational vision, formal models of knowledge representation and/or
+reasoning, syntactic and semantic representation, language acquisition (first 
+and second), models of conceptual change, decision theory, speech perception, 
+psycholinguistics, and computational linguistics.  
+
+Exceptionally well-qualified and experienced individuals may apply at the 
+Associate or Full Professor level, although an appointment at a higher rank 
+has not yet been authorized.  
+
+Dossier including cv, sample reprint or preprint of completed research, and 
+letters of recommendation sent directly from three referees should go to:  
+Cognitive Studies Search Committee, c/o Suzanne Wurster, Department of 
+Psychology, Uris Hall, Cornell University, Ithaca, NY   14853.  Review of 
+applications will begin January 15, 1987.  CORNELL IS AN EQUAL OPPORTUNITY/ 
+AFFIRMATIVE ACTION EMPLOYER.
+
+(Please do not send Electronic mail to this address.  Thank you)
+
+
+^_
+
+--MSGS-- 
+*MSG 2310:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  5 Jan 87 21:40:28 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/12/87 21:34:29
+ROSENBLOOM@SUMEX-AIM.STANFORD.EDU 01/05/87 21:34:29 Re:  Cognitive Science Post!
+doctoral Fellowship at Stanford University
+Received: from SUMEX-AIM.STANFORD.EDU (TCP 1200000070) by MC.LCS.MIT.EDU 17 Dec!
+ 86 13:55:06 EST
+Date: Wed 17 Dec 86 09:51:46-PST
+From: Paul Rosenbloom <ROSENBLOOM@SUMEX-AIM.STANFORD.EDU>
+Subject: Cognitive Science Postdoctoral Fellowship at Stanford University
+To: arpanet-bboards@MC.LCS.MIT.EDU
+Message-ID: <12263553573.42.ROSENBLOOM@SUMEX-AIM.STANFORD.EDU>
+ReSent-Date: 05 Jan 1987 17:57:29 EST
+ReSent-From: Arpanet-BBoards-Request@MC.LCS.MIT.EDU
+
+   Cognitive Science Postdoctoral Fellowship at Stanford University
+
+The Cognitive Science Program -- a multidisciplinary program including
+faculty from computer science, psychology, linguistics, and philosophy
+-- is seeking applicants for a one-year postdoctoral research
+fellowship beginning approximately Sept. 1, 1987.  The position will
+be directly affiliated with one of the four participating departments.
+Interested candidates should send a vita, the department of choice, a
+statement of research interests, three letters of recommendation and
+selected reprints to Dr. Paul S.  Rosenbloom, Department of Computer
+Science, Bldg 460, Stanford University, Stanford, CA. 94305.
+-------
+
+^_
+
+--MSGS-- 
+*MSG 2311:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  5 Jan 87 22:57:38 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/12/87 22:37:39
+vardi@NAVAJO.STANFORD.EDU 01/05/8ams,  Y.  Sagiv   (Hebrew   University)
+_________________________________________________________________
+
+                     CONFERENCE ORGANIZATION
+
+Sponsors:  SIGACT, SIGMOD, and SIGART.
+
+Executive Committee: A.K. Chandra, S. Ginsburg, A.  Silberschatz,
+J.D. Ullman, and M.Y. Vardi.
+
+Chairman:  Ashok K. Chandra, IBM  T.J.  Watson  Research  Center,
+P.O.Box   218,   Yorktown  Heights,  NY  10598,  (914)  945-1752,
+ashok@ibm.com, ashok@yktvmv.bitnet
+
+Program Chairman:  Moshe Y. Vardi, IBM Almaden  Research  Center,
+650   Harry   Rd.,  San  Jose,  CA  95120-6099,  (408)  927-1784,
+vardi@ibm.com, vardi@almvma.bitnet
+
+Local Arrangements:  Victor Vianu, Dept. of Electrical  Engineer-
+ing  and Computer Science MC-014, University of California at San
+Diego, La Jolla, CA 92093, (619) 534-6227, vianu@sdcsvax.ucsd.edu
+
+Program Committee: U. Dayal, T. Imielinski, P.K.  Kanellakis,  H.
+Korth,  P.A.  Larson,  K.J.  Raiha, Y. Sagiv, M.Y. Vardi, M. Yan-
+nakakis.
+_________________________________________________________________
+
+               ADVANCE REGISTRATION FORM, ACM-PODS
+
+Please send this form or a facsimile along with a money order  or
+check  (payable  to  6th  ACM SYMPOSIUM ON PRINCIPLES OF DATABASE
+SYSTEMS) to:
+
+                      ACM-PODS Registration
+                        c/o Victor Vianu
+                     EECS Department, MC-014
+                Univ. of California at San Diego
+                   La Jolla, California 92093
+
+                       (Before Mar. 9)  (After)
+telnet> 
+
+ACM and SIG member      $165            $225
+
+ACM member only         $175            $235
+
+SIG member only         $175            $235
+
+Nonmember:              $205            $275
+
+Student:                $50             $60
+
+Requests for refunds will be honored until March 9, 1987.
+
+Name___________________________________________________________
+Affiliation____________________________________________________
+Address________________________________________________________
+City_________State________Zip__________________________________
+Country_________Telephone______________________________________
+Net Address____________________________________________________
+
+    Check here if confirmation of registration is required.
+
+Dietary restrictions:     Kosher      Vegetarian
+
+Special meals can be guaranteed only for those  who  register  in
+advance.
+
+_________________________________________________________________
+
+                HOTEL RESERVATION FORM, ACM-PODS
+
+Please mail this form or a facsimile (being sure to  mention  the
+ACM-PODS Conference) by March 1, 1987 to:
+
+                       Bahia Resort Hotel
+                     998 W. Mission Bay Dr.
+                       San Diego, CA 92109
+
+                       Tel: (619) 488-0551
+
+Accommodations desired:
+    Single $68              Double (1 bed) $72
+    Twin (2 beds) $72       Triple $76
+    Quad $80
+
+Children under 12 stay free when occupying same rooms as parents.
+Accomodation prices do not include 7% city hotel tax.
+
+Arrival date_______________________Time_____________________________
+Departure date_____________________Time_____________________________
+Name________________________________________________________________
+Sharing room with___________________________________________________
+Address_____________________________________________________________
+City__________State_______Zip_______________________________________
+Country____________________________Telephone________________________
+
+First night deposi t is required.
+
+First night's deposit enclosed:  $_________________________________
+Credit card:     VISA,     Mastercard,     Amer. Express
+Other credit card: ________________________________________________
+Credit card number_________________________________________________
+        Exp. Date__________________________________________________
+
+        Signature__________________________________________________
+
+
+
+^_
+
+--MSGS--
+*MSG 2312:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  5 Jan 87 23:17:34 !
+EST
+--More-- 
+DISTRIB:  *LIDS, *XV, *DSPG, *CIPG, *CMU, *EE, *CCC, *ATHENA, *MULTICS, *LCS-UV!
+AX, *COMET, *BORAX, *MLSITE, *OZ, *VX, *XX, *MD, *ML, *MX, *MC, *AI
+EXPIRES: 01/12/87 23:11:26
+JKS%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU 01/05/87 23:11:26 Re:  MIT Robotics on PBS 
+Received: from OZ.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 5 JAN 87  18:40:50!
+ EST
+Date: Mon, 5 Jan 1987  18:43 EST
+Message-ID: <JKS.12268598258.BABYL@MIT-OZ>
+From: JKS%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU
+To:   *mit%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU
+cc:   ralph%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU
+Subject: MIT Robotics on PBS 
+
+On Wednesday Jan. 7 at 8:00, PBS's Discover program will show a
+segment featuring Salisbury Robot Hand and the Utah/MIT Robot Hand 
+in action.  Check it out on Channel 2.  Also, dinosaurs ...
+
+
+
+^_
+
+--MSGS-- 
+*MSG 2313:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  5 Jan 87 23:41:34 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/12/87 23:35:21
+Nerad@MULTICS.MIT.EDU 01/05/87 23:35:21 Re:   MicroVAX Users Unite!
+Received: from MIT-MULTICS.ARPA (TCP 1200000006) by MC.LCS.MIT.EDU  5 Jan 87 23!
+:18:48 EST
+Date:  Mon, 5 Jan 87 20:34 EST
+From:  Nerad@MIT-MULTICS.ARPA
+Subject:  MicroVAX Users Unite!
+To:  bboard@MC.LCS.MIT.EDU
+Message-ID:  <870106013421.040474@MIT-MULTICS.ARPA>
+
+The MIT / Boston Computer Society presents:
+
+          The MicroVAX User Group
+          Thursday, January 8th;  7-9pm;   rm 1-390
+
+          We meet the first Thursday of each month to share questions and
+          tips, to listen to speakers from the industry on VMS and Unix
+          topics, and to socialize.  Please come!
+
+          This months topic:
+
+          Shuffling Pages--a Novice's Guide to VMS's Virtual Memory System
+                    Shava Nerad, System Programmer for MIT's Information
+                    Systems group, will describe the mechanisms of a virtual
+                    memory system's (VMS's) memory management scheme, with
+                    commentary on how to use your virtual memory system for
+                    optimal efficiency by taking advantage of these features.
+                    Many of the principals (but less of the details) apply
+                    to Unix systems as well.
+
+                    Although this presentation is gauged toward a fairly
+                    naive programmer/system manager, we hope that it will be
+                    of interest to users of all levels.
+
+          For more info:  Shava Nerad, 253-7438, Nerad@MIT-Multics
+
+^_
+
+--MSGS-- 
+*MSG 2314:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  6 Jan 87 13:41:58 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/13/87 13:36:08
+Received: from ATHENA (TCP 2222000047) by MC.LCS.MIT.EDU  6 Jan 87 13:36:00 EST
+Received: by ATHENA (5.45/4.7)
+        id AA10979; Tue, 6 Jan 87 13:37:52 EST
+Received: by ZEUS (5.45/4.7)
+        id AA02122; Tue, 6 Jan 87 13:36:34 EST
+Message-Id: <8701061836.AA02122@ZEUS>
+To: bboard@mc.lcs.mit.edu
+Subject: space in Watertown apartment open
+Date: Tue, 06 Jan 87 13:36:30 -0500
+From: jim@ATHENA.MIT.EDU
+
+Two fairly recent alums are looking for a third person, preferably someone who
+is employed or is a graduate student, to share a large three-bedroom apartment
+in Watertown.  Rent is $275/month plus utilities (oil heat and a gas stove)
+and includes:
+
+        o bedroom on your own floor (we have the second and third floor
+                of a house) with your own FULL bathroom (there are two in
+                the apartment).
+
+        o attic and basement space.
+
+        o living room (with cable TV), dining room, and den.
+
+        o good sized kitchen with lots of cupboards.
+
+        o washer and dryer in the basement.
+
+        o off-street parking.
+
+        o plants, grass and trees (outside).
+
+        o a very pleasant, quiet neighborhood on the Watertown/Belmont border.
+
+We're right on the 73 bus line from Harvard Sq. to Waverly and a short walk
+from the bus line that terminates in Watertown Sq.  The house is 3 miles
+from Harvard Sq. and 5 miles from MIT (15 minutes by car), about a mile
+beyond the Star Market at the intersection of Mount Auburn and Belmont Sts.
+For commuting we are 5-10 minutes from Route 2 and the Mass Pike.
+
+If you are interested, give me a call.
+
+                                                Jim Fulton
+
+                                                (work) 1-667-4800
+                                                (home) 924-8081
+
+mail to:  fulton@eddie.mit.edu or jim@athena.mit.edu
+
+^_
+
+--MSGS-- 
+*MSG 2315:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  6 Jan 87 14:09:20 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/13/87 14:03:14
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  6 Jan 87 14:02:46!
+ EST
+Received: from ATHENA by XX.LCS.MIT.EDU with TCP; Tue 6 Jan 87 14:04:26-EST
+Received: by ATHENA (5.45/4.7)
+        id AA11245; Tue, 6 Jan 87 14:03:57 EST
+From: <fredm@ATHENA.MIT.EDU>
+Received: by ZARQUON (5.45/4.7)
+        id AA05234; Tue, 6 Jan 87 14:03:20 EST
+Date: Tue, 6 Jan 87 14:03:20 EST
+Message-Id: <8701061903.AA05234@ZARQUON>
+To: bboard@xx.lcs.mit.edu
+Subject: IAP course 1650:  Have Fun with Kundalini Yoga
+
+YOGA is about your relationship with your life, and actualizing all of your
+potential as a human being.  KUNDALINI is a science of exercise and meditation
+designed to make the body and mind powerful, healthy, and effective.
+
+In Kundalini Yoga, you make a commitment to your own self-development, and use
+a disciplined practice of exercises to create a dynamic energy in your life.  
+The result:  you maximize your ability to make an impact in this world.
+
+Over IAP, the MIT Yoga Club is offering a beginner's introductory course
+to Kundalini Yoga.  In our classes we will exercise, breathe, and sing.  
+You will feel both invigorated and relaxed.
+
+We have four classes each week: Monday, Tuesday, Wednesday, and Friday, from
+5:30 to 6:30 pm, at Burton House (410 Memorial Drive, 2nd floor).
+You may come to as many as you like each week.
+
+Take this opportunity and make a step towards improving your health, happiness,
+and successfulness.
+
+CONTACT:  Fred Martin, 11 Harold St #1, Somerville MA 02143
+          623-7907     net mail:  fredm@athena.mit.edu
+
+
+
+^_
+
+--MSGS-- 
+*MSG 2316:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  6 Jan 87 19:38:09 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/13/87 16:06:50
+ALR@XX.LCS.MIT.EDU 01/06/87 16:06:50 Re:  Talks by Liskov and Weihl
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  6 Jan 87 16:06:24!
+ EST
+Date: 6 Jan 1987 1606-EST
+From: ALR@XX.LCS.MIT.EDU
+Subject: Talks by Liskov and Weihl
+To: *bboard@MC.LCS.MIT.EDU
+
+
+
+There will be two talks on the LCS Common System:
+
+                        DATE:  FRIDAY, JANUARY 9, 1987
+
+                        PLACE:  NE43-512A
+
+
+
+                           Communication Semantics
+
+                               Prof. B. Liskov
+                           Refreshments at 10:45 am
+                               Talk at 11:00 am
+
+
+
+                         Data Types and Communication
+
+                                Prof. W. Weihl
+                            Refreshments at 1:30 pm
+                                Talk at 1:45 pm
+
+
+                                   Abstract
+
+Distributed computing environments such as the one at LCS exhibit a high
+degree of heterogeneity:  many different kinds of machines are connected by
+a network, with different machines potentially running different operating
+systems and programs written in different programming languages. These
+differences can make it difficult to share resources such as programs and data.
+The LCS Common System, currently being designed here at LCS, is intended to
+support program composition in a heterogeneous distributed environment,
+thus making it easier to share resources. The first talk will begin with an
+overview of the goals of the Common System and the basic approach being taken.
+It will then discuss the semantics of the communication primitives that have
+been designed for the Common System. The second talk will discuss the problems
+that arise because of differences in data types in different programming
+languages, and will describe the support provided by the Common System for
+solving these problems.
+
+-------
+
+^_
+
+--MSGS-- 
+*MSG 2317:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  6 Jan 87 19:44:17 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/13/87 19:38:34
+pklein@THEORY.LCS.MIT.EDU 01/06/87 19:38:34 Re:  SAGACIOUSLY SEEKING FELINES
+Received: from THEORY.LCS.MIT.EDU (TCP 2206400134) by MC.LCS.MIT.EDU  6 Jan 87 !
+16:25:28 EST
+Received: from KIWI.LCS.MIT.EDU by THEORY.LCS.MIT.EDU (4.12/4.7); Tue, 6 Jan 87!
+ 16:23:41 est
+Received: by KIWI.LCS.MIT.EDU (4.12/4.7); Tue, 6 Jan 87 16:23:32 est
+Date: Tue, 6 Jan 87 16:23:32 est
+From: Philip Klein <pklein@THEORY.LCS.MIT.EDU>
+Message-Id: <8701062123.AA02246@KIWI.LCS.MIT.EDU>
+To: bboard@mc
+Subject: SAGACIOUSLY SEEKING FELINES
+
+                We want your litter!
+
+We would like to welcome into our home two (only two, please!)
+kittens, preferably female, preferably cute (or is that 
+redundant?). If you have a pair to give away, please contact Marcy or
+Philip at 782-2782 (leave message), 253-2345, or
+PKLEIN@theory.lcs.mit.edu.
+
+
+^_
+
+--MSGS-- 
+*MSG 2318:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  6 Jan 87 19:54:08 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/13/87 19:48:55
+WANUGA@XX.LCS.MIT.EDU 01/06/87 19:48:55 Re:  Billy Joel tickets
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  6 Jan 87 17:05:56!
+ EST
+Date: Tue 6 Jan 87 17:08:12-EST
+From: Thomas S. Wanuga <WANUGA@XX.LCS.MIT.EDU>
+Subject: Billy Joel tickets
+To: bboard@XX.LCS.MIT.EDU
+Message-ID: <12268843136.56.WANUGA@XX.LCS.MIT.EDU>
+
+I have two extra tickets to the Billy Joel concert Monday January 19th at
+the Wocester Centrum.  Tickets are $19.10 each.  Send me mail if you're
+interested.
+
+Tom
+-------
+
+^_
+
+--MSGS-- 
+*MSG 2319:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  6 Jan 87 20:09:03 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/13/87 20:03:08
+YINGLI@STAR.STANFORD.EDU 01/06/87 20:03:08 Re:  does anyone know a CONTOR plott!
+ing routine ?
+Received: from HT.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 6 JAN 87  19:45:12!
+ EST
+Received: from STAR.STANFORD.EDU by ht.ai.mit.edu with TCP; 6 Jan 87 18:21:35 e!
+st
+Date: Tue 6 Jan 87 15:19:29-PST
+From: Yingli Ren <YINGLI@STAR.STANFORD.EDU>
+Subject: does anyone know a CONTOR plotting routine ?
+To: BBOARD@HT.AI.MIT.EDU, su-computers@SCORE.STANFORD.EDU
+Message-Id: <VAX-MM(195)+TOPSLIB(122)+PONY(0) 6-Jan-87 15:19:29.STAR.STANFORD.E!
+DU>
+
+
+that handles very large and noisy data? Can be on main frames or PC's.
+
+Thanks for any info.
+
+
+Yingli
+
+-------
+
+^_
+
+--MSGS-- 
+ALMA 1:
+Received: from MX.LCS.MIT.EDU (CHAOS 1440) by AI.AI.MIT.EDU  6 Jan 87 20:31:32 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 02/06/87 20:29:08
+PJL@MX.LCS.MIT.EDU 01/06/87 20:29:08 Re: Excellent 2-bedroom apt. available
+2-bedroom apartment in the Spring Hill, Somerville area
+
+* convenient to public transportation (10 minutes to MIT, walking
+  distance to Harvard Sq.
+
+* modern, spacious, and well-maintained
+
+* available on February 1, rent is $750/mo (includes off-street parking
+  in private lot and heat)
+
+* air conditioner, dishwasher, garbage disposal, washer/dryers, AND NO BUGS!
+
+Please do not return e-mail to PJL -- I am posting this message for a friend.
+Call Alma at (617) 666-4898.
+^Z
+
+^_
+
+--MSGS-- 
+*MSG 2320:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  6 Jan 87 22:48:54 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/13/87 22:42:53
+Rosenberg@BCO-MULTICS.ARPA 01/06/87 22:42:53 Re:   Car for sale - 1974 Saab 99
+Received: from BCO-MULTICS.ARPA (TCP 1200600037) by MC.LCS.MIT.EDU  6 Jan 87 22!
+:39:17 EST
+Posted-Date:  6 Jan 87 22:34 EST
+Date:  Tue, 6 Jan 87 22:32 EST
+From:  "David M. Rosenberg" <Rosenberg@BCO-MULTICS.ARPA>
+Subject:  Car for sale - 1974 Saab 99
+To:  BBOARD@MC.LCS.MIT.EDU
+Message-ID:  <870107033237.480842@BCO-MULTICS.ARPA>
+
+
+1974 Saab 99, brown, 2 door, 4 cylinder engine, 4-speed manual
+transmission, 88K miles.  Reliable transportation, engine in good
+condition, runs well & starts easily.  Body has some dents and
+scratches, but very little rust.  Interior is somewhat torn.
+Maintenance records available.  $750.  (Car located in Norfolk, Mass.)
+Contact Rosenberg@BCO-MULTICS or call 1-528-7124.
+
+^_
+
+--MSGS-- 
+*MSG 2321:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  7 Jan 87 11:27:45 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/14/87 11:22:17
+mike@MEDIA-LAB.MEDIA.MIT.EDU 01/07/87 11:22:17 Re:  dr. bronner
+Received: from MEDIA-LAB.MIT.EDU (TCP 2225200002) by MC.LCS.MIT.EDU  7 Jan 87 1!
+1:21:46 EST
+Received: by MEDIA-LAB.MIT.EDU (5.51/4.8)  id AA08930; Wed, 7 Jan 87 11:20:14 E!
+ST
+Date: Wed, 7 Jan 87 11:20:14 EST
+From: Michael Hawley <mike@MEDIA-LAB.MEDIA.MIT.EDU>
+Message-Id: <8701071620.AA08930@MEDIA-LAB.MIT.EDU>
+To: bboard@MEDIA-LAB.MEDIA.MIT.EDU
+Subject: dr. bronner
+
+Help, I'm running out of Dr. Bronner's magic Castile soap.
+Anyone know where I can find it near MIT?
+Thanks,
+mike@media-lab
+
+^_
+
+--MSGS-- 
+*MSG 2322:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  7 Jan 87 16:22:35 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/14/87 16:17:04
+LKK@XX.LCS.MIT.EDU 01/07/87 16:17:04 Re:  SOUTH AFRICA IN AFRICA
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  7 Jan 87 16:11:59!
+ EST
+Date: Wed 7 Jan 87 16:14-EST
+From: Larry Kolodney <LKK@XX.LCS.MIT.EDU>
+Subject: SOUTH AFRICA IN AFRICA
+To: bboard@XX.LCS.MIT.EDU
+
+
+
+                    SOUTH AFRICA IN AFRICA
+                  A Historical Perspective on
+          Apartheid, Colonialism and Western Influences
+
+
+                         a talk by 
+
+                       William Minter
+
+
+                THURSDAY, Jan. 8, 7:00 PM
+                      MIT Room 4-159
+
+         Sponsored by the MIT Coalition Against Apartheid
+
+^_
+
+--MSGS-- 
+*MSG 2323:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  7 Jan 87 16:55:37 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/14/87 16:49:52
+ALR@XX.LCS.MIT.EDU 01/07/87 16:49:52 Re:  Talks by Liskov and Weihl
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  7 Jan 87 16:48:35!
+ EST
+Date: 7 Jan 1987 1650-EST
+From: ALR@XX.LCS.MIT.EDU
+Subject: Talks by Liskov and Weihl
+To: *bboard@MC.LCS.MIT.EDU
+
+
+There will be two talks on the LCS Common System:
+
+                        DATE:  FRIDAY, JANUARY 9, 1987
+
+                        PLACE:  NE43-512A
+
+
+                           Communication Semantics
+
+                               Prof. B. Liskov
+                           Refreshments at 10:45 am
+                               Talk at 11:00 am
+
+
+
+                        Data Types and Communication
+
+                               Prof. W. Weihl
+                          Refreshments at 1:30 pm
+                               Talk at 1:45 pm
+
+
+                                  Abstract
+
+Distributed computing environments such as the one at LCS exhibit a high
+degree of heterogeneity:  many different kinds of machines are connected
+by a network, with different machines potentially running different operating
+systems and programs written in different programming languages. These
+differences can make it difficult to share resources such as programs and data.
+The LCS Common System, currently being designed here at LCS, is intended to
+support program composition in a heterogeneous distributed environment,
+thus making it easier to share resources. The first talk will begin with
+an overview of the goals of the Common System and the basic approach being
+taken. It will then discuss the semantics of the communication primitives
+that have been designed for the Common System. The second talk will discuss
+the problems that arise because of differences in data types in different
+programming languages, and will describe the support provided by the
+Common System for solving these problems.
+
+-------
+
+^_
+
+--MSGS-- 
+*MSG 2324:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  8 Jan 87 11:22:27 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/14/87 21:14:14
+LS.SRB@DEEP-THOUGHT.MIT.EDU 01/07/87 21:14:14 Re:  Fencing Tournement
+Received: from DEEP-THOUGHT.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 7 JAN 87  2!
+1:04:02 EST
+Date: 7 Jan 1987  21:03 EST (Wed)
+Message-ID: <LS.SRB.12269148178.BABYL@MIT-EECS>
+Sender: LS.SRB@DEEP-THOUGHT.MIT.EDU
+From: "Stephen R. Balzac" <LS.SRB@DEEP-THOUGHT.MIT.EDU>
+To:   *bboard@MC.LCS.MIT.EDU, xmsgs@ATHENA.MIT.EDU
+Subject: Fencing Tournement
+
+                              Announcing
+                                 the
+                            Fourth Annual
+                  United States Fencing Association
+                           Collegiate Open
+
+
+When:  Saturday and Sunday, January 10th and 11th from 9am on.
+Where: Rockwell Cage
+Admission:  Free
+
+
+Schedule:  Saturday, men's sabre and women's foil.  
+           Sunday, men's foil and epee.
+
+Participating in this gala event are some 26 schools, including
+Brandeis, Brown, Calfornia State Univ. at Long Beach, Fairleigh
+Dickenson, Hahvahd, Haverford, Hunter, John's Hopkins, MIT, North
+Carolina State, Northwestern, Northeastern, Notre Dame, Ohio State,
+Penn. State, Rutgers, Temple, Tufts, Tulane, University of Illinois,
+UMASS Amherst, University of North Carolina, UPenn, Vassar, Wellesley,
+and Yale.  
+
+
+So come watch and cheer on the MIT team (besides, it looks real silly
+when the other schools import larger cheerin g sections than the home
+team).  
+
+
+This has been a generic announcement sponsered by the MIT fencing
+team.  
+
+^_
+
+--MSGS--
+*MSG 2325:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  8 Jan 87 13:38:14 !
+EST
+--More-- 
+DISTRIB:  *LIDS, *XV, *DSPG, *CIPG, *CMU, *EE, *CCC, *ATHENA, *MULTICS, *LCS-UV!
+AX, *COMET, *BORAX, *MLSITE, *OZ, *VX, *XX, *MD, *ML, *MX, *MC, *AI
+EXPIRES: 01/15/87 13:31:50
+ROSIE@XX.LCS.MIT.EDU 01/08/87 13:31:50 Re:  Shachter Seminar
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  8 Jan 87 12:04:28!
+ EST
+Date: Thu 8 Jan 87 12:06:28-EST
+From: Rosemary B. Hegg <ROSIE@XX.LCS.MIT.EDU>
+Subject: Shachter Seminar
+To: MIT@XX.LCS.MIT.EDU
+Message-ID: <12269312495.13.ROSIE@XX.LCS.MIT.EDU>
+
+                   SEMINAR SEMINAR SEMINAR
+
+               Date:  Tuesday, January 13, 1987
+                Time:  3.45 pm....Refreshments
+                       4.00pm....Lecture
+                    Place:  NE43-512A
+
+                      INFLUENCE DIAGRAMS:
+          GRAPHICAL REPRESENTATIONS FOR UNCERTAINTY
+
+                   Ross Shachter, Ph.D.
+
+         Department of Engineering-Economic Systems
+                   Stanford University
+                      Palo Alto, CA
+
+                   Visiting Professor
+                Center for Health Policy
+                    Duke University
+                       Durham, NC
+
+                       ABSTRACT
+
+The influence diagram is a network for structuring Bayesian decision
+analysis problems.  The nodes represent uncertain quantities, goals,
+and decisions,  and the arcs indicate probabilistic dependencies and
+the observability of information.  The graphical hierarchy promotes
+discussion by emphasizing the stucture of a problem and the
+relationship among variables, while allowing the details of assessment
+to be completed later.  Because the components have a basic mathematical
+interpretation, even a qualitative diagram has a precise meaning.
+When the quantitative information is complete, the influence diagram can be
+evaluated in a generalization of decision tree solving.  Examples using
+influence diagrams will be drawn from Decision Analysis, Information 
+Theory, Dynamic Programming, Kalman Filtering, and Expert Systems.
+In the latter case we ask the question: "Why do probabilists insist 
+on looking at everything backwards?"
+
+Host:  Prof. Ramesh Patil
+
+
+
+
+
+-------
+
+^_
+
+--MSGS-- 
+*MSG 2326:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  8 Jan 87 19:25:44 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/14/87 22:39:44
+straz@MEDIA-LAB.MEDIA.MIT.EDU 01/07/87 22:39:44 Re:  AI job opportunity in Sout!
+hern Connecticut
+Received: from MEDIA-LAB.MIT.EDU (TCP 2225200002) by MC.LCS.MIT.EDU  7 Jan 87 2!
+2:39:11 EST
+Received: by MEDIA-LAB.MIT.EDU (5.51/4.8)  id AA27014; Wed, 7 Jan 87 22:37:34 E!
+ST
+Date: Wed, 7 Jan 87 22:37:34 EST
+From: Steve Strassmann <straz@MEDIA-LAB.MEDIA.MIT.EDU>
+Message-Id: <8701080337.AA27014@MEDIA-LAB.MIT.EDU>
+To: bboard@mc.lcs.mit.edu
+Subject: AI job opportunity in Southern Connecticut
+
+"AI Job opportunity available immediately
+
+Who: 5 year-old publically held AI software engineering firm,
+     located in suburban Southern Connecticut
+Seeks: Qualified technical candidates in AI engineering, with graduate
+     degree(s)... must be familiar with semantic and syntactical methods
+     of AI analysis, among other areas.
+Salary: Flexible, depending on background
+
+Please do not reply to me, I have no connection with these people.
+Reply to: Albert G. Lee, Jr., (401) 434-7614
+          106 Greenwood Ave, Rumford, RI 02916
+
+^_
+
+--MSGS-- 
+*MSG 2327:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  8 Jan 87 22:57:14 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/15/87 22:50:40
+RLK%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU 01/08/87 22:50:40 Re:  Roommates wanted
+Received: from OZ.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 8 JAN 87  22:42:44!
+ EST
+Date: Thu, 8 Jan 1987  22:42 EST
+Message-ID: <GZT.RLK.12269428259.BABYL@MIT-OZ>
+Sender: GZT.RLK%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU
+From: "Robert L. Krawitz" <RLK%OZ.AI.MIT.EDU@XX.LCS.MIT.EDU>
+To:   *bboard@MC.LCS.MIT.EDU
+reply-to: rlk@athena.mit.edu
+Subject: Roommates wanted
+
+Two MIT undergrads (5th-year) seeking two roommates for East Cambridge
+apartment.  The apartment is 2.5 floors + basement of 3-story house at
+428 Cambridge Street (near 5th street).  Two rooms:  one small
+(~9x10), with adjacent attic for storage ($250), one large (~15x15?)
+($300).
+
+If you have lots of junk, this place is definitely for you, since
+there's lots of space with either room, plus we have the entire
+basement.  Full kitchen facilities; laudry when we get around to
+fixing the washer.
+
+Male or female welcome; we don't think we want pets; no smokers.
+Cooking arrangements completely independent (our schedules are chaotic
+at best).
+
+Approx. 15 minute walk to Tech^2 or east side of MIT through safe
+residential neighborhoods (you can walk home at 2AM in complete
+safety).  About 5 minutes from Star Market on foot.  Convenient to T
+(Lechemere) and buses to Harvard^2.
+
+Phone # 576-4715 evenings, say you're calling about the room.  You can
+try 3-4261 if you can't get anyone there (not unlikely), and ask for
+Robert Krawitz.
+
+Robert^Z
+
+^_
+
+--MSGS-- 
+*MSG 2328:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  8 Jan 87 23:39:58 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/15/87 23:33:27
+straz@MEDIA-LAB.MEDIA.MIT.EDU 01/08/87 23:33:27 Re:  MIT T-shirts: limited run !
+of "Visit Hell" and "dragon"
+Received: from MEDIA-LAB.MIT.EDU (TCP 2225200002) by MC.LCS.MIT.EDU  8 Jan 87 2!
+3:32:46 EST
+Received: by MEDIA-LAB.MIT.EDU (5.51/4.8)  id AA23502; Thu, 8 Jan 87 23:30:39 E!
+ST
+Date: Thu, 8 Jan 87 23:30:39 EST
+From: Steve Strassmann <straz@MEDIA-LAB.MEDIA.MIT.EDU>
+Message-Id: <8701090430.AA23502@MEDIA-LAB.MIT.EDU>
+To: bboard@mc.lcs.mit.edu
+Subject: MIT T-shirts: limited run of "Visit Hell" and "dragon"
+
+Alpha Phi Omega (APO) will be printing a limited run of two infamous
+MIT T-shirts: "Visit Hell" in stylish black, with your favorite
+institute going up in orange flames. The Dragon shirt has a dragon on
+it (surprise!).  Printing will be done toward the end of IAP, shirts
+will be about $6.  Reserve yours by calling Meg Morgan at the APO
+office (W20-415), 253-3788.
+
+^_
+
+--MSGS-- 
+*MSG 2329:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  9 Jan 87 04:56:50 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/16/87 04:50:47
+tucker@ZARATHUSTRA.THINK.COM 01/09/87 04:50:47 Re:  job opening in vision
+Received: from OZ.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 9 JAN 87  04:30:08!
+ EST
+Received: from REAGAN.AI.MIT.EDU by OZ.AI.MIT.EDU via Chaosnet; 9 Jan 87 04:28-!
+EST
+Received: from zarathustra.think.com (ZARATHUSTRA.THINK.COM) by REAGAN.AI.MIT.E!
+DU via INTERNET with SMTP id 17542; 9 Jan 87 04:26:23 EST
+Received: from Godot.Think.COM by zarathustra.think.com; Thu, 8 Jan 87 16:49:52!
+ EST
+Received: by Godot.Think.COM; Thu, 8 Jan 87 16:47:43 EST
+From: tucker@think.com (Lewis Tucker)
+Message-Id: <8701082147.AA08292@Godot.Think.COM>
+To: vision@oz.ai.mit.edu
+Cc: bboard@oz.ai.mit.edu
+Subject: job opening in vision
+Date: Thu, 08 Jan 87 16:47:39 EST
+
+Thinking Machines Corp. is interested in talking to potential
+applicants interested in computer vision applications for the
+Connection Machine.
+
+Experience required: Symbolics Lisp environment, knowledge
+of issues and concerns in machine vision.
+
+Part-time positions for students also considered.
+
+Interested parties please send mail (or call):
+                        Lewis W. Tucker
+                        Thinking Machines Corporation
+                        245 First Street
+                        Cambridge, MA 02142
+                        (617-876-1111)
+
+e-mail:  tucker@think.com
+
+^_
+
+--MSGS-- 
+*MSG 2330:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  9 Jan 87 11:51:59 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/16/87 11:46:28
+Tricia_Axsom@XV.MIT.EDU 01/09/87 11:46:28 Re:  Group Chess
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  9 Jan 87 11:45:21!
+ EST
+Received: from XV.MIT.EDU by XX.LCS.MIT.EDU with TCP; Fri 9 Jan 87 11:44:40-EST
+Received: from MITMS1-E52: by XV.MIT.EDU; 9 Jan 87 11:14:52 EST
+Message-id: <567176446.240763563@XV.MIT.EDU>
+In-Reply-to: 
+To: BBoard@xx.LCS.MIT.EDU
+cc: lens-developers@XV.MIT.EDU
+From: Tricia_Axsom@XV.MIT.EDU
+Subject: Group Chess
+Date: 9 Jan 87 11:47
+
+GROUP CHESS
+
+Monday, January 12th at 3 p.m. 
+E51-136.  
+
+In ordinary chess, one person on each side decides which move to make.  In grou!
+p
+chess, several people on each side work as a team to decide on a move.  The
+performance of a team depends not only on the chess abilities of individual mem!
+bers,
+but also on how well they organize themselves.
+
+We are interested in the issue of coordinating independent thinkers, as must be!
+ done
+in groups and organizations, and in distributed computer processors.  How do gr!
+oups
+work out coordination problems in complex tasks, and when is group performance
+better than, equal to, or worse than the level of the best group player?
+
+We will play group chess, and explore alternative ways of organizing teams, pos!
+sibly
+including computer-supported communications.
+
+Sponsors:
+
+John Carroll, Associate Professor of Organizational Studies, E52-590, 3-2617
+Thomas Malone, Associate Professor of Information Systems, E53-333, 3-6843  
+
+
+
+^_
+
+--MSGS-- 
+*MSG 2331:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  9 Jan 87 12:08:50 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/16/87 12:02:32
+Tricia_Axsom@XV.MIT.EDU 01/09/87 12:02:32 Re:  Group Chess
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  9 Jan 87 12:01:59!
+ EST
+Received: from XV.MIT.EDU by XX.LCS.MIT.EDU with TCP; Fri 9 Jan 87 11:59:48-EST
+Received: from MITMS1-E52: by XV.MIT.EDU; 9 Jan 87 11:30:08 EST
+Message-id: <567177365.241682355@XV.MIT.EDU>
+In-Reply-to: 
+To: BBoard@xx.LCS.MIT.EDU
+cc: lens-developers@XV.MIT.EDU
+From: Tricia_Axsom@XV.MIT.EDU
+Subject: Group Chess
+Date: 9 Jan 87 11:56
+
+GROUP CHESS
+
+Monday, January 12th at 3 p.m. 
+E51-136.  
+
+In ordinary chess, one person on each side decides which move to make.  In grou!
+p
+chess, several people on each side work as a team to decide on a move.  The
+performance of a team depends not only on the chess abilities of individual mem!
+bers,
+but also on how well they organize themselves.
+
+We are interested in the issue of coordinating independent thinkers, as must be!
+ done
+in groups and organizations, and in distributed computer processors.  How do gr!
+oups
+work out coordination problems in complex tasks, and when is group performance
+better than, equal to, or worse than the level of the best group player?
+
+We will play group chess, and explore alternative ways of organizing teams, pos!
+sibly
+including computer-supported communications.
+
+Sponsors:
+
+John Carroll, Associate Professor of Organizational Studies, E52-590, 3-2617
+Thomas Malone, Associate Professor of Information Systems, E53-333, 3-6843  
+
+
+
+^_
+
+--MSGS-- 
+*MSG 2332:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  9 Jan 87 13:54:12 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/16/87 13:48:09
+ET@DEEP-THOUGHT.MIT.EDU 01/09/87 13:48:09 Re:  Bicycle for sale
+Received: from OZ.AI.MIT.EDU by MC.LCS.MIT.EDU via Chaosnet; 9 JAN 87  13:47:04!
+ EST
+Received: from DEEP-THOUGHT.MIT.EDU by OZ.AI.MIT.EDU via Chaosnet; 9 Jan 87 13:!
+46-EST
+Date: Fri 9 Jan 87 13:47:28-EST
+From: Vic Christensen <ET@DEEP-THOUGHT.MIT.EDU>
+Subject: Bicycle for sale
+To: bboard@OZ.AI.MIT.EDU
+Message-ID: <12269593025.23.ET@DEEP-THOUGHT.MIT.EDU>
+
+
+     I have a Schwinn Varsity to sell by the end of the month...it had a
+complete overhall done on it only a year ago and recently had both tires
+replaced...it's in good shape.
+
+     Price: $75 or best offer
+
+Leave a message at 494-8596 or send a message to this account, ET@EE...or
+both.
+
+
+Vic Christensen
+-------
+
+^_
+
+--MSGS-- 
+*MSG 2333:
+Received: from MC.LCS.MIT.EDU (CHAOS 3131) by AI.AI.MIT.EDU  9 Jan 87 15:47:25 !
+EST
+--More-- 
+DISTRIB:  *BBOARD
+EXPIRES: 01/16/87 15:41:12
+NFT@XX.LCS.MIT.EDU 01/09/87 15:41:12 Re:  Robert Chang
+Received: from XX.LCS.MIT.EDU (CHAOS 2420) by MC.LCS.MIT.EDU  9 Jan 87 15:41:04!
+ EST
+Date: Fri 9 Jan 87 15:40:41-EST
+From: Natalie F. Tarbet <NFT@XX.LCS.MIT.EDU>
+Subject: Robert Chang
+To: BBOard@XX.LCS.MIT.EDU
+Message-ID: <12269613635.27.NFT@XX.LCS.MIT.EDU>
+
+I am looking for a student named Robert T. Chang.  I have his wallet and
+judging from its contents, I would assume that he needs it badly.  Would
+appreciate it if anyone knowing him would give him this message. Thanks.
+
+                                     --Natalie Tarbet
+-------
+
+^_
+
+--MSGS--qPostponed
+*
+
+?U? :finger
+-User-    --Full name--          Jobnam Idle TTY -Console location-
+RDZ       Ramin Zabih            HACTRN 3:59.T15 Net site 36.8.0.129
+MK     T  Markku I. Kurki        FINGER      T16 Net site USC-OBERON
+
+*
